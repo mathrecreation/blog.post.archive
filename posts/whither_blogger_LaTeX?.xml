@@ -1,0 +1,41 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-513655328550232677</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>whither blogger LaTeX?</title>
+    <content type='html'>If you have a Blogger blog, you may be using some&amp;nbsp;&lt;a href="http://www.latex-project.org/"&gt;$\LaTeX$&lt;/a&gt; renderer to make your math look nice. A couple of days ago, the one I was using (from &lt;a href="http://www.watchmath.com/"&gt;www.watchmath.com&lt;/a&gt;) stopped working (hopefully it will be up again by now, or soon...).&lt;br /&gt;
+&lt;br /&gt;
+My limited research has shown me that most Blogger use of $\LaTeX$ relies on a small piece of javascript embedded somewhere on the page that calls a larger piece of javascript (possibly located on another server) that in turn invokes some other hosted program that actually does the rendering (possibly located on yet another server): lots of potential points of failure. Another unfortunate aspect of this method is that it doesn't allow the rendered math to show up in readers - you have to look at the page itself to have the script run.&lt;br /&gt;
+&lt;br /&gt;
+If you have lost your math rendering you can learn a little about these things by reading the &lt;a href="http://mathcache.appspot.com/static/docs.html"&gt;replacemath.js&lt;/a&gt; docs and the &lt;a href="http://www.forkosh.dreamhost.com/source_mathtex.html"&gt;mathtex &lt;/a&gt;docs.&lt;br /&gt;
+&lt;br /&gt;
+For now, I am using the following bit of script to render the math:&lt;br /&gt;
+&lt;br /&gt;
+&lt;code&gt;&lt;br /&gt;
+&amp;lt;script src="http://mathcache.s3.amazonaws.com/replacemath.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt; &lt;br /&gt;
+&amp;lt;script type="text/javascript"&amp;gt;&lt;br /&gt;
+replaceMath( document.body );&amp;nbsp;&lt;br /&gt;
+&amp;lt;/script&amp;gt;&lt;br /&gt;
+&lt;/code&gt;&lt;br /&gt;
+&lt;br /&gt;
+Place this somewhere on your page, and it will invoke the replaceMath function that is defined in 'replacemath.js' - see the documentation about this at the link mentioned above.&lt;br /&gt;
+&lt;br /&gt;
+Although the rendering isn't doing quite as nice a job as the watchmath version did, it's not too bad. I'll look for something better when I have the time...&lt;br /&gt;
+&lt;br /&gt;
+PS: &lt;a href="http://sixthform.info/steve/wordpress/?p=59"&gt;This blog post&lt;/a&gt; provides a good overview of the LaTeX rendering options that are out there.</content>
+    <blogger:metaDescription/>
+    <blogger:created>2009-10-19T00:25:12.900Z</blogger:created>
+    <published>2009-10-19T13:28:00Z</published>
+    <updated>2011-09-11T02:01:20.790Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='resources'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <blogger:filename>/2009/10/whither-blogger-latex.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

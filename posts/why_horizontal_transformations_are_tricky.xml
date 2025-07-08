@@ -1,0 +1,98 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-3951682363571196129</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>why horizontal transformations are tricky</title>
+    <content type='html'>Both the Common Core and Ontario curricula ask students to look at families of functions that are connected to each other through simple transformations, and to build new functions from existing functions.&lt;br /&gt;
+&lt;br /&gt;
+In Ontario as with the Common Core, students get an understanding of function families "by playing around with the effect on the graph of simple algebraic transformations of the input and output variables." In the Ontario curriculum (MCR3U), students spend a significant amount of time graphing complicated examples from a function family by relating them to transformed graphs of a simple base function.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgD9XK8z0i0cns0DM16jrUU2YMzBcCLW1o_Qf5r3N6zE8ZSBX70Ut1VxpODj3P31BdHsrtc0A8tGu2vINbM-kfJkdSGGfOQvzDSh3fYH94hocvgKTsWqG3JVtig5j4iFAz2-Ukz9RM4Ws8/s1600/transformed.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="474" data-original-width="476" height="318" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgD9XK8z0i0cns0DM16jrUU2YMzBcCLW1o_Qf5r3N6zE8ZSBX70Ut1VxpODj3P31BdHsrtc0A8tGu2vINbM-kfJkdSGGfOQvzDSh3fYH94hocvgKTsWqG3JVtig5j4iFAz2-Ukz9RM4Ws8/s320/transformed.png" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;The base quadratic (purple) and a transformed&lt;br /&gt;member of the quadratic family.&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+When working on these these ideas with students, I've had to ask myself a few questions.&lt;br /&gt;
+&lt;br /&gt;
+&lt;ol&gt;
+&lt;li&gt;What is a valid 'transformation' of the graph of a function, and how are these related to more familiar transformations of the plane?&lt;/li&gt;
+&lt;li&gt;How are the transformations connected to the function definition?&lt;/li&gt;
+&lt;li&gt;Why are horizontal transformations tricky? As noted in the Common Core &lt;a href="http://commoncoretools.me/wp-content/uploads/2013/07/ccss_progression_functions_2013_07_02.pdf"&gt;progression document&lt;/a&gt;, "students may find the effect of adding a constant to the input variable to be counterintuitive, because the effect on the graph appears to be the opposite to the transformation on the variable."&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br /&gt;
+&lt;b&gt;Short Answers&lt;/b&gt;&lt;br /&gt;
+&lt;b&gt;&lt;br /&gt;&lt;/b&gt;
+Here are some short answers to those questions.&lt;br /&gt;
+&lt;br /&gt;
+&lt;ol&gt;
+&lt;li&gt;The 'transformations' we want to restrict ourselves to are ones that preserve the main characteristics of the graph, these are a reduced set of the &lt;a href="https://en.wikipedia.org/wiki/Affine_transformation"&gt;affine transformations&lt;/a&gt; of the plane: &lt;b&gt;translation&lt;/b&gt;, &lt;b&gt;scaling&lt;/b&gt;, and &lt;b&gt;reflection&lt;/b&gt;. The transformations we want to consider do not include rotation, projection, or shearing. The simple transformations that are included are ones where the &lt;i&gt;x&lt;/i&gt; and &lt;i&gt;y&lt;/i&gt; coordinates do not 'interact' with each other (the original &lt;i&gt;x&lt;/i&gt; value has no impact on the transformed &lt;i&gt;y&lt;/i&gt; value, and the original &lt;i&gt;y&lt;/i&gt; value has no impact on the transformed &lt;i&gt;x&lt;/i&gt; value).&lt;/li&gt;
+&lt;li&gt;It turns out that the transformations of the graph we want (simple affine transformations with no rotation or shearing) are obtained by pre-composition and post-composition of the parent function with single variable linear functions.&lt;/li&gt;
+&lt;li&gt;Horizontal transformations are tricky because they are the result of pre-composition with the inverse of the linear function responsible for the horizontal component of the transformation. When we look at the complicated function and "read off" the transformations, it is akin to looking at linear function and reading off its inverse.&amp;nbsp;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br /&gt;
+&lt;b&gt;Long Answer, with matrices&amp;nbsp;and diagrams!&lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+We often represent transformations of the plane using matrices. In this case, we would represent dilations, translations, or reflections like this:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCh9j_crolrIv6II3pTz-dtwIBLFfwYsK2yLDgDcaoTCIiwZFEYVPyZX8cEij5KSPwFa5ccHBkrXsGR3ymTTpsKsa2gZemLulDJxNSR6KRInbYkKwi3pMfyjan6v1-TCs_5r_eRxb3ncs/s1600/so_fine.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="179" data-original-width="409" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCh9j_crolrIv6II3pTz-dtwIBLFfwYsK2yLDgDcaoTCIiwZFEYVPyZX8cEij5KSPwFa5ccHBkrXsGR3ymTTpsKsa2gZemLulDJxNSR6KRInbYkKwi3pMfyjan6v1-TCs_5r_eRxb3ncs/s1600/so_fine.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+There is no interaction between the &lt;i&gt;x&lt;/i&gt; and &lt;i&gt;y&lt;/i&gt; coordinates - no rotation or shearing. This results in a diagonal matrix, and allows us to represent the transformation as a pair of single variable linear functions.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlzTMAe9IJqc9RNbaaM6A9qeeQHNQqU1VkSrJeXXyXglsfRgbodWM6gZYwCz3_Ron8UIjH7sD5YZPGWZP2lXDXSeZGBiTWcQxBZdT22rKVy0-3qjmjyjfVqCvi_jt1yRURGXAijaDuo-8/s1600/split_affine.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="167" data-original-width="298" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlzTMAe9IJqc9RNbaaM6A9qeeQHNQqU1VkSrJeXXyXglsfRgbodWM6gZYwCz3_Ron8UIjH7sD5YZPGWZP2lXDXSeZGBiTWcQxBZdT22rKVy0-3qjmjyjfVqCvi_jt1yRURGXAijaDuo-8/s1600/split_affine.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+If a function &lt;i&gt;g&lt;/i&gt; is thought of as the result of this transformation applied to the points of the function &lt;i&gt;f&lt;/i&gt;, then the diagram below commutes.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRzBh_sOlkaZUCUnF3z5MpPiD_6Hzns2JuvrJHdkJD6iXyPnNUVTCfB4x18yTi8jz45lnIUCFMgtk6HbAOrkQHoTB3nS_D-Wi1GJ001m-14NrcHViGh8Qgk8CzxVqtiwKJXUnjWdMksgk/s1600/commute.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="188" data-original-width="269" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRzBh_sOlkaZUCUnF3z5MpPiD_6Hzns2JuvrJHdkJD6iXyPnNUVTCfB4x18yTi8jz45lnIUCFMgtk6HbAOrkQHoTB3nS_D-Wi1GJ001m-14NrcHViGh8Qgk8CzxVqtiwKJXUnjWdMksgk/s1600/commute.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+But in order to write &lt;i&gt;g &lt;/i&gt;in terms of the transformation and &lt;i&gt;f&lt;/i&gt;, we need to invert the part of the transformation that is operating on the &lt;i&gt;x&lt;/i&gt; values.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiK_Bw9A_xDzngs2JurNHmUpyIg1xTK8xbt9rxvBlTm_ru5hj14gTPHacYwhhCWm3PT8ojlbypnPDZnQ6MLSTt6DbIqVJpnc_igWgfZs-PEvDkQqIJHmkWakeEbmlwnvlbqOBA0o5dupgY/s1600/inverse_communte.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="208" data-original-width="275" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiK_Bw9A_xDzngs2JurNHmUpyIg1xTK8xbt9rxvBlTm_ru5hj14gTPHacYwhhCWm3PT8ojlbypnPDZnQ6MLSTt6DbIqVJpnc_igWgfZs-PEvDkQqIJHmkWakeEbmlwnvlbqOBA0o5dupgY/s1600/inverse_communte.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+And we can write &lt;i&gt;g&lt;/i&gt; as:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhweV55fHfyJBC4x_iWDv1RfzT7ylRXD98vVZpSQlHqzra_jqHX-BtJO4238WhzRp0DA4aiS0CPniWUKQFuFuZN-WAB5-Alo1c2hXYEJMPewc7wjEpQM9IPHxBGtzq-FUCQfMaRUHhs5Rk/s1600/composition.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="64" data-original-width="227" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhweV55fHfyJBC4x_iWDv1RfzT7ylRXD98vVZpSQlHqzra_jqHX-BtJO4238WhzRp0DA4aiS0CPniWUKQFuFuZN-WAB5-Alo1c2hXYEJMPewc7wjEpQM9IPHxBGtzq-FUCQfMaRUHhs5Rk/s1600/composition.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Spelling this out with our formulas for the components of the transformation, we can see the messiness that results from composing with the inverse of our original transformation.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFQJsgO0OEFwiwqWUHjT_AC0gERN9cXQ_ORhaYvNBSXitv2Zy39qwoC2nbCFLJ8LtOzQQY95IJN4F2S5rf8GxSgtbox_jtAfvcCCLMWqRKe9_EU30q-l-bhb2K7-piDXsYVuSVnvF20gU/s1600/inverse.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="161" data-original-width="311" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFQJsgO0OEFwiwqWUHjT_AC0gERN9cXQ_ORhaYvNBSXitv2Zy39qwoC2nbCFLJ8LtOzQQY95IJN4F2S5rf8GxSgtbox_jtAfvcCCLMWqRKe9_EU30q-l-bhb2K7-piDXsYVuSVnvF20gU/s1600/inverse.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;b&gt;What to take away&lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+It helps me to think along these lines, but is there anything here that may help when working on transformed graphs of functions with high school students?&lt;br /&gt;
+&lt;br /&gt;
+I find that in presenting 'transformations of graphs' to students, we generally don't relate it back to&amp;nbsp; the transformations they learned about in elementary school, where they explored translations, reflections, dilations, ans rotations. It might be good to make stronger connections with that prior learning, noting that when transforming graphs within a function family, we only use dilation, reflection, and translation.&lt;br /&gt;
+&lt;br /&gt;
+Function composition is a unifying and clarifying concept. Maybe it makes sense to talk about sooner than is generally done. It is surprising that in grade 11 we talk about inverse functions without exploring function composition. If you are willing to use function composition, you can use arrow diagrams to explore function transformations using a method &lt;a href="https://www.mathrecreation.com/2016/10/understanding-transformed-functions.html"&gt;like the one described here&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+Looking more at inverses of linear functions may help provide a way to explain the strange backwardness of the horizontal transformations, even if the connection is not formally demonstrated.&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;References&lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+The Common Core Standards Writing Team. (2013). Progressions for the Common Core State Standards in Mathematics (draft). Retrieved from&amp;nbsp;&lt;a href="http://commoncoretools.me/wp-content/uploads/2013/07/ccss_progression_functions_2013_07_02.pdf"&gt;http://commoncoretools.me/wp-content/uploads/2013/07/ccss_progression_functions_2013_07_02.pdf&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+Ontario Ministry of Education. (2007). &lt;i&gt;The Ontario Curriculum
+Grades 11 and 12, Mathematics, Revised&lt;/i&gt;. Retrieved from &lt;a href="http://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf"&gt;http://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;Related Post: &lt;a href="https://www.mathrecreation.com/2016/10/understanding-transformed-functions.html"&gt;understanding transformed functions with arrows&lt;/a&gt;&lt;/i&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2019-04-18T00:07:40.321Z</blogger:created>
+    <published>2019-04-18T03:46:00Z</published>
+    <updated>2019-04-18T13:33:56.246Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2019/04/why-horizontal-transformations-are.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  
