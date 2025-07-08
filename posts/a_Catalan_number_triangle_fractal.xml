@@ -1,0 +1,42 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-3469250812516324792</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>a Catalan number triangle fractal</title>
+    <content type='html'>&lt;div style="text-align: center;"&gt;1, 1, 2, 5, 14, 42, 132, 429, 1430, 4862, 16796, 58786, 208012, 742900, 2674440, 9694845...&lt;br /&gt;
+&lt;/div&gt;&lt;div style="text-align: center;"&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; the Catalan Numbers,&amp;nbsp;&lt;a href="http://www.research.att.com/~njas/sequences/A000108"&gt;OEIS: A000108&lt;/a&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;br /&gt;
+&lt;a href="http://mathworld.wolfram.com/CatalanNumber.html"&gt;Catalan numbers&lt;/a&gt; occur in a surprising number of counting scenarios, such as counting the ways convex&amp;nbsp;polygons&amp;nbsp;can be cut into triangles, or counting how many ways you can write down a &amp;nbsp;legal list of brackets (a legal list of brackets is something like this: {{}{}}). In &lt;a href="http://books.google.com/books?id=0--3rcO7dMYC"&gt;The Book of Numbers&lt;/a&gt;, Conway and Guy present at least eight different scenarios that the Catalans count, and &lt;a href="http://math.mit.edu/~rstan/"&gt;Richard Stanley&lt;/a&gt; has listed 173 combinatorial interpretations for them (see the &lt;a href="http://math.mit.edu/~rstan/ec/catalan.pdf"&gt;chapter&lt;/a&gt; and &lt;a href="http://math.mit.edu/~rstan/ec/catadd.pdf"&gt;addendum &lt;/a&gt;on his&lt;a href="http://math.mit.edu/~rstan/ec/"&gt;&amp;nbsp;Enumerative&amp;nbsp;Combinatorics website&lt;/a&gt;). What unites these seemingly different scenarios is their recursive character (polygons contain smaller polygons, and lists of brackets contain smaller lists).&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimAagE3LqKI5yj5N_ximTSluC_ia98-nH_g927WVgU0saQIJESV8R7iO8gOw4lm3JW5DdbNwj-0KDXx9bd-bxKTfS7x6OfVrG-7YW-jt-dmvWPAFaJoIno3BAAsknRwsVAJKJP6JgNaYqN/s1600-h/catalan_pascal.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimAagE3LqKI5yj5N_ximTSluC_ia98-nH_g927WVgU0saQIJESV8R7iO8gOw4lm3JW5DdbNwj-0KDXx9bd-bxKTfS7x6OfVrG-7YW-jt-dmvWPAFaJoIno3BAAsknRwsVAJKJP6JgNaYqN/s320/catalan_pascal.jpg" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;br /&gt;
+The Catalan numbers can be found in Pascal's Triangle &amp;nbsp;in a few ways. If you take each 'middle' element and subtract its adjacent entry, you get a Catalan number. Also, if you take a middle element and divide it by its position in the list of middle terms (e.g. divide the 5th middle term by 5), you will get a Catalan number. But Catalans have their very own number triangle too.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzEoow_JO9t3Dg_y_5Cf8R10TbuyJMhaT2iNK0v5StDVijj2IuHP7wHS1CVIhumY270_eC1a1MEbl8d_yrlZNLX7fsjhrvj6iM51-AYJTtJoWLcbeFusklxgr78l1stPSmBH2f899W4JcB/s1600-h/catalan_triangle_image.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzEoow_JO9t3Dg_y_5Cf8R10TbuyJMhaT2iNK0v5StDVijj2IuHP7wHS1CVIhumY270_eC1a1MEbl8d_yrlZNLX7fsjhrvj6iM51-AYJTtJoWLcbeFusklxgr78l1stPSmBH2f899W4JcB/s320/catalan_triangle_image.png" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;br /&gt;
+Starting, as with Pascal's Triangle, with a 1, the &lt;a href="http://mathworld.wolfram.com/CatalansTriangle.html"&gt;Catalan Triangle&lt;/a&gt; is generated using the rule that each element is equal to the one above (in this picture, above on the right slanting diagonal) plus the one to its left (where 'missing' numbers are zero). &amp;nbsp;The Catalan numbers show up both as row sums and as the last entry in each row.&lt;br /&gt;
+&lt;br /&gt;
+The rule for creating the Catalan Triangle sounds like a 'slanted' version of the generating rule for the Pascal Triangle (where to produce a number you take the sum of the two above its position), and if you look at the fractal that is created by looking at the Catalan Triangle's values mod 2 (so that even numbers are replaced with 0 and odd numbers are replaced with 1), you get a slanted version of the &lt;a href="http://en.wikipedia.org/wiki/Sierpinski_triangle"&gt;Sierpinski&lt;/a&gt; fractal that you get from &lt;a href="http://mathrecreation.blogspot.com/2009/03/pascals-triangle-in-tinkerplots.html"&gt;doing the same with Pascal's Triangle&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEir-XTo9aXO6QjSSKSkjRuNeS7IQqXujgAGwoUnx43ZuGOmSxnGMLGS-DqvbQ8DccS6wjJLI0VUXf1feZY7lTgenFBfKYtEUJOgVaFGlL5PDdTNq2fwGasaSuhKTqaUZQ18ZhNbaxMvzjpp/s1600-h/catalan_fractal2.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEir-XTo9aXO6QjSSKSkjRuNeS7IQqXujgAGwoUnx43ZuGOmSxnGMLGS-DqvbQ8DccS6wjJLI0VUXf1feZY7lTgenFBfKYtEUJOgVaFGlL5PDdTNq2fwGasaSuhKTqaUZQ18ZhNbaxMvzjpp/s320/catalan_fractal2.jpg" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;br /&gt;
+The fractals that sometimes arise from looking at modular values in a number triangle provide a visual clue to the divisibility properties of the numbers in the triangle, and also illustrate some aspects of the generating rule that is used to create the triangle. The Catalan fractal above was made with &lt;a href="http://sites.google.com/site/mathrecreation/Home/catalan_triangle.tp"&gt;this Tinkerplots file&lt;/a&gt; using &lt;a href="http://sites.google.com/site/mathrecreation/Home/catalan_triangle.txt"&gt;this data&lt;/a&gt;. The Pascal Traiangle was drawn with Tinkerplots using &lt;a href="http://sites.google.com/site/mathrecreation/Home/pascal_triangle_v3.tp"&gt;this file&lt;/a&gt; as described &lt;a href="http://mathrecreation.blogspot.com/2009/03/pascals-triangle-in-tinkerplots.html"&gt;here&lt;/a&gt;.</content>
+    <blogger:metaDescription/>
+    <blogger:created>2009-12-15T13:45:22.896Z</blogger:created>
+    <published>2009-12-15T13:49:00Z</published>
+    <updated>2011-09-11T02:01:20.751Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='numbers'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='pascal triangle'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='TinkerPlots'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='fractals'/>
+    <blogger:filename>/2009/12/catalan-number-triangle-fractal.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

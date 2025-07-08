@@ -1,0 +1,62 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-5259321512983823275</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>a universe of puzzles</title>
+    <content type='html'>In &lt;b&gt;The Puzzle Universe: A History of Mathematics in 315 Puzzles &lt;/b&gt;(TPU), &lt;a href="http://yoz.com/wired/2.09/features/moscovich.html"&gt;Ivan Moscovich&lt;/a&gt; stretches the concept of puzzles to encompass almost anything that combines curiosity and playfulness (&lt;i&gt;playthinks&lt;/i&gt; is his preferred term for this more general category of puzzling items). No surprise - these playful curiosities are inherently mathematical. In an informal and accessible way, Moscovich details the development of these puzzles, revealing their surprising family resemblances and the deep mathematics behind their playful exterior.&lt;br /&gt;
+&lt;br /&gt;
+An example of a playthink that might not at first inspection resemble a puzzle in the usual sense is the &lt;i&gt;spirolateral &lt;/i&gt;(TPU puzzle 270). Drawn following basic rules, a family of interesting geometric objects emerges. The rule for drawing the third&amp;nbsp;spirolateral&amp;nbsp;is to draw a line 1 unit long, turn 90 degrees, draw a line 2 units long, turn 90&amp;nbsp;degrees, draw a line 3 units long, turn 90 degrees, and repeat. The general rule is to draw lines starting at 1 unit long and going up to &lt;i&gt;n&lt;/i&gt; units long, turning 90 degrees between each line, and then repeating the process from 1 again. A natural thing to try in &lt;a href="http://www.mathrecreation.com/2014/10/gsp-and-logo-for-mitx-11132x.html"&gt;LOGO&lt;/a&gt;,&amp;nbsp;the first few are shown below.&lt;br /&gt;&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxhJAn9kNHRxZQ8GvRE82ARUNGcvkfJiK8kGSg5rFCd-hcGtBGUjye_oSDO5lL-X1oQKhsprnDgwDWlAgX1QRXj89sL-ryVSxB-vW4LguAZqo0qQVy8B6Ef8royhzFfrgfoiqxo4ytVtI/s1600/spirolaterals.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxhJAn9kNHRxZQ8GvRE82ARUNGcvkfJiK8kGSg5rFCd-hcGtBGUjye_oSDO5lL-X1oQKhsprnDgwDWlAgX1QRXj89sL-ryVSxB-vW4LguAZqo0qQVy8B6Ef8royhzFfrgfoiqxo4ytVtI/s320/spirolaterals.JPG" width="247" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;i&gt;the first few spirolaterals&lt;/i&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+The puzzle-prompt is "what do the next two look like?" A natural question follows... what do they &lt;i&gt;all &lt;/i&gt;look like? In answering the first question, you are following rules, in answering the second, you are using mathematical thinking.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3l2icUJuDdppOc5FN4TsYOBd9xOPo_pm_di4cw2uCeYcRUpmZR1TIZbPeo4XCgY_cxSw93W0P_ssW2HQI2yxTQ9GO_aNmawYCXv_4JBOhFuwWGIpmZf1nu6BKsFo4Uo-nN67oBlYJ0No/s1600/spirolateral_n31.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="300" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3l2icUJuDdppOc5FN4TsYOBd9xOPo_pm_di4cw2uCeYcRUpmZR1TIZbPeo4XCgY_cxSw93W0P_ssW2HQI2yxTQ9GO_aNmawYCXv_4JBOhFuwWGIpmZf1nu6BKsFo4Uo-nN67oBlYJ0No/s320/spirolateral_n31.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;a later spirolateral&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+TPU also demonstrates how to to read almost any mathematical object as a puzzle, which opens up pathways of inquiry of surprising richness. In Moscovich's treatment, a decorative pattern (see &lt;a href="http://www.mathrecreation.com/2015/09/decorative-fusings-of-dodecagon.html"&gt;here&lt;/a&gt;&amp;nbsp;and &lt;a href="http://www.mathrecreation.com/2015/09/two-star-patterns.html"&gt;here&lt;/a&gt;) can become a puzzle (as in TPU puzzle 83) simply by asking questions like, "how many separate loops make up the image below?"&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCHIhd4e7pZ7spFSyonQqVdkw33xXSTY4rPHlSPuyT28EvKIYO3USLxeXbm-1ACLeUbxyG9rYb5RaQWZfDNzN47wIJ13iPqkLI4nxKmXOynojmikJS4a2WjzmJtqvOV9u5X-gtB0TzIIo/s1600/isl_hankin1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="318" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCHIhd4e7pZ7spFSyonQqVdkw33xXSTY4rPHlSPuyT28EvKIYO3USLxeXbm-1ACLeUbxyG9rYb5RaQWZfDNzN47wIJ13iPqkLI4nxKmXOynojmikJS4a2WjzmJtqvOV9u5X-gtB0TzIIo/s320/isl_hankin1.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;i&gt;a decorative pattern&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+One of the pleasures of "recreational mathematics" is all the little discoveries you make about the simple patterns and relationships you are exploring. Reading TPU, you may find out that your recent breakthrough has been well known for a long time, was the basis for a 19th century children's game, or was proved by Gauss when he was ten. Finding out that the puzzles you've been playing with (and your inventive solutions) have a long history is a nice reminder that while you may be working on puzzles alone, you're not alone in working on puzzles. A while back, I was playing with &lt;a href="http://www.mathrecreation.com/2011/09/punctured-knights-tours.html"&gt;punctured chessboards and knight tours&lt;/a&gt; - from TPU puzzle 100 I learned that an Italian mathematician devised a knight puzzle on a 3x3 punctured board in 1512.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlz5M2Ex2NW0Q11t3wNG_JI3d-tpR5dfdcF960cqX_BwXwe9LoxDTaExxdJlgRSrmvXBrqe1CaETFcxHVwsiZSZgF7pKU3H67qa7saWfSpF7WD9foo9NOGE9GX5j9qrF-SHYwyOQBbF_k/s1600/3x3_path_star.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="150" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlz5M2Ex2NW0Q11t3wNG_JI3d-tpR5dfdcF960cqX_BwXwe9LoxDTaExxdJlgRSrmvXBrqe1CaETFcxHVwsiZSZgF7pKU3H67qa7saWfSpF7WD9foo9NOGE9GX5j9qrF-SHYwyOQBbF_k/s320/3x3_path_star.jpg" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;a knight walks around a small punctured board&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+There are many familiar items in TPU: &lt;a href="http://www.mathrecreation.com/search/label/pascal%20triangle"&gt;Pascal's triangle&lt;/a&gt; (TPU 119), the river crossing problem (TPU 73), &lt;a href="http://www.mathrecreation.com/2012/05/liar-truther-accusation-graphs.html"&gt;liars and truthers&lt;/a&gt; (TPU 306, 307, 308), &lt;a href="http://www.mathrecreation.com/2009/03/monty-hall-and-three-prisoners.html"&gt;the Monty Hall problem&lt;/a&gt; (TPU 293),... I could go on. Something familiar, and something new can be found every few pages. Even for many of the more familiar items, Moscovich often has an unexpected connection to present. For example, I knew that the midpoints of any quadrilateral would form a parallelogram (TPU 130), but had not known that, in general, derived polygons formed by joining midpoints tend to become "more regular."&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjN-EM6D7-uhPO5q2Z4GD-DRbNe4rJz3p23ddbyzboabxj9raRY7YUuKTcCeQA8AAKFTX7QA3quMWkx8BPjWNQ1gxxaDblcF-KEeqTQoYJFIeSPGsM53p1xFNJjS_BrmldrwwpiF0oxX-k/s1600/derived_polygon.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="181" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjN-EM6D7-uhPO5q2Z4GD-DRbNe4rJz3p23ddbyzboabxj9raRY7YUuKTcCeQA8AAKFTX7QA3quMWkx8BPjWNQ1gxxaDblcF-KEeqTQoYJFIeSPGsM53p1xFNJjS_BrmldrwwpiF0oxX-k/s400/derived_polygon.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;i&gt;a derived parallelogram, some derived pentagons&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+While diving into the alternately obscure, well-known, and in some cases apocryphal origins of many puzzles and the mathematics associated with them, TPU provides a welcome counter-narrative to utilitarian accounts of the development of mathematics. More comprehensive &lt;a href="http://www.mathrecreation.com/2009/10/mesopotamian-maths.html"&gt;historical treatments&lt;/a&gt; reveal, however, that the history of mathematics is richer (and stranger) than even TPU suggests. In some ways, a better title would just have been simply "mathematics in 315 puzzles," as TPU provides a gentle and accessible introduction to the essence of mathematical thinking.&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;The Puzzle Universe &lt;/b&gt;is a quixotic, informative, and enlightening encyclopedia of recreational mathematics. It should prove to be an inspiration to mathematical idlers, and a rich resource for learners and teachers who wish to be attuned to the playful and creative side of mathematics.&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2015-11-30T17:25:12.304Z</blogger:created>
+    <published>2015-12-18T04:15:00.002Z</published>
+    <updated>2015-12-18T04:15:37.739Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2015/12/a-universe-of-puzzles.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

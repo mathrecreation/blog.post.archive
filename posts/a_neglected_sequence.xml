@@ -1,0 +1,46 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-4188454244322116252</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>a neglected sequence</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;br /&gt;
+&lt;/div&gt;Looking at some old texts (from the 1930s, mostly) I came across a type of sequence that was once part of the standard curriculum along side the familiar arithmetic and geometric varieties. &amp;nbsp;As far as I know, this third sequence type, harmonic sequences, is no longer part of any standard high school curriculum (please correct me if I am wrong).&lt;br /&gt;
+&lt;br /&gt;
+Arithmetic sequences have a common difference between terms \[t_{n}=t_{n-1}+d\]&lt;br /&gt;
+Geometric sequences have a common ratio \[t_{n}=t_{n-1}r\]&lt;br /&gt;
+Harmonic sequences have the defining property that the reciprocals of their terms have a common difference (i.e. their reciprocals form an arithmetic sequence).&lt;br /&gt;
+\[\frac{1}{t_{n}}=\frac{1}{t_{n-1}} +d\]&lt;br /&gt;
+or&lt;br /&gt;
+\[t_{n}=\frac{t_{n-1}}{1+ dt_{n-1}}\]&lt;br /&gt;
+When you set the first term and the difference to 1, you get a harmonic sequence that has come to be known as &lt;i&gt;the&lt;/i&gt; harmonic sequence, namely:&lt;br /&gt;
+\[1, \frac{1}{2}, \frac{1}{3}, \frac{1}{4}, ... \]&lt;br /&gt;
+If &lt;i&gt;a&lt;/i&gt;, &lt;i&gt;b&lt;/i&gt;, &lt;i&gt;c&lt;/i&gt; are three three terms of an arithmetic sequence, the middle term &lt;i&gt;b&lt;/i&gt; is the 'arithmetic mean' of &lt;i&gt;a&lt;/i&gt; and &lt;i&gt;c&lt;/i&gt;, which is generally what we mean by "the mean" or average of &lt;i&gt;a&lt;/i&gt; and &lt;i&gt;c&lt;/i&gt;: \[b = \frac{a+c}{2} \] Similarly, if &lt;i&gt;a&lt;/i&gt;, &lt;i&gt;b&lt;/i&gt;, &lt;i&gt;c&lt;/i&gt; are three terms of a geometric sequence, then &lt;i&gt;b&lt;/i&gt; is the 'geometric mean' of &lt;i&gt;a&lt;/i&gt; and &lt;i&gt;c&lt;/i&gt;: \[b = \sqrt{ac} \] Not too surprisingly then, if &lt;i&gt;a&lt;/i&gt;, &lt;i&gt;b&lt;/i&gt;, and &lt;i&gt;c&lt;/i&gt; form a harmonic sequence, then &lt;i&gt;b&lt;/i&gt; is the 'harmonic mean' of &lt;i&gt;a&lt;/i&gt; and &lt;i&gt;c:&lt;/i&gt;&amp;nbsp;\[b = \frac{2ac}{a+c} \]&lt;br /&gt;
+What might be surprising at first is that if you have two numbers, say &lt;i&gt;a&lt;/i&gt; and &lt;i&gt;c&lt;/i&gt;, then the harmonic, geometric and arithmetic means of &lt;i&gt;a&lt;/i&gt; and &lt;i&gt;c&lt;/i&gt; form a geometric series (or put another way, the geometric mean of &lt;i&gt;a&lt;/i&gt; and &lt;i&gt;c&lt;/i&gt; is also the geometric mean of the harmonic and arithmetic means of &lt;i&gt;a&lt;/i&gt; and &lt;i&gt;c&lt;/i&gt;).&lt;br /&gt;
+&lt;br /&gt;
+The algebra textbooks that I looked at did not present any applications of harmonic means or sequences (the exercises were restricted to formula manipulation), and the harmonic sequence does not seem to provide a very applicable 'model of growth', which is how the other sequences are generally presented. Harmonic relationships come up&amp;nbsp;frequently&amp;nbsp;in geometry, however, and one text did feature a nice construction for all three means (see below).&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFLTsSxGD5SzzwNBk7Gw7s7x6CAdMClveeKX2rCsU47X5L6YC-E_pDIziFDPVVbjCgZ3vMearqpemPR_huhB0Tm6AOHRiQRQYhRuqb8dLSahfGAWh31ABuICHLT_uv6f0BFcURzRTUzRA/s1600-h/mean_construction.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFLTsSxGD5SzzwNBk7Gw7s7x6CAdMClveeKX2rCsU47X5L6YC-E_pDIziFDPVVbjCgZ3vMearqpemPR_huhB0Tm6AOHRiQRQYhRuqb8dLSahfGAWh31ABuICHLT_uv6f0BFcURzRTUzRA/s400/mean_construction.jpg" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;br /&gt;
+In this construction (GSP file &lt;a href="http://sites.google.com/site/mathrecreation/Home/ahg_means_v1_dm.gsp?attredirects=0"&gt;here&lt;/a&gt;),&amp;nbsp;&lt;b&gt;O&lt;/b&gt; is the center of the circle, and &lt;b&gt;PR&lt;/b&gt; is a secant that goes through &lt;b&gt;O&lt;/b&gt;. &lt;b&gt;SP&lt;/b&gt; is tangent to the circle, and &lt;b&gt;ST&lt;/b&gt; is at right angles to the secant &lt;b&gt;PR&lt;/b&gt;. If we let&amp;nbsp;&lt;i&gt;a&lt;/i&gt; = &lt;b&gt;PQ&lt;/b&gt; and &lt;i&gt;b&lt;/i&gt; = &lt;b&gt;PR,&lt;/b&gt;&amp;nbsp;&lt;b&gt;PO&lt;/b&gt; gives the arithmetic mean of &lt;i&gt;a&lt;/i&gt; and &lt;i&gt;b&lt;/i&gt;, &lt;b&gt;PS &lt;/b&gt;gives their geometric mean and &lt;b&gt;PT &lt;/b&gt;gives their harmonic mean. (Proof left as an exercise :)&lt;br /&gt;
+&lt;br /&gt;
+I couldn't locate the texts I consulted in Google books, but for some other examples of how harmonic sequences were presented, see these:&lt;br /&gt;
+H. S. Hall, S. R. Knight,&amp;nbsp;&lt;a href="http://books.google.com/books?id=oB4PAAAAIAAJ"&gt;Higher algebra: a sequel to elementary algebra for schools&lt;/a&gt;. Macmillan, 1894.&amp;nbsp;(page 47)&lt;br /&gt;
+O. Lodge,&amp;nbsp;&lt;a href="http://books.google.com/books?id=fuZjz_A_ijkC"&gt;Easy mathematics, chiefly arithmetic...&lt;/a&gt;, Macmillan, 1906. (page 339)</content>
+    <blogger:metaDescription/>
+    <blogger:created>2009-09-09T15:17:55.945Z</blogger:created>
+    <published>2009-09-09T15:32:00Z</published>
+    <updated>2011-09-11T02:01:38.196Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='geometry'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='school math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='GSP'/>
+    <blogger:filename>/2009/09/neglected-sequence.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

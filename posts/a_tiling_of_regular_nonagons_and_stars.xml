@@ -1,0 +1,47 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-4539866256176391239</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>a tiling of regular nonagons and stars</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhu5-4_A7LntchdpU6RzktPdzVP7VE2THXBiJG4CmzoFe9WPfFo9xOa6RYZxlWZOlKdmOuPazK1wvYapdt-wyELrSf1_9QX9JvguLsue8epuiQXSa6WnAiKC1gdHrhQQ_xy1qI4vjTtwnk/s1600/nonagons_stars.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhu5-4_A7LntchdpU6RzktPdzVP7VE2THXBiJG4CmzoFe9WPfFo9xOa6RYZxlWZOlKdmOuPazK1wvYapdt-wyELrSf1_9QX9JvguLsue8epuiQXSa6WnAiKC1gdHrhQQ_xy1qI4vjTtwnk/s1600/nonagons_stars.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+When I found this nice nonagon and star tiling, I couldn't get &lt;a href="https://www.youtube.com/watch?v=-MgPVKE_BpI"&gt;They Might Be Giants&lt;/a&gt; out of my head. The underlying symmetry comes from hexagons though:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXpAIlEzOOtiPKHpyDpi81yxj0S8163GrFJncFzcejpG8FUnGVw8aJ5KWkFRh3TQkgdfeNiIaSPL7O7jqpO1hnzG9w6g9tWMFirjFxpmlEX_4z_Rp5Gc2WSyfGVoPrgHlWl1dybYYHzgM/s1600/nonagons_hexes.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXpAIlEzOOtiPKHpyDpi81yxj0S8163GrFJncFzcejpG8FUnGVw8aJ5KWkFRh3TQkgdfeNiIaSPL7O7jqpO1hnzG9w6g9tWMFirjFxpmlEX_4z_Rp5Gc2WSyfGVoPrgHlWl1dybYYHzgM/s1600/nonagons_hexes.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+The relationship described in the &lt;a href="http://www.mathrecreation.com/2016/04/regular-polygons-in-rings-part-two.html"&gt;previous post&lt;/a&gt; tells us that the next regular polygon that can be put around a hexagon like this is the dodecagon (see the line &lt;i&gt;k&lt;/i&gt; = 6):&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj105X-BwwzXA9gOA0UY9NLlX1Mlv3BNexgBE04IRSX-lKn0OqdNxG8mv-vr2AcsIEgWFi5OSkhyhhv0kRqde_pqeizQ3_RxerzEAUEztWgV2UxLH5yBoOR8_RVUNoaUFCirIcXuvgZm7s/s1600/kmn_graph2.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="321" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj105X-BwwzXA9gOA0UY9NLlX1Mlv3BNexgBE04IRSX-lKn0OqdNxG8mv-vr2AcsIEgWFi5OSkhyhhv0kRqde_pqeizQ3_RxerzEAUEztWgV2UxLH5yBoOR8_RVUNoaUFCirIcXuvgZm7s/s400/kmn_graph2.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+And sure enough, these dodecagons can also form a nice hexagon-based tiling, with somewhat pointier stars.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrj9YG2e37Gp43pLRvnyBFtlHsc2lXeimUBlB4hyphenhyphenfavlTClNL0E_XVv7XcVp-wOjBDpnkhxxu55ZN8IBPv7FiXENPw7AqDkSVBDWmjBqszCnXc8vQUcXK1amV6XyBpqGdU1u1BMcZyGww/s1600/12gons_hexes.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrj9YG2e37Gp43pLRvnyBFtlHsc2lXeimUBlB4hyphenhyphenfavlTClNL0E_XVv7XcVp-wOjBDpnkhxxu55ZN8IBPv7FiXENPw7AqDkSVBDWmjBqszCnXc8vQUcXK1amV6XyBpqGdU1u1BMcZyGww/s1600/12gons_hexes.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+The &lt;i&gt;k&lt;/i&gt; = 6 line above gives us a whole family of polygon and star hexagonal tilings that follow the relationship &lt;i&gt;n&lt;/i&gt; = 3&lt;i&gt;m&lt;/i&gt; + 3&amp;nbsp;- the stars don't start to appear until &lt;i&gt;m&lt;/i&gt; = 2&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOpm61psIR1hEt8IDM1uAR4qy_t9uWm8SW1YLFM1oI_O9fvvN4ZCnEk2Pc-JUWtY0CYxF-j-pBdXeWkEQaAZVsrMLjo1iG5mA_Mk6HLpCG7cPZvOskQ_tB4WYip1AZv3ruXQjk3C6HzXk/s1600/m01.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOpm61psIR1hEt8IDM1uAR4qy_t9uWm8SW1YLFM1oI_O9fvvN4ZCnEk2Pc-JUWtY0CYxF-j-pBdXeWkEQaAZVsrMLjo1iG5mA_Mk6HLpCG7cPZvOskQ_tB4WYip1AZv3ruXQjk3C6HzXk/s1600/m01.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoOsf79qa1FLhk6y-T8sIIPABXlUeW-IVNc9LYI36PXZo93Ax2bBrQZSdTrWqmfCnZs-T85eiOO0SjC7Nlg1fzFvVtBNHdUXPLs9oHZljQdG1-AuqHxr_xXobAuc0cGQ5TSIlsbFw2mCU/s1600/m23.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoOsf79qa1FLhk6y-T8sIIPABXlUeW-IVNc9LYI36PXZo93Ax2bBrQZSdTrWqmfCnZs-T85eiOO0SjC7Nlg1fzFvVtBNHdUXPLs9oHZljQdG1-AuqHxr_xXobAuc0cGQ5TSIlsbFw2mCU/s1600/m23.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2016-05-13T16:10:38.997Z</blogger:created>
+    <published>2016-05-13T17:34:00Z</published>
+    <updated>2016-05-17T01:16:23.512Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2016/05/polygon-and-stars-tilings.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

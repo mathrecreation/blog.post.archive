@@ -1,0 +1,223 @@
+<>
+  <entry>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-1392536093029232731</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>algorithms for drawing celtic knots</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjH8zGzDWPrHLo-4MfRUOriTjQVZHhQiaimv-GxnSoD2KdAXStZicH-fi5kyvVMsr3LPxC7y3e70qIOdJ22ihIx-dpGs66h-3Zi4oZZkiXr1lKYqeAIlV-hYu9hgXgdO9F2NEJw7D4pvxQ/s1600/3_patterns.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="664" data-original-width="287" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjH8zGzDWPrHLo-4MfRUOriTjQVZHhQiaimv-GxnSoD2KdAXStZicH-fi5kyvVMsr3LPxC7y3e70qIOdJ22ihIx-dpGs66h-3Zi4oZZkiXr1lKYqeAIlV-hYu9hgXgdO9F2NEJw7D4pvxQ/s1600/3_patterns.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+The images above are the same celtic knot pattern (other examples &lt;a href="https://www.mathrecreation.com/2018/09/some-knots-and-not-knots.html"&gt;here&lt;/a&gt;) shown in three slightly different styles. You can try creating your own knots and seeing how they look in the different styles using &lt;a href="https://dmackinnon1.github.io/celtic/"&gt;this online editor&lt;/a&gt;. All the examples above are based on the same grid:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiR1H2AE57_ZwjPRmogpI_0SEZG7nh6O5tb4L6Xnl_JcFcAPCRlG8gBR-xf_1G2F9C0imtjkZjbYnKPz3VxA2nzAT04fq11nnUWgNR79_B3sDiUUrxWOBT-PcEckc6Dn3J-XmZLTH0YQxg/s1600/pattern.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="280" data-original-width="355" height="252" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiR1H2AE57_ZwjPRmogpI_0SEZG7nh6O5tb4L6Xnl_JcFcAPCRlG8gBR-xf_1G2F9C0imtjkZjbYnKPz3VxA2nzAT04fq11nnUWgNR79_B3sDiUUrxWOBT-PcEckc6Dn3J-XmZLTH0YQxg/s320/pattern.png" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+The grid has primary points (shown in grey) and secondary points (shown in black). Breaks in the pattern are created by connecting secondary points following a few rules. The ribbon pattern is then drawn on the grid. The three styles shown are the result of three different approaches to drawing the ribbon once the grid is established.&lt;br /&gt;
+&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;The top image is created by filling in the spaces between the "ribbon" of the pattern.&lt;/li&gt;
+&lt;li&gt;The middle image is created by following rules that create sections of ribbon around the &lt;i&gt;secondary&lt;/i&gt; grid points.&lt;/li&gt;
+&lt;li&gt;The bottom image is created by following some rules to create sections of the ribbon around the &lt;i&gt;primary&lt;/i&gt; grid points.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;
+All three use the idea of primary and secondary grid points, and creating the structure that defines the&amp;nbsp; patterns by joining up the secondary grid points. So the first steps of all three approaches involves setting up this basic structure. Here are those steps, adapted from &lt;a href="https://www.mathrecreation.com/2018/09/generating-celtic-knot-patterns.html"&gt;this earlier post&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style="font-size: large;"&gt;Setting up the grid and pattern structure&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;1) define primary grid points&lt;/b&gt;&lt;br /&gt;
+A knot pattern is laid out on a square coordinate system using a set of "primary" points that are set at one unit distances in the horizontal and vertical directions. We'll say that (0,0) is the top left corner of the grid, and the positive&amp;nbsp;&lt;i&gt;x&lt;/i&gt;&amp;nbsp;direction is towards the right and positive&amp;nbsp;&lt;i&gt;y&lt;/i&gt;&amp;nbsp;direction is down.&amp;nbsp; The dimensions of the primary grid must be odd (there must be a total odd number of dots in both the&amp;nbsp;&lt;i&gt;x&lt;/i&gt;&amp;nbsp;and&amp;nbsp;&lt;i&gt;y&lt;/i&gt;&amp;nbsp;directions). Because we are starting with (0,0) in the top left, the top right point (&lt;i&gt;x&lt;/i&gt;, 0) must have x even (4 in the example below), and the bottom left point (0,&lt;i&gt;y&lt;/i&gt;) must have y even (6 in the example below).&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjosh7Ni18WcYGfWgBPvC-FVCw2AST3js4-l4X6zPx2Dr031FSTlJWd_1Ibyl2kVH7XRhpWMKs8FKhPIa20E-c-uJfTctvD43UDgln-ON_VgfyG6iqs2Dhjk7PAyWxLneGoJXeC3ix5cTs/s1600/primaryGrid.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="390" data-original-width="325" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjosh7Ni18WcYGfWgBPvC-FVCw2AST3js4-l4X6zPx2Dr031FSTlJWd_1Ibyl2kVH7XRhpWMKs8FKhPIa20E-c-uJfTctvD43UDgln-ON_VgfyG6iqs2Dhjk7PAyWxLneGoJXeC3ix5cTs/s320/primaryGrid.png" width="266" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;the primary grid&lt;/i&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;2) identify secondary grid points&lt;/b&gt;&lt;br /&gt;
+Some of the points on the grid are special - these form a secondary grid. The special secondary grid points are those where both&amp;nbsp;&lt;i&gt;x&lt;/i&gt;&amp;nbsp;and&amp;nbsp;&lt;i&gt;y&lt;/i&gt;&amp;nbsp;values are even, or both are odd.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgR_4j3vL9RjjbR96Qz8MlrhojtbFeDXOBhSv3_5T52Q9NKf3ZIAaXBr3eg_MSOT2b6ktGblCJfgxM8qXN5qn_s6brKLwbwmbUKScWsOj8p8Ksf8LPslAqUwXR6jX37nA4MogIjhxZlwdM/s1600/secondaryGrid.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="389" data-original-width="319" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgR_4j3vL9RjjbR96Qz8MlrhojtbFeDXOBhSv3_5T52Q9NKf3ZIAaXBr3eg_MSOT2b6ktGblCJfgxM8qXN5qn_s6brKLwbwmbUKScWsOj8p8Ksf8LPslAqUwXR6jX37nA4MogIjhxZlwdM/s320/secondaryGrid.png" width="262" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;the secondary grid&lt;/i&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+The secondary grid points where both&amp;nbsp;&lt;i&gt;x&lt;/i&gt;&amp;nbsp;and&amp;nbsp;&lt;i&gt;y&lt;/i&gt;&amp;nbsp;are even will be referred to as&amp;nbsp;&lt;i&gt;even nodes&lt;/i&gt;, and those that have both&amp;nbsp;&lt;i&gt;x&lt;/i&gt;&amp;nbsp;and&amp;nbsp;&lt;i&gt;y&lt;/i&gt;&amp;nbsp;odd will be referred to as&amp;nbsp;&lt;i&gt;odd nodes&lt;/i&gt;. The requirement to have the primary grid have odd dimensions (step 1) was needed to ensure that the corners of the pattern are all secondary points.&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;3)&lt;i&gt;&amp;nbsp;&lt;/i&gt;place boundaries&lt;/b&gt;&lt;br /&gt;
+To create an edge-boundary for the pattern, and to create more interesting twists and turns, we follow some rules for drawing boundaries on the grid.&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;boundary rule 1&lt;/i&gt;: A boundary can connect any two non-diagonally adjacent secondary points, as long as rule 2 is not violated. The midpoint of a boundary segment will be a primary point.&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;boundary rule 2&lt;/i&gt;: A primary point cannot have more than one boundary going through it.&lt;br /&gt;
+&lt;br /&gt;
+The example below shows boundaries drawn along the edge of the image, as well as some internal boundaries.&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZyr6mErAUcHb0gcpoGoDH9ZeBiYOl3D3ZLoSb-FVdGhlSZp8_7vt_SmW8jo4nQlbyKcobYLvRDFuku7Isi59tyXhHuO4recEU-7-crqbbntPiK-iWlyIt3U0MulmgT7yem9wqeuhru4o/s1600/boundaries_drawn.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="493" data-original-width="375" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZyr6mErAUcHb0gcpoGoDH9ZeBiYOl3D3ZLoSb-FVdGhlSZp8_7vt_SmW8jo4nQlbyKcobYLvRDFuku7Isi59tyXhHuO4recEU-7-crqbbntPiK-iWlyIt3U0MulmgT7yem9wqeuhru4o/s320/boundaries_drawn.png" width="243" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;legal boundary examples, showing&lt;br /&gt;primary and secondary points&amp;nbsp;&lt;/i&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;span style="font-size: large;"&gt;Three ways to draw the "knot"&lt;/span&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+Now that the grid is drawn with primary and secondary points, there are different approaches to actually creating the celtic knot pattern from the grid.&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;b&gt;method 1: Negative space around the secondary points&lt;/b&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+To create an intertwined ribbon we can fill in the spaces around the ribbon - in addition to the boundaries already drawn, the secondary grid points are built up into polygons, and the "weaving effect" is created by drawing filaments that extend out of the secondary grid polygons, in one direction for even secondary points, the opposite for odd secondary points.&amp;nbsp;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy2lZ-B496DEBLcQt_3r5ncyEp7zKOJLGDirohTbhxe-K8ESMUpGu1MKAYgoTTeesEuFnP9TX9HoS_ydj5gQiPrmaIlPMOyvgB9XCGtsil-ZM99flgmoH7bsvhVDrDUMPZ6nOGuVjUTMM/s1600/even_odd2.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="340" data-original-width="681" height="159" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy2lZ-B496DEBLcQt_3r5ncyEp7zKOJLGDirohTbhxe-K8ESMUpGu1MKAYgoTTeesEuFnP9TX9HoS_ydj5gQiPrmaIlPMOyvgB9XCGtsil-ZM99flgmoH7bsvhVDrDUMPZ6nOGuVjUTMM/s320/even_odd2.png" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+If an adjacent primary point has a boundary through it, the line extending from the secondary point in the direction of that primary point is simply not drawn, and the corner of the polygon without a line extending from it is truncated.&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhF9noFkGvGLfY_5FuH_F4VQlOw_MOn6iojtheRf45iVymmD50Tt_CXdfcyyjibhHkpZZuZ0gcUtlfuKA1It9dpO8iVtxRYmnALiGa33hQeBpPU6MtuSoM7nXN7j-PVaeI5LtMB3WDmoeM/s1600/lines_adjusted.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="490" data-original-width="372" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhF9noFkGvGLfY_5FuH_F4VQlOw_MOn6iojtheRf45iVymmD50Tt_CXdfcyyjibhHkpZZuZ0gcUtlfuKA1It9dpO8iVtxRYmnALiGa33hQeBpPU6MtuSoM7nXN7j-PVaeI5LtMB3WDmoeM/s320/lines_adjusted.png" width="242" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;A square is drawn around each secondary point, and&lt;br /&gt;where there is no barrier, lines are extended based on the&lt;br /&gt;even-odd rules.&lt;/i&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5xANaDkTmB7D-Y1OR3qeDZiyjuT4VONQK4XP1OoTttXTjBDnNvDIAHsLs8-4kzs0KLJmcSofC1YYI_P51shvBzAiBJxFmcu4ggQZxnJ69OZwf_Xhop5vSYr8kYWFVpMUfSJ_9OGTuRgM/s1600/truncated_nodes.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="489" data-original-width="369" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5xANaDkTmB7D-Y1OR3qeDZiyjuT4VONQK4XP1OoTttXTjBDnNvDIAHsLs8-4kzs0KLJmcSofC1YYI_P51shvBzAiBJxFmcu4ggQZxnJ69OZwf_Xhop5vSYr8kYWFVpMUfSJ_9OGTuRgM/s320/truncated_nodes.png" width="241" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;Squares with missing lines can be&lt;br /&gt;truncated into polygons to improve&lt;br /&gt;the ribbon effect.&lt;/i&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+(Note: &lt;a href="https://www.mathrecreation.com/2018/09/generating-celtic-knot-patterns.html"&gt;This post&lt;/a&gt; offers a slightly different description of method 1.)&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;b&gt;method 2: Ribbon sections around the secondary points&lt;/b&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+Let's forget about the method above, and go back to the grid. Instead of filling in the spaces between the ribbon, we can draw the ribbon itself by drawing sections of the ribbon around the secondary points. Again, there is an even/odd rule in order to allow for the ribbons to pass over each other. For the node in the center, the following patterns are followed:&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdKzFUOw8zU-UXK8JvU-LcXI76iM-jSGU5E6usjUwdHsECgNSb3TG6Izyu0LfSXpCsaJT56c9JuWEZR4rP9NQ5ImBOw5wPucn-w-aakvXtfFIP884y_DfdzmrKV5qdItmonm2qleT2PVI/s1600/postive_around_node.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="211" data-original-width="360" height="187" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdKzFUOw8zU-UXK8JvU-LcXI76iM-jSGU5E6usjUwdHsECgNSb3TG6Izyu0LfSXpCsaJT56c9JuWEZR4rP9NQ5ImBOw5wPucn-w-aakvXtfFIP884y_DfdzmrKV5qdItmonm2qleT2PVI/s320/postive_around_node.png" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;Adding partial paths around a secondary&lt;br /&gt;node following even-odd rules&lt;/i&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+When these are joined together, the ribbon fragments form a set of continuous paths, and weave over and under each other:&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiWGJzLS1t7kGEGGDtRIx2eFOsGgrINXMmElyPSP1X2MAR83jROkhEzodlHoBtVqIccL1Is29fB7Zc9V4hptT1m5Qwo9vM9Rs_D9lR1mzWxwcpBF5cRpzlLshj1yabpJG9NgrblkSaLqs/s1600/postive_weaving.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="289" data-original-width="164" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiWGJzLS1t7kGEGGDtRIx2eFOsGgrINXMmElyPSP1X2MAR83jROkhEzodlHoBtVqIccL1Is29fB7Zc9V4hptT1m5Qwo9vM9Rs_D9lR1mzWxwcpBF5cRpzlLshj1yabpJG9NgrblkSaLqs/s1600/postive_weaving.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;portions of ribbon either join &lt;br /&gt;together or appear to pass over and under&lt;/i&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+If one of the primary points surrounding the secondary point has a boundary through it, the fragments are bent and joined:&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOPujGQsAj3gN_otqcGfApsC7fQLW5zZB1kK1qErer-ed7fEkjzjET87gxTuP1yeT1IN6QNiAS5z-w5w7CnqG8DLCou5GMhCUKyA_gIMWJ10FctDd9G-g5hs0QA1LufQfdhol-f7LNqA0/s1600/bent_even_positive.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="163" data-original-width="169" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOPujGQsAj3gN_otqcGfApsC7fQLW5zZB1kK1qErer-ed7fEkjzjET87gxTuP1yeT1IN6QNiAS5z-w5w7CnqG8DLCou5GMhCUKyA_gIMWJ10FctDd9G-g5hs0QA1LufQfdhol-f7LNqA0/s1600/bent_even_positive.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;An even secondary point with a&lt;br /&gt;boundary through its bottom primary neighbour.&lt;/i&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+Connecting all the lines and erasing the points and boundaries, we get something like the image below.&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfdmYeYJDXvW8DxPbIOCr4Am-L2psyoFq3o-IruIJHtzG56u-r3O5EFmmHFQioidm7SEpcE6W3EmJx_iwHzl932jCzT8oFVidCCifaWX7kMw0p6iNUfntYG4naDyNar_aiMcWdKhvheCo/s1600/positive_secondary.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="306" data-original-width="228" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfdmYeYJDXvW8DxPbIOCr4Am-L2psyoFq3o-IruIJHtzG56u-r3O5EFmmHFQioidm7SEpcE6W3EmJx_iwHzl932jCzT8oFVidCCifaWX7kMw0p6iNUfntYG4naDyNar_aiMcWdKhvheCo/s1600/positive_secondary.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;b&gt;method 3: Ribbon sections around primary points&lt;/b&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+One final time, let's go back to the blank grid and re-draw the ribbon in a different way.&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+For this method, we look only at primary points that are not part of the secondary grid. This includes primary points that have (&lt;i&gt;x&lt;/i&gt;,&lt;i&gt;y&lt;/i&gt;) values where &lt;i&gt;x&lt;/i&gt; is even and &lt;i&gt;y&lt;/i&gt; is odd, or where &lt;i&gt;x&lt;/i&gt; is odd and &lt;i&gt;y&lt;/i&gt; is even (remember, secondary points have both x and y values even or both &lt;i&gt;x&lt;/i&gt; and &lt;i&gt;y&lt;/i&gt; values odd).&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+Like method 2, ribbon fragments are drawn, but this time the focus is on the primary nodes. again, what is drawn is different based on an "even vs odd" rule:&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5pdXsSWQkARwG01MFcpvc08AJmIGLqJB3ZcFr8Ql59EhzdRypNPElatsUUfyy5t9fHgVg8d_Nmj930RU3FQ9XLKbgGv2eyoiKbuO5N7OjsDCQbTKRgc21HL2jOZ7LQCK9K_9P_mKnFOk/s1600/primary_positive1.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="200" data-original-width="357" height="179" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5pdXsSWQkARwG01MFcpvc08AJmIGLqJB3ZcFr8Ql59EhzdRypNPElatsUUfyy5t9fHgVg8d_Nmj930RU3FQ9XLKbgGv2eyoiKbuO5N7OjsDCQbTKRgc21HL2jOZ7LQCK9K_9P_mKnFOk/s320/primary_positive1.png" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;Lines across the primary points are drawn&lt;br /&gt;using even vs odd rules&lt;/i&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+Dealing with boundaries is easier with this method, there are only two cases to consider - a vertical boundary or a horizontal boundary.&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2QwU8XpXWDWV9pJyuPXp69N39tQd8f0ElQwplJEtb_QUexAsSiOKljWUtkyVB0AEgDnSqg9bwLRiHfzqXt2klMkSi0VsjpwTKS-n38JABB0dtAOVc1PivTKar5OS0VzpKV81IgRA5KTA/s1600/secondry_boundaries.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="168" data-original-width="352" height="152" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2QwU8XpXWDWV9pJyuPXp69N39tQd8f0ElQwplJEtb_QUexAsSiOKljWUtkyVB0AEgDnSqg9bwLRiHfzqXt2klMkSi0VsjpwTKS-n38JABB0dtAOVc1PivTKar5OS0VzpKV81IgRA5KTA/s320/secondry_boundaries.png" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;There are two cases for handling boundaries&lt;br /&gt;with this method.&lt;/i&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+Any ribbon fragment that would lie outside the boundary of the grid is not drawn. Connecting all the lines and erasing the points and boundaries, we get something like the image below.&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPLMfAhUpbQYSj9eUtdDKi8q5noC_S82nZNKM4JncD9ssc045xZT3Ajj_pYR-rKmFrfCgKmg5tTiUnEHXniu_eleV0q5C3oFrxyD87SKHdYMGw3pnMt5CCyU0e5Z-p4s5gh2C81NMpiGI/s1600/primary_method_example.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="315" data-original-width="236" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPLMfAhUpbQYSj9eUtdDKi8q5noC_S82nZNKM4JncD9ssc045xZT3Ajj_pYR-rKmFrfCgKmg5tTiUnEHXniu_eleV0q5C3oFrxyD87SKHdYMGw3pnMt5CCyU0e5Z-p4s5gh2C81NMpiGI/s1600/primary_method_example.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+These three methods are pretty equivalent - small style alterations in any one of them can make the resulting knot look identical to one drawn using another method. When drawing knots by hand, I find that something along the lines of method 1 is easiest to use; however, from implementing each of the above in simple programs, I found that method 3 was the simplest to code.&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;span style="font-size: large;"&gt;Other Knotty Things&lt;/span&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;b&gt;Other posts:&amp;nbsp;&lt;/b&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;a href="https://www.mathrecreation.com/2018/09/generating-celtic-knot-patterns.html"&gt;Generating Celtic Knot Patterns&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;a href="https://www.mathrecreation.com/2018/09/some-knots-and-not-knots.html"&gt;Some knots and not knots&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;a href="https://www.mathrecreation.com/2008/07/knot-tiles.html"&gt;Knot tiles&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;b&gt;Online editor:&lt;/b&gt;&amp;nbsp;&lt;a href="https://dmackinnon1.github.io/celtic/"&gt;https://dmackinnon1.github.io/celtic/&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;b&gt;Source:&lt;/b&gt;&amp;nbsp;&lt;a href="https://github.com/dmackinnon1/celtic"&gt;https://github.com/dmackinnon1/celtic&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2018-11-28T21:03:23.092Z</blogger:created>
+    <published>2018-11-29T18:21:00.001Z</published>
+    <updated>2018-11-29T18:21:26.604Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2018/11/algorithms-for-drawing-celtic-knots.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

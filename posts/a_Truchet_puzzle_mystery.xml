@@ -1,0 +1,105 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-7161681646053181937</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>a Truchet puzzle mystery</title>
+    <content type='html'>I thought it would be fun to create a page of Truchet puzzles, and while doing this I noticed something that surprised me: even though they were randomly generated, all puzzles of the same size had the exact same level of complexity.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiYuqKEmoRzIvzHs4Dj4i9vScqzW9SD_B_ntP635iOrDGG7YWDPeqbnXNBj7DeEhLZJpcb7y8ZXtICdOf3Y-TSiKdeXeaVDP_CFHuAfaliadQqa3gVdmJrfbpfFihyphenhyphen6c2NERf56gVT_po/s1600/solitary_tile.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="147" data-original-width="149" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiYuqKEmoRzIvzHs4Dj4i9vScqzW9SD_B_ntP635iOrDGG7YWDPeqbnXNBj7DeEhLZJpcb7y8ZXtICdOf3Y-TSiKdeXeaVDP_CFHuAfaliadQqa3gVdmJrfbpfFihyphenhyphen6c2NERf56gVT_po/s1600/solitary_tile.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;a single puzzle piece&lt;br /&gt;that can be rotated into 4 positions&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+In these puzzles, Truchet tiles like the one above are used to create a specific pattern. All the pieces are the same - it is just a question of rotating them correctly to make the pattern you are aiming for.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2gDmwotrhD8jQXysOe2C3NncTNT2h-yr8j-ONaIup6C8yUs8DD1IQ8nnsRHXJ1iZMYfNJ2WIU3pqR5zZ38TatvWZMzkLhtuKSvtzVWx8tjq4zYEUlO0pIOgSXH9frCBxg8Rd22YSJzKg/s1600/truchet2.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="244" data-original-width="244" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2gDmwotrhD8jQXysOe2C3NncTNT2h-yr8j-ONaIup6C8yUs8DD1IQ8nnsRHXJ1iZMYfNJ2WIU3pqR5zZ38TatvWZMzkLhtuKSvtzVWx8tjq4zYEUlO0pIOgSXH9frCBxg8Rd22YSJzKg/s1600/truchet2.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;a Truchet puzzle: can you make this pattern&lt;br /&gt;using only Truchet tiles?&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+We can make these Truchet puzzles a bit more interesting if we have a specific starting arrangement, and add the restriction of using the smallest number of moves (clockwise rotations of individual tiles) to get from the starting arrangement to the target arrangement.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6pVx6ThzXoePqK3vXW7pUexU2MWF_5BETcjrRBm6GVBUZUz0t4mnD1_-iUUYSW4RcemMiPBDEcttxQdUlUakGw74QlAIxSCrhJrH2d-v_iMKucImOZB0fAODDEiMWTEV6updTZn9LuK8/s1600/uniform_to_symmetric1.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="212" data-original-width="508" height="166" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6pVx6ThzXoePqK3vXW7pUexU2MWF_5BETcjrRBm6GVBUZUz0t4mnD1_-iUUYSW4RcemMiPBDEcttxQdUlUakGw74QlAIxSCrhJrH2d-v_iMKucImOZB0fAODDEiMWTEV6updTZn9LuK8/s400/uniform_to_symmetric1.png" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;how many clockwise rotations of tiles will it take to transform&lt;br /&gt;the square on the left to the one on the right?&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+On &lt;a href="https://dmackinnon1.github.io/truchet/match.html"&gt;this page&lt;/a&gt;, you can try out some puzzles like this. Because you are only allowed to rotate pieces clockwise, you may have to rotate a given tile 0, 1, 2 or 3 times in order to get it into the desired position.&lt;br /&gt;
+&lt;br /&gt;
+Please give it a try:&amp;nbsp;&lt;a href="https://dmackinnon1.github.io/truchet/match.html"&gt;https://dmackinnon1.github.io/truchet/match.html&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+When setting up this puzzle page, I used a restricted set of arrangements for both the starting and target arrangements. For the starting arrangement, I have all the Truchet tiles in the same position. Let's call this&amp;nbsp; type of arrangement a &lt;b&gt;uniform &lt;/b&gt;Truchet square. There will be 4 different uniform Truchet squares of a given size; here is one for &lt;i&gt;n&lt;/i&gt; = 6:&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEje_yvDssxxwTBeBoGkS3At7doZDNiPoSuoehoBUlU4Q5uRneAyAXs96PV8egNGLXCA94rmEYWoLCWWBQpxpftDumXaNpmldVDN3DCFmWf8gXDDohj2BM36fYvZVbt8B5DvSYOGbCHMuww/s1600/uniform_square.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="248" data-original-width="246" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEje_yvDssxxwTBeBoGkS3At7doZDNiPoSuoehoBUlU4Q5uRneAyAXs96PV8egNGLXCA94rmEYWoLCWWBQpxpftDumXaNpmldVDN3DCFmWf8gXDDohj2BM36fYvZVbt8B5DvSYOGbCHMuww/s1600/uniform_square.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;a &lt;b&gt;uniform Truchet square&lt;/b&gt;: all tiles &lt;br /&gt;are in the same position&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+Because I like the way they look, I chose the target arrangements to always have &lt;b&gt;4-fold rotational symmetry&lt;/b&gt;. An important choice as it turns out. These Truchet squares have sides of even length, and can be divided up into 4 quadrants - as we move around the quadrants in a clockwise direction, the pattern in each quadrant is a 90 degree rotation of the pattern in the preceding quadrant.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9BMEG-vSYcUlmsQi5JDP0Bb8CfOtT40eMZM9zzFjFgJUcs5h_mqMTLMAn-aUs2N3sYalT4b98fup1sXwNgIybNLJSOPcOBKIk8E2LXBw-xD9sE7ywa9E9DHB68LKjRNWmFjVNU-zEW4I/s1600/4foldRotationalSymmetry.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="294" data-original-width="586" height="160" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9BMEG-vSYcUlmsQi5JDP0Bb8CfOtT40eMZM9zzFjFgJUcs5h_mqMTLMAn-aUs2N3sYalT4b98fup1sXwNgIybNLJSOPcOBKIk8E2LXBw-xD9sE7ywa9E9DHB68LKjRNWmFjVNU-zEW4I/s320/4foldRotationalSymmetry.png" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;you can make Truchet squares with 4-fold rotational&lt;br /&gt;symmetry - they tend to look nice.&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+With these restrictions, I found that:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;All 2x2 puzzles are solvable in 6 moves.&lt;/li&gt;
+&lt;li&gt;All 4x4 puzzles are solvable in 24 moves.&lt;/li&gt;
+&lt;li&gt;All 6x6 puzzles are solvable in 54 moves.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div&gt;
+Mysteriously, no matter what pattern was chosen for the target, all puzzles of the same size required the same number of moves to solve.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivfgcYrwzPwNaDp_gKgqR0__mVMgoRDyHQpITsoXByQCuhLgAX7I65QnhWHCjaIhyphenhyphentr7KMtv-qLHqRxKh-7KKxB_lc0HGbkavQUtJKh5Lnj4XYEwFqGbOE0KBZKXrf0CXD-uVtM0_m0uo/s1600/54moves_always.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="525" data-original-width="660" height="317" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivfgcYrwzPwNaDp_gKgqR0__mVMgoRDyHQpITsoXByQCuhLgAX7I65QnhWHCjaIhyphenhyphentr7KMtv-qLHqRxKh-7KKxB_lc0HGbkavQUtJKh5Lnj4XYEwFqGbOE0KBZKXrf0CXD-uVtM0_m0uo/s400/54moves_always.png" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;symmetric puzzles of the same size always &lt;br /&gt;have the same number of required moves&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+In general, it turns out that for any Truchet square &lt;b&gt;T&lt;/b&gt; with side length &lt;i&gt;n&lt;/i&gt;&amp;nbsp;and 4-fold rotational symmetry, &lt;b&gt;T&lt;/b&gt; will always be 6*(n/2)^2 rotations away from any uniform Truchet square.&lt;br /&gt;
+&lt;br /&gt;
+This was more puzzling than the original puzzles: how could my randomly generated puzzles all require the same number of moves to solve?&lt;br /&gt;
+&lt;br /&gt;
+To understand why this is the case, we can find a way to count all the rotations required to transform a uniform Truchet square into one that has four-fold rotational symmetry, and see that this does not depend on a particular choice of either the starting arrangement or the target.&amp;nbsp;This turns out to be easier than you might expect.&lt;br /&gt;
+&lt;blockquote class="tr_bq"&gt;
+Let &lt;b&gt;U&lt;/b&gt; be a uniform Truchet square of side length&amp;nbsp;&lt;i&gt;n&lt;/i&gt;, and &lt;b&gt;T&lt;/b&gt; be a Truchet square with 4-fold rotational symmetry, also of side length &lt;i&gt;n&lt;/i&gt;. We'll count how many rotations it takes to transform &lt;b&gt;U&lt;/b&gt;&amp;nbsp;into &lt;b&gt;T&lt;/b&gt;.&amp;nbsp;&lt;/blockquote&gt;
+&lt;blockquote class="tr_bq"&gt;
+Let &lt;i&gt;t1&lt;/i&gt;&amp;nbsp;be a tile in the first quadrant of &lt;b&gt;U&lt;/b&gt;. If we consider its image under rotation into the other quadrants, we have a set of 4 tiles, &lt;i&gt;t1, t2, t3&lt;/i&gt;, and &lt;i&gt;t4&lt;/i&gt;. One of these will be aligned with the corresponding tile in &lt;b&gt;T&lt;/b&gt; (since the tiles in &lt;b&gt;T&lt;/b&gt; that lie in the same positions as &lt;i&gt;t1&lt;/i&gt;, &lt;i&gt;t2&lt;/i&gt;, &lt;i&gt;t3&lt;/i&gt;, and &lt;i&gt;t4&lt;/i&gt; are rotated through all 4 positions, while the tiles of &lt;b&gt;U&lt;/b&gt; are all in the same position). It will require 0 moves for this tile be put into the same position as the corresponding tile of &lt;b&gt;T&lt;/b&gt;. As we move around the quadrants to the other images of our selected tile, they will all be in the same position (&lt;b&gt;U&lt;/b&gt; is uniform), but the corresponding tiles of &lt;b&gt;T&lt;/b&gt; will be rotated. The corresponding tiles of &lt;b&gt;T&lt;/b&gt; will be 1, 2, and 3 rotations ahead from the tiles of &lt;b&gt;U&lt;/b&gt;. So each tile in the first quadrant will, along with its images under rotation, contribute 0+1+2+3 = 6 rotations to the overall number of rotations required to transform &lt;b&gt;U&lt;/b&gt; into &lt;b&gt;T&lt;/b&gt;. There are (n/2)^2 tiles in the first quadrant, hence the total number of rotations required to transform &lt;b&gt;U&lt;/b&gt;&amp;nbsp;into &lt;b&gt;T&lt;/b&gt;&amp;nbsp;will be 6*(n/2)^2.&lt;/blockquote&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPZNLQyISO6SEbXGJoIvkR_NqK3pDylZ1cS4wZQUndkxrLMmT1517O2CXDX8K1rXARDntSAEzyQY1xnbXdBe5mW4YlHoAOmw0U69WQoxbjCeKKZNdod8SFrFuQpkpUdpiSRdTxmYv1FKc/s1600/uniform_to_rotational.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="126" data-original-width="223" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPZNLQyISO6SEbXGJoIvkR_NqK3pDylZ1cS4wZQUndkxrLMmT1517O2CXDX8K1rXARDntSAEzyQY1xnbXdBe5mW4YlHoAOmw0U69WQoxbjCeKKZNdod8SFrFuQpkpUdpiSRdTxmYv1FKc/s1600/uniform_to_rotational.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;for a given n, it always takes the same number of moves&lt;br /&gt;&amp;nbsp;to transform a uniform Truchet square &lt;b&gt;U&lt;/b&gt; into another&lt;/i&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;one, &lt;b&gt;T&lt;/b&gt;, if &lt;b&gt;T&lt;/b&gt; has 4-fold rotational symmetry&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+The reason for all the puzzles requiring the same number of moves is the 4-fold symmetry of the target (and the uniformity of the starting arrangement). If we allowed non-symmetrical target arrangements, or varied the starting arrangements used, the number of rotations required to transform our starting arrangement into the target arrangement could lie anywhere between 0 and 3n^2.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJl-4HQq7TZZrZo1jBz8igVqm7hYh3vBJ7QOXd87D_kKA2ClrOA5EWRffei-uI2NM8lSNmFIe-G00lQ2w4EfAVS98MzM8R3ifszyS1gUO3CFQAk_ZAds-MlY_cv_C-b3nbaT8ahoj-pYs/s1600/truchet.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="369" data-original-width="365" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJl-4HQq7TZZrZo1jBz8igVqm7hYh3vBJ7QOXd87D_kKA2ClrOA5EWRffei-uI2NM8lSNmFIe-G00lQ2w4EfAVS98MzM8R3ifszyS1gUO3CFQAk_ZAds-MlY_cv_C-b3nbaT8ahoj-pYs/s320/truchet.PNG" width="316" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;a 24 x 24 Truchet square with 4-fold rotational&lt;br /&gt;symmetry - starting from a uniform square, how &lt;br /&gt;many moves would be required to re-create it?&amp;nbsp;&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+Why do the Truchet squares with rotational symmetry seem particularly nice? The human brain loves symmetry, but in the case of Truchet squares, it seems particularly appropriate to be drawn to arrangements like these. Individual Truchet tiles lack rotational symmetry - this lack of symmetry is what gives them their expressive power. By arranging them into a square pattern that does have rotational symmetry, we are overcoming the asymmetry of the original tile, appealing maybe to our need to &lt;a href="https://en.wikipedia.org/wiki/Unity_of_opposites"&gt;unify opposites&lt;/a&gt;, or to express a sense of &lt;a href="https://en.wikipedia.org/wiki/Dialectic"&gt;dialectical tension&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;Some earlier posts on Truchet tiles:&lt;/i&gt;&lt;br /&gt;
+&lt;a href="http://www.mathrecreation.com/2017/04/truchet-en-plus.html"&gt;&lt;i&gt;truchet en plus&lt;/i&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;a href="http://www.mathrecreation.com/2017/03/truchet-tiles.html"&gt;&lt;i&gt;truchet tiles&lt;/i&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2017-10-02T19:14:42.674Z</blogger:created>
+    <published>2017-10-04T01:53:00Z</published>
+    <updated>2017-10-05T02:27:03.658Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2017/10/a-truchet-puzzle-mystery.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

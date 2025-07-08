@@ -1,0 +1,42 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-385114831934901011</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Appolonian Gaskets and Ford Circles</title>
+    <content type='html'>At first I didn't want to read the latest issue of &lt;a href="http://www.americanscientist.org/"&gt;American Scientist&lt;/a&gt; - &lt;a href="http://bit-player.org/"&gt;Brian Hayes&lt;/a&gt;, the regular author of the &amp;nbsp;"Computing Science"&amp;nbsp;column&amp;nbsp;is currently on sabbatical, and his articles are my usual motivation for reading AS.  It turns out that Dana Mackenzie has provided &lt;a href="http://www.americanscientist.org/issues/pub/2010/1/a-tisket-a-tasket-an-apollonian-gasket"&gt;a really nice article&lt;/a&gt; in Brian's absence. Writing about &lt;a href="http://en.wikipedia.org/wiki/Apollonian_gasket"&gt;Apollonian Gaskets&lt;/a&gt;,&amp;nbsp;as usual for this column (which is about &lt;i&gt;computing&lt;/i&gt;, but not necessarily &lt;i&gt;computers&lt;/i&gt;), Dana&amp;nbsp;Mackenzie's article combines elements of recreational mathematics, physics, and, of course, computing science.&lt;br /&gt;
+&lt;br /&gt;
+One of the particular Apolonian-ish gaskets that the article mentioned (one involving a circle with zero curvature - a straight line) is even more fundamental to Number Theory than the article indicated - the circles that are tangent to the line in the diagram below are the sequence of &lt;a href="http://en.wikipedia.org/wiki/Ford_circle"&gt;Ford Circles&lt;/a&gt; that can be thought of as representations of the &lt;a href="http://en.wikipedia.org/wiki/Farey_sequence"&gt;Farey Sequence&lt;/a&gt;. &lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJEB1fFgwI9-7RQ6OHbKp_KOjR9qvxujOTbliGEhg3s9_8Pd8bjqL-5_s58nQPKjgPQdwkFDumCevawN-nzlqFJ-zqBzT-xQLtmpGI9lFHSXhfuK5E5RJ4NI_qN4DGSK-ZFmrS-eObtciv/s1600-h/gasket2.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJEB1fFgwI9-7RQ6OHbKp_KOjR9qvxujOTbliGEhg3s9_8Pd8bjqL-5_s58nQPKjgPQdwkFDumCevawN-nzlqFJ-zqBzT-xQLtmpGI9lFHSXhfuK5E5RJ4NI_qN4DGSK-ZFmrS-eObtciv/s320/gasket2.jpg" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
+I haven't yet had the chance to really find out, but I am thinking that some of the the general Appolonian circle formulas that Mackenzie discusses in his article can be shown to be consequences of the &lt;a href="http://en.wikipedia.org/wiki/Mediant_(mathematics)"&gt;mediant&lt;/a&gt;&amp;nbsp;formula in this "Ford Circle" case. &lt;br /&gt;
+&lt;br /&gt;
+I tried to recreate the Ford Circle component of the nice diagram above in &lt;a href="http://processing.org/"&gt;Processing&lt;/a&gt;, but my limited skills in this area lead to the numbers (that represent the curvature of the circles) being somewhat off center and not so well-sized. &lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNcTi8BSozzGTwma11b61paRDW0o1pBOYiubjS_lfzYy8v8i2l7c7xavWATiSen32LkE3xnI7cNlB_U_F8sbcZnc7RouUiTq_BaZioAU19_hrW7Vcq8Geg2z2j2nCyP0jc78NG2jyl5Iep/s1600-h/ford_with_numbers.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNcTi8BSozzGTwma11b61paRDW0o1pBOYiubjS_lfzYy8v8i2l7c7xavWATiSen32LkE3xnI7cNlB_U_F8sbcZnc7RouUiTq_BaZioAU19_hrW7Vcq8Geg2z2j2nCyP0jc78NG2jyl5Iep/s320/ford_with_numbers.jpg" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
+I prefer the version below that does not display the numbers - if the applet loads properly, clicking on the applet-area will cause a new generation of the Farey sequence / Ford circles to be drawn (plus and minus keys give a primitive zoom).&lt;br /&gt;
+&lt;div style="text-align: center;"&gt;&lt;div id="ford_circles_container"&gt;&lt;br /&gt;
+&lt;object archive="http://sites.google.com/site/mathrecreation/Home/farey1.jar" classid="java:farey1.class" height="200" standby="Loading Processing software..." type="application/x-java-applet" width="400"&gt; &lt;param value="http://sites.google.com/site/mathrecreation/Home/farey1.jar" name="archive"/&gt;&lt;param value="true" name="mayscript"/&gt;&lt;param value="true" name="scriptable"/&gt;&lt;param value="http://sites.google.com/site/mathrecreation/processing/loading.gif" name="image"/&gt;&lt;param value="Loading Processing software..." name="boxmessage"/&gt;&lt;param value="#FFFFFF" name="boxbgcolor"/&gt;&lt;param value="outer" name="test_string"/&gt;&lt;!--&lt;![endif]--&gt; &lt;object classid="clsid:8AD9C840-044E-11D1-B3E9-00805F499D93" standby="Loading Processing software..." width="400" codebase="http://java.sun.com/update/1.5.0/jinstall-1_5_0_15-windows-i586.cab" height="200"&gt; &lt;param value="randomwalkers" name="code"/&gt;&lt;param value="http://sites.google.com/site/mathrecreation/Home/farey1.jar" name="archive"/&gt;&lt;param value="true" name="mayscript"/&gt;&lt;param value="true" name="scriptable"/&gt;&lt;param value="http://sites.google.com/site/mathrecreation/processing/loading.gif" name="image"/&gt;&lt;param value="Loading Processing software..." name="boxmessage"/&gt;&lt;param value="#FFFFFF" name="boxbgcolor"/&gt;&lt;param value="inner" name="test_string"/&gt;&lt;p&gt;&lt;strong&gt; This browser does not have a Java Plug-in. &lt;a href="http://java.sun.com/products/plugin/downloads/index.html" title="Download Java Plug-in"&gt;Get the latest Java Plug-in here.&lt;/a&gt; &lt;/strong&gt;&lt;/p&gt;&lt;/object&gt; &lt;!--[if !IE]&gt; --&gt; &lt;/object&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;
+As Mackenzie mentions, "the whole gasket is like a kaleidoscopic image of the first four circles, reflected again and again through an infinite collection of curved mirrors." Which might convince you to do some experiments with kaleidoscopes - if so, you might want to check out &lt;a href="http://maxwelldemon.com/2010/01/25/reflections-in-spheres/"&gt;this recent post at Maxwell's Demon&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+Some earlier blog posts on Farey sequences and Ford circles are &lt;a href="http://mathrecreation.blogspot.com/2009/02/farey-ford-fathom.html"&gt;here&lt;/a&gt; and &lt;a href="http://mathrecreation.blogspot.com/2009/02/farey-definition-property-and-algorithm.html"&gt;here&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Update&lt;/b&gt;: Please check out the great post &lt;a href="http://blog.wolfram.com/2010/06/16/the-circles-of-descartes/"&gt;The Circles of Descartes&lt;/a&gt; on the &lt;a href="http://blog.wolfram.com/"&gt;Wolfram blog&lt;/a&gt;.</content>
+    <blogger:metaDescription/>
+    <blogger:created>2010-01-30T03:42:36.687Z</blogger:created>
+    <published>2010-01-30T03:48:00Z</published>
+    <updated>2011-09-11T02:01:07.995Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='numbers'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='farey'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='Processing'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='fractals'/>
+    <blogger:filename>/2010/01/appolonian-gaskets-and-ford-circles.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

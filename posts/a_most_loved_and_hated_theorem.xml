@@ -1,0 +1,40 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-2325059426279109780</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>a most loved and hated theorem</title>
+    <content type='html'>&lt;div style="text-align: center;"&gt;&lt;i&gt;There is a concept which corrupts and upsets all others. I refer not to Evil, whose limited realm is that of ethics; I refer to the Infinte.&lt;/i&gt;&lt;/div&gt;&lt;div style="text-align: right;"&gt;- Jorge Luis Borges, Avatars of the Tortoise&lt;/div&gt;&lt;div style="text-align: right;"&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;i&gt;Young man, in mathematics you don't understand things. You just get used to them.&lt;/i&gt;&lt;/div&gt;&lt;div style="text-align: right;"&gt;- John von Neumann&lt;/div&gt;&lt;br /&gt;
+There have been a lot of nice posts recently about favorite theorems (at &lt;a href="http://function-of-time.blogspot.com/2009/12/my-favorite-theorem.html"&gt;f(t)&lt;/a&gt;, &lt;a href="http://sumidiot.wordpress.com/2009/11/30/a-favorite-theorem/"&gt;SumIdiot&lt;/a&gt;, and&amp;nbsp;&lt;a href="http://researchinpractice.wordpress.com/2010/01/09/favorite-theorems/"&gt;Research in Practice&lt;/a&gt;, for example).&lt;br /&gt;
+&lt;br /&gt;
+I found it interesting that one of them (Kate Nowak of f(t)'s favorite), the &lt;a href="http://en.wikipedia.org/wiki/Uncountable_set"&gt;uncountability&lt;/a&gt; of the &lt;a href="http://en.wikipedia.org/wiki/Real_number"&gt;Real Numbers&lt;/a&gt; via &lt;a href="http://en.wikipedia.org/wiki/Cantor's_diagonal_argument"&gt;Cantor's Diagonalization Argument&lt;/a&gt;, also seems to be one of some people's most &lt;i&gt;hated &lt;/i&gt;theorems.&lt;br /&gt;
+&lt;br /&gt;
+Witness &lt;a href="http://scienceblogs.com/goodmath/2009/12/another_cantor_crank_represent.php"&gt;the raging debate that ensued&lt;/a&gt; just a short while ago when Mark CC of &lt;a href="http://scienceblogs.com/goodmath"&gt;Good Math,  Bad Math&lt;/a&gt; did the public service of explaining why a recent Cantor-denier crank was mistaken. More recently, over at &lt;a href="http://rjlipton.wordpress.com/"&gt;P=NP&lt;/a&gt; there is &lt;a href="http://rjlipton.wordpress.com/2010/01/20/are-the-reals-really-uncountable/"&gt;an excellent post&lt;/a&gt; about Cantor's diagonal method that is also generating plenty of comments.&lt;br /&gt;
+&lt;br /&gt;
+Cranks aside, a good number of smart people have been troubled by Cantor's argument, and how it is used. &lt;a href="http://en.wikipedia.org/wiki/Ludwig_Wittgenstein"&gt;Ludwig Wittgenstein&lt;/a&gt; was not a Cantor denier, but my reading of his &lt;b&gt;Remarks on the Foundations of Mathematics&lt;/b&gt; is that he felt that the way that we talk about the results of the argument causes us to skirt close to mathematical and linguistic nonsense.  Wittgenstein refers to the diagonalization method as a "puffed up proof" because people claim that it shows more than it really does - to him, it shows us that "the concept real number has much less analogy with the concept natural number than we, being mislead by certain analogies, are inclined to believe" and that we are further mislead to believe that it reveals&amp;nbsp;a property of the set of real numbers, rather than a limitation of the concept of "set." Wittgenstein put much greater limitations on mathematical discourse (and on sets) than most practicing mathematicians would, but his discomfort at the idea of 'larger' infinities should be noted, and we should realize that others who share this discomfort are in good company.&lt;br /&gt;
+&lt;br /&gt;
+Cantor's diagonal argument is certainly one of my favorites, and over time I've come to appreciate it more as I have slowly understood (or gotten used to) its centrality to a surprising ecosystem of theorems and proofs that include the &lt;a href="http://en.wikipedia.org/wiki/Halting_problem"&gt;undecidability of the Halting Problem&lt;/a&gt; (which I think gets a vote for one of my &amp;nbsp;favorite theorems, whichever proof you use), &lt;a href="http://en.wikipedia.org/wiki/Fixed_point_theorem"&gt;fixed point theorems&lt;/a&gt;, &lt;a href="http://en.wikipedia.org/wiki/G%C3%B6del's_incompleteness_theorems"&gt;Godel's incompleteness theorem&lt;/a&gt;, and &lt;a href="http://en.wikipedia.org/wiki/Russell's_paradox"&gt;Russell's paradox&lt;/a&gt;. (There is an interesting and accessible development of Cantor's diagonal argument in the context of fixed point theorems via category theory in the book &lt;a href="http://www.cambridge.org/us/catalogue/catalogue.asp?isbn=9780521478175"&gt;Conceptual Mathematics&lt;/a&gt; by Lawvere and Schanuel; the less accessible version of the same &lt;a href="http://www.tac.mta.ca/tac/reprints/articles/15/tr15abs.html"&gt;is here&lt;/a&gt;.)&lt;br /&gt;
+&lt;br /&gt;
+We can gain a lot of perspective on the Cantor-haters by reading an interesting paper by Wilfrid Hodges (mentioned by Richard Lipton of the P=NP blog). Hodges recounts his experience fielding dozens of papers attacking Cantor's diagonal argument while he was a journal editor. (Hodges paper is in &lt;a href="http://go2.wordpress.com/?id=725X1342&amp;amp;site=rjlipton.wordpress.com&amp;amp;url=http%3A%2F%2Fwww.math.ucla.edu%2F~asl%2Fbsl%2F0401%2F0401-001.ps"&gt;postscript here&lt;/a&gt;, and&amp;nbsp;&lt;a href="http://sites.google.com/site/mathrecreation/Home/hopeless_cantor.pdf"&gt;here is a pdf&lt;/a&gt;.)&lt;br /&gt;
+&lt;br /&gt;
+An observation by Mark CC &amp;nbsp;in his post, mentioned above, is also noted by Hodges: "many of our authors failed to realize that to attack an argument, you must find something wrong in it. Several authors believed that you can avoid a proof simply by doing something else." Or as Mark puts it: "You can't refute Cantor's proof using an enumeration without addressing Cantor's proof. This is just yet another stupid attempt to refute Cantor without bothering to actually understand it."&lt;br /&gt;
+&lt;br /&gt;
+But why do some people react so badly to the non-countability of the Reals via Cantor's diagonalization method? Perhaps it is the same reason that some react to it so favorably. Hodges suggests:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div style="text-align: center;"&gt;&lt;i&gt;It's nothing more than a guess, but I do guess that the problem with Cantor's argument is as follows. This argument is often the first mathematical argument that people meet in which the conclusion bears no relation to anything in their practical experience or their visual imagination... and even now we accept it because it is proved, not for any other reason.&lt;/i&gt;&lt;/div&gt;&lt;br /&gt;
+It seems that we are often limited in our appreciation of what mathematics can prove, how proof works, and what we should expect to completely comprehend. Cantor's argument tests the limits of all of these, and sometimes we don't pass the test.</content>
+    <blogger:metaDescription/>
+    <blogger:created>2010-01-22T02:37:31.293Z</blogger:created>
+    <published>2010-01-22T03:43:00Z</published>
+    <updated>2011-09-11T02:01:07.966Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <blogger:filename>/2010/01/most-loved-and-hated-theorem.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

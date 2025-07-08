@@ -1,0 +1,39 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-9010870810348245455</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>a fractal family</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitTHlfjMIEp6Nx70G-8nxl_oWewtdgPNqoN8Pn1yqAmo-hNwR7bLeFY7U5ELWvm8qeTa_0EV-mJPlH4nA5_rKccsJldT-L8GcaT73iFc268t5lSbrBJ5KdGEyoGIdJdkpA0f_Q7wyeR-Q/s1600/frac0_1280.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="365" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitTHlfjMIEp6Nx70G-8nxl_oWewtdgPNqoN8Pn1yqAmo-hNwR7bLeFY7U5ELWvm8qeTa_0EV-mJPlH4nA5_rKccsJldT-L8GcaT73iFc268t5lSbrBJ5KdGEyoGIdJdkpA0f_Q7wyeR-Q/s400/frac0_1280.jpg" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+These fractals were generated in a way similar to the &lt;a href="http://www.mathrecreation.com/2012/02/better-late-than-never-mandelbrot-set.html"&gt;Mandelbrot set&lt;/a&gt;. For the Mandelbrot set, you use the recursive formula z_{n+1} = z_n^2 +c, where z_0 is 0 and c is an element of C. As you input c values, and perform the recursion, if the magnitudes of the results get big they are not in the set, if they stay small, they are.&lt;br /&gt;
+&lt;br /&gt;
+For these, a similar recursive formula&amp;nbsp;z_{n+1} = a (z_n^2) + c is used, except z_0 is your input value, &lt;i&gt;a&lt;/i&gt; is a real number, and &lt;i&gt;c&lt;/i&gt; is a constant complex number. Different values for&lt;i&gt; a&lt;/i&gt; and &lt;i&gt;c&lt;/i&gt; yield different fractals. As with the Mandelbrot set, initial values (z_0 in this case) are in the set if the recursion stays bounded.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUDpJQuTgqRCrCN0mI02jUutGhQfbg1gYYkND2-1WlWG-iLXPt_QWfDIoyq-kZj0xYBivin61wILHHjhLUwEPF_hGSOQFIt2zJDr8cRPGTMLds9QbT726BeJvy5RAm_Dbrldl835cag8A/s1600/frac3_1280.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="357" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUDpJQuTgqRCrCN0mI02jUutGhQfbg1gYYkND2-1WlWG-iLXPt_QWfDIoyq-kZj0xYBivin61wILHHjhLUwEPF_hGSOQFIt2zJDr8cRPGTMLds9QbT726BeJvy5RAm_Dbrldl835cag8A/s400/frac3_1280.jpg" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjKIarxcBin7kwRjDe1gzsHIq6U3aZjjZJI3-_3xLiGH3OoyFgVau9UracO-giCGmGziXPSmYOGdCFrm0urSyf9YCurSMvrPVeKde8j_0uV1r43GEOZQMU4k1ni2D0IqfdID3G7mTi0Qk/s1600/frac1_1280.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="378" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjKIarxcBin7kwRjDe1gzsHIq6U3aZjjZJI3-_3xLiGH3OoyFgVau9UracO-giCGmGziXPSmYOGdCFrm0urSyf9YCurSMvrPVeKde8j_0uV1r43GEOZQMU4k1ni2D0IqfdID3G7mTi0Qk/s400/frac1_1280.jpg" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+My favorite so far is this last one - when I look at it, there seems to be a slight optical illusion in play that makes the dark centers seem to grow slightly as you look at the picture. In all these images, points that stayed small for more iterations are darker.&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKMD38Ag0EIXmDl08otjSZ3AmVnT4PwhIF6JQWiL_oMW85oxDHAGNU-0OGG7zyfU5T-VpIv7dgXfutWZHxr-x4uhNh2LC5_SV8b8RNlf3yv9qHiJiE5fWhyxtnLDyvjJI-3-FpmWHC71w/s1600/frac2_1280.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="360" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKMD38Ag0EIXmDl08otjSZ3AmVnT4PwhIF6JQWiL_oMW85oxDHAGNU-0OGG7zyfU5T-VpIv7dgXfutWZHxr-x4uhNh2LC5_SV8b8RNlf3yv9qHiJiE5fWhyxtnLDyvjJI-3-FpmWHC71w/s400/frac2_1280.jpg" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2012-02-15T20:37:59.217Z</blogger:created>
+    <published>2012-02-15T20:50:00Z</published>
+    <updated>2012-06-07T01:02:27.416Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='mathematics'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='fractals'/>
+    <blogger:filename>/2012/02/fractal-family.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

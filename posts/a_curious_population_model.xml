@@ -1,0 +1,48 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-5831823067641486388</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>a curious population model</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEir7vK_6WuAWvWLWRrbl6iMRToFOUGrZJ86klas625V1lGLfhEt1yNmCrYG2U4tW8u_nVw8zQEp54ww3r51mOjFBlDCX3yVBeC23ySlQO-rZE4_vWDNnrSYDEmq83OC7tdgUprChQOM9Pmy/s1600-h/curious.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEir7vK_6WuAWvWLWRrbl6iMRToFOUGrZJ86klas625V1lGLfhEt1yNmCrYG2U4tW8u_nVw8zQEp54ww3r51mOjFBlDCX3yVBeC23ySlQO-rZE4_vWDNnrSYDEmq83OC7tdgUprChQOM9Pmy/s320/curious.jpg" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;br /&gt;
+Dave Richeson of &lt;a href="http://divisbyzero.com/"&gt;Division by Zero&lt;/a&gt; has recently posted &lt;a href="http://divisbyzero.com/2009/12/02/applet-for-discrete-dynamical-systems/"&gt;a very nice GeoGebra applet&lt;/a&gt; for the interesting &lt;a href="http://en.wikipedia.org/wiki/Logistic_map"&gt;discrete logistic equation&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+\[p(n + 1) = Mp(n)(1 - p(n))\]&lt;br /&gt;
+The discrete logistic equation is a simple model of population growth within a closed environment. &lt;i&gt;p&lt;/i&gt;(&lt;i&gt;n&lt;/i&gt;) is a decimal between 0 and 1 representing the fraction of the maximum population that has been reached (initial seed value of &lt;i&gt;p&lt;/i&gt;(0) = 0.001), and&amp;nbsp;&lt;i&gt;M&lt;/i&gt; is the "&lt;a href="http://en.wikipedia.org/wiki/Thomas_Robert_Malthus"&gt;Malthus&lt;/a&gt; factor" a multiplier that represents the fertility of the population (value between 1 and 4). Different values of &lt;i&gt;M&lt;/i&gt; determine whether the population dies out, achieves a stable level, or&amp;nbsp;fluctuates.&lt;br /&gt;
+&lt;br /&gt;
+This simple discrete dynamical system is also easy to implement and explore in &lt;a href="http://www.keypress.com/x5656.xml"&gt;Fathom&lt;/a&gt;. You only need a slider (for the &lt;i&gt;M&lt;/i&gt; value) and a couple attributes (you may want to add others as you explore).&lt;br /&gt;
+&lt;br /&gt;
+1. In a new Fathom document, create a slider &lt;b&gt;M&lt;/b&gt;&lt;br /&gt;
+2. Add a new Collection, and create an attribute &lt;b&gt;generation&lt;/b&gt;, and an attribute &lt;b&gt;population&lt;/b&gt;.&lt;br /&gt;
+3. Provide this formula for generation: &lt;b&gt;caseIndex - 1&lt;/b&gt;&lt;br /&gt;
+4. Provide this formula for population: &lt;b&gt;if (generation=1){0.001, M*prev(population)*(1-prev(population))&lt;/b&gt;&lt;br /&gt;
+5. Add cases in to represent the generations of the population (say 20 or so)&lt;br /&gt;
+6. Create a graph with population as the &lt;i&gt;y&lt;/i&gt; attribute and generations as the&lt;i&gt; x&lt;/i&gt; attribute&lt;br /&gt;
+7. Explore how the graph changes as M varies between 0 and 4.&lt;br /&gt;
+&lt;br /&gt;
+An example Fathom file is &lt;a href="http://sites.google.com/site/mathrecreation/Home/logistic_population.ftm"&gt;here&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+When the population is stable, you have a nice curve like one below.&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtzspJfh5pLasc8dv_U9e_gb5aficv1IC8d133LKTB2rqp8GeNhucIFRIhR0POXejfPg1d-df2mYFp6gcqAejS2uHJ91wMKGBdoM14hkpiUQ2ktl_tEywKm2b4NoCJyQYTdgoHZegEbkLB/s1600-h/stable.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtzspJfh5pLasc8dv_U9e_gb5aficv1IC8d133LKTB2rqp8GeNhucIFRIhR0POXejfPg1d-df2mYFp6gcqAejS2uHJ91wMKGBdoM14hkpiUQ2ktl_tEywKm2b4NoCJyQYTdgoHZegEbkLB/s320/stable.jpg" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;br /&gt;
+When the Malthus factor is higher, the population becomes less stable - overcrowding and then dying back. &lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpnCGIghHVnyffXWAMASloegFpPB3aJoysTei7cX0zNvGAxYqXw_3XKWeaG9_diHlpKNjXiPBncTjuM3We9Sp5D2Hgm5SsZUxnZwHNDyIXmj2lEYXE7MAXDixa_SBNUygDZWAMQmRibijB/s1600-h/oscillate.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpnCGIghHVnyffXWAMASloegFpPB3aJoysTei7cX0zNvGAxYqXw_3XKWeaG9_diHlpKNjXiPBncTjuM3We9Sp5D2Hgm5SsZUxnZwHNDyIXmj2lEYXE7MAXDixa_SBNUygDZWAMQmRibijB/s320/oscillate.jpg" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;br /&gt;
+This population model is mentioned in Mark Haddon's, &lt;a href="http://en.wikipedia.org/wiki/The_Curious_Incident_of_the_Dog_in_the_Night-time"&gt;The Curious Incident of the Dog in the Night-time&lt;/a&gt;, whose protagonist is a young mathematician with &lt;a href="http://www.markhaddon.com/aspergers-and-autism"&gt;some behavioural difficulties&lt;/a&gt;. See the MAA online review of the book &lt;a href="http://www.maa.org/reviews/dogincident.html"&gt;here&lt;/a&gt;, which includes pointers to other places to learn about the logistic equation.</content>
+    <blogger:metaDescription/>
+    <blogger:created>2009-12-03T03:38:41.678Z</blogger:created>
+    <published>2009-12-03T03:48:00Z</published>
+    <updated>2011-09-11T02:01:20.827Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='Fathom'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <blogger:filename>/2009/12/curious-population-model.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

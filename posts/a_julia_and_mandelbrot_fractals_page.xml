@@ -1,0 +1,35 @@
+<>
+  <entry>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-5374940425147589991</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>a julia and mandelbrot fractals page</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimpKJvgKcJBQ_Y0rWDrYX4xy2JUXjF3xuYOou2gnwibYlcCqUHvdeknxL-qYEHyxwNBVw6IpD0wtFtCssLzxZlCEvEm0exIRGtcDDoP30iG4QveYm-flfOQBzG28IOUp8uf6XFN1si1to/s1600/julia-dendrite.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="362" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimpKJvgKcJBQ_Y0rWDrYX4xy2JUXjF3xuYOou2gnwibYlcCqUHvdeknxL-qYEHyxwNBVw6IpD0wtFtCssLzxZlCEvEm0exIRGtcDDoP30iG4QveYm-flfOQBzG28IOUp8uf6XFN1si1to/s400/julia-dendrite.png" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;i&gt;A Julia dendrite&lt;/i&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+A few years back, I posted about generating &lt;a href="http://www.mathrecreation.com/2012/02/better-late-than-never-mandelbrot-set.html"&gt;my first image of a Mandelbrot set&lt;/a&gt; using Processing. I decided to do it again, mostly to get some more JavaScript practice. So now a page that generates some Mandelbrot and Julia set fractals is available &lt;a href="https://dmackinnon1.github.io/cplxfrac/"&gt;here&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSh2iGN_zOIBIbJzfu0VJMY6u_DvXuikmEzHYMe1KMILuxAiA7cj3-zTRvxgasRGkIWXd3Eh_AXSAPRz41IJSJq4SGbKIPbwKGmDcq0YTJjoyTq3za7r_BFjfsFBpcH4la-cDYP526rFk/s1600/julia_1.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="301" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSh2iGN_zOIBIbJzfu0VJMY6u_DvXuikmEzHYMe1KMILuxAiA7cj3-zTRvxgasRGkIWXd3Eh_AXSAPRz41IJSJq4SGbKIPbwKGmDcq0YTJjoyTq3za7r_BFjfsFBpcH4la-cDYP526rFk/s400/julia_1.png" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;AnotherJulia set fractal&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+The fractals are generated almost exactly as described in that earlier post. The only difference is the JavasScript and HTML infrastructure. Source is &lt;a href="https://github.com/dmackinnon1/cplxfrac"&gt;here&lt;/a&gt; for the curious.</content>
+    <blogger:metaDescription/>
+    <blogger:created>2017-01-18T17:26:34.487Z</blogger:created>
+    <published>2017-01-18T17:45:00.001Z</published>
+    <updated>2017-01-18T17:45:21.513Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2017/01/a-julia-and-mandelbrot-fractals-page.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

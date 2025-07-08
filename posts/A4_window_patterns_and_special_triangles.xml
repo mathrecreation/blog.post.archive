@@ -1,0 +1,57 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-6161578583193662682</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>A4 window patterns and special triangles</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIbNQz8l0g_4JKu9fFoa_-LWE6XBk1-1LsxY12S8KKCFubAZKewWyR0TK7xkLcvJm8Ae1BJnlZ7iO-Bq7cuXw-GWeMQ5lNBiSDjbPFkA7G5kq21d2f5ZeeTEmPe21iRKYlE5QJqXDlbag/s1600/a4-hex-star.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIbNQz8l0g_4JKu9fFoa_-LWE6XBk1-1LsxY12S8KKCFubAZKewWyR0TK7xkLcvJm8Ae1BJnlZ7iO-Bq7cuXw-GWeMQ5lNBiSDjbPFkA7G5kq21d2f5ZeeTEmPe21iRKYlE5QJqXDlbag/s1600/a4-hex-star.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+A &lt;a href="http://www.mathrecreation.com/2011/11/butterflies-bus-transfers-cotangents.html"&gt;short while ago&lt;/a&gt; I mentioned that A4 paper has nice proportions - it's a silver rectangle, which means that the ratio of its long side to its short side is sqrt(2). Because of their nice proportions, silver rectangles can be used to construct &lt;a href="http://en.wikipedia.org/wiki/Special_right_triangles"&gt;special triangles&lt;/a&gt;&amp;nbsp;that we know and love from trigonometry.&lt;br /&gt;
+&lt;br /&gt;
+One nice way to note the angles in these triangles is to form &lt;a href="http://www.mathrecreation.com/2008/09/window-patterns.html"&gt;window patterns&lt;/a&gt;&amp;nbsp;based on&amp;nbsp;them - these are shapes made from overlapping pieces of paper that have been rotated according to a rule. The term window pattern comes from &lt;a href="http://www.cyffredin.co.uk/"&gt;William Gibbs&lt;/a&gt; - so named because if you put them up in a window, the light shining through the different layers of paper reveals additional patterns and shapes.&lt;br /&gt;
+&lt;br /&gt;
+Here's one example of the special-triangle-window-pattern process. Start with an A4 or similarly proportioned rectangle, and find the midpoint of one of the shorter sides (by folding the paper, for example).&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdKQFidi4KseBrSE-RW2SJbZuula52OywOY8WC-4B52tovUEtG4hYdsbSPMkZuHqqUEftWkznCmdS0sSehTJu3hxKDiGOcd0o4VNbOLIlDjyUsdJOnVkhI4MfZS3Lw-n8pxKbUL6IOkjo/s1600/a4-centerdot.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdKQFidi4KseBrSE-RW2SJbZuula52OywOY8WC-4B52tovUEtG4hYdsbSPMkZuHqqUEftWkznCmdS0sSehTJu3hxKDiGOcd0o4VNbOLIlDjyUsdJOnVkhI4MfZS3Lw-n8pxKbUL6IOkjo/s1600/a4-centerdot.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+Now take a second rectangle &amp;nbsp;the same size, and place it so that one vertex lines up with the midpoint drawn, and the other vertex along the same short side of the second rectangle touches the long side of the first. It's easier to see this in a picture:&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMZtzb7MdK41giN_zX2hMqZKnV2pAHG7DAEFb7-dqweVwuOvng_MQ1vn5zyQaVySZw76gUhTH4XL5ERuyYzyDUsBUrSV0dGR17Wur4QdpSiU3szNYUcr_Yn_FrtsZfrfrO-k10zUwh2Tg/s1600/A4-2sheets.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMZtzb7MdK41giN_zX2hMqZKnV2pAHG7DAEFb7-dqweVwuOvng_MQ1vn5zyQaVySZw76gUhTH4XL5ERuyYzyDUsBUrSV0dGR17Wur4QdpSiU3szNYUcr_Yn_FrtsZfrfrO-k10zUwh2Tg/s1600/A4-2sheets.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+By doing this, you've constructed the tricky length of sqrt(3)/2 and built the 30-60-90 (pi/6, pi/3, pi/2) triangle. You can confirm that the angle that you've formed a 60 degree triangle by repeating the process and finding that you come "full circle" after 6 pieces of paper (360/6 = 60).&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEil3L1Pzg-GnXMnX_SCHMg6JksPkcifrIm6AtswN3jRcYavz-c6_lZYXu6nXi__sWZypP3yJDuKfgrxxfnP0ILT5NRPdb8F_29AEs3VHbnYSOovCbRTjB_hl8Gj-NlYIgj5aPyKIu7x2oU/s1600/a4-hex-wreath.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEil3L1Pzg-GnXMnX_SCHMg6JksPkcifrIm6AtswN3jRcYavz-c6_lZYXu6nXi__sWZypP3yJDuKfgrxxfnP0ILT5NRPdb8F_29AEs3VHbnYSOovCbRTjB_hl8Gj-NlYIgj5aPyKIu7x2oU/s320/a4-hex-wreath.JPG" width="301" /&gt;&lt;/a&gt;&lt;/div&gt;
+If you change the first placement a bit so that the second rectangle lies mostly across the interior of the first, you get the pattern at the top of the post.&lt;br /&gt;
+&lt;br /&gt;
+These are nice patterns, but they don't actually use the special properties of A4 (you could do a similar thing with square or letter paper). A little more complicated placing of one rectangle over the other can allow you to create a right triangle with one leg equal to 1 and the other equal to sqrt(2)-1. This is not one of your "standard" special triangles, but it is special in that it allows you to calculate exact values of certain angles (which angles, we'll find out when we complete our pattern).&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJMf5oeRPOoox1md3Z2aeKDdWRuGxkhHnPWDWer7C6DRou1Ss7tfeDLfvvOGHKt6QlLSQro2xaTJ-Zhvba1sHoqLjzTo1CHaQ7bSoUsJqfVN-yfDUKSMSQ92ZiwCIesq0lJhITc7WyaHY/s1600/extra-special.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="166" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJMf5oeRPOoox1md3Z2aeKDdWRuGxkhHnPWDWer7C6DRou1Ss7tfeDLfvvOGHKt6QlLSQro2xaTJ-Zhvba1sHoqLjzTo1CHaQ7bSoUsJqfVN-yfDUKSMSQ92ZiwCIesq0lJhITc7WyaHY/s320/extra-special.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Here's what the placement looked like that constructed this triangle. I'm afraid that text instructions for the placement would be just too much for this post - maybe you can figure out how it is done from the diagram :).&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMgx6VfqAmzgWK8-cTqjH3zbiDZLOxENshKNygMqqzlbYxPTfUrCLPR2ccusfxFd3G0v5mb_axwQfn6j0Ho7QLfSN9Pw-6f43gpTqdOoaXCbg9kDqUB39zEYLRqDMRfL8Yxw72kXTJ5BQ/s1600/placement-pi8.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMgx6VfqAmzgWK8-cTqjH3zbiDZLOxENshKNygMqqzlbYxPTfUrCLPR2ccusfxFd3G0v5mb_axwQfn6j0Ho7QLfSN9Pw-6f43gpTqdOoaXCbg9kDqUB39zEYLRqDMRfL8Yxw72kXTJ5BQ/s1600/placement-pi8.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+If you continue placing the rectangles, you will find that it takes 16 of them to come back to the start, which tells us that our triangle contains an angle of pi/8 or 22.5 degrees - the others are pi/2 (90) and 3pi/8 (67.5).&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuOYy8xwNs5K-qTJ2JQWD7wvkyPpJRKSXoIPXSy5kz0G09H8SE4oiMEb9oZmeHrlj2UqdC7Kj6NoOs7bcMOcWWz1uCMWkYYzSZP9qnKhNEQnz7yhdhqvWfpHUmMj_AIi4vVOkiVCf351A/s1600/16gon.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="317" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuOYy8xwNs5K-qTJ2JQWD7wvkyPpJRKSXoIPXSy5kz0G09H8SE4oiMEb9oZmeHrlj2UqdC7Kj6NoOs7bcMOcWWz1uCMWkYYzSZP9qnKhNEQnz7yhdhqvWfpHUmMj_AIi4vVOkiVCf351A/s320/16gon.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+So.. our new special triangle tells us, for example, that tan(pi/8) is equal to sqrt(2)-1 (what other exact values do we get?).&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2011-11-12T04:30:14.398Z</blogger:created>
+    <published>2011-11-12T04:30:00.001Z</published>
+    <updated>2011-11-12T06:07:43.445Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='mathematics'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='trigonometry'/>
+    <blogger:filename>/2011/11/a4-window-patterns-and-special.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

@@ -1,0 +1,47 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-5231861325524378139</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>a polynomial division calculator</title>
+    <content type='html'>Many visitors to this blog come to see the posts about dividing polynomials using the grid method (like &lt;a href="http://www.mathrecreation.com/2009/03/dividing-polynomials-grid-method.html"&gt;this one&lt;/a&gt;). &amp;nbsp;A &lt;a href="http://www.mathrecreation.com/2016/11/polynomial-grid-division-examples.html"&gt;while ago&lt;/a&gt;, I put up a page which generates examples that (hopefully) illustrate this method.&lt;br /&gt;
+&lt;br /&gt;
+Well, I am excited to say that the &lt;a href="https://dmackinnon1.github.io/polygrid/"&gt;examples page&lt;/a&gt; has been enhanced with the addition of a simple &lt;a href="https://dmackinnon1.github.io/polygrid/calc.html"&gt;calculator&lt;/a&gt;, which allows you to provide your own polynomials for dividing.&lt;br /&gt;
+&lt;br /&gt;
+This is not a sophisticated calculator - the polynomials you provide need to be in expanded form, and they have to be single variable polynomials using "x" for the variable - don't try to be fancy or tricky, please.&lt;br /&gt;
+&lt;br /&gt;
+For example, you may want to try something like this:&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6L3vSacr5yy_VX6z1fMQW5x1LkjTSPGY9GOL_80K2na9ssBqkgpgXnY3GqDZGVd_e6qX_ioHA06ujwTjepar5csfZRDTsZSY94Yk6qWuOG5hSNwMp4Sifh14ROpMB-1FOYKsltgE2PRk/s1600/input_poly.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="104" data-original-width="378" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6L3vSacr5yy_VX6z1fMQW5x1LkjTSPGY9GOL_80K2na9ssBqkgpgXnY3GqDZGVd_e6qX_ioHA06ujwTjepar5csfZRDTsZSY94Yk6qWuOG5hSNwMp4Sifh14ROpMB-1FOYKsltgE2PRk/s1600/input_poly.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+After you provide your polynomials, hitting the &lt;b&gt;calculate &lt;/b&gt;button will trigger the parser, that will let you know of any errors. If all goes well, you are prompted to have the calculator show the answer:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgE9CZyLpB54Os2rWK_ZIqL-naVjTe1qUpOvJQVKBXPIIWcJr4TY-IgHRyBKu3YiyM23tDVmX5V8tDrTcYfatvfG2MHyXA8W6o5PYuQiynFCsghqfaieLtGKzGJuvP7_kg6PzCElUKIVcM/s1600/input_poly_intermediat.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="163" data-original-width="365" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgE9CZyLpB54Os2rWK_ZIqL-naVjTe1qUpOvJQVKBXPIIWcJr4TY-IgHRyBKu3YiyM23tDVmX5V8tDrTcYfatvfG2MHyXA8W6o5PYuQiynFCsghqfaieLtGKzGJuvP7_kg6PzCElUKIVcM/s1600/input_poly_intermediat.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+If you click the &lt;b&gt;Show Answer&lt;/b&gt; button, the answer and the grid used for division is shown.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRfrIdA4lHXMncEqCXM6_0_tA7MkDNSV29dSCHKYf1WyqJh7_zYh6OVerqsMLmLpBGJLpvCyhpjxnXXKZj5mRseT-gby-xu8UtCPGlqV9VnkD4saM5_BL2b_CUIjljClS1puW3saHgMq8/s1600/poly_answer.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="422" data-original-width="338" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRfrIdA4lHXMncEqCXM6_0_tA7MkDNSV29dSCHKYf1WyqJh7_zYh6OVerqsMLmLpBGJLpvCyhpjxnXXKZj5mRseT-gby-xu8UtCPGlqV9VnkD4saM5_BL2b_CUIjljClS1puW3saHgMq8/s1600/poly_answer.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Finally, clicking on the &lt;b&gt;Show Additional Steps&lt;/b&gt; button will walk you through how the grid was filled in to obtain the answer.&lt;br /&gt;
+&lt;br /&gt;
+I hope that this page turns out to be helpful. Please let me know of any issues you run into when using it.&lt;br /&gt;
+&lt;b&gt;&lt;br /&gt;&lt;/b&gt;
+&lt;b&gt;Grid Division Calculator:&amp;nbsp;&lt;a href="https://dmackinnon1.github.io/polygrid/calc.html"&gt;dmackinnon1.github.io/polygrid/calc.html&lt;/a&gt;&lt;/b&gt;&lt;br /&gt;
+&lt;b&gt;&lt;br /&gt;&lt;/b&gt;
+&lt;b&gt;Grid Division Example Generator: &lt;a href="https://dmackinnon1.github.io/polygrid"&gt;dmackinnon1.github.io/polygrid&lt;/a&gt;&lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2017-09-15T17:46:00.678Z</blogger:created>
+    <published>2017-09-15T18:28:00.002Z</published>
+    <updated>2017-09-15T18:28:47.960Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2017/09/a-polynomial-division-calculator.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  
