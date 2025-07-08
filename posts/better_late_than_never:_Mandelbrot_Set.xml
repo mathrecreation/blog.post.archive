@@ -1,0 +1,189 @@
+<>
+  <entry>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-355112083041202378</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>better late than never: Mandelbrot Set</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-yxDP9ugC_8yoKQhtIWrjcznRfNHtMur7cdH09vUHwnsRYCoS3FtzS-_Vk4SRoxF0hbFDoBoj60bZNf0KgAOtbSFe3Eq6SAQqeMYu1KG8m4wScGRR0eI2q66YcmsDqJ7LC5EvRYwCDGs/s1600/mandelbrot-close1.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-yxDP9ugC_8yoKQhtIWrjcznRfNHtMur7cdH09vUHwnsRYCoS3FtzS-_Vk4SRoxF0hbFDoBoj60bZNf0KgAOtbSFe3Eq6SAQqeMYu1KG8m4wScGRR0eI2q66YcmsDqJ7LC5EvRYwCDGs/s400/mandelbrot-close1.jpg" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Although I have a math and computer science background, this (above) is my first attempt to draw the &lt;a href="http://en.wikipedia.org/wiki/Mandelbrot_set"&gt;Mandelbrot set&lt;/a&gt;. It seems overdue since plotting the set is such a well established computer-math project that it's almost cliche (there is so much online about this, but &lt;a href="http://mathmunch.wordpress.com/2011/11/20/math-craft-philippa-fawcett-and-mandelbrot/"&gt;this Math Munch article&lt;/a&gt; has some nice pointers). But if I am just finally getting around to this, then it's not too late for you too.&lt;br /&gt;
+&lt;br /&gt;
+So, if you haven't written a little program to draw the set yet, I strongly recommend it. There are lots of nice things to think about as you explore this, and very little of it has much to do with fractals - although having &lt;a href="http://en.wikipedia.org/wiki/Rorschach_test"&gt;that strange inkblot-like image&lt;/a&gt; appear at the end is the carrot, or&amp;nbsp;&lt;a href="http://www.fourmilab.ch/images/Romanesco/"&gt;cauliflower&lt;/a&gt;, that will motivate you along.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div&gt;
+I'll share my little program and explanations below. You can find or create much more slick and efficient code if you try. For example, you don't really need to know the magnitude of the complex points (the square of the magnitude is enough), and I'm sure my point generation isn't the best.&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;what are you plotting?&lt;/b&gt;&lt;br /&gt;
+I would guess that most students on the pre-calc train tend to think of plotting points almost exclusively in terms of single variable functions of real numbers. This is not one of those kinds of plots. Instead of (&lt;i&gt;x&lt;/i&gt;,&lt;i&gt;y&lt;/i&gt;) indicating &lt;i&gt;y&lt;/i&gt; = &lt;i&gt;f&amp;nbsp;&lt;/i&gt;(&lt;i&gt;x&lt;/i&gt;), we are plotting points belonging to&amp;nbsp;&lt;b&gt;C&lt;/b&gt;, and making them one colour if they belong to a particular set &lt;i&gt;M&lt;/i&gt;, and a different colour if they don't.&lt;br /&gt;
+&lt;br /&gt;
+To figure out whether a point is in &lt;i&gt;M&lt;/i&gt;, for every point that you consider, you need to construct a particular sequence - if that sequence stays bounded, then it is in &lt;i&gt;M&lt;/i&gt;, but if the sequence is unbounded it isn't in &lt;i&gt;M&lt;/i&gt;. The further you go in calculating your sequence, the more sure you are that your points are actually in the set.&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;some complex number stuff&lt;/b&gt;&lt;br /&gt;
+You don't need to write much code to implement the complex number operations that you need for this, but I'm partial to encapsulating this sort of thing in a general purpose class like this &lt;a href="http://processing.org/"&gt;Processing&lt;/a&gt; example:&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;class CPoint {&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp;float xvalue;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp;float yvalue;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp;float pointsize = 0.2;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp;CPoint(float x, float y){&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; xvalue = x;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; yvalue = y;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp;}&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp;CPoint sum(CPoint p){ &amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; return new CPoint(xvalue +p.xvalue, yvalue+ p.yvalue);&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp;}&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp;CPoint prod(CPoint p){&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; float newx = xvalue*(p.xvalue) - yvalue*(p.yvalue);&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; float newy = xvalue*(p.yvalue) + yvalue*(p.xvalue);&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; return new CPoint(newx, newy);&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp;}&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp;CPoint squared(){&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; &amp;nbsp;return this.prod(this);&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp;}&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp;float magnit(){&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; &amp;nbsp;float part = pow(xvalue,2) + pow(yvalue,2);&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; &amp;nbsp;return sqrt(part);&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp;}&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp;void display(float xshift, float yshift, float zoom) {&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; &amp;nbsp; fill(255,255);&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; &amp;nbsp; ellipse(xvalue*zoom + xshift, yvalue*zoom &amp;nbsp;+ yshift, pointsize, pointsize);&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; } &amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;}&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;
+The key item is the complex multiplication - this is what distinguishes a point in &lt;b&gt;C&lt;/b&gt; from one in&lt;b&gt; R&lt;/b&gt;^2.&lt;br /&gt;
+&lt;br /&gt;
+I have a like/dislike relationship with Processing - I like how quickly things can be created and that it makes &amp;nbsp;nice pictures without much effort, but I dislike how I can't seem to help breaking fundamental programming rules when using it (I end up using global variables, and always break model-view separation) - likely a personal problem, rather than a problem with Processing itself.&lt;br /&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;b&gt;determining if a point is in the set M&lt;/b&gt;&lt;br /&gt;
+You are going to be finding a sequence of points based on a special rule - if applying the special rule repeatedly causes the points to get too big, then they are out of the set. In addition to knowing the special rule, you also need to know "how big is too big" and "how many times will I apply the rule."&lt;br /&gt;
+&lt;br /&gt;
+The calculation is encapsulated in this other Processing class &lt;span style="font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace;"&gt;Map&lt;/span&gt;. Can you figure out what the rule is, and how you specify the "how big" and "how many" parts of the calculation?&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;class Map {&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp;CPoint c;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp;CPoint first;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp;CPoint current;&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; Map(CPoint initial, CPoint cValue){&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; &amp;nbsp;first = initial;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; &amp;nbsp;current = initial;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; &amp;nbsp;c = cValue;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; }&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; void iterate(){&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; &amp;nbsp; current = current.squared().sum(c);&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; }&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; boolean iterate(int iterations, int bound){ &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; &amp;nbsp; for(int i=0; i&amp;lt; iterations; i++){&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; this.iterate(); &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; if(current.magnit()&amp;gt;bound) break;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; &amp;nbsp; return (current.magnit() &amp;lt; bound);&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; }&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; void display(float xshift, float yshift, float zoom){&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; &amp;nbsp;c.display(xshift, yshift, zoom);&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; } &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;}&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+If you only calculate for a few iterations, some points that should not be in the set get included - after 5 iterations, you get something that looks like a &lt;a href="http://en.wikipedia.org/wiki/Skate"&gt;skate&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJvexMCuxI_p0tsL9dETXMMZiAdnjV6MeBMLuTyCTcTUMhK5UxiLB-Gwx7hldBMsHxhJWhJkVgZlNcdIpuLJawdRJCdh8fQQWFgk0YdChLl4yUvYVlV5vri_Z57NCcVW9T_yXB1wVp3Gc/s1600/mandel-5-iterations.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="295" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJvexMCuxI_p0tsL9dETXMMZiAdnjV6MeBMLuTyCTcTUMhK5UxiLB-Gwx7hldBMsHxhJWhJkVgZlNcdIpuLJawdRJCdh8fQQWFgk0YdChLl4yUvYVlV5vri_Z57NCcVW9T_yXB1wVp3Gc/s320/mandel-5-iterations.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+Having a somewhat less precise plot gives you funkier looking pictures than the crisper image that you get with more iterations. For this reason, people often include points not quite in the set in their pictures of the Mandelbrot set, and often use colour to show at which iteration a given point failed the membership test. These fuzzy pictures are really good examples of &lt;a href="http://en.wikipedia.org/wiki/Fuzzy_set"&gt;fuzzy sets&lt;/a&gt;&amp;nbsp;- where instead of set membership being true or false, it is a range of values indicating by what level the point failed to be in the actual set. The picture below was generated using 20 iterations.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRzHesRw6nBpzSKe_vzynCfsWSr6QCf5KMvWw2uBzmDHK7TZJfBf-fsAqYz09zLi8wMt9mv4-nJZdixRjD7E81zRzyghqmB6j1InJR_ono2lr9YhzKZjN5JyLv6ZOiOl8OP5u5urRlo1c/s1600/mandelbrot-20-iterations.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="377" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRzHesRw6nBpzSKe_vzynCfsWSr6QCf5KMvWw2uBzmDHK7TZJfBf-fsAqYz09zLi8wMt9mv4-nJZdixRjD7E81zRzyghqmB6j1InJR_ono2lr9YhzKZjN5JyLv6ZOiOl8OP5u5urRlo1c/s400/mandelbrot-20-iterations.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;b&gt;plotting the set&lt;/b&gt;&lt;br /&gt;
+The last thing you need to do is to set up your window, and generate your points. Here's the main Processing file that I used for this (no zoom or panning in this one - exercise left to the reader):&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;//various magic numbers&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;int windowX = 600;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;int windowY = 500;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;int iterations = 200;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;int zoom = 250;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;int disk = 2;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;int numberPoints = 100000;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;int randomRange = 100;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;float centerX = -0.5;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;float centerY = 0;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&lt;br /&gt;&lt;/span&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;//init&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;void setup() {&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; size(windowX, windowY);&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; noStroke();&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; smooth();&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; background(0);&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;}&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&lt;br /&gt;&lt;/span&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;void draw()&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;{&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; loop();&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; CPoint zero = new CPoint(0,0);&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; float x;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; float y;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; int signx = -1;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; int signy = -1;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; Map newMap;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; CPoint cPoint; &amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; for( int i=0; i &amp;lt; numberPoints; i++){&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; &amp;nbsp; cPoint = randomCPoint(1.5, randomRange);&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; &amp;nbsp; newMap = new Map(zero,cPoint);&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; &amp;nbsp; if(newMap.iterate(iterations, disk)){&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; newMap.display(windowX/2 - centerX*zoom, windowY/2 - centerY*zoom, zoom );&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; &amp;nbsp; } &amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; } &amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;}&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&lt;br /&gt;&lt;/span&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;CPoint randomCPoint(float bound, float depth){&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; float x;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; float y;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; int signx = -1;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; int signy = -1;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; x = bound*random(depth)/depth;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; y = bound*random(depth)/depth;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; if(random(100)&amp;lt;50) signx *= (-1);&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; if(random(100)&amp;lt;50) signy *= (-1);&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp; return new CPoint(signx*x,signy*y);&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="color: blue; font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace; font-size: xx-small;"&gt;&amp;nbsp;}&lt;/span&gt;&lt;br /&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+If you implement it like this, the set will slowly emerge as more and more points are tested. This crisper version below used 200 iterations (maybe a bit excessive).&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGHBzlzvn2vKOS6ACSqyyvACNgYkwhdkKSb0ETYzR59hKdiSX8NT1zLeSSisEJNS0Yxu5OnGYreaboucyF6JdY2P4xeOGsMAXTcl0Q3x2Wsz2JqjpYFYaDvFlQ-jF3RJCH-OaGeCMTTxs/s1600/mandelbrot-2.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="316" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGHBzlzvn2vKOS6ACSqyyvACNgYkwhdkKSb0ETYzR59hKdiSX8NT1zLeSSisEJNS0Yxu5OnGYreaboucyF6JdY2P4xeOGsMAXTcl0Q3x2Wsz2JqjpYFYaDvFlQ-jF3RJCH-OaGeCMTTxs/s400/mandelbrot-2.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;i&gt;&lt;span style="font-size: large;"&gt;&lt;b&gt;&lt;br /&gt;&lt;/b&gt;&lt;/span&gt;&lt;/i&gt;
+&lt;i&gt;&lt;span style="font-size: large;"&gt;&lt;b&gt;Update&lt;/b&gt;: A Javascript version of this is posted &lt;a href="https://dmackinnon1.github.io/cplxfrac/"&gt;here&lt;/a&gt;.&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2012-02-01T19:39:23.248Z</blogger:created>
+    <published>2012-02-03T18:37:00Z</published>
+    <updated>2017-01-18T17:11:47.481Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='mathematics'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='fractals'/>
+    <blogger:filename>/2012/02/better-late-than-never-mandelbrot-set.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

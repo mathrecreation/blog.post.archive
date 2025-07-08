@@ -1,0 +1,80 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-1753002209515197553</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>brain and propeller fractals using Desmos</title>
+    <content type='html'>I have been playing around with &lt;a href="https://www.desmos.com/"&gt;Desmos&lt;/a&gt; - it's very nice. The support for parametric formulas means we can play around curves defined by equations like these:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVc4dbLH2AEK_EExBPlPM0s231o-uGWHKiSRuu2RK_Y5p5PL2RExM44poyh1Jf2GyfdaODB_ZBaJF6qLfMNC3T8d8LBWFeiH5dMB2N4NXRU83NQIgXHtHBoAA2m-H_Knf7ChbBu-D2l8Y/s1600/hypocycloid.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVc4dbLH2AEK_EExBPlPM0s231o-uGWHKiSRuu2RK_Y5p5PL2RExM44poyh1Jf2GyfdaODB_ZBaJF6qLfMNC3T8d8LBWFeiH5dMB2N4NXRU83NQIgXHtHBoAA2m-H_Knf7ChbBu-D2l8Y/s1600/hypocycloid.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+The plus/minus sign in the expression for &lt;i&gt;y &lt;/i&gt;means that you are going to have to make a choice in your formula for whether you want to have a plus or a minus sign for a particular term. We might choose to leave out all negatives and only pluses. This gives us "&lt;a href="http://www.mathrecreation.com/2013/12/brain-curve.html"&gt;the brain fractal&lt;/a&gt;," Desmos version is &lt;a href="https://www.desmos.com/calculator/8jhue8bkq8"&gt;shared here&lt;/a&gt;:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimMjz4L0raIO_hY4UiRw8VntEEFRBszd8M-fFUtiu4iKtZpwKKD2n-d_yhndS2NeOpFQB8Zr3Vcb4Ylqijuom8elEt3ww2uoyYGx43ld2CXcNKd7JhMt6A04Be1F-em0MBmKwVlUh6xME/s1600/brain.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="297" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimMjz4L0raIO_hY4UiRw8VntEEFRBszd8M-fFUtiu4iKtZpwKKD2n-d_yhndS2NeOpFQB8Zr3Vcb4Ylqijuom8elEt3ww2uoyYGx43ld2CXcNKd7JhMt6A04Be1F-em0MBmKwVlUh6xME/s320/brain.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+If we choose to alternate plus and minus signs, we end up with something that looks like a propeller, Desmos version &lt;a href="https://www.desmos.com/calculator/b6ttuowznw"&gt;shared here&lt;/a&gt;:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwOtYU57lVDwajxOJVm8WJ7jBJThM6cImIJwABLIHF3kso1QOmgQG4pyQK_1WN_kyg19h3SH2JpudPPCwZmLPpf-ZJ5vQVA8MTp4P6wXbNk69XkofhsQN27zXgXjsKKc1Vvl19srRZN-s/s1600/propeller.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwOtYU57lVDwajxOJVm8WJ7jBJThM6cImIJwABLIHF3kso1QOmgQG4pyQK_1WN_kyg19h3SH2JpudPPCwZmLPpf-ZJ5vQVA8MTp4P6wXbNk69XkofhsQN27zXgXjsKKc1Vvl19srRZN-s/s320/propeller.JPG" width="318" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+Modifying the formula slightly you can explore other members of the &lt;a href="http://www.mathrecreation.com/2009/09/scrambler-fractal.html"&gt;curve family&lt;/a&gt;, like &lt;a href="https://www.desmos.com/calculator/jrvlh6l5oj"&gt;this one&lt;/a&gt;:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1c3TAiF4O7eWbY-4Okf07-5dZ8C9E3OGu31qb-otE-gH7eUGjLE-v3bkPPp4U45jImq-OigirM5TQxgR4bFbqoyfbrD9gwxkmKSOLl5N-ZoyKLBmRbs1BxAyrA06uNv60AaYkxWXdeVQ/s1600/gumby_in_house.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="289" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1c3TAiF4O7eWbY-4Okf07-5dZ8C9E3OGu31qb-otE-gH7eUGjLE-v3bkPPp4U45jImq-OigirM5TQxgR4bFbqoyfbrD9gwxkmKSOLl5N-ZoyKLBmRbs1BxAyrA06uNv60AaYkxWXdeVQ/s320/gumby_in_house.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+or &lt;a href="https://www.desmos.com/calculator/pezekhcwwp"&gt;this one&lt;/a&gt;:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTChHaiXH38prpofdoISbgP2npWZ0xgqm8BjxJHdgmWH5VsGgdJqYEe3co8S60-j3JZR15M_wsbB6GLixd66K93I0HGJxXXJ78kOEv38x9ZzaV5URcm0zgZ2N8MQbasPBqmMnjVx_BWLY/s1600/gumby1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTChHaiXH38prpofdoISbgP2npWZ0xgqm8BjxJHdgmWH5VsGgdJqYEe3co8S60-j3JZR15M_wsbB6GLixd66K93I0HGJxXXJ78kOEv38x9ZzaV5URcm0zgZ2N8MQbasPBqmMnjVx_BWLY/s320/gumby1.JPG" width="309" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;span style="font-size: large;"&gt;Update&lt;/span&gt;&lt;br /&gt;
+After I posted these, the folks at&amp;nbsp;&lt;a class="g-profile" href="https://plus.google.com/104345590401277074460" target="_blank"&gt;+Desmos&lt;/a&gt;&amp;nbsp;posted an enhanced animated version of the plot, &lt;a href="https://www.desmos.com/calculator/cndyyqmrzl"&gt;here&lt;/a&gt;. In their version, the curve is traced by a moving point that follows the path of the curve.&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZzqjVqcXOFG2Z6POTgf1pDgtkazpCeM815F3B6eFpsAvRrgKxjz9bNc5yfjoQX3eOXHMCis19be7ty8MUT9OamZ1H0pozCetDGpYXOgn8y4PRXb8gyMoVAAzqJ0psOQeUrDWD-JMZp3k/s1600/desmos_animated.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZzqjVqcXOFG2Z6POTgf1pDgtkazpCeM815F3B6eFpsAvRrgKxjz9bNc5yfjoQX3eOXHMCis19be7ty8MUT9OamZ1H0pozCetDGpYXOgn8y4PRXb8gyMoVAAzqJ0psOQeUrDWD-JMZp3k/s1600/desmos_animated.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+This was achieved in three steps, using techniques you might want to try out on other graphs.&lt;br /&gt;
+&lt;br /&gt;
+1. A slider whose end points matched the range of the input variable &lt;i&gt;t&lt;/i&gt; was added. This was given the fun name &lt;i&gt;d_raw&lt;/i&gt;, but it could have been called anything.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQWyJkSn8qG3c1E1LzITdP4npJWNtNEgPk3UoOpAU1Yuh-FBVnU5XRUzXEEVR3Wx4Ow9l1UcWg7LrXqTTzN7wYJCSTB-_nE3boGShOyPaVHeh1DNh56wWMFXBBo1Goq7VGY6sWJAnCKo0/s1600/new_slider.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="88" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQWyJkSn8qG3c1E1LzITdP4npJWNtNEgPk3UoOpAU1Yuh-FBVnU5XRUzXEEVR3Wx4Ow9l1UcWg7LrXqTTzN7wYJCSTB-_nE3boGShOyPaVHeh1DNh56wWMFXBBo1Goq7VGY6sWJAnCKo0/s320/new_slider.PNG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+2. A restriction is placed on the original graph, to make the input variable less than the new slider value (the restriction is added in the curly/set brackets in the function definition).&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDk1JIE0k8glENlbGbZxbkH9paWigxNtUOz3yiT3Z0G_7wt6aGwALrQXFaJnKR7GEoueeJI5fzsVXrfba6x0FLxy86fN8tC0vSFzrE2eGCC5ySt5EKBIypwPTPBy3cw-DuyKBVw2e54eM/s1600/restriction.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="120" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDk1JIE0k8glENlbGbZxbkH9paWigxNtUOz3yiT3Z0G_7wt6aGwALrQXFaJnKR7GEoueeJI5fzsVXrfba6x0FLxy86fN8tC0vSFzrE2eGCC5ySt5EKBIypwPTPBy3cw-DuyKBVw2e54eM/s400/restriction.PNG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+With these two additions, the curve appears as the slider moves - but to get an more dynamic animation, we can add a point that seems to be drawing the curve as the slider moves.&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+3. A moving point on the curve is added by &amp;nbsp;copying the function definition and replacing the &lt;i&gt;t&lt;/i&gt; variable with the slider name (and removing the restriction). When this is done, Desmos interprets the contents of the round brackets as a point, rather than a parametric curve.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIjRigKhDHF1BVO4wOy47u-QHjK6_s8rnhlUHTrJgn_NqoH1FOMeqk7fjGDuNzq5DddIzI7GuiQHyqH1PAinQQeru3QsrcbHlKbCxgQxYFtPo66T47VCKOxvwyPk5vnZ8EZYH30RI2A2Q/s1600/point.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="101" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIjRigKhDHF1BVO4wOy47u-QHjK6_s8rnhlUHTrJgn_NqoH1FOMeqk7fjGDuNzq5DddIzI7GuiQHyqH1PAinQQeru3QsrcbHlKbCxgQxYFtPo66T47VCKOxvwyPk5vnZ8EZYH30RI2A2Q/s400/point.PNG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+I applied the same enhancements to the "brain curve" &lt;a href="https://www.desmos.com/calculator/izfa4qxeya"&gt;here&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQ-0PxyUcRh2zWr-6Qlwb0VYADcyH9UgW-L_6ODX1dBR5WZZiat14b58BdTD4IGND8D3IqJXUNptJYso4Me-S857jmzunWP9lFid6l7gXWy4c8kJLhzRqNGnWYJwyuy-p6BjVeJZEno_8/s1600/animated_brain.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="262" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQ-0PxyUcRh2zWr-6Qlwb0VYADcyH9UgW-L_6ODX1dBR5WZZiat14b58BdTD4IGND8D3IqJXUNptJYso4Me-S857jmzunWP9lFid6l7gXWy4c8kJLhzRqNGnWYJwyuy-p6BjVeJZEno_8/s320/animated_brain.PNG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2016-10-04T18:44:58.366Z</blogger:created>
+    <published>2016-10-05T02:28:00Z</published>
+    <updated>2016-10-07T15:30:38.781Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2016/10/brain-and-propeller-fractals-using.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

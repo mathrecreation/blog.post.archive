@@ -1,0 +1,39 @@
+<>
+  <entry>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-7611108943215403587</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>colored phizz</title>
+    <content type='html'>In "Transitive Decompositions of Graphs and their Links with Geometry and Origami" which appeared in &lt;a href="http://www.maa.org/pubs/monthly_apr10_toc.html"&gt;April's American Mathematical Monthly&lt;/a&gt;, Geoffrey Pearce described how to edge-color a unit-origami dodecahedron symmetrically using five colors. &lt;br /&gt;
+&lt;br /&gt;
+Constructing a model based on Pearce's instructions is pretty straight forward if you use &lt;a href="http://mars.wnec.edu/~thull/"&gt;Tom Hull&lt;/a&gt;'s &lt;a href="http://kahuna.merrimack.edu/~thull/phzig/phzig.html"&gt;Phizz Unit&lt;/a&gt;. Pearce's instructions make use of the &lt;a href="http://mathworld.wolfram.com/DodecahedralGraph.html"&gt;usual planar projection of the dodecahedral graph&lt;/a&gt; - you need to color your model based on the diagram below (the dark lines represent a single color, you need to repeat the pattern five times with five distinct colors).&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAK8Ckl8mOxaETXHG_ZD9b15NoX588QQfGN_Z4QIXCA6YJhQkFtEBU68YeIaS6IDpyo8VUccfHLXtqefqOlEvaytWY3gTsXZBncwViyugYi8Ldeo0Ydxd_VWYAib0hP_hfrDO5Y6Ga4P0/s1600/pearce.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAK8Ckl8mOxaETXHG_ZD9b15NoX588QQfGN_Z4QIXCA6YJhQkFtEBU68YeIaS6IDpyo8VUccfHLXtqefqOlEvaytWY3gTsXZBncwViyugYi8Ldeo0Ydxd_VWYAib0hP_hfrDO5Y6Ga4P0/s320/pearce.jpg" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
+If you do this (hopefully with less garish colors), you end up with a model that looks like the one below. In a single picture, you can't really get an appreciation of the symmetry of the coloring, but if you make it yourself and handle it, you'll see that it is indeed a symmetrical, transitive, coloring.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBbg1Q1k_6NGS0oN7PkwgRFMXtgyedc-d2Pf5k4XoFOd4JhyphenhyphenRF99_RrgSvUlUmJAqusOH-BI8NMN1XLILZEeK5rSVfR-TEzROnJ71HpkQB8NHnBpw8vb4rcUmfhlap5aEx3mZ-tlMSA7o/s1600/figure1_5colour.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBbg1Q1k_6NGS0oN7PkwgRFMXtgyedc-d2Pf5k4XoFOd4JhyphenhyphenRF99_RrgSvUlUmJAqusOH-BI8NMN1XLILZEeK5rSVfR-TEzROnJ71HpkQB8NHnBpw8vb4rcUmfhlap5aEx3mZ-tlMSA7o/s320/figure1_5colour.jpg" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
+If you want a minimal coloring, rather than a transitive one, you'll only need three colors. A neat way to generate a three-coloring of the dodecahedron is to first find a &lt;a href="http://en.wikipedia.org/wiki/Hamiltonian_path"&gt;Hamiltonian circuit&lt;/a&gt;&amp;nbsp;for it. To do this, start with two colors - one color to mark an edge-path that touches each vertex only once, and the other color to mark the edges that are not part of the path. Below is a phizz unit dodecahedron with a Hamiltonian circut in yellow (other edges blue). A question before you begin: how many blue edge units and how many yellow edge units should you fold?&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgokJUUqS1p2RkKtf0XYmU5k44N2QK45bNcR6IaCNk9HYF5pMsKz6lUZhqGpvs9TmAXkDcY8WDRcj4kmEcMWLjv_WQZJLKf1U0gnH9JQaB2pEN_u61IJ2BvjHcnb67VAL1iQFiMgJCAdfI/s1600/figure2_hamiltonian.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgokJUUqS1p2RkKtf0XYmU5k44N2QK45bNcR6IaCNk9HYF5pMsKz6lUZhqGpvs9TmAXkDcY8WDRcj4kmEcMWLjv_WQZJLKf1U0gnH9JQaB2pEN_u61IJ2BvjHcnb67VAL1iQFiMgJCAdfI/s320/figure2_hamiltonian.jpg" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
+Once you have a Hamiltonian circut on your dodecahedron, replace alternate edges on your circut with your third color. Doing this will give you a dodecahedron whose edges are colored such that every vertex has three distinctly colored edges intersecting at it (can you see why?).&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpAEum1HRcWac75oZ1VQfI0q63k9N8B4XSN4o6biOGe107FBDAptdlqQHE8a9C3yIF2T-nUR-kdA_HSrpV9Pv0eUXN_KBIM5M2tk9AfLz92a51g0qsDb-fwXyasbeZEBv9h8kP_XtTL7Q/s1600/hamiltonian-3colouring.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpAEum1HRcWac75oZ1VQfI0q63k9N8B4XSN4o6biOGe107FBDAptdlqQHE8a9C3yIF2T-nUR-kdA_HSrpV9Pv0eUXN_KBIM5M2tk9AfLz92a51g0qsDb-fwXyasbeZEBv9h8kP_XtTL7Q/s320/hamiltonian-3colouring.jpg" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
+Tom Hull describes how to use this method to color phizz &lt;a href="http://en.wikipedia.org/wiki/Fullerene"&gt;buckyballs&lt;/a&gt; in his book &lt;a href="http://www.akpeters.com/product.asp?ProdCode=2582"&gt;Project Origami&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+If instead of using &lt;a href="http://kahuna.merrimack.edu/~thull/phzig/phzig.html"&gt;Phizz units&lt;/a&gt;&amp;nbsp;you use &lt;a href="http://en.wikipedia.org/wiki/Sonobe"&gt;Sonobe units&lt;/a&gt;, you will obtain models that have the same characteristics, but look more like&amp;nbsp;icosahedrons&amp;nbsp;than dodecahedrons due to the &lt;a href="http://mathrecreation.blogspot.com/2008/08/sonobe-phizz-duality.html"&gt;nice duality&lt;/a&gt; between these two unit types.</content>
+    <blogger:metaDescription/>
+    <blogger:created>2010-06-21T19:26:10.387Z</blogger:created>
+    <published>2010-06-21T19:38:00Z</published>
+    <updated>2011-09-11T02:01:08.041Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='origami'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <blogger:filename>/2010/06/colored-phizz.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

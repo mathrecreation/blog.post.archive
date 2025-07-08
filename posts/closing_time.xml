@@ -1,0 +1,64 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-4235388771668389817</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>closing time</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhctqGAS55y0n-svtissHITQNCvU9Iias2NYTVW6A51OJYuWCL5hBTc8fSQzglptLGMPIl9eGJvExfN9VEtXiYgPDU0iBpithqFExadaZA3Y1FkD9H4s5DIMZyBp94EwhHUzm2fx8UDv-g/s1600/euler-knight-stamp.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="171" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhctqGAS55y0n-svtissHITQNCvU9Iias2NYTVW6A51OJYuWCL5hBTc8fSQzglptLGMPIl9eGJvExfN9VEtXiYgPDU0iBpithqFExadaZA3Y1FkD9H4s5DIMZyBp94EwhHUzm2fx8UDv-g/s400/euler-knight-stamp.jpg" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+I thought I would share some more &lt;a href="http://mathrecreation.blogspot.com/2011/03/knight-moves.html"&gt;knight's-tour&lt;/a&gt; fun: Euler's method of closing a knight's tour. I learned about Euler's method (which dates from 1759) while&amp;nbsp;reading the chapter on chess-related mathematics in Ball and Coxeter's &lt;a href="http://www.amazon.com/Mathematical-Recreations-Essays-Dover-Books/dp/0486253570"&gt;Mathematical Recreations and Essays&lt;/a&gt;. The section on knight-tours is included in some of the very old editions of this book that are available for free at Google Books (use&amp;nbsp;&lt;a href="http://books.google.com/ebooks?id=hvDuAAAAMAAJ"&gt;this one&lt;/a&gt;, this&amp;nbsp;&lt;a href="http://books.google.com/ebooks?id=umTkAAAAMAAJ"&gt;other one&lt;/a&gt;&amp;nbsp;seems to be missing the relevant page!).&lt;br /&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+It is tricky to come up with knight's tours that are closed (or re-entrant, as Euler called them), where the last square landed on is one move away from the square you started from. Warnsdorff's algorithm (described on&amp;nbsp;&lt;a href="http://en.wikipedia.org/wiki/Knight's_tour"&gt;Wikipedia&lt;/a&gt;) usually generates open tours and only occasionally (by luck) yields a closed tour. If a closed tour is your goal, instead of aiming for a closed path to begin with, you can create an open tour and then close it by applying a sequence of transformations to it.&lt;br /&gt;
+&lt;br /&gt;
+Euler's method of changing the end-point of an open tour so that it is a neighbor of the starting point involves finding a square at which it is possible to chop-off the end of the tour and flip it such that the new final square is closer to the start.&lt;br /&gt;
+&lt;br /&gt;
+Let's say we label our open tour $a_1, a_2, ..., a_{64}$, where each $a_i$ is a cell on the chess board, like A1, or G5, etc. The order that they are listed in is the order they are traversed by the tour. Each $a_i$ has a predecessor (except for $a_1$) and a successor (except for $a_{64}$)&lt;br /&gt;
+&lt;br /&gt;
+Since this is an open tour, the "head" $a_1$ and the "tail" $a_{64}$ are not neighbors (the number of moves required to get from one to the other is greater than 1). To transform this open tour into a closed tour, we will alter the end of the tour so that the tail is closer to the head. We may have to do this several times before we get to the point where the tail and head are actually neighbors.&lt;br /&gt;
+&lt;br /&gt;
+Start by choosing a&amp;nbsp;neighbor&amp;nbsp;of the tail (a cell that is one move away from&amp;nbsp;$a_{64}$&amp;nbsp;but that is not its predecessor in the tour). Let's call the neighbor&amp;nbsp;$a_k$. Our&amp;nbsp;$a_k$ should be chosen&amp;nbsp;such that the successor of the neighbor ($a_{k+1}$) is fewer moves away from the head ($a_1$) than the current tail. Make this choice such that the distance between $a_1$ and $a_{k+1}$ is the smallest you can, and if there is a tie, make this choice randomly.&lt;br /&gt;
+&lt;br /&gt;
+We now keep the same partial-path $a_1 ... a_k$, but then instead of moving to $a_{k+1}$ as in the original tour, we jump from $a_k$ to $a_{64}$ (which we can do - they are neighbors), and then follow the path that used to lead from $a_{k+1}$ to $a_{64}$ in the reverse direction. So, our new tour becomes: $a_1, a_2, ..., a_k, a_{64}, a_{63}, ... a_{k+1}$. Our new tail should be closer to our head than the previous tail was. Repeating this process will eventually transform the open tour into a closed tour.&lt;br /&gt;
+&lt;br /&gt;
+Here's a picture of what is going on in this technique:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgM8nwM94aYQXnC2HacHHGMbElLlud94fhuxx8A8Won30lPzEnOXrRzTTwvl1v2xKA2dZAbPpxmnJSWLSNtTyndNNUmNZZGhZS-oVXw1EakAKfuH8RtGCVRvL79tWcoeCVEQya8NzaxCu8/s1600/general_path_example.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="309" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgM8nwM94aYQXnC2HacHHGMbElLlud94fhuxx8A8Won30lPzEnOXrRzTTwvl1v2xKA2dZAbPpxmnJSWLSNtTyndNNUmNZZGhZS-oVXw1EakAKfuH8RtGCVRvL79tWcoeCVEQya8NzaxCu8/s320/general_path_example.jpg" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+The diagrams below show example of an application of the algorithm that takes two steps (some that I have run have taken over 40 steps!). An open tour A1 to F5 is first transformed to an open tour A1 to B5 and finally to a closed tour A1 to C2.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhknlGS0IevgaGy2qxbJeGH_ZH7kYZ7c3ZU1aWCR__bWPWchXjSO4JD5KMjeXDfiIRKkOfpvaFIAAfJTtmtlAbsKxMMsDbBXdn7XbAtV7ncNLrlmsvk-XcjOdKNIvZPelmUQhqS02Bu6PI/s1600/open_to_closed_example.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="385" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhknlGS0IevgaGy2qxbJeGH_ZH7kYZ7c3ZU1aWCR__bWPWchXjSO4JD5KMjeXDfiIRKkOfpvaFIAAfJTtmtlAbsKxMMsDbBXdn7XbAtV7ncNLrlmsvk-XcjOdKNIvZPelmUQhqS02Bu6PI/s400/open_to_closed_example.jpg" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;
+Euler developed further tools to help create knight's tours, including methods for absorbing missed cells into a partially completed tour and for constructing&amp;nbsp;symmetrical&amp;nbsp;tours that form partially magic squares.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+A couple of other places to read about knight's tours and Euler's techniques are Martin Gardner's essay "Knights of the Square Table" (from &lt;a href="http://books.google.com/books?id=6P_uAAAAMAAJ"&gt;Mathematical Magic Show&lt;/a&gt;), and in Ed Sandifer's article, &lt;a href="http://www.maa.org/editorial/euler/How%20Euler%20Did%20It%2030%20Knights%20tour.pdf"&gt;How Euler Did It: Knight's Tour&lt;/a&gt;.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;
+Among the many things that struck me while looking at this is the fact that I would never have been able to approach this without a computer (nor would I have had a strong inclination to try). The computer not only &amp;nbsp;finds and displays tours (something I have never actually done with a real chessboard), it also provides an algorithmic way of looking at things that helped me see what was going on. For knight's tours, the algorithmic&amp;nbsp;lens&amp;nbsp;provided by computers and programming can allow us to vaguely perceive things that Euler could see clearly with the naked eye.&lt;br /&gt;
+&lt;br /&gt;&lt;/div&gt;
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2011-03-30T17:34:07.335Z</blogger:created>
+    <published>2011-03-30T21:14:00Z</published>
+    <updated>2011-09-11T01:59:17.891Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='chess'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <blogger:filename>/2011/03/closing-time.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

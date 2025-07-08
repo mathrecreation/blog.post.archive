@@ -1,0 +1,45 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-2353317058321464901</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>build your own knight's tour</title>
+    <content type='html'>A &lt;a href="http://www.mathrecreation.com/2016/12/life-lessons-from-knights-tour.html"&gt;couple of posts back&lt;/a&gt; I mentioned some knight and king's tour puzzles that I had put together (knights &lt;a href="https://dmackinnon1.github.io/kixote/"&gt;here&lt;/a&gt;, kings &lt;a href="https://dmackinnon1.github.io/kixote/hidato.html"&gt;here&lt;/a&gt;). I've added &lt;a href="https://dmackinnon1.github.io/kixote/tourist.html"&gt;another page&lt;/a&gt; based on the same underlying framework where you can build your own knight's tour.&lt;br /&gt;
+&lt;br /&gt;
+You start off with something like this:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAqcc10hG4feQabh0A9bDSXqKPDD3L84qhQ8NQU1ohTYl3Niq9nrfAXmQiMsGYBXWEgs_eDNku96786U6pfJpQg05mIs4jYehSC5zPRCsCWMivrly3Zrae_WD-FE_6boxm-HJZrBdO9IE/s1600/first_move.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAqcc10hG4feQabh0A9bDSXqKPDD3L84qhQ8NQU1ohTYl3Niq9nrfAXmQiMsGYBXWEgs_eDNku96786U6pfJpQg05mIs4jYehSC5zPRCsCWMivrly3Zrae_WD-FE_6boxm-HJZrBdO9IE/s1600/first_move.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Green squares indicate a legal move, and the numbers on each square tell you how many open moves are available from that square.&lt;br /&gt;
+&lt;br /&gt;
+Visited squares are marked with a check, and a map of your path is traced on the image below the board.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgP3e4irlzt5l24Wnwq3SGuaqyV67jNdcME6fsDJ6kl0WUCSb1jWFdVQC-IFl7Z1JPkblcH0Qq1LeCy5-nEckiSK0JFqDBZiy1tOU5ksMieii8Ih1XlkAFc3-uTjHIBSP9i1zBSfugRaE/s1600/later_move.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgP3e4irlzt5l24Wnwq3SGuaqyV67jNdcME6fsDJ6kl0WUCSb1jWFdVQC-IFl7Z1JPkblcH0Qq1LeCy5-nEckiSK0JFqDBZiy1tOU5ksMieii8Ih1XlkAFc3-uTjHIBSP9i1zBSfugRaE/s1600/later_move.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiY8iobWaWDC2cVW9TnYvU3pnmt5Wa7TSS200BDC3mp3zvnFCQsqfJC_RzHM-5wjRx1jIdsAr1kPDYJ06l6xYkYynUwXF6NW-yKPYo1MKTL4QzLArXeuEhVuL6ox5pUByDib9dk5G5SoS4/s1600/later_move_map.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiY8iobWaWDC2cVW9TnYvU3pnmt5Wa7TSS200BDC3mp3zvnFCQsqfJC_RzHM-5wjRx1jIdsAr1kPDYJ06l6xYkYynUwXF6NW-yKPYo1MKTL4QzLArXeuEhVuL6ox5pUByDib9dk5G5SoS4/s1600/later_move_map.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+The "Warnsdorff" heuristic for finding a tour is to always move to a square with the lowest number of available moves. This heuristic works well - it often leads you to a successfully completed tours. You can try this approach, or experiment with others. In the example above, following this method presents you with two choices initially (moving to one of the two squares with 2 open neighbours), but at the third move leaves you with only one option.&lt;br /&gt;
+&lt;br /&gt;
+Whatever approach you take, if you feel you've made a wrong move, or find that you are completely blocked, hit the "backtrack" button to move back one step.&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style="font-size: large;"&gt;Some older posts on knight tours:&lt;/span&gt;&lt;br /&gt;
+&lt;a href="http://www.mathrecreation.com/2011/03/knight-moves.html"&gt;Knight Moves&lt;/a&gt;&lt;br /&gt;
+&lt;a href="http://www.mathrecreation.com/2011/03/closing-time.html"&gt;Closing Time&lt;/a&gt;&lt;br /&gt;
+&lt;a href="http://www.mathrecreation.com/2011/09/punctured-knights-tours.html"&gt;Punctured Tours&lt;/a&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2017-01-28T17:11:01.308Z</blogger:created>
+    <published>2017-01-29T19:21:00Z</published>
+    <updated>2017-02-15T04:06:00.030Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2017/01/build-your-own-knights-tour.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

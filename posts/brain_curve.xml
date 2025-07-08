@@ -1,0 +1,36 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-3691418142970308481</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>brain curve</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEga01TQ1-OnSedKNHr2gpOwaNVE84Ent_jwakNROMB3cyDRVhJpQNIOBfylKu9gStiATTIbC7ubuOJOKFL1_l7LfnLvTBibgKIkRKO66VhhfjDuBigCgPfck3YEKAbjWVtDdfU1e6MqM4s/s1600/brain_fractal2.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="277" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEga01TQ1-OnSedKNHr2gpOwaNVE84Ent_jwakNROMB3cyDRVhJpQNIOBfylKu9gStiATTIbC7ubuOJOKFL1_l7LfnLvTBibgKIkRKO66VhhfjDuBigCgPfck3YEKAbjWVtDdfU1e6MqM4s/s320/brain_fractal2.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+This closed curve looks a bit like a lateral slice of a cerebral cortex, and has a very simple parametric formula:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0XruAgLKDjx5Jt3HY70PMJ8AhIF3L_Gpzv-7Ry_5bZD0Ah0ue64WLr75zVZ2EJfIKwjtwwQ_plhcQJ9u30S1ddF2iGdHPP1SgkzmbSO37Xk0l8tBtsG5oMM3BUndDR0PTcm2T3iNAUmM/s1600/equations.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0XruAgLKDjx5Jt3HY70PMJ8AhIF3L_Gpzv-7Ry_5bZD0Ah0ue64WLr75zVZ2EJfIKwjtwwQ_plhcQJ9u30S1ddF2iGdHPP1SgkzmbSO37Xk0l8tBtsG5oMM3BUndDR0PTcm2T3iNAUmM/s1600/equations.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+If you let &lt;i&gt;n&lt;/i&gt; = 0, the curve is a circle, for &lt;i&gt;n&lt;/i&gt; = 1, you get an &lt;a href="http://en.wikipedia.org/wiki/Epicycloid"&gt;epicycloid&lt;/a&gt;, and for n around 4 you start to get something that looks like the brain slice. I think that there is a small copy of the whole curve on the left, giving the curve some &lt;a href="http://en.wikipedia.org/wiki/Self-similarity"&gt;self-similarity&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+I first saw this curve, and some other neat ones that have very similar formulas, when looking at the scrambler amusement park ride (see &lt;a href="http://www.mathrecreation.com/2009/08/hypocycloid-scrambler.html"&gt;here&lt;/a&gt;, and &lt;a href="http://www.mathrecreation.com/2009/09/scrambler-fractal.html"&gt;here&lt;/a&gt;).&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;&lt;b&gt;Update&lt;/b&gt;: A very nice Mathematica animation that traces out this curve can be found at &lt;a href="http://curiosamathematica.tumblr.com/post/72861794038/yippee-my-first-animations-in-mathematica-let-a"&gt;Curiosa Mathematica&lt;/a&gt;.&lt;/i&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2013-12-19T03:17:15.899Z</blogger:created>
+    <published>2013-12-19T03:28:00.001Z</published>
+    <updated>2014-01-14T01:32:48.134Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='curves'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='mathematics'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='fractals'/>
+    <blogger:filename>/2013/12/brain-curve.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

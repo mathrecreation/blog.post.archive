@@ -1,0 +1,47 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-9525869456296971</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>bipartite art</title>
+    <content type='html'>A bipartite graph consists of two sets of nodes, N and M, where every node in N is connected to every node in M by an edge.&lt;br /&gt;
+&lt;br /&gt;
+If you set up the nodes N and M on a pair of circles centred around the same point, you can get quite a variety of nice looking diagrams. As part of playing around with generating svg images using d3js, I set up &lt;a href="https://dmackinnon1.github.io/bipartite2.html"&gt;a page&lt;/a&gt; that allows you to create some 'bipartite art.' Some of the diagrams turned out nicely, particularly when you hide the nodes completely:&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEga4buI3MbWJIYrtmMpg4lZx99YttWz4hb6bCjEjPb9GOamKxnVz49NMstRceGhlukhjgKrzY2kMAhaNi4NYhDsfqHkD5HcDY9IjJVPx_7H1-NM4peAkGZGUuZUS54C5qXQ2itQzKoAInA/s1600/k88a.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="509" data-original-width="619" height="263" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEga4buI3MbWJIYrtmMpg4lZx99YttWz4hb6bCjEjPb9GOamKxnVz49NMstRceGhlukhjgKrzY2kMAhaNi4NYhDsfqHkD5HcDY9IjJVPx_7H1-NM4peAkGZGUuZUS54C5qXQ2itQzKoAInA/s320/k88a.png" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2jUrj4HXWBFQpzNNxpz5T_-bFRcHv9SQMX6iqjNxKEtV146DvWRLi6gYrlulmokhd2wXa4zcqVDTYWNdihL9RjfZy7n2mqpYfWShVvdr_pb3whVd5zFl0P0twlY4_E3ipwMB6Ko8sIZ0/s1600/k642a.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="485" data-original-width="528" height="293" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2jUrj4HXWBFQpzNNxpz5T_-bFRcHv9SQMX6iqjNxKEtV146DvWRLi6gYrlulmokhd2wXa4zcqVDTYWNdihL9RjfZy7n2mqpYfWShVvdr_pb3whVd5zFl0P0twlY4_E3ipwMB6Ko8sIZ0/s320/k642a.png" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3I0wU3QrD1fR94PB4_BFwyOawrxOMIsruuZmY1VZ8ACe1vKkadI706SHy7u1kRBeTjTxLiB0PLV_tjqaswJUKXl4cW12qK2HwrC98ACnrOlH_JeqiGFljX-rFlWK2_c63u6LmVA9hLEo/s1600/k2424b.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="502" data-original-width="495" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3I0wU3QrD1fR94PB4_BFwyOawrxOMIsruuZmY1VZ8ACe1vKkadI706SHy7u1kRBeTjTxLiB0PLV_tjqaswJUKXl4cW12qK2HwrC98ACnrOlH_JeqiGFljX-rFlWK2_c63u6LmVA9hLEo/s320/k2424b.png" width="315" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-WNUJHyyHNL2_7TGydaAyzqx_dh2qR0lNtxT1gBfQep3Fr7mytptcUeN9eiS3kPN2tJaQLjsZ4ekzhKR616lSaOVSakVpbOAlXY6zf0EwLFHEO3Gw5bIAnOUAEQuRHCIbvB4nQb8yNuE/s1600/k2424a.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="502" data-original-width="546" height="293" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-WNUJHyyHNL2_7TGydaAyzqx_dh2qR0lNtxT1gBfQep3Fr7mytptcUeN9eiS3kPN2tJaQLjsZ4ekzhKR616lSaOVSakVpbOAlXY6zf0EwLFHEO3Gw5bIAnOUAEQuRHCIbvB4nQb8yNuE/s320/k2424a.png" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0YkLaynxm88WUJS6Fycp9PDXxteXCaaE8YRS2l7suuw51EUhAxweRztbvoE-vZEM2L73s7-H1g4vyFGO1B0A8rGcwfnIK30U1hHHUjriTArvPvzuWjrUpI5rYFHWqtL75u2oCyL2yERw/s1600/blackhole.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="555" data-original-width="556" height="319" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0YkLaynxm88WUJS6Fycp9PDXxteXCaaE8YRS2l7suuw51EUhAxweRztbvoE-vZEM2L73s7-H1g4vyFGO1B0A8rGcwfnIK30U1hHHUjriTArvPvzuWjrUpI5rYFHWqtL75u2oCyL2yERw/s320/blackhole.png" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkAOGdIZd_986rOUcqn6v60zW1h4PvK50RRJH8vQMeItmIHaFilj1uRVSrK5AUX6HtH7S6s5n9CBSR_adiG2GqaiSWMic9Neok4iiFJi_3sH25cohJR9b7CaRzaM_E8k3QhYbdsVgUxfI/s1600/k4812.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="508" data-original-width="509" height="319" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkAOGdIZd_986rOUcqn6v60zW1h4PvK50RRJH8vQMeItmIHaFilj1uRVSrK5AUX6HtH7S6s5n9CBSR_adiG2GqaiSWMic9Neok4iiFJi_3sH25cohJR9b7CaRzaM_E8k3QhYbdsVgUxfI/s320/k4812.png" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Try it out at:&amp;nbsp;&lt;a href="https://dmackinnon1.github.io/bipartite2.html"&gt;https://dmackinnon1.github.io/bipartite2.html&lt;/a&gt;&lt;br /&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2018-01-04T18:59:54.093Z</blogger:created>
+    <published>2018-01-13T22:29:00.002Z</published>
+    <updated>2018-01-13T22:29:25.872Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2018/01/bipartite-art.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

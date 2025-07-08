@@ -1,0 +1,88 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-9220350961035026540</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>chladni-esque figures in R</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 12.8px;"&gt;
+&lt;table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjjHQZ4CAQzXiEuj-WSUsBp8SeRO77ljEU7kvueiVkYu42K4JX9x7YWW01pDSLBGdOopchx7I4UYgIHg84OuKE8VY7gBkRPMqgI8n1JwvK_-oVujsQ07MMkIVqH9W32UfMtKXPWeF5AjI/s1600/chlandi_2.PNG" style="margin-left: auto; margin-right: auto;"&gt;&lt;img border="0" height="188" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjjHQZ4CAQzXiEuj-WSUsBp8SeRO77ljEU7kvueiVkYu42K4JX9x7YWW01pDSLBGdOopchx7I4UYgIHg84OuKE8VY7gBkRPMqgI8n1JwvK_-oVujsQ07MMkIVqH9W32UfMtKXPWeF5AjI/s400/chlandi_2.PNG" width="400" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;&lt;i&gt;some Chladni-esque figures&lt;/i&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;div style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 12.8px;"&gt;
+&lt;br /&gt;
+Continuing on &lt;a href="http://www.mathrecreation.com/2015/08/simple-fun-with-r.html"&gt;from this post&lt;/a&gt;, I am playing around with some unusual &lt;a href="https://www.r-project.org/"&gt;R language&lt;/a&gt; programming activities by creating some simplified &lt;a href="https://en.wikipedia.org/wiki/Ernst_Chladni#Chladni_figures"&gt;Chladni figures&lt;/a&gt;.&lt;/div&gt;
+&lt;div style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 12.8px;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 12.8px;"&gt;
+Named for &lt;a href="https://en.wikipedia.org/wiki/Ernst_Chladni"&gt;Ernst Chladni&lt;/a&gt;, these figures represent nodal patterns formed by vibrating surfaces.&amp;nbsp;&lt;span style="font-size: 12.8px;"&gt;Traditionally, these are formed placing fine particles on a surface, like a sheet of metal that is set vibrating (a violin bow against an edge of the metal plate is one popular method). The particles settle in the areas of the surface that have the least motion - the nodes. When you achieve a resonant frequency, a characteristic pattern emerges.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+&lt;div style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 12.8px;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 12.8px;"&gt;
+&lt;table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEha2AGeQdpQFt7nhN8CQnolh3gc_0gA5d5xwF6m5lg0maTn455DzwdEykEg2gz1Gsl6NjslyBXmcau-eXrCy-MbJ30FMXfjzq1G2L-zJ3H5ioUzTWqA9Hp8erTC9kvmy2axoctGYHWiJ04/s1600/chlandi_3.PNG" style="margin-left: auto; margin-right: auto;"&gt;&lt;img border="0" height="191" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEha2AGeQdpQFt7nhN8CQnolh3gc_0gA5d5xwF6m5lg0maTn455DzwdEykEg2gz1Gsl6NjslyBXmcau-eXrCy-MbJ30FMXfjzq1G2L-zJ3H5ioUzTWqA9Hp8erTC9kvmy2axoctGYHWiJ04/s400/chlandi_3.PNG" width="400" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;&lt;i&gt;some more Chladni-esque figures&lt;/i&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 12.8px;"&gt;
+Chladni was not the first to study these, but his text is an early systematic treatment (several French and German versions are on Google Books, the &lt;a href="https://books.google.ca/books?id=VecsAAAAYAAJ"&gt;German text&lt;/a&gt; has the best figures, in an appendix). A more recent contributor, Mary Desiree Waller, published a book &lt;i&gt;Chladni Figures, a Study in Symmetry&lt;/i&gt; in 1961, which I would love to get a look at someday. In the 1970s, Chilandi figures were sucked down the rabbithole of&amp;nbsp;&lt;span style="color: #500050; font-size: 12.8px;"&gt;&lt;a href="https://en.wikipedia.org/wiki/Cymatics"&gt;Cymatics&lt;/a&gt;, and seem now seem to appeal equally to students of actual physics and metaphysics. It is probably fitting that these figures are embraced by romantics as much (or more) as they are by scientists. Chladni's study appeared at the end of the Enlightenment, almost at the beginning of the 19th century, and I imagine his demonstrations occurring in parlors similar to those where seances were held. The mysterious formation of these figures must have seemed to some as the manifestation of a hidden world. &amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+&lt;div style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 12.8px;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVEl2oF_4v24YqyyB8lPj8F7JrqfPM37X8S6zTx_mm59LH1WC4ePwn7QTe3zsucmDl5y46rmu7vYjN9uEA35Tbw_VwhXDxgeMLiDoMyc4oTIt_SP6WzwbQK-PeNmfiBm0rwY3eZpN7BXc/s1600/chlandi_gb1.PNG" style="margin-left: auto; margin-right: auto;"&gt;&lt;img border="0" height="235" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVEl2oF_4v24YqyyB8lPj8F7JrqfPM37X8S6zTx_mm59LH1WC4ePwn7QTe3zsucmDl5y46rmu7vYjN9uEA35Tbw_VwhXDxgeMLiDoMyc4oTIt_SP6WzwbQK-PeNmfiBm0rwY3eZpN7BXc/s400/chlandi_gb1.PNG" width="400" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;&lt;i&gt;Chladni's sketches of some nodal patterns on a vibrating surface&lt;/i&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;span face="&amp;quot;arial&amp;quot; , sans-serif" style="background-color: white; color: #222222; font-size: 12.8px;"&gt;Why use R for this? My motivation was not to select the best tool for exploring this topic, but to learn a bit more about programming in R. It was also not to try and produce exact Chladni figures, but something that reasonably resembled them. It turns out that R isn't such an unreasonable choice for this particular programming exercise, if you consider how easy it turns out to be to generate the figures using R. As an educational exercise, it makes some instructive use of R's vectorized methods, for loops, and the &lt;i&gt;image&lt;/i&gt; function.On the other hand, we are not going to use any of R's statistical functions, so in some respects R remains an unusual (or maybe even bizarre) choice for this.&lt;/span&gt;&lt;br /&gt;
+&lt;span face="&amp;quot;arial&amp;quot; , sans-serif" style="background-color: white; color: #222222; font-size: 12.8px;"&gt;&lt;br /&gt;&lt;/span&gt;
+
+
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 12.8px;"&gt;
+In any case, we can create simple Chladni-esque figures by thinking of a rectangular metal plate as a matrix in R (each cell being a point on the metal plate).Each entry in the matrix will receive values that represent the displacement of the plate at those coordinates at some snapshot in time.The matrix is plotted using R's &lt;i&gt;image&lt;/i&gt; function, using a grey color range (try experimenting with other color ranges, or with the contour function).&lt;/div&gt;
+&lt;div style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 12.8px;"&gt;
+&lt;br /&gt;
+The source code is &lt;a href="https://raw.githubusercontent.com/dmackinnon1/r_examples/master/chladni/chladni_example.r" target="_blank"&gt;here&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 12.8px;"&gt;
+The idea is that a vibrating square surface whose edges are fixed (not moving) can be modeled as a product sine waves - one going in the horizontal direction, the other going in the vertical direction. Essentially, the displacement caused by a standing wave at a point &lt;i&gt;x&lt;/i&gt;,&lt;i&gt;y&lt;/i&gt; on the square is modeled as &lt;i&gt;sin&lt;/i&gt;(&lt;i&gt;kfx&lt;/i&gt;)*&lt;i&gt;sin&lt;/i&gt;(&lt;i&gt;kfy&lt;/i&gt;), where &lt;i&gt;f &lt;/i&gt;is &lt;i&gt;pi&lt;/i&gt;/2&lt;i&gt;L&lt;/i&gt;,&lt;i&gt; L&lt;/i&gt; being the length of the side of the square. and &lt;i&gt;k &lt;/i&gt;is an integer.&amp;nbsp;If &lt;i&gt;k&lt;/i&gt; = 1, we get the 'fundamental' wave (first &lt;a href="https://en.wikipedia.org/wiki/Harmonic"&gt;harmonic&lt;/a&gt;) for the square surface, and if &lt;i&gt;k&lt;/i&gt; = 2 we get the first overtone (second harmonic). If we plot each wave separately we end up with a grid that gets finer and finer as we increase &lt;i&gt;k&lt;/i&gt; values. However, things get more interesting if we form the sum of different harmonics. The images below show what we get forming the image for waves with &lt;i&gt;k&amp;nbsp;&lt;/i&gt;= 1 and &lt;i&gt;k&lt;/i&gt; = 2 separately, and then what we get when we sum them together.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;
+&lt;table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_Ocf4kPq6QPRtVia9r0HS2RvK2kEcFjA8R2YXNvcQNEl4UPJKybDuRaOHr9mt8kRgRsmXZrGp7OIMlh-Tb4wliJ5xcflsl1nrk676OxyULKxLyy4dxMDDh19jeUOXLdlpOtLU9_m3Shc/s1600/fundamental1.PNG" style="margin-left: auto; margin-right: auto;"&gt;&lt;img border="0" height="122" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_Ocf4kPq6QPRtVia9r0HS2RvK2kEcFjA8R2YXNvcQNEl4UPJKybDuRaOHr9mt8kRgRsmXZrGp7OIMlh-Tb4wliJ5xcflsl1nrk676OxyULKxLyy4dxMDDh19jeUOXLdlpOtLU9_m3Shc/s400/fundamental1.PNG" width="400" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;&lt;i&gt;fundamental, first overtone, and both together&lt;/i&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;div style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 12.8px;"&gt;
+Including or excluding overtones gives a wide variety of images, and if you increase the amplitude of particular overtones (by multiplying the corresponding term by some integer greater than 1), you can get even more patterns, some of which bear a striking resemblance to Chladni's original hand-drawn figures.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGl9EJB5qm1Y08ALwMrSV9pz56NhMCCWxyFGL1dfm9XszuPMsesr4odObsa5Tl44sADooUpl6-hN78AhhmiQB2B6KFQjNq3aApxsDAZmCkd7h3Nctwyiu8bTLb6uReJxws_wK59CTp3S0/s1600/chlandi_4.PNG" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="100" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGl9EJB5qm1Y08ALwMrSV9pz56NhMCCWxyFGL1dfm9XszuPMsesr4odObsa5Tl44sADooUpl6-hN78AhhmiQB2B6KFQjNq3aApxsDAZmCkd7h3Nctwyiu8bTLb6uReJxws_wK59CTp3S0/s320/chlandi_4.PNG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikKuqXiE1cZ2JDXHQkB35rp4vGqTF6lANiaV-ze47ikGTue7knZ4tT4dEOcnwukewwMzQqcEsOxHse460FlRFjFi7ZBlHnj3BrX_vfmGyUSWZ0yQB0VJsfUxR8lco0yUhsfn6xRlVKMZM/s1600/chlandi_5.PNG" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="102" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikKuqXiE1cZ2JDXHQkB35rp4vGqTF6lANiaV-ze47ikGTue7knZ4tT4dEOcnwukewwMzQqcEsOxHse460FlRFjFi7ZBlHnj3BrX_vfmGyUSWZ0yQB0VJsfUxR8lco0yUhsfn6xRlVKMZM/s320/chlandi_5.PNG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;i&gt;See &lt;a href="http://www.mathrecreation.com/2016/06/more-chlandi-figures-in-r.html"&gt;this post&lt;/a&gt; for some additional chladni figures.&lt;/i&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/div&gt;
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2016-06-14T01:42:09.437Z</blogger:created>
+    <published>2016-06-16T03:54:00.001Z</published>
+    <updated>2021-06-11T21:09:41.872Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2016/06/chlandi-esque-figures-in-r.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

@@ -1,0 +1,44 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-925091343320530901</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>bus number factoring</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnD4ra1OHG8Vt1MAdAM7yIf3j_cUIoL-qomL5L96PY1-BSwB2s1mNJYFwF78sXs8HVf34X02Vi9UUkFU5U_-xIwXoiwl3PcXsTUNX1vEIa4SjL_M4dZ1TQwuDlf_dphAo3gddhwxkDLkI/s1600/oc-transpo-image.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnD4ra1OHG8Vt1MAdAM7yIf3j_cUIoL-qomL5L96PY1-BSwB2s1mNJYFwF78sXs8HVf34X02Vi9UUkFU5U_-xIwXoiwl3PcXsTUNX1vEIa4SjL_M4dZ1TQwuDlf_dphAo3gddhwxkDLkI/s1600/oc-transpo-image.jpg" height="178" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Each bus in Ottawa has a four digit number that identifies it (like 4476 above). One thing to do while riding, if you don't have &lt;a href="http://www.mathrecreation.com/2011/11/butterflies-bus-transfers-cotangents.html"&gt;a bus transfer to play with&lt;/a&gt;, is to pass the time factoring that bus identifier (it's also printed on the inside of the bus, in case you miss it getting in).&lt;br /&gt;
+&lt;br /&gt;
+We all know some basic divisibility rules to help with factoring: If it ends in a zero, it's divisible by 10, if it's even then its divisible by 2, if it ends in a 5 then it's divisible by 5. You may know that if the last two digits of a number are divisible by 4 then the whole number is also divisible by 4 (because 100 is divisible by 4, so for example a number xy76 for any old xy will be divisible by 4 because xy76 = xy00 + 76, &amp;nbsp;and both parts of the sum are divisible by 4).&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href="http://www.mathrecreation.com/2014/09/squashing-multiples.html"&gt;Digital roots&lt;/a&gt; help us with multiples of 3. If a number's digital root is 3, 6, or 9, then that number is divisible by 3. A digital root is easy to calculate: You just keep summing the digits of a number until you get a single digit answer - if your answer is not a single digit, you just do it again. &amp;nbsp;For example, the digital root of 4476 is found by first calculating 4 + 4 + 7 + 6 = 21, and then 2&amp;nbsp;+ 1&amp;nbsp;&amp;nbsp;= 3. So 4476 is divisible by 3.&lt;br /&gt;
+&lt;br /&gt;
+So, we know 4476 is divisible by 4 and 3. Now if you can do some dividing in your head while sitting on the bus, you'll figure out that 4476/12 = 373. Now you might try a bunch of things to factor some more, but eventually you will decide that 373 is likely prime, and it is. So 4476 = (2^2)*3*373.&lt;br /&gt;
+&lt;br /&gt;
+I recently learned that you can also use the &lt;i&gt;double digital root&lt;/i&gt; to help with factoring. The double digital root of a number is calculated by grouping the number's digits into pairs (starting from the right) and adding them, repeating until you get a double digit number. So 4476 gives 44 + 76 = 120, and then 1&amp;nbsp;+ 20 gives 21.&lt;br /&gt;
+&lt;br /&gt;
+How can this be helpful? Just as the digital root of &lt;i&gt;n&lt;/i&gt; is congruent to &lt;i&gt;n&lt;/i&gt; mod 9, the double digital root of &lt;i&gt;n&lt;/i&gt; is congruent to &lt;i&gt;n&lt;/i&gt; mod 99. The digital root of &lt;i&gt;n&lt;/i&gt; helps us identify multiples of 3: if the digital root of a number is equal to a multiple of 3 (3, 6, or 9) that means that the original number when divided by 9 has a remainder divisible by 3, which means the original number is divisible by 3 also. The double digital root can help us identify multiples of 11 in a similar way (since 99 is a multiple of 11). The rule is: if the double digital root is a multiple of 11, then so is the original number. So double digital roots help identify multiples of 11 that are multi-digit numbers (not always easy) by reducing the problem down to identifying multiples of 11 that are two digit numbers (which is easy).&lt;br /&gt;
+&lt;br /&gt;
+The double digital root of 4476 is 21, not a multiple of 11 (and we saw above that 4476 is not a multiple of 11 either). Lets try 1320: the double digital root is 13&amp;nbsp;+ 20 = 33, which is divisible by 11, and it turns out that 1320 = 11 * 120. For another example, use this method to confirm that 3740 is also divisible by 11.&lt;br /&gt;
+&lt;br /&gt;
+To be honest, I have not been on an Ottawa bus whose number is a multiple of 11 yet, but if that exotically numbered public transport is out there, I'll know it when I see it.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2015-01-28T02:12:27.339Z</blogger:created>
+    <published>2015-01-28T03:09:00Z</published>
+    <updated>2015-01-28T03:09:42.634Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='multiplication'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='school math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='mathematics'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='factors'/>
+    <blogger:filename>/2015/01/bus-number-factoring.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

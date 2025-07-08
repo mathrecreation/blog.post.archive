@@ -1,0 +1,58 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-6624545849182569726</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>butterflies, bus transfers, cotangents</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFjGiuFPmysXwT7zaC019m-jma18ZgoYzFOoDsl_BWupoHZ9o38x9_SOIlONQZtGcppe4qSq-fltJvQYU2WsYGedut63PXzA63MH20wrTxfZYZ1PDxq-kztgQKTJ9xX8H64C1hvT0zWWI/s1600/butterfly.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="240" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFjGiuFPmysXwT7zaC019m-jma18ZgoYzFOoDsl_BWupoHZ9o38x9_SOIlONQZtGcppe4qSq-fltJvQYU2WsYGedut63PXzA63MH20wrTxfZYZ1PDxq-kztgQKTJ9xX8H64C1hvT0zWWI/s320/butterfly.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;i&gt;Because it is my habit to do paper-folding while using public &lt;br /&gt;transportation, people&amp;nbsp;&lt;/i&gt;&lt;i&gt;sometimes turn their heads and cast pitying &lt;br /&gt;eyes upon me; but because of my strong&amp;nbsp;&lt;/i&gt;&lt;i&gt;concentration &lt;br /&gt;at these times, their looks do not bother me.&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div style="text-align: right;"&gt;
+- Kazuo Haga, &lt;i&gt;Origamics&lt;/i&gt;&lt;/div&gt;
+&lt;div style="text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div style="text-align: left;"&gt;
+The origami model that I fold most frequently is &lt;a href="http://www.nickrobinson.info/"&gt;Nick Robinson&lt;/a&gt;'s A4 butterfly. You can find this model in Nick's book &lt;a href="http://www.nickrobinson.info/origami/books/bible.htm"&gt;The Origami Bible&lt;/a&gt;&amp;nbsp;(unfortunately I don't think that the instructions are posted on his website). Being in North America, &lt;a href="http://www.cl.cam.ac.uk/~mgk25/iso-paper.html"&gt;A4 paper&lt;/a&gt; is not so easily obtained, but luckily I get handed a little piece of almost-the-same-ratio-as-A4-paper every workday morning in the form of a bus transfer.&lt;/div&gt;
+&lt;div style="text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjlRvKqTbNzklEVYVlg4xpA7L2D2xUm60t3yyn5Yymh0LZb0I1ahVmDn4Pz8TBvJ0N6rxGNwHS-DawnP5f63lh5VHiaRiUnwc-pj9ad9NFE_Mk1gyUdi_xlC2XLsfQoxl0DhK6fUFGIUc/s1600/bus_transfer1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="267" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjlRvKqTbNzklEVYVlg4xpA7L2D2xUm60t3yyn5Yymh0LZb0I1ahVmDn4Pz8TBvJ0N6rxGNwHS-DawnP5f63lh5VHiaRiUnwc-pj9ad9NFE_Mk1gyUdi_xlC2XLsfQoxl0DhK6fUFGIUc/s320/bus_transfer1.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+Rectangles that have the same proportions as A4 paper have nice geometric properties - they are&lt;i&gt; &lt;a href="http://en.wikipedia.org/wiki/Silver_ratio"&gt;silver rectangles&lt;/a&gt;&amp;nbsp;&lt;/i&gt;(named in contrast to golden rectangles), and the niceness of these silver rectangles is due the fact that the ratio of the long side to the short side is &lt;i&gt;sqrt&lt;/i&gt;(2). If you don't have an appropriately proportioned bus transfer, or you want to make your own A4-style silver rectangle, Nick Robson provides some helpful instructions &lt;a href="http://www.nickrobinson.info/origami/tech/a_rectangles.htm"&gt;here&lt;/a&gt;.&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+Really, you don't need a perfect silver rectangle for the butterfly model - it is pretty forgiving, and tends to work well for bus transfers, ticket stubs, and magazine-subscription inserts (golden rectangles, for example, work too). However, if you look at the simplified crease pattern you can see that the model completely breaks down if the ratio of long to short side is too small or too large. To make things precise, things don't work at all if the ratio of long-side to short-side, &lt;i&gt;r&lt;/i&gt;, approaches &lt;i&gt;r&lt;/i&gt; = &lt;i&gt;cotan&lt;/i&gt;(&lt;i&gt;pi&lt;/i&gt;/4) = 1 on the low end, or &lt;i&gt;r&lt;/i&gt; = &lt;i&gt;cotan&lt;/i&gt;(&lt;i&gt;pi&lt;/i&gt;/8) ~= 2.414 on the high end.&amp;nbsp;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRpnqBgDwKL6INFdB8pWAKdp5kfL3U0578Pglsep8e1ArnJWwa_xTSTgqHrlN0uokMFCY0OXXS0rpzsbkq5o_PgvSJwaUaUbIHEgfztV9u5k2z2nH_MwU1qFhb6W_fxqtHqLHJQOXomn8/s1600/butterfly_simplified_crease.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="194" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRpnqBgDwKL6INFdB8pWAKdp5kfL3U0578Pglsep8e1ArnJWwa_xTSTgqHrlN0uokMFCY0OXXS0rpzsbkq5o_PgvSJwaUaUbIHEgfztV9u5k2z2nH_MwU1qFhb6W_fxqtHqLHJQOXomn8/s320/butterfly_simplified_crease.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+The reason that these ratios are as they are is that the fold that creates the outer edge of the wing has an angle of &lt;i&gt;pi&lt;/i&gt;/4 with the midline of the paper, while the fold that creates the inner edge of the wing has an angle of &lt;i&gt;pi&lt;/i&gt;/8. If either of these lines hit the corner of the rectangle, the model no longer works. That is why the ratio of long-side to short-side (or in &lt;a href="http://en.wikipedia.org/wiki/Trigonometric_functions"&gt;trig-ratio speak&lt;/a&gt;, adjacent to opposite) is bounded by the &lt;i&gt;cotan&amp;nbsp;&lt;/i&gt;of these angles.&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsNJvNhzV3viN7zIYj60UOv36-mEDgeEyIEVl0qcNUY3q2jS1AbMiyNWKB6Ly9-GR538UMvOj9PubArLq064Q68jlJ5v8KfQsU858Dt6zkXerQ9Wq_pZYC20SK8OaNLFGivFLmM8HTepg/s1600/too_low_too_high.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="133" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsNJvNhzV3viN7zIYj60UOv36-mEDgeEyIEVl0qcNUY3q2jS1AbMiyNWKB6Ly9-GR538UMvOj9PubArLq064Q68jlJ5v8KfQsU858Dt6zkXerQ9Wq_pZYC20SK8OaNLFGivFLmM8HTepg/s320/too_low_too_high.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div style="text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div style="text-align: left;"&gt;
+Butterflies attempted with almost-square paper have large bodies and almost no wings, while the long paper produces butterflies that have too-long wings and undersized bodies. Although it seems that the model enforces sharply defined boundaries on the range of paper can be used, finding the size of paper that produces the optimal butterfly is another problem. Are silver-rectangle&amp;nbsp;butterflies&amp;nbsp;the best, golden ones, or maybe ones with &lt;i&gt;r&lt;/i&gt; = &lt;i&gt;cotan&lt;/i&gt;(3&lt;i&gt;pi&lt;/i&gt;/16)? This might be a question of personal origami-aesthetics rather than mathematics.&lt;br /&gt;
+&lt;br /&gt;&lt;/div&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2011-11-03T00:39:23.733Z</blogger:created>
+    <published>2011-11-03T02:16:00Z</published>
+    <updated>2011-11-03T02:17:46.240Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='origami'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='geometry'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='GSP'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='mathematics'/>
+    <blogger:filename>/2011/11/butterflies-bus-transfers-cotangents.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

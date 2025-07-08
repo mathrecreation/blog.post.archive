@@ -1,0 +1,49 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-8303020102777699598</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Counting paths</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUpMJvQpksNgGQADFgE-oEnjcZLn6BcFo11XbDT_10QNANLGuYmBXzU2fO1zAvWhNQNdMav0aqK8GuAgQQIeHZ8jDwOy82NZZ-QPCc7_yyeRUFyNI35bu7dvE7oxgffv4cXPpLYFu5M1A/s1600/32.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="198" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUpMJvQpksNgGQADFgE-oEnjcZLn6BcFo11XbDT_10QNANLGuYmBXzU2fO1zAvWhNQNdMav0aqK8GuAgQQIeHZ8jDwOy82NZZ-QPCc7_yyeRUFyNI35bu7dvE7oxgffv4cXPpLYFu5M1A/s320/32.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+A favorite counting puzzle is finding the total number of paths through some diagram. In puzzles like the one above, you are asked to find how many different paths will take you from one end of the diagram to the other, always following the direction of the arrows. To count the paths easily, you should apply &lt;a href="http://en.wikipedia.org/wiki/Rule_of_sum"&gt;the rule of sum&lt;/a&gt; and the &lt;a href="http://en.wikipedia.org/wiki/Rule_of_product"&gt;rule of product&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+In the diagram above, the rule of sum comes into play in getting around a single square. You can go around the top (1 choice) &lt;b&gt;or &lt;/b&gt;around the bottom (1 choice), this gives you 1+1 = 2 choices. Getting around the first square &lt;b&gt;and &lt;/b&gt;the second square &lt;b&gt;and &lt;/b&gt;the next square, etc. requires the rule of product: 2 x 2 x 2 x 2 x 2 = 32 paths. In path puzzles like this, you add "or" choices and multiply "and" choices.&lt;br /&gt;
+&lt;br /&gt;
+Here are a few more path puzzles:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrV0_nAsMPyognsQe_FqL2T41yLTQGkZp0l5t6YtImu27YOmGtpComQ5dna39-Psr3Y5DjNnIFh9diOZRsC4EZv0JtT_mDC8TewD0-OMr7AXTMoZKrWRnvx1mm6Og3g4LAxvuL0pwGeVU/s1600/128.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="306" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrV0_nAsMPyognsQe_FqL2T41yLTQGkZp0l5t6YtImu27YOmGtpComQ5dna39-Psr3Y5DjNnIFh9diOZRsC4EZv0JtT_mDC8TewD0-OMr7AXTMoZKrWRnvx1mm6Og3g4LAxvuL0pwGeVU/s320/128.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgX6dx425TAJXD4IORlqKdAdCvlREDhIK7krTC6tK3uj8YFk5pEBCJTMjzgRhmI0BrLlRMjTlP8GGlLYiD9X82m0H-jrCRfGdvU6YZ0Vi4ukGKRfDj8UgYRi2WksPszKCDMUJuoHlcUqMM/s1600/27.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgX6dx425TAJXD4IORlqKdAdCvlREDhIK7krTC6tK3uj8YFk5pEBCJTMjzgRhmI0BrLlRMjTlP8GGlLYiD9X82m0H-jrCRfGdvU6YZ0Vi4ukGKRfDj8UgYRi2WksPszKCDMUJuoHlcUqMM/s1600/27.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizIi_RCJZ0tKd-wKoZzHueQSzAVXkXM5NKl8KO6plNNZ8gK9nwhVB-d2x-EePUDUm5tvI63YAoxuLRc2h69-0sPzKbonauiW0Hv0FsIRV4j4S52mbV_QsN-23OCyn7bkBnXAdJKui5634/s1600/64.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="106" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizIi_RCJZ0tKd-wKoZzHueQSzAVXkXM5NKl8KO6plNNZ8gK9nwhVB-d2x-EePUDUm5tvI63YAoxuLRc2h69-0sPzKbonauiW0Hv0FsIRV4j4S52mbV_QsN-23OCyn7bkBnXAdJKui5634/s320/64.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2013-11-10T03:41:36.237Z</blogger:created>
+    <published>2013-11-10T03:59:00.002Z</published>
+    <updated>2013-11-10T03:59:44.160Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='school math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='puzzles'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='mathematics'/>
+    <blogger:filename>/2013/11/counting-paths.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

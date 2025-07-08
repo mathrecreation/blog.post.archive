@@ -1,0 +1,36 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-2954685837587216197</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>beautiful negatives</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwRvzC5W42Y3Gz6kvdnV1ALkCqYJUNMHx1ckHC16MpYPX7OwvpGOY7ZqcSXeTpZ4HAtYccylvHuvg5N5U5oEIts8-VC5kWiMskKT999bGbqsFY7ya2EGkPRCEoPxSI4TFVa7ejOiYooV8/s1600-h/negation2.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwRvzC5W42Y3Gz6kvdnV1ALkCqYJUNMHx1ckHC16MpYPX7OwvpGOY7ZqcSXeTpZ4HAtYccylvHuvg5N5U5oEIts8-VC5kWiMskKT999bGbqsFY7ya2EGkPRCEoPxSI4TFVa7ejOiYooV8/s320/negation2.jpg" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;br /&gt;
+&lt;blockquote&gt;&lt;b&gt;teacher (emphatically):&lt;/b&gt; &lt;i&gt;A double negative makes a positive, but a double positive can never make a negative!&lt;/i&gt;&lt;br /&gt;
+&lt;/blockquote&gt;&lt;blockquote&gt;&lt;b&gt;student (lazily, from the back of class):&lt;/b&gt; &lt;i&gt;yeah, yeah...&lt;/i&gt;&lt;br /&gt;
+&lt;/blockquote&gt;&lt;br /&gt;
+I am not sure where this topic started, but &lt;a href="http://numberwarrior.wordpress.com/"&gt;The Number Warrior&lt;/a&gt; has collected up pointers to most of the "minus times minus is plus" posts that have been cropping up &lt;a href="http://numberwarrior.wordpress.com/2009/09/29/negative-times-negative/"&gt;here&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+So far I haven't read about what I thought was the usual visualization (but it has probably been mentioned, burried in some comments): multiplying by -1 is a counter-clockwise rotation by 180 around zero.&lt;br /&gt;
+&lt;br /&gt;
+The problem with this image is that it takes us off the number-line and has us floating in space for a moment. But this is exactly right - the space we are floating in is actually the field of &lt;a href="http://en.wikipedia.org/wiki/Complex_number"&gt;complex numbers&lt;/a&gt;, and seeing "multiplying by -1" as "counter clockwise rotation by 180" is the visualization that corresponds to "&lt;a href="http://www.mathlesstraveled.com/?p=63=3"&gt;the most beautiful equation in the world&lt;/a&gt;" $e^{i\pi} = -1$. In the same way, a rotation by 90 degrees corresponds to a multiplication by $i$, and multiplying by $i$ twice gets us to the same place as multiplying by -1, which makes sense, since $i^2=-1$. It has to be counter-clockwise in order to give the imaginary axis its usual direction.&lt;br /&gt;
+&lt;br /&gt;
+Saying that multiplying by -1 corresponds to a 180 degree rotation does not offer an explanation for &lt;i&gt;why &lt;/i&gt;a negative times a negative is positive, but it provides a way of seeing it that is consistent with how we visualize other operations (complex multiplication). If you actually said "this is why a negative times a negative is a positive" someone could easily ask, "why does complex multiplication involve rotation at all?" If anything, this visualization is a way of providing a comfortable introduction to the idea that complex multiplication involves a rotation.&lt;br /&gt;
+&lt;br /&gt;
+Although "negative times negative is positive" seems obvious once you've gotten used to it, putting double negation in a more general context is interesting. If we always expect &lt;i&gt;not not a&lt;/i&gt; to equal &lt;i&gt;a&lt;/i&gt;, we are relying on the &lt;a href="http://en.wikipedia.org/wiki/Law_of_excluded_middle"&gt;law of the excluded middle&lt;/a&gt;, which &lt;a href="http://en.wikipedia.org/wiki/Intuitionist"&gt;not everyone accepts&lt;/a&gt; all the time.</content>
+    <blogger:metaDescription/>
+    <blogger:created>2009-10-05T14:36:46.532Z</blogger:created>
+    <published>2009-10-05T14:48:00Z</published>
+    <updated>2011-09-11T02:01:20.739Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='visualization'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='school math'/>
+    <blogger:filename>/2009/10/beautiful-negatives.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  
