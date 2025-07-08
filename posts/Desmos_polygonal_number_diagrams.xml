@@ -1,0 +1,95 @@
+<entry>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-3533713109590820940</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Desmos polygonal number diagrams</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-ets1HIXx1dIrUl7ehdpL1AYcNRT_kwrZbTJhptTa2SesHT5SkLBMQeO5699PC7ofWvi3M5Q_vzhv9JaigSzw9oMXogsIgbNkGiD1E8WW3YlqMCRK_I8l0Whw61TND6ST5TMqsehMGvM/s1600/pentagonal_numbers.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="207" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-ets1HIXx1dIrUl7ehdpL1AYcNRT_kwrZbTJhptTa2SesHT5SkLBMQeO5699PC7ofWvi3M5Q_vzhv9JaigSzw9oMXogsIgbNkGiD1E8WW3YlqMCRK_I8l0Whw61TND6ST5TMqsehMGvM/s400/pentagonal_numbers.PNG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Polygonal numbers are a favorite topic in recreational math and there are quite a few posts about them on this blog (such as this one,&amp;nbsp;&lt;a href="http://www.mathrecreation.com/2010/03/polygonal-wanderings.html"&gt;here&lt;/a&gt;). The image above hints at some of their interest: polygonal numbers, like the pentagonals shown above have numerical properties that translate nicely into visual properties in their associated diagrams.&lt;br /&gt;
+&lt;div class="" style="clear: both; text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+The &lt;a href="http://www.mathrecreation.com/2008/07/drawing-polygonal-numbers.html"&gt;very first post&lt;/a&gt; of this blog had some instructions for how to generate polygonal number diagrams using Fathom or Tinkerplots (two dynamic data environments; their successor &lt;a href="https://codap.concord.org/"&gt;CODAP&lt;/a&gt;&amp;nbsp;seems to have the same capabilities), so attempting to do the same in &lt;a href="https://www.desmos.com/calculator"&gt;Demos&lt;/a&gt; seemed like a good idea.&lt;br /&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjviOUBIAQhlRckYhyphenhyphenl75CzFP0pupjGBIQc-UbG0mJYNwE6EDkqeXHFMMQoruPzJzEgaGZjzz7Y5kRmc-GODYr3wXU0UhSdPLua8Rvn-dye6QzMTKLCr616XNRoK3-U4LxRGfqt52WOxlk/s1600/triangulars.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjviOUBIAQhlRckYhyphenhyphenl75CzFP0pupjGBIQc-UbG0mJYNwE6EDkqeXHFMMQoruPzJzEgaGZjzz7Y5kRmc-GODYr3wXU0UhSdPLua8Rvn-dye6QzMTKLCr616XNRoK3-U4LxRGfqt52WOxlk/s1600/triangulars.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;The first few triangular number diagrams&lt;/i&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;i&gt;&lt;br /&gt;&lt;/i&gt;&lt;/div&gt;
+You can play with the &lt;a href="https://www.desmos.com/calculator/tdtaqrljju"&gt;graph here&lt;/a&gt;. With it you can choose an &lt;i&gt;n&lt;/i&gt; and &lt;i&gt;k&lt;/i&gt; value which will plot (&lt;i&gt;x&lt;/i&gt;, &lt;i&gt;y&lt;/i&gt;) values that will form an &lt;i&gt;n&lt;/i&gt;-dot &lt;i&gt;k&lt;/i&gt;-polygonal number diagram, with or without the connecting lines.&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEii7OyUfHymzcOFCNNL2pq6VfdtUOx8hVver_pZTPHwg7tVGl9yF-WWFLfNvxZux-DRFzcBHadd80v8H8bPdXCe3AdQ4ZZXBFLTCOK8S5xBqqiajARyb0wAuNU3oJLVgvWot0_F68SljZk/s1600/a_few_examples.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="400" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEii7OyUfHymzcOFCNNL2pq6VfdtUOx8hVver_pZTPHwg7tVGl9yF-WWFLfNvxZux-DRFzcBHadd80v8H8bPdXCe3AdQ4ZZXBFLTCOK8S5xBqqiajARyb0wAuNU3oJLVgvWot0_F68SljZk/s400/a_few_examples.PNG" width="332" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;Some examples from the polygonal&lt;br /&gt;number&amp;nbsp;&lt;a href="https://www.desmos.com/calculator/tdtaqrljju"&gt;graph&lt;/a&gt;&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+If the &lt;i&gt;n&amp;nbsp;&lt;/i&gt;dots form a complete diagram, that means that &lt;i&gt;n&lt;/i&gt; is a &lt;i&gt;k&lt;/i&gt;-polygonal number. So this graph will draw partial diagrams. For example, you can draw a square with 9 dots, so it's a square number, but you can't draw a square with 10 dots, so it is not a square number. You can draw a hexagon with 15 dots, so it's hexagonal, but you cannot do the same with 26.&lt;br /&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVkeM2l99FlwXp0rdW6nrqWrb3d8VW4jg_duDoRsJ5KPmq4Hvo2lh5x02j0FKo_hy0aRWxZip9VL0wKwOEsAmh1e5gULX5-jA-ruc61UlGfeKyCXkZ2IuUjCI7qnOZ5LEnyjOoBomJRnY/s1600/hexagonal_and_no.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVkeM2l99FlwXp0rdW6nrqWrb3d8VW4jg_duDoRsJ5KPmq4Hvo2lh5x02j0FKo_hy0aRWxZip9VL0wKwOEsAmh1e5gULX5-jA-ruc61UlGfeKyCXkZ2IuUjCI7qnOZ5LEnyjOoBomJRnY/s1600/hexagonal_and_no.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;i&gt;15 is hexagonal, 26 is not&lt;/i&gt;&lt;/div&gt;
+&lt;div style="text-align: left;"&gt;
+&lt;i&gt;&lt;br /&gt;&lt;/i&gt;&lt;/div&gt;
+&lt;div style="text-align: left;"&gt;
+To understand the formulas, or come up with your own, you need to be aware of the rules for how to form polygonal diagrams, which are based on the idea of adding a layer of points (called a &lt;i&gt;gnomon&lt;/i&gt;) to the previous &lt;i&gt;k&lt;/i&gt;-polygonal number to get the current &lt;i&gt;k&lt;/i&gt;-polygonal number. Using the graph, you can likely figure out the rule how many dots will be in each gnomon for a given layer and &lt;i&gt;k&lt;/i&gt; value.&lt;/div&gt;
+&lt;div style="text-align: left;"&gt;
+&lt;i&gt;&lt;br /&gt;&lt;/i&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQG_BHgIspzL8q0Jwtmv34UYqzirJaPPtrqitjSarNB-sQz7LrEG7HMCMJW8O_MI-mg4uXA4aPHbls9rL-w89IxoTDqvWNolpyoQn1TG_g6GoFFRgr2ZH1aefSZtCUpPRFLJ8gSQXSQcY/s1600/pentagon_with_gnomon.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQG_BHgIspzL8q0Jwtmv34UYqzirJaPPtrqitjSarNB-sQz7LrEG7HMCMJW8O_MI-mg4uXA4aPHbls9rL-w89IxoTDqvWNolpyoQn1TG_g6GoFFRgr2ZH1aefSZtCUpPRFLJ8gSQXSQcY/s1600/pentagon_with_gnomon.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;i&gt;pentagonal 12, gnomons &lt;br /&gt;shown on right&lt;/i&gt;&lt;/div&gt;
+&lt;div style="text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div style="text-align: left;"&gt;
+&lt;i&gt;&lt;br /&gt;&lt;/i&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijuE62ziNkaIrFe9QUnwuuWycRyVp7LSavq9EIoSYjpel4k2maz8emgCkQ0CjX0EgZyvOKR4l5fYH2gWS6tFO64yUupCDahxBIRPwMkhXfXusyW2VAcwpC_TF61s8ynN7fTxDnXLe-ye4/s1600/81_heptagonal.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="278" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijuE62ziNkaIrFe9QUnwuuWycRyVp7LSavq9EIoSYjpel4k2maz8emgCkQ0CjX0EgZyvOKR4l5fYH2gWS6tFO64yUupCDahxBIRPwMkhXfXusyW2VAcwpC_TF61s8ynN7fTxDnXLe-ye4/s320/81_heptagonal.PNG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;i&gt;81 is the sixth heptagonal number:&amp;nbsp;&lt;/i&gt;&lt;br /&gt;
+&lt;i&gt;there are 5 gnomons (of 5 sides each) layered on&amp;nbsp;&lt;/i&gt;&lt;br /&gt;
+&lt;i&gt;top of 1 to make 81&lt;/i&gt;&lt;/div&gt;
+&lt;div style="text-align: left;"&gt;
+&lt;i&gt;&lt;br /&gt;&lt;/i&gt;&lt;/div&gt;
+&lt;div style="text-align: left;"&gt;
+&lt;i&gt;&lt;br /&gt;&lt;/i&gt;&lt;/div&gt;
+&lt;div style="text-align: left;"&gt;
+The way I chose to draw these was that for a given number &lt;i&gt;n&lt;/i&gt;, you determine which gnomon layer it lies in, how far along the gnomon layer it is, and what side of the gnomon it is on. The gnomon layer for &lt;i&gt;n&lt;/i&gt; tells us where to start: we just need to count up to the layer along angle that is determined by &lt;i&gt;k&lt;/i&gt;. If we know how far along in the layer it is, we know how many dots to move along before plotting our point. And finally, if we know which side it is on, we know how many turns to make along the way.&lt;br /&gt;
+&lt;br /&gt;
+So for example, the formula for the &lt;i&gt;y&lt;/i&gt; coordinate is this:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgu8J6A6mR8ifcH_C7bnZrrMWVcIct8XAqXnCBikj1kuc8wFuz6K6Z3ejoDKpqUFy1rSIBjfZLj6xWDfQSH2FzOlokUGfvzdT2UGqnaXgenMipdcowpTvIJaYEE5fCXDqVCeQ1msYw6NF0/s1600/eqn1.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="76" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgu8J6A6mR8ifcH_C7bnZrrMWVcIct8XAqXnCBikj1kuc8wFuz6K6Z3ejoDKpqUFy1rSIBjfZLj6xWDfQSH2FzOlokUGfvzdT2UGqnaXgenMipdcowpTvIJaYEE5fCXDqVCeQ1msYw6NF0/s400/eqn1.PNG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Applying the explanation above, you may get a sense of how it works:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLT4o3tC3axHBjipCYnJEEQPnj6Y7CxVgNeDACmTtHsy6kgyT4sY_bFCIse2NnwFkY_wVxjtymxS_3trWdzcrXdAdntQDYgnp1usKwYJBFCXkHT6UW6t2tyYoCd6wV22ZnyMz7Sx9h10U/s1600/annotated_eqn.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="171" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLT4o3tC3axHBjipCYnJEEQPnj6Y7CxVgNeDACmTtHsy6kgyT4sY_bFCIse2NnwFkY_wVxjtymxS_3trWdzcrXdAdntQDYgnp1usKwYJBFCXkHT6UW6t2tyYoCd6wV22ZnyMz7Sx9h10U/s400/annotated_eqn.PNG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+Built into this there is a little more complexity: one method of finding out the gnomon layer we are in is to use a formula for computing polygonal numbers along with the quadratic formula (found in the &lt;i&gt;polygonal number formula calculations&lt;/i&gt; section of the&amp;nbsp;&lt;span style="text-align: center;"&gt;&lt;a href="https://www.desmos.com/calculator/tdtaqrljju"&gt;graph&lt;/a&gt;&lt;/span&gt;).&lt;br /&gt;
+&lt;br /&gt;
+When I've written little programs to draw polygonal numbers before (like in the &lt;a href="http://www.mathrecreation.com/2008/07/drawing-polygonal-numbers.html"&gt;Fathom/Tinkerplots version&lt;/a&gt;), I relied heavily on conditional statements (if/else) and on iteration/recursion (use of the prev() function). It was a challenge for me to take something that relied on those sort of programming constructs and translate it into an extreme function-oriented environment like Desmos. It was revealing to see how conditionals became products of 'truth functions' (returning 0 or 1), and how iterations were replaced by sums.&lt;br /&gt;
+&lt;br /&gt;&lt;/div&gt;
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2016-11-14T03:26:20.417Z</blogger:created>
+    <published>2016-11-18T14:36:00.001Z</published>
+    <updated>2016-11-18T14:36:50.046Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='polygonal'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='desmos'/>
+    <blogger:filename>/2016/11/desmos-polygonal-number-diagrams.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  </entry>
