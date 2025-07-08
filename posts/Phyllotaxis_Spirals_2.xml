@@ -1,0 +1,26 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-6562364772300945766</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Phyllotaxis Spirals 2</title>
+    <content type='html'>&lt;a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8va2IOZ_LOcair42Kbrzskc0YBH3oSjsXFCcnasXXWIRUQQTAK01OXh5qjVeaZq2NTH2WMbJFQ2xpFWMp5fLSSMGtBGsT8wuKX7aHUlrM_Gty1KoUOQPJbStnSQPIN0ylf0ydRpA2Io0/s1600-h/fathom_phylo2.jpg"&gt;&lt;img style="margin: 0px auto 10px; display: block; text-align: center; cursor: pointer;" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8va2IOZ_LOcair42Kbrzskc0YBH3oSjsXFCcnasXXWIRUQQTAK01OXh5qjVeaZq2NTH2WMbJFQ2xpFWMp5fLSSMGtBGsT8wuKX7aHUlrM_Gty1KoUOQPJbStnSQPIN0ylf0ydRpA2Io0/s400/fathom_phylo2.jpg" alt="" id="BLOGGER_PHOTO_ID_5244430757767017650" border="0" /&gt;&lt;/a&gt;The &lt;a href="http://mathrecreation.blogspot.com/2008/09/phyllotaxis-spirals.html"&gt;previous post&lt;/a&gt; showed some phyllotaxis-like spirals that were created using TinkerPlots. If you bring the same file into Fathom, you can use its support for collection display to create a "graduated" picture that makes the more central seeds look smaller (younger) than the more mature outer seeds.&lt;br /&gt;&lt;br /&gt;If you have already created the phyllotaxis data in Fathom, or opened the data created in TinkerPlots in Fathom, you can change the display you get when you drag open a collection box. Under the display tab on the Collection Inspector in Fathom you can set the display properties so that cases no longer show up as uniform gold balls. Setting the display attributes to the values below should give you a growing spiral like the one pictured above.&lt;br /&gt;&lt;br /&gt;&lt;span style="font-family:courier new;"&gt;x = 10x+400&lt;br /&gt;&lt;/span&gt;&lt;span style="font-family:courier new;"&gt;y = 10y+400&lt;/span&gt; &lt;span style="font-family:courier new;"&gt;&lt;br /&gt;image = greyCircleIcon&lt;/span&gt;&lt;br /&gt;&lt;span style="font-family:courier new;"&gt;width = sqrt(r*10)&lt;/span&gt;&lt;br /&gt;&lt;span style="font-family:courier new;"&gt;height = sqrt(r*10)&lt;/span&gt;&lt;br /&gt;&lt;span style="font-family:courier new;"&gt;caption=""&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;Note tha the x and y that appear on the right-hand side of the equations above are the x and y attributes that you defined for the data, and the x and y that appear on the left-hand correspond to the position of the icons. You can experiment with other formulas for width and height - using a slider to provide a variable instead of the number "10" gives more flexibility.&lt;br /&gt;&lt;br /&gt;The images below show some of the other spirals you can obtain by varying the angle between the seeds, as mentioned in the previous post.&lt;br /&gt;&lt;br /&gt;&lt;a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQgcXizFODmqAA2PuMzMrV3OvH8kxx5sKwb8RCp7qYUjckuVo4XBLI0PH_TO4pw_9H6pNUFx33WD1CrpJpenhzJzs03awZeU39Lt-lqUQu3T1KyrrWGMYFTLP25k9e1UXuiKxY5NLbVl8/s1600-h/fathom_phylo4.jpg"&gt;&lt;img style="margin: 0px auto 10px; display: block; text-align: center; cursor: pointer;" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQgcXizFODmqAA2PuMzMrV3OvH8kxx5sKwb8RCp7qYUjckuVo4XBLI0PH_TO4pw_9H6pNUFx33WD1CrpJpenhzJzs03awZeU39Lt-lqUQu3T1KyrrWGMYFTLP25k9e1UXuiKxY5NLbVl8/s400/fathom_phylo4.jpg" alt="" id="BLOGGER_PHOTO_ID_5244433559495594338" border="0" /&gt;&lt;/a&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2008-09-10T15:22:19.602Z</blogger:created>
+    <published>2008-09-10T15:21:00Z</published>
+    <updated>2011-09-11T02:02:06.360Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='phyllotaxis'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='visualization'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='patterns'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='spirals'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='Fathom'/>
+    <blogger:filename>/2008/09/phyllotaxis-spirals-2.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

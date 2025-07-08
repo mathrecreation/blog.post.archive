@@ -1,0 +1,49 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-2765044940542681769</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>spirals</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPNgF_9W7vtpJkAGK6jrD-ASRK0zkIgWM2cVz97UOVp-CoXi6e47JEN6xe-c-gNEBvVgBFsbjEV2sxgJPWv3z0OJK_FMh0JF19qxRS7y0lUy_MQaZqWOCsLZkuZ6gAHwacvB9XCPNZK28/s1600/phyllo_no_seeds.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="315" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPNgF_9W7vtpJkAGK6jrD-ASRK0zkIgWM2cVz97UOVp-CoXi6e47JEN6xe-c-gNEBvVgBFsbjEV2sxgJPWv3z0OJK_FMh0JF19qxRS7y0lUy_MQaZqWOCsLZkuZ6gAHwacvB9XCPNZK28/s320/phyllo_no_seeds.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+More than any other book that I know of,&amp;nbsp;Theodore Andrea Cook's&amp;nbsp;&lt;a href="http://books.google.com/books?id=ea-TStM-07EC"&gt;The Curves of Life&lt;/a&gt;&amp;nbsp;shows the extent of our fascination with spirals. First published in 1914, it is an odd blend of 19th-century natural history,&amp;nbsp;amateur&amp;nbsp;mathematics, and art history. On the mathematics of spirals, it is not the best source, Conway and Guy's &lt;a href="http://books.google.com/books?id=0--3rcO7dMYC"&gt;The Book of Numbers&lt;/a&gt; has a better overview on spirals in plants, but it is unmatched as a compendium of all things spiral.&lt;br /&gt;
+&lt;br /&gt;
+I was thinking about the allure of spirals while I finally got around to attempting some&amp;nbsp;better renderings of spirals from earlier posts. The older pictures in this blog were made with &lt;a href="http://www.keypress.com/x5656.xml"&gt;Fathom&lt;/a&gt;, which worked well, but these drawn using &lt;a href="http://processing.org/"&gt;Processing&lt;/a&gt; look a bit nicer I think, and the code is easier to play with.&lt;br /&gt;
+&lt;br /&gt;
+The spiral below is a quadratic spiral displaying the triangular and hexagonal numbers, originally from this &lt;a href="http://mathrecreation.blogspot.com/2009/05/quadratic-number-spirals-and-polygonal.html"&gt;post&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibDmGJoTxyh4GW9KA-nUrWV3dQPOTiotCYNdBH-TFuTnDeF_tBVtr7bkun1zg5SJf7gpnZWPc1OyBGtvykSfnO-YU0_N5jtr0HgICSSnFm4lSVmKTaKtp7GkkiXzwSBNYUcb1F6sVU7xM/s1600/nodes_no_edge1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="319" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibDmGJoTxyh4GW9KA-nUrWV3dQPOTiotCYNdBH-TFuTnDeF_tBVtr7bkun1zg5SJf7gpnZWPc1OyBGtvykSfnO-YU0_N5jtr0HgICSSnFm4lSVmKTaKtp7GkkiXzwSBNYUcb1F6sVU7xM/s320/nodes_no_edge1.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+This other spiral is a phyllotaxis spiral like the ones described &lt;a href="http://mathrecreation.blogspot.com/2009/05/more-phyllotaxis.html"&gt;here&lt;/a&gt;. The picture at the top of the post is based on the one below - with edges between points shown instead of the points themselves.&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0OU-0sXKGNJDjQx5k1kJalOFrNwdJrCrt8UzqWqoEPvj4uKaXfdWaAg6RoUpaSQ6x4atfaQZ863BFDSk3phUKGjkm7OzJpYRPMM5SuuLEsIM2KXLMOKgxvTe_T9Wi8J15QVIWkVrYUC8/s1600/dots_growing_slightly_1..JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="318" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0OU-0sXKGNJDjQx5k1kJalOFrNwdJrCrt8UzqWqoEPvj4uKaXfdWaAg6RoUpaSQ6x4atfaQZ863BFDSk3phUKGjkm7OzJpYRPMM5SuuLEsIM2KXLMOKgxvTe_T9Wi8J15QVIWkVrYUC8/s320/dots_growing_slightly_1..JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+For what it's worth, the Processing code for these and other similar spirals is &lt;a href="http://sites.google.com/site/mathrecreation/Home/quad_spiral1.zip"&gt;here&lt;/a&gt;. If Processing isn't your thing, you can find Mathematica and Python versions of polygonal-numbers-on-quadratic-spirals at &lt;a href="http://www.walkingrandomly.com/?p=2447"&gt;Walking Randomly&lt;/a&gt;.&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2011-09-10T13:48:11.696Z</blogger:created>
+    <published>2011-09-11T01:54:00Z</published>
+    <updated>2011-09-11T02:00:41.158Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='spirals'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='Processing'/>
+    <blogger:filename>/2011/09/spirals.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

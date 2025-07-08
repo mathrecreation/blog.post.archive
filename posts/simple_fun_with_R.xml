@@ -1,0 +1,98 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-9084427987176261891</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>simple fun with R</title>
+    <content type='html'>I'm in the process of learning about the programming &lt;a href="https://www.r-project.org/"&gt;language R&lt;/a&gt;, and thought a nice way to get started would be to play with a few simple examples of things I've previously posted about. You can take any of these examples and try them out yourself by copying the code right into an in-browser R environment like &lt;a href="http://www.r-fiddle.org/#/"&gt;R-fiddle&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+The two baby R examples here make use of some of the built in math functions in R (&lt;span style="font-family: Courier New, Courier, monospace;"&gt;sin&lt;/span&gt;, &lt;span style="font-family: Courier New, Courier, monospace;"&gt;cos&lt;/span&gt;, and&amp;nbsp;&lt;span style="font-family: Courier New, Courier, monospace;"&gt;sqrt&lt;/span&gt;), and illustrate the&lt;i&gt; vector-based&lt;/i&gt; approach that R takes. In R, instead of iterating using a &lt;span style="font-family: Courier New, Courier, monospace;"&gt;while &lt;/span&gt;or &lt;span style="font-family: Courier New, Courier, monospace;"&gt;for &lt;/span&gt;loop and applying functions to individual values, many functions are 'vectorized' so you can provide a whole vector of arguments to a function and it will do the iterating for you. Hopefully you will see what I mean in the examples below.&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Example 1: Lissajous figures&lt;/b&gt;&lt;br /&gt;
+&lt;b&gt;&lt;br /&gt;&lt;/b&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8_CZh-8He-JRJFHABWHphW9ec_qyiRsI3O9jWPaj0ynEMjufccxnvCUOTkd9WBPltsnBjkHzSqzE99MM6t3J9acakyZhOxhWc2bAftuSdd4DX54gF8LPPMCfB4GX0UJPxWGbrowbdQow/s1600/1acode.JPG" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8_CZh-8He-JRJFHABWHphW9ec_qyiRsI3O9jWPaj0ynEMjufccxnvCUOTkd9WBPltsnBjkHzSqzE99MM6t3J9acakyZhOxhWc2bAftuSdd4DX54gF8LPPMCfB4GX0UJPxWGbrowbdQow/s1600/1acode.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoQNMiz4_bZftTkmTY-UT6QA90WGb_8LaPIO5VjY7biROSnGJB0-xtuiYhLSKGe2QtT8kFvnnUnmedw17rtQLsPVR-PwzbBmwzpCxxSIjMHhZ_umOJ2XdLgxzJ5n8k4DRGrk8o8ls1vkk/s1600/ex1a.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="292" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoQNMiz4_bZftTkmTY-UT6QA90WGb_8LaPIO5VjY7biROSnGJB0-xtuiYhLSKGe2QtT8kFvnnUnmedw17rtQLsPVR-PwzbBmwzpCxxSIjMHhZ_umOJ2XdLgxzJ5n8k4DRGrk8o8ls1vkk/s320/ex1a.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhobhku_g04WLxSJfNzH3QLjBG3_EHh2di5sqtW4PIw6NsUoRvn0tciDAwCbKT2O3QYMp8BnIdgzf654sX2ghwqsolBRKkssQdCVzDQr6vprtkUXEX3OjQaRN75YZcbU83T2e1TAape-V4/s1600/1bcode.JPG" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhobhku_g04WLxSJfNzH3QLjBG3_EHh2di5sqtW4PIw6NsUoRvn0tciDAwCbKT2O3QYMp8BnIdgzf654sX2ghwqsolBRKkssQdCVzDQr6vprtkUXEX3OjQaRN75YZcbU83T2e1TAape-V4/s1600/1bcode.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEii-KQn9yJSiQ6XVS7EoOjzDDl9OCHDpAHAT7t27GjMB96ijF_4yFbHgkKEka2wyoH41Zt3N9SlXxjo4EYTTgZlh2GxAqmxsBKHaWPMK8WZKEY8dRhXDlD0B5XMwITKJao7HJ8wW-OFUdY/s1600/ex1b.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="286" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEii-KQn9yJSiQ6XVS7EoOjzDDl9OCHDpAHAT7t27GjMB96ijF_4yFbHgkKEka2wyoH41Zt3N9SlXxjo4EYTTgZlh2GxAqmxsBKHaWPMK8WZKEY8dRhXDlD0B5XMwITKJao7HJ8wW-OFUdY/s320/ex1b.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiu3FY7h-7VhqfOhafLwz8qPamKLMuWHICc1edPTMpP3RS_P47emJBsCmn2LP7MaM2ARHJYAd63SvXCF_fr1fovlnYyaYglhVBmrqhidPSS4S4k9DhgCLNNXd6JInnXpWS0051gxPme7uk/s1600/1ccode.JPG" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiu3FY7h-7VhqfOhafLwz8qPamKLMuWHICc1edPTMpP3RS_P47emJBsCmn2LP7MaM2ARHJYAd63SvXCF_fr1fovlnYyaYglhVBmrqhidPSS4S4k9DhgCLNNXd6JInnXpWS0051gxPme7uk/s1600/1ccode.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihxRiOY-YIn83hES3-qOa2F8VmF-yKGl2nqr13_uYZ-qu5hRP8gY-JW1IbaCZ0hEMm7u8yaqwPfRwRj_FbWA6LcriuNvIX3o191ozRdW47YuP0M_KZycJ0gbAlSrfvPlTu2S911_twy20/s1600/exa1c.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="298" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihxRiOY-YIn83hES3-qOa2F8VmF-yKGl2nqr13_uYZ-qu5hRP8gY-JW1IbaCZ0hEMm7u8yaqwPfRwRj_FbWA6LcriuNvIX3o191ozRdW47YuP0M_KZycJ0gbAlSrfvPlTu2S911_twy20/s320/exa1c.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+R provides a number of ways of creating vectors - ordered collections of a single data type. One way to create a vector that is just a sequence of the form &lt;span style="font-family: Courier New, Courier, monospace;"&gt;n, n + 1, n + 2, ... k&lt;/span&gt; is to use the colon notation&lt;span style="font-family: Courier New, Courier, monospace;"&gt; n:k.&lt;/span&gt;  Here (example 1a) some basic raw input the (vector &lt;span style="font-family: Courier New, Courier, monospace;"&gt;t&lt;/span&gt;) has a scaling factor &lt;span style="font-family: Courier New, Courier, monospace;"&gt;f &lt;/span&gt;applied to it. When you multiply a 'scalar' (actually, in R this is a one-element vector) by a vector, the scalar is applied to each element of the vector (as you might expect) to produce a new vector. Something a bit less expected is that functions like &lt;span style="font-family: Courier New, Courier, monospace;"&gt;sin()&lt;/span&gt; are &lt;i&gt;vectorized &lt;/i&gt;- if you provide a vector as an argument, they will produce a vector of the same size as a result, and the contents of the returned vector are what you would expect to get from applying the function to each element.&lt;br /&gt;
+&lt;br /&gt;
+The &lt;span style="font-family: Courier New, Courier, monospace;"&gt;plot()&lt;/span&gt; function is flexible - when a single vector is provided (example 1a) it will plot the ordered pairs (&lt;i&gt;x&lt;/i&gt;, &lt;i&gt;y&lt;/i&gt;) using elements of the vector as &lt;i&gt;y&lt;/i&gt; values against &lt;i&gt;x&lt;/i&gt; values inferred from each element's position in the vector (its index). When two vectors are provided (example 1b), the first vector provides the &lt;i&gt;x&lt;/i&gt; values, and the second the &lt;i&gt;y&lt;/i&gt; values (generally, R implements some 'recycling' behavior when the two vectors are not of equal length but the length of one is a multiple of the other). Finally, the &lt;span style="font-family: Courier New, Courier, monospace;"&gt;plot()&lt;/span&gt; function offers some additional arguments for formatting the output.&lt;br /&gt;
+&lt;br /&gt;
+&amp;nbsp;A very different "synthetic" approach to drawing lissajous figures can be taken in Geometer's Sketchpad, as mentioned &lt;a href="http://www.mathrecreation.com/2009/09/geometric-programming-and-trig.html"&gt;here&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Example 2: Phyllotaxis spirals&lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqROf87gZL7_Mx64qy30k_P_FKAQxNLz3qUnSX2W-hokCS5fgW7oj9lJx4dEV2FDYNqxynegOVWmzf4-b5FjXQZ78d8MxlgCeWI1kM6CPqWnoE7NokXW13smuTDjYawaZ6nz5etEcEfOw/s1600/2acode.JPG" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqROf87gZL7_Mx64qy30k_P_FKAQxNLz3qUnSX2W-hokCS5fgW7oj9lJx4dEV2FDYNqxynegOVWmzf4-b5FjXQZ78d8MxlgCeWI1kM6CPqWnoE7NokXW13smuTDjYawaZ6nz5etEcEfOw/s1600/2acode.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgensxGAFRsfgWmeIMNVUh6HYfdaLWLSsoSTUuWsgzrU4620LQXYDVfvbv-PK2BU68Y_JhZyILFBc_Jzcrv6cwB4XOqtlmstyuhsBkPMjrvy848FZDRdK3RHuX9YFMRyPzQGxJgWnAm20g/s1600/exa2a.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="293" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgensxGAFRsfgWmeIMNVUh6HYfdaLWLSsoSTUuWsgzrU4620LQXYDVfvbv-PK2BU68Y_JhZyILFBc_Jzcrv6cwB4XOqtlmstyuhsBkPMjrvy848FZDRdK3RHuX9YFMRyPzQGxJgWnAm20g/s320/exa2a.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKM-slKXGeZ5_8AERDgHH8IGdW15BMkniDdCwjjzcg6vWdjRgdZawELp5huRZ-TwST9VXbA0Gmem_19u9OEBl4rt2Kki7h76qTI-LEfe2IBAGiU-Qrvzv_-WdvW8MgcAtPhVbwtnnMQRA/s1600/2bcode.JPG" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKM-slKXGeZ5_8AERDgHH8IGdW15BMkniDdCwjjzcg6vWdjRgdZawELp5huRZ-TwST9VXbA0Gmem_19u9OEBl4rt2Kki7h76qTI-LEfe2IBAGiU-Qrvzv_-WdvW8MgcAtPhVbwtnnMQRA/s1600/2bcode.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhroomyc_UKmVne5qAF1TJJArnAI2mMI9iXDoyp2SIhAMjpd-mrosHoEnhDH0UnGiUO_Yu6xvcdljC6tEn360OU35GZW2RJQy1Kda8XGWeCswckc_W6utwjW7NlJx_-WcieJorteGykhKM/s1600/exa2b.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="276" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhroomyc_UKmVne5qAF1TJJArnAI2mMI9iXDoyp2SIhAMjpd-mrosHoEnhDH0UnGiUO_Yu6xvcdljC6tEn360OU35GZW2RJQy1Kda8XGWeCswckc_W6utwjW7NlJx_-WcieJorteGykhKM/s320/exa2b.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+Something that takes getting used to: &lt;span style="font-family: Courier New, Courier, monospace;"&gt;sqrt(t)*cos(t)&lt;/span&gt; is not merely the multiplication of two numbers, it is the position-wise multiplication of two vectors (lists of numbers): &lt;span style="font-family: Courier New, Courier, monospace;"&gt;t&lt;/span&gt; is a vector, &lt;span style="font-family: Courier New, Courier, monospace;"&gt;sqrt(t)&lt;/span&gt; is a vector made up of the square roots of the elements of &lt;span style="font-family: Courier New, Courier, monospace;"&gt;t&lt;/span&gt;,&lt;span style="font-family: Courier New, Courier, monospace;"&gt; cos(t)&lt;/span&gt; is a vector made up of the cosines of the elements of &lt;span style="font-family: Courier New, Courier, monospace;"&gt;t&lt;/span&gt;, and &lt;span style="font-family: Courier New, Courier, monospace;"&gt;sqrt(t)*cos(t) &lt;/span&gt;is a vector made up elements obtained by multiplying the &lt;i&gt;i&lt;/i&gt;th element of &lt;span style="font-family: Courier New, Courier, monospace;"&gt;sqrt(t)&lt;/span&gt; by the &lt;i&gt;i&lt;/i&gt;th element of &lt;span style="font-family: Courier New, Courier, monospace;"&gt;cos(t)&lt;/span&gt;. This is not the normal 'mathematical' way of multiplying vectors, but it is consistently used throughout R to achieve its distinctive vectorized programming model.&lt;br /&gt;
+&lt;br /&gt;
+There are some older posts on drawing spirals like this in Fathom and Tinkerplots (see &lt;a href="http://www.mathrecreation.com/2009/05/more-phyllotaxis.html"&gt;here&lt;/a&gt;), and also in Processing (see &lt;a href="http://www.mathrecreation.com/2011/09/spirals.html"&gt;here&lt;/a&gt;).&lt;br /&gt;
+&lt;br /&gt;
+FWIW, these simple examples are on &lt;a href="https://github.com/dmackinnon1/r_examples"&gt;github &lt;/a&gt;- maybe more will join them later.</content>
+    <blogger:metaDescription/>
+    <blogger:created>2015-08-25T20:30:07.291Z</blogger:created>
+    <published>2015-08-25T21:45:00Z</published>
+    <updated>2015-09-09T01:57:13.873Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='R'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='spirals'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='mathematics'/>
+    <blogger:filename>/2015/08/simple-fun-with-r.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

@@ -1,0 +1,180 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-5417337091191349682</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>some familiar spirals in Desmos</title>
+    <content type='html'>I am revisiting some favorite spirals, plotting them in Desmos - for each below, try following the link to play with the graph yourself.&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style="font-size: large;"&gt;start with a circle&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+The basic approach to drawing these spirals (and other things, like these curves), is to start with a circle defined using parametric equations. (&lt;a href="https://www.desmos.com/calculator/a85czj1hqs"&gt;graph here&lt;/a&gt;)&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLn2ORIg4CTOC3NfZqkJFiwcSmJ7s2y6DvrMip31R-Qugfmz0SXHwJFb0udKsPYh1fMDIY4YFqOcvOmLIJIGPy6clooRG2lQjR2eHPfGOxXY7aGKcyAgpoKq-kFW2xyjC9iBU1ECERqI8/s1600/circle_eqn.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLn2ORIg4CTOC3NfZqkJFiwcSmJ7s2y6DvrMip31R-Qugfmz0SXHwJFb0udKsPYh1fMDIY4YFqOcvOmLIJIGPy6clooRG2lQjR2eHPfGOxXY7aGKcyAgpoKq-kFW2xyjC9iBU1ECERqI8/s1600/circle_eqn.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9CeocpHxL2090zC9WzpYt3O84fFMs90Hpe3Yw3Bu-t5aP5dLo-0TAW4sDam8_9GGXYICDoq_GBw8gkp-FCUHzvwtxrIyQqAyPrbBue7jhOtro39wp6vNvUe269VFIWzdTrPRjT2lcimg/s1600/circle.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="307" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9CeocpHxL2090zC9WzpYt3O84fFMs90Hpe3Yw3Bu-t5aP5dLo-0TAW4sDam8_9GGXYICDoq_GBw8gkp-FCUHzvwtxrIyQqAyPrbBue7jhOtro39wp6vNvUe269VFIWzdTrPRjT2lcimg/s320/circle.PNG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+By playing with this simple equation, often by just adjusting the &lt;i&gt;r&lt;/i&gt; and &lt;i&gt;t&lt;/i&gt; values, we can make a number of spirals. In many cases we are going to make spirals out of points, so we'll just be replacing &lt;i&gt;r&lt;/i&gt; and &lt;i&gt;t&lt;/i&gt; with integer sequences.&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXWiwhyphenhyphenE4lSVGcaZy0-f0cVK0vUsp768uKifHNst3D2cUOqclXmOb8BuQ9BnIfjgCYUUCc8lc8Smc1JNCU7ukQZUT_Hz5QG74v_VoiQVM2eousIbmdHTC5xrjswbBE2HDtCgUbH1Cx1Pw/s1600/sequence_definition.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXWiwhyphenhyphenE4lSVGcaZy0-f0cVK0vUsp768uKifHNst3D2cUOqclXmOb8BuQ9BnIfjgCYUUCc8lc8Smc1JNCU7ukQZUT_Hz5QG74v_VoiQVM2eousIbmdHTC5xrjswbBE2HDtCgUbH1Cx1Pw/s1600/sequence_definition.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;span style="font-size: large;"&gt;Phyllotaxis-ish spirals&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+These spirals are easy to create, and are a perennial favorite (pun intended: the sunflower connection). I've plotted these in &lt;a href="http://www.mathrecreation.com/2008/09/phyllotaxis-spirals-2.html"&gt;Fathom/Tinkerplots, Processing&lt;/a&gt;, and more recently &lt;a href="http://www.mathrecreation.com/2015/08/simple-fun-with-r.html"&gt;in R&lt;/a&gt;&amp;nbsp;(its not &lt;i&gt;only&lt;/i&gt; for stats, just &lt;i&gt;mostly&lt;/i&gt;). If you haven't plotted these yet in your favorite graphical programming environment, you should.&lt;br /&gt;
+&lt;br /&gt;
+The Desmos version animates nicely - you can grow and shrink the spiral, and play with the angle at the same time.&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi07L6dWjt24Skge5r8QiLjIGGY-w7koukHZZexMkv4cI7LbVKjuo-F6v8unXvNYruL15wGi9En5YyFC2wJLuJP5PGjDM_tor2HHPn7AQnSjM46-upsOZEa05bfALdralbyNiX_cgTUa9U/s1600/spiral1.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="307" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi07L6dWjt24Skge5r8QiLjIGGY-w7koukHZZexMkv4cI7LbVKjuo-F6v8unXvNYruL15wGi9En5YyFC2wJLuJP5PGjDM_tor2HHPn7AQnSjM46-upsOZEa05bfALdralbyNiX_cgTUa9U/s320/spiral1.PNG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhB-LpRiJ1xf5CLazR8bH5MQtlZMZxJb-jh625VHSOnZWxaO4eL27SgLLkCnkDcQdvRawvJJS6zJdd8vEQTsFI4vDFq3VILf_BREBHdzLNDDt2CFvo5f2kICSA2qQ9jtIBlWB-twRMqnE/s1600/spiral3.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="296" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhB-LpRiJ1xf5CLazR8bH5MQtlZMZxJb-jh625VHSOnZWxaO4eL27SgLLkCnkDcQdvRawvJJS6zJdd8vEQTsFI4vDFq3VILf_BREBHdzLNDDt2CFvo5f2kICSA2qQ9jtIBlWB-twRMqnE/s320/spiral3.PNG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;i&gt;Some phyllotaxis-like spirals (&lt;a href="https://www.desmos.com/calculator/risuha09iw"&gt;graph here&lt;/a&gt;)&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+To create these, take the basic equation mentioned with this definition for the two sequences&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjr2t6B0gxy72j6yCXBjPbgMl4ovPW0fB7lLsUgml8KY2jH_FFKSb_XrEbpwuqbUrhiLvNehFLHotnEl60kdC5yFzulu0aXE8-aLopa1boShXHxkjaeHr2jq4uDGLKGuWAEhvpd4cYwxsk/s1600/phyllotaxis_definition.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjr2t6B0gxy72j6yCXBjPbgMl4ovPW0fB7lLsUgml8KY2jH_FFKSb_XrEbpwuqbUrhiLvNehFLHotnEl60kdC5yFzulu0aXE8-aLopa1boShXHxkjaeHr2jq4uDGLKGuWAEhvpd4cYwxsk/s1600/phyllotaxis_definition.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style="font-size: large;"&gt;Quadratic number spirals&lt;/span&gt;&lt;br /&gt;
+I first saw quadratic number spirals at &lt;a href="http://numberspiral.com/"&gt;numberspiral.com&lt;/a&gt;. A quadratic spiral also fits into the basic spiral form mentioned above (graph here)/&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2Axvfz19IyLq5H7M4VmaGYi3zjXlxZVugqbV80QmWoRTX7romqOl2XGHnEIWse4sdcjG7TL3mZPxbDQRgjGqVY-rA4qz1mGq4Y35CVvvkx0fllajaVBQ3sYXmYW5yla8VmL6o58ia_AI/s1600/quadratic_form.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2Axvfz19IyLq5H7M4VmaGYi3zjXlxZVugqbV80QmWoRTX7romqOl2XGHnEIWse4sdcjG7TL3mZPxbDQRgjGqVY-rA4qz1mGq4Y35CVvvkx0fllajaVBQ3sYXmYW5yla8VmL6o58ia_AI/s1600/quadratic_form.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9FX874KUC_qVGdHaQf1iIHQ1Ogpbdo0mHIwKEG_cmo2sUdURxM2l5CdobmabqRVGgmP5up4AYIR0k4Q_YEOGgZukecGLepH-vvTLz684O9iF1Q1b4JJ1-4FMUY4Skb69Orglp7cWECGM/s1600/quadratic+spiral+1.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="289" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9FX874KUC_qVGdHaQf1iIHQ1Ogpbdo0mHIwKEG_cmo2sUdURxM2l5CdobmabqRVGgmP5up4AYIR0k4Q_YEOGgZukecGLepH-vvTLz684O9iF1Q1b4JJ1-4FMUY4Skb69Orglp7cWECGM/s320/quadratic+spiral+1.PNG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+It doesn't look much like a spiral, but you can see that it is when you connect the dots.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhf6JUOATRseWegoT5MerX1byFARmRLSHr6Scs0IssgLv3d8hD3sfQ7cI-Nn3-CFXJU8vcs7FAlg47i_ovv7QP_Pklx-tD5RZWgoCaeb3iFHs9MwIYB0SDqUQDt-leV2SaG4tFd0ALtWAw/s1600/quadratic+spiral+2.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="309" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhf6JUOATRseWegoT5MerX1byFARmRLSHr6Scs0IssgLv3d8hD3sfQ7cI-Nn3-CFXJU8vcs7FAlg47i_ovv7QP_Pklx-tD5RZWgoCaeb3iFHs9MwIYB0SDqUQDt-leV2SaG4tFd0ALtWAw/s320/quadratic+spiral+2.PNG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;plain ol' quadratic spiral (&lt;a href="https://www.desmos.com/calculator/lolngn2yiw"&gt;graph here&lt;/a&gt;)&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+With every element in the sequences included, this spiral does not look so interesting. But we can "plot" another integer sequence on top of the spiral, some interesting patterns can emerge.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Primes on quadratic number spiral&lt;/b&gt;&lt;br /&gt;
+&lt;a href="http://numberspiral.com/"&gt;numberspiral.com&lt;/a&gt; discusses the interesting patterns that seem to show up when you plot the prime numbers on the number spiral. You get an effect similar to the better-known Ulam spiral - the primes seem to cluster and line up along certain trajectories. What you are really seeing are certain prime producing quadratics, not a set of patterns that holds generally for primes. (Other number spiral fun &lt;a href="http://www.mathrecreation.com/2011/06/sequences-on-spiral.html"&gt;here&lt;/a&gt;).&lt;br /&gt;
+&lt;br /&gt;
+In Desmos, you can paste in a list of primes and plot them nicely on the spiral. I went up to 201 primes:&lt;br /&gt;
+&lt;br /&gt;
+p = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199, 211, 223, 227, 229, 233, 239, 241, 251, 257, 263, 269, 271, 277, 281, 283, 293, 307, 311, 313, 317, 331, 337, 347, 349, 353, 359, 367, 373, 379, 383, 389, 397, 401, 409, 419, 421, 431, 433, 439, 443, 449, 457, 461, 463, 467, 479, 487, 491, 499, 503, 509, 521, 523, 541, 547, 557, 563, 569, 571, 577, 587, 593, 599, 601, 607, 613, 617, 619, 631, 641, 643, 647, 653, 659, 661, 673, 677, 683, 691, 701, 709, 719, 727, 733, 739, 743, 751, 757, 761, 769, 773, 787, 797, 809, 811, 821, 823, 827, 829, 839, 853, 857, 859, 863, 877, 881, 883, 887, 907, 911, 919, 929, 937, 941, 947, 953, 967, 971, 977, 983, 991, 997, 1009, 1013, 1019, 1021, 1031, 1033, 1039, 1049, 1051, 1061, 1063, 1069, 1087, 1091, 1093, 1097, 1103, 1109, 1117, 1123, 1129, 1151, 1153, 1163, 1171, 1181, 1187, 1193, 1201, 1213, 1217, 1223, 1229]&lt;br /&gt;
+&lt;br /&gt;
+We take these and insert them into our existing quadratic spiral formula.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYmflchpHZpv6ReIAxs-N5C9p1r3tRKsUTY4F40HNtPmDf7CP_SXzRZ6KuZHW360mnLJdcfXjxqtYnoDeW8NkyOU5xtH70HMfQ7qhvmMgXkeRVz9CYVl3tnBNm5dOrVvFkF3Fvl8R-pb4/s1600/primes_on_quad_def.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYmflchpHZpv6ReIAxs-N5C9p1r3tRKsUTY4F40HNtPmDf7CP_SXzRZ6KuZHW360mnLJdcfXjxqtYnoDeW8NkyOU5xtH70HMfQ7qhvmMgXkeRVz9CYVl3tnBNm5dOrVvFkF3Fvl8R-pb4/s1600/primes_on_quad_def.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+And get this sequence (in blue) shown on top of the full quadratic spiral (&lt;a href="https://www.desmos.com/calculator/4s0byhfnux"&gt;graph here&lt;/a&gt;).&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSe4q_dRphXjbW3IsV1gQTWje4I8_RYYm6ieGsrmPxTOgSw9vLw-UROhdksVRhJ6xQx21IekqoYDHc7-htT3xN8RdzmJGXNBc7Dr-ijN8gOnmnTa1YWxxLdzATtn7urjw257KoQDMZ4JE/s1600/primes_on_quadratic.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="282" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSe4q_dRphXjbW3IsV1gQTWje4I8_RYYm6ieGsrmPxTOgSw9vLw-UROhdksVRhJ6xQx21IekqoYDHc7-htT3xN8RdzmJGXNBc7Dr-ijN8gOnmnTa1YWxxLdzATtn7urjw257KoQDMZ4JE/s320/primes_on_quadratic.PNG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Can you see those intriguing looking lines of points where the primes seem to line up?&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Polygonal numbers on quadratic numbers spiral&lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+If you can plot primes on the number spiral, why not other sequences? A nice family of sequences are the polygonal numbers. You've heard of square numbers (1, 4, 9, ...)? Well, there are triangular, pentagonal, hexagonal, and others, and each number in those sequences can be arranged in a particular way to look like the polygon for which the sequence is named. It's true. One way to define the k-polygonal numbers is:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMyaoGth5hrHLCW731NyZPcM4Y7VsoLYPEGse15pjsvwSkZT1Mqd7SELmrZ0wEf3aiIo1JD67QnqHcI2SkTB__yWEVJ7KSzFBhzJUYFMU4SMgFcIhk3rXOSsXVeIEn8PyJgvmXGLXkGVo/s1600/polygonal_number_def.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMyaoGth5hrHLCW731NyZPcM4Y7VsoLYPEGse15pjsvwSkZT1Mqd7SELmrZ0wEf3aiIo1JD67QnqHcI2SkTB__yWEVJ7KSzFBhzJUYFMU4SMgFcIhk3rXOSsXVeIEn8PyJgvmXGLXkGVo/s1600/polygonal_number_def.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Those lines above make two interesting statements about polygonal numbers. First, any polygonal number can be broken up into triangular numbers (one big &lt;i&gt;n&lt;/i&gt;-sized triangular number, and &lt;i&gt;k&lt;/i&gt;-3 smaller triangular numbers). Second, triangular numbers correspond to the second column of Pascal's triangle. Two neat things.&lt;br /&gt;
+&lt;br /&gt;
+A while back I plotted &lt;a href="http://www.mathrecreation.com/2010/03/polygonal-wanderings.html"&gt;various polygonal numbers on quadratic spirals&lt;/a&gt;. Each type of polygonal number has its own characteristic spiral pattern. Redoing it in Desmos, I took advantage of the combinations function to generate polygonal numbers, and then plot them on the number spiral. To connect the dots, I have found it necessary to convert the plot to a table. Here we have the triangular numbers (&lt;i&gt;k&amp;nbsp;&lt;/i&gt;= 3):&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWzJtPj6HvknPhxhQb-VMAHfPhR3s1IIAy6BBHPH1uRVMbafN_LLdd3TvHvDBdgkfXVEx6JtYqIYzdvmzwBc9e29mok9RkSp08r8ZQpYMyK0YFuJ4xOr4ufXpnNHnWmwXkEktENgWvSgI/s1600/triangular_numbers.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWzJtPj6HvknPhxhQb-VMAHfPhR3s1IIAy6BBHPH1uRVMbafN_LLdd3TvHvDBdgkfXVEx6JtYqIYzdvmzwBc9e29mok9RkSp08r8ZQpYMyK0YFuJ4xOr4ufXpnNHnWmwXkEktENgWvSgI/s1600/triangular_numbers.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;i&gt;triangular number spiral (&lt;a href="https://www.desmos.com/calculator/e2xqs710qf"&gt;graph here&lt;/a&gt;)&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+This is just from composing the polygonal number formula with the quadratic spiral formula:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSTghq773a-4UZGsFSIegGt1yAjAdg9wql_uDysh12D5fRqogQs_nvU6X6fA5o82GDXKMGUxG4ST3Y8Fst6w0FCt0pyc3XItXv2KHpwabRud4lpfpUYXP3ntgNXI7KnrjHWfd4edi73sw/s1600/polygonal_spiral_formula.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSTghq773a-4UZGsFSIegGt1yAjAdg9wql_uDysh12D5fRqogQs_nvU6X6fA5o82GDXKMGUxG4ST3Y8Fst6w0FCt0pyc3XItXv2KHpwabRud4lpfpUYXP3ntgNXI7KnrjHWfd4edi73sw/s1600/polygonal_spiral_formula.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+Choosing different values for &lt;i&gt;k&lt;/i&gt; gives you different polygonal numbers, and different spirals. For &lt;i&gt;k&lt;/i&gt; =12 we get the spiral below:&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKN63mPS2orBqRh7SEkJ7wR1RTqgiauq9MeXCF7f2BxBaTzAkpF_xHh-ruWE_lVLY0L-Ipvn1oMFHRzq0SdSQC3zF2eKPQyQy57q1c5sodqktwr_toG9iIYCkV_DCZbKRNs0ixdyWcCRQ/s1600/dodecagon+number+spiral.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="394" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKN63mPS2orBqRh7SEkJ7wR1RTqgiauq9MeXCF7f2BxBaTzAkpF_xHh-ruWE_lVLY0L-Ipvn1oMFHRzq0SdSQC3zF2eKPQyQy57q1c5sodqktwr_toG9iIYCkV_DCZbKRNs0ixdyWcCRQ/s400/dodecagon+number+spiral.PNG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;i&gt;dodecagon number spiral (&lt;a href="https://www.desmos.com/calculator/emfx1nahak"&gt;graph here&lt;/a&gt;)&lt;/i&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;span style="font-size: large;"&gt;Archimedean spiral&lt;/span&gt;&lt;br /&gt;
+If this post had a logical order, the Archimedian spiral should have probably led off the list.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLAJru0fzf_-jADnRoTd0CXJv5m3z_C5DUWdJPyKvdu-s_RMh1xcNY3wpFPPYKGGhCbFhLDM-E1YkKArJ9IkjFHwEZ4hv0frcSX51Tv78jJtVcZhR8cO_RxaKf92l3UN4tzFGyHlPQL38/s1600/arch_definition.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLAJru0fzf_-jADnRoTd0CXJv5m3z_C5DUWdJPyKvdu-s_RMh1xcNY3wpFPPYKGGhCbFhLDM-E1YkKArJ9IkjFHwEZ4hv0frcSX51Tv78jJtVcZhR8cO_RxaKf92l3UN4tzFGyHlPQL38/s1600/arch_definition.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvTD3NYvXzouqXoJyR-u1_Znk_PdF7luGGdTOgl5t15ilqP768NGkIePw7od5Dptq_FouuWcqwvoNb8j-beobQewkqjU8kuhrw_2tdQayzXBpXNxTLVU7jQSEpVfTTpPKxiHoKQ2e_jMU/s1600/archemedian.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvTD3NYvXzouqXoJyR-u1_Znk_PdF7luGGdTOgl5t15ilqP768NGkIePw7od5Dptq_FouuWcqwvoNb8j-beobQewkqjU8kuhrw_2tdQayzXBpXNxTLVU7jQSEpVfTTpPKxiHoKQ2e_jMU/s320/archemedian.PNG" width="303" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;i&gt;Archimedian spiral (&lt;a href="https://www.desmos.com/calculator/qa4oudvbck"&gt;graph here&lt;/a&gt;)&lt;/i&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+If you are going to try plotting these, you may want to try the variations on the Archimedian spiral mentioned on the &lt;a href="https://en.wikipedia.org/wiki/Archimedean_spiral"&gt;wikipedia page&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style="font-size: large;"&gt;Logarithmic spiral&lt;/span&gt;&lt;br /&gt;
+Of all the spirals on this page, the one most likely to end up on the "tattoo ideas" pinterest board is the logarithmic spiral. Again, it is a variation on the basic formula:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpmcGfjgjDytvD5nnugdIHcwjwPtQ5jvW7C9o-tOc3wtGNbPTSBbAp5aOryd6lg-qWyyjAs9w7rMm-li3T_JVVJ6MGdPAgwg2BfCNCGYUYz3fTz0H9T_9YZ_sGlOgb-IwhPEGqEurOrAA/s1600/logrithmic_def.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpmcGfjgjDytvD5nnugdIHcwjwPtQ5jvW7C9o-tOc3wtGNbPTSBbAp5aOryd6lg-qWyyjAs9w7rMm-li3T_JVVJ6MGdPAgwg2BfCNCGYUYz3fTz0H9T_9YZ_sGlOgb-IwhPEGqEurOrAA/s1600/logrithmic_def.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7xI-JTzPdxCZKZyojwWkXGeXyrDcHdvLwLIl8ONUmviqU7-lXwymaWPChtwQEL9jH-U4V0FO68uKbXo-9rfmOFofaCFUnUxqZ6GQ0vbxmP1G3_x2Y8vbhxRNUbCK_2IJ-4-OP7J5AuFo/s1600/log_spiral.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="220" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7xI-JTzPdxCZKZyojwWkXGeXyrDcHdvLwLIl8ONUmviqU7-lXwymaWPChtwQEL9jH-U4V0FO68uKbXo-9rfmOFofaCFUnUxqZ6GQ0vbxmP1G3_x2Y8vbhxRNUbCK_2IJ-4-OP7J5AuFo/s320/log_spiral.PNG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;Logarithmic spiral (&lt;a href="https://www.desmos.com/calculator/d3nn9d0ii1"&gt;graph here&lt;/a&gt;)&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style="font-size: large;"&gt;Euler spirals&lt;/span&gt;&lt;br /&gt;
+Let's finish with something weird. Our last spiral of the day will be a family of spirally things known as Euler spirals. An earlier post that describes these spirals is &lt;a href="http://www.mathrecreation.com/2013/11/euler-spirals-in-fathom-and-tinkerplots.html"&gt;here&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+Like the "brain and propeller" curves from &lt;a href="http://www.mathrecreation.com/2016/10/brain-and-propeller-fractals-using.html"&gt;this post&lt;/a&gt;, these are also based on the parametric equation of a circle, but not in the same way as the curves listed above. In other software, I had drawn these using a recursive formula. Since I don't know how (if?) this can be done in Desmos, a non-recursive formula was required. For both &lt;i&gt;m &lt;/i&gt;and &lt;i&gt;d&lt;/i&gt;&amp;nbsp;positive real numbers, we define x and y for each n:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIThPW81icRjHCHuwYTdYbm_IVWIXVS4yATt77CttRsHRyLja4T1821y7kNCIwNF-CwsXD4crWz0k6jIpOPU37prY-N6UyZksbN4xhPsY-IiDhYzNypfmrw5_ghZOQiTaLdZHtbqb4y7c/s1600/euler_def.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIThPW81icRjHCHuwYTdYbm_IVWIXVS4yATt77CttRsHRyLja4T1821y7kNCIwNF-CwsXD4crWz0k6jIpOPU37prY-N6UyZksbN4xhPsY-IiDhYzNypfmrw5_ghZOQiTaLdZHtbqb4y7c/s1600/euler_def.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+The results are very sensitive to the choice for &lt;i&gt;d, &lt;/i&gt;and give a menagerie of beasties:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXOvTCfBPc30Gd8hxTcqJC2BxV8siwuoTi7ymIxhG-No30qe7XpWxmLh0bIqgD5as_rjBBOYaqrXbYdd6-vuygu_e6OPI-EIycomPdxyGSVeRHaCIl9JLXpxHAv-9EVBPRU-LaQZiIbaE/s1600/euler_beastie2.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="315" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXOvTCfBPc30Gd8hxTcqJC2BxV8siwuoTi7ymIxhG-No30qe7XpWxmLh0bIqgD5as_rjBBOYaqrXbYdd6-vuygu_e6OPI-EIycomPdxyGSVeRHaCIl9JLXpxHAv-9EVBPRU-LaQZiIbaE/s320/euler_beastie2.PNG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;i&gt;A Euler spiral (&lt;a href="https://www.desmos.com/calculator/38zblmqthk"&gt;graph here&lt;/a&gt;)&lt;/i&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+And some that look like coils of rope, thanks to the overlapping dots:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheBNDN9ni3VV9glGVjVyR2oLKGlQJQLs2qUrj0jRyPuEnESYWZMZuh5fBHyKMMsdhtqv3vLG3wl1hTZa7uW2b4MDYRIEKUnmFjYF8GVMhUU7jhSyQul7Au9q_ZU9W1nwPyE1VgvyUSe84/s1600/coil_rope.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheBNDN9ni3VV9glGVjVyR2oLKGlQJQLs2qUrj0jRyPuEnESYWZMZuh5fBHyKMMsdhtqv3vLG3wl1hTZa7uW2b4MDYRIEKUnmFjYF8GVMhUU7jhSyQul7Au9q_ZU9W1nwPyE1VgvyUSe84/s1600/coil_rope.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZB9OpkMrolpiaERuDKhFgbjuwZ9by_IIERl5-dmxlxMjl_19Z0gZZNVJodLsY65ba7Wvs6SqxXdkhQaY8QK2tThpG0dj8_nV9VI2Ylan3aODtZeFWxyCYuOZaxuMZgsvWS1kBu4VE_cY/s1600/coil_2.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZB9OpkMrolpiaERuDKhFgbjuwZ9by_IIERl5-dmxlxMjl_19Z0gZZNVJodLsY65ba7Wvs6SqxXdkhQaY8QK2tThpG0dj8_nV9VI2Ylan3aODtZeFWxyCYuOZaxuMZgsvWS1kBu4VE_cY/s1600/coil_2.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;i&gt;Eulerian Coils (&lt;a href="https://www.desmos.com/calculator/bbp1etacek"&gt;graph here&lt;/a&gt;)&lt;/i&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;br /&gt;
+As for the polygonal number spirals above, to connect the dots, I found that I had to choose a particular set value for the plotted points, convert them to a table, and then connect them.&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2g6mGqlxstO4dz5WN0FxE3C8gE54VuviesxUMddB02xtdYAYLCvYpDw5Bduk6gxyQpsuEjdbCgh-4SNZUmiBA2tng6OrLaIuwhKBqFsIlXXwyYUE2RC6tYaS1xdonucoj2lT__1Ns8eI/s1600/euler_spiral.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="257" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2g6mGqlxstO4dz5WN0FxE3C8gE54VuviesxUMddB02xtdYAYLCvYpDw5Bduk6gxyQpsuEjdbCgh-4SNZUmiBA2tng6OrLaIuwhKBqFsIlXXwyYUE2RC6tYaS1xdonucoj2lT__1Ns8eI/s320/euler_spiral.PNG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;i&gt;&lt;b&gt;Update&lt;/b&gt;: I have since learned how to connect the dots in Desmos, &lt;a href="http://www.mathrecreation.com/2016/10/more-familiar-spirals-in-desmos.html"&gt;see this post for details&lt;/a&gt;.&lt;/i&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2016-10-07T16:53:50.219Z</blogger:created>
+    <published>2016-10-14T04:23:00Z</published>
+    <updated>2016-10-21T02:59:32.962Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2016/10/some-familiar-spirals-in-desmos.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

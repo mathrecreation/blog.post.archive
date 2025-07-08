@@ -1,0 +1,125 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-7419591020157814220</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Solving (some) Logic Puzzles with Sets</title>
+    <content type='html'>&lt;script type="text/javascript" async 
+src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"&gt;
+MathJax.Hub.Typeset();
+&lt;/script&gt;
+&lt;div&gt;
+As you may have noticed, since &lt;a href="http://www.mathrecreation.com/2017/11/the-island-of-knights-and-knaves.html"&gt;around this time last year&lt;/a&gt;, I have been playing around with generating puzzles based on those found in some of Raymond Smullyan's books. This has included &lt;a href="https://dmackinnon1.github.io/knaves/"&gt;Knights and Knaves&lt;/a&gt;, &lt;a href="https://dmackinnon1.github.io/portia/"&gt;Portia's Caskets&lt;/a&gt;, &lt;a href="https://dmackinnon1.github.io/inspectorCraig/"&gt;The Case Files of Inspector Craig&lt;/a&gt;, &lt;a href="https://dmackinnon1.github.io/inspectorCraig/tiger.html"&gt;Tigers and Treasure&lt;/a&gt;, and &lt;a href="https://dmackinnon1.github.io/inspectorCraig/dreamers.html"&gt;The Isle of Dreams&lt;/a&gt;. Some of the differences between puzzles are superficial: A "Portia's Casket" puzzle can be recast as a "Knights and Knaves" puzzle, for example. Even though there is some common deep structure to these various puzzles, I've found that sometimes the puzzle types call out for different approaches when writing solvers or generators.&lt;br /&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+The latest puzzle type that I have been enjoying is based on some puzzles found in Smullyan's &lt;i&gt;&lt;a href="https://archive.org/details/WhatIsTheNameOfThisBook"&gt;What is the Name of This Book?&lt;/a&gt;. &lt;/i&gt;The "Lion and the Unicorn" puzzles are built around characters from Lewis Carroll's&amp;nbsp;&lt;a href="https://en.wikipedia.org/wiki/Through_the_Looking-Glass" style="font-style: italic;"&gt;Through the Looking-Glass, and What Alice Found There&lt;/a&gt;&lt;i&gt;,&amp;nbsp;&lt;/i&gt;and for this logic puzzle variation, I found that using &lt;a href="https://en.wikipedia.org/wiki/Set_theory"&gt;sets&lt;/a&gt; to model the puzzle (rather than, say, &lt;a href="http://www.mathrecreation.com/2018/02/inspector-craig-logical-detective.html"&gt;propositions&lt;/a&gt;, &lt;a href="http://www.mathrecreation.com/2017/12/constructing-portias-caskets.html"&gt;truth tables&lt;/a&gt;, or &lt;a href="http://www.mathrecreation.com/2012/05/liar-truther-accusation-graphs.html"&gt;graphs&lt;/a&gt;) seemed to make the most sense.&lt;/div&gt;
+&lt;div&gt;
+&lt;i&gt;&lt;br /&gt;&lt;/i&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghOgxMR5i6-68uTUsZiz0e0FchuXLS39Tq9vlKhPrfflA34kP2LHFT5YBztrTgliD-iYXe20un_RfANsoIxy79x6U4POldKF0QtA6t7XWCd-T1pGuQiEw4sWBz9zeQKghZ76pulW-UUSM/s1600/lion_unicorn.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="424" data-original-width="660" height="205" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghOgxMR5i6-68uTUsZiz0e0FchuXLS39Tq9vlKhPrfflA34kP2LHFT5YBztrTgliD-iYXe20un_RfANsoIxy79x6U4POldKF0QtA6t7XWCd-T1pGuQiEw4sWBz9zeQKghZ76pulW-UUSM/s320/lion_unicorn.png" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;The Lion and the Unicorn, posing &lt;br /&gt;at the&amp;nbsp;&lt;a href="https://en.wikipedia.org/wiki/East_Block"&gt;East Block&lt;/a&gt;&amp;nbsp;&lt;/i&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+As described in the chapter 47 &lt;i&gt;Alice and the Forest of Forgetfulness&lt;/i&gt;,&lt;/div&gt;
+&lt;blockquote class="tr_bq"&gt;
+&lt;i&gt;When Alice entered the Forest of Forgetfulness, she did not forget everything, only certain things. She often forgot her name, and the one thing she was most likely to forget was the day of the week. Now, the Lion and the Unicorn were frequent visitors to the forest. These two are strange creatures. The Lion lies on Mondays, Tuesdays, and Wednesdays, and tells the truth on the other days of the week. The Unicorn, on the other hand, lies on Thursdays, Fridays, and Saturdays, but tells the truth on other days of the week.&lt;/i&gt;&lt;/blockquote&gt;
+&lt;blockquote class="tr_bq"&gt;
+&lt;i&gt;One day, Alice met the Lion and the Unicorn resting under a tree. They made the following statements:&lt;/i&gt;&amp;nbsp;&lt;/blockquote&gt;
+&lt;blockquote class="tr_bq"&gt;
+&lt;i&gt;Lion: Yesterday was one of my lying days.&lt;/i&gt;&amp;nbsp;&lt;/blockquote&gt;
+&lt;blockquote class="tr_bq"&gt;
+&lt;i&gt;Unicorn: Yesterday was one of my lying days too.&lt;/i&gt;&lt;/blockquote&gt;
+&lt;blockquote class="tr_bq"&gt;
+&lt;i&gt;Alice must know: What day is today?&amp;nbsp;&lt;/i&gt;&lt;/blockquote&gt;
+If you think you have a solution to this - test it out on &lt;a href="https://dmackinnon1.github.io/forgetfulForest/?id=15"&gt;the interactive version of the puzzle&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+If we model this using sets, our &lt;a href="https://en.wikipedia.org/wiki/Domain_of_discourse"&gt;universe of discourse&lt;/a&gt; for this problem is the days of the week.&lt;br /&gt;
+$$
+\begin{split}
+Days =&amp;amp; \{\textrm{Monday, Tuesday, Wednesday,} \\
+&amp;amp; \textrm{Thursday, Friday, Saturday, Sunday} \}
+\end{split}
+$$
+We consider the set &lt;i&gt;L&lt;/i&gt; of days for which the lion is lying, and the set &lt;i&gt;U&lt;/i&gt; of days for which the unicorn is lying.&lt;br /&gt;
+$$
+\begin{split}
+L =&amp;amp; \{ \textrm{Monday, Tuesday, Wednesday}\} \\
+U =&amp;amp; \{ \textrm{Thursday, Friday, Saturday}\}
+\end{split}
+$$&lt;br /&gt;
+The days that the animals are telling the truth are listed in the complements of each set.&lt;br /&gt;
+$$
+\begin{split}
+\overline{L} =&amp;amp;\{ \textrm{Thursday, Friday, Saturday, Sunday}\} \\
+\overline{U} =&amp;amp; \{ \textrm{Sunday, Monday, Tuesday, Wednesday}\}
+\end{split}
+$$
+These two sets have an empty intersection - the two characters never lie at the same time. The intersection of their truth-telling days is non empty, however: both tell the truth on the same day once a week.&lt;br /&gt;
+$$
+\begin{split}
+L \cap U =&amp;amp; \emptyset \\
+\overline{L}  \cap \overline{U}  =&amp;amp; \{ \textrm{Sunday} \}
+\end{split}
+$$
+The set &lt;i&gt;Days&lt;/i&gt; is a set with structure, the days are an ordered set - the lion and the unicorn can talk about 'yesterday' and 'tomorrow.' For any set of days we can ask for its 'tomorrows' - the set of next days, or its set of 'yesterdays', the set of preceding days. When the lion says "I told lies yesterday" this can be translated as "today is a tomorrow for one of my lying days." The set of days covered by Lion's statement would be:&lt;br /&gt;
+$$
+S_L = t(L) = \{ \textrm{Tuesday, Wednesday, Thursday}\}
+$$
+But do any of the days covered by Lion's statement coincide with a day that he is telling the truth? To believe his statement about what day it is, it must describe a day that he is actually speaking truthfully. If Lion is telling the truth, it must be a day in the intersection of the days in Lion's statement and the set of Lion's truthful days.&lt;br /&gt;
+$$S_L \cap \overline{L} =  \{ \textrm{Thursday}\}$$
+
+But, Lion could be lying. If Lion is lying, then today is in the intersection of the days not in Lion's statement, and Lion's lying days.&lt;br /&gt;
+$$\overline{S_L} \cap L = \{ \textrm{Monday} \}$$
+
+Since we don't know whether the lion is telling the truth or lying, we have to consider both possibilities, so the set of days that it could be, based only on Lion's statement is:
+
+$$
+\begin{split}
+D_L &amp;amp;= ( S_L \cap \overline{L} ) \cup ( \overline{S_L} \cap L ) \\ 
+&amp;amp;= \{ \textrm{Monday, Thursday} \}  
+\end{split}
+$$
+Going through a similar process, we can get another set of days based on the Unicorn's statements.&lt;br /&gt;
+$$
+\begin{split}
+D_U &amp;= ( S_U \cap \overline{U} ) \cup ( \overline{S_U} \cap U ) \\ 
+&amp;= \{ \textrm{Sunday, Thursday} \}  
+\end{split}
+$$
+Days that fall in both the set from the Lion &lt;i&gt;and&lt;/i&gt; the set from the Unicorn are possible solutions for today's day - if the intersection is empty, then there is no solution, if there are several days in the intersection, then the puzzle is ambiguous, if there is a single day in the intersection, that is today:&lt;br /&gt;
+$$
+\begin{split}
+D &amp;= D_L \cap D_U \\
+&amp;= [ (S_L \cap \overline{L} ) \cup ( \overline{S_L} \cap L)] \cap [ (S_U \cap \overline{U} ) \cup ( \overline{S_U} \cap U)]  \\ 
+&amp;= \{ \textrm{Thursday} \}  
+\end{split}
+$$
+The notation might make this way of thinking seem difficult - here is the process stated a bit more plainly (see that it lines up with the formula above...):&lt;br /&gt;
+&lt;br /&gt;
+1. Consider the Lion. Which days does the Lion's statement refer to?&lt;br /&gt;
+2. Of these days, which coincide with Lion's truthful days?&lt;br /&gt;
+3. Which of the days are not covered by the Lion's statement? Do any of these coincide with Lion's lying days?&lt;br /&gt;
+4. Combine these two lists of days from the Lion.&lt;br /&gt;
+5. Follow steps 1 through 4 for the Unicorn to produce a list of possible days from the Unicorn.&lt;br /&gt;
+6. If there is one day that that is in both the Lion's list and the Unicorn's list, that is the solution.&lt;br /&gt;
+&lt;br /&gt;
+We can come up with variations on this puzzle by varying the statements made by the Lion and the Unicorn. Instead of saying "I told lies yesterday," we could have them say things like "I will tell truths tomorrow" or "today is a week day", or even "today is Wednesday." Some of these will generate good puzzles (one element in the final set), others may not.&lt;br /&gt;
+&lt;br /&gt;
+A Jupyter notebook that generates 132 puzzles like this can be found &lt;a href="https://gist.github.com/dmackinnon1/098dd90adf8312a1da2c02860798e496"&gt;here&lt;/a&gt;, and you can the puzzles out &lt;a href="https://dmackinnon1.github.io/forgetfulForest/"&gt;over here&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2018-09-14T18:16:48.128Z</blogger:created>
+    <published>2018-09-16T02:03:00Z</published>
+    <updated>2018-11-18T03:32:21.357Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2018/09/solving-some-logic-puzzles-with-sets.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

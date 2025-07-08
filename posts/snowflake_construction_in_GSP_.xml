@@ -1,0 +1,98 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-5009022265045591683</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>snowflake construction in GSP </title>
+    <content type='html'>Here are instructions for making a snowflake iteration similar to the one shown in the &lt;a href="http://www.mathrecreation.com/2013/11/snowflake-series.html"&gt;previous post&lt;/a&gt; using &lt;a href="http://www.dynamicgeometry.com/"&gt;Geometer's Sketchpad&lt;/a&gt;. I generally don't put useful things like instructions on this blog, but I thought I would make an exception: these fun and easy constructions are worth doing because they are pretty, and they illustrate some important concepts associated with recursion. GSP is a great tool for playing with these sorts of things - I haven't explored &lt;a href="http://www.geogebra.org/cms/en/"&gt;Geogebra &lt;/a&gt;at all, so I can't comment on what similar sorts of things can be done with that tool.&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;1.&lt;/b&gt; Draw a line segment AB (using the segment tool), construct its midpoint C (with the line selected, choose &lt;b&gt;Construct &amp;gt; Midpoint&lt;/b&gt;), and then construct the midpoint of AC (we'll call that D).&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibUZ6Y7Sb1Gqvt1sEWpU9lSD5asRqEvj3Ls9XjhAKgyPS05iKz-bjnimhGIr0RM_zPtuco0t9wzW1ivZQe0hjN-qsiwO84SRAcu5VJSIVEwIRuay5f7lq5JTMPn-og-GAit0KtWBVyhak/s1600/step1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="73" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibUZ6Y7Sb1Gqvt1sEWpU9lSD5asRqEvj3Ls9XjhAKgyPS05iKz-bjnimhGIr0RM_zPtuco0t9wzW1ivZQe0hjN-qsiwO84SRAcu5VJSIVEwIRuay5f7lq5JTMPn-og-GAit0KtWBVyhak/s320/step1.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+The important thing to note is that AB is the only thing that you will draw. Everything else will be constructed. What we are doing here is a really good example of what GSP aficionados call g&lt;i&gt;eometric programming&lt;/i&gt;: AB is your input, and everything else we construct as part of a program written in the language of geometry. A mistake that some people make with GSP when they are first playing with it is to consider it a drawing rather than construction tool - you really should draw very little, and construct a lot.&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;2.&lt;/b&gt; Mark A as the center of rotation (select A, and then &lt;b&gt;Transform &amp;gt; Mark Center&lt;/b&gt;) and rotate all lines and points around A by 60 degrees, five times. You'll end up with six spokes that look like this:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-VF7HiSrYQwJwhcJREMm366_g2gYsBst6wNu9f2jY7-dEKepoFHhv-vPE6PTB9ZXVghtsZLn05wMBxzUxJTPcow5sUlCJxYVlbAx-yoomFq8bBe8vosgDtuyuTh3ss6B7NmRDjPlwvBg/s1600/step2.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="331" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-VF7HiSrYQwJwhcJREMm366_g2gYsBst6wNu9f2jY7-dEKepoFHhv-vPE6PTB9ZXVghtsZLn05wMBxzUxJTPcow5sUlCJxYVlbAx-yoomFq8bBe8vosgDtuyuTh3ss6B7NmRDjPlwvBg/s400/step2.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;b&gt;3.&lt;/b&gt; Connect the midpoints of the spokes to form a hexagon.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwsxSK4t-O_sv9KBv7ByxWQzVP7CecM2ND4UepUImfMRyaJJsdjbIEhi5UW6RufvDFPG9yJNfEF1gKAkorREXK3vA_MOausDtZN8GUm0pAEj4-cFvnAewrYCZL7SV_lfYNw0tY5MIN6M8/s1600/step3.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="353" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwsxSK4t-O_sv9KBv7ByxWQzVP7CecM2ND4UepUImfMRyaJJsdjbIEhi5UW6RufvDFPG9yJNfEF1gKAkorREXK3vA_MOausDtZN8GUm0pAEj4-cFvnAewrYCZL7SV_lfYNw0tY5MIN6M8/s400/step3.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;b&gt;4.&lt;/b&gt; Select all sides of the hexagon and construct the midpoints of the sides. Then connect those midpoints to the points on the interior of the hexagon to form a star, like the one shown below.&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEga5QKofw8sZMfgYAGDb7Bh6F2xuslBRTcyMovfzpdHpju_-i8mYvL2AkuBzcyrd0JciHlohJjFq1pZ5Z4pwee9j71yA8B_Vqp0-UoNcr22DOT_2wDhR57RXLFeVhismX7AqSHdG0jvzPI/s1600/step4.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="345" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEga5QKofw8sZMfgYAGDb7Bh6F2xuslBRTcyMovfzpdHpju_-i8mYvL2AkuBzcyrd0JciHlohJjFq1pZ5Z4pwee9j71yA8B_Vqp0-UoNcr22DOT_2wDhR57RXLFeVhismX7AqSHdG0jvzPI/s400/step4.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;b&gt;5.&lt;/b&gt; At this point it would be wise to hide some of the things that we don't want to include in our construction (select lines and dots and press CNTRL+H). You should leave your star, the original points A and B, and the mid and end-points of each spoke.&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyptFZiraqaWY8rozD01FmKHRJHNpoY84sCHqQzH9WHTwCbO2jCqnQgfNZCWzhHQPK8dqTdx_Xavz-zVPhM_AbdEZ9cSsHBV3y_cSkVC8_Gyzvkl_6Ytd0LLDjYE4CqoX3Jar4lgh3UxI/s1600/step5.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="345" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyptFZiraqaWY8rozD01FmKHRJHNpoY84sCHqQzH9WHTwCbO2jCqnQgfNZCWzhHQPK8dqTdx_Xavz-zVPhM_AbdEZ9cSsHBV3y_cSkVC8_Gyzvkl_6Ytd0LLDjYE4CqoX3Jar4lgh3UxI/s400/step5.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;b&gt;6.&lt;/b&gt; Now we are ready to iterate. To do this, select the points A and B, and then open the Iterate dialog (&lt;b&gt;Transform &amp;gt; Iterate...&lt;/b&gt;). The first iteration is to map A to C and B to itself. Keep the dialog open (we need to add more maps to this iteration).&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtyg5Me2yYRUErFj_W5kCoFKwvBYloRtLi7qkl868pN5nitpeLe_Ut_udFIJS6T5AYnfcp-IhnMTwOgd5L5BTtmU-7xjfKYYQR6D59HD2nu5yIxV5LPNq_CfAcVZRviG2W31Mo1s0dDto/s1600/first_struct.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="355" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtyg5Me2yYRUErFj_W5kCoFKwvBYloRtLi7qkl868pN5nitpeLe_Ut_udFIJS6T5AYnfcp-IhnMTwOgd5L5BTtmU-7xjfKYYQR6D59HD2nu5yIxV5LPNq_CfAcVZRviG2W31Mo1s0dDto/s400/first_struct.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;b&gt;7.&lt;/b&gt; Repeat the same sort of mapping on each spoke: A gets mapped to the midpoint of the spoke, and B gets mapped to the endpoint of the spoke. Do this by using the &lt;b&gt;Struct... &amp;gt;&amp;nbsp;Add New Map &lt;/b&gt;on the iteration dialog.&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-1lbNlxeZoJjAPn_NPO_66chDIRvR5MVVeL8lQYpW6pfqayGzYVf65vRf_wdWcc6J4r4A-kbcDuiCRj19M0JSKPRYorErxaCcYay9azw6a1T-5LGcljUhzJtAPiQSvSRWTbblYTAE9rI/s1600/second_struct.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="362" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-1lbNlxeZoJjAPn_NPO_66chDIRvR5MVVeL8lQYpW6pfqayGzYVf65vRf_wdWcc6J4r4A-kbcDuiCRj19M0JSKPRYorErxaCcYay9azw6a1T-5LGcljUhzJtAPiQSvSRWTbblYTAE9rI/s400/second_struct.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;b&gt;8.&lt;/b&gt; After mapping onto all the spokes, hit the Iterate button.&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRyOwybzd_LdjGeAcY6bUZCuDtStnkTOm-nqawq1q-eG9jr50f991wmAgPOH4N7ltdAJRDw7BrWnAJmbcBFYZl0zZ8kBOs8KeHdbTHHpebaEhOXNflhpLtAAx-OKI0k77jzWyrwrKeSBo/s1600/all_structs.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="356" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRyOwybzd_LdjGeAcY6bUZCuDtStnkTOm-nqawq1q-eG9jr50f991wmAgPOH4N7ltdAJRDw7BrWnAJmbcBFYZl0zZ8kBOs8KeHdbTHHpebaEhOXNflhpLtAAx-OKI0k77jzWyrwrKeSBo/s400/all_structs.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;b&gt;9.&lt;/b&gt; You can now hide any points or parts of the iteration that you'd like, and increase or decrease the number of iterations (select the whole shape and use the plus (+) and minus (-) keys).&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiH19LssTg-26wN5QgKdBEKcM4o52UW0d4CHVsDNhyphenhyphenLoInQp0O-lZhaGNdjZGsA3qLF6TwhgYcl2AQgUOLL5BDOKmYiPaxH5rJ6qn3L8mj8LxxOjTM_UbEtAnmGzN07RUctf_axKEMdg40/s1600/hidden.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="355" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiH19LssTg-26wN5QgKdBEKcM4o52UW0d4CHVsDNhyphenhyphenLoInQp0O-lZhaGNdjZGsA3qLF6TwhgYcl2AQgUOLL5BDOKmYiPaxH5rJ6qn3L8mj8LxxOjTM_UbEtAnmGzN07RUctf_axKEMdg40/s400/hidden.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+Two thing to note: when we mapped A and B, we mapped them onto points that were derived from A and B (midpoints and endpoints of the line AB, and rotations of those points), and we mapped A and B such that the distance between their images was smaller than the original distance between A and B. Mapping A and B so that they moved closer to each other means that the resulting shape will be bounded - otherwise the shape will get larger with each iteration.&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2013-11-20T02:49:26.195Z</blogger:created>
+    <published>2013-11-20T03:30:00.001Z</published>
+    <updated>2013-11-20T03:30:13.952Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='school math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='GSP'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='mathematics'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='geometry'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='iterations'/>
+    <blogger:filename>/2013/11/snowflake-construction-in-gsp.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

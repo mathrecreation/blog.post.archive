@@ -1,0 +1,79 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-4942260567491624555</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>some tilings on regular grids</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+The only regular polygons that can tile the plane by themselves are equilateral triangles, squares, and regular hexagons (these are the &lt;a href="https://en.wikipedia.org/wiki/Euclidean_tilings_by_convex_regular_polygons#Regular_tilings"&gt;regular tilings&lt;/a&gt;).&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUqFv641mwdvvH_0dPpn24TQssCIOa6xvyz56kjCcpVPRWPjlRuf6xgNVAbrfhDzMFwn7fXntPyJXB9F-wWhcWESVZ0EgppFKhQx_7ZxhZiJZHtIN09IqWpRyPb1GMC1BUm6Nkx5EbdYA/s1600/3regulartesselations.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="224" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUqFv641mwdvvH_0dPpn24TQssCIOa6xvyz56kjCcpVPRWPjlRuf6xgNVAbrfhDzMFwn7fXntPyJXB9F-wWhcWESVZ0EgppFKhQx_7ZxhZiJZHtIN09IqWpRyPb1GMC1BUm6Nkx5EbdYA/s320/3regulartesselations.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+In the &lt;a href="http://www.mathrecreation.com/2016/05/polygon-and-stars-tilings.html"&gt;previous post&lt;/a&gt;, we noticed that the regular hexagon tiling can be used as a basis for creating decorative tilings of other polygons, such as nonagons, decagons, 15-gons, and so on, that include increasingly curved (but still polygonal) six-pointed stars to fill in the gaps, observing with the help of a formula form &lt;a href="http://www.mathrecreation.com/2016/04/regular-polygons-in-rings-part-two.html"&gt;another post&lt;/a&gt;, that polygons that can be arranged around a regular hexagon like this have a number of sides equal to a multiple of 3.&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIAdfj4AmGUrxWqNJwNu_0ChXKuTArjJy568ypA-1xC-T79Ucnd4POwb7H5P8uE01FXiWTOjU8dSJLupXwRNkUpif9xbhxexSGubm9zt8gentRFHQqzUI4sMiq8DRkogrQCdGnqBJZiKs/s1600/15-gons.JPG" imageanchor="1" style="margin-left: auto; margin-right: auto;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIAdfj4AmGUrxWqNJwNu_0ChXKuTArjJy568ypA-1xC-T79Ucnd4POwb7H5P8uE01FXiWTOjU8dSJLupXwRNkUpif9xbhxexSGubm9zt8gentRFHQqzUI4sMiq8DRkogrQCdGnqBJZiKs/s1600/15-gons.JPG" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;&lt;i&gt;15-gons on a regular hexagonal grid&lt;/i&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+We can do the same sort of thing with the regular triangle tiling, arranging hexagons, dodecagons, 18-gons, or any &lt;i&gt;n&lt;/i&gt;-gon where &lt;i&gt;n&lt;/i&gt; is a multiple of 6, and the gaps become increasingly-circular triangles.&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKDGQMZ-73EkeWUW2mIHMy6U5WzB6uIqww7v76GnIeqdrPR2afYHez7GJcNhzw7_wK3CsXqVJaOHkHdoOcW56GXrv83k_NHkSauh06uM5O-LvvGmnY_zPqU2QuUtuWyABdF_DqzgoFpIk/s1600/triangle_grid.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="400" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKDGQMZ-73EkeWUW2mIHMy6U5WzB6uIqww7v76GnIeqdrPR2afYHez7GJcNhzw7_wK3CsXqVJaOHkHdoOcW56GXrv83k_NHkSauh06uM5O-LvvGmnY_zPqU2QuUtuWyABdF_DqzgoFpIk/s400/triangle_grid.JPG" width="382" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+And the same with the square tiling, arranging squares, octagons, dodecagons, 16-gons, or any &lt;i&gt;n&lt;/i&gt;-gon where &lt;i&gt;n&lt;/i&gt; is a multiple of 4, where the gaps becoming somewhat &lt;a href="https://en.wikipedia.org/wiki/Astroid"&gt;astroidal&lt;/a&gt;.&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTUyHAaMF1vSnvqrmgogCBB9pih-_BG4HMGp_6J0VvRfwkhVszOnkMbwtT8-gOjspejNdE2ignGmMHETDjmXbVqPLjRbZKsx1egMCIZ69FweD7cfnDpsSu1O5FONFrYuiUuzfw6NdhyphenhyphenFU/s1600/square_grid.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="400" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTUyHAaMF1vSnvqrmgogCBB9pih-_BG4HMGp_6J0VvRfwkhVszOnkMbwtT8-gOjspejNdE2ignGmMHETDjmXbVqPLjRbZKsx1egMCIZ69FweD7cfnDpsSu1O5FONFrYuiUuzfw6NdhyphenhyphenFU/s400/square_grid.JPG" width="308" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+The polygons that can be arranged on the triangular, square and hexagonal grids can all be found by looking at the intersection of the green horizontal lines with the family of curves below, which as explained in &lt;a href="http://www.mathrecreation.com/2016/04/regular-polygons-in-rings-part-two.html"&gt;an earlier post&lt;/a&gt;, describe a "regular polygons-in-rings formula"&lt;i&gt;&amp;nbsp;k&lt;/i&gt;&amp;nbsp;= 2&lt;i&gt;n&lt;/i&gt;/(&lt;i&gt;n&lt;/i&gt;&amp;nbsp;-(2+2&lt;i&gt;m&lt;/i&gt;)).&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj105X-BwwzXA9gOA0UY9NLlX1Mlv3BNexgBE04IRSX-lKn0OqdNxG8mv-vr2AcsIEgWFi5OSkhyhhv0kRqde_pqeizQ3_RxerzEAUEztWgV2UxLH5yBoOR8_RVUNoaUFCirIcXuvgZm7s/s1600/kmn_graph2.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="321" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj105X-BwwzXA9gOA0UY9NLlX1Mlv3BNexgBE04IRSX-lKn0OqdNxG8mv-vr2AcsIEgWFi5OSkhyhhv0kRqde_pqeizQ3_RxerzEAUEztWgV2UxLH5yBoOR8_RVUNoaUFCirIcXuvgZm7s/s400/kmn_graph2.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+The &amp;nbsp;regular polygon with the fewest number of sides that can be arranged this way on all of these grids is the dodecagon (some other decorative tilings from dodecagons &lt;a href="http://www.mathrecreation.com/2015/09/decorative-fusings-of-dodecagon.html"&gt;here&lt;/a&gt;)&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-WA76WYl_r8-3xBQv4TpzEVqupD3pc7XrJq40V8t2dQmagO5AGBovQqWLtC5nRzbRUI0tKJL18PaE6_V-JxSbYSOL9z53c_7nrVL-5uJBbbVkynwfYj8vjjm1Op0o0LuXIx-cStjbFD8/s1600/dodeca.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="400" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-WA76WYl_r8-3xBQv4TpzEVqupD3pc7XrJq40V8t2dQmagO5AGBovQqWLtC5nRzbRUI0tKJL18PaE6_V-JxSbYSOL9z53c_7nrVL-5uJBbbVkynwfYj8vjjm1Op0o0LuXIx-cStjbFD8/s400/dodeca.JPG" width="356" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+The image below shows where some of these tilings sit on the&amp;nbsp;&lt;i&gt;k&lt;/i&gt;&amp;nbsp;= 2&lt;i&gt;n&lt;/i&gt;/(&lt;i&gt;n&lt;/i&gt;&amp;nbsp;-(2+2&lt;i&gt;m&lt;/i&gt;)) curve family.&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEji_osZ7EtBT-rJE7D-gmYL0kPZgtF9tAHsyjlOZtBHniFEpY7dRjmjE-QKYqpggtgW7XnrCU4HxZ8X9Mwwk1cvF1DlBY-7OQ3xWalNC97_NcDbZM9GcrE2lL4Zml2G6y2xKJeUZdzY1Tc/s1600/lattices_on_graphs.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="288" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEji_osZ7EtBT-rJE7D-gmYL0kPZgtF9tAHsyjlOZtBHniFEpY7dRjmjE-QKYqpggtgW7XnrCU4HxZ8X9Mwwk1cvF1DlBY-7OQ3xWalNC97_NcDbZM9GcrE2lL4Zml2G6y2xKJeUZdzY1Tc/s400/lattices_on_graphs.PNG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2016-05-15T04:53:11.480Z</blogger:created>
+    <published>2016-05-17T02:33:00Z</published>
+    <updated>2016-05-17T19:25:40.805Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2016/05/some-tilings-on-regular-grids.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

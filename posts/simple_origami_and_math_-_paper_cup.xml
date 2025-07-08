@@ -1,0 +1,49 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-4669208932034391456</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>simple origami and math - paper cup</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgV8z0GkvphIhV-sTvgLkCWrvQYMgCFHHXtAb2pr7U1_eLXvFGByBqowDviilb3QCjAC_z0Kd0bpLHXOJBSjXec2WCK09RSNaPAnTxm5wrsZj1VfVRzoljwaD0ewQPTRUHYRxluVpSnXwk/s1600/cup_picture.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgV8z0GkvphIhV-sTvgLkCWrvQYMgCFHHXtAb2pr7U1_eLXvFGByBqowDviilb3QCjAC_z0Kd0bpLHXOJBSjXec2WCK09RSNaPAnTxm5wrsZj1VfVRzoljwaD0ewQPTRUHYRxluVpSnXwk/s1600/cup_picture.jpg" /&gt;&lt;/a&gt;&lt;/div&gt;
+The traditional paper cup origami model (diagram available from &lt;a href="http://www.origami-usa.org/files/atsushi-cup.pdf"&gt;Origami USA&lt;/a&gt;) has some nice properties that, like the &lt;a href="http://mathrecreation.blogspot.com/2011/01/simple-origami-and-math-jumping-frog.html"&gt;hopping frog&lt;/a&gt;, make it a nice model for simple mathematical exploration.&lt;br /&gt;
+&lt;br /&gt;
+As &amp;nbsp;you would expect, when folded flat the top of the cup is parallel to the bottom of the cup. To achieve this there is an interesting fold that is used only to find a point - the crease that this fold creates is not a part of the final model, but only used to help you along the way.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-v-a5je6IjFAIjlNECv9zsvzD1mjRR2ihsvhDIKp7mcMiSB4fvMbonJVytvWy3ssq85NaHLXCsMHvSRlc73VNt1zYzUtVaU5Tk5zL4ONufKduXFiFZnXPapE2TMOHB7wxFIv2P-qLW_0/s1600/fold1and2.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="133" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-v-a5je6IjFAIjlNECv9zsvzD1mjRR2ihsvhDIKp7mcMiSB4fvMbonJVytvWy3ssq85NaHLXCsMHvSRlc73VNt1zYzUtVaU5Tk5zL4ONufKduXFiFZnXPapE2TMOHB7wxFIv2P-qLW_0/s320/fold1and2.jpg" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+The intermediary fold that marks the point where the corner B is folded over to the side AC (point D) is one that constructs the &lt;a href="http://mathworld.wolfram.com/AngleBisector.html"&gt;angle bisector&lt;/a&gt; of ABC (see figures below) by folding the side AB onto the side BC.&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMGUCTrwzq8VJ33kNDT8CTiVhOoFyGk7PsC62qFtaOu8zDK4GYnBR6vFVye2bZvFl7L-JUyjk77LjiCGaTRIw2mRQfhe_vkcwQUakr2Stg22ehc7grceeMt3_U2yRdbr6GiCNt_3O0DXQ/s1600/folds_lines.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMGUCTrwzq8VJ33kNDT8CTiVhOoFyGk7PsC62qFtaOu8zDK4GYnBR6vFVye2bZvFl7L-JUyjk77LjiCGaTRIw2mRQfhe_vkcwQUakr2Stg22ehc7grceeMt3_U2yRdbr6GiCNt_3O0DXQ/s320/folds_lines.jpg" width="213" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+How does an angle-bisector help us make the top of the cup parallel to the bottom? You can see this pretty clearly if you keep in mind the properties of &lt;a href="http://www.mathnstuff.com/math/spoken/here/2class/260/trans.htm"&gt;transversals of parallel lines&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+Depending on how you learned about the properties of transversals, you might recognize the "Z-law" that states that alternate interior angles of a transversal of parallel lines are equal.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiylxQUlIG-whC3YG3UU5rM1WIgLONCrlNNdY9GfIO9pgV0rxbhUs8WuzgDvy5LjtFy3tFac8QvQLppx0fmPj_jJfcaHXzRXQ-tNEt9DOLLJPr4Mo6OaSTb-eeFe8RChZ0a0JxE7Wm_Os8/s1600/z-laws.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="178" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiylxQUlIG-whC3YG3UU5rM1WIgLONCrlNNdY9GfIO9pgV0rxbhUs8WuzgDvy5LjtFy3tFac8QvQLppx0fmPj_jJfcaHXzRXQ-tNEt9DOLLJPr4Mo6OaSTb-eeFe8RChZ0a0JxE7Wm_Os8/s320/z-laws.jpg" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+The angle bisector that results from this gives a set of equal angles that become the alternate interior angles of the fold that transverses the top and bottom of the cup (you can also see this in the finished crease pattern below).&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGw8vhoUKyduhhn5PRIMdN7C3JoEi0IK7M0MMcji3ULYdyS6xVZUYfupUZVBIzyJVmHZ5-iuAwfszJIfU4byjN-TRj-yWmsvUN8a-3WeoMhEuoqYAg_PfF0kYze0UiVNlf3zmWPnFvgUE/s1600/cup_crease.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGw8vhoUKyduhhn5PRIMdN7C3JoEi0IK7M0MMcji3ULYdyS6xVZUYfupUZVBIzyJVmHZ5-iuAwfszJIfU4byjN-TRj-yWmsvUN8a-3WeoMhEuoqYAg_PfF0kYze0UiVNlf3zmWPnFvgUE/s320/cup_crease.jpg" width="319" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+In Ontario, there is a &lt;a href="http://www.edu.gov.on.ca/eng/curriculum/secondary/math910curr.pdf"&gt;grade nine mathematics curriculum&lt;/a&gt; expectation that states that students will "determine, through investigation using a variety of tools (e.g., dynamic geometry software, concrete materials), and describe the properties and relationships of the angles formed by parallel lines cut by a transversal, and apply the results to problems involving parallel lines." I think that investigating the origami paper cup can help here.&lt;br /&gt;
+&lt;br /&gt;
+Although the origami cup is pretty easy to fold, and as I hope you can see, the "angle bisector" fold is pretty important in getting it right, some versions of the instructions get this wrong. For example, check out the city of Ottawa's &lt;a href="http://www.youtube.com/watch?v=BfEX85V9n8w"&gt;compost bin origami instructions&lt;/a&gt;. If you watch closely, they get things wrong by using the &lt;a href="http://mathworld.wolfram.com/PerpendicularBisector.html"&gt;right-bisectors&lt;/a&gt;&amp;nbsp;of the sides of the folded triangle to find their reference points, instead of the angle-bisector. Luckily, newspaper and compost are pretty forgiving.</content>
+    <blogger:metaDescription/>
+    <blogger:created>2011-01-31T16:30:32.785Z</blogger:created>
+    <published>2011-01-31T18:07:00Z</published>
+    <updated>2011-09-11T01:59:41.997Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='origami'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='school math'/>
+    <blogger:filename>/2011/01/simple-origami-and-math-paper-cup.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

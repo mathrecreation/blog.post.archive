@@ -1,0 +1,39 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-5919729427474289239</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>phyllotaxis &amp; primes</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSxbVlk8KgWdne6G9c-v3gxOvXTwLvDrSgrAT7EY6qMG0Qulw0Hv-KZtmUGZijrxBu7AEJhJXPOCBgoSldtZUtxEJYPJ3QhwrgWZWOXvUykCjy7VyJNvJLAlUlbMnyM0s9QBn0rglbLJ8/s1600/primes2.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="298" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSxbVlk8KgWdne6G9c-v3gxOvXTwLvDrSgrAT7EY6qMG0Qulw0Hv-KZtmUGZijrxBu7AEJhJXPOCBgoSldtZUtxEJYPJ3QhwrgWZWOXvUykCjy7VyJNvJLAlUlbMnyM0s9QBn0rglbLJ8/s320/primes2.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+I was inspired to make some pictures of phyllotaxis with primes colored in by &lt;a href="http://maxwelldemon.com/2012/03/18/prime-phyllotaxis-spirals/"&gt;this post&lt;/a&gt; at &lt;a href="http://maxwelldemon.com/"&gt;Maxwell's Demon&lt;/a&gt;, which has not only nice pictures, but also explanations for why the primes appear to line up on certain curves.&amp;nbsp;Like the spirals there, the ones in these pictures are not numbered in the "naturally" occurring way - in a phyllotaxis spiral that occurs in nature (as in a sunflower or pine-cone) the outer dots/seeds grow first and are pushed out by the younger seeds that emerge from the center.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhCZiF0G1pUkAu8vXa6drjElbBzD6nPyZ205klgiYvxkAOXMtVfO4tRsCGlKW3mx9MVj094egxmz66WwuBdxOZjcciNtZSWjhQHvPJSDBJm2ryfrSkDfJArmbg8wtQcLfzdR7I3JnDkOI/s1600/primes-numbers.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhCZiF0G1pUkAu8vXa6drjElbBzD6nPyZ205klgiYvxkAOXMtVfO4tRsCGlKW3mx9MVj094egxmz66WwuBdxOZjcciNtZSWjhQHvPJSDBJm2ryfrSkDfJArmbg8wtQcLfzdR7I3JnDkOI/s320/primes-numbers.JPG" width="317" /&gt;&lt;/a&gt;&lt;/div&gt;
+It is a lot easier to simulate a phyllotaxis spiral as a function of the radius (described &lt;a href="http://www.mathrecreation.com/2008/09/phyllotaxis-spirals.html"&gt;here&lt;/a&gt;) rather than modeling the pushing-out from the center that happens in plants (a good description of this is found in &lt;a href="http://www.amazon.com/Book-Numbers-John-H-Conway/dp/038797993X"&gt;The Book of Numbers&lt;/a&gt; by Conway and Guy).&lt;br /&gt;
+&lt;br /&gt;
+Drawing number spirals with primes on them is some sort of recreational mathematics meme - the &lt;a href="http://www.mathrecreation.com/2011/06/sequences-on-spiral.html"&gt;ulam spiral&lt;/a&gt; is the most famous, they are also drawn on &lt;a href="http://mathrecpics.tumblr.com/post/13900982253/primes-on-a-quadratic-spiral"&gt;quadratic spirals&lt;/a&gt; and &lt;a href="http://www.mathrecreation.com/2012/01/primes-on-log-spiral.html"&gt;others&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFbaJ7G-t-c2P3qI6cHB4j1pdI5isy64nMeVcbS5a_7MK_k800Le15amYhN3m60Mv5TM1p-Ux6kJRoNVJbi3QumzyTkV8IkECVtIjfGhKG6a0rDLymPVJau453VkJC12oq_RQr6qE_mVE/s1600/primes3.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="316" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFbaJ7G-t-c2P3qI6cHB4j1pdI5isy64nMeVcbS5a_7MK_k800Le15amYhN3m60Mv5TM1p-Ux6kJRoNVJbi3QumzyTkV8IkECVtIjfGhKG6a0rDLymPVJau453VkJC12oq_RQr6qE_mVE/s320/primes3.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2012-03-24T00:50:54.274Z</blogger:created>
+    <published>2012-03-24T01:22:00.001Z</published>
+    <updated>2012-03-24T01:22:21.870Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='spirals'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='primes'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='mathematics'/>
+    <blogger:filename>/2012/03/phyllotaxis-primes.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

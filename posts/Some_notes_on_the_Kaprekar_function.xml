@@ -1,0 +1,64 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-3406307181984959875</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Some notes on the Kaprekar function</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnebkUcHYibLX8g6cVdVcl7AEUnbMU6-vB6fbfTOwNUpYO-uTecAXZPO_oJPC09VLuPHea097UpMq2g_vh-WxB37Y625J5oErQMfVHOFyLWU10O-sbssRq-7qiafK7CRI-7MbrODww3ic/s1600/kaprekar.JPG" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnebkUcHYibLX8g6cVdVcl7AEUnbMU6-vB6fbfTOwNUpYO-uTecAXZPO_oJPC09VLuPHea097UpMq2g_vh-WxB37Y625J5oErQMfVHOFyLWU10O-sbssRq-7qiafK7CRI-7MbrODww3ic/s1600/kaprekar.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+Consider a 3 digit number, say 395. Take its digits and form the greatest and least possible 3 digit numbers and subtract them: 935 - 359 = 594. Now do the same with the result: &amp;nbsp;954 - 459 = 495. Try it again, and you see that the process has hit a fixed point: 954 - 459 = 495.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+The Kaprekar function involves taking a number, computing two shuffles of its digits (the shuffle with the greatest value, and the one with the least value), and then taking the difference of those two shuffles. So for an integer&amp;nbsp;&lt;i&gt;n&lt;/i&gt;, if &lt;i&gt;g &lt;/i&gt;is the number you get from re-arranging the digits of &lt;i&gt;n&lt;/i&gt; from greatest to least, and &lt;i&gt;l&lt;/i&gt; is the number you get from re-arranging the digits of &lt;i&gt;n&lt;/i&gt; from least to greatest, then the Kaprekar function is &lt;i&gt;k&amp;nbsp;&lt;/i&gt;(&lt;i&gt;n&lt;/i&gt;) = &lt;i&gt;g&lt;/i&gt; - &lt;i&gt;l&lt;/i&gt;. If you repeatedly apply the Kaprekar function to an integer &lt;i&gt;n&lt;/i&gt;, you may end up converging to a constant value. For any n whose digits are all the same, you automatically converge to 0. Surprisingly, for any 3 digit number whose digits are not all the same, &lt;i&gt;k&lt;/i&gt; will converge to &lt;a href="http://en.wikipedia.org/wiki/495_(number)"&gt;495&lt;/a&gt; (as is the case with the numbers in this plot), for any 4 digit number whose digits are not all the same, &lt;i&gt;k&lt;/i&gt; will converge to &lt;a href="http://en.wikipedia.org/wiki/6174_(number)"&gt;6174&lt;/a&gt;. Numbers with more than 4 digits apparently do not have a single convergent value, but &lt;a href="http://mathworld.wolfram.com/KaprekarRoutine.html"&gt;bounce around within sets of values&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+The pattern on the left comes from making 9 columns of numbers, the leftmost column is a listing of 100 to 199 (starting at the bottom), the rightmost column is a listing of 900 to 999. These are coloured based on how quickly each number causes the&amp;nbsp;&lt;a href="http://en.wikipedia.org/wiki/6174_(number)"&gt;Kaprekar function&lt;/a&gt;&amp;nbsp;to converge to a constant value.&amp;nbsp;&lt;a href="http://mathworld.wolfram.com/KaprekarRoutine.html"&gt;Mathworld&lt;/a&gt;&amp;nbsp;shows a similar plot for four-digit numbers taken from an article that appeared in&amp;nbsp;&lt;a href="http://www.nctm.org/publications/article.aspx?id=40402"&gt;Mathematics Teacher&lt;/a&gt;.&lt;br /&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+Here's a few examples of 3 digit numbers converging to 495:&lt;br /&gt;
+&lt;br /&gt;
+949 -&amp;gt; 495 (white)&lt;br /&gt;
+950 -&amp;gt; 891 -&amp;gt; 792 -&amp;gt; 693 -&amp;gt; 594 -&amp;gt; 495 (dark pink)&lt;br /&gt;
+951 -&amp;gt; 792 -&amp;gt; 693 -&amp;gt; 594 -&amp;gt; 495 (somewhat dark pink)&lt;br /&gt;
+952 -&amp;gt; 693 -&amp;gt; 594 -&amp;gt; 495 (somewhat light pink)&lt;br /&gt;
+953 -&amp;gt; 594 -&amp;gt; 495 (light pink)&lt;br /&gt;
+954 -&amp;gt; 495 (white)&lt;br /&gt;
+&lt;br /&gt;
+949 converges quickly: 994 - 499 = 495; 953 takes a little longer, first you get 953 - 359 = 594. and then 594 gives us 954 - 459 = 495. You can test out the other chains, and also try it with any three digit number whose digits are not all the same: they always end up at 495. A 3 digit number whose digits are all the same gives 0.&lt;br /&gt;
+&lt;br /&gt;
+Here are two observations that help me understand what is going on with this:&lt;br /&gt;
+&lt;br /&gt;
+(1) If you take the difference of two shuffles of the same number, the result is always divisible by 9.&lt;br /&gt;
+&lt;br /&gt;
+(2) Any number that is divisible by 9, when shuffled, will also be divisible by 9.&lt;br /&gt;
+&lt;br /&gt;
+I found these two things very surprising at first, but both can be understood if you think about&amp;nbsp;&lt;a href="http://www.mathrecreation.com/2014/09/squashing-multiples.html"&gt;digital roots&lt;/a&gt;.&lt;br /&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+When you apply the Kaprekar function to a number, your result is not just any old number, but a member of a much smaller set: the multiples of 9. And since many of those multiples of 9 are just shuffles of other multiples of 9, they behave the same when the Kaprekar function is applied to them.&lt;br /&gt;
+&lt;br /&gt;
+Why does the pattern for the three digit numbers seem to repeat and shift up to the right? The shift corresponds to adding 111. Adding 111 generally increases each digit by 1 (except if one of the digits is a 9), leaving the difference between the greatest and least shuffles unchanged.&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2014-11-13T02:31:41.337Z</blogger:created>
+    <published>2014-12-03T01:50:00Z</published>
+    <updated>2014-12-03T01:51:10.003Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='sequences'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='functions'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='mathematics'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='iterations'/>
+    <blogger:filename>/2014/12/some-notes-on-kaprekar-function.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

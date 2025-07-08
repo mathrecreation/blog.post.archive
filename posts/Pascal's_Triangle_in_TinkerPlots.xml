@@ -1,0 +1,23 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-5271814290826366199</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Pascal's Triangle in TinkerPlots</title>
+    <content type='html'>&lt;a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLN1BfUhKFhV1bemvgJ6yccqmEGdbTtdOY9LYaP_69cjPIlPUB2Z1wga6C3HurPepyTP42M8SvkoCz8Q3_Vq0EvGlYRR0WltJYdN7F97VfUX24vPaFSk4f5dkHyti6Njg8CJQNnloJrZc/s1600-h/mod_pascal.jpg"&gt;&lt;img style="margin: 0px auto 10px; display: block; text-align: center; cursor: pointer; width: 400px; height: 157px;" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLN1BfUhKFhV1bemvgJ6yccqmEGdbTtdOY9LYaP_69cjPIlPUB2Z1wga6C3HurPepyTP42M8SvkoCz8Q3_Vq0EvGlYRR0WltJYdN7F97VfUX24vPaFSk4f5dkHyti6Njg8CJQNnloJrZc/s400/mod_pascal.jpg" alt="" id="BLOGGER_PHOTO_ID_5318975113555193970" border="0" /&gt;&lt;/a&gt;&lt;br /&gt;The &lt;a href="http://mathrecreation.blogspot.com/search/label/pascal%20triangle"&gt;posts&lt;/a&gt; on this blog that have talked about Pascal's Triangle have all used diagrams drawn with &lt;a href="http://www.keypress.com/x5715.xml"&gt;TinkerPlots&lt;/a&gt;. Aside from its value as educational software, TP is good for drawing diagrams like these (and others, like the polygonal number diagrams described &lt;a href="http://mathrecreation.blogspot.com/2008/07/drawing-polygonal-numbers.html"&gt;here&lt;/a&gt;) that are derived from calculations.&lt;br /&gt;&lt;br /&gt;A TinkerPlots document that can draw these diagrams is found &lt;a href="http://sites.google.com/site/mathrecreation/Home/pascal_triangle_dm_v1.tp"&gt;here&lt;/a&gt;. The images at the top of the post were created with this document, and show some of the modular patterns in Pascal's triangle (for mod 2 and mod 7).</content>
+    <blogger:metaDescription/>
+    <blogger:created>2009-03-30T13:19:05.543Z</blogger:created>
+    <published>2009-03-30T13:17:00Z</published>
+    <updated>2011-09-11T02:01:52.874Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='pascal triangle'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='TinkerPlots'/>
+    <blogger:filename>/2009/03/pascals-triangle-in-tinkerplots.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

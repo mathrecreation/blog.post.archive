@@ -1,0 +1,41 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-2902359028368135116</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>some gsp fractal sketches</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgModD1JVOTtai0WhaA7gcg857ugSdXeNc6-TYy7VwbxBrXnq6d8A626XtWRwduxllm7BIdl7z9fZOjjl74ypRf2hoVZc-VS18zcMwgvnnxQGC3gIepGxFuBoTJ6wNYViBWVFtgjs9Kops/s1600/hex2.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgModD1JVOTtai0WhaA7gcg857ugSdXeNc6-TYy7VwbxBrXnq6d8A626XtWRwduxllm7BIdl7z9fZOjjl74ypRf2hoVZc-VS18zcMwgvnnxQGC3gIepGxFuBoTJ6wNYViBWVFtgjs9Kops/s320/hex2.JPG" width="281" /&gt;&lt;/a&gt;&lt;/div&gt;
+I found an old GSP file with a bunch geometric fractals in them - I thought that some of them looked nice, so I've posted them here. If you'd like to try them out, you can get the GSP file &lt;a href="https://sites.google.com/site/mathrecreation/Home/Fractals.gsp?attredirects=0"&gt;here&lt;/a&gt;&amp;nbsp;- for the most part, they involve pretty standard use of the "iterate" feature.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ3J8g5q6Q54N7mP0lHZygf57cLGUwnf4kpaF03-19PHpVdbW4FkpWeGEycWWKGbItjXexwaoeU1QZr3Y5i7N04gk3YwIy3dNyBSQdMSJdzy_bcQvqoI54gLoOCNP9EOfN5puFANEOibQ/s1600/pent1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ3J8g5q6Q54N7mP0lHZygf57cLGUwnf4kpaF03-19PHpVdbW4FkpWeGEycWWKGbItjXexwaoeU1QZr3Y5i7N04gk3YwIy3dNyBSQdMSJdzy_bcQvqoI54gLoOCNP9EOfN5puFANEOibQ/s1600/pent1.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Animating them in random ways creates some strange looking forms - the same sketch that produces the pentagon fractal above also gives the one below.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgh2ST-iCZU9uuecL_CcFqJOXlLPvKXQW3HLb-A4jrfbQz2PQwdsRsh-9DHUVrgV_G5l4AjLSIlnPqoEp7XwDAUOF9y-kzFPaMXmzbshKZ2t2zAuuE5Ws8Xyak26FPiiEMJYqkrJ3xQ_tw/s1600/pent2.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="267" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgh2ST-iCZU9uuecL_CcFqJOXlLPvKXQW3HLb-A4jrfbQz2PQwdsRsh-9DHUVrgV_G5l4AjLSIlnPqoEp7XwDAUOF9y-kzFPaMXmzbshKZ2t2zAuuE5Ws8Xyak26FPiiEMJYqkrJ3xQ_tw/s320/pent2.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+The same sketch that gives the snowflake-like pattern at the top of the post gives this odd looking sponge:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_GBHHAEDMHmXBishuIGTRAUIbjsL04UXPDSvId9YwrTY8V9FwcyRNQODkzSe_E7jvsvOj6a4z_SUrTVXvadYMu9Gvd0XqzgyLRnMk18NB8rM-1NaUjHvZI23uwwev6Pc5BvW6jNIQy6I/s1600/hex1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="305" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_GBHHAEDMHmXBishuIGTRAUIbjsL04UXPDSvId9YwrTY8V9FwcyRNQODkzSe_E7jvsvOj6a4z_SUrTVXvadYMu9Gvd0XqzgyLRnMk18NB8rM-1NaUjHvZI23uwwev6Pc5BvW6jNIQy6I/s320/hex1.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2011-11-06T02:17:34.685Z</blogger:created>
+    <published>2011-11-06T02:32:00Z</published>
+    <updated>2011-11-06T02:36:15.749Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='mathematics'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='GSP'/>
+    <blogger:filename>/2011/11/some-gsp-fractal-sketches.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  
