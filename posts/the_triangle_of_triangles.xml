@@ -1,0 +1,71 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-921534416449451768</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>the triangle of triangles</title>
+    <content type='html'>Is there a triangle that contains every possible triangle? In one sense, yes there is.&lt;br /&gt;
+&lt;br /&gt;
+In "The Stiener-Lehmus Theorem" (which appears in &lt;a href="http://press.princeton.edu/titles/10558.html"&gt;The Best Writing on Mathematics, 2015&lt;/a&gt;, edited by Mircea Pitici), John Conway and Alex Ryba introduce a clever &lt;a href="https://en.wikipedia.org/wiki/Nomogram"&gt;nomogram&lt;/a&gt;&amp;nbsp;which they call "the triangle of triangles."&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtJjBqEcEFlH-k_D0x8iwCWa5F1K28HIkwbT_e5uZ02hsHwxK9YLbIvXoVz2-ftEHsdqtN7ECzyUouDJI4ouFUixAH8LSVi9ghhjhyphenhyphenb8tKuVw_XUjro49687qiFxouy6kbksPFbW271OU/s1600/blank_triangle_o_triangles.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtJjBqEcEFlH-k_D0x8iwCWa5F1K28HIkwbT_e5uZ02hsHwxK9YLbIvXoVz2-ftEHsdqtN7ECzyUouDJI4ouFUixAH8LSVi9ghhjhyphenhyphenb8tKuVw_XUjro49687qiFxouy6kbksPFbW271OU/s400/blank_triangle_o_triangles.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+As the authors describe it,&lt;br /&gt;
+&lt;blockquote class="tr_bq"&gt;
+&lt;i&gt;each point corresponds to a triple of numbers A, B, and C, that add to 180, and so to a shape of a triangle. In the figure, A is constant on downward sloping lines, B on upward sloping ones, and C on horizontals.&lt;/i&gt;&lt;/blockquote&gt;
+In the diagram below, the point &lt;i&gt;P &lt;/i&gt;provides us with a triple (36, 60, 84), which corresponds to the shape of a triangle &lt;i&gt;ABC&lt;/i&gt; with those angles. Note that &lt;i&gt;A&lt;/i&gt; and &lt;i&gt;B&lt;/i&gt; are easier to read off the figure than &lt;i&gt;C&lt;/i&gt;, so it may help to add an additional axis.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzCpWp8GGcSzYqu7rbWCp_qGBVnUr60dXrJ3gy0Yy4EuqqI52Nb5j_vOkdk2GimEcpISS51eoG-_Sa9x152WrR8iI7PYCyFXO_vmWzPKmCnUk2EUG3BdwtiR0EpkShkD7f1qyUQbPANbE/s1600/triangle_with_a_point.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="305" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzCpWp8GGcSzYqu7rbWCp_qGBVnUr60dXrJ3gy0Yy4EuqqI52Nb5j_vOkdk2GimEcpISS51eoG-_Sa9x152WrR8iI7PYCyFXO_vmWzPKmCnUk2EUG3BdwtiR0EpkShkD7f1qyUQbPANbE/s400/triangle_with_a_point.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+To say &lt;i&gt;P&lt;/i&gt; corresponds to the "shape" of a triangle, it is meant that &lt;i&gt;P&lt;/i&gt; represents an infinite family of similar triangles whose angles (measured in degrees) equal the numbers given by the triple described by &lt;i&gt;P&lt;/i&gt;.&lt;br /&gt;
+&lt;br /&gt;
+Let's see where some favorite triangle families live on the triangle of triangles. In the simplified figure below, green lines are drawn at 90 and light blue lines are drawn at 60. These intersect at the &lt;a href="https://en.wikipedia.org/wiki/Special_right_triangle#45.C2.B0.E2.80.9345.C2.B0.E2.80.9390.C2.B0_triangle"&gt;special 45-45-90 right triangles&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxLsGdjyzWxplGw7eqg4ItZAR_KYlJroOgmqwIWj5Qgn6_iL2AdnSFGTvj2j6b9WuFeVAgdheSHTkZCNLNOp_X6HGqBahmG2rIsuCJjm6CMHsCbVDkmcxIj64dlG7mQ1sLbPxLoquEGDY/s1600/4590special.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="400" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxLsGdjyzWxplGw7eqg4ItZAR_KYlJroOgmqwIWj5Qgn6_iL2AdnSFGTvj2j6b9WuFeVAgdheSHTkZCNLNOp_X6HGqBahmG2rIsuCJjm6CMHsCbVDkmcxIj64dlG7mQ1sLbPxLoquEGDY/s400/4590special.JPG" width="362" /&gt;&lt;/a&gt;&lt;/div&gt;
+And here are some more favorites. With the light green lines drawn at 90, the dark green drawn at 60, and the orange lines drawn at 30, we get the &lt;a href="https://en.wikipedia.org/wiki/Special_right_triangle#30.C2.B0.E2.80.9360.C2.B0.E2.80.9390.C2.B0_triangle"&gt;30-60-90 special triangles&lt;/a&gt;, and equilateral.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEit8DOzmMZ3Y8OcZtZAEQiKU_ledAh94SENwhel43yCRvlXgMMj_xAdVtKJMJ6jZHohwQVMPkJ2jrdcM3cquq5M-a66yfR3ToL-J8t56zU1NvQJOM3EomLJVFWDS-d-CUks-OcJDG2ErZo/s1600/3060specials.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="346" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEit8DOzmMZ3Y8OcZtZAEQiKU_ledAh94SENwhel43yCRvlXgMMj_xAdVtKJMJ6jZHohwQVMPkJ2jrdcM3cquq5M-a66yfR3ToL-J8t56zU1NvQJOM3EomLJVFWDS-d-CUks-OcJDG2ErZo/s400/3060specials.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+Maybe it is a little surprising that the triple you get from the points within the triangle should sum to 180. In the diagram below, those values correspond to the lengths of &lt;i&gt;RC&lt;/i&gt;, &lt;i&gt;QC&amp;nbsp;&lt;/i&gt;and &lt;i&gt;PS&lt;/i&gt;, with appropriate scaling factors applied&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimXn77FGhBiYFENO8PZi8Q5wFVe4i6CUOEre2N0MIGYRkKHBTf8FZ_QcMTfLbLNXYmzk8md91rzVBjI7FnXWfrtHqi62UIykXwmKBohHjaxu141EKR9DSp9Zs32GvPpCuyoNreR3pKFO0/s1600/proof1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimXn77FGhBiYFENO8PZi8Q5wFVe4i6CUOEre2N0MIGYRkKHBTf8FZ_QcMTfLbLNXYmzk8md91rzVBjI7FnXWfrtHqi62UIykXwmKBohHjaxu141EKR9DSp9Zs32GvPpCuyoNreR3pKFO0/s320/proof1.JPG" width="311" /&gt;&lt;/a&gt;&lt;/div&gt;
+If for the sake of simplicity, we assume that the lengths of &lt;i&gt;AP &lt;/i&gt;and &lt;i&gt;BC&lt;/i&gt; are 1, things simplify quite a bit. The relationship to be proven reduces to what is shown in the figure below.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEJYnh4k9ailLSsCPgFZBtiJJ4XMxNEvTXSCv4zzBB6MgsknQZnV92sTMKf2yFy4QZmry8-6hZaZk5LgqWuAeh4vpGwaG6oNm0RIbxLV8ma4KDK-2tvLMMqQFvbTRZXmx9Mkj7Xkj__cU/s1600/proof2.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="200" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEJYnh4k9ailLSsCPgFZBtiJJ4XMxNEvTXSCv4zzBB6MgsknQZnV92sTMKf2yFy4QZmry8-6hZaZk5LgqWuAeh4vpGwaG6oNm0RIbxLV8ma4KDK-2tvLMMqQFvbTRZXmx9Mkj7Xkj__cU/s400/proof2.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+One way to show this is to start with the median &lt;i&gt;DC&lt;/i&gt;, and show how the required lengths are related to it.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdlAJutXm0Lbl7iUfbjCCv-JuhamP2oDbNsHSm4C_8r_uebw5GjLi0T4v1cBTJY6Q9Vc9vmE5l3OqqLA7El_ZClcYE31bMwPwPDyrWs_pggiFarhWOE-HPQcAw6B7mIbzipC1_qJjUwiw/s1600/proof3.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="206" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdlAJutXm0Lbl7iUfbjCCv-JuhamP2oDbNsHSm4C_8r_uebw5GjLi0T4v1cBTJY6Q9Vc9vmE5l3OqqLA7El_ZClcYE31bMwPwPDyrWs_pggiFarhWOE-HPQcAw6B7mIbzipC1_qJjUwiw/s400/proof3.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Of course, it makes sense if you are drawing a triangle-of-triangles, you'd likely want to draw it as an equilateral, but as you might notice, any old triangle seems to do (with the right scaling). The figure below shows one set of measurements taken in GSP, where you can distort the triangle and convince yourself that the relationship holds generally. Feel free to re-do the proof above for the general case :)&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUdQDnvEBclEXrjabEwHPyuT54Sq3pA5saeDlMcj8AIjK7nfSZZ_OzExiqT7wXDcC4EfZaYgmUgGdz6PMpV4q75XB7F5_9MXr0xEr5PQ55TFWq9AP0l0W4mJfu7b29qC9Ry312mkWNxf8/s1600/general_case.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="227" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUdQDnvEBclEXrjabEwHPyuT54Sq3pA5saeDlMcj8AIjK7nfSZZ_OzExiqT7wXDcC4EfZaYgmUgGdz6PMpV4q75XB7F5_9MXr0xEr5PQ55TFWq9AP0l0W4mJfu7b29qC9Ry312mkWNxf8/s400/general_case.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2016-01-21T14:23:31.127Z</blogger:created>
+    <published>2016-01-27T02:35:00.001Z</published>
+    <updated>2016-01-27T02:35:04.244Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='geometry'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='book review'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='mathematics'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='triangle'/>
+    <blogger:filename>/2016/01/the-triangle-of-triangles.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

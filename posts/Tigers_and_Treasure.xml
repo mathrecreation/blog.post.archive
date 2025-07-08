@@ -1,0 +1,126 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-327299498545883522</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Tigers and Treasure</title>
+    <content type='html'>Here is yet another type of logic puzzle for you:&lt;br /&gt;
+&lt;blockquote class="tr_bq"&gt;
+Imagine there are two doors, both doors either lead to a tiger or treasure. You would like to know what each door leads to. On each door there is an inscription that provides a clue. If door 1 leads to treasure, its inscription is true, otherwise it is false. If door 2 leads to a tiger, its inscription is true, otherwise it is false.&amp;nbsp;&lt;/blockquote&gt;
+&lt;blockquote class="tr_bq"&gt;
+Door 1 says: Both rooms have a tiger.&lt;br /&gt;
+Door 2 says: The other room has treasure and this room has a tiger.&amp;nbsp;&lt;/blockquote&gt;
+&lt;blockquote class="tr_bq"&gt;
+Can you figure out what each door leads to?&lt;/blockquote&gt;
+&lt;br /&gt;
+Here is one way to think about it:&lt;br /&gt;
+&lt;br /&gt;
+Door 1 cannot lead to treasure, since if it does its inscription must be true. The inscription on door 1 contradicts the assumption that it leads to treasure. Consequently, door 1 must lead to a tiger. However, if door 1 leads to a tiger, its inscription must be false - which means the statement "both rooms have a tiger" cannot be true, so door 2 must lead to treasure. If door 2 leads to treasure, then its statement is false, which lines up with door 1 having a tiger and door 2 having a treasure. If we instead start with the inscription on door 2, if door 2 had a tiger, it would mean that door 1 has a treasure, but door 1 leading to treasure leads to a contradiction. It is safe to conclude that door 1 leads to a tiger, and door 2 leads to treasure.&lt;br /&gt;
+&lt;br /&gt;
+You can find 96 of these puzzles &lt;a href="https://dmackinnon1.github.io/inspectorCraig/tiger.html"&gt;here&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+These puzzles, &lt;a href="https://dmackinnon1.github.io/knaves/"&gt;like&lt;/a&gt; &lt;a href="https://dmackinnon1.github.io/portia/"&gt;previous&lt;/a&gt; &lt;a href="https://dmackinnon1.github.io/inspectorCraig/"&gt;ones&lt;/a&gt; are based on puzzles by Raymond Smullyan. In this post, I wanted to look at a reasonable list of statements that could appear on the doors, and how the statements interact with the peculiarities of the doors.&lt;br /&gt;
+&lt;br /&gt;
+To generate these puzzles, I started with a set of 14 statements that could be placed on either door:&lt;br /&gt;
+&lt;br /&gt;
+&lt;ol&gt;
+&lt;li&gt;this room has treasure&lt;/li&gt;
+&lt;li&gt;the other room has treasure&lt;/li&gt;
+&lt;li&gt;at least one room has treasure&lt;/li&gt;
+&lt;li&gt;both rooms have treasure&lt;/li&gt;
+&lt;li&gt;this room has a tiger&lt;/li&gt;
+&lt;li&gt;the other room has a tiger&lt;/li&gt;
+&lt;li&gt;at least one room has a tiger&lt;/li&gt;
+&lt;li&gt;both rooms have a tiger&lt;/li&gt;
+&lt;li&gt;this room has treasure or the other room has a tiger&lt;/li&gt;
+&lt;li&gt;the other room has treasure or this room has a tiger&lt;/li&gt;
+&lt;li&gt;this room has treasure and the other room has a tiger&lt;/li&gt;
+&lt;li&gt;the other room has treasure and this room has a tiger&lt;/li&gt;
+&lt;li&gt;both rooms have treasure or both rooms have a tiger&lt;/li&gt;
+&lt;li&gt;one room has treasure and the other has a tiger&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br /&gt;
+If we stick with puzzles generated using these 14 statements, there are 196 possible labelling of door 1 and door 2. However, some statements will not work on a particular door. For example, door 2 cannot be labelled with statement 1, since if door 2's statements are only true if door 2 leads to a tiger, the statement &amp;nbsp;"this room has treasure" will lead to a contradiction in every case. If door 2 has a tiger, then its statements are true, but "this room has treasure" would be false. If door 2 has treasure, then its statements are false, but "this room has treasure" would be true.&lt;br /&gt;
+&lt;br /&gt;
+The graph below shows all 196 possible puzzles. The puzzles that lead to contradictions are coloured as white squares, the puzzles that do not lead to contradictions are coloured in black. We can see a white strip across the bottom: these are all the puzzles where door 2 is labelled with statement 1. Can you find the statement that always leads to contradictions for door 1? There are 131 puzzles that are "good" in the sense that they do not lead to contradictions.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-RgdTdRtZLbXbMB__KNJnF9NaqY7lElpS3dyLz3Y_G49FcbsGwUp9pqMtBwyuSRJU0jPB4sJ_sempR8q0GL4Fvkmj5LjgbBO4MQbjEIu8Fwlnb91_VrGCUORAbxP1UQVzvUW0UOCXSbY/s1600/puzzles_with_solutions.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="692" data-original-width="781" height="353" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-RgdTdRtZLbXbMB__KNJnF9NaqY7lElpS3dyLz3Y_G49FcbsGwUp9pqMtBwyuSRJU0jPB4sJ_sempR8q0GL4Fvkmj5LjgbBO4MQbjEIu8Fwlnb91_VrGCUORAbxP1UQVzvUW0UOCXSbY/s400/puzzles_with_solutions.png" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;treasure/tiger puzzles with solutions, &lt;br /&gt;or an upside-down DigDug level&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+But some of these 131 puzzles are not so satisfying - the clues provided on the doors don't help in figuring out what lies beyond. In some cases, like the example puzzle above, the clues will tell you what lies beyond both doors. In others, you may only learn the contents of one door. For certain puzzles, you can conclude nothing. There are 35 puzzles, shown in black below, that are contradiction-free, but whose clues provide inconclusive information about the rooms.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVfTTThMVBMBLdTZdaKFcgNK23A3dBPFbJ5UOFAsIZKYjYVbFCetW5WqGcBB4SwZ3jklJOSNWux5wL98jnF5Tmi03cPD__8SqLbhcXOdK4-Xd7n1hBHWsKUKHa38q6FhyphenhyphenMEIel21gkEoA/s1600/puzzles_leading_nowhere.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="692" data-original-width="779" height="353" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVfTTThMVBMBLdTZdaKFcgNK23A3dBPFbJ5UOFAsIZKYjYVbFCetW5WqGcBB4SwZ3jklJOSNWux5wL98jnF5Tmi03cPD__8SqLbhcXOdK4-Xd7n1hBHWsKUKHa38q6FhyphenhyphenMEIel21gkEoA/s400/puzzles_leading_nowhere.png" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;treasure/tiger puzzles where the inscriptions&lt;br /&gt;tell you nothing&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+In the graph above, notice that many puzzles along the vertical stripe at statement 1 are in this category of puzzles that tell us nothing. When put on door 1, the statement "this room has treasure" is not helpful (except in some interactions with door 2 statements); taken on its own, if door 1 has treasure, the statement is simply true, and if door 1 does not have treasure, it is simply false - it does not tell us anything about door 2's possible contents, or generate a contradiction that would allow us to reject one of the options. Similarly, the horizontal stripe at statement 5 symmetrically corresponds to door 2 having the statement "this room has a tiger."&lt;br /&gt;
+&lt;br /&gt;
+So, to get a set of nice puzzles, we take the 131 that are contradiction-free, and remove these 35 unsatisfying puzzles to obtain 96 where you can find the contents of at least one of the rooms based on the inscriptions on the doors.&lt;br /&gt;
+&lt;br /&gt;
+Some of the puzzles are particularly nice: both rooms lead to treasure! There are 20 of these, shown in black below:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioe6jZ8y9LGdI9yzHSwJvziUDk4EZpT9RQueBkOPf-zbpQJD2GjVETA1qWW7ouNfWyoEOFfftIFNaYbjGb9Gwcdei-GoWti68rVKZNv0Bow9hCKmJHSSvjeqzh8wZ_YMBidpDzdvmfGCk/s1600/puzzles_two_treasures.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="689" data-original-width="786" height="350" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioe6jZ8y9LGdI9yzHSwJvziUDk4EZpT9RQueBkOPf-zbpQJD2GjVETA1qWW7ouNfWyoEOFfftIFNaYbjGb9Gwcdei-GoWti68rVKZNv0Bow9hCKmJHSSvjeqzh8wZ_YMBidpDzdvmfGCk/s400/puzzles_two_treasures.png" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;treasure/tiger puzzles with two treasures&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+A quick look at this graph shows that when statement 11 is on door 2, or when statement 10 is on door 1, your odds of getting treasure are pretty good.&lt;br /&gt;
+&lt;br /&gt;
+Looking at statement 11:&lt;br /&gt;
+&lt;blockquote class="tr_bq"&gt;
+&lt;i&gt;this room has treasure and the other room has a tiger&lt;/i&gt;&lt;/blockquote&gt;
+If seen on door 2, we know it cannot be true: statements on door 2 are only true if door 2 leads to a tiger. So this means two things: First door 2 must have treasure, and second, the statement is false. The only way for the statement to be false is if door 1 also leads to treasure.&lt;br /&gt;
+&lt;br /&gt;
+Looking at statement 10:&lt;br /&gt;
+&lt;blockquote class="tr_bq"&gt;
+&lt;i&gt;the other room has treasure or this room has a tiger&lt;/i&gt;&lt;/blockquote&gt;
+If seen on door 1, this statement cannot be false: statements on door 1 are only false if door 1 leads to a tiger. If door 1 leads to a tiger, this would make the statement true - a contradiction. So this means two things: door 1 must lead to treasure, and the statement must be true. The only way for the overall statement to be true is if door 2 also leads to treasure.&lt;br /&gt;
+&lt;br /&gt;
+Statements 11 and 13 are, just like statements 1 and 3, negations of each other. &lt;a href="https://en.wikipedia.org/wiki/De_Morgan%27s_laws"&gt;DeMorgan's laws&lt;/a&gt;, tell us that an "and" statement like "this room has treasure and the other room a has a tiger" when negated becomes an "or" statement, like "the other room has a treasure or this room has a tiger."&lt;br /&gt;
+&lt;br /&gt;
+Just as there are puzzles that lead to 2 treasures, there are those that lead to two tigers. Not surprisingly, there are 20 of these also, and their graph looks like this:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0KQhnn53xNdJE6ti5fiYArnO-5yXmZQE-MJEVJkCPyZhuRuIM1s5G2tjRpk4hkuC29hN4qxu_ZfD6kBhVWHhfCN8nWDhAZjYOrkmAcoFtlBBOLeSHc1o_DDhIT5CNRNYGu0MMT0uarbg/s1600/two_tigers.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="693" data-original-width="778" height="356" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0KQhnn53xNdJE6ti5fiYArnO-5yXmZQE-MJEVJkCPyZhuRuIM1s5G2tjRpk4hkuC29hN4qxu_ZfD6kBhVWHhfCN8nWDhAZjYOrkmAcoFtlBBOLeSHc1o_DDhIT5CNRNYGu0MMT0uarbg/s400/two_tigers.png" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;treasure/tiger puzzles with two tigers&lt;/i&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+Can you see why statement 9 when put on door 2 leads to two tigers, and why the same is true for statement 12 when put on door 1?&lt;br /&gt;
+&lt;br /&gt;
+Although some puzzles end up being solvable with two tigers or two treasures, the classic form of the puzzle would have a solution where we would find a tiger behind one door, and treasure behind the other. It turns out there are 40 of these in our set, distributed like so:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUq1_0YMVqIXfBCyEJ-wdGNns6AWw91jQdLMh-LptCeRV1qg3Ihm2LJ_UDrKDtXTTloPWW4cHWEkvsSjQwxWLRdscP523brTw-8jZho9e3BTS3vUfM2Ea3cVSXF8t5zfNQwCbhW89lbmQ/s1600/one_of_each.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="698" data-original-width="754" height="370" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUq1_0YMVqIXfBCyEJ-wdGNns6AWw91jQdLMh-LptCeRV1qg3Ihm2LJ_UDrKDtXTTloPWW4cHWEkvsSjQwxWLRdscP523brTw-8jZho9e3BTS3vUfM2Ea3cVSXF8t5zfNQwCbhW89lbmQ/s400/one_of_each.png" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;treasure/tiger puzzles where the &lt;br /&gt;solution is one of each&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+Rounding out the puzzle collection are puzzles with one door that is unknowable. There are 16 of these, with 8 puzzles having a solution that is a tiger plus an unknown and 8 that is a treasure plus an unknown.&lt;br /&gt;
+&lt;br /&gt;
+So, out of the 196 combinations of our 14 statements on two doors, we have 131 that are contradiction free. Of these, we removed the 35 where the clues do not allow you to draw any conclusions about the rooms. This leaves:&lt;br /&gt;
+- 16 puzzles that have a partial solution (8 where one door leads a tiger, and another 8 where one door leads to treasure);&lt;br /&gt;
+- 40 puzzles that have one door leading to a tiger and one to treasure;&lt;br /&gt;
+- 20 puzzles that have both doors leading to tigers; and&lt;br /&gt;
+- 20 puzzles that have both doors leading to treasure.&lt;br /&gt;
+&lt;br /&gt;
+See how many you can solve:&amp;nbsp;&lt;a href="https://dmackinnon1.github.io/inspectorCraig/tiger.html"&gt;https://dmackinnon1.github.io/inspectorCraig/tiger.html&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;&lt;b&gt;Update&lt;/b&gt;: &lt;a href="http://www.mathrecreation.com/2018/03/symmetry-and-asymmetry-in-tigers-and.html"&gt;Another post about tigers and treasure puzzles&lt;/a&gt;&lt;/i&gt;&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2018-03-02T16:41:29.554Z</blogger:created>
+    <published>2018-03-03T04:16:00.001Z</published>
+    <updated>2018-03-09T16:16:00.432Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2018/03/tigers-and-treasure.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

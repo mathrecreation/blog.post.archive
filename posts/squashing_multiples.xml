@@ -1,0 +1,160 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-5181609158967717740</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>squashing multiples</title>
+    <content type='html'>An elementary school exercise leads to writing a simple program, a little proof by contradiction, and learning about some mostly-forgotten calculation tricks: just some of the fun that can be had when playing with simple math. Sound good? It all starts with squashing numbers...&lt;br /&gt;
+&lt;br /&gt;
+No doubt you've noticed some patterns in the non-zero multiples of 9: 9, 18, 27, 36, 45,... One thing to notice is that if you (repeatedly) add up all the digits of a multiple of 9, you always get 9 as your answer.&lt;br /&gt;
+&lt;br /&gt;
+This works immediately for many multiples of 9, like 9*14 = 126 (1 + 2 + 6 = 9), for others you need to keep squashing - if the first digit sum itself has more than one digit, sum those digits and repeat until you get a single digit answer. For example 9 * 42 = 378 (3 + 7 + 8 = 18, which has two digits, so keep squashing: 1 + 8 = 9).&amp;nbsp;
+
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOd_amUeuyRBJlgdhFIxBiIFhKtSAgrcKEIt8uk-cI_yDL3wQa0u5e0PCexomw2mOst4s9TobHRJNZFqBAR-uExpW5zOm0SvauXygnnABijlJjGDBBWRS1UNwunxKuwEdMswSzmnW4K7g/s1600/squashing9.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOd_amUeuyRBJlgdhFIxBiIFhKtSAgrcKEIt8uk-cI_yDL3wQa0u5e0PCexomw2mOst4s9TobHRJNZFqBAR-uExpW5zOm0SvauXygnnABijlJjGDBBWRS1UNwunxKuwEdMswSzmnW4K7g/s1600/squashing9.JPG" height="141" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+All multiples of 9 squash down to 9, which is neat. More importantly this also works in the other direction: any positive integer that squashes to 9 is a multiple of 9. This makes squashing an easy divisibility test for 9 and makes it easy to find multiples of 9 (is 359 a multiple of 9? No, but 369 is, and so is 459). &amp;nbsp;Also: Any number made by rearranging the digits of a multiple of 9 will also be a multiple of 9 (re-arranging the digits won't change the squash value). So, since I know that 882 is a multiple of 9, I also know that 288 and 828 are also multiples of 9.&lt;br /&gt;
+&lt;br /&gt;
+Can you always squash a number? Could there ever be a number that gets bigger when you sum its digits?&lt;br /&gt;
+&lt;br /&gt;
+One (wordy) argument goes like this: To obtain a contradiction, assume there are some positive integers greater than 9, whose digit sums are equal to or greater than the original number. Such a number would be a problem for us: we need to be sure that any number with two or more digits will always have a digit sum less than itself (so we can keep doing digit sums until the number is squashed down to a single digit). &amp;nbsp;Choose &lt;i&gt;n&lt;/i&gt; to be the smallest such troublesome number. Suppose the digit sum of &lt;i&gt;n&lt;/i&gt; is another number &lt;i&gt;k&lt;/i&gt; such that &lt;i&gt;n&lt;/i&gt; &amp;lt;=&amp;nbsp;&lt;i&gt;k&lt;/i&gt;. Now we are going to build a new number &lt;i&gt;m &lt;/i&gt;by taking the digits of &lt;i&gt;n&lt;/i&gt; and changing one of them: chose a non-zero digit in a position bigger than the ones place and decrease it by 1. For example, if our number &lt;i&gt;n&lt;/i&gt; was 567 (which it isn't) our new number &lt;i&gt;m&lt;/i&gt; could be 557. Now &lt;i&gt;m&lt;/i&gt; is at least 10 less than &lt;i&gt;n&lt;/i&gt;, but its digit sum is only one less than &lt;i&gt;k &lt;/i&gt;(since only one digit was decreased by 1). Now &lt;i&gt;m&lt;/i&gt; &amp;lt;=&amp;nbsp;&lt;i&gt;n&lt;/i&gt; -10 &amp;lt; &lt;i&gt;n&amp;nbsp;&lt;/i&gt;- 1 &amp;lt;= &lt;i&gt;k&lt;/i&gt;-1, and so &lt;i&gt;m&lt;/i&gt; is also less than its digit sum (&lt;i&gt;k&lt;/i&gt; - 1). But &lt;i&gt;n&lt;/i&gt; was chosen to be the&amp;nbsp;&lt;i&gt;smallest&amp;nbsp;&lt;/i&gt;number with this property, and &lt;i&gt;m&lt;/i&gt; is definitely smaller than &lt;i&gt;n&lt;/i&gt;. So we have a contradiction: it cannot happen that the digit sum of a number is greater than the number itself. This means that it is safe to squash: you will always get smaller and smaller numbers until you get down to the single digits.&lt;br /&gt;
+&lt;br /&gt;
+Squashing multiples of 9 was interesting: What about patterns in other multiples? Consider positive multiples of 3: 3, 6, 9, 12, 15, 18, 21, 27, ... they don't squash down to the same value, but if you try it out you'll notice a pattern: 3, 6, 9, 3, 6, 9, 3, 6, 9, .... It's easy to see this if you write the multiples in a 3 column table.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibQkT9fnakrztgNBMssmuMuz8uOQZ3BRqphzogn1JkkhyOU8y8SXhb81lSm_nnnJJrm8evEqYCmKgER_EvxS4-muVp0UStjt8KBYPIdNwEZJxDR1YCNgZp6nLrDCaj14GouoJepjNnEhY/s1600/3_in3_v3.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibQkT9fnakrztgNBMssmuMuz8uOQZ3BRqphzogn1JkkhyOU8y8SXhb81lSm_nnnJJrm8evEqYCmKgER_EvxS4-muVp0UStjt8KBYPIdNwEZJxDR1YCNgZp6nLrDCaj14GouoJepjNnEhY/s1600/3_in3_v3.JPG" height="400" width="150" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+In the chart above, the first column entries all squash to 3, the second to 6, and the third to 9. Some other multiples produces similar charts, for example 6 and 12. (I noticed these squashing patterns when looking at material from the &lt;a href="http://jumpmath.org/"&gt;JUMP math&lt;/a&gt; program for grades 3 and 4, where tables like these are used to explore patterns for learning multiplication facts.)&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuvFO5J6M7sh2gFkZw_E8QAI43lsZqOLSA4vAJNXBTBSv_qg0oijdrY_wrZoVTVdVnZJwDumcs38jwk38kw1ObSgTRPNSnS61HOyyEXuETgNghIJzVmGOImqeBTr4xQf2qqjtNy3RiiWM/s1600/multiples_2.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuvFO5J6M7sh2gFkZw_E8QAI43lsZqOLSA4vAJNXBTBSv_qg0oijdrY_wrZoVTVdVnZJwDumcs38jwk38kw1ObSgTRPNSnS61HOyyEXuETgNghIJzVmGOImqeBTr4xQf2qqjtNy3RiiWM/s1600/multiples_2.JPG" height="368" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+Not all integers will have their multiples fit into this pattern. For example, 4 needs a 9 column table to show a squash pattern.&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXkGBgVHgDpa-_KuqptCGVNn26h3pSAc-vq2AKFkZ3WmO4UzreeGRka7hGtmY6IivjYMvFar1rVgBKeq9dP2XVeMt8pu_04Aw7yJW-AMm_-HvKZKqbwJB4891J8mLXYWYDrH2wiG6DNtU/s1600/4on9_v2.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXkGBgVHgDpa-_KuqptCGVNn26h3pSAc-vq2AKFkZ3WmO4UzreeGRka7hGtmY6IivjYMvFar1rVgBKeq9dP2XVeMt8pu_04Aw7yJW-AMm_-HvKZKqbwJB4891J8mLXYWYDrH2wiG6DNtU/s1600/4on9_v2.JPG" height="281" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+You might want to write a little program to do your squashing for you - whether you do or squash by hand, you'll see a clear pattern.&lt;br /&gt;
+&lt;br /&gt;
+Just a brief note on the Java utility below: the &lt;i&gt;while&lt;/i&gt;(&lt;i&gt;true&lt;/i&gt;) statement in the &lt;i&gt;squash&lt;/i&gt;() method relies on our assumption that digit sums get smaller - otherwise we'd potentially have an infinite loop. &amp;nbsp;The &lt;i&gt;digits&lt;/i&gt;() method is simple example of &lt;a href="http://en.wikipedia.org/wiki/Recursion"&gt;recursion&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;package squash;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;import java.util.ArrayList;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;import java.util.List;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;&lt;br /&gt;&lt;/span&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;public class SquashCalculator {&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;&lt;br /&gt;&lt;/span&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;&lt;span class="Apple-tab-span" style="white-space: pre;"&gt; &lt;/span&gt;public List&lt;integer&gt; digits(Integer start) {&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;  &lt;/span&gt;&lt;/integer&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;  &lt;/span&gt;if (start == 0) {&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;   &lt;/span&gt;return new ArrayList&lt;integer&gt;();&lt;/integer&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;  &lt;/span&gt;}&lt;span class="Apple-tab-span" style="white-space: pre;"&gt; &lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;  &lt;/span&gt;int val = start % 10;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;  &lt;/span&gt;List&lt;integer&gt; recur = digits(start/10);&lt;/integer&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;  &lt;/span&gt;recur.add(val);&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;  &lt;/span&gt;return recur;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;&lt;span class="Apple-tab-span" style="white-space: pre;"&gt; &lt;/span&gt;}&lt;/span&gt;&lt;br /&gt;
+&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;&lt;span style="font-family: Courier New, Courier, monospace;"&gt; &lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;&lt;span class="Apple-tab-span" style="white-space: pre;"&gt; &lt;/span&gt;public Integer sum(List&lt;integer&gt; list) {&lt;/integer&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;  &lt;/span&gt;Integer sum = 0;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;  &lt;/span&gt;for (Integer i: list) {&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;   &lt;/span&gt;sum += i;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;  &lt;/span&gt;}&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;  &lt;/span&gt;return sum;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;&lt;span class="Apple-tab-span" style="white-space: pre;"&gt; &lt;/span&gt;}&lt;/span&gt;&lt;br /&gt;
+&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;&lt;span style="font-family: Courier New, Courier, monospace;"&gt; &lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;&lt;span class="Apple-tab-span" style="white-space: pre;"&gt; &lt;/span&gt;public Integer digitSum(Integer i) {&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;  &lt;/span&gt;return sum(digits(i));&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;&lt;span class="Apple-tab-span" style="white-space: pre;"&gt; &lt;/span&gt;}&lt;/span&gt;&lt;br /&gt;
+&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;&lt;span style="font-family: Courier New, Courier, monospace;"&gt; &lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;&lt;span class="Apple-tab-span" style="white-space: pre;"&gt; &lt;/span&gt;public Integer squash(Integer n) {&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;  &lt;/span&gt;if (n == 0) {&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;   &lt;/span&gt;return 0;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;  &lt;/span&gt;}&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;  &lt;/span&gt;Integer current = n;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;  &lt;/span&gt;while(true) {&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;   &lt;/span&gt;current = digitSum(current);&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;   &lt;/span&gt;if (digits(current).size() == 1) break;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;  &lt;/span&gt;}&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;  &lt;/span&gt;return current;&lt;span class="Apple-tab-span" style="white-space: pre;"&gt; &lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;&lt;span class="Apple-tab-span" style="white-space: pre;"&gt; &lt;/span&gt;}&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;}&lt;/span&gt;&lt;br /&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;br /&gt;
+Here's what you'll observe squashing the numbers 1 - 40:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-JMxj7zQUbmi30xRY1CsaRdFoYJB_cfHCkKP11bkjiHcjZoX_K1jef8Y3POaAjZGHk6JKKKQ5pmrYl7aVxF-HZf2gnmz4BrBO4t6bFXwaKV0H13L7TlPwFe2aJxT6MJog3AEXcQBlU3I/s1600/squash_graph.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-JMxj7zQUbmi30xRY1CsaRdFoYJB_cfHCkKP11bkjiHcjZoX_K1jef8Y3POaAjZGHk6JKKKQ5pmrYl7aVxF-HZf2gnmz4BrBO4t6bFXwaKV0H13L7TlPwFe2aJxT6MJog3AEXcQBlU3I/s1600/squash_graph.JPG" height="206" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+Maybe you knew that this would happen, but I didn't. I was surprised at first that squashing numbers formed this regular pattern, but it really isn't surprising if you think about it. If you consider the squash of &lt;i&gt;n &lt;/i&gt;&amp;nbsp;and then wonder what squash of &lt;i&gt;n&lt;/i&gt;&amp;nbsp;+ 1 should be, it should just be one more, unless the squash of &lt;i&gt;n&lt;/i&gt; was already 9, in which case adding one more will give you squash of 10, which is 1.&lt;br /&gt;
+&lt;br /&gt;
+So, the &lt;i&gt;squash &lt;/i&gt;function maps the integers onto a structure like the one on the right below, that is very close to taking the number "&lt;a href="http://en.wikipedia.org/wiki/Modular_arithmetic"&gt;mod&lt;/a&gt; 9".&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlgHDkcEOyljQbXkoUMxAp0vwL1W8D7_1J4GfbkJh9WuSrw204dzLhgjyq9l3uyFgO2regLVZBrbNVSXhz2vizMesM6C8UcRW24Wtlzs-sRacnLZNhAqZQrwdOlJyFtsgEHYLFIOZ74oc/s1600/squash_function.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlgHDkcEOyljQbXkoUMxAp0vwL1W8D7_1J4GfbkJh9WuSrw204dzLhgjyq9l3uyFgO2regLVZBrbNVSXhz2vizMesM6C8UcRW24Wtlzs-sRacnLZNhAqZQrwdOlJyFtsgEHYLFIOZ74oc/s1600/squash_function.JPG" height="187" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Putting the integers from 1 to 36 in a 9 column chart like the "multiples of 4" above shows this also.&lt;br /&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiE5tDs0rpQ1Plfq7EFqy0yx673pcFf-eKqZeIJOOZucYyxVbXLKuz1Z6pIDsAeFhohv8Z3OkRZt6dWcKFh8wk55Yp0YMuzXh1D9DkfuJ_yXHFTgbwLR4qFmwBqTXf7n6iQyJK7CIvV0_0/s1600/multiples_1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em; text-align: center;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiE5tDs0rpQ1Plfq7EFqy0yx673pcFf-eKqZeIJOOZucYyxVbXLKuz1Z6pIDsAeFhohv8Z3OkRZt6dWcKFh8wk55Yp0YMuzXh1D9DkfuJ_yXHFTgbwLR4qFmwBqTXf7n6iQyJK7CIvV0_0/s1600/multiples_1.JPG" height="281" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+This suggests that there is a direct formula for the squash of a number close to its mod 9 value. It turns out this can be expressed as:&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirG8BP6g_Uq7UjFYXj9C6kc-EXkkHNa2BH-XijlU_F753G6GQ68z5w93M-aa2aiJENtWfZO2JZFBvbRTZNx1LOahgOax6Cm75vFtl9Hki0bCfeqiM4yjXiLFIvdekgn-z21c1tdiFedns/s1600/formula.JPG" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirG8BP6g_Uq7UjFYXj9C6kc-EXkkHNa2BH-XijlU_F753G6GQ68z5w93M-aa2aiJENtWfZO2JZFBvbRTZNx1LOahgOax6Cm75vFtl9Hki0bCfeqiM4yjXiLFIvdekgn-z21c1tdiFedns/s1600/formula.JPG" height="73" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+One aspect of this is that &lt;i&gt;n &lt;/i&gt;and &lt;i&gt;squash&lt;/i&gt; (&lt;i&gt;n&lt;/i&gt;) are congruent modulo 9 (which means that if you divide &lt;i&gt;n&lt;/i&gt; by 9, or the squash of &lt;i&gt;n&lt;/i&gt; by 9, you will get the same remainder).&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1hagnKg7UVr96aUqvYHQ2M8kOfQTx3xG-cmd0MLdmFAFDUgekkr8DF_EQymghJpItkJPh1BuK1xyzu9OwhC3KcECskkRMROjSOsQ80blALvalDJpdqQ3IR7Oj7sF-o0r3cGyRlPknU6o/s1600/modulo9.PNG" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1hagnKg7UVr96aUqvYHQ2M8kOfQTx3xG-cmd0MLdmFAFDUgekkr8DF_EQymghJpItkJPh1BuK1xyzu9OwhC3KcECskkRMROjSOsQ80blALvalDJpdqQ3IR7Oj7sF-o0r3cGyRlPknU6o/s1600/modulo9.PNG" height="36" width="200" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+This is the important relationship that makes squashing useful. It's kind of amazing that you can take a number and completely re-arrange its digits, or sum up all its digits, and still retain something about the original number (the remainder after dividing by 9). When you do something this violent to a number it's surprising that some information about the original number remains.&lt;br /&gt;
+&lt;br /&gt;
+This is why every number that can be squashed to 9 is divisible by 9 (both are equal to 0 mod 9). This also helps to explain the number of columns in the tables above. For a number &lt;i&gt;m &lt;/i&gt;whose multiples we are playing with, if &lt;i&gt;m&lt;/i&gt; is divisible by 3 (like 3, 6, and 12), its multiples will have the same squash with a period of 3 (and will repeat in a 3 column table). If &lt;i&gt;m&lt;/i&gt; is not divisible by 3 (the only factor 9 other than 1 and itself), then the squash of the multiples of &lt;i&gt;m &lt;/i&gt;will have a period of 9 (and will repeat in a 9 column table). If &lt;i&gt;m&lt;/i&gt; is a multiple of 9, then its multiples will be multiples of 9 also, and their squash will always be 9.&lt;br /&gt;
+&lt;br /&gt;
+We also get a divisibility test for 3: If a number's squash value is 3, 6, or 9, then that number is divisible by 3. For example, suppose &lt;i&gt;n&lt;/i&gt;&amp;nbsp;squashes to 6. That means that &lt;i&gt;n&lt;/i&gt; is congruent to 6 mod 9, which means that there is some positive integer &lt;i&gt;k&lt;/i&gt; such that &lt;i&gt;n&lt;/i&gt; = 9&lt;i&gt;k&lt;/i&gt;&amp;nbsp;+ 6. Since the right hand side of that equation is divisible by 3 (dividing the right &amp;nbsp;by 3 gives 3&lt;i&gt;k&lt;/i&gt; +2), so is the&amp;nbsp;&amp;nbsp;left hand side.&lt;br /&gt;
+&lt;br /&gt;
+But wait, there is more. Calculating squash values mod 9 has a short-cut: when you are adding up all the digits, you can throw out any multiples of 9, since they will always end up contributing zero to the final answer (because multiples of 9 have a remainder of 0 when divided by 9). This calculation is part of an error-checking technique called "&lt;a href="http://en.wikipedia.org/wiki/Casting_out_nines"&gt;casting out nines&lt;/a&gt;" which can be used to check arithmetic. When casting out nines, you essentially squash (ignoring 9s and multiples of 9s) the inputs and outputs of your calculation, and if they are different then you know you made a mistake.&lt;br /&gt;
+&lt;br /&gt;
+If you want to learn more about this (and there is a lot more), you should Google "&lt;a href="http://en.wikipedia.org/wiki/Digital_root"&gt;digital root&lt;/a&gt;" which is the standard name for what I've been calling "squash."&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2014-09-06T02:18:17.019Z</blogger:created>
+    <published>2014-09-16T02:21:00.001Z</published>
+    <updated>2014-09-16T02:32:55.609Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='numbers'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='school math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='mathematics'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='jump'/>
+    <blogger:filename>/2014/09/squashing-multiples.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

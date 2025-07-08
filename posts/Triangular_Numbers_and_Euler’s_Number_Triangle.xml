@@ -1,0 +1,80 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-5069229757669998309</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Triangular Numbers and Euler’s Number Triangle</title>
+    <content type='html'>As mentioned in a few places (such as &lt;a href="http://mathrecreation.blogspot.com/2008/08/polygonal-number-formulas.html"&gt;here&lt;/a&gt;, and &lt;a href="http://mathrecreation.blogspot.com/2009/01/humble-multiplication-table-1.html"&gt;here&lt;/a&gt;), there is a nice identity stating that a square number can be written as the sum of two subsequent triangular numbers.&lt;br /&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEU-pRweJeH7wJjqUcxNaR786ZcEH2wujCXq4hF4N6qE5_qaqwH7w7vJD_zhhGhFuYVMKRZfMNR7v2TJIHDTX29dlVwlMoWJy3fDP3phZPowAegx-uFnTw9nU_XKGn0Cqo_VzUy3NNdss/s1600-h/1_square_triang.jpg" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"&gt;&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5295685282937684466" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEU-pRweJeH7wJjqUcxNaR786ZcEH2wujCXq4hF4N6qE5_qaqwH7w7vJD_zhhGhFuYVMKRZfMNR7v2TJIHDTX29dlVwlMoWJy3fDP3phZPowAegx-uFnTw9nU_XKGn0Cqo_VzUy3NNdss/s400/1_square_triang.jpg" style="cursor: pointer; display: block; height: 157px; margin: 0px auto 10px; text-align: center; width: 400px;" /&gt;&lt;/a&gt;&lt;br /&gt;
+Here we are writing \(t^d_n\) for the &lt;i&gt;n&lt;/i&gt;th triangular of dimension &lt;i&gt;d&lt;/i&gt; (d=2 are the flat polygonals, &lt;i&gt;d&lt;/i&gt;=3 for they pyramidal polygonals, etc.)&lt;br /&gt;
+&lt;br /&gt;
+There is also a nice relationship that connects cubes to polygonal numbers. It turns out that a cube of spheres can be unfolded into a packed-hexagonal pyramid. The “packed hexagonals” or “centered hexagonals” are not quite the usual hexagonal numbers – instead these are hexagons  of dots with the gaps filled in. The picuture below shows how square numbers fill the gaps of the hexagonals perfectly to form the “packed hexagonals,” and how these in turn can be stacked to form a cube. Here we are using \({ph}^d_n \) for “packed hexagonals” \(h^d_n\) for hexagonals, \(s^d_n\) for squares, and \(t^d_n\) for triangular numbers.&lt;br /&gt;
+&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5295685289649825010" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSa_NccVTBTKN_vUpfTjfFP0uZio9SpL6lMcX7vcyG0kMCrqiLcpdLFnalQujKRocK56PUUkBBkIAuIbVDuiPOwBrHj6PKB9i9zLGsCFKJSSDThdVtm5MF3IfHQmW4ymPat6QvLz3ncXI/s400/3_stacked_hex_cube.jpg" style="cursor: pointer; display: block; height: 225px; margin: 0px auto 10px; text-align: center; width: 400px;" /&gt;&lt;br /&gt;
+&lt;span class="Apple-style-span" style="color: rgb(0 , 0 , 238);"&gt;&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5295685285300679458" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQV7G7DnaMAUzSTR0SrzlFSd9G3c6Zf4v_nk08dn-o7sWc0MFEo44Wry_wcNY0zFRXqLR_ESZUlazInMKj-pbzjIvX0iozX4iYxuNxCpT-Le-5Feo8RKkA2kYs4wH01gJqF_kZOalulWg/s400/2_packed_hex_eq.jpg" style="cursor: pointer; display: block; height: 102px; margin: 0px auto 10px; text-align: center; width: 181px;" /&gt;&lt;/span&gt;&lt;br /&gt;
+Combining this result with the "triangulation" identities we have:&lt;br /&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRYL-Ojn4bIjQIu4MDOVkeEecYSzr9ij6Ls8satOSFqCMQRRAymkqbhG1HvTI48K1G6t2I1GIJGjRXgwffAce8odxSG8U-Y37FWHnvYWQE9AtKvHLd27y1tTSHtoJuMGyoEosnE0c3Ahs/s1600-h/n3_corrected.jpg" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"&gt;&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5314578800252868546" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRYL-Ojn4bIjQIu4MDOVkeEecYSzr9ij6Ls8satOSFqCMQRRAymkqbhG1HvTI48K1G6t2I1GIJGjRXgwffAce8odxSG8U-Y37FWHnvYWQE9AtKvHLd27y1tTSHtoJuMGyoEosnE0c3Ahs/s400/n3_corrected.jpg" style="cursor: pointer; display: block; height: 149px; margin: 0px auto 10px; text-align: center; width: 287px;" /&gt;&lt;/a&gt;This gives us three nice identities for powers of &lt;span class="Apple-style-span" style="font-style: italic;"&gt;n&lt;/span&gt;:&lt;br /&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5hqry7XLowEe4rwGDVoCcfYQwrvqwJ-rYm-3T11icxyn6vVSxMEGKY6dzzHciO_K0Yxf4Q16W4B8Tg2d-wPn7ZBvtGWlE2DpybCBKKZF51w3pefvya-6ziOwMrPZKJz6pJFIu6aNg4g0/s1600-h/5_first_3_identities.jpg" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"&gt;&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5295685291650308690" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5hqry7XLowEe4rwGDVoCcfYQwrvqwJ-rYm-3T11icxyn6vVSxMEGKY6dzzHciO_K0Yxf4Q16W4B8Tg2d-wPn7ZBvtGWlE2DpybCBKKZF51w3pefvya-6ziOwMrPZKJz6pJFIu6aNg4g0/s400/5_first_3_identities.jpg" style="cursor: pointer; display: block; height: 141px; margin: 0px auto 10px; text-align: center; width: 253px;" /&gt;&lt;/a&gt;&lt;br /&gt;
+It turns out that these identities generalize for other positive integer powers of &lt;i&gt;n&lt;/i&gt;. Every \(n^d \) can be written as a sum of \(t^d_i\) where i ranges from \(n\) to \(n+1-d\). (for any i less than 1, these terms are zero)&lt;br /&gt;
+&lt;blockquote&gt;
+1.Write out the sequence of \(n^d\) for at least \(2d-2\) terms. Take the finite difference of this sequence \(d-2\) times (this reduces the sequence down to “2-dimensional” numbers, allowing us to use the 2-dimensional triangular numbers in our calculations).&lt;br /&gt;
+&lt;br /&gt;
+2.The first term of the new sequence should be 1. Eliminate the first term by subtracting \(t^2_n\) from this sequence. This means that our sum begins with \(t^d_n\), with a coefficient of 1. Ensure that the \(t^2_n\) values are subtracted from the corresponding terms of the sequence.&lt;br /&gt;
+&lt;br /&gt;
+3. Now, the sequence has a new first term which is A. Eliminate this term by subtracting A \(t^2_n\) from the sequence. A is the coefficient of \(t^d_{n-1}\).&lt;br /&gt;
+&lt;br /&gt;
+4. Repeat step 3, eliminating the first term of the sequence each time with a multiple of \(t^2_n\), which provides the coefficient for the next value of \(t^d_i\).&lt;br /&gt;
+&lt;br /&gt;
+5.The process ends when all terms in the \(n^d\) sequence is eliminated, which happens at the &lt;i&gt;d&lt;/i&gt;th step.&lt;/blockquote&gt;
+Carrying out this process for a few more powers of n, we end up with:&lt;br /&gt;
+&lt;div&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHvGNpNPKQAr5Mac5VYiJkVXWBQl-Cbmocz9E4VTRiNyxUAjGgPKWGonsID9lVPAel0Y5cYA9NF6TLeFMlRQ31gI48AOJDK0jecw422sB4npsHFPDlmFyUCNcsR0jmltfi1LdTDZsnoG0/s1600-h/equations_corrected.jpg" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"&gt;&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5304227168209414770" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHvGNpNPKQAr5Mac5VYiJkVXWBQl-Cbmocz9E4VTRiNyxUAjGgPKWGonsID9lVPAel0Y5cYA9NF6TLeFMlRQ31gI48AOJDK0jecw422sB4npsHFPDlmFyUCNcsR0jmltfi1LdTDZsnoG0/s400/equations_corrected.jpg" style="cursor: pointer; display: block; height: 181px; margin: 0px auto 10px; text-align: center; width: 400px;" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;div&gt;
+&lt;div style="text-align: left;"&gt;
+In general, we seem to have:&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidBbozJZ1IyA7RXLlMm59mC7ZtbBIyL3u9e8hee9Gy7TQjM87jCwJbxwlWzS3T3ih7pyrDrS6-hUD1HBiDd5WpwhQ2pHBMX83sTwfFxOJclMcIro9KfgGXI9oWXjNOI8i8f78kODPcXaU/s1600-h/7_general_formula.jpg" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"&gt;&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5295697414666880002" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidBbozJZ1IyA7RXLlMm59mC7ZtbBIyL3u9e8hee9Gy7TQjM87jCwJbxwlWzS3T3ih7pyrDrS6-hUD1HBiDd5WpwhQ2pHBMX83sTwfFxOJclMcIro9KfgGXI9oWXjNOI8i8f78kODPcXaU/s400/7_general_formula.jpg" style="cursor: pointer; display: block; height: 73px; margin: 0px auto 10px; text-align: center; width: 216px;" /&gt;&lt;/a&gt;&lt;/div&gt;
+where the coefficients A(i,k) have the nice properties:&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;span class="Apple-style-span" style="color: rgb(0 , 0 , 238); text-decoration: underline;"&gt;&lt;span class="Apple-style-span" style="color: rgb(0 , 0 , 0);"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZVMZN4aR7tu7_XL4mi7MgOQT-2CVH2zKz16B6xeKV4j_z6Q8ESQ4pTtLwBtyMDishIpb40zqboz9-g_Aavg5SoR_pflkURgN2nc2BptPCyXsNZlJ6xL8_-_pQi-1tAp-iJysF5LaW1ys/s1600-h/7b_relationships.jpg" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"&gt;&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5295699748630602898" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZVMZN4aR7tu7_XL4mi7MgOQT-2CVH2zKz16B6xeKV4j_z6Q8ESQ4pTtLwBtyMDishIpb40zqboz9-g_Aavg5SoR_pflkURgN2nc2BptPCyXsNZlJ6xL8_-_pQi-1tAp-iJysF5LaW1ys/s400/7b_relationships.jpg" style="cursor: pointer; display: block; height: 155px; margin: 0px auto 10px; text-align: center; width: 275px;" /&gt;&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+The coefficients are naturally analogous to the binomial coefficients, and can be arranged in a triangle like Pascal’s.&lt;br /&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;span class="Apple-style-span" style="color: rgb(0 , 0 , 238);"&gt;&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5304227173840889890" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgijaCJE7O3IwUPHVJtgmemU2lelgRNOzBrwfNNVc-YLkzoDuSaKad7sLXdM6k7Tr243XNqJil4UMN5J-aZgjeaipho_7Ltj0Z5CVJjq6CeqtJAC0G7EgQVlTzV8UJ1FDcFaG9vKutxDgs/s400/euler_corrected.jpg" style="cursor: pointer; display: block; height: 169px; margin: 0px auto 10px; text-align: center; width: 400px;" /&gt;&lt;/span&gt;&lt;/div&gt;
+These coefficients are known as Eulerian numbers, and the construction above is known as Euler’s Number Triangle (not to be confused with the geometric construction called the Euler Triangle).&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+See also:&lt;/div&gt;
+&lt;div&gt;
+&lt;a href="http://mathworld.wolfram.com/EulersNumberTriangle.html"&gt;http://mathworld.wolfram.com/EulersNumberTriangle.html&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;a href="http://binomial.csuhayward.edu/Euler.html"&gt;http://binomial.csuhayward.edu/Euler.html&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2009-01-26T19:22:31.342Z</blogger:created>
+    <published>2009-01-26T19:21:00Z</published>
+    <updated>2018-11-18T03:50:06.617Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='pascal triangle'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='patterns'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='polygonal'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='numbers'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='euler'/>
+    <blogger:filename>/2009/01/triangular-numbers-and-eulers-number.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

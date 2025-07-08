@@ -1,0 +1,73 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-4319084672321220270</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>the island of knights and knaves</title>
+    <content type='html'>There is classic type of logic problem where we are asked to imagine an island consisting of two types of people: those that always tell the truth (knights), and those that always tell lies (knaves). In puzzles based on this trope, the islanders make statements, and we have to figure out which islanders are knights and which islanders are knaves.&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href="https://dmackinnon1.github.io/knaves/"&gt;This page&lt;/a&gt;&amp;nbsp;will generate knight and knave puzzles of varying difficulty. Here’s an example:
+
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMQwfydOIxFEICPUM0s2AlcUBv3MSfTvSQLL6LhN3p4MAsDUfEziGGXm-0SeLcqhWUkAgpNgTMUw7CBJersjaTC68VrLEgTA0WXD2-0-3WlPNcWVbY1vw9Z9uTFklYBwa25a4Dl1OWgms/s1600/easy4.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="214" data-original-width="418" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMQwfydOIxFEICPUM0s2AlcUBv3MSfTvSQLL6LhN3p4MAsDUfEziGGXm-0SeLcqhWUkAgpNgTMUw7CBJersjaTC68VrLEgTA0WXD2-0-3WlPNcWVbY1vw9Z9uTFklYBwa25a4Dl1OWgms/s1600/easy4.png" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;i&gt;An "easy" puzzle from https://dmackinnon1.github.io/knaves/&lt;/i&gt;
+
+&lt;/div&gt;
+&lt;br /&gt;
+The grandfather of all these puzzles is an actual islander who referenced an actual island &amp;nbsp;- around 600 BCE, the Cretan &lt;a href="https://en.wikipedia.org/wiki/Epimenides_paradox"&gt;Epimenides&lt;/a&gt; is credited with the statement “All Cretans are liars.” The fun has not stopped since.&lt;br /&gt;
+&lt;br /&gt;
+The authoritative source for island puzzles is “What is the Name of this Book?” by &lt;a href="https://en.wikipedia.org/wiki/Raymond_Smullyan"&gt;Raymond M. Smullyan&lt;/a&gt;, which builds these seemingly simple puzzles from humble beginnings (knights and knaves alone on islands) to much more complicated ones that include normals (they sometimes lie, and sometimes tell the truth), the insane (they think lies are truths, and vice versa), monkeys, clubs of knights and knaves, vampires, werewolves and other characters. Using this motley crew, the book slyly leads us to a puzzle-based statement of Godel’s incompleteness theorem.&lt;br /&gt;
+&lt;br /&gt;
+We will stick to the first type of puzzles: knights and knaves alone on an island. How do we solve the puzzle above? Here's one way to reason it out:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUdgNkDHSVHLKDj1cLB06uc6qs7VL_tqDRKXzCtg_R82lNnYHPA3u2zi8DL5l2-SE-j7pvzurgiPI01ePFs2WLQjtgJU7jdaIN47mdvBylenyFXH1Gs6EPG1FDK5-28eBm7PcyiSKKHpU/s1600/easy4.solution.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="384" data-original-width="417" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUdgNkDHSVHLKDj1cLB06uc6qs7VL_tqDRKXzCtg_R82lNnYHPA3u2zi8DL5l2-SE-j7pvzurgiPI01ePFs2WLQjtgJU7jdaIN47mdvBylenyFXH1Gs6EPG1FDK5-28eBm7PcyiSKKHpU/s1600/easy4.solution.png" /&gt;&lt;/a&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;A sample solution for a puzzle generated &lt;br /&gt;at&amp;nbsp;https://dmackinnon1.github.io/knaves/&lt;/i&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+The puzzle generation page mentioned above limits itself to knights and knaves making three kinds of statements:&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Accusations and Affirmations&lt;/b&gt;&lt;br /&gt;
+In an accusation, an islander A says something like "B is a knave" or an equivalent statement like "B always lies." In an affirmation, islander A says something like "B is a knight" or "B always tells the truth."&lt;br /&gt;
+&lt;br /&gt;
+Unfortunately, we don't know if A is telling the truth or not, so how can we know if what they are saying about B is true or not? Even without knowing the type of A, we can learn something very helpful about A and B from these statements. If A and B are linked by an accusation, they must be of different types: either A is a knave and B is a knight, or vice versa. If A and B are linked by an affirmation, they must be of the same type: either both are knights, or both are knaves. See if you can reason out why this must be so.&lt;br /&gt;
+&lt;br /&gt;
+One approach to use when solving puzzles that feature several accusations and affirmations is to draw a diagram (as described in an &lt;a href="http://www.mathrecreation.com/2012/05/liar-truther-accusation-graphs.html"&gt;old post&lt;/a&gt;).&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Knave Conjunctions&lt;/b&gt;&lt;br /&gt;
+An example of a knave conjunction, is when A says "B is a knight, or I am a knave," or &amp;nbsp;"C is a knave and I am a knave."&lt;br /&gt;
+&lt;br /&gt;
+These are very helpful statements, as they always tell us the type of both the speaker and the spoken-of. Any islander who says "or I am a knave" will be making a statement that must be, overall, truthful and is therefore a knight, while any islander who says "and I am a knave" will by lying, and must be knave. Try and convince yourself of that.&lt;br /&gt;
+&lt;br /&gt;
+An interesting thing about "knave conjunctions" is that their usefulness comes from how close they are to the &lt;a href="https://en.wikipedia.org/wiki/Liar_paradox"&gt;liar paradox&lt;/a&gt;. The liar paradox is a more self-directed refinement of that original statement of Epimenides, where we imagine that someone says: "I am lying" and wonder if they are telling the truth or not.&lt;br /&gt;
+&lt;br /&gt;
+An islander cannot make the statement "I am lying," or any equivalent statement such as "I am a knave." If such a statement is true, then the speaker is lying, making the statement also false; and if it is false, the speaker is lying, making the statement also true. So such a statement is contradictory - neither false or true, and our islanders are restricted to statements that are either true or false.&lt;br /&gt;
+&lt;br /&gt;
+Islanders, however, can get close to generating the liar paradox by including its statement as a clause along with another statement. To see how they can do this, you have to be clear on how statements that include "and" and "or" work. If someone on the island says "X or Y" then only X or Y has to be true in order for the whole statement to be true. So a knight can say "X or Y" when only one of the statements is true. However, if a knave says "X or Y" then both X and Y must be false (if one was true, the whole statement would be true, and a knave cannot make a true statement). If an islander says "X and Y" then both X and Y have to be true in order for the statement to be true, and only one needs to be false for the statement to be false. So a knave can say "X and Y" when only one of the statements is false. &lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Similarity and Difference Statements&lt;/b&gt;&lt;br /&gt;
+Sometimes an islander A might say "B is my type" or maybe "C is not my type." We might not know if A is a knight or knave, but we can infer the type of B and C right away. No matter whether A is lying or telling the truth, if A claims "B is my type," then B must be a knight. On the other hand, if A claims that "C is not my type" we know that C is a knave. Do you agree?&lt;br /&gt;
+&lt;br /&gt;
+It is interesting to compare these statements with our first type of statements, the "accusations/affirmations," these two types of statements are reciprocal in a way. When an islander directly says what type another islander is (an accusation or affirmation), all we learn is that the source and target of the statement are similar or different, without learning the actual type. However, when an islander makes a statement about similarity or difference, we learn exactly what type the target is, without learning if this is similar or different than the source.&lt;br /&gt;
+&lt;br /&gt;
+There are many more interesting things that islanders could say, but once you have reasoned out how these three kinds of statements work, you can beat any puzzle on the &lt;a href="https://dmackinnon1.github.io/knaves/"&gt;page&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2017-11-17T21:28:18.042Z</blogger:created>
+    <published>2017-11-18T14:16:00Z</published>
+    <updated>2017-11-18T14:16:08.492Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2017/11/the-island-of-knights-and-knaves.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

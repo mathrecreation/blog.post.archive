@@ -1,0 +1,173 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-8846844059173758224</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Symmetry and Asymmetry in Tigers and Treasure</title>
+    <content type='html'>Tiger and treasure logic puzzles, like ones you can try out &lt;a href="https://dmackinnon1.github.io/inspectorCraig/tiger.html"&gt;here&lt;/a&gt;, &amp;nbsp;offer you a choice between two doors that might lead to treasure, or a tiger. Statements on "door 1" are true only if they lead to treasure, and statements on "door 2" are true only if they lead to a tiger.&lt;br /&gt;
+&lt;br /&gt;
+The &lt;a href="http://www.mathrecreation.com/2018/03/tigers-and-treasure.html"&gt;previous post&lt;/a&gt; gave an overview of the different "tiger and treasure" logic puzzles that could be formed from a starting list of 14 statements:&lt;br /&gt;
+&lt;ol&gt;
+&lt;li&gt;this room has treasure&lt;/li&gt;
+&lt;li&gt;the other room has treasure&lt;/li&gt;
+&lt;li&gt;at least one room has treasure&lt;/li&gt;
+&lt;li&gt;both rooms have treasure&lt;/li&gt;
+&lt;li&gt;this room has a tiger&lt;/li&gt;
+&lt;li&gt;the other room has a tiger&lt;/li&gt;
+&lt;li&gt;at least one room has a tiger&lt;/li&gt;
+&lt;li&gt;both rooms have a tiger&lt;/li&gt;
+&lt;li&gt;this room has treasure or the other room has a tiger&lt;/li&gt;
+&lt;li&gt;the other room has treasure or this room has a tiger&lt;/li&gt;
+&lt;li&gt;this room has treasure and the other room has a tiger&lt;/li&gt;
+&lt;li&gt;the other room has treasure and this room has a tiger&lt;/li&gt;
+&lt;li&gt;both rooms have treasure or both rooms have a tiger&lt;/li&gt;
+&lt;li&gt;one room has treasure and the other has a tiger&lt;/li&gt;
+&lt;/ol&gt;
+All possible puzzles are listed &lt;a href="https://github.com/dmackinnon1/inspectorCraig/blob/master/report/tiger_report.csv"&gt;here&lt;/a&gt; (statement numbers in the file start at 0, rather than 1).&lt;br /&gt;
+&lt;br /&gt;
+When exploring all the different possible puzzles we can make from these, we won't include puzzles that lead to a contradiction, or puzzles where the clues don't allow you to identify either door. This leaves 96 good puzzles out of the 196 combinations of statements, shown in black below:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlsE5B-dX5-MdiSQWc3_KPaMu6U5qaS-V-d_W8SROfntKpOThERm2cgYeQsT620KvnHGtz2cGmJVwqUU_UK2LLM8ybq-LU4yehF7GVWurgD2l51Ea4qkRbG39iCPBkROPBNlU2XFcdj-c/s1600/all_puzzles_nonSym.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="700" data-original-width="835" height="335" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlsE5B-dX5-MdiSQWc3_KPaMu6U5qaS-V-d_W8SROfntKpOThERm2cgYeQsT620KvnHGtz2cGmJVwqUU_UK2LLM8ybq-LU4yehF7GVWurgD2l51Ea4qkRbG39iCPBkROPBNlU2XFcdj-c/s400/all_puzzles_nonSym.png" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;h4&gt;
+&lt;br /&gt;&lt;/h4&gt;
+&lt;h4&gt;
+Symmetry among Puzzles&lt;/h4&gt;
+For each statement in the list of fourteen, you can find the negation of that statement in the list - for example, statement 1 "this room has treasure" has its negation in statement 5 "this room has a tiger." If we plot the list of statements on door 1 vs. the the list of statements on door 2, but re-arrange the statements on the door 2 axis so they are the negations of our original list (the negated list would be statements 5, 6, 8, 7, 1 ,2, 4, 3, 12, 11, 10, 9, 14, 13), we can see the symmetry in these puzzles more clearly:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9XdgQfSl6DQs9MbSoTe1siIdlri6d9AW0DU5KM7mEXkaZlUAxN5xpnqgBSfHj3R91gWMgCnzEjRRBvRGkUVIIVdoXejM_bUKDHdm2QcWHiEHpfBcbfOmcwfJkoX9vZ1j6S6oigG8TeK4/s1600/symmetric_all_puzzles.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="695" data-original-width="835" height="331" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9XdgQfSl6DQs9MbSoTe1siIdlri6d9AW0DU5KM7mEXkaZlUAxN5xpnqgBSfHj3R91gWMgCnzEjRRBvRGkUVIIVdoXejM_bUKDHdm2QcWHiEHpfBcbfOmcwfJkoX9vZ1j6S6oigG8TeK4/s400/symmetric_all_puzzles.png" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+This graph is &amp;nbsp;telling us that if we have a puzzle that works, then if we swap the signs on the doors and negate them, we will also get a working puzzle. If you explore this a bit further, you'll see that the symmetry goes deeper. Let's get a &amp;nbsp;little mathy with this.&lt;br /&gt;
+&lt;br /&gt;
+If &lt;i&gt;a&lt;/i&gt; and &lt;i&gt;b&lt;/i&gt; are statements in our list, a puzzle &lt;i&gt;P&lt;/i&gt; can be described by the ordered pair (&lt;i&gt;a&lt;/i&gt;,&lt;i&gt;b&lt;/i&gt;). Every puzzle &lt;i&gt;P&lt;/i&gt; also has a solution, (&lt;i&gt;s&lt;/i&gt;, &lt;i&gt;t&lt;/i&gt;) where &lt;i&gt;s&lt;/i&gt; and &lt;i&gt;t&lt;/i&gt; are either "tiger", "treasure", or "unknown."&lt;br /&gt;
+&lt;br /&gt;
+For any statement in the list &lt;i&gt;x&lt;/i&gt;, we can write the negation of &lt;i&gt;x&lt;/i&gt; as &lt;i&gt;-x&lt;/i&gt;. If we form a new puzzle by putting the negation of &lt;i&gt;a&lt;/i&gt; on door 2 and the negation of &lt;i&gt;b&lt;/i&gt; on door 1, we get a new puzzle &lt;i&gt;-P&lt;/i&gt; = (&lt;i&gt;-b&lt;/i&gt;,-&lt;i&gt;a&lt;/i&gt;).&lt;br /&gt;
+&lt;br /&gt;
+The symmetry of our tiger treasure puzzles can be expressed as this little theorem:&lt;br /&gt;
+&lt;blockquote class="tr_bq"&gt;
+If &lt;i&gt;P&lt;/i&gt; = (&lt;i&gt;a&lt;/i&gt;,&lt;i&gt;b&lt;/i&gt;) is a tiger treasure puzzle with solution (&lt;i&gt;s&lt;/i&gt;,&lt;i&gt;t&lt;/i&gt;), then its negation, &lt;i&gt;-P&lt;/i&gt; = (&lt;i&gt;-b&lt;/i&gt;, -&lt;i&gt;a&lt;/i&gt;), will have the solution (&lt;i&gt;t&lt;/i&gt;, &lt;i&gt;s&lt;/i&gt;).&lt;/blockquote&gt;
+Here is an example. Consider the example puzzle from the previous post.&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Puzzle P&lt;/b&gt;&lt;br /&gt;
+Door 1 says: Both rooms have a tiger. (statement 8)&lt;br /&gt;
+Door 2 says: The other room has treasure and this room has a tiger. (statement 12)&lt;br /&gt;
+&lt;br /&gt;
+In the previous post, we worked out that door 1 has a tiger and door 2 has treasure.&lt;br /&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+Statement 8's negation is statement 3, and statement 12's negation is statement 9. So the puzzle -P looks like this:&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;b&gt;Puzzle -P&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;
+Door 1 says: This room has treasure or the other room has a tiger (statement 9)&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+Door 2 says: At least one room has treasure (statement 3)&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+If you have tried out a few of these, you may be able to find the solution to -P, which is that door 1 has a tiger and door 2 has treasure, which is the reverse of Puzzle P, where door 1 had treasure and door 2 had the tiger - the contents behind the doors have switched.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+The symmetric graph above helped point us towards a nice symmetry that holds true for all of the tiger and treasure puzzles, but our original non-symmetric graph can point to another interesting things too.&lt;/div&gt;
+&lt;h4&gt;
+&lt;br /&gt;&lt;/h4&gt;
+&lt;h4&gt;
+Using asymmetry to make puzzles more interesting&lt;/h4&gt;
+&lt;div&gt;
+In Raymond Smullyan's book "The Lady or the Tiger?" he presented a nice twist on the usual presentation of this kind of puzzle:&lt;/div&gt;
+&lt;div&gt;
+&lt;blockquote class="tr_bq"&gt;
+"There are no signs above the doors!" exclaimed the prisoner.
+"Quite true," said the king. "The signs were just made, and
+I haven't had time to put them up yet."
+"Then how do you expect me to choose?" demanded the
+prisoner.
+"Well, here are the signs," replied the king. That's all well and good," said the prisoner anxiously,
+"but which sign goes on which door?"
+The king thought awhile. "I needn't tell you," he said.
+"You can solve this problem without that information."&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;div&gt;
+Let's look around for puzzles like this. One question to ask: Which of our problems would allow us to interchange the signs on the doors without affecting the solution to the problem? We'd like to know when does &lt;i&gt;P&lt;/i&gt; = (&lt;i&gt;a&lt;/i&gt;,&lt;i&gt;b&lt;/i&gt;) give the same solution as &lt;i&gt;Q&lt;/i&gt; = (&lt;i&gt;b&lt;/i&gt;,&lt;i&gt;a&lt;/i&gt;)? To explore which puzzles might work in this way, we can start looking at our first graph above, but limit our attention to those puzzles who's reflection in the line door1= door2 is also a puzzle. These are shown in black below (grey shows other puzzles whose reflection is not also a puzzle).&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhw2hLbKvAn6cXw_481As0wxCZEZwa06PxD6w2RtuEOpOoPRrTYM31Jm02CbA8hHIiwk9l8GjWsqSsjTs8gb8zXXnzLrlOej0vtNU9ShZOqj9FRVSNyHz0lCyzdg8E8xuK9XJ_DxrzeKdE/s1600/reflections.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="687" data-original-width="842" height="326" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhw2hLbKvAn6cXw_481As0wxCZEZwa06PxD6w2RtuEOpOoPRrTYM31Jm02CbA8hHIiwk9l8GjWsqSsjTs8gb8zXXnzLrlOej0vtNU9ShZOqj9FRVSNyHz0lCyzdg8E8xuK9XJ_DxrzeKdE/s400/reflections.png" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+But we don't just want puzzles whose reflection gives us a puzzle, but ones whose reflections have the same solution as the original. It turns out that this gives an uninspiring set of six puzzles:&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlJ9ZUWvAVLrP93sioRjlahwolkntSRCXIrNuM0rctC5szMwgKMIAU74RiMu5aLhxS9ugB_dcxWuw0kEpYEv5fLXS6M-0wKPplX8MEjJE9nZcX8DkBAy9sI0wxcL6C0Q3NUvEXviFc5Ko/s1600/reflection_has_same_solution.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="711" data-original-width="765" height="371" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlJ9ZUWvAVLrP93sioRjlahwolkntSRCXIrNuM0rctC5szMwgKMIAU74RiMu5aLhxS9ugB_dcxWuw0kEpYEv5fLXS6M-0wKPplX8MEjJE9nZcX8DkBAy9sI0wxcL6C0Q3NUvEXviFc5Ko/s400/reflection_has_same_solution.png" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+Only the trivial cases work: puzzles where the statements on the doors are exactly the same end up giving us puzzles that have exactly the same solution when the statements are interchanged. So what about the problem from "The Lady or the Tiger?", it uses these statements:&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;ul&gt;
+&lt;li&gt;this room contains a tiger &amp;nbsp;(statement 5)&lt;/li&gt;
+&lt;li&gt;both rooms contain tigers (statement 8)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+Why does the solver not need to know which door each goes on? Well, if statement 5 goes on door 1 we get a contradiction, so it must go on door 2. This is why the solver does not need to be told how to label the doors: there is only one possible way to do so without getting a contradiction. So, a way to find more problems like this is to look for puzzles &lt;i&gt;P&lt;/i&gt; = (&lt;i&gt;a&lt;/i&gt;,&lt;i&gt;b&lt;/i&gt;) where &lt;i&gt;P&lt;/i&gt; is a legitimate puzzle, but &lt;i&gt;Q&lt;/i&gt; = (&lt;i&gt;b&lt;/i&gt;, &lt;i&gt;a&lt;/i&gt;) is not a puzzle, as that labelling of the doors leads to a contradiction.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqMfhVCNdDwi8Z3R81gigOMEczlnwyUPK6uhy1tyOcbIZ5kK2H7l_Pixg4jmlzj28Vqyraki43mL996qP9xITgBN-zSNDiwYIeSxnxiPCK7jhiuoI2jGJx5_XBBkNrA2hIQlfgO4pktOc/s1600/puzzles_reflect_no_puzzle.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="684" data-original-width="759" height="358" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqMfhVCNdDwi8Z3R81gigOMEczlnwyUPK6uhy1tyOcbIZ5kK2H7l_Pixg4jmlzj28Vqyraki43mL996qP9xITgBN-zSNDiwYIeSxnxiPCK7jhiuoI2jGJx5_XBBkNrA2hIQlfgO4pktOc/s400/puzzles_reflect_no_puzzle.png" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+There are 32 puzzles in this category (shown in black above): puzzles when you exchange the statements on the doors, you obtain a contradiction. Adding to this the 6 trivial cases where both doors have the same statement, we have 38 puzzles where we simply present the statements without explaining which statement is on each door.&lt;br /&gt;
+&lt;br /&gt;
+For example, the puzzle (13, 10) falls into this set.&lt;br /&gt;
+&lt;br /&gt;
+Let's try putting 13 on door 1 and 10 on door 2:&lt;br /&gt;
+&lt;br /&gt;
+door 1: both rooms have treasure or both rooms have a tiger (13)&lt;br /&gt;
+&lt;br /&gt;
+door 2: the other room has treasure or this room has a tiger (10)&lt;br /&gt;
+&lt;br /&gt;
+Because inscriptions on door 1 are only true of door 1 leads to treasure, statement 13 implies that door 2 must lead to treasure. Door 2 leading to treasure makes its statement (10) false, requiring door 1 to lead to a tiger.&lt;br /&gt;
+&lt;br /&gt;
+However, if we switch the statements, we run into trouble:&lt;br /&gt;
+&lt;br /&gt;
+door 1: the other room has treasure or this room has a tiger (10)&lt;br /&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+door 2: both rooms have treasure or both rooms have a tiger (13)&lt;br /&gt;
+&lt;br /&gt;
+If statement 10 on door 1 is false, then door 1 would lead to a tiger. However, the statement says that it leads to a tiger, so this cannot be. Door 1 must lead to treasure, making statement 10 true, requiring door 2 to also lead to a treasure. If door 2 leads to treasure, then its statement (13) must be false. However, statement 13 is true (both rooms have treasure), a contradiction.&lt;br /&gt;
+&lt;br /&gt;
+So, presented with statements 10 and 13, there is only one way to arrange them on the doors: put statement 13 on door 1 and statement 10 on door 2, leading to a tiger behind door 1 and treasure behind door 2.&lt;br /&gt;
+&lt;br /&gt;
+Please try out the tiger-treasure puzzles &lt;a href="https://dmackinnon1.github.io/inspectorCraig/tiger.html"&gt;here&lt;/a&gt; and ask yourself: "What would the negation of this puzzle (-P) be?" and "Is this one of the 38 puzzles that can be answered without being told which sign is on which door?"&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2018-03-06T15:14:28.492Z</blogger:created>
+    <published>2018-03-07T17:15:00Z</published>
+    <updated>2018-03-07T17:15:02.396Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2018/03/symmetry-and-asymmetry-in-tigers-and.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

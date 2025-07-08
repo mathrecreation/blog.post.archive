@@ -1,0 +1,59 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-3671880261001027190</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>star polygon fun</title>
+    <content type='html'>Star and compound polygons are pretty mathematical objects that are fun to draw or create in code.&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVwG2uNFt0fVskAhcEuuztjoGfFdzzjuvIrBVqCrwjvKEjCymZcteRgrKe46Zw1OWORSMt4hSe3tjyuJXUCGRqBwUc5NArTiOJNCaF_emo1Bp669yRQlyNFzdLoVZ03EBQYmXGyZOa1Rs/s1600/star_polygons1.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="582" data-original-width="305" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVwG2uNFt0fVskAhcEuuztjoGfFdzzjuvIrBVqCrwjvKEjCymZcteRgrKe46Zw1OWORSMt4hSe3tjyuJXUCGRqBwUc5NArTiOJNCaF_emo1Bp669yRQlyNFzdLoVZ03EBQYmXGyZOa1Rs/s320/star_polygons1.png" width="167" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;star and compound polygons&lt;br /&gt;on 2 to 9 vertices&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+You might draw ten pointed polygons while exploring the multiplication table, &lt;a href="http://www.mathrecreation.com/2009/06/polygons-and-multiplication-table.html"&gt;for example&lt;/a&gt;. In the picture below, skip counting by 6 while drawing a line between the last digits of consecutive numbers gives us a pentagon: counting 0, 6, 12, 18, 24, 30 we draw lines connecting 0, 6, 2, 8, 4, and 0.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFfxulq3NtN3aoVJIy-ZoGqY3pvGZ7FMqyp9vvevkKsPMTKjsTLIzYjKCi1HENgKzMaRrr6hL5xyuITNbOK_Gun3YGcm4R-cBo9H_MHOdAk4Iu0meSzoekpyOqlvA16oI37Id2brBOBSs/s1600/6-times.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="459" data-original-width="623" height="235" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFfxulq3NtN3aoVJIy-ZoGqY3pvGZ7FMqyp9vvevkKsPMTKjsTLIzYjKCi1HENgKzMaRrr6hL5xyuITNbOK_Gun3YGcm4R-cBo9H_MHOdAk4Iu0meSzoekpyOqlvA16oI37Id2brBOBSs/s320/6-times.jpg" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;skip counting by 6 draws {5/2}&lt;/i&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+When drawing star and compound polygons by hand, you start with &lt;i&gt;n &lt;/i&gt;points spaced evenly around a circle, and then from each point connect to another, always skipping over the same number of points. If you skip over 0 points, you get the regular &lt;i&gt;n&lt;/i&gt;-gon. If you skip over &lt;i&gt;k&lt;/i&gt; points, and &lt;i&gt;k+&lt;/i&gt;1 is relatively prime with &lt;i&gt;n&lt;/i&gt;, you will get a star polygon, if &lt;i&gt;n&lt;/i&gt; and &lt;i&gt;k&lt;/i&gt;+1 share factors, you get a compound of several regular or star polygons.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhl3-Bl-DC01xYsi0lNInxJ8tsGccvFkRRYn2JbnkvoVeVBTHzzvUAX1oTVvdkdB1XbsWwgW_3aXL-wn5A0ZqtJHBGptEDG5Ghio2QOEByB_AagsAgPFn4oafqRft2dEYfYhklPe6Pf5Qc/s1600/star_polygons.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="179" data-original-width="455" height="156" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhl3-Bl-DC01xYsi0lNInxJ8tsGccvFkRRYn2JbnkvoVeVBTHzzvUAX1oTVvdkdB1XbsWwgW_3aXL-wn5A0ZqtJHBGptEDG5Ghio2QOEByB_AagsAgPFn4oafqRft2dEYfYhklPe6Pf5Qc/s400/star_polygons.png" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;On 9 points, skipping over 0, 1, 2, and 3&lt;br /&gt;vertices&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+It is interesting how an easy to describe algorithm like this, skipping around points on a circle, translates into a program.&lt;br /&gt;
+&lt;br /&gt;
+The polygons on &lt;a href="https://dmackinnon1.github.io/starPolygons/"&gt;this page&lt;/a&gt; are drawn using some JavaScript (code&amp;nbsp;&lt;a href="https://github.com/dmackinnon1/starPolygons"&gt;here&lt;/a&gt;), which includes some use of trig functions to place the initial vertices (like points around a unit circle) and modular arithmetic to help traverse the list of points in a circular way. It's a nice example of how math makes its way into how we implement even simple algorithms.&lt;br /&gt;
+&lt;br /&gt;
+When we go fully over to a mathematical way of expressing how to draw these by using &lt;b&gt;desmos&lt;/b&gt;, we can see how mathematics can, in this case, express the algorithm in a surprisingly compact way. You can check out the graph &lt;a href="https://www.desmos.com/calculator/h8tixwlvga"&gt;here&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhe-1TC8_Cip0gSN3xHB0eEpNpbotjk38GAr8CN3_ZlNRQSwyJgL1pdyTjRspvWJImjW4Epmky5GmDDACmNQisWGVCHwGtnG-zlLkZV6T5GvN9laa5IZB27OVgq2OgPmjlsHi9P7EgonRk/s1600/desmos_7.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="348" data-original-width="324" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhe-1TC8_Cip0gSN3xHB0eEpNpbotjk38GAr8CN3_ZlNRQSwyJgL1pdyTjRspvWJImjW4Epmky5GmDDACmNQisWGVCHwGtnG-zlLkZV6T5GvN9laa5IZB27OVgq2OgPmjlsHi9P7EgonRk/s320/desmos_7.png" width="297" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;desmos sketch of {7/2},&lt;br /&gt;graph &lt;a href="https://www.desmos.com/calculator/mkmwmvyyuu"&gt;here&lt;/a&gt;&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;&lt;b&gt;Related links and posts&lt;/b&gt;&lt;/i&gt;&lt;br /&gt;
+&lt;a href="https://dmackinnon1.github.io/starPolygons/"&gt;&lt;i&gt;star polygon page&lt;/i&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;a href="https://www.desmos.com/calculator/mkmwmvyyuu"&gt;&lt;i&gt;star polygons in desmos&lt;/i&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;a href="http://www.mathrecreation.com/2012/08/a-deep-dive-into-multiplication-table.html"&gt;&lt;i&gt;polygons in the multiplication table&lt;/i&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2019-02-28T18:21:46.711Z</blogger:created>
+    <published>2019-05-09T17:05:00.003Z</published>
+    <updated>2019-05-09T17:05:31.143Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2019/05/star-polygon-fun.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

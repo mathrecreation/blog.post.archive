@@ -1,0 +1,34 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-2031017982250336289</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>tetradecagons and heptagons</title>
+    <content type='html'>Taking another look at&amp;nbsp;&lt;a href="http://www.mathrecreation.com/2015/07/regular-polygons-in-rings.html"&gt;regular polygons in rings&lt;/a&gt;, here are some regular heptagons (7 sides) centered at the vertices of a regular tetradecagon (14 sides), and some regular tetradecagons centered at the vertices of a regular heptagon. The smaller polygons form rings where there are a fixed number of edges skipped between each pair of adjacent polygons.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUcuVdiIzzn2p_m1O2hpr1ELpO7Vh6TZODYC-3pjQa5N1a7SfSerY1-XzUAN_Z1ghvZvl65a-Ub9cOo3ZAYHAJ-6Os4xIsXFTE09vq6CbN6G0Wcr26OqafeeGrbAgq1Cl4GhEJKGE5XkQ/s1600/hept_tetradecagon.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="315" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUcuVdiIzzn2p_m1O2hpr1ELpO7Vh6TZODYC-3pjQa5N1a7SfSerY1-XzUAN_Z1ghvZvl65a-Ub9cOo3ZAYHAJ-6Os4xIsXFTE09vq6CbN6G0Wcr26OqafeeGrbAgq1Cl4GhEJKGE5XkQ/s320/hept_tetradecagon.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBf2no_QDNWf-9Ps1i-uYVMlNZLabsQeX83OcZv4sLyYojpATKJ1EMVxEyOk8IQMcr9hdxxSJ_IAuqzPXUSFMtUN83YumUAYQFV0Mp74P8jEHR6HOVssXNVer_OQoHRRgxdLGjmNUwLyE/s1600/tetradecagon_hept.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBf2no_QDNWf-9Ps1i-uYVMlNZLabsQeX83OcZv4sLyYojpATKJ1EMVxEyOk8IQMcr9hdxxSJ_IAuqzPXUSFMtUN83YumUAYQFV0Mp74P8jEHR6HOVssXNVer_OQoHRRgxdLGjmNUwLyE/s320/tetradecagon_hept.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+When placing the heptagons around the tetradecagon, there are two edges between adjacent heptagons, and when placing the tetradecagons around the heptagon, there are four edges between the adjacent tetradecagons. In general, when placing polygons in rings like these, if you can place the regular&amp;nbsp;&lt;i&gt;n&lt;/i&gt;-gons &amp;nbsp;at the verticies of a regular &lt;i&gt;k&lt;/i&gt;-gon, having adjacent &lt;i&gt;n&lt;/i&gt;-gons sharing an edge while skipping over &lt;i&gt;m&lt;/i&gt; edges in between if &lt;i&gt;k&lt;/i&gt; = 2&lt;i&gt;n&lt;/i&gt;/(&lt;i&gt;n&lt;/i&gt; - (2+ 2&lt;i&gt;m&lt;/i&gt;)).&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2016-04-15T04:02:25.027Z</blogger:created>
+    <published>2016-04-15T04:15:00.001Z</published>
+    <updated>2016-04-15T04:15:28.447Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2016/04/tetradecagons-and-heptagons.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

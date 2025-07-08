@@ -1,0 +1,102 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-7524763567390101350</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Three number triangles, two telescoping series</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNftU_EIQ5WntfGobiScO_eR7c_ap37pBGo6OePAQYtRZk_4ZVon0VkYRw963ZjH5d0wLkPzimo9n0Z2Q50sDJgwZRAbkWDov4JFY_VNmV5DuXNlrbIFk7L4Rg_cJHhQB0wThUrNK8UVs/s1600-h/3_triangles.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="150" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNftU_EIQ5WntfGobiScO_eR7c_ap37pBGo6OePAQYtRZk_4ZVon0VkYRw963ZjH5d0wLkPzimo9n0Z2Q50sDJgwZRAbkWDov4JFY_VNmV5DuXNlrbIFk7L4Rg_cJHhQB0wThUrNK8UVs/s400/3_triangles.jpg" width="600" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;blockquote&gt;&lt;i&gt;There are so many relations present [in Pascal's triangle] that when someone finds a new identity, there aren't many people who get excited about it anymore, except the discoverer!&amp;nbsp;- &lt;/i&gt;Donald E. Knuth&lt;i&gt; (as quoted by Martin Gardner)&lt;/i&gt;&lt;br /&gt;
+&lt;/blockquote&gt;&lt;br /&gt;
+I was inspired by a &lt;a href="http://pballew.blogspot.com/2009/09/reciprocals-of-triangular-numbers-image.html"&gt;post on Pat's Blog&lt;/a&gt; and by reading A.W.F. Edwards's &lt;a href="http://jhupbooks.press.jhu.edu/ecom/MasterServlet/GetItemDetailsHandler?iN=9780801869464&amp;amp;qty=1&amp;amp;source=2&amp;amp;viewMode=3&amp;amp;loggedIN=false&amp;amp;JavaScript=y"&gt;Pascal's Arithmetical Triangle&lt;/a&gt;&amp;nbsp;to look at summing the reciprocals of higher dimensional triangular numbers. It turns out that you can use the same &lt;a href="http://en.wikipedia.org/wiki/Telescoping_series"&gt;telescoping series technique&lt;/a&gt; that allows you to sum the reciprocals of the 2-dimensional (i.e. the usual) triangular numbers, and that the 'telescoping' feature of these sums can be expressed in terms of some nice identities.&lt;br /&gt;
+&lt;br /&gt;
+The statement of the sum is a nice one. For &lt;i&gt;d &amp;gt;&amp;nbsp;&lt;/i&gt;1 we have:&lt;br /&gt;
+&lt;br /&gt;
+\[\sum^{\infty}_{n=1} \frac{1}{t^d_n} = \frac{d}{d-1}. \]&lt;br /&gt;
+Which gives you a result of 2 for &lt;i&gt;d&lt;/i&gt; = 2 as mentioned in Pat's post. In the case where &lt;i&gt;d&lt;/i&gt; = 0 or 1, the series does not converge.&lt;br /&gt;
+&lt;br /&gt;
+In the notes below, none of the identities are new (the newest is, I think, about 400 years old) - the famous quote by Donald Knuth at the top of the post is intended as a caution for anyone who gets carried away and derives scads more.&lt;br /&gt;
+&lt;br /&gt;
+In all the statements in this post, the index &lt;i&gt;d &lt;/i&gt;ranges over the nonnegative integers (0, 1, 2, ...) while &lt;i&gt;n&lt;/i&gt; ranges over the natural numbers (1, 2, 3, ...). This may seem somewhat inconsistent, but we like to start with dimension zero (&lt;i&gt;d&lt;/i&gt; = 0) and with the first triangular number (&lt;i&gt;n&lt;/i&gt; = 1).&lt;br /&gt;
+&lt;br /&gt;
+The &lt;i&gt;d&lt;/i&gt;-triangular numbers, $t^d_n$ (d for "dimension") are defined by $t^0_n = 1$, and&lt;br /&gt;
+&lt;br /&gt;
+\[ t^d_n =\sum^{n}_{i=1}t^{d-1}_i \mbox{ for } d &amp;gt; 0. \]&lt;br /&gt;
+&lt;br /&gt;
+The formula for $t^d_n$ can also be expressed as a difference, $ t^d_n - t^d_{n-1} = t^{d-1}_n $.&lt;br /&gt;
+&lt;br /&gt;
+When &lt;i&gt;d&lt;/i&gt; = 2 we get the usual triangular numbers, &lt;i&gt;d&lt;/i&gt; = 3 gives the pyramidals, and &lt;i&gt;d&lt;/i&gt; = 4 gives the &lt;a href="http://mathrecreation.blogspot.com/2009/08/triangulo-triangular-numbers.html"&gt;triangulo-triangulars&lt;/a&gt;, etc. - each dimension up is visualized as a stacking of those below it. Note that this definition has the first triangular number (for all dimensions &lt;i&gt;d&lt;/i&gt;) as 1 and not 0, as is &lt;a href="http://mathrecreation.blogspot.com/2009/09/is-zero-triangular-number.html"&gt;sometimes preferred&lt;/a&gt;;&amp;nbsp;in this context it makes sense to start at 1.&lt;br /&gt;
+&lt;br /&gt;
+From this definition, and the &lt;a href="http://www.artofproblemsolving.com/Wiki/index.php/Pascal%27s_Identity"&gt;Pascal identity&lt;/a&gt;, you can establish that&lt;br /&gt;
+&lt;br /&gt;
+\[ t^d_n = \left( \begin{array}{c}n+d-1 \\d \end{array} \right). \]&lt;br /&gt;
+If you are familiar with Pascal's Triangle and look carefully at the triangular number definition, you'll see that sum in the definition of the &lt;i&gt;d&lt;/i&gt;-triangular numbers is the Pascal Triangle "&lt;a href="http://www.artofproblemsolving.com/Wiki/index.php/Pascal%27s_triangle"&gt;hockey stick theorem&lt;/a&gt;" in disguise.&amp;nbsp;This provides us with a direct formula for the d-triangular numbers:&lt;br /&gt;
+&lt;br /&gt;
+\[ t^d_n = \frac{n(n+1)\cdots (n+d-1)}{d!}. \]&lt;br /&gt;
+And this also suggests that we arrange the &lt;i&gt;d&lt;/i&gt;-triangular numbers into Pascal's triangle, while remembering that we are not indexing them in the way we usually do for the binomial coefficients.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDdqEfoHcutu45Lk8_tCrdkBaUuePuLfaJVE825WXwjy-MUrsXVfvVKBk5Dj3_gCs6BKPo1y9Aoe1POB6PaKGMRyF9tGgIGYgwy1kUVbBYAwrBaz3O_7QzWSrjdNEjaOfDvVAQGUo-RIE/s1600-h/n_d_index.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="154" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDdqEfoHcutu45Lk8_tCrdkBaUuePuLfaJVE825WXwjy-MUrsXVfvVKBk5Dj3_gCs6BKPo1y9Aoe1POB6PaKGMRyF9tGgIGYgwy1kUVbBYAwrBaz3O_7QzWSrjdNEjaOfDvVAQGUo-RIE/s400/n_d_index.jpg" width="400" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;br /&gt;
+The formula also gives us the opportunity to generate a bunch of identities, like:&lt;br /&gt;
+&lt;br /&gt;
+\[t^d_n = \frac{(n+d-1)}{d} t^{d-1}_n, \]&lt;br /&gt;
+and&lt;br /&gt;
+\[t^d_n = \frac{n}{d} t^{d-1}_{n+1}. \]&lt;br /&gt;
+From here we flip each entry in the triangle to obtain a new triangle, the Leibniz triangle (so called by Edwards), whose entries are the reciprocals of &lt;i&gt;d&lt;/i&gt;-triangular numbers.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1kUNtkLlGHrlFfXsBvqvyuSslSSvx_c8jWFIoIk_Qd1XPVBQQvUFCS6ZXSMQrqnFnoBgEyBg15l3MjMEurFthNMHnhwWJtb04TmXU0IlfhmciwLiKV6YIHYfCUKnqVc72DwlQxlLVOz8/s1600-h/pascal_leibniz.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1kUNtkLlGHrlFfXsBvqvyuSslSSvx_c8jWFIoIk_Qd1XPVBQQvUFCS6ZXSMQrqnFnoBgEyBg15l3MjMEurFthNMHnhwWJtb04TmXU0IlfhmciwLiKV6YIHYfCUKnqVc72DwlQxlLVOz8/s400/pascal_leibniz.jpg" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;br /&gt;
+There is a nice difference relationship in this triangle too, for &lt;i&gt;d&amp;nbsp;&lt;/i&gt;&amp;gt; 1,&lt;br /&gt;
+&lt;br /&gt;
+\[\frac{1}{t^d_n} = \frac{d}{d-1} \left( \frac{1}{t^{d-1}_n} -\frac{1}{t^{d-1}_{n+1}} \right) \]&lt;br /&gt;
+To prove this identity, generalize the method that allows you to split up the fraction $\frac{1}{n(n+1)}$ into&amp;nbsp;$\frac{1}{n} - \frac{1}{n+1}$ in the usual telescoping series example.&lt;br /&gt;
+&lt;br /&gt;
+To get our last number triangle, we divide each entry in the Leibniz Triangle by $(n+d)$, which gives us the &lt;a href="http://mathworld.wolfram.com/LeibnizHarmonicTriangle.html"&gt;Leibniz Harmonic Triangle&lt;/a&gt;. In other words, we define $h^d_n = \left(\frac{1}{n+d}\right)\frac{1}{t^d_n}$, and create a new triangle with entries $h^d_n$.&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiASS6RS9d_k49Mdr1E6jjXMmREVnMPikgodkWdbO9F3MTjSi2Td-k3_vTsBRx8jNyIZH6cgtG7BZTsvGueOAlKwjKTYk67lk0Xt7AFpzT2tldLpvOOFbTF9ecPWgVND8xoVAFrOHKD3p0/s1600-h/leibniz_harmonic.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiASS6RS9d_k49Mdr1E6jjXMmREVnMPikgodkWdbO9F3MTjSi2Td-k3_vTsBRx8jNyIZH6cgtG7BZTsvGueOAlKwjKTYk67lk0Xt7AFpzT2tldLpvOOFbTF9ecPWgVND8xoVAFrOHKD3p0/s320/leibniz_harmonic.jpg" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div class="separator" style="clear: both;"&gt;Going back to the formula for $t^d_n$ we can obtain some other identities, like:&lt;br /&gt;
+&lt;/div&gt;&lt;br /&gt;
+\[ h^d_n = \left( \frac{1}{d+1}\right) \frac{1}{t^{d+1}_n}, \]&lt;br /&gt;
+and&lt;br /&gt;
+\[ h^d_n = \left( \frac{1}{n}\right) \frac{1}{t^{d}_{n+1}}. \]&lt;br /&gt;
+And, as with the other triangles, there is a nice difference relationship, for &lt;i&gt;d&lt;/i&gt; &amp;lt; 0 :&lt;br /&gt;
+&lt;br /&gt;
+\[ h^d_n = h^{d-1}_n -h^{d-1}_{n+1} . \]&lt;br /&gt;
+This can be proved following the same ideas as was used to show the difference relationship for the inverse triangulars. It's worth contrasting this identity with the corresponding identity for Pascal's Triangle.&lt;br /&gt;
+&lt;br /&gt;
+Now, if you've proved these identities, there are two easy ways to find the sum, $\sum^{\infty}_{n=1} \frac{1}{t^d_n}$.&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;First method&lt;/b&gt;: use the Leibniz Harmonic triangle.&lt;br /&gt;
+Taking advantage of these two identities:&lt;br /&gt;
+&lt;br /&gt;
+\[ h^d_n = \left( \frac{1}{d+1}\right) \frac{1}{t^{d+1}_n}, \]&lt;br /&gt;
+\[ h^d_n = h^{d-1}_n -h^{d-1}_{n+1} . \]&lt;br /&gt;
+We can combine them and observe that for d &amp;gt; 1:&lt;br /&gt;
+&lt;br /&gt;
+\[\begin{array}{lll} \sum^{\infty}_{n=1} \frac{1}{t^d_n} &amp;amp;=&amp;amp; d\sum^{\infty}_{n=1} h^{d-1}_n \\ &amp;amp;=&amp;amp; d\sum^{\infty}_{n=1}\left( h^{d-2}_n - h^{d-2}_{n+1} \right) \\ &amp;amp;=&amp;amp; d\left(\sum^{\infty}_{n=1} h^{d-2}_n -\sum^{\infty}_{n=1} h^{d-2}_{n+1} \right)\\ &amp;amp;=&amp;amp; d\left(\sum^{\infty}_{n=1} h^{d-2}_n -\sum^{\infty}_{n=2} h^{d-2}_{n} \right)\\ &amp;amp;=&amp;amp; d\left(\sum^{\infty}_{n=1} h^{d-2}_n -\sum^{\infty}_{n=1} h^{d-2}_{n} + h^{d-2}_{1} \right)\\&amp;amp;=&amp;amp; dh^{d-2}_{1} \\ &amp;amp;=&amp;amp; d\left( \frac{1}{d-1}\right)\\ &amp;amp;=&amp;amp; \frac{d}{d-1}\end{array}\]&lt;br /&gt;
+&lt;br /&gt;
+Incidentally, we also have $\sum^{\infty}_{n=1} h^d_n = \frac{1}{d}$ for &lt;i&gt;d&lt;/i&gt; &amp;gt; 0.&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Second method&lt;/b&gt;: use the reciprocal difference identity for the Leibniz triangle.&lt;br /&gt;
+Here we see that everything comes directly from the identity:&lt;br /&gt;
+&lt;br /&gt;
+\[\frac{1}{t^d_n} = \frac{d}{d-1} \left( \frac{1}{t^{d-1}_n} -\frac{1}{t^{d-1}_{n+1}} \right). \]&lt;br /&gt;
+We have, for &lt;i&gt;d&lt;/i&gt; &amp;gt; 1:&lt;br /&gt;
+\[\begin{array}{lll} \sum^{\infty}_{n=1} \frac{1}{t^d_n} &amp;amp;=&amp;amp; \frac{d}{d-1}\sum^{\infty}_{n=1} \left(\frac{1}{t^{d-1}_n} - \frac{1}{t^{d-1}_{n+1}}\right)\\&amp;amp;=&amp;amp; \frac{d}{d-1}\left(\sum^{\infty}_{n=1} \frac{1}{t^{d-1}_n} - \sum^{\infty}_{n=1}\frac{1}{t^{d-1}_{n+1}}\right)\\ &amp;amp;=&amp;amp; \frac{d}{d-1}\left(\sum^{\infty}_{n=1} \frac{1}{t^{d-1}_n} - \sum^{\infty}_{n=2}\frac{1}{t^{d-1}_{n}}\right)\\ &amp;amp;=&amp;amp; \frac{d}{d-1}\left(\sum^{\infty}_{n=1} \frac{1}{t^{d-1}_n} - \sum^{\infty}_{n=1}\frac{1}{t^{d-1}_{n}} + \frac{1}{t^{d-1}_{1}} \right)\\ &amp;amp;=&amp;amp; \frac{d}{d-1}\left(\frac{1}{t^{d-1}_{1}}\right) \\ &amp;amp;=&amp;amp; \frac{d}{d-1}\end{array}\]&lt;br /&gt;
+&lt;br /&gt;
+After working out all this, I came across the same "reciprocal of generalized triangular numbers" problem at &lt;a href="http://topologicalmusings.wordpress.com/2008/06/04/solution-to-pow-3-summing-reciprocals-of-binomial-coefficients/"&gt;Topological Musings&lt;/a&gt; - solution #3 is the same as the one here, but expressed in terms of binomial coefficients (and without extracting some general identities among the terms).</content>
+    <blogger:metaDescription/>
+    <blogger:created>2009-10-08T01:46:58.307Z</blogger:created>
+    <published>2009-10-08T02:22:00Z</published>
+    <updated>2011-09-11T02:01:20.872Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='polygonal'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='pascal triangle'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='patterns'/>
+    <blogger:filename>/2009/10/three-number-triangles-two-telescoping.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

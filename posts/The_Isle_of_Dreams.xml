@@ -1,0 +1,152 @@
+<>
+  <entry>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-5231510547950641309</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>The Isle of Dreams</title>
+    <content type='html'>After a short break, we are returning to some logic puzzles inspired by those of &lt;a href="https://en.wikipedia.org/wiki/Raymond_Smullyan"&gt;Raymond Smullyan&lt;/a&gt;. Earlier we visited the &lt;a href="http://www.mathrecreation.com/2017/11/the-island-of-knights-and-knaves.html"&gt;island of knights and knaves&lt;/a&gt;, looked into &lt;a href="http://www.mathrecreation.com/2017/12/constructing-portias-caskets.html"&gt;Portia's caskets&lt;/a&gt;, explored &lt;a href="http://www.mathrecreation.com/2018/02/inspector-craig-logical-detective.html"&gt;the case files of Inspector Leslie Craig&lt;/a&gt;, and looked behind doors for &lt;a href="http://www.mathrecreation.com/2018/03/tigers-and-treasure.html"&gt;tigers and treasure&lt;/a&gt;. In this post, we are visiting the &lt;a href="https://dmackinnon1.github.io/inspectorCraig/dreamers.html"&gt;Isle of Dreams&lt;/a&gt;. As Smullyan says in his book &lt;i&gt;The Lady or The Tiger?:&lt;/i&gt;&lt;br /&gt;
+&lt;blockquote class="tr_bq"&gt;
+&lt;i&gt;I once dreamed that there was a certain island called the Isle
+of Dreams. The inhabitants of this island dream quite vividly;
+indeed, their thoughts while asleep are as vivid as while
+awake. Moreover, their dream life has the same continuity
+from night to night as their waking life has from day to day.
+As a result, some of the inhabitants sometimes have difficulty
+in knowing whether they are awake or asleep at a given time.&amp;nbsp;&lt;/i&gt;&amp;nbsp;&lt;/blockquote&gt;
+&lt;blockquote class="tr_bq"&gt;
+&lt;i&gt;Now, it so happens that each inhabitant is of one of two
+types: diurnal or nocturnal. A diurnal inhabitant is characterised
+by the fact that everything he believes while he is awake
+is true, and everything he believes while he is asleep is false.
+A nocturnal inhabitant is the opposite: everything a nocturnal
+person believes while asleep is true, and everything he
+believes while awake is false.&amp;nbsp;&lt;/i&gt;&lt;/blockquote&gt;
+On this island then, each islander has a type (diurnal or nocturnal), and a state (awake or asleep), and based on their type and state, you can assess the veracity of their thoughts (either true or false).&lt;br /&gt;
+&lt;br /&gt;
+To play around with this, I decided to make some puzzles similar to ones found in &lt;i&gt;The Lady or The Tiger?&lt;/i&gt;, but based on the thoughts of two islanders A and B. Each islander has two distinct thoughts: one about themselves (either about their state or their type), and one about the other (either their state or their type). Importantly, these thoughts occur to both A and B at exactly the same time. Here is an example:&lt;br /&gt;
+&lt;ul style="background-color: white; box-sizing: border-box; color: #333333; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; list-style-type: none; margin-bottom: 10px; margin-top: 0px; padding-left: 40px;"&gt;
+&lt;li style="box-sizing: border-box; padding-bottom: 10px;"&gt;&lt;br class="Apple-interchange-newline" /&gt;Islander&amp;nbsp;&lt;span style="box-sizing: border-box; font-weight: 700;"&gt;A&lt;/span&gt;&amp;nbsp;has two distinct thoughts at the same moment:&amp;nbsp;&lt;span style="box-sizing: border-box; font-weight: 700;"&gt;I am nocturnal. B is diurnal.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="box-sizing: border-box; padding-bottom: 10px;"&gt;At the same moment, islander&amp;nbsp;&lt;span style="box-sizing: border-box; font-weight: 700;"&gt;B&lt;/span&gt;&amp;nbsp;has these distinct thoughts:&amp;nbsp;&lt;span style="box-sizing: border-box; font-weight: 700;"&gt;I am awake. A is diurnal.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+We want to know: what is the actual type and state of both A and B? Can we know everything about them, or is their something about them that we cannot tell? Or maybe these thoughts are impossible, and lead to contradictions.&lt;br /&gt;
+&lt;br /&gt;
+To solve these kinds of puzzles, it helps to know the &lt;b&gt;Four Laws of the Isle of Dreams&lt;/b&gt;:&lt;br /&gt;
+&lt;br /&gt;
+&lt;ol style="background-color: white; box-sizing: border-box; color: #333333; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; margin-bottom: 10px; margin-top: 0px;"&gt;&lt;em style="box-sizing: border-box;"&gt;
+&lt;li style="box-sizing: border-box; padding-bottom: 10px;"&gt;An islander while awake will believe they are diurnal.&lt;/li&gt;
+&lt;li style="box-sizing: border-box; padding-bottom: 10px;"&gt;An islander while asleep will believe they are nocturnal.&lt;/li&gt;
+&lt;li style="box-sizing: border-box; padding-bottom: 10px;"&gt;Diurnal inhabitants at all times believe they are awake.&lt;/li&gt;
+&lt;li style="box-sizing: border-box; padding-bottom: 10px;"&gt;Nocturnal inhabitants at all times believe they are asleep.&lt;/li&gt;
+&lt;/em&gt;&lt;/ol&gt;
+Let's just establish the first law, and then you should try to convince yourself of the others. Consider the case of a diurnal awake islander: because they are diurnal and awake, they think true thoughts, so they will correctly think that they are diurnal. Second, consider the case of a nocturnal awake islander: because they are nocturnal and awake, they will think false thoughts, and will conclude that they are diurnal. So, no matter whether an islander is diurnal or nocturnal, when awake they will think they are diurnal (some correctly, some falsely). Using this along with rule 2, if an islander thinks they are diurnal, you should conclude that they are awake.&lt;br /&gt;
+&lt;br /&gt;
+Now back to the puzzle:&lt;br /&gt;
+&lt;br /&gt;
+&lt;ul style="background-color: white; box-sizing: border-box; color: #333333; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; list-style-type: none; margin-bottom: 10px; margin-top: 0px; padding-left: 40px;"&gt;
+&lt;li style="box-sizing: border-box; padding-bottom: 10px;"&gt;Islander&amp;nbsp;&lt;span style="box-sizing: border-box; font-weight: 700;"&gt;A&lt;/span&gt;&amp;nbsp;has two distinct thoughts at the same moment:&amp;nbsp;&lt;span style="box-sizing: border-box; font-weight: 700;"&gt;I am nocturnal. B is diurnal.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="box-sizing: border-box; padding-bottom: 10px;"&gt;At the same moment, islander&amp;nbsp;&lt;span style="box-sizing: border-box; font-weight: 700;"&gt;B&lt;/span&gt;&amp;nbsp;has these distinct thoughts:&amp;nbsp;&lt;span style="box-sizing: border-box; font-weight: 700;"&gt;I am awake. A is diurnal.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+Applying the four laws of the Isle of Dreams to the first thoughts of the islanders in the puzzle above, we know that A must be asleep (law 2) , and that B must be diurnal (law 3). Now turning to A's second thought: because they are asleep and thinking something that is true (B is diurnal) A must be nocturnal. B's second thought is not true, so since they are diurnal they must be asleep. So, A is nocturnal and asleep, while B is diurnal and asleep. Sweet dreams, A and B.&lt;br /&gt;
+&lt;br /&gt;
+How many puzzles can we make like this, where we have two islanders, each thinking something about their state or type and something about the state or type of the other? Well, there are 4 possible thoughts an islander could have about themselves (I am awake/asleep/nocturnal/diurnal) and 4 possible thoughts about the other (They are awake/asleep/nocturnal/diurnal), giving us 16 pairs of thoughts. Since there are two islanders involved, this gives 256 puzzles (really only 128 truly different puzzles, as A and B are interchangeable).&lt;br /&gt;
+&lt;br /&gt;
+You can try out all 256 of them, or as many as you like, &lt;a href="https://dmackinnon1.github.io/inspectorCraig/dreamers.html"&gt;here&lt;/a&gt;. They look something like this:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmWqJ8K9_qi6hqXHZ1eWtdgOMI5WoTxPC66mlbsPGhftGqTsHBy6ai-r1G5zU8esFPxlqK4F_uVqQqljjt5zsEhP88g8f4QhD2vzyTfktgW2-Lrr2-0mMAR0FYYi5ATVa0_naHkjCdD0E/s1600/example_dreamers.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="715" data-original-width="625" height="400" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmWqJ8K9_qi6hqXHZ1eWtdgOMI5WoTxPC66mlbsPGhftGqTsHBy6ai-r1G5zU8esFPxlqK4F_uVqQqljjt5zsEhP88g8f4QhD2vzyTfktgW2-Lrr2-0mMAR0FYYi5ATVa0_naHkjCdD0E/s400/example_dreamers.png" width="348" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+This collection of puzzles has some interesting features. There are 192 that are completely solvable: you can find the type and state of both A and B from the thoughts that they think (like the example above). There are 32 partially solvable puzzles, where the first thoughts of A and B (their thoughts about themselves) tell us something about their state and type, but their second thoughts (about the other islander) are inconclusive. Finally, there are 32 puzzles included in the set where the thoughts of A and B are contradictory, and therefore impossible. We can include these contradictory items in the set, as the question page gives you the chance to identify these nasty puzzles.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhimCx5_miSCG4CO-zWJjQcU9HQeKcjNh0m6LmlVqAca0oZMQbFwuvijUfcYzVLs3qUeO-WOZLl_6n3fODeCuMex2nV8AjSgub-b5sQO9lqLtnX5QpGVvWImUIiuAQ96kB27mMrZMZLlFM/s1600/impossible.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="76" data-original-width="404" height="60" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhimCx5_miSCG4CO-zWJjQcU9HQeKcjNh0m6LmlVqAca0oZMQbFwuvijUfcYzVLs3qUeO-WOZLl_6n3fODeCuMex2nV8AjSgub-b5sQO9lqLtnX5QpGVvWImUIiuAQ96kB27mMrZMZLlFM/s320/impossible.png" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+It turns out that the distribution of the partially solvable and impossible puzzles display an interesting pattern. Let's consider all 16 pairs of thoughts, and make a graph showing which combinations are (a) completely solvable, (b) partially solvable, or (c) impossible.&lt;br /&gt;
+&lt;br /&gt;
+Here are the 16 pairs of thoughts an islander might have:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"&gt;
+&lt;span style="background-color: transparent; color: black; font-family: &amp;quot;arial&amp;quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre;"&gt;1: I am awake. The other is awake.&lt;/span&gt;&lt;/div&gt;
+&lt;div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"&gt;
+&lt;span style="background-color: transparent; color: black; font-family: &amp;quot;arial&amp;quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre;"&gt;2: I am awake. The other is asleep.&lt;/span&gt;&lt;/div&gt;
+&lt;div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"&gt;
+&lt;span style="background-color: transparent; color: black; font-family: &amp;quot;arial&amp;quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre;"&gt;3: I am awake. The other is diurnal.&lt;/span&gt;&lt;/div&gt;
+&lt;div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"&gt;
+&lt;span style="background-color: transparent; color: black; font-family: &amp;quot;arial&amp;quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre;"&gt;4: I am awake. The other is nocturnal.&lt;/span&gt;&lt;/div&gt;
+&lt;div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"&gt;
+&lt;span style="background-color: transparent; color: black; font-family: &amp;quot;arial&amp;quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre;"&gt;5: I am asleep. The other is awake.&lt;/span&gt;&lt;/div&gt;
+&lt;div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"&gt;
+&lt;span style="background-color: transparent; color: black; font-family: &amp;quot;arial&amp;quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre;"&gt;6: I am asleep. The other is asleep.&lt;/span&gt;&lt;/div&gt;
+&lt;div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"&gt;
+&lt;span style="background-color: transparent; color: black; font-family: &amp;quot;arial&amp;quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre;"&gt;7: I am asleep. The other is diurnal.&lt;/span&gt;&lt;/div&gt;
+&lt;div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"&gt;
+&lt;span style="background-color: transparent; color: black; font-family: &amp;quot;arial&amp;quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre;"&gt;8: I am asleep. The other is nocturnal.&lt;/span&gt;&lt;/div&gt;
+&lt;div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"&gt;
+&lt;span style="background-color: transparent; color: black; font-family: &amp;quot;arial&amp;quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre;"&gt;9: I am diurnal. The other is awake.&lt;/span&gt;&lt;/div&gt;
+&lt;div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"&gt;
+&lt;span style="background-color: transparent; color: black; font-family: &amp;quot;arial&amp;quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre;"&gt;10: I am diurnal. The other is asleep.&lt;/span&gt;&lt;/div&gt;
+&lt;div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"&gt;
+&lt;span style="background-color: transparent; color: black; font-family: &amp;quot;arial&amp;quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre;"&gt;11: I am diurnal. The other is diurnal.&lt;/span&gt;&lt;/div&gt;
+&lt;div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"&gt;
+&lt;span style="background-color: transparent; color: black; font-family: &amp;quot;arial&amp;quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre;"&gt;12: I am diurnal. The other is nocturnal.&lt;/span&gt;&lt;/div&gt;
+&lt;div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"&gt;
+&lt;span style="background-color: transparent; color: black; font-family: &amp;quot;arial&amp;quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre;"&gt;13: I am nocturnal. The other is awake.&lt;/span&gt;&lt;/div&gt;
+&lt;div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"&gt;
+&lt;span style="background-color: transparent; color: black; font-family: &amp;quot;arial&amp;quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre;"&gt;14: I am nocturnal. The other is asleep.&lt;/span&gt;&lt;/div&gt;
+&lt;div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"&gt;
+&lt;span style="background-color: transparent; color: black; font-family: &amp;quot;arial&amp;quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre;"&gt;15: I am nocturnal. The other is diurnal.&lt;/span&gt;&lt;/div&gt;
+&lt;div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"&gt;
+&lt;span style="background-color: transparent; color: black; font-family: &amp;quot;arial&amp;quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre;"&gt;16: I am nocturnal. The other is nocturnal.&lt;/span&gt;&lt;/div&gt;
+&lt;br /&gt;
+Let's create a graph where the horizontal axis represents A's thoughts and the vertical axis represents B's thoughts. A white square on the graph represents a completely solvable puzzle for that x/y combination of thoughts, a grey square on the graph represents a partially solvable puzzle, and a black square represents an unsolvable puzzle.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBvxn2-eRV4VFLAiZNglwXIfBPdM7yKJ8VIwwoqZWo8Wf_LqJqCyixKqF1asL-mw5pH-IzZ2oio5h4YN4Q3xtaFjOH0_wLlER2AQ5I-CXuZztiJkzaDFjZW3eI1EjxmmL6n7cgyoYjSE8/s1600/solvable_partial_unsolvable.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="369" data-original-width="621" height="237" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBvxn2-eRV4VFLAiZNglwXIfBPdM7yKJ8VIwwoqZWo8Wf_LqJqCyixKqF1asL-mw5pH-IzZ2oio5h4YN4Q3xtaFjOH0_wLlER2AQ5I-CXuZztiJkzaDFjZW3eI1EjxmmL6n7cgyoYjSE8/s400/solvable_partial_unsolvable.png" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;solvable, partially solvable, and unsolvable&lt;/i&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;Isle of Dreams puzzles&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+This is really neat: the partially solvable and unsolvable combinations form an interesting pattern dispersed through the whitespace of the completely solvable puzzles. There are 16 "problem squares" of 4 puzzles that have a distinct symmetric pattern, and these 16 problem squares are arranged in 4 sets of 4 puzzles that also have an interesting symmetry.&lt;br /&gt;
+&lt;br /&gt;
+We'll zoom in on one of the "problem squares" to give a better picture of what the graph is displaying:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirrzoSFO42pdjqfBMCLjoX0_D4BL0DWPTNP8n7_6HJUcCyWL_HqEs5AET6KLLQNucjqDhg1g2w91A0ZEV4qcAZtpiOFyz_swOdyfQCZJJd742jyaZrGBUgQNvv21eIAfEoxDF1v0rIrW0/s1600/zoom_on_problem.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="616" data-original-width="654" height="375" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirrzoSFO42pdjqfBMCLjoX0_D4BL0DWPTNP8n7_6HJUcCyWL_HqEs5AET6KLLQNucjqDhg1g2w91A0ZEV4qcAZtpiOFyz_swOdyfQCZJJd742jyaZrGBUgQNvv21eIAfEoxDF1v0rIrW0/s400/zoom_on_problem.png" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Let's look at one of the contradictory puzzles - the one in the bottom left of this "problem square."&lt;br /&gt;
+&lt;br /&gt;
+&lt;div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"&gt;
+&lt;span style="font-family: &amp;quot;arial&amp;quot;; font-size: 11pt; white-space: pre-wrap;"&gt;A is thinking #1: I am awake. The other is awake.&lt;/span&gt;&lt;/div&gt;
+&lt;div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"&gt;
+&lt;span id="docs-internal-guid-07c77f0e-6fbd-c05e-6c51-0dce1ce2751d"&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"&gt;
+&lt;span style="background-color: transparent; color: black; font-family: &amp;quot;arial&amp;quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre;"&gt;B is thinking #5: I am asleep. The other is awake.&lt;/span&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"&gt;
+From their first thoughts, we know that A is diurnal and B is nocturnal. If A is awake, they they will think true thoughts and consequently B is awake. If B is awake, they must be thinking false thoughts, requiring A to be asleep - a contradiction. On the other hand, if A is asleep, they will be thinking false thoughts, so B will be asleep. B will then be thinking true thoughts, requiring A to be awake, again a contradiction.&lt;/div&gt;
+&lt;div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"&gt;
+But why to these partial/contradictory puzzles form the patterns that they do? Maybe we will return again to the Isle of Dreams someday to find an answer.&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;Try the puzzles out here:&amp;nbsp;&lt;a href="https://dmackinnon1.github.io/inspectorCraig/dreamers.html"&gt;https://dmackinnon1.github.io/inspectorCraig/dreamers.html&lt;/a&gt;&lt;/i&gt;&lt;/div&gt;
+&lt;div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2018-05-17T19:04:56.191Z</blogger:created>
+    <published>2018-05-17T20:40:00Z</published>
+    <updated>2018-05-18T21:46:07.489Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2018/05/the-isle-of-dreams.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

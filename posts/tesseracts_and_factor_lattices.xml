@@ -1,0 +1,69 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-2952140612386630384</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>tesseracts and factor lattices</title>
+    <content type='html'>&lt;div style="text-align: center;"&gt;
+&lt;i&gt;I shall just sit down for a moment and pop on my boots and then I'll be on my way.&lt;br /&gt;
+Speaking of ways, pet, by the way, there is such a thing as a tesseract.&lt;br /&gt;
+Mrs. Murry went very white and with one hand reached backward and clutched&lt;br /&gt;
+her chair for support. Her voice trembled. "What did you say?"&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;- &lt;a href="http://books.google.com/books?id=r119-dYq0mwC"&gt;A Wrinkle In Time&lt;/a&gt;, &amp;nbsp;Madeleine L'Engle&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+We're likely not as troubled by &lt;a href="http://en.wikipedia.org/wiki/Hypercube"&gt;tesseracts&lt;/a&gt; as Mrs Murry, but it is a nice little surprise when you come across them when they're unlooked for. You'll encounter them (or at least their 1-skeletons, the vertices and edges) while drawing factor lattices.&lt;br /&gt;
+&lt;br /&gt;
+A factor lattice for a number &lt;i&gt;n&lt;/i&gt; has as its nodes all factors of &lt;i&gt;n&lt;/i&gt;. Two nodes &lt;i&gt;a&lt;/i&gt; and &lt;i&gt;b&lt;/i&gt; have an arrow (directed edge) between them if &lt;i&gt;a&lt;/i&gt; divides &lt;i&gt;b&lt;/i&gt;. Usually we don't draw all the arrows, just the ones where &lt;i&gt;b/a&lt;/i&gt; is a prime factor of &lt;i&gt;n&lt;/i&gt; - all the other arrows are found by composition, or are the trivial arrows that are the loops on each node (&lt;i&gt;a&lt;/i&gt; divides &lt;i&gt;a&lt;/i&gt;). (In this way, factor lattices are nice examples of very simple and special &lt;a href="http://en.wikipedia.org/wiki/Category_(mathematics)"&gt;categories&lt;/a&gt;). Some notes on drawing factor lattices are &lt;a href="http://mathrecreation.blogspot.com/2008/09/factor-lattices.html"&gt;here&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+The factor lattice for 1 is just a single node.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLNSDuejb_olLQ-4HTwN8KqTi3se99nW9CEbdJKsf1JV_9Xfr74nCxAk4_v6hq6wXQ1xSKTft5a8oDhj6lpyj1QwchJSSzhjsXjnYlOguWrZZ6Uah8gzXx22O_sbHbLM27tF6qDhZ5Igs/s1600/1_fl.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLNSDuejb_olLQ-4HTwN8KqTi3se99nW9CEbdJKsf1JV_9Xfr74nCxAk4_v6hq6wXQ1xSKTft5a8oDhj6lpyj1QwchJSSzhjsXjnYlOguWrZZ6Uah8gzXx22O_sbHbLM27tF6qDhZ5Igs/s1600/1_fl.jpg" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+The factor lattice for any prime p consists of two nodes, and the only non trivial arrow is one from 1 to p. Sometimes people ask why 1 isn't a prime - this doesn't quite answer the question, but provides an example of how 1 is different than numbers that are prime.&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhapL59Ha_USlKAUqv6UaOM4FESa0hRSS_yR7aSZ8Y9oH3Dc65cPQiypo9iV9aousrNtUhyphenhyphenRNTzSgIgZlEkZjS6ajAy3cEXugDGZ7lU8ie3j8HFR9Jn2OOb1QQ8GNUiRhSDX2PeD4rYcpU/s1600/2fl2.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="148" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhapL59Ha_USlKAUqv6UaOM4FESa0hRSS_yR7aSZ8Y9oH3Dc65cPQiypo9iV9aousrNtUhyphenhyphenRNTzSgIgZlEkZjS6ajAy3cEXugDGZ7lU8ie3j8HFR9Jn2OOb1QQ8GNUiRhSDX2PeD4rYcpU/s200/2fl2.jpg" width="200" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+A number like 6, that is the product of two primes gives a factor lattice that looks like a square.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicyuRPNpxSZdKdzblJNRH40uSGq4mgLKBtMp41PAQYNJFsyQJ7L1Xw7ys2DNC7t7qZT5oSfTR1YCMsm4980YFjqC2C0TNuQ9IUQ-wqBFlnsaRY4OPWGHUWw4rQatFeGFEZ8Y5ZNCwL8n4/s1600/6_fl.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicyuRPNpxSZdKdzblJNRH40uSGq4mgLKBtMp41PAQYNJFsyQJ7L1Xw7ys2DNC7t7qZT5oSfTR1YCMsm4980YFjqC2C0TNuQ9IUQ-wqBFlnsaRY4OPWGHUWw4rQatFeGFEZ8Y5ZNCwL8n4/s1600/6_fl.jpg" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+A number like 30 that is the product of three distinct primes produces a factor lattice that looks like a cube.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFUGRGM8EbteSs3GqTO4446SdJQwbQrT6qoSiCFhpWYzLjamALRzbdirsZfp6jVDyd1Rl-JFUb2i90rePcFPC0ro2qy5usLZZbE754gAcg4uPSw5I9J7X0lpjA98a-cPdgVO_qHYHef8E/s1600/30_fl.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFUGRGM8EbteSs3GqTO4446SdJQwbQrT6qoSiCFhpWYzLjamALRzbdirsZfp6jVDyd1Rl-JFUb2i90rePcFPC0ro2qy5usLZZbE754gAcg4uPSw5I9J7X0lpjA98a-cPdgVO_qHYHef8E/s320/30_fl.jpg" width="314" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+And 210 is, you guessed it, the smallest number that produces a factor-lattice that looks like a (squished frame of a) &lt;a href="http://en.wikipedia.org/wiki/Tesseract"&gt;tesseract &lt;/a&gt;(the 4-dimensional &lt;a href="http://en.wikipedia.org/wiki/Hypercube"&gt;hypercube&lt;/a&gt;).&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-AkfRMqJocYKRzOO8ekKdXEm6535CYV23mAbxuRuavA2QEKiESOygL098yDaDkxvFwZgNMrObgg6xx3-JbfIqo1QXPMt5eWlsnDciJ6GRx6e9XEVytrOG-VTiog0ARmFGwBJi3X61YmQ/s1600/210_fl.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-AkfRMqJocYKRzOO8ekKdXEm6535CYV23mAbxuRuavA2QEKiESOygL098yDaDkxvFwZgNMrObgg6xx3-JbfIqo1QXPMt5eWlsnDciJ6GRx6e9XEVytrOG-VTiog0ARmFGwBJi3X61YmQ/s320/210_fl.jpg" width="290" /&gt;&lt;/a&gt;&lt;/div&gt;
+You can go further (of course) but it gets harder to see what's going on in the diagrams. 2310 is the smallest number that gives us a 5-cube.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2gcS8Xv5cDj8Kf9Izvtyr4587GAynvcV6NfFuVCZ0ZD2fhi9ADqpXgJqNBQ8isWoI3kumZqOrMkFPuzcMG4tGugkPqJQp-87TIopKPCOeOlpimFPqYvMDf7XormSDMlvclkQXIe3-4nM/s1600/2310_fl_2.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="314" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2gcS8Xv5cDj8Kf9Izvtyr4587GAynvcV6NfFuVCZ0ZD2fhi9ADqpXgJqNBQ8isWoI3kumZqOrMkFPuzcMG4tGugkPqJQp-87TIopKPCOeOlpimFPqYvMDf7XormSDMlvclkQXIe3-4nM/s320/2310_fl_2.jpg" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2011-08-26T21:02:57.577Z</blogger:created>
+    <published>2011-08-26T21:32:00Z</published>
+    <updated>2011-09-11T01:55:00.774Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='numbers'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='visualization'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='lattices'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='factors'/>
+    <blogger:filename>/2011/08/tesseracts-and-factor-lattices.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

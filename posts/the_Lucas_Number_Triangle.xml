@@ -1,0 +1,84 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-4485511395723481071</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>the Lucas Number Triangle</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUxhm4ECSIGznPKf1Es5_FrASxDSJT2O8MkTqmgQKDqUHqfzwTmrxQ-eGGBmpgvilZC74GbA9FYdOYJHhLzpeCLX8zrs75QOEIP37XDWnWXCkTDn7jkwvaJzv-RNiLGOOU088WA8nClbod/s1600-h/r-lucas1.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUxhm4ECSIGznPKf1Es5_FrASxDSJT2O8MkTqmgQKDqUHqfzwTmrxQ-eGGBmpgvilZC74GbA9FYdOYJHhLzpeCLX8zrs75QOEIP37XDWnWXCkTDn7jkwvaJzv-RNiLGOOU088WA8nClbod/s320/r-lucas1.jpg" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Polygonal numbers have been &lt;a href="http://mathrecreation.blogspot.com/search/label/polygonal"&gt;a recurring topic&lt;/a&gt; on this blog (starting with the &lt;a href="http://mathrecreation.blogspot.com/2008/07/drawing-polygonal-numbers.html"&gt;first post&lt;/a&gt;)&amp;nbsp;and although they might eventually exhaust me, I've realized that I'll never exhaust their recreational possibilities.&lt;br /&gt;
+&lt;br /&gt;
+One interesting way to look at polygonal numbers is to arrange them into number triangles - for a particular \(k \geq 3 \) you can do this by arranging the &lt;i&gt;k&lt;/i&gt;-polygonal numbers in diagonals by dimension. If you do this with the triangular numbers, you get Pascal's Triangle. Said another way, the diagonals of Pascal's triangle list &amp;nbsp;the various dimensional extensions of triangular numbers: the 3rd diagonal gives the usual 'triangular numbers', the 4th  diagonal gives the tetrahedrals (now to be referred to as the '&lt;a href="http://www.johndcook.com/blog/2009/12/08/tetrahedral-numbers/"&gt;days of Christmas numbers&lt;/a&gt;'), the 5th diagonal gives the&lt;a href="http://mathrecreation.blogspot.com/2009/08/triangulo-triangular-numbers.html"&gt; triangulo-triangular numbers&lt;/a&gt;, etc. Each diagonal lists the finite differences of the diagonal below it, so the&amp;nbsp;second diagonal of Pascal's triangle gives what we could call the 'one dimensional triangulars' or the Naturals, and the first diagonal gives us 'zero dimensional triangulars' - the constant sequence of 1s.&lt;br /&gt;
+&lt;br /&gt;
+The symmetry of Pascal's Triangle allows you to see the various dimensions of the triangular numbers in both the diagonals that slope downward from left to right, and those that slope downward from right to left. However, when you do the same sort of construction with \(k \geq 4 \) you loose this symmetry, and have to pick a direction. When I tried this&amp;nbsp;(described &lt;a href="http://mathrecreation.blogspot.com/2008/07/higher-polygonal-numbers-and-pascals.html"&gt;here&lt;/a&gt;&amp;nbsp;and &lt;a href="http://mathrecreation.blogspot.com/2009/02/family-of-sequences-and-number.html"&gt;here&lt;/a&gt;), I chose to make my generalized&lt;i&gt; k-polygonal Pascal Triangles&lt;/i&gt; 'left handed', so that the &lt;i&gt;k&lt;/i&gt;-polygonal numbers appear in the diagonals sloping downward from right to left. The diagrams below show the left-handed triangles for the square (&lt;i&gt;k&lt;/i&gt; = 4) and pentagonal numbers (&lt;i&gt;k&lt;/i&gt; = 5).&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEUWxZqR7nQoanKSJ78NSm8SIQ9kbGWMacUzY14ondUIm-wYL9uU0vF8e09mMZMleSsB3RIoNkqTwEw9NlOAO52jLo8UWsSxB5jYOBZjzd35mPEFm3rdqCT93fQGoYd-VDBU4YClZeIWuo/s1600-h/left_handed.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEUWxZqR7nQoanKSJ78NSm8SIQ9kbGWMacUzY14ondUIm-wYL9uU0vF8e09mMZMleSsB3RIoNkqTwEw9NlOAO52jLo8UWsSxB5jYOBZjzd35mPEFm3rdqCT93fQGoYd-VDBU4YClZeIWuo/s400/left_handed.jpg" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Using \( \left[\begin{array}{c}n\\r\end{array}\right]^{\mathcal{L}}_{k} \) to denote the entry in the nth row of the &lt;i&gt;r&lt;/i&gt;th diagonal column of the left-handed &lt;i&gt;k&lt;/i&gt;-polygonal number triangle, we can express this construction recursively in a way that is very similar to the usual Pascal Triangle definition:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYhvx0bVG9hIeMof_WB2wC_vdwLl5Suw_5LO4ih2cEMWAcnnuhoD2bax8msHL-AOu-CKXyZQj4qYbr8EEFrTOPIA3W3Tt72pAW7HxKcSn-iTkMI0Tgf1LTqQDok6KPGwmcPuLkR1NtwkkY/s1600-h/left-recursive.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYhvx0bVG9hIeMof_WB2wC_vdwLl5Suw_5LO4ih2cEMWAcnnuhoD2bax8msHL-AOu-CKXyZQj4qYbr8EEFrTOPIA3W3Tt72pAW7HxKcSn-iTkMI0Tgf1LTqQDok6KPGwmcPuLkR1NtwkkY/s320/left-recursive.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+We can express the terms directly using the binomial coefficients:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhm2-6QR5T8rkeEP0rGKjNv10DXhPEmAemJlr0okvUap4nEldBkC9vOPNGavoA0amIKDqQjhZXNuvQX1TXa_96z1ZsWeVBAkhro8f_4Hcp8yCRj7DPx-iyb-EfpVKmf8_Y2LBxaSp_QHndB/s1600-h/left-handed-k-polygonal.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhm2-6QR5T8rkeEP0rGKjNv10DXhPEmAemJlr0okvUap4nEldBkC9vOPNGavoA0amIKDqQjhZXNuvQX1TXa_96z1ZsWeVBAkhro8f_4Hcp8yCRj7DPx-iyb-EfpVKmf8_Y2LBxaSp_QHndB/s320/left-handed-k-polygonal.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+Instead of making the triangles left-handed, we could instead make them right-handed like these:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtoNKKq3M1rbkV92uJFUIL_G0LWm2XtKpYnVLGUBRiM6gvWT72Ky95jFHPui6nesL_UsFXQPV8J_QL6olXLKYudrutc-E0u9YIxiP8ySlXzCygDEdAAjfqHhyv_0vysOHs2AU0wXR9zns8/s1600-h/right_handed.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtoNKKq3M1rbkV92uJFUIL_G0LWm2XtKpYnVLGUBRiM6gvWT72Ky95jFHPui6nesL_UsFXQPV8J_QL6olXLKYudrutc-E0u9YIxiP8ySlXzCygDEdAAjfqHhyv_0vysOHs2AU0wXR9zns8/s400/right_handed.jpg" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+Where now all the &lt;i&gt;k&lt;/i&gt;-polygonal numbers appear as diagonals sloping downward from left to right. These are almost mirror images of the left-handed variety, and to be honest, I am not sure what the correct value is for the topmost entry. In these formulations, for both the left-handed and right-handed variety, the topmost entry is determined by the value in the far-right column.&lt;br /&gt;
+&lt;br /&gt;
+Using \( \left[\begin{array}{c}n\\r\end{array}\right]^{\mathcal{R}}_{k} \) to denote the entry in the nth row of the &lt;i&gt;r&lt;/i&gt;th diagonal column of the right-handed k-polygonal number triangle, we can express the construction recursively:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEictZhzURgnXTyYDKjBQc2ZO8NJoc_7NKiU-e_7b_vg-VhhENTlV0PQdMPXCo3GyvBX02_lPtq3hPMowGVDEihye9KNekXmJJUx4bBOJ0tVQ2XcSm05NAB6utWNdofKBaHUIpRok3kCu1zH/s1600-h/right-recursive.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEictZhzURgnXTyYDKjBQc2ZO8NJoc_7NKiU-e_7b_vg-VhhENTlV0PQdMPXCo3GyvBX02_lPtq3hPMowGVDEihye9KNekXmJJUx4bBOJ0tVQ2XcSm05NAB6utWNdofKBaHUIpRok3kCu1zH/s320/right-recursive.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+And, just as with the left-handed variety, we can express the terms using binomial coefficients:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUD6FLKXhVZ68sqDSjg_SD8yF42LPj8y12KpS09Mj1N-6TRVmmhri1v8vMXVrsKXNqCNkkSAROb6I86Du4xOlA-_GIu_Oj2TL9dMUbOW6KHX3WWpCZwMposq8HDkIDgL5yMJPeLPqmv7HG/s1600-h/right-handed-k-polygonal.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUD6FLKXhVZ68sqDSjg_SD8yF42LPj8y12KpS09Mj1N-6TRVmmhri1v8vMXVrsKXNqCNkkSAROb6I86Du4xOlA-_GIu_Oj2TL9dMUbOW6KHX3WWpCZwMposq8HDkIDgL5yMJPeLPqmv7HG/s320/right-handed-k-polygonal.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+For the case where &lt;i&gt;k&lt;/i&gt;=3, it is easy to see that both our left-handed and right-handed &lt;i&gt;k&lt;/i&gt;-polygonal Pascal Triangles are equal to the usual Pascal Triangle.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjL-DvaWGF5akr4Ry0vlNC2S6xc8cx-CETOmjNUXqf1ooDCT-T9e8mbyanOVfve-xtXO_KyA4WV4HoMkvMYoPLF7-YTN6xYKaGmJlQw1Po97L-oR2NrU6pI-5-YkaGbVMu5h5-GZWMhfQwp/s1600-h/equal.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjL-DvaWGF5akr4Ry0vlNC2S6xc8cx-CETOmjNUXqf1ooDCT-T9e8mbyanOVfve-xtXO_KyA4WV4HoMkvMYoPLF7-YTN6xYKaGmJlQw1Po97L-oR2NrU6pI-5-YkaGbVMu5h5-GZWMhfQwp/s320/equal.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+It turns out that for the right-handed &lt;i&gt;k&lt;/i&gt; = 4 case ('square' polygonals) gives a well-known number triangle called the &lt;b&gt;Lucas Number Triangle&lt;/b&gt;.&lt;br /&gt;
+&lt;br /&gt;
+In the Lucas Number Triangle you find the square numbers, the square-based pyrimidal numbers, and all of the higher-dimensional versions of the same, just as you find the triangular, pyrimidal, and higher-triangular numbers in Pascal's Triangle&lt;br /&gt;
+&lt;br /&gt;
+In the same way that you can find the &lt;a href="http://www.research.att.com/~njas/sequences/A000045"&gt;Fibonacci numbers&lt;/a&gt; by summing left-to-right upward sloping diagonals in the regular Pascal's Triangle, you can find &lt;a href="http://www.research.att.com/~njas/sequences/A000032"&gt;Lucas numbers&lt;/a&gt;&amp;nbsp;(see also&amp;nbsp;&lt;a href="http://en.wikipedia.org/wiki/Lucas_number"&gt;Wikipedia&lt;/a&gt;)&amp;nbsp;by summing&amp;nbsp;&amp;nbsp;left-to-right upward sloping&amp;nbsp;diagonals in the Lucas Number Triangle. Lucas numbers are a generalization of the Fibonacci sequence - the Fibonacci sequence starts with the numbers \( f_0 = 0 \), \( f_1=1 \), and proceeds according to the rule \( f_n = f_{n-1} + f_{n-2} \); the Lucas sequence starts with the numbers \( f_0 = 2 \), \( f_1=1\), and follows the same generating rule as the&amp;nbsp;Fibonacci&amp;nbsp;sequence.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1sJ6R7zMTDOI-MKZdNvwAH9oG6hH-lYz0OtX1yfv78OMGNvSYGVN0s97k5rWOdZaV9E2pqD6C2O_-FRxqXPqtn-BeQJzmSvYuHz5PvGGDufJg1bnby81dzi6bub_MZhRdQTTE4e0B06bA/s1600-h/lucas-triangle-sequence.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1sJ6R7zMTDOI-MKZdNvwAH9oG6hH-lYz0OtX1yfv78OMGNvSYGVN0s97k5rWOdZaV9E2pqD6C2O_-FRxqXPqtn-BeQJzmSvYuHz5PvGGDufJg1bnby81dzi6bub_MZhRdQTTE4e0B06bA/s320/lucas-triangle-sequence.jpg" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+Just as the entries in Pascal's Triangle can be interpreted as coefficients in the expansion of the binomial \( (a+b)^n \), the entries in the Lucas triangle can be seen to be coefficients in the expansion of the binomial \( (a+2b)(a+b)^{n-1} \) for \( n \geq 1 \).&lt;br /&gt;
+&lt;br /&gt;
+In general, right handed &lt;i&gt;k&lt;/i&gt;-polygonal Triangles give generalized "Gibonacci Numbers" - number sequences that follow the usual Fibonacci rule but with different first terms, in this case, \( G_0=k-2 \) and \( G_1=1 \). These Gibbonacci Number Triangles have entries whose rows give the&amp;nbsp;coefficients&amp;nbsp;of \( (a+ (k-2)b)(a+b)^{n-1} \) for \( n \geq 1\).&lt;br /&gt;
+&lt;br /&gt;
+A nice overview of the Lucas and Gibonacci Triangles and an interesting combinatorial interpretation of their entries is given in &lt;a href="http://www.math.hmc.edu/~benjamin/"&gt;Arthur Benjamin&lt;/a&gt;'s &lt;a href="http://www.math.hmc.edu/~benjamin/papers/LucasTriangle.pdf"&gt;The Lucas Triangle Recounted&lt;/a&gt;.</content>
+    <blogger:metaDescription/>
+    <blogger:created>2009-12-22T15:40:52.972Z</blogger:created>
+    <published>2009-12-22T15:41:00Z</published>
+    <updated>2018-11-16T15:46:36.148Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='polygonal'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='pascal triangle'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <blogger:filename>/2009/12/lucas-number-triangle.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  
