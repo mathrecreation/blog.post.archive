@@ -1,0 +1,54 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-2662905890251029862</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>more Chladni figures in R</title>
+    <content type='html'>Following on from an earlier &lt;a href="http://www.mathrecreation.com/2016/06/chlandi-esque-figures-in-r.html"&gt;post&lt;/a&gt;, the Chladni images here are made using a slightly modified version of the same R script (source &lt;a href="https://raw.githubusercontent.com/dmackinnon1/r_examples/master/chladni_example2.r"&gt;here&lt;/a&gt;), which uses cosines instead of sines. If you imagine the square of the vibrating surface to be fixed at the center (as depicted below), using cosines seems the natural choice. When &lt;a href="http://blogs.bu.edu/ggarber/archive/bua-py-25/waves-and-sound/standing-waves-in-strings-and-pipes/"&gt;modeling standing waves,&lt;/a&gt; cosines are used to model open-ended pipes, while sines are used to model fixed-end strings.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://upload.wikimedia.org/wikipedia/commons/0/03/Bowing_chladni_plate.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="318" src="https://upload.wikimedia.org/wikipedia/commons/0/03/Bowing_chladni_plate.png" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Playing around with cosine-based formulas led to some images that seemed very close to Chadni's own diagrams, which can be found in an appendix to his book on Google books.&lt;br /&gt;
+&lt;br /&gt;
+For a few of these I've uploaded the scripts that produced them.&lt;br /&gt;
+&lt;b&gt;&lt;br /&gt;&lt;/b&gt;
+&lt;b&gt;Chladni image 40 b&lt;/b&gt;&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgA4IQi_GhztG81tqdiRLHD_WUdEe9kyt1v9YXWqfABTIwOW7x9uGAbLYtVxo0Ufj7EtbRQn5_kSrzieA-3yWib0RSdVZ86PT-4MPQSVZBKY5OBgnVvcoleL_2wIixMKLnu0AN1bAUE4EE/s1600/40bchlandi.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="163" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgA4IQi_GhztG81tqdiRLHD_WUdEe9kyt1v9YXWqfABTIwOW7x9uGAbLYtVxo0Ufj7EtbRQn5_kSrzieA-3yWib0RSdVZ86PT-4MPQSVZBKY5OBgnVvcoleL_2wIixMKLnu0AN1bAUE4EE/s320/40bchlandi.PNG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;b&gt;&amp;nbsp;Chladni image 41&lt;/b&gt;&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgO0_Rgb7aalW8T9HeiGbm0vQBbvkb7esXIHjMOnptrQixIkcB1tpgMG_54ggxw_jzq0U4PbYTAOMNlhbv7PIUtzeY2zcei_1EGThjiFR_UiUKHRsGK7z0-AiCBvwTzeWRmxTXCzTA2BsM/s1600/41chlandi.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="175" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgO0_Rgb7aalW8T9HeiGbm0vQBbvkb7esXIHjMOnptrQixIkcB1tpgMG_54ggxw_jzq0U4PbYTAOMNlhbv7PIUtzeY2zcei_1EGThjiFR_UiUKHRsGK7z0-AiCBvwTzeWRmxTXCzTA2BsM/s320/41chlandi.PNG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;b&gt;&lt;br /&gt;&lt;/b&gt;&lt;b&gt;Chladni image 53&lt;/b&gt;&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNimsyXqozh05R47pXTK2loaVVqAqm6VzWpMUBxWGdRrVkPx6N00a9P0vYXzphSHX8ytcwgk5E9nAJrGaaXooDoERY1ESzwZ2i9OQRcu4YNTxQAx2cj_GkyXhONFKyI7SVworFYJTxT8Y/s1600/53chlandi.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="167" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNimsyXqozh05R47pXTK2loaVVqAqm6VzWpMUBxWGdRrVkPx6N00a9P0vYXzphSHX8ytcwgk5E9nAJrGaaXooDoERY1ESzwZ2i9OQRcu4YNTxQAx2cj_GkyXhONFKyI7SVworFYJTxT8Y/s320/53chlandi.PNG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+
+&lt;b&gt;Chladni image 58&lt;/b&gt;&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCNU3mLPrA1jwEB8DBkAa9OcT4H9hjZmQ8UCwMfNb_EvZ5UTctRmFmFMGqSIu9P_g8h-ujiSeR-1QM47gQpNhzQ0lLj0O4D2_VlaO-Gcu4NZvrp866wA5fuJb1Vb_RS_LiCDU_g-IVpqM/s1600/58chlandi.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="157" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCNU3mLPrA1jwEB8DBkAa9OcT4H9hjZmQ8UCwMfNb_EvZ5UTctRmFmFMGqSIu9P_g8h-ujiSeR-1QM47gQpNhzQ0lLj0O4D2_VlaO-Gcu4NZvrp866wA5fuJb1Vb_RS_LiCDU_g-IVpqM/s320/58chlandi.PNG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;b&gt;Chladni image 63&lt;/b&gt;&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTslpS9Q5Tt01tSxM_875eRSZeXnh342c7py27cK9DZXgKZJbhsUhU3ycu6_drd7-qx-0-BHHNFI2RBZhIIdkSrx3KcApQPVDkX73BMadVbumzNv9bUhvBlRGf40in7RQzAchfKuE5hDQ/s1600/63chlandi.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="164" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTslpS9Q5Tt01tSxM_875eRSZeXnh342c7py27cK9DZXgKZJbhsUhU3ycu6_drd7-qx-0-BHHNFI2RBZhIIdkSrx3KcApQPVDkX73BMadVbumzNv9bUhvBlRGf40in7RQzAchfKuE5hDQ/s320/63chlandi.PNG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Source for these can be found on github:&amp;nbsp;&lt;a href="https://github.com/dmackinnon1/r_examples"&gt;https://github.com/dmackinnon1/r_examples&lt;/a&gt;&lt;br /&gt;
+And of course, many more are possible. Try a few yourself :)&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2016-06-20T22:39:15.925Z</blogger:created>
+    <published>2016-06-25T00:02:00Z</published>
+    <updated>2018-01-19T20:21:10.746Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2016/06/more-chlandi-figures-in-r.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

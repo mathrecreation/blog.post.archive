@@ -1,0 +1,36 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-6179321375851687497</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>more window patterns in gsp</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYgRrqZKCs9unpgKve0IPvkRcZnnp5MJSTg42i8p8JZ4hcYET__cgzYuqcr4aSZD1b8S-hDmFMucflccUw0_SPd6SdojHQwiP9JXFOPQOI3EhUASS-ud2WQZKvdlcd905o78CBuUel9Z4/s1600/squares-into-saw-45.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYgRrqZKCs9unpgKve0IPvkRcZnnp5MJSTg42i8p8JZ4hcYET__cgzYuqcr4aSZD1b8S-hDmFMucflccUw0_SPd6SdojHQwiP9JXFOPQOI3EhUASS-ud2WQZKvdlcd905o78CBuUel9Z4/s320/squares-into-saw-45.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+You'd be right in saying 'hey, these are just a bunch of overlapping squares.' Yes. The only redeeming thing that I can point to is that they are made by following a rule, and the rule is one that is easy to reproduce without using any external measuring device (like a ruler or protractor), only the squares themselves. Think origami: you find midpoints by folding, etc. In this case, GSP is used, but only simple constructions like mid-point finding and segment creating. &lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnpuXwZtkc0GFKQE6t8T5KqaAy7Fog6_iJSS8ywTspSQM2yFysbgwe3fZx-pFlfO7x4QWQ9_4KyjeAR-KBYfGtw2BEQCTvjhpv07vDUVDQzZ2TuqcPWovlweExFLVvrMkN3fleVGWt7e0/s1600/another-hexagon-wp.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnpuXwZtkc0GFKQE6t8T5KqaAy7Fog6_iJSS8ywTspSQM2yFysbgwe3fZx-pFlfO7x4QWQ9_4KyjeAR-KBYfGtw2BEQCTvjhpv07vDUVDQzZ2TuqcPWovlweExFLVvrMkN3fleVGWt7e0/s320/another-hexagon-wp.JPG" width="316" /&gt;&lt;/a&gt;&lt;/div&gt;
+The trick is to find a rule that allows you to start with a square and then construct two points that you can base another square on, and then repeat.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgw7QdXIQ3j53lc5A9Qis7ApcyBdcrS9BXz96nfK84KvXjHaobQFpgmFGMltqrpaUgwTJDe3PjZTjSwAp8pnggBhZlAX4IM5dt8_fNrgZ2E0Eik7A5IPJeSgBwSWE16wHFHv-tEXMRhuCI/s1600/anothergon.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="302" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgw7QdXIQ3j53lc5A9Qis7ApcyBdcrS9BXz96nfK84KvXjHaobQFpgmFGMltqrpaUgwTJDe3PjZTjSwAp8pnggBhZlAX4IM5dt8_fNrgZ2E0Eik7A5IPJeSgBwSWE16wHFHv-tEXMRhuCI/s320/anothergon.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+These were made from the same window-pattern instructions mentioned &lt;a href="http://www.mathrecreation.com/2008/09/window-patterns.html"&gt;here&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2011-11-21T02:40:20.009Z</blogger:created>
+    <published>2011-11-21T02:40:00.001Z</published>
+    <updated>2011-11-21T02:55:06.908Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='mathematics'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='GSP'/>
+    <blogger:filename>/2011/11/more-window-patterns-in-gsp.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

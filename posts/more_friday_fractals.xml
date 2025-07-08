@@ -1,0 +1,60 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-6674307508882923056</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>more friday fractals</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+Here are some more variations on &lt;a href="http://en.wikipedia.org/wiki/Mandelbrot_set"&gt;Mandelbrot&lt;/a&gt;-like fractals, similar to those &lt;a href="http://www.mathrecreation.com/2013/05/fractals-on-friday.html"&gt;from a few weeks back&lt;/a&gt;, and all made by playing around with the Processing program &lt;a href="http://www.mathrecreation.com/2012/02/better-late-than-never-mandelbrot-set.html"&gt;described here&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+The recursive formula used to generate the Mandelbrot set is quadratic - here are some variations that use different powers in a formula that is otherwise the same as the Mandelbrot formula.&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNbkPb-gsL-95jPrT6HuGqs1ENPNlPQN2nkDDCLy06dZPpagKYFT9z2IQy_SfnuRY_7pCz1CGu70aNpT5TrX2hzJ7cfCA6WciQ9xZi8skyd_F_jlNlYKALipM9ME-QsXaunZA-VkdcdiM/s575/z4.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNbkPb-gsL-95jPrT6HuGqs1ENPNlPQN2nkDDCLy06dZPpagKYFT9z2IQy_SfnuRY_7pCz1CGu70aNpT5TrX2hzJ7cfCA6WciQ9xZi8skyd_F_jlNlYKALipM9ME-QsXaunZA-VkdcdiM/s320/z4.JPG" width="314" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3WiPOwcjDhg4pllxbCCCIomNhE2gsOnpSD38Yjf6_V7cPTHcoopcAH0ZogkYxDm8zqFNs4i9VNr7czqzJguFZM56w-2BxxXylGBdMw93sAUiiobNc4faJJrmpUWmaFq1utoZMIL6d3M0/s523/z5.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3WiPOwcjDhg4pllxbCCCIomNhE2gsOnpSD38Yjf6_V7cPTHcoopcAH0ZogkYxDm8zqFNs4i9VNr7czqzJguFZM56w-2BxxXylGBdMw93sAUiiobNc4faJJrmpUWmaFq1utoZMIL6d3M0/s320/z5.JPG" width="302" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4idpM4obgDo-ho-6AxCW98JvJk6RwUkkqvaeIwQYw629hlwQkiwx9IoMuqnhD8BakqOLyUaluX6D9YRUvuFVZz7snmRZ4ajD1xLJrqfiszKkTHyIaKQ0iOSXpbj0GO_hYGrspuSP7Vns/s577/z9.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="312" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4idpM4obgDo-ho-6AxCW98JvJk6RwUkkqvaeIwQYw629hlwQkiwx9IoMuqnhD8BakqOLyUaluX6D9YRUvuFVZz7snmRZ4ajD1xLJrqfiszKkTHyIaKQ0iOSXpbj0GO_hYGrspuSP7Vns/s320/z9.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+A strange variation on the Mandelbrot theme is the &lt;a href="http://en.wikipedia.org/wiki/Burning_Ship_fractal"&gt;burning ship fractal&lt;/a&gt;. It is generated in a similar way, but the first step in calculating each term is to take the "absolute value" of the previous term. Actually &lt;i&gt;abs&lt;/i&gt;(&lt;i&gt;z&lt;/i&gt;) is a complex number whose coefficients are the absolute values of the corresponding coefficients of &lt;i&gt;z&lt;/i&gt;. Although not apparent in the picture below (see &lt;a href="http://www.hpdz.net/StillImages/BurningShip.htm"&gt;hpdz&lt;/a&gt; for deeper images) , just as in the fractals above there are small copies of the larger image (off to the left there, in the corner)&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixGAExNqaExVpT-mL07stzb29qxX1TCCrEy7SY-ZqlpgTrjDisoLrhSmAfFYrg0CAoNDnTnAP_ycZ6waoPU6ZqraiEJaQ9BV9DLJ_lMwKhHv9-kGbEXGDXjczooAxVcozS6rAwKi-fyV4/s857/burn1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="204" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixGAExNqaExVpT-mL07stzb29qxX1TCCrEy7SY-ZqlpgTrjDisoLrhSmAfFYrg0CAoNDnTnAP_ycZ6waoPU6ZqraiEJaQ9BV9DLJ_lMwKhHv9-kGbEXGDXjczooAxVcozS6rAwKi-fyV4/s320/burn1.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+These variations on the burning ship use different powers with surprising results. Personally, I find these a bit sinister looking - each roughly polygonal form has strange organic looking out-growths and hidden small scale replicas of itself.&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkMZS2PFpBKAY1dDH9A57pZiwhAX6_1x4Ty4HexQU3kbhswG4f1yIrea360gxzuXLOcZosIkeg5rzetNBerT1RdkUr_Qom0smPTOQceOZQkWSv8q9otBRvM0AdOMzI4u2talE-azDH3lM/s712/burnz3.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="278" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkMZS2PFpBKAY1dDH9A57pZiwhAX6_1x4Ty4HexQU3kbhswG4f1yIrea360gxzuXLOcZosIkeg5rzetNBerT1RdkUr_Qom0smPTOQceOZQkWSv8q9otBRvM0AdOMzI4u2talE-azDH3lM/s320/burnz3.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfI-A-t-5-9wuLUsrqZkUpiHguRNCcXcs064HtJwrz8ngz4roW4wxhe5rpCXKkmLoLxW5_9spshlrh1j0Zp6lnIuvBYhvse4YdysUgtXQgEy6c5EXEYFOA-XCTl-axViYdCTECYpwug-4/s780/burnz5.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="242" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfI-A-t-5-9wuLUsrqZkUpiHguRNCcXcs064HtJwrz8ngz4roW4wxhe5rpCXKkmLoLxW5_9spshlrh1j0Zp6lnIuvBYhvse4YdysUgtXQgEy6c5EXEYFOA-XCTl-axViYdCTECYpwug-4/s320/burnz5.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+The last Mandelbrot variant shown here is sometimes known as the Tricorn or &lt;a href="https://en.wikipedia.org/wiki/Mandelbar"&gt;Mandelbar&lt;/a&gt;&amp;nbsp;- so named because the first step in computing a term in the &lt;i&gt;z_&lt;/i&gt;n sequence is to take the &lt;a href="http://en.wikipedia.org/wiki/Complex_conjugate"&gt;complex conjugate&lt;/a&gt; of the previous term (bar-&lt;i&gt;z&lt;/i&gt;). Surprisingly you get three smeared copies of the Mandelbrot set radiating out of the vertices of what looks like a &lt;a href="http://en.wikipedia.org/wiki/Hypocycloid"&gt;hypocycloid&lt;/a&gt;.&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEil4L8GKFMPwTSUQZ1y55rje38cH3XRcVP6ljNkOqRE58aTPfIiwBJtqxwGrKyx3_I6fz7Lq5gVuIXSE911mJ7DcHjJ6_ehblhJwWUy5B5WzvgerOdTd6d3JT_InX6Y7p063yjXh1UoNns/s487/tricorn2.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="287" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEil4L8GKFMPwTSUQZ1y55rje38cH3XRcVP6ljNkOqRE58aTPfIiwBJtqxwGrKyx3_I6fz7Lq5gVuIXSE911mJ7DcHjJ6_ehblhJwWUy5B5WzvgerOdTd6d3JT_InX6Y7p063yjXh1UoNns/s320/tricorn2.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2013-06-28T00:20:11.599Z</blogger:created>
+    <published>2013-06-28T22:15:00.001Z</published>
+    <updated>2013-06-28T22:15:53.297Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='mathematics'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='Processing'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='fractals'/>
+    <blogger:filename>/2013/06/more-friday-fractals.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

@@ -1,0 +1,64 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-2662895215951856250</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>life lessons from a knight's tour</title>
+    <content type='html'>Please check out these interactive puzzles: &lt;a href="https://dmackinnon1.github.io/kixote/"&gt;kixote (knight's tour) puzzles&lt;/a&gt;, and &lt;a href="https://dmackinnon1.github.io/kixote/hidato.html"&gt;hidato (king's tour) puzzles&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+Both are based on the idea of a solitary chess piece roaming around an otherwise empty board. A "tour" is completed if the piece touches every square exactly once.&lt;br /&gt;
+&lt;br /&gt;
+Solving these puzzles involves&amp;nbsp;revealing the hidden steps in the correct order to complete the tour. For example, in the kixote puzzle below, the first step in the tour is highlighted.&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1ns7g6DqSWQIqQJ0tSVEsCflI0X6y0-9t1jBGhCRpVestYtZEssopspJuBZlh9iKhXLrl6r1cC-AmFkOfFziYks-Oux5vL3BC72duksyMcdhyCakaW5VeLhNznn6fSBmRtvRzrdZ6f1w/s1600/step1-b.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1ns7g6DqSWQIqQJ0tSVEsCflI0X6y0-9t1jBGhCRpVestYtZEssopspJuBZlh9iKhXLrl6r1cC-AmFkOfFziYks-Oux5vL3BC72duksyMcdhyCakaW5VeLhNznn6fSBmRtvRzrdZ6f1w/s1600/step1-b.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+We need to find the second step in this tour. Based on how knights move, there are two options: the cell to the right of 19, and the cell to the left of 57. Looking at where the third step is (third cell down in the last column), we realise that the cell next to 19 must be number 2. Clicking on that, we unlock the next few steps in the tour:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifpXpCgjLJS8nMC5IWCYLPFIqi1Moej3IHBPov92DrzgSW7kBqAK4aOzYJS2elbnYaJO6DgxV6wMRESIjCRLiY5pnpS-uh3kk3cYSsRShHFEUxaGICcGLbvxYKWVfeJbUdO-EH8cYSs7Y/s1600/step-2b.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifpXpCgjLJS8nMC5IWCYLPFIqi1Moej3IHBPov92DrzgSW7kBqAK4aOzYJS2elbnYaJO6DgxV6wMRESIjCRLiY5pnpS-uh3kk3cYSsRShHFEUxaGICcGLbvxYKWVfeJbUdO-EH8cYSs7Y/s1600/step-2b.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Now at step 4, we need to find step 5, and to do that, we look at where step 6 is... and continue in that way until all the steps are revealed.&lt;br /&gt;
+&lt;br /&gt;
+If you try this a few times, you may notice that although each tour is different, they tend to follow a familiar pattern of cycling around the edge of the board in their early stages, sometimes hopping around in the corners before moving along:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtdUK9fD6_slp10Iw0feVndXeoUmXin0vNouvyOC8mOFSUTc4R-oPgpdG79sXlJ7K-VDdqFtLn1j1vtpFnBfIYgDZtI_DYseWZGjnBbfSfeD2w8dOd26qBqCJB-zpwzMx-KZiJYEZQjDs/s1600/earlier_path.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtdUK9fD6_slp10Iw0feVndXeoUmXin0vNouvyOC8mOFSUTc4R-oPgpdG79sXlJ7K-VDdqFtLn1j1vtpFnBfIYgDZtI_DYseWZGjnBbfSfeD2w8dOd26qBqCJB-zpwzMx-KZiJYEZQjDs/s1600/earlier_path.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+The tours look like this because of the technique used to generate them: the puzzle generator is not randomly selecting which square to move to, if it did this, it might take a long time to come up with a proper tour for you to solve. Instead of randomly selecting each move, the generator is using a heuristic to pick squares that will most likely lead to a completed tour.&lt;br /&gt;
+&lt;br /&gt;
+To a knight, an empty chessboard looks something like this:&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaOptJeaO-e0EEHata0uVr9sTEz7jKOYgg0n50YVKy-V-2acbX4DnFRVQFZ1-RIlQJsDFbVjJFt75yp34fBnqvxldT_ZadomNOXKRQ-HJniN9WFQk09Wmw5-7C6bytZjP6tXWDTWGhNJ4/s1600/knightboardgraph1.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="348" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaOptJeaO-e0EEHata0uVr9sTEz7jKOYgg0n50YVKy-V-2acbX4DnFRVQFZ1-RIlQJsDFbVjJFt75yp34fBnqvxldT_ZadomNOXKRQ-HJniN9WFQk09Wmw5-7C6bytZjP6tXWDTWGhNJ4/s400/knightboardgraph1.jpg" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;knight's graph&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+Two cells are connected if the knight can jump from one to the other. Some cells are better connected than others. The image below shows the number of connected neighbours for each cell:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0XDTyuwKRaww5rdL6ELnDBz2mvHRP1B4AuPU3FYvEaNIaKx8F1xrU_iudw1x4suFv05ncCfb9-V_aSUSRHN0i7pv2ZKJps9eN6vXaevZOSQ12dJ95T4GBMetCiKYRt3F4ZwKm7cI3cl0/s1600/moves_open_from_given_square.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0XDTyuwKRaww5rdL6ELnDBz2mvHRP1B4AuPU3FYvEaNIaKx8F1xrU_iudw1x4suFv05ncCfb9-V_aSUSRHN0i7pv2ZKJps9eN6vXaevZOSQ12dJ95T4GBMetCiKYRt3F4ZwKm7cI3cl0/s1600/moves_open_from_given_square.jpg" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+The rule used by the tour generator is to always select a reachable cell that has the fewest free neighbours. This leads us towards the edges and into the corners, leaving the wide-open and accessible centre for the end. Obviously, this is not the only strategy that will work: every knight's tour is reversible, so each path which starts on the edges and corners could be flipped to produce a tour that starts at the centre. But the "start with the least open cells" is a strategy that works well, frequently producing complete tours.&lt;br /&gt;
+&lt;br /&gt;
+Maybe there is some lesson here for many tasks: when faced with a list of things to be completed, start with the less attractive options first, and save the best until last.&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2016-12-20T03:01:12.785Z</blogger:created>
+    <published>2016-12-23T14:46:00.001Z</published>
+    <updated>2016-12-30T19:54:02.896Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='graphs'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='chess'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='puzzles'/>
+    <blogger:filename>/2016/12/life-lessons-from-knights-tour.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

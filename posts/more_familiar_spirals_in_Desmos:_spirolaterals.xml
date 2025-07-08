@@ -1,0 +1,79 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-2924248031915851137</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>more familiar spirals in Desmos: spirolaterals</title>
+    <content type='html'>After the&amp;nbsp;&lt;a href="http://www.mathrecreation.com/2016/10/some-familiar-spirals-in-desmos.html"&gt;last post&lt;/a&gt; about how to draw some types of spirals using Desmos, I was pointed to a treasure trove of spiral and Desmos goodness in the twitter microblogging of&amp;nbsp;&lt;a href="https://www.blogger.com/"&gt;@Veganmathbeagle&lt;/a&gt;&amp;nbsp;and &lt;a href="https://twitter.com/GHSMaths"&gt;@GHSMaths&lt;/a&gt;. I haven't yet had the chance to dig too deeply yet, but looking forward to it.&lt;br /&gt;
+&lt;br /&gt;
+Also,&amp;nbsp;&lt;a href="https://twitter.com/Desmos"&gt;@Desmos&lt;/a&gt; &lt;a href="https://twitter.com/Desmos/status/787265501860888576"&gt;kindly improved&lt;/a&gt; upon one set of spirals: the "polygonal numbers on quadratic spiral" family, showing how to connect the dots and link up the points of the spiral (the improved graph is &lt;a href="https://www.desmos.com/calculator/copkprkdrq"&gt;here&lt;/a&gt;). The technique: use the functions for &lt;i&gt;x&lt;/i&gt; and &lt;i&gt;y&lt;/i&gt; to create a family of parametrically defined line segments. To create a line segment between two points &lt;i&gt;A&lt;/i&gt; and &lt;i&gt;B&lt;/i&gt;, you can introduce a parameter &lt;i&gt;t&lt;/i&gt; which moves you from &lt;i&gt;A&lt;/i&gt; to &lt;i&gt;B&lt;/i&gt; as &lt;i&gt;t&lt;/i&gt; varies from 0 to 1, applying this idea to pairs of points on the graph allows you to connect up the discrete points.&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0tXHqyTGnm53Vb9iYOfI55yhb5yaYDZvladR56EyzSwccVCXypyET8H-zt8pKemHI3jJ2GcgbEZ_4_MEhJo5bPJ-nn3PGJCbvDx4w3hmu5UBAveNj_Jk2eGGsOk0pckxlGXNb-zQBrsg/s1600/parametric_line.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0tXHqyTGnm53Vb9iYOfI55yhb5yaYDZvladR56EyzSwccVCXypyET8H-zt8pKemHI3jJ2GcgbEZ_4_MEhJo5bPJ-nn3PGJCbvDx4w3hmu5UBAveNj_Jk2eGGsOk0pckxlGXNb-zQBrsg/s1600/parametric_line.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;parametric formula for line segment AB&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+Armed with this, I'm adding one more group of spirals to the list: &lt;i&gt;spirolaterals&lt;/i&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style="font-size: large;"&gt;Spirolaterals&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+Spirolaterals are easily drawn by hand by following this simple rule: draw line segments starting at 1 unit long and going up to &lt;i&gt;n&lt;/i&gt; units long, turning 90 degrees between each segment, and then repeating the process from 1 again.&lt;br /&gt;
+&lt;br /&gt;
+The first spirolateral traces out a square: move 1 space, turn 90 degrees, move 1 space, turn 90 degrees, move 1 space, turn 90 degrees,... you get the idea. The second spirolatoral yields a rectangle: move 1 space, turn 90 degrees, move 2 spaces, turn 90 degrees, move 1 space, turn 90 degrees, move 2 spaces, turn 90 degrees.... Maybe not so fascinating, but the third spiral gives an interesting shape of 4 rotated rectangles, and the fifth spirals off the page like an uncoiling spring.&lt;br /&gt;
+&lt;br /&gt;
+I learned about spirolaterals from &lt;a href="http://www.fireflybooks.com/index.php/catalogue/product/11213-the-puzzle-universe-a-history-of-mathematics-in-315-puzzles"&gt;The Puzzle Universe&lt;/a&gt; (&lt;a href="http://www.mathrecreation.com/2015/12/a-universe-of-puzzles.html"&gt;review here&lt;/a&gt;). The definition did not, to me at least, look like something easily expressed using equations. At the time I wrote a little Processing program to draw them:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEje4liPuANnHjYCjcBGOAuJgHfdZCBCKtsAP8qAUvYQdN-Wrej15TkH2JTslhX75Lo0JitRhUvEwdpFUrnH0nW3zq8MClSx0lLD3pzb7tqgaO3dKcgi5G87g7v9WWdl5J8YWqB_nxWWFbU/s1600/spirolaterals.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEje4liPuANnHjYCjcBGOAuJgHfdZCBCKtsAP8qAUvYQdN-Wrej15TkH2JTslhX75Lo0JitRhUvEwdpFUrnH0nW3zq8MClSx0lLD3pzb7tqgaO3dKcgi5G87g7v9WWdl5J8YWqB_nxWWFbU/s320/spirolaterals.JPG" width="249" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;some spirolaterals for small m values&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+If you are of a certain age, these might remind you of something you might draw in LOGO (Turtle graphics). But can you do it in Desmos? Yes you can. Here is one way to express the &lt;i&gt;n&lt;/i&gt;th step of the &lt;i&gt;m&lt;/i&gt;th spirolateral:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtofRVPOsEKGYe86DL9jRshKTDzGpZ6KQd5Td2lS0MyqUgvz2cAG0BGEEiva_Zbho4mMCeK_tCQ_XxzEU8G6U-3SkNr0S3EttNbibj0IOW-2gOS1wG39IQaCogiPrSLGsvFkGfRfEd0b8/s1600/spirolateral_def.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtofRVPOsEKGYe86DL9jRshKTDzGpZ6KQd5Td2lS0MyqUgvz2cAG0BGEEiva_Zbho4mMCeK_tCQ_XxzEU8G6U-3SkNr0S3EttNbibj0IOW-2gOS1wG39IQaCogiPrSLGsvFkGfRfEd0b8/s1600/spirolateral_def.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidueLr7erC6iiFJ3tpCNNY2qdkJqLHgtpfUor8yamU72-1_ova7uwrKnGxU8OWzt7u7os8NqILZOV5-XP2BdGizOHc-o4Iu4qZGuZPR0A11J7DE5gMeMCsTMcNOBFPWBDvjkZ-Zgclmxs/s1600/90_spirograph_m19.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="306" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidueLr7erC6iiFJ3tpCNNY2qdkJqLHgtpfUor8yamU72-1_ova7uwrKnGxU8OWzt7u7os8NqILZOV5-XP2BdGizOHc-o4Iu4qZGuZPR0A11J7DE5gMeMCsTMcNOBFPWBDvjkZ-Zgclmxs/s320/90_spirograph_m19.PNG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;i&gt;spirolateral 19 in Desmos&amp;nbsp;&lt;a href="https://www.desmos.com/calculator/dyozzydvgw"&gt;graph here&lt;/a&gt;&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+Is this an efficient way of drawing spirolaterals? Maybe not: at each step you are effectively re-tracing the whole length of the spiral (the sum does this). But what I think is cool is that it can be done at all. In this case, something that you might think requires programming constructs (a loop, some temporary variables), can be compressed into simple equations. Here the key device is the &lt;i&gt;modulo &lt;/i&gt;function (actually modulo plus 1), which ensures that you keep repeating the sequence 1 to &lt;i&gt;m&lt;/i&gt; as you step around the spiral.&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style="font-size: large;"&gt;Other angles&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+I know what you want to do: you want to change the rules. Ok, one thing to try is to not to turn at a 90 degree angle, but some other angle: each choice of an angle gives a new family of spirolaterals.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWbMVzs1rFPF8rKkpslYF3FnV0Dl_D3iE31IcMitoTOyieSA3Yd8wCnIbiA5WpFCjWf740va2EAXaByPOpoe9t-3Wz9DyLM0nHDgOahZCC-TsiDxSzoUQduwNg9_54WrkALZpj62vJ3_o/s1600/60_spirals.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWbMVzs1rFPF8rKkpslYF3FnV0Dl_D3iE31IcMitoTOyieSA3Yd8wCnIbiA5WpFCjWf740va2EAXaByPOpoe9t-3Wz9DyLM0nHDgOahZCC-TsiDxSzoUQduwNg9_54WrkALZpj62vJ3_o/s320/60_spirals.PNG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;i&gt;spirolaterals based on 60 degree turns (&lt;a href="https://www.desmos.com/calculator/waii1jmgwm"&gt;graph here&lt;/a&gt;)&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjUUPzKrK9ehvSvjB_3nAg3YYDfm52FTg7GgoDLN2iGfOpFe-iD-GtdoY8zjNrOdHp6DT50yHY5uFXcVW-zpsELvbA6_ufEZCPFOdWlp1g85LbGGpqvPJmEIz_K16EXmEZYClnJRqB1_Y/s1600/144degree_spiros.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjUUPzKrK9ehvSvjB_3nAg3YYDfm52FTg7GgoDLN2iGfOpFe-iD-GtdoY8zjNrOdHp6DT50yHY5uFXcVW-zpsELvbA6_ufEZCPFOdWlp1g85LbGGpqvPJmEIz_K16EXmEZYClnJRqB1_Y/s320/144degree_spiros.PNG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+spirolaterals based on a 144 degree angle (graph &lt;a href="https://www.desmos.com/calculator/mx3deplfue"&gt;here&lt;/a&gt;)&lt;/div&gt;
+&lt;br /&gt;
+A general graph that has sliders to allow you to play with the angles is &lt;a href="https://www.desmos.com/calculator/ug2wqfjtn6"&gt;here&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+Spirolaterals are a lot like the &lt;a href="http://www.mathrecreation.com/2016/10/some-familiar-spirals-in-desmos.html"&gt;Euler spirals mentioned in the previous post&lt;/a&gt;. In a way, they are almost dual to those - Euler spirals keep the same magnitude for each step but keep increasing the angle that they turn by at each step, while spirolaterals keep the same angle but keep increasing the magnitude of each step (up to a limit, after which they repeat). Here is an improved version of the Euler spiral graph, this time with connecting lines.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiL8vPY9sQRu8T7IBs52Av2DPAwVzKZ5237_cHNkyUts4dJ6V7Vx9j_Zjl9KUhq_aZWBeay-LT_lywVgOrw07ycdGzn5Zx3_K2o_C8DNZAgOj51WOhoD-rvwaVsYEiF6yct0FGXki-gwI/s1600/euler_spiral_lines.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="202" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiL8vPY9sQRu8T7IBs52Av2DPAwVzKZ5237_cHNkyUts4dJ6V7Vx9j_Zjl9KUhq_aZWBeay-LT_lywVgOrw07ycdGzn5Zx3_K2o_C8DNZAgOj51WOhoD-rvwaVsYEiF6yct0FGXki-gwI/s320/euler_spiral_lines.PNG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+Euler spiral (&lt;a href="https://www.desmos.com/calculator/0cyn3utkdm"&gt;graph here&lt;/a&gt;)&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2016-10-20T22:07:47.377Z</blogger:created>
+    <published>2016-10-21T02:45:00Z</published>
+    <updated>2016-10-21T02:45:21.602Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2016/10/more-familiar-spirals-in-desmos.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

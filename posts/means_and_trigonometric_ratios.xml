@@ -1,0 +1,47 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-4820727769911350900</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>means and trigonometric ratios</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRa1cIqsd69xWKNdOi3eb_umT6Z9A8VQfLfevPSUXEN9qhqlLLC4ASF3c7FdbJCJmBOUFroqdohhRyVlCH0f80uVbk1uMcjQlSzBLF1KEmh5TRGhqZEgK0eGNhRw9NqKQNnsh9VFqO4RA/s1600-h/final.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRa1cIqsd69xWKNdOi3eb_umT6Z9A8VQfLfevPSUXEN9qhqlLLC4ASF3c7FdbJCJmBOUFroqdohhRyVlCH0f80uVbk1uMcjQlSzBLF1KEmh5TRGhqZEgK0eGNhRw9NqKQNnsh9VFqO4RA/s320/final.JPG" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/div&gt;I recently noticed that two earlier posts contain an identical diagram (surprising how these things slip by). Both instances of the diagram come from old high school textbooks, one dedicated to geometry and the other to algebra. The &lt;a href="http://mathrecreation.blogspot.com/2008/11/secant-and-tangent.html"&gt;first&amp;nbsp;occurrence&lt;/a&gt;&amp;nbsp;of the diagram was intended to provide an explanation for the names of the &amp;nbsp;"secant" and "tangent" trig ratios. The diagram &lt;a href="http://mathrecreation.blogspot.com/2009/09/neglected-sequence.html"&gt;occurred again&lt;/a&gt;&amp;nbsp;to provide a geometric construction for the arithmetic, geometric, and harmonic means of two lengths.&lt;br /&gt;
+&lt;br /&gt;
+If we merge the two uses of the diagram, we get some simple identities that relate the means of the lengths to the trig ratios of an angle. Proving them uses only the definitions of the means, the pythagorean theorem and the basic trig ratio definitions.&lt;br /&gt;
+&lt;br /&gt;
+Consider two lengths, &lt;i&gt;a&lt;/i&gt; and &lt;i&gt;b&lt;/i&gt;. Assume that $a \leq b$, and construct the segments as shown. &lt;b&gt;PQ&lt;/b&gt; is the length &lt;i&gt;a&lt;/i&gt; and &lt;b&gt;PR&lt;/b&gt; is the length &lt;i&gt;b&lt;/i&gt;.&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisuSMZsHjWndcesXJTzzVr3OG5yvMt0s7HcoUD5cxo52fo4n5fx-Hicyjl8Cl_gngYklKMLz0k3ewFbyifZ-DaHJfTT_LoRQ9UsnMwqKVoWLkFDr44XVP9apoOqkK8t_Q-eT6VhozAoWc/s1600-h/line1.JPG" imageanchor="1" style="clear: left; float: center; margin-bottom: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisuSMZsHjWndcesXJTzzVr3OG5yvMt0s7HcoUD5cxo52fo4n5fx-Hicyjl8Cl_gngYklKMLz0k3ewFbyifZ-DaHJfTT_LoRQ9UsnMwqKVoWLkFDr44XVP9apoOqkK8t_Q-eT6VhozAoWc/s400/line1.JPG" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/div&gt;From here, form the circle whose diameter is &lt;b&gt;RQ &lt;/b&gt;as shown.With &lt;b&gt;O&lt;/b&gt; as the center, construct the tangent to the circle from the point &lt;b&gt;P&lt;/b&gt;. Mark the point of tangency as &lt;b&gt;S&lt;/b&gt;. The angle &lt;b&gt;POS&lt;/b&gt; is marked $\theta$.&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRa1cIqsd69xWKNdOi3eb_umT6Z9A8VQfLfevPSUXEN9qhqlLLC4ASF3c7FdbJCJmBOUFroqdohhRyVlCH0f80uVbk1uMcjQlSzBLF1KEmh5TRGhqZEgK0eGNhRw9NqKQNnsh9VFqO4RA/s1600-h/final.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRa1cIqsd69xWKNdOi3eb_umT6Z9A8VQfLfevPSUXEN9qhqlLLC4ASF3c7FdbJCJmBOUFroqdohhRyVlCH0f80uVbk1uMcjQlSzBLF1KEmh5TRGhqZEgK0eGNhRw9NqKQNnsh9VFqO4RA/s320/final.JPG" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/div&gt;Note that the radius of the circle is $r = \frac{b-a}{2}$, and the arithmetic mean &lt;i&gt;am&lt;/i&gt;, geometric mean &lt;i&gt;gm&lt;/i&gt;, and harmonic mean &lt;i&gt;hm&lt;/i&gt; are given by:&lt;br /&gt;
+\[am = \frac{a+b}{2}\]&lt;br /&gt;
+\[gm = \sqrt{ab}\]&lt;br /&gt;
+\[hm = \frac{2}{\frac{1}{a}+\frac{1}{b}}\]&lt;br /&gt;
+As described briefly in the &lt;a href="http://mathrecreation.blogspot.com/2009/09/neglected-sequence.html"&gt;earlier post&lt;/a&gt;, these ratios appear in the construction where the length &lt;b&gt;OP&lt;/b&gt; is arithmetic mean, the length &lt;b&gt;PT&lt;/b&gt; is the harmonic mean, and the length &lt;b&gt;SP&lt;/b&gt; is the geometric mean of &lt;i&gt;a&lt;/i&gt; and &lt;i&gt;b&lt;/i&gt;.&lt;br /&gt;
+&lt;br /&gt;
+If you explore the diagram further with the angle $\theta$ in mind, you'll find that $am = r\sec{\theta}$, &amp;nbsp;$gm = r\tan{\theta}$, and $hm = r\sin{\theta}\tan{\theta}$ (note that the constructed arithmetic mean lies on the secant of the circle, and the constructed geometric mean lies on the tangent). Also, we have&lt;br /&gt;
+\[\frac{am}{gm}=\frac{gm}{hm} = \csc{\theta}\]&lt;br /&gt;
+Maybe there is nothing too surprising here, but I like that two important sets of ratios - the trigonometric ratios and the means - are connected by a simple construction.&lt;br /&gt;
+&lt;br /&gt;
+I found a variaiton on this diagram in &lt;a href="http://books.google.ca/books?id=zcYJAAAAIAAJ"&gt;&lt;i&gt;A text book of geometrical drawing&lt;/i&gt;&lt;/a&gt; by William Minifie - it attempts to capture quite a few constructed ratios (including the antiquated &lt;i&gt;versed sine&lt;/i&gt;) in a single diagram.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqB0q48fEuQnSWUZD5X9Pr_Ha4JuLxcSfY-Hpgt4dr8fiyUc-1krBi5xdUa00bpjpBHWHwbdcAQIoIbYUelYkFoLLqLYw7uBliN5sOUf5Od9bHVeK-puHRSiGG24gzzjFPW-al3UZYDbg/s1600-h/fig_11.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqB0q48fEuQnSWUZD5X9Pr_Ha4JuLxcSfY-Hpgt4dr8fiyUc-1krBi5xdUa00bpjpBHWHwbdcAQIoIbYUelYkFoLLqLYw7uBliN5sOUf5Od9bHVeK-puHRSiGG24gzzjFPW-al3UZYDbg/s320/fig_11.JPG" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgV0c-hf9LgiGza3m5mZ5o83wH_aa6MO1Y6cgpPeK9CFagFpe9JsKZktdIlgQWWwGbMmAcRn7lNGEdy64yFtuo5YxFL4vaFh95qz1Fa7oF4VqQj9pQSvWd8EDTspvAzZyySD55hf7dltSo/s1600-h/fig_11_text.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgV0c-hf9LgiGza3m5mZ5o83wH_aa6MO1Y6cgpPeK9CFagFpe9JsKZktdIlgQWWwGbMmAcRn7lNGEdy64yFtuo5YxFL4vaFh95qz1Fa7oF4VqQj9pQSvWd8EDTspvAzZyySD55hf7dltSo/s320/fig_11_text.JPG" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/div&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2009-09-28T00:24:05.857Z</blogger:created>
+    <published>2009-09-28T01:02:00Z</published>
+    <updated>2011-09-11T02:01:20.780Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='constructions'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='school math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='trigonometry'/>
+    <blogger:filename>/2009/09/means-and-trigonometric-ratios.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

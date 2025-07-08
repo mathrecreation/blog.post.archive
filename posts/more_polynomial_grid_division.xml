@@ -1,0 +1,127 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-1489157892649356873</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>more polynomial grid division</title>
+    <content type='html'>&lt;i style="background-color: white; color: #222222; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 13.2px;"&gt;&lt;b&gt;Update&lt;/b&gt;: try out the polynomial division example generator page&amp;nbsp;&lt;a href="https://dmackinnon1.github.io/polygrid/" style="color: #33aaff; text-decoration-line: none;"&gt;here&lt;/a&gt;.&lt;/i&gt;&lt;br /&gt;
+&lt;br /&gt;
+The most visited post on this blog describes how to divide polynomials using the &lt;i&gt;grid method&lt;/i&gt;, also known as the &lt;i&gt;generic rectangle &lt;/i&gt;or &lt;i&gt;reverse tabular method&lt;/i&gt;. I realize that people who are looking for instruction in such matters may not be not idlers or casual readers of math blogs - they are likely serious people who are preparing lesson plans, doing homework, or otherwise looking to divide some polynomials. So I thought it would be nice to provide a little more on this topic, and hopefully help out a bit. If you are among these folk, I recommend that you start with &lt;a href="http://www.mathrecreation.com/2009/03/dividing-polynomials-grid-method.html"&gt;the original post&lt;/a&gt;, and then read over these additional examples. Also, things will make better sense if you have practiced&amp;nbsp;&lt;a href="http://www.mathrecreation.com/2012/09/generic-rectanges.html"&gt;multiplying polynomials using grids&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+In &lt;a href="http://www.mathrecreation.com/2016/03/dividing-polynomials-backwards-reverse.html"&gt;a future post&lt;/a&gt;, I'm planning to outline another method of polynomial division that I call the&lt;i&gt; backwards reverse tabular method&lt;/i&gt;, which gives a power series as a result, instead of a polynomial quotient and remainder. Following through on the backwards reverse tabular method requires an infinitely long grid, so I am saving it for when I have more time.&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;example 1&lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+Let's try this one:&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzR28B-Ugm9cteM1uHFTUK5_VmS_TjM0xUG65LFeRE-XtqPKY-cP-8rpCzvBGNVudwgmveckx_L0juSQT0mFT9sgy-705M7ZQmrGegGcxY761lbCvQ4MF1pNEHFsxYP88UTL-pfes-9hU/s1600/ex1_0.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="84" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzR28B-Ugm9cteM1uHFTUK5_VmS_TjM0xUG65LFeRE-XtqPKY-cP-8rpCzvBGNVudwgmveckx_L0juSQT0mFT9sgy-705M7ZQmrGegGcxY761lbCvQ4MF1pNEHFsxYP88UTL-pfes-9hU/s200/ex1_0.JPG" width="200" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Before you start, you should know what sort of things to expect. Since we are dividing a third degree polynomial (the dividend) by a first degree polynomial (the divisor), the quotient is going to be a second degree polynomial (degree is 3 - 1) with a possible remainder of degree zero (the remainder will have a degree less than the divisor). The grid you are going to need will be a 2 (divisor degree&amp;nbsp;+ 1)&amp;nbsp;by 3&amp;nbsp;(quotient degree&amp;nbsp;+ 1)&amp;nbsp;&amp;nbsp;grid.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxMoNjOKa8xho3c8n0_J7bLJ5wxLD519RSN7A2G9AAtNS9DdsUz4OdXy-s1Kb7tICyaBrtLmyS06mBja0BjmwW3hNScIXRIYSWhBHNfSBlql68i7vJlFmnOQMqQLJ93cdMk-Wj7ojEDxw/s1600/ex1_a.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="400" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxMoNjOKa8xho3c8n0_J7bLJ5wxLD519RSN7A2G9AAtNS9DdsUz4OdXy-s1Kb7tICyaBrtLmyS06mBja0BjmwW3hNScIXRIYSWhBHNfSBlql68i7vJlFmnOQMqQLJ93cdMk-Wj7ojEDxw/s400/ex1_a.JPG" width="268" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+We are thinking of division as the reverse of multiplication. The question we are asking is: what quotient (across the top) do we need to multiply by the divisor (the far left column) to get the dividend (what gets filled in the table)?&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+In step 1, we put the highest term of the divisor in the first cell of the second row (or the first interior row, depending on how you are counting them). What do we need to fill in at the green circle so that when we multiply we get what is already in the grid? The answer is shown in step 2. In step 3 we fill in the additional cells of the grid that result from multiplying the value that we just put in the top row. We get a second degree term - but we know we don't want any of those (there are none in the divisor), so we put a value in on the diagonal that will cancel it out (step 4, below). &amp;nbsp;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+The process repeats itself for the second column (step 5), and eventually the third (step 6), until you have nothing left to fill in (step 7).&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz1P4IyuF5wx-m5iV2OPcNXxAmGyC8WTYVRYii239QSdFgOn64nm5iXv8M0xxwXG1G_lgr81x4pZcjIdX4yBGzMpDPF2-6BB9iJ7U5OR5YZlxrKImnPCV-lUC0juuhfw2l_fEHDC-Q1r4/s1600/ex1b2.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="400" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz1P4IyuF5wx-m5iV2OPcNXxAmGyC8WTYVRYii239QSdFgOn64nm5iXv8M0xxwXG1G_lgr81x4pZcjIdX4yBGzMpDPF2-6BB9iJ7U5OR5YZlxrKImnPCV-lUC0juuhfw2l_fEHDC-Q1r4/s400/ex1b2.JPG" width="243" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+It looks like we are blocked now - we would like to keep filling in the grid so that it matches up with the dividend, but we have run out of cells: we'd like to complete the diagonal for the linear term (step 8, below). So, let's just add in the one cell we need&amp;nbsp;&amp;nbsp;(step 9) - this will display the remainder, since there will not be any place to put a corresponding term in the top quotient row. [Not everyone includes the remainder on the grid, but I think it's a good idea to put it there, off to the side.]&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDlAImwIsf-KR2Zw0oCd9LNw41xuQAHAh3pbq2l7hKVVA9cLjKyPcLC18Zsdpig9bdY9cHXRTJ-qAZv5pI2j1tmqnan1n1Dc9Jcyrsrp3bq_5SErJQJZfKPSYaSOEk3ZMt8UKmo58P1qA/s1600/ex1_d_3.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="235" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDlAImwIsf-KR2Zw0oCd9LNw41xuQAHAh3pbq2l7hKVVA9cLjKyPcLC18Zsdpig9bdY9cHXRTJ-qAZv5pI2j1tmqnan1n1Dc9Jcyrsrp3bq_5SErJQJZfKPSYaSOEk3ZMt8UKmo58P1qA/s320/ex1_d_3.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+We can now read the whole problem and its solution from the grid:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9ZRX774VTgQ7TyBXsOeBVppLQYMfJ23otsHhfqkqjfhErSoiySTHQuTe0NuDNcaaHLSAK5_kZY434NNV9GMYY9f65Hn-IsTkx4Fg-D5bS5h_aSxnPtZkD3iDCRIn_2rftuRu83gGDGAk/s1600/ex1_final_3.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="180" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9ZRX774VTgQ7TyBXsOeBVppLQYMfJ23otsHhfqkqjfhErSoiySTHQuTe0NuDNcaaHLSAK5_kZY434NNV9GMYY9f65Hn-IsTkx4Fg-D5bS5h_aSxnPtZkD3iDCRIn_2rftuRu83gGDGAk/s400/ex1_final_3.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;example 2&lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+You may be forgiven if you believe this method might not work with divisors of higher powers. So lets try a sixth degree polynomial divided by a third degree polynomial.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhK94X9DMiZZ4_Z1P75n_BijnHCMtUGMEDzLsnlJa6QDp9hbYqSqUslh7iVZNYIyCalRsifym4L8RVxlrxPAbBldSgSx0v-XLj3Xg8cZTbBttFjIE2F9uzsyif3w7IYoPdBDrDQCsNlJgg/s1600/ex2_0.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="61" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhK94X9DMiZZ4_Z1P75n_BijnHCMtUGMEDzLsnlJa6QDp9hbYqSqUslh7iVZNYIyCalRsifym4L8RVxlrxPAbBldSgSx0v-XLj3Xg8cZTbBttFjIE2F9uzsyif3w7IYoPdBDrDQCsNlJgg/s320/ex2_0.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Our dividend (degree 6) divided by our divisor (degree 3) will give us a quotient (degree 6 -3 = 3) and possibly a remainder (its degree less than that of the dividend, so less than 3). Our grid will be 4 (degree of divisor&amp;nbsp;+ 1) by 4 (degree of quotient&amp;nbsp;+ 1). Its a good idea to include a row of zeros for the missing linear term in the divisor (otherwise the diagonals will be messed up, and the grid will be harder to work with). Here is what you will start with:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicxJKpQ8lvNzGqqRzYG8ffQZDVfB_IAEdryFbeMFsXBE7_oB6O2r09xUinyt6ysJdCwnMuYGo-aCcyNNvi-U0EL_q6i71wts297838owPx5FZn2lb6S_MK20rBVUbFwINsJH1Tx9qJMjU/s1600/ex2_start.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="161" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicxJKpQ8lvNzGqqRzYG8ffQZDVfB_IAEdryFbeMFsXBE7_oB6O2r09xUinyt6ysJdCwnMuYGo-aCcyNNvi-U0EL_q6i71wts297838owPx5FZn2lb6S_MK20rBVUbFwINsJH1Tx9qJMjU/s320/ex2_start.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Remember: Each upward sloping diagonal sums to a term in the original dividend, and you fill in cells in the second row to make this sum work out. The top row elements are chosen such that the multiplication works, and other cells down a column are just the result of filling in the grid by multiplication. In this case, we end up having to add 3 additional cells for the remainder:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIdzK02J6PXAaBNC4zNThi2iYW9cO0D1pj37WpLK0KMG45Ex1QPXda61hmdlkgsdn_5itajDswwhAeemlzBwoPhktm8WjoS-U-ty1D5To_k20stqCB_KI42WaSCzU3Q2XkZNAd18q_ES4/s1600/fixed_ex2.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="256" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIdzK02J6PXAaBNC4zNThi2iYW9cO0D1pj37WpLK0KMG45Ex1QPXda61hmdlkgsdn_5itajDswwhAeemlzBwoPhktm8WjoS-U-ty1D5To_k20stqCB_KI42WaSCzU3Q2XkZNAd18q_ES4/s400/fixed_ex2.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+It's easier than it first appears to be. Time for one more?&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;example 3&lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtb_KNX_GPr-_k6RYLplmKLe0BklKsZrltkst3GFoap3eTDNBzCOOPBwxXukyczFJ9PkXNWkpmnDQ2T7x8hhSJeMqxLSs_iMD6cAFwmpjKnwKHDSttC1KChXGhNVaXzUQbD4tiU2ANgtc/s1600/ex3.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="356" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtb_KNX_GPr-_k6RYLplmKLe0BklKsZrltkst3GFoap3eTDNBzCOOPBwxXukyczFJ9PkXNWkpmnDQ2T7x8hhSJeMqxLSs_iMD6cAFwmpjKnwKHDSttC1KChXGhNVaXzUQbD4tiU2ANgtc/s400/ex3.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;i&gt;Apologies for the errors in the original version of this post. If you find any mistakes, please let me know. Thanks!&lt;/i&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;i&gt;&lt;br /&gt;&lt;/i&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;i&gt;Other related posts:&lt;/i&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;/div&gt;
+&lt;div style="text-align: left;"&gt;
+&lt;i&gt;&lt;a href="http://www.mathrecreation.com/2016/03/dividing-polynomials-backwards-reverse.html"&gt;the backwards reverse tabular method&lt;/a&gt;&lt;/i&gt;&lt;/div&gt;
+&lt;div style="text-align: left;"&gt;
+&lt;a href="http://www.mathrecreation.com/2009/03/dividing-polynomials-grid-method.html"&gt;&lt;i&gt;dividing polynomials: the grid method&lt;/i&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div style="text-align: left;"&gt;
+&lt;a href="http://www.mathrecreation.com/2012/09/generic-rectanges.html"&gt;&lt;/a&gt;&lt;a href="http://www.mathrecreation.com/2012/09/generic-rectanges.html"&gt;&lt;i&gt;generic rectangles&lt;/i&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2015-09-30T01:26:22.543Z</blogger:created>
+    <published>2015-10-01T03:26:00Z</published>
+    <updated>2017-05-15T20:36:36.107Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='visualization'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='school math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='polynomials'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='mathematics'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='grid'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='maths'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='multiplication'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='lattices'/>
+    <blogger:filename>/2015/09/more-polynomial-grid-division.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

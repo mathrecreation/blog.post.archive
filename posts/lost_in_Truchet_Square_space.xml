@@ -1,0 +1,29 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-1708761604992909809</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>DRAFT</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>lost in Truchet Square space</title>
+    <content type='html'>It might be fun to think of the space of Truchet squares of size&amp;nbsp;&lt;i&gt;n&lt;/i&gt;, and the distances between some of the Truchet squares (as measured by the number of clockwise rotations to transform one into another).&lt;br /&gt;
+&lt;br /&gt;
+The distance between Truchet squares is non-metric: it does not follow the normal laws for distance. One way that the distance between Truchet squares fails to be normal is that it is not symmetric. If X and Y are two Truchet squares, then the distance from X to Y is not necessarily the same as the distance from Y to X. For example, if X and Y are identical except for one tile of Y rotated clockwise 1 turn from the corresponding tile in X, then the distance from X to Y is 1 (one turn of one tile is required to move X into the same position as Y). However, for Y to be transformed to X will require 3 clockwise rotations (only one counter clockwise rotation would be required, but we are not allowing those). Sometimes the distance between two squares is symmetric - for example, the distance from a uniform Truchet square to one with four-fold symmetry is the same in both directions.&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPSX67Ged6QHMQqzZMTvR6S7AikAzUCNCNjjWk1OYtKjQC2LGANlWzZiVJgMpuBOaZLX1c0kBRaKSXQoy3TSYO8moeZvWRBeyiszU44r1zVS7nG9R6V48abvA84Pvhbn7GW0SvYIsCock/s1600/Truchet_Space.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="557" data-original-width="572" height="311" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPSX67Ged6QHMQqzZMTvR6S7AikAzUCNCNjjWk1OYtKjQC2LGANlWzZiVJgMpuBOaZLX1c0kBRaKSXQoy3TSYO8moeZvWRBeyiszU44r1zVS7nG9R6V48abvA84Pvhbn7GW0SvYIsCock/s320/Truchet_Space.PNG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+In our space of Truchet squares of size&amp;nbsp;&lt;i&gt;n&lt;/i&gt;, there will be 4 uniform Truchet squares. A uniform Truchet Square will have a nearest neighboring uniform square (obtained by rotating all tiles once). For a uniform Truchet square, its nearest neighboring Truchet square will be n^2 moves away.&lt;br /&gt;
+&lt;br /&gt;
+If we think of all the Truchet squares with 4-fold rotational symmetry (like the ones in the puzzle), these will have (n/2)^2 "closest" neighbors that also have 4-fold rotational symmetry. These neighbors will be 4 moves away.</content>
+    <blogger:metaDescription/>
+    <blogger:created>2017-10-03T21:37:19.263Z</blogger:created>
+    <published>2017-10-03T21:38:00.002Z</published>
+    <updated>2017-10-03T21:38:57.549Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2017/10/lost-in-truchet-square-space.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

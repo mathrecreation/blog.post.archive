@@ -1,0 +1,52 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-1724887930986501236</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Multiplication Table Rainbows</title>
+    <content type='html'>&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcAdQMobSFVtr3AgEzPMKBA3VNR6UEU78D3qj5EdR5PAehqx9sbFBtWyEQGEetVGPPDkEF3HWWyWLs-rESUVNKCfcM1MfFdlFiDt__PfjbH3G80D36nGp_IXAou7u0wEfL5nNI25niISk/s1600-h/colour_mult1.bmp" style="text-decoration: none;"&gt;&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5346529202618423426" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcAdQMobSFVtr3AgEzPMKBA3VNR6UEU78D3qj5EdR5PAehqx9sbFBtWyEQGEetVGPPDkEF3HWWyWLs-rESUVNKCfcM1MfFdlFiDt__PfjbH3G80D36nGp_IXAou7u0wEfL5nNI25niISk/s400/colour_mult1.bmp" style="cursor: hand; cursor: pointer; display: block; height: 216px; margin: 0px auto 10px; text-align: center; width: 230px;" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;div&gt;
+The multiplication table, much maligned as a symbol of rote learning, presents what should be considered one of the most accessible structures for mathematical exploration and recreation. In it you can find stars (described &lt;a href="http://mathrecreation.blogspot.com/2009/06/polygons-and-multiplication-table.html"&gt;here&lt;/a&gt;), surprising relationships (&lt;a href="http://mathrecreation.blogspot.com/2009/01/humble-multiplication-table-1.html"&gt;here&lt;/a&gt;), and rainbows.&lt;br /&gt;
+&lt;br /&gt;
+If you divide the range of the table into groups (for example, you could divide the range 0-100 into 7 groups for the ROYGBIV colouring of the rainbow), and colour in the table based on these, you'll find that the groups form rainbow-like curves.&lt;br /&gt;
+&lt;br /&gt;
+It turns out that bands of colours form hyperbolic arcs. Think of the entries in the table in terms of &lt;i&gt;y&lt;/i&gt;*&lt;i&gt;x&lt;/i&gt; = &lt;i&gt;k&lt;/i&gt;, where &lt;i&gt;k&lt;/i&gt; is a constant representing a particular colour and &lt;i&gt;x&lt;/i&gt; and &lt;i&gt;y&lt;/i&gt; are the terms (column and row values) that are multiplied together  to yield a particular &lt;i&gt;k; &lt;/i&gt; solving for &lt;i&gt;y&lt;/i&gt; gives &lt;i&gt;y = k/x,&lt;/i&gt; the formula for a hyperbola.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPNoLYWt1yPX3RfFWBdEVOvfrfDmurt8zB7GLyX9qsDWju0y7qdBsDI_vULHf_DHEyc-sMFkxJvmNOA5uBeLN9pmvSv7QWlz5fkIOg9WJNw0zsp_L4C8UOOx7Ojc5x8VbVFbWQbVYgnMk/s1600-h/hyperbola.JPG"&gt;&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5346529199938194354" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPNoLYWt1yPX3RfFWBdEVOvfrfDmurt8zB7GLyX9qsDWju0y7qdBsDI_vULHf_DHEyc-sMFkxJvmNOA5uBeLN9pmvSv7QWlz5fkIOg9WJNw0zsp_L4C8UOOx7Ojc5x8VbVFbWQbVYgnMk/s400/hyperbola.JPG" style="cursor: hand; cursor: pointer; display: block; height: 400px; margin: 0px auto 10px; text-align: center; width: 332px;" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;div&gt;
+These pictures were generated in Fathom (the bottom two) and in TinkerPlots (the top one). There is something subtly wrong with the rainbow shown below - it has the right range of colours, but Fathom puts them in the reverse order of what is observed in natural rainbows.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;
+&lt;div&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWlhFAwUVq2cHcDUZ_w15YZXoKF1kImNJ-dR1ojy3qdJ1ZTfsdAn-eEqNFjU5Llt7GvDDw9ycJ-tGgzuHhfAF1SJpoP6rBNM8CQ2BfLDW3w8VM9NgJxKhf-B2RZaWYeTR1WKlRFzvjOno/s1600-h/mult2.JPG"&gt;&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5346529205601902738" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWlhFAwUVq2cHcDUZ_w15YZXoKF1kImNJ-dR1ojy3qdJ1ZTfsdAn-eEqNFjU5Llt7GvDDw9ycJ-tGgzuHhfAF1SJpoP6rBNM8CQ2BfLDW3w8VM9NgJxKhf-B2RZaWYeTR1WKlRFzvjOno/s400/mult2.JPG" style="cursor: pointer; display: block; height: 284px; margin-bottom: 10px; margin-left: auto; margin-right: auto; margin-top: 0px; text-align: center; width: 306px;" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+The Fathom and TinkerPlots files used to generate these graphs are &lt;a href="http://sites.google.com/site/mathrecreation/"&gt;here&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;28-08-2012 Update - see &lt;a href="http://www.mathrecreation.com/2012/08/a-deep-dive-into-multiplication-table.html"&gt;this related post&lt;/a&gt;.&lt;/i&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2009-06-12T19:49:41.237Z</blogger:created>
+    <published>2009-06-12T19:42:00Z</published>
+    <updated>2012-08-28T17:04:10.121Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='school math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='TinkerPlots'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='Fathom'/>
+    <blogger:filename>/2009/06/multiplication-table-rainbows.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

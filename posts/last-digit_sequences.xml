@@ -1,0 +1,61 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-2303539365931593601</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>last-digit sequences</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWJpxdOK6W44WFmIC8-o3SxSDeIz-iv-WxqC8SR0p61PqisFHLo-SdG4djLDQskesl3yxztHFutP5f7xmHYjrg0sxLJjY6fxzTnsYoO9zeRZSJM7tYaHH3Hhk92Sc0HMLlJPvyGArNq_s/s1600/last_digit2.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWJpxdOK6W44WFmIC8-o3SxSDeIz-iv-WxqC8SR0p61PqisFHLo-SdG4djLDQskesl3yxztHFutP5f7xmHYjrg0sxLJjY6fxzTnsYoO9zeRZSJM7tYaHH3Hhk92Sc0HMLlJPvyGArNq_s/s1600/last_digit2.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+When you look at the last digits of an Integer sequence, you get a whole new Integer sequence. For example, if you look at the last digit of the sequence&lt;i&gt; a_n = n&lt;/i&gt;^2&lt;i&gt; -n +&lt;/i&gt;1, you get the repeating last-digit sequence shown above (it has a period of 5). Neat thing: any sequence "like" this one will always have a repeating last-digit-sequence, and that last-digit-sequence will have a period of 1, 2, 5, or 10.&lt;br /&gt;
+&lt;br /&gt;
+Here is another example that has a last-digit sequence with period 10:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjozl6fn78Gz9CV4GujqVE0xm6N_3gCgdIO6Wo4J18P4nnGUrRjuiSxPtgjWeD2JTwnDAzetDbZQj4cEQ9-4IOxypXJw7LtIhGzm5meRHHrCv8IzGn34J7tLjAP2_UFnU3yqXTcnkEzKZM/s1600/sequence2.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjozl6fn78Gz9CV4GujqVE0xm6N_3gCgdIO6Wo4J18P4nnGUrRjuiSxPtgjWeD2JTwnDAzetDbZQj4cEQ9-4IOxypXJw7LtIhGzm5meRHHrCv8IzGn34J7tLjAP2_UFnU3yqXTcnkEzKZM/s1600/sequence2.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Just looking at the last digits of powers of &lt;i&gt;n &lt;/i&gt;provides other simple examples (see &lt;a href="http://www.mathrecreation.com/2008/07/digit-patterns-in-square-numbers.html"&gt;this old post&lt;/a&gt;).&lt;br /&gt;
+&lt;br /&gt;
+Except when the terms are negative, last digits can be obtained by using &lt;a href="http://en.wikipedia.org/wiki/Modular_arithmetic"&gt;modular&amp;nbsp;arithmetic&lt;/a&gt;&amp;nbsp;and working “modulo 10”, “ 54 mod 10” is 4, “12 mod 10” is 2, etc. So for the most part, instead of saying "last digit" &amp;nbsp;we can just say “mod 10” to get the last digits. When negatives are involved, the last digits can be found by “mod 10 – 10,” so without loss of generality we’ll just say "mod 10" when we want to grab the last digit of some number.&lt;br /&gt;
+&lt;br /&gt;
+Let's look at sequences that you get from polynomials with Integer coefficients,&lt;i&gt; a_n&lt;/i&gt; that are of this form:&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqO-pv9BYGq-_94helTqSImv7XPfaDUmioHbxOetrMSmYF1T5R-r_b5JvA9Af9eTB-JAF5PwDuAEn8uV8ZBLtU5Lrh_lRuf5LNizyLLWNblFRzajpXRwtQu6wrVJ8IrYBQUH1Pvfm8kHs/s1600/sequence.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqO-pv9BYGq-_94helTqSImv7XPfaDUmioHbxOetrMSmYF1T5R-r_b5JvA9Af9eTB-JAF5PwDuAEn8uV8ZBLtU5Lrh_lRuf5LNizyLLWNblFRzajpXRwtQu6wrVJ8IrYBQUH1Pvfm8kHs/s1600/sequence.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;span style="background-color: white;"&gt;It turns out that this kind of sequence modulo 10 repeats itself with a period that divides 10 - you can see this is true by proving that&lt;/span&gt;&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh95drAVcJDqg6EB_XXi1S_N47ACn3RP-92OjSJuGBwQbF4KxM2-B_AbpU0WC4Ya80_ubmUisn4yjbhgnM3En4LeTMgrrSxBony0MJTx4A6p0W51-rLl9cdn6LEN7DvmeRov72YW6IaySM/s1600/n_10.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh95drAVcJDqg6EB_XXi1S_N47ACn3RP-92OjSJuGBwQbF4KxM2-B_AbpU0WC4Ya80_ubmUisn4yjbhgnM3En4LeTMgrrSxBony0MJTx4A6p0W51-rLl9cdn6LEN7DvmeRov72YW6IaySM/s1600/n_10.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+This statement says that the sequence, mod 10, will repeat itself every 10th term - so its period must be a divisor of 10 in order for this to happen, which means its period must be 1, 2, 5 or 10.&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style="background-color: white;"&gt;One way to see this true is to consider any term &amp;nbsp;in the sum that defines &lt;/span&gt;&lt;span style="background-color: white;"&gt;&lt;i&gt;a_n&lt;/i&gt;&lt;/span&gt;&lt;span style="background-color: white;"&gt;, and verify that when you sub in &lt;/span&gt;&lt;i style="background-color: white;"&gt;n &lt;/i&gt;&lt;span style="background-color: white;"&gt;+10, you'll get something that is congruent to &lt;/span&gt;&lt;i style="background-color: white;"&gt;n&lt;/i&gt;&lt;span style="background-color: white;"&gt;, modulo 10. This just requires &lt;/span&gt;&lt;a href="http://en.wikipedia.org/wiki/Binomial_theorem" style="background-color: white;"&gt;ye-olde binomial theorem&lt;/a&gt;:&lt;span style="background-color: white;"&gt;&amp;nbsp;all terms in the expansion except for one are congruent to zero mod 10 and just vanish:&lt;/span&gt;&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJCpBcxOnzW-YkF7p5ctRqahUXJTX14pOPWjzSWxKTmGAO60X7PSNh21n5nON7DlOizwQUxjkTet3KCprVkbGvcjth1WUndQrNaGkVP3IHVwn8ftQzhATvE9iT_Zu74cpRgnI_5CiOljk/s1600/binomial.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJCpBcxOnzW-YkF7p5ctRqahUXJTX14pOPWjzSWxKTmGAO60X7PSNh21n5nON7DlOizwQUxjkTet3KCprVkbGvcjth1WUndQrNaGkVP3IHVwn8ftQzhATvE9iT_Zu74cpRgnI_5CiOljk/s1600/binomial.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+These sequences sometimes also have nice symmetry in their last-digit sequences. When this&amp;nbsp;symmetry&amp;nbsp;happens you are able to find some value &lt;i&gt;k&lt;/i&gt; where:&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjV2-RTMxC_YaXh4WxSbluThs0PHaJ7vm8x044OPEyK7L6of8m89ZiuFLPSiT8nsZ9aUUU9dIio5rW9alBFkIxeMJRo6j9NXf9aZBo3ilGVRMeByCZ3PXJJXOIGnITWiykzPAYDfoMTcYw/s1600/symmetry.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjV2-RTMxC_YaXh4WxSbluThs0PHaJ7vm8x044OPEyK7L6of8m89ZiuFLPSiT8nsZ9aUUU9dIio5rW9alBFkIxeMJRo6j9NXf9aZBo3ilGVRMeByCZ3PXJJXOIGnITWiykzPAYDfoMTcYw/s1600/symmetry.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+The value of &lt;i&gt;k&lt;/i&gt;/2 provides you with an axis of symmetry for your sequence. For example, the first sequence shown above,&amp;nbsp;&lt;i&gt;a_n = n&lt;/i&gt;&lt;span style="background-color: white;"&gt;^2&lt;/span&gt;&lt;i&gt;&amp;nbsp;-n +&lt;/i&gt;&lt;span style="background-color: white;"&gt;1,&lt;/span&gt;&lt;span style="background-color: white;"&gt;&amp;nbsp;(this sequence is "Hogben's central polygonal numbers," mentioned &lt;/span&gt;&lt;a href="http://www.mathrecreation.com/2011/06/sequences-on-spiral.html" style="background-color: white;"&gt;here&lt;/a&gt;&lt;span style="background-color: white;"&gt;), there is a symmetry at &lt;i&gt;n&amp;nbsp;&lt;/i&gt;= 3, so our &lt;i&gt;k&lt;/i&gt; is 6.&lt;/span&gt;&lt;br /&gt;
+&lt;span style="background-color: white;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxeB67pzR1CLUy-wfZlmHgZNxEYspFXQ4tFg53CSlC7ZzMkeGAzbCNVwAguGOdthMQswy_Be2MUC-85AP_4CYLstISGgArDJQimzmete8X0_700VumEgOh5fMsj5b7QsfejKkt_4G0Akk/s1600/3-symmetry2.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxeB67pzR1CLUy-wfZlmHgZNxEYspFXQ4tFg53CSlC7ZzMkeGAzbCNVwAguGOdthMQswy_Be2MUC-85AP_4CYLstISGgArDJQimzmete8X0_700VumEgOh5fMsj5b7QsfejKkt_4G0Akk/s1600/3-symmetry2.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;span style="background-color: white;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+Here's another similar observation about these kinds of sequences (those generated by polynomials with Integer coefficients) - their terms are either always even, always odd, or alternate between even and odd values (e.g. you won't get a sequence that goes "even, even, odd, .." or some combination other than the three possibilities mentioned). Can you see how you can show that this is true using similar arguments to the ones used here for last-digits?&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2012-06-22T17:57:54.319Z</blogger:created>
+    <published>2012-06-24T19:51:00.001Z</published>
+    <updated>2012-06-24T19:59:39.547Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='mathematics'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <blogger:filename>/2012/06/last-digit-sequences.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

@@ -1,0 +1,27 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-6918640269729609476</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>DRAFT</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>knot features from grid diagrams</title>
+    <content type='html'>One way to draw knots in the celtic style is to use a grid based method, described here and here. You can do this by hand, or you can write a program that converts grid diagrams into knots, like this one here.&lt;br /&gt;
+&lt;br /&gt;
+Drawing the knot pattern from the grid is an algorithmic process, but so too is reading off some of the features of the knot from the grid pattern. For example, just from the size and connections on the grid, we can find things like:&lt;br /&gt;
+- how many spaces are formed between the strands of the knot pattern?&lt;br /&gt;
+- how many times does the pattern cross over itself?&lt;br /&gt;
+- how many closed loops are formed by the pattern?&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2018-10-15T17:35:19.971Z</blogger:created>
+    <published>2018-10-15T17:41:00.002Z</published>
+    <updated>2018-10-15T17:41:26.510Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2018/10/knot-features-from-grid-diagrams.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

@@ -1,0 +1,33 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-4940337293465205859</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>mazes and labyrinths</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhikTLetDOTlhEV5xpD9beoJ17Q6sbMjVE-ilZGMOFnCGNKd0AMta1j1dsKM_L5De2RwSb-9ZFMA-nTFbUREDgHT9X6V4tZ6Fee50ZOU-jsg5x-1NhE5hr9jT7Rji0M8O2Zyli9zpcbm9U/s1600/lab1.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="198" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhikTLetDOTlhEV5xpD9beoJ17Q6sbMjVE-ilZGMOFnCGNKd0AMta1j1dsKM_L5De2RwSb-9ZFMA-nTFbUREDgHT9X6V4tZ6Fee50ZOU-jsg5x-1NhE5hr9jT7Rji0M8O2Zyli9zpcbm9U/s200/lab1.jpg" width="200" /&gt;&lt;/a&gt;&lt;/div&gt;One of the not-so-subtly-pagen rituals of autumn that seems to be gaining popularity is&amp;nbsp;labyrinth&amp;nbsp;walking. Walking around in circles,&amp;nbsp;preferably&amp;nbsp;by&amp;nbsp;candlelight, has been &lt;i&gt;de rigueur&lt;/i&gt; &lt;a href="http://walkingcircles.wordpress.com/2009/10/21/5th-annual-mckellar-park-candlelight-labyrinth/"&gt;around here for a few years&lt;/a&gt; at local fall festivals.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div&gt;&lt;div&gt;Maze-walking generally stands in stark contrast to this seemingly-closely related&amp;nbsp;labyrinthine&amp;nbsp;activity. For most people, to say that maze-walking is less soothing than&amp;nbsp;labyrinth&amp;nbsp;walking is an under-statement: instead of a growing sense of calm and mental stillness, you get a rising sense of panic and an increase in muttering. When going through a bunch of outdoor mazes a short while ago (right &lt;a href="http://www.saundersfarm.com/pages/SF_PARK_SITE/maze.htm"&gt;here&lt;/a&gt;!) I tried out a suggestion that Marcus du Sautoy casually mentioned in "&lt;a href="http://www.open2.net/storyofmaths/"&gt;The Story of Maths&lt;/a&gt;" (I think it was in the last episode): if you walk through the maze ensuring that your right hand is always touching a wall, you are sure to complete it (if there is a way to do so). It turns out that this is actually the standard algorithm for traversing a maze (it's in &lt;a href="http://en.wikipedia.org/wiki/Maze_solving_algorithm"&gt;wikipedia&lt;/a&gt;, innit?)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div&gt;The technique worked well, but the kids were a bit&amp;nbsp;disappointed. When you say you have a method of solving a maze, those not used to the ways of math or computer science assume that it will somehow magically allow you to proceed by the shortest route through the maze avoiding every dead-end.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div&gt;Instead, the right hand rule will lead you into every dead-end in your path, but following it ensures that eventually you worm your way out, and that you do not get lost second-guessing yourself (sounds like your typical computational approach). Following a rule to get through the maze transforms it into a&amp;nbsp;labyrinth&amp;nbsp;- you know that you will reach your goal and you can allow yourself to become lost in the process. Maze-walking in this way provides an example of how being mindful of the opportunities to apply algorithms allows you to become calm and meditative in even the most stress-inducing situations.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div&gt;On a related note, a nice mathy way to draw a simple&amp;nbsp;labyrinth&amp;nbsp;is to start with a series of concentric circles. Draw a line segment from the innermost circle to a point on the outermost circle, such that the segment is tangent to the innermost circle. Then break each circle on&amp;nbsp;alternate&amp;nbsp;sides of the line segment to form a path.&lt;br /&gt;
+&lt;br /&gt;
+&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEim315TMDuWkPDmi5cJYoiNVuWi-5SVmmojN_qObiMZQqm5GwVXpUOxrj3z-J7UO3Dh3gIMreLVyJkpytX1wNCTWfXS1j1_kUK2Iwx6CbvrR5f6AwtRsyjs-Jl0_ghpBvnyS1vJFybGhF0/s1600/lab123.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="295" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEim315TMDuWkPDmi5cJYoiNVuWi-5SVmmojN_qObiMZQqm5GwVXpUOxrj3z-J7UO3Dh3gIMreLVyJkpytX1wNCTWfXS1j1_kUK2Iwx6CbvrR5f6AwtRsyjs-Jl0_ghpBvnyS1vJFybGhF0/s320/lab123.jpg" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;br /&gt;
+&lt;div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div&gt;&lt;br /&gt;
+&lt;/div&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2010-09-28T02:32:37.484Z</blogger:created>
+    <published>2010-09-28T02:32:00.001Z</published>
+    <updated>2011-09-11T01:54:19.370Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='spirals'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <blogger:filename>/2010/09/mazes-and-labyrinths.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

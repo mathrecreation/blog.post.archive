@@ -1,0 +1,70 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-7675511198746526059</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Mathematical Chessboard Puzzles</title>
+    <content type='html'>&lt;a href="https://en.wikipedia.org/wiki/Chess_problem"&gt;Chess problems&lt;/a&gt; are compositions where a set of pieces are arranged as if in a game and a specific goal is set - the problem is to determine how to get from the arrangement to the end goal. An interesting variation on the traditional chess problem are the &lt;a href="https://en.wikipedia.org/wiki/Retrograde_analysis"&gt;retrograde analysis&lt;/a&gt; chess problems of &lt;a href="https://en.wikipedia.org/wiki/Raymond_Smullyan"&gt;Raymond Smullyan&lt;/a&gt;, where instead of a goal being set, a question is asked about the conditions that may have lead to the arrangement (a backwards looking problem, rather than the traditional forwards looking type). &lt;a href="https://en.wikipedia.org/wiki/Mathematical_chess_problem"&gt;Mathematical chessboard problems&lt;/a&gt; are completely different than these traditional chess problems, and bear little connection to the actual game of chess - they are more concerned with the structure of how particular pieces can move on the board, and ask questions about how a single piece can move about the board, or about what positions are reachable by collections of the same type of piece. These problems are questions in &lt;a href="https://en.wikipedia.org/wiki/Graph_theory"&gt;graph theory&lt;/a&gt; in (thin) disguise, and have attracted the attention of both professional and recreational mathematicians.&lt;br /&gt;
+&lt;br /&gt;
+A useful and very readable guide to mathematical chessboard problems is&amp;nbsp;&lt;a href="https://press.princeton.edu/titles/7714.html"&gt;Across the Board&lt;/a&gt;, by John J. Watkins. I’ve been playing around with &lt;a href="http://www.mathrecreation.com/2016/12/life-lessons-from-knights-tour.html"&gt;knight&lt;/a&gt; &lt;a href="http://www.mathrecreation.com/2011/09/punctured-knights-tours.html"&gt;tours&lt;/a&gt; for a &lt;a href="http://www.mathrecreation.com/2017/01/build-your-own-knights-tour.html"&gt;few&lt;/a&gt; &lt;a href="http://www.mathrecreation.com/2011/03/knight-moves.html"&gt;years&lt;/a&gt;, and since picking up this book a while back, I have been returning to it again and again to learn new and interesting things about them. Although I had heard about other mathematical chessboard problems, like the eight queens problem, &lt;i&gt;Across the Board &lt;/i&gt;introduced me to the general category of chess independence and domination problems and encouraged me to learn more about them.&lt;br /&gt;
+&lt;br /&gt;
+A group of chess pieces of the same type is said to &lt;b&gt;dominate&lt;/b&gt; a board if every square is either occupied or a neighbour (reachable in one move) of an occupied square. A group of chess pieces of the same type is said to be &lt;b&gt;independent&lt;/b&gt; if no piece is a neighbour of any other piece. Domination (sometimes called covering) problems are, generally, to find a minimal dominating set, for example, the smallest number of queens required to dominate a board. Independence (or un-guarding) problems generally require you to find a maximal set of pieces that can be placed and remain independent; the greatest number of knights, for example, that can be placed so that no knight attacks another.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_U16gwGaoQ3uHQJKoI562ADF7W-hWwr3OwG6i_odk1zW2M1ojwZZvXXz-UdjIRpv4iWE9VTMadtTJH4H4SRORqFF_eqFX5s3MijwXKGXGIZHUEgetuKeT_0AVozWo-IhZiSJ5eS8j0r0/s1600/uninteresting.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="187" data-original-width="357" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_U16gwGaoQ3uHQJKoI562ADF7W-hWwr3OwG6i_odk1zW2M1ojwZZvXXz-UdjIRpv4iWE9VTMadtTJH4H4SRORqFF_eqFX5s3MijwXKGXGIZHUEgetuKeT_0AVozWo-IhZiSJ5eS8j0r0/s1600/uninteresting.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;Uninteresting examples of dominating queens and independent knights.&lt;/i&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;&lt;/i&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;A minimal dominating set and a maximal independent set would be more interesting&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+As part of working through &lt;i&gt;Across the Board&lt;/i&gt; and understanding chess domination and independence, I tried to create an interactive ‘mathematical chessboard puzzle’ set (&lt;a href="https://dmackinnon1.github.io/chessdom/puzzles.html"&gt;try it out here&lt;/a&gt;). Here is a screenshot example:
+
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig1bqWl_4vENCaWA9DVhZiywZUHYP1JRo4dGctK8Vk6Dj0QKOB0K4xmzvqgJTOxjL91qiwf78ZYTKusTvoviUL8sJWUsnm507A4-rhR38BNGgH_Sc0O9U7lRWO4B6sEjNolnybwN7rbf8/s1600/puzzle_example.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="656" data-original-width="365" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig1bqWl_4vENCaWA9DVhZiywZUHYP1JRo4dGctK8Vk6Dj0QKOB0K4xmzvqgJTOxjL91qiwf78ZYTKusTvoviUL8sJWUsnm507A4-rhR38BNGgH_Sc0O9U7lRWO4B6sEjNolnybwN7rbf8/s1600/puzzle_example.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;An example puzzle from the &lt;a href="https://dmackinnon1.github.io/chessdom/puzzles.html"&gt;online set&lt;/a&gt;.&lt;br /&gt;&amp;nbsp;The solver is not off to a good start.&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+What is the difference between a mathematical chessboard &lt;i&gt;problem&lt;/i&gt; and a mathematical chessboard &lt;i&gt;puzzle&lt;/i&gt;? When considering the &lt;i&gt;problem&lt;/i&gt; of queens independence, we would expect a serious treatment: a solution which finds the maximum number of independent queens for boards up to a certain size, an algorithm or method for generating maximal independent arrangements, and for some cases that remain unsolved by methods provided, some way of placing bounds on the independence number. A &lt;i&gt;puzzle&lt;/i&gt; based on the idea of queens independence is a much simpler thing: merely an instruction like “Find a way to place 8 queens on an 8x8 board so that the board is dominated and the queens are independent.” &lt;i&gt;Across the Board&lt;/i&gt; provides a great survey of results that mathematicians have used in tackling the problems of finding dominating sets, independent sets, and tours. The rest of this post is about puzzles (like the example above) that are generated from those results.&lt;br /&gt;
+&lt;br /&gt;
+In puzzles inspired by the problems of domination and independence, we want to ask the solver to come up with arrangements of pieces of a single type, constrained so that the pieces either dominate the board, are independent, or both. 
+
+
+Recall that the domination problem is looking for a minimum number of pieces required to cover the board (either by placement or by attack), while the independence problem is looking for a maximum number of pieces that can be placed independently. For example, for queens on a 5x5 board, the domination number is 3, but the independence number is 5. So for queens on a 5x5 board, our puzzles will require placements of sets ranging from 3 to 5 queens.&lt;br /&gt;
+&lt;br /&gt;
+There is an asymmetry between domination and independence that we have to keep in mind: A solution to the domination problem might not be independent, but the maximal independent set will always be dominating. The example of 3 queens on the 5x5 board shows that you cannot always make your dominating set independent. On the other hand, a maximal independent set will always dominate: if the set does not dominate the board, that means there is a square that cannot be attacked by any of the current pieces - you can therefore add one more piece to the board at that spot, contradicting the fact that you already had a maximal independent set.&lt;br /&gt;
+&lt;br /&gt;
+For our puzzles, we’ll just consider boards from 4x4 to 8x8 (so that they fit reasonably on the screen). In the table below, the lowest number in each cell represents the domination number for that piece on the given board size, and the largest represents the independence number. The letters next to each number indicate whether the set of that size should be said to be independent (i)  and/ or dominant (d) - some of this information is redundant, but all indicators are included for completeness. The numbers between the least and greatest represents other  possible arrangements. For example, for queens on a 4x4 board, the domination number is 2 (dominant set is not independent in this case), and the independence number is 4, but it is possible to find a dominating independent set of size 3, giving us the entries 2d, 3di, and 4di.
+
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjt11vIYmBwHqHGbHX7q9xHmkfhpRmG3kQ8e3GWMtCy3wiRQHQbbUS3fpXh0F99MZO2o1CkeWxR3xs8tM9eBS5-1hBOVxgZUxRv3TrOlKz_jxxwwMRWqT9W176OKRbC1BmUvOHDHzCi-Y4/s1600/table_of_puzzles.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="531" data-original-width="375" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjt11vIYmBwHqHGbHX7q9xHmkfhpRmG3kQ8e3GWMtCy3wiRQHQbbUS3fpXh0F99MZO2o1CkeWxR3xs8tM9eBS5-1hBOVxgZUxRv3TrOlKz_jxxwwMRWqT9W176OKRbC1BmUvOHDHzCi-Y4/s1600/table_of_puzzles.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+The independence and domination numbers in the table above are from the results described in &lt;i&gt;Across&lt;/i&gt;&amp;nbsp;&lt;i&gt;the Board; &lt;/i&gt;the values between were found looking at the solutions for either domination or independence and perturbing them slightly. For example, to fill in the values for queens on an &amp;nbsp;8x8 board, start with one of the solutions to the queens domination problem for 8x8, which consists of an arrangement of 5 pieces, and move one of the pieces to a reachable square with fewer neighbours, and fill in the gaps with additional pieces. Proceeding by trial and error, this leads to dominating independent sets of 6 and 7 pieces. Finding additional dominating and independent sets for knights is a little more challenging than others - there are some gaps in the table (maybe you can fill them). Most of these possible puzzles were written out in a format for displaying online, which you can view &lt;a href="https://dmackinnon1.github.io/chessdom/data/puzzles.json"&gt;here&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+If you interested in exploring the mathematical chessboard problems through the playful medium of chessboard puzzles, please give &lt;a href="https://dmackinnon1.github.io/chessdom/puzzles.html"&gt;these a try&lt;/a&gt;; if you are interested in learning more about the mathematics behind these puzzles, check out &lt;a href="https://press.princeton.edu/titles/7714.html"&gt;Across the Board&lt;/a&gt;.&lt;/div&gt;
+&lt;i&gt;&lt;br /&gt;&lt;/i&gt;
+&lt;i&gt;domination and independence puzzles: &lt;a href="https://dmackinnon1.github.io/chessdom/puzzles.html"&gt;https://dmackinnon1.github.io/chessdom/puzzles.html&lt;/a&gt;&lt;/i&gt;
+&lt;br /&gt;
+&lt;i&gt;chess tour puzzles: &lt;a href="https://dmackinnon1.github.io/kixote/"&gt;https://dmackinnon1.github.io/kixote/&lt;/a&gt;&lt;/i&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href="http://www.mathrecreation.com/2018/04/some-chessboard-puzzle-solutions.html"&gt;&lt;i&gt;some puzzle solutions&lt;/i&gt;&lt;/a&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2018-04-24T19:59:32.931Z</blogger:created>
+    <published>2018-04-24T20:58:00.001Z</published>
+    <updated>2018-05-01T21:30:28.549Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2018/04/mathematical-chessboard-puzzles.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

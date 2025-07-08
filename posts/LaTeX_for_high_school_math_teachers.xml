@@ -1,0 +1,36 @@
+<>
+  <entry>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-2937129566300817175</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>LaTeX for high school math teachers</title>
+    <content type='html'>&lt;blockquote class="tr_bq"&gt;
+&lt;i&gt;&lt;b&gt;TLDR&lt;/b&gt;: Please check out the &lt;a href="https://dmackinnon1.github.io/LaTeX101/"&gt;online workshop&lt;/a&gt; I am developing for high school math teachers who want to learn about LaTeX. That this community needs&amp;nbsp; something like LaTeX raises questions about teaching and learning math in online situations.&lt;/i&gt;&lt;/blockquote&gt;
+I have been using LaTeX a lot recently, but not in the way I first used it a long time ago when writing my master's thesis. (&lt;i&gt;Not sure what LaTeX is? Check out the first module of the online workshop &lt;a href="https://dmackinnon1.github.io/LaTeX101/module0.html"&gt;here&lt;/a&gt;.&lt;/i&gt;)&lt;br /&gt;
+&lt;br /&gt;
+Now I am using it daily to provide feedback to students in the LMS that I teach an online course in (&lt;a href="https://www.d2l.com/"&gt;Brightspace&lt;/a&gt;), include bits of math on &lt;a href="https://dmackinnon1.github.io/polygrid/"&gt;webpages&lt;/a&gt;, and &lt;a href="http://www.notuom.com/google-docs-equation-shortcuts.html"&gt;avoid the Google Docs equation editor&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+With the inclusion of little bits of LaTeX in various digital platforms, the availability of cloud-based authoring systems like &lt;a href="https://www.overleaf.com/"&gt;Overleaf&lt;/a&gt;, and the ability to include LaTeX on any webpage with &lt;a href="https://www.mathjax.org/"&gt;MathJaX&lt;/a&gt;, LaTeX seems everywhere these days (once you start looking). It's not just the &lt;a href="https://psmag.com/social-justice/theres-a-name-for-that-the-baader-meinhof-phenomenon-59670"&gt;Baader-Meinhof phenomenon&lt;/a&gt; - the ubiquity of LaTeX is real, and a response to important problem with teaching and learning mathematics on digital platforms.&lt;br /&gt;
+&lt;br /&gt;
+With the increasing use of digital technology and online learning in secondary schools, knowing a little bit of LaTeX can&amp;nbsp; help high school math teachers communicate effectively with both students and colleagues. Most LaTeX resources are aimed at researchers and grad students, and are not focused on the use of LaTex in these new situations. So, I am working on an short &lt;a href="https://dmackinnon1.github.io/LaTeX101/"&gt;online "Introduction to LaTeX" workshop&lt;/a&gt;&amp;nbsp; for high school math teachers that focuses on the more on the specific uses that matter to them (please take a look, any feedback is appreciated).&lt;br /&gt;
+&lt;br /&gt;
+LaTeX is great, but finding ways to get equations into documents do not address the essential challenges that these digital platforms raise for teaching and learning. High school teachers once used hand-written overheads, drew on blackboards, and scribbled in notebooks - now we share discussion posts, emails, and send documents back and forth in our LMSs. In these new digital forums, how do we show messy "live" examples of doing mathematics, rather than presenting an overly polished finished product?&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiG6oM_w0Egabcw2u-zneiKZ2RvXAR-GGlcyt0wuWec248nMeZOrEUMay9bTVN4sHVj_7LJkxfLXRYYc6KHiZKmni3dD9T1QQOVf4fpOfikddhe1qfFWk8c7d0xhcubvSp-FJ-Yb17vDlQ/s1600/latex_ecosystem.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="242" data-original-width="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiG6oM_w0Egabcw2u-zneiKZ2RvXAR-GGlcyt0wuWec248nMeZOrEUMay9bTVN4sHVj_7LJkxfLXRYYc6KHiZKmni3dD9T1QQOVf4fpOfikddhe1qfFWk8c7d0xhcubvSp-FJ-Yb17vDlQ/s1600/latex_ecosystem.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2019-04-15T19:26:49.592Z</blogger:created>
+    <published>2019-04-15T20:08:00.003Z</published>
+    <updated>2019-04-15T20:08:54.625Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2019/04/latex-for-high-school-math-teachers.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

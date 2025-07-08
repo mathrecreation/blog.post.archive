@@ -1,0 +1,106 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-3729615165080899152</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Monty R and Monty n</title>
+    <content type='html'>As part of my ongoing attempt to learn the &lt;a href="https://www.r-project.org/"&gt;R language&lt;/a&gt;, I decided to try to generate a data set to analyze in R using R itself. I wrote a &amp;nbsp;little R script which generates simulated data for a thousand trials of the "Monty Hall" problem. The script is &lt;a href="https://raw.githubusercontent.com/dmackinnon1/r_examples/master/monty_hall.r"&gt;here&lt;/a&gt;, along with other &lt;a href="https://github.com/dmackinnon1/r_examples"&gt;R examples&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+If you source the script, a data frame &lt;b&gt;MontyHall&lt;/b&gt; will be populated. The data is re-generated each time you source the script, so if you want to capture a single run, you should export the data and work from that (a saved example run is &lt;a href="https://raw.githubusercontent.com/dmackinnon1/r_examples/master/montyHall.june_6_2016.csv"&gt;here&lt;/a&gt;, and contains the data &amp;nbsp;I used in this post).&lt;br /&gt;
+&lt;blockquote class="tr_bq"&gt;
+&lt;i&gt;In the classical Monty Hall problem, a game show host, named Monty Hall, presents a contestant with three (3) doors. Behind one of the doors is a valuable prize, traditionally a car, while behind the others are dud prizes, traditionally goats. A game proceeds with the contestant selecting a door and keeping the prize that lies behind it (hoping for the actual prize, not a dud). However, instead of opening the selected door, Monty opens one of the other two doors, revealing a goat, and asks if the contestant would like to switch and select the remaining door instead. The problem asks which choice has the higher probability of revealing the actual prize, or whether both options have the same probability of achieving the hoped-for outcome.&lt;/i&gt;&lt;/blockquote&gt;
+In this simulation, we have the contestant choosing to switch half of the time, hopefully generating enough cases so that the experimental probabilities (from the simulation) match up with the theoretical probabilities that we can come up with by analyzing the problem. (You can increase the number of trials by modifying the script).&lt;br /&gt;
+&lt;br /&gt;
+The simulation gives us a data set that looks like this.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgF7p-W3kGCDNHsUXl464lm-51oAnsQx8qILf1cNMCYcB9zlR4RA8q4jwPtexWjqakjR-4TRBdIskIMb_-Hh6XewM8cQakjQijpkeS9BG6oN5PIVbiyKEI-dfhMEGymO56SWEk-aDcktwY/s1600/monty_dataframe.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="131" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgF7p-W3kGCDNHsUXl464lm-51oAnsQx8qILf1cNMCYcB9zlR4RA8q4jwPtexWjqakjR-4TRBdIskIMb_-Hh6XewM8cQakjQijpkeS9BG6oN5PIVbiyKEI-dfhMEGymO56SWEk-aDcktwY/s400/monty_dataframe.PNG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Our simulation has the probability of switching set to 1/2, as if we were basing our decision on the flip of a fair coin.&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxsCvgx73JihDMyF5TUEt8gDPMJztSZABlCEwQ9asMjbl9nVZMsRi-vNKc3kFqUYEWbaK-M_co3XKBtSU2CqOKWYyBjsQueGe0NYDpz_sPodGzlfET2RPnY5FgMm-iPXfpNthPWf-US_4/s1600/ps.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxsCvgx73JihDMyF5TUEt8gDPMJztSZABlCEwQ9asMjbl9nVZMsRi-vNKc3kFqUYEWbaK-M_co3XKBtSU2CqOKWYyBjsQueGe0NYDpz_sPodGzlfET2RPnY5FgMm-iPXfpNthPWf-US_4/s1600/ps.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+We can see that our simulation is pretty close:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjU_n8Q0gIbfIjKh9k5TE40KZW272fVRmNbRBhX-QSmIgcndkRPALMewTPfy0mH6dnPFyghG6d230LDRwJixdHLd1dlGROFuKu6sBs5PcFLfuFvy89w2TPj7hgz_J3xnRtrJMwGGQIBaUM/s1600/ps_r.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjU_n8Q0gIbfIjKh9k5TE40KZW272fVRmNbRBhX-QSmIgcndkRPALMewTPfy0mH6dnPFyghG6d230LDRwJixdHLd1dlGROFuKu6sBs5PcFLfuFvy89w2TPj7hgz_J3xnRtrJMwGGQIBaUM/s1600/ps_r.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+We would expect that the probability of the contestant selecting the winning door right away would be 1/3, and this is what we see in the simulation.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhV6qyo5niPH0sO1R1SPkrW5g1aM6d-IHJYCaMya-f1ce9_NXQQs5bBhd4PpXb29nYLudzM8X_PQl5cIQKCMdzXM5QJehJwSKnYvx9v_WYaBX8zD0xkL6u39sh8HeVqZ7D0r2v8vMJgWOA/s1600/selected_winner_r.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhV6qyo5niPH0sO1R1SPkrW5g1aM6d-IHJYCaMya-f1ce9_NXQQs5bBhd4PpXb29nYLudzM8X_PQl5cIQKCMdzXM5QJehJwSKnYvx9v_WYaBX8zD0xkL6u39sh8HeVqZ7D0r2v8vMJgWOA/s1600/selected_winner_r.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+All that this tells us is that R is generating random numbers in a reasonable enough way for our purposes. What makes the Monty Hall problem interesting are the probabilities of winning when the contestant switches doors, compared to when they don't switch.&lt;br /&gt;
+&lt;br /&gt;
+If the contestant does not switch, their chance of winning is the same as their chance of selecting the prize right away, which is just 1/3.&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNWmwWzi7RTgKwCaa6_uqAsb-eXC6u3qSHCPXE414EVq0sbJMpDwVC_IFH6gTykeql3aR2rr6QS6u92X_IZq2bHpAfEX5qXh0Ee3_QR6aOQIZVqt0KLonF4Kuyb2UAKvkFpn7x2rD60Sg/s1600/pwns.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNWmwWzi7RTgKwCaa6_uqAsb-eXC6u3qSHCPXE414EVq0sbJMpDwVC_IFH6gTykeql3aR2rr6QS6u92X_IZq2bHpAfEX5qXh0Ee3_QR6aOQIZVqt0KLonF4Kuyb2UAKvkFpn7x2rD60Sg/s1600/pwns.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+This is not the result that some people expect (some argue that the chance of &amp;nbsp;winning when staying with the original selection should be 1/2), but the simulation agrees:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj42lzrKRJcJ0v4Mf6gSzLswPH4G-p0PmsR-TiSwL-GDq__1yLOLuKo82igyCy4Tx3a7b3ajd9dY4s_jL2Go7vQThzCHYj1eB6jdlIDYeWwzHrVmiyS2u9xKJd4fUxLBYzip0w-nbAq39k/s1600/pwns_r.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="70" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj42lzrKRJcJ0v4Mf6gSzLswPH4G-p0PmsR-TiSwL-GDq__1yLOLuKo82igyCy4Tx3a7b3ajd9dY4s_jL2Go7vQThzCHYj1eB6jdlIDYeWwzHrVmiyS2u9xKJd4fUxLBYzip0w-nbAq39k/s400/pwns_r.PNG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+When the contestant makes their initial selection , they have either won or lost. Switching amounts to trading a win for a loss: if the contestant has picked the winner, they have now switched away from it; if they have picked a looser (one of the goats), when Monty opens the other door (revealing the other goat), switching will cause them to win. So, switching amounts to trading a win for a loss or a loss for a win. Because the probability of losing on the initial door selection is 2/3, it is a good idea to switch: the first choice was likely a goat.&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQOdbSlYl4p2CCr307MGXGxbyKb5OMzckQ-8u75Ms24BoIIhMFBQDRnZN5LRa3_oVPijCJkeJL5_2sDkMU7mYHi9vx4ndxTm1kVV0eFTcZoHkDXyioPnR3J55q7Jn0ni5_OB5K3ZfEFoA/s1600/pws.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQOdbSlYl4p2CCr307MGXGxbyKb5OMzckQ-8u75Ms24BoIIhMFBQDRnZN5LRa3_oVPijCJkeJL5_2sDkMU7mYHi9vx4ndxTm1kVV0eFTcZoHkDXyioPnR3J55q7Jn0ni5_OB5K3ZfEFoA/s1600/pws.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+And the simulation agrees:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiG_iij2Z4foCvUuTtJvyOJ5CnZFnWLqd0rhfofmYUrDKAu_lFObZCD-YBy_y1zgPlAN2dZ0oNP2MGPKvtxHLmIlQ2v53Ni12CYSzX-pCvNbNPagWPG3eVzQ8LkmPeXUxQwQu3Gd3H2O2M/s1600/pws_r.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="78" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiG_iij2Z4foCvUuTtJvyOJ5CnZFnWLqd0rhfofmYUrDKAu_lFObZCD-YBy_y1zgPlAN2dZ0oNP2MGPKvtxHLmIlQ2v53Ni12CYSzX-pCvNbNPagWPG3eVzQ8LkmPeXUxQwQu3Gd3H2O2M/s400/pws_r.PNG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+What about if we pursue the strategy of the imaginary contestant in our simulation, and flip a coin to decide whether we switch doors or stay with the original choice? The law of total probability tells us that we have a probability of winning equal to 1/2.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJE7qaGZIhD9Wq0S0T3jn75ITun9qDrY3yImAhB-pzSyOVTMxeKiCxN0a1I3ZycWt-6s8Z2Zwek_eQR-RFcgl4PmuWvjrtxQS0jES4OYB8VdyUkZFhXzEwBCudhzN6ru1PhC1tvOKjXTY/s1600/pw.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJE7qaGZIhD9Wq0S0T3jn75ITun9qDrY3yImAhB-pzSyOVTMxeKiCxN0a1I3ZycWt-6s8Z2Zwek_eQR-RFcgl4PmuWvjrtxQS0jES4OYB8VdyUkZFhXzEwBCudhzN6ru1PhC1tvOKjXTY/s1600/pw.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+And in the simulation we come pretty close:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7Ar313an9XItMgfnOWrKKWM_w4BD50KoEHZLT1tW65CmJ-zn-nw5toBs73ZjsZTKyH1A3q3H7hFItn6u7gC9JaeN02gFux1Ea-NzXZRqyje7C1ebap0pLvfYo5n8_dxzn0Sx9m9J0yPk/s1600/pw_r.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7Ar313an9XItMgfnOWrKKWM_w4BD50KoEHZLT1tW65CmJ-zn-nw5toBs73ZjsZTKyH1A3q3H7hFItn6u7gC9JaeN02gFux1Ea-NzXZRqyje7C1ebap0pLvfYo5n8_dxzn0Sx9m9J0yPk/s1600/pw_r.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;span style="font-size: large;"&gt;Monty &lt;i&gt;n&lt;/i&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;i&gt;&lt;br /&gt;&lt;/i&gt;
+While writing up the R simulation, I wondered what would happen if the Monty Hall problem was generalized to &lt;i&gt;n&lt;/i&gt; doors so that Monty could keep on offering you more chances to switch. There are likely many ways of doing this, so I picked what I think is a simple generalization:&lt;br /&gt;
+&lt;br /&gt;
+&lt;blockquote class="tr_bq"&gt;
+Suppose that the contestant has &lt;i&gt;n&lt;/i&gt; doors to choose from where &lt;i&gt;n&lt;/i&gt; &amp;gt; 2. There is still only one (1) car (and &lt;i&gt;n-1&lt;/i&gt; goats). After a door is selected, Monty will always open a remaining door and provide the contestant with a chance to switch doors, as long &amp;nbsp;as there remain unopened doors that have not been previously selected by the contestant. Monty will not open doors that were previously chosen, nor will he give the contestant the opportunity to switch back to a previously chosen door.&lt;/blockquote&gt;
+&lt;br /&gt;
+I've put a short write up of this on &lt;a href="https://www.sharelatex.com/"&gt;&lt;i&gt;ShareLatex&lt;/i&gt;&lt;/a&gt;&amp;nbsp;&lt;a href="https://www.sharelatex.com/project/5785181b52b381376ddc447d"&gt;here&lt;/a&gt;. At least in the way that I've framed the problem, there is a nice formula for the probability of winning on &lt;i&gt;n&lt;/i&gt; doors if you switch &lt;i&gt;k&lt;/i&gt; times:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLu3saAHTMwxUlCD_5mhovelwdS2raT1HkL9LS7uLz0BPOkRNAAzleLB7nkdddKeza4Bp30T_2Kyb-hWZ4BR8u9RYxeZSl0vK_Wg7tAD0w8TkaG1cTkKTxbRHPxiCTjqXPLizYcHU5gbo/s1600/recursive_n_monty.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLu3saAHTMwxUlCD_5mhovelwdS2raT1HkL9LS7uLz0BPOkRNAAzleLB7nkdddKeza4Bp30T_2Kyb-hWZ4BR8u9RYxeZSl0vK_Wg7tAD0w8TkaG1cTkKTxbRHPxiCTjqXPLizYcHU5gbo/s1600/recursive_n_monty.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+Or if you prefer a direct formula instead of recursive:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmegJUPCMP-2rzvs8jnUyzSFJrnrIAbN-KUBBS-GNvkLieZjZb7FWAvHP7WzGi0vPByCIhPAPU10oWOs8sVQE5chyphenhyphenLtL7tZXKTTPUJl0dcBjHYnHTDGbGH70j553J5dFWywR0HQFBqNCo/s1600/direct_n_monty.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmegJUPCMP-2rzvs8jnUyzSFJrnrIAbN-KUBBS-GNvkLieZjZb7FWAvHP7WzGi0vPByCIhPAPU10oWOs8sVQE5chyphenhyphenLtL7tZXKTTPUJl0dcBjHYnHTDGbGH70j553J5dFWywR0HQFBqNCo/s1600/direct_n_monty.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;i&gt;&lt;br /&gt;&lt;/i&gt;
+If you work out some values using your preferred version of the formula, you should &amp;nbsp;get results that agree with these:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzapcesSjV9o7nhi5Sl0zgzyu0hrpP5DclmCL5Ko3qI4woiZEvsoUIa1iZx4MbSd4MOtS0uupEjJf-v5Q7i6h8RQ3K3A5L6Ws_MamqiSCy68aKx8Nie6WC_EqvxCeDTdkGkcAIgbva02M/s1600/some_values.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzapcesSjV9o7nhi5Sl0zgzyu0hrpP5DclmCL5Ko3qI4woiZEvsoUIa1iZx4MbSd4MOtS0uupEjJf-v5Q7i6h8RQ3K3A5L6Ws_MamqiSCy68aKx8Nie6WC_EqvxCeDTdkGkcAIgbva02M/s1600/some_values.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+From this, or from the formulas themselves, you can see that the probability of winning keeps increasing as long as you keep switching doors as long as Monty gives you the option to.&lt;br /&gt;
+&lt;br /&gt;
+I did not simulate the &lt;i&gt;n&lt;/i&gt; &amp;gt; 3 case using R, but I did write a general simulation using Java (a listing for this is included in the write up &lt;a href="https://www.sharelatex.com/project/5785181b52b381376ddc447d"&gt;here&lt;/a&gt;), and found that the simulation results agreed the the theoretical probabilities pretty closely (I have not carried out a detailed analysis of the results).&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2016-08-04T16:28:15.473Z</blogger:created>
+    <published>2016-08-12T20:17:00Z</published>
+    <updated>2016-08-12T20:17:07.891Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2016/08/monty-r-and-monty-n.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

@@ -1,0 +1,83 @@
+<>
+  <entry>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-8242893199380929077</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>knight moves</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgN99C8bG-yRIPH_arTofEXWpGptN-nsm8h89wNx9t-R3sKgheQoL_ErM92MLFH7ctw-MGQu-NgqIff8fagybEsa58BUB2ZHVoIMZ_s_v1XNojEzFQam1XfR0j4pyu0K3FJMD5BXx94yEk/s1600/Knights.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgN99C8bG-yRIPH_arTofEXWpGptN-nsm8h89wNx9t-R3sKgheQoL_ErM92MLFH7ctw-MGQu-NgqIff8fagybEsa58BUB2ZHVoIMZ_s_v1XNojEzFQam1XfR0j4pyu0K3FJMD5BXx94yEk/s1600/Knights.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+The &lt;a href="http://en.wikipedia.org/wiki/Knight_(chess)"&gt;Knight&lt;/a&gt; is Chess's most enigmatic piece. Its weird L-shaped movement might prompt beginners (like me) to ask questions like:&lt;br /&gt;
+&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;What is the smallest number of moves required for a knight to move to a horizontally or vertically adjacent square of opposite colour?&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;What is the smallest number of moves required for a knight to move to a diagonally adjacent square?&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;What is the smallest number of moves required for a knight to move from one corner (say A1) to the diagonally opposite one (say H8)?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;
+The diagram below shows the minimal number of moves a knight starting in the A1 corner takes to get to any other square.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjG6z0TriKVW49e4FnIcA1II1NnpCse-qiSHdd5dGCcHDNPUSKWzZy_3i5-Wu0T2rDChuHlkahXQEN6_9uGhKFyr3unkaA-2C5TGavgIFZFAWu6xeSVdTsB_OPBTrttH2Qfj9tsf9OpYpg/s1600/how_many_moves_from_A1.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="278" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjG6z0TriKVW49e4FnIcA1II1NnpCse-qiSHdd5dGCcHDNPUSKWzZy_3i5-Wu0T2rDChuHlkahXQEN6_9uGhKFyr3unkaA-2C5TGavgIFZFAWu6xeSVdTsB_OPBTrttH2Qfj9tsf9OpYpg/s320/how_many_moves_from_A1.jpg" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+Depending on where it is sitting on the chessboard, an unimpeded knight has a varying number of moves open to it (shown below).&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuvRERCBFGE70eS9vJCROcKVmkjJoGwoORf3QauF9qcjsQu0eh6_1Hvhjd_Ca0chKTa5XMnZNzt3UvIwa751-OCm6YE8LyFtpYGX5mHjXfORIxpVEzEjbQeUjuHvXD17-FjY-lrhr6pNw/s1600/moves_open_from_given_square.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuvRERCBFGE70eS9vJCROcKVmkjJoGwoORf3QauF9qcjsQu0eh6_1Hvhjd_Ca0chKTa5XMnZNzt3UvIwa751-OCm6YE8LyFtpYGX5mHjXfORIxpVEzEjbQeUjuHvXD17-FjY-lrhr6pNw/s1600/moves_open_from_given_square.jpg" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+Not surprisingly, knights are at their freest in the middle of the board, and most constricted in the corners. To get a sense of how a chessboard looks to a knight, you can draw lines between the squares that knights can jump between. Squares that lie next to each other on the board are not adjacent as far as the knight is concerned: to the knight, A1 and A2 are not adjacent (accessible in one move), but A1 and B3 are. To the knight, the chessboard looks like a graph like the ones shown below.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7ppXeCUrzIJ_l6Pt5JlmAA-FRsnLxO1o-HYBzov6_du_rf9WoN_Vym9OysCDuWSaCOkReEeZM2VZoqFNbELT_MUFN32kDAK9aVzL1cxX7sv-NWEq30p4Mo2Ye1flsJ8eKBuEQXj3T04Q/s1600/knightboardgraph_undirected1b.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="310" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7ppXeCUrzIJ_l6Pt5JlmAA-FRsnLxO1o-HYBzov6_du_rf9WoN_Vym9OysCDuWSaCOkReEeZM2VZoqFNbELT_MUFN32kDAK9aVzL1cxX7sv-NWEq30p4Mo2Ye1flsJ8eKBuEQXj3T04Q/s320/knightboardgraph_undirected1b.jpg" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiaAlW2MYO-Tya_FZfo7xAREjsnvVN0ZsFuRP2qN3RP5zSjEvyfZWBQSKKJTixnwHvpw4PSlcwCcKz9m-2Y8QAF1aqaLnNqJLjLV6csAUwQzVK7l8AVqIE_ahPkK_oyVaqeO5DT5Le0sk/s1600/knightboardgraph_undirected2.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="307" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiaAlW2MYO-Tya_FZfo7xAREjsnvVN0ZsFuRP2qN3RP5zSjEvyfZWBQSKKJTixnwHvpw4PSlcwCcKz9m-2Y8QAF1aqaLnNqJLjLV6csAUwQzVK7l8AVqIE_ahPkK_oyVaqeO5DT5Le0sk/s320/knightboardgraph_undirected2.jpg" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+For a standard board, the knight moves around on a graph with 64 vertices and 168 edges (it turns out that on an &lt;i&gt;n&lt;/i&gt; x &lt;i&gt;n&lt;/i&gt; board, the knight's graph has a number of edges equal to eight times the &lt;a href="http://mathrecreation.blogspot.com/2010/03/polygonal-wanderings.html"&gt;triangular number&lt;/a&gt; t_n). If a knight travels along this graph so that each vertex is touched once, it has performed a "knight's tour" - in general, a path like this is called &lt;a href="http://en.wikipedia.org/wiki/Hamiltonian_path"&gt;Hamiltonian&lt;/a&gt;. If the knight finally ends on a vertex that can reach the vertex it started on, then it has completed a closed tour, or a Hamiltonian circuit, otherwise it has completed an open tour.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizNkjWhO4FTstkcgaDrEzJ-QZBuNHy1YdLBS8-06RDADCuCQ7WzZ8xs1IReMgzYlwMxb_oQZzy-hiO7c3HMlc4V1LF12MqqBYp0b0QgF2fPMv9sQnCrfiENMETqDeK-_soMTYnvgmm9HA/s1600/a1_tours.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="187" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizNkjWhO4FTstkcgaDrEzJ-QZBuNHy1YdLBS8-06RDADCuCQ7WzZ8xs1IReMgzYlwMxb_oQZzy-hiO7c3HMlc4V1LF12MqqBYp0b0QgF2fPMv9sQnCrfiENMETqDeK-_soMTYnvgmm9HA/s400/a1_tours.jpg" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div&gt;
+These tours were found using Warnsdorff's algorithm (as it is described in &lt;a href="http://en.wikipedia.org/wiki/Knight's_tour"&gt;Wikipedia&lt;/a&gt;). This is a greedyish algorithm in which the knight always chooses to move to a square that has the least number of open neighbouring squares (where 'neighbours' are in the sense of the knight's graph). This technique does not always yield a tour (but it succeeds surprisingly often), and makes no distinction between open and closed tours. Here's a few more tours:&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-WabV23vY84yJn1bfECFrn8iY7s6dGnGyeikDTb5Z-q6g3GpdAlSxKzGOI5gtGWgR3UQYJZwgu8m59hZPi7lUfd464g2PKlVEJz2sO9pMPDNyZZTXUbkH1wkEmS3LXasjJeVlA16qgTE/s1600/more_tours.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="272" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-WabV23vY84yJn1bfECFrn8iY7s6dGnGyeikDTb5Z-q6g3GpdAlSxKzGOI5gtGWgR3UQYJZwgu8m59hZPi7lUfd464g2PKlVEJz2sO9pMPDNyZZTXUbkH1wkEmS3LXasjJeVlA16qgTE/s320/more_tours.jpg" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div&gt;
+Playing with this showed me an unlooked-for connection between origami and chess: Hamiltonian circuits give us knights tours and &lt;a href="http://mathrecreation.blogspot.com/2010/06/colored-phizz.html"&gt;proper colourings of modular origami models&lt;/a&gt; (using Sonobe or Phizz).&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2011-03-22T15:54:30.811Z</blogger:created>
+    <published>2011-03-22T18:36:00Z</published>
+    <updated>2011-09-11T02:00:01.130Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='chess'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <blogger:filename>/2011/03/knight-moves.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

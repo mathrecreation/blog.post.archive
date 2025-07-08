@@ -1,0 +1,58 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-5190059498241850516</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>liar-truther accusation graphs</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvIWkiORfqC98THVFNuNsrVVbbeQxhL37t-gvApRC6jqWuXyvn_TojqlB2Otau7-SjqVc2KvgcAcOmO9RDQ0Cs3UbS4b8J8zyBsJuS8xSKfW_OTcESrGsMKXEDUDcWEAZs-x4GZn46ntc/s1600/K_24_12.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="298" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvIWkiORfqC98THVFNuNsrVVbbeQxhL37t-gvApRC6jqWuXyvn_TojqlB2Otau7-SjqVc2KvgcAcOmO9RDQ0Cs3UbS4b8J8zyBsJuS8xSKfW_OTcESrGsMKXEDUDcWEAZs-x4GZn46ntc/s320/K_24_12.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+One of the puzzles concerning the island of liars and truthers (#2 in the &lt;a href="http://www.mathrecreation.com/2012/05/on-island-of-liars-and-truthers.html"&gt;first post about these problems&lt;/a&gt;) involved a bunch of islanders accusing each other of lying, leaving you to sort out who was telling the truth and who wasn't.&lt;br /&gt;
+&lt;br /&gt;
+I decided to present the solution in a truth table (in &lt;a href="http://www.mathrecreation.com/2012/05/return-to-island-of-liars-and-truthers.html"&gt;this post&lt;/a&gt;), but it turns out that for this kind of puzzle the answer is presented better (and found more easily) if you use a &lt;a href="http://en.wikipedia.org/wiki/Graph_(mathematics)"&gt;graph&lt;/a&gt;. For example, the graph at the top of the page (K_24,12) could represent 24 truthers, each accusing a group of 12 liars of lying - or it might be 12 truthers and 24 liars - it's hard to tell :).&lt;br /&gt;
+&lt;br /&gt;
+Let's say you have an "accusation" puzzle, where a bunch of islanders are directly accusing each other of lying. Let each islander be represented by a vertex, and let each accusation be represented by an edge.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjos7lZz0TptaUJRTIjSXlX4KT4KwDRvfdeJYtcs7eUfYxdNKqZdiaU4F5JVr-HLVQ3UpLwiCchc2jb5JYAWB_DubZBGkIhj7m1nQtr8DDv8yZIqIMSy3vg5-qODefjPCYTRA1Uewhb1ug/s1600/atob.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjos7lZz0TptaUJRTIjSXlX4KT4KwDRvfdeJYtcs7eUfYxdNKqZdiaU4F5JVr-HLVQ3UpLwiCchc2jb5JYAWB_DubZBGkIhj7m1nQtr8DDv8yZIqIMSy3vg5-qODefjPCYTRA1Uewhb1ug/s1600/atob.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Note that it amounts to the the same thing if A accuses B, B accuses A, or if they both accuse each other, so it doesn't matter who accuses who - our graph doesn't need to have directed edges. The important thing to note is that&amp;nbsp;if there is an accusation between A and B, then one of them must be a liar and the other must be a truther.&lt;br /&gt;
+&lt;br /&gt;
+We want to find out who among the islanders are liars are truthers, and maybe represent this by colouring the vertices for liars one colour, and the vertices for truthers another colour. If A and B are connected by an edge this means that one of them is accusing the other of being a liar, they can't both be liars or both be truthers - so the vertices cannot be the same colour. You may see where this is going: &amp;nbsp;finding a solution to the puzzle is equivalent to finding a two-&lt;a href="http://en.wikipedia.org/wiki/Graph_coloring"&gt;colouring of the graph&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;example&gt;&lt;/example&gt;&lt;br /&gt;
+&lt;br /&gt;
+What if in our puzzle we have some islanders "praising" other islanders - like if D says "A is telling the truth."? We might be tempted to add in a new kind of edge to represent this in our graph, but this isn't necessary. If D says that A is telling the truth, this means that both D and A must be the same - they must either both be liars or both be truthers. From the point of view of our graph, we can represent this by collapsing D and A and represent them both by the same vertex. Note that you can't have D and A accusing each other and praising each other at the same time - you get a liar paradox if you do.&lt;br /&gt;
+&lt;br /&gt;
+Here is an example:&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;You meet a group of islanders and want to know whether they are liars or truthers. Alice says "Bob is a liar", Bob says "Carol is a liar" and Carol says "Bob is lying." At that moment, Dave walks up and says "Alice is telling the truth." Who are the liars and who are the truthers?&lt;/i&gt;&lt;br /&gt;
+&lt;br /&gt;
+We can start by modeling the problem as a graph - with edges for "accusations" and to start with the "praise" as a dashed edge (1). Then we collapse the nodes that have a dashed edge between them (2) and finally find a 2-colouring of the graph (3).&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXIzlCzx3uTcn4A5IvHRPRmrWJgJSmE_HXai9Zfw2PmgCuL33KdImEG70DRb7cQyF2Ghv9FgX4_IIvrjeYUJJvZ02uI6oZi2o9L00DkanvYZaj73YttdLK2fK8TtwV0XA6NtFJOYD9Q0A/s1600/graph1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="282" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXIzlCzx3uTcn4A5IvHRPRmrWJgJSmE_HXai9Zfw2PmgCuL33KdImEG70DRb7cQyF2Ghv9FgX4_IIvrjeYUJJvZ02uI6oZi2o9L00DkanvYZaj73YttdLK2fK8TtwV0XA6NtFJOYD9Q0A/s320/graph1.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+This shows that either (a) Alice, Dave, and Carol are truthers and Bob is a liar or (b) Alice, Dave, and Carol are liars and Bob is a truther.&lt;br /&gt;
+&lt;br /&gt;
+I think that seeing this as a&amp;nbsp;coloring&amp;nbsp;problem makes it more obvious what the solutions will generally look like. For example, if the puzzle hasn't "pinned" any of the islanders by saying explicitly that they are a liar or a truther, or hasn't fixed the number of liars or truthers (e.g. by saying "there are two liars" or something similar) any solution that you find will also give a "complementary" solution by reversing the colours - turning every liar into a truther and vice-versa. Also, in any puzzle where there is an accusation, the group of islanders cannot be all liars or all truthers.&lt;br /&gt;
+&lt;br /&gt;
+In a problem like that doesn't have any islanders standing alone (i.e. not praising or accusing anyone and not being praised or accused by anyone else), if there is a solution, the graph will be &lt;a href="http://en.wikipedia.org/wiki/Bipartite_graph"&gt;bipartite&lt;/a&gt;. The picture at the top of this post is of a complete bipartite graph, which is what you get if all truthers are accusing all liars (or vice-versa). &lt;a href="http://www.mathrecreation.com/2012/03/some-complete-bipartite-graphs.html"&gt;Here&lt;/a&gt; are some pictures of complete bipartite graphs, and &lt;a href="http://www.mathrecreation.com/2012/03/three-views-of-k612.html"&gt;here&lt;/a&gt; are some more.&lt;br /&gt;
+&lt;br /&gt;
+A lot of liar-truther problems are not like these "accusation" scenarios. See &lt;a href="http://thinkmath.edc.org/index.php/Logic_puzzles#Liar_and_Truth-teller_puzzles"&gt;here&lt;/a&gt; for more variations on the liar-truther theme.</content>
+    <blogger:metaDescription/>
+    <blogger:created>2012-05-14T13:07:21.695Z</blogger:created>
+    <published>2012-05-31T23:18:00.002Z</published>
+    <updated>2012-06-05T16:51:46.935Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='logic'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='mathematics'/>
+    <blogger:filename>/2012/05/liar-truther-accusation-graphs.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  
