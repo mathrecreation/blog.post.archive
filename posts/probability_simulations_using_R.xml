@@ -1,0 +1,24 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-4134459169816098880</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>probability simulations using R</title>
+    <content type='html'>An ongoing side project of mine is learning how to use the statistics scripting language R, and have been putting putting together R markdown files that set up simulations for a variety of probability problems. You can find some of them here:&amp;nbsp;&lt;a href="https://dmackinnon1.github.io/r_examples/"&gt;https://dmackinnon1.github.io/r_examples/&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+These are simulations that generate data based on problems like the Birthday problem, the Monty Hall problem, and the Burnt Pancake problem. Learning scripting languages aside, it is always good to keep digging into probability problems: they confuse practically everyone.&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2017-03-24T17:33:52.317Z</blogger:created>
+    <published>2017-03-24T19:01:00.002Z</published>
+    <updated>2017-03-24T19:01:34.807Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2017/03/probability-simulations-using-r.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

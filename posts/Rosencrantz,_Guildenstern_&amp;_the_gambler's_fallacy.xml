@@ -1,0 +1,44 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-4262466260416528105</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Rosencrantz, Guildenstern &amp; the gambler's fallacy</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0DY2mI-ywWOWeXu9-N_8gdDs8zFk7OG4LGSbIG2QqxrML9XBqxYgyc5Nzbu_Z32Cc3hyphenhyphenm1sjLum5umiTXMiB0VRVA5cEOXhkZq5oObdwkPEbYlcD5sMKec_FPXYY4tNZK-NlXT1H28BU/s1600-h/title.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em; text-decoration: none;"&gt;&lt;span style="text-decoration: underline;"&gt;&lt;/span&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0DY2mI-ywWOWeXu9-N_8gdDs8zFk7OG4LGSbIG2QqxrML9XBqxYgyc5Nzbu_Z32Cc3hyphenhyphenm1sjLum5umiTXMiB0VRVA5cEOXhkZq5oObdwkPEbYlcD5sMKec_FPXYY4tNZK-NlXT1H28BU/s320/title.jpg" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;br /&gt;
+The opening of Tom Stoppard's play has&amp;nbsp;Rosencrantz and Guildenstern &amp;nbsp;flipping coins and noticing that the 'laws of probability' seem to be suspended (you should check out the opening scene of the film &lt;a href="http://www.youtube.com/watch?v=RjOqaD5tWB0"&gt;here&lt;/a&gt;, or read the opening of the play &lt;a href="http://books.google.com/books?id=_26yV2gOAYsC"&gt;here&lt;/a&gt;) - the coin always comes up heads.&amp;nbsp;What the characters are experiencing certainly defies common sense, but perhaps&amp;nbsp;it is common sense that is (at least in part) in the wrong.&lt;br /&gt;
+&lt;br /&gt;
+A good question to ask is, would Rosencrantz and Guildenstern be as alarmed if the coin flips alternated exactly between heads and tails? They should be, but if their psychology is anything like most people's, it would probably take them longer to clue in to the problem. A 'perfectly fair' coin that alternates between heads and tails is just as absurd (and just as unlikely) as a 'completely unfair' coin that always turns up heads, but it seems to be closer to our expectations of how coins should behave.&lt;br /&gt;
+&lt;br /&gt;
+In his book, &lt;a href="http://books.google.com/books?id=UZxDPgAACAAJ"&gt;Innumeracy&lt;/a&gt;, &lt;a href="http://www.math.temple.edu/~paulos/"&gt;John Allen Paulos&lt;/a&gt; presents this problem (as a contest&amp;nbsp;between Peter and Paul, rather than Rosencrantz and Guildenstern), and notes that most people, like our protagonists, expect coin flips to be evenly distributed between heads and tails (but perhaps not perfectly so). &amp;nbsp;Paulos sets up the problem like this:&lt;br /&gt;
+&lt;div&gt;&lt;blockquote&gt;&lt;i&gt;Imagine two players, Peter and Paul, who flip a coin once a day and who bet&amp;nbsp;on heads and tails, respectively. Peter is winning at any given time if there&amp;nbsp;have been more heads up until then, while Paul is winning if there’ve been&amp;nbsp;more tails.&lt;/i&gt;&lt;br /&gt;
+&lt;/blockquote&gt;Would you expect Peter or Paul to have a long winning (or losing) streak? Or&amp;nbsp;would you expect them to usually alternate between being the winner (or&amp;nbsp;loser)? Paulos continues:&lt;br /&gt;
+&lt;blockquote&gt;&lt;i&gt;Peter and Paul are each equally likely to be ahead at any given time, but&amp;nbsp;whoever is ahead will probably have been ahead almost the whole time.&lt;/i&gt;&lt;br /&gt;
+&lt;/blockquote&gt;The false expectation that the results should more-or-less alternate in order to 'average out' is sometimes referred to as the (false) 'law of averages' or the &lt;a href="http://en.wikipedia.org/wiki/Gambler's_fallacy"&gt;gambler's fallacy&lt;/a&gt;. The (true) &lt;a href="http://en.wikipedia.org/wiki/Law_of_large_numbers"&gt;law of large numbers&lt;/a&gt;, which asserts that for a large samples the number of heads will be roughly equal to the number of tails, does not imply that a head becomes more likely after a string of tails, or vice versa.&lt;br /&gt;
+&lt;br /&gt;
+The plots below show a game of 100 coin flips - the law of large numbers (regression to the mean) is apparent in the first plot, while the second plot, in which the number of tails is subtracted from the number of heads, shows no evidence for the law of averages (heads is ahead most of the time).&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIaL6eOxbIsjy6gT7sZuCbwcPLS9hzAOVITTDgRwkc-7Lxx-JmNb8n5b-LRCQYYRKzCTk4aSTE8P6mPOcXAGgMpkfPImlIF27U8TZzokhvDjb-gjdI02lofqFcvWJAgvGGU_USx7umh00/s1600-h/proportion.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIaL6eOxbIsjy6gT7sZuCbwcPLS9hzAOVITTDgRwkc-7Lxx-JmNb8n5b-LRCQYYRKzCTk4aSTE8P6mPOcXAGgMpkfPImlIF27U8TZzokhvDjb-gjdI02lofqFcvWJAgvGGU_USx7umh00/s320/proportion.jpg" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;br /&gt;
+&lt;blockquote&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZNM6EkqSX8TDmm0g3-r4_PjvpvAXZB1Sp9Vzu7zgxbWnzTEriQwa_ynRk7dU571pefWUUKrvUNFvjfcpYQScWuY9kP85tJslcNqJqkQ7-Lw2YqklOuvQsU1HxAezi29fxYqZSq5nzY7U/s1600-h/difference.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em; text-decoration: none;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZNM6EkqSX8TDmm0g3-r4_PjvpvAXZB1Sp9Vzu7zgxbWnzTEriQwa_ynRk7dU571pefWUUKrvUNFvjfcpYQScWuY9kP85tJslcNqJqkQ7-Lw2YqklOuvQsU1HxAezi29fxYqZSq5nzY7U/s320/difference.jpg" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;/blockquote&gt;&lt;/div&gt;&lt;div&gt;By undermining our expectation, this &amp;nbsp;simple experiment provides a moment of &lt;a href="http://www.blogger.com/"&gt;&lt;span id="goog_1253019681675"&gt;&lt;/span&gt;disequilibration&lt;span id="goog_1253019681676"&gt;&lt;/span&gt;&lt;/a&gt;, and, as Paulos suggests, it may help us realize that we shouldn't put too much emphasis on winning or loosing streaks in games, sport, finance, or life - they are a normal&amp;nbsp;occurrence.&lt;br /&gt;
+&lt;div&gt;&lt;br /&gt;
+A Fathom file to explore the coin game simulation is &lt;a href="http://sites.google.com/site/mathrecreation/Home/gambler_fallacy.ftm"&gt;here&lt;/a&gt;, and a completed file that includes plots and charts is &lt;a href="http://sites.google.com/site/mathrecreation/Home/gambler_fallacy_complete.ftm"&gt;here&lt;/a&gt;.&lt;br /&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2009-09-15T01:23:53.955Z</blogger:created>
+    <published>2009-09-15T13:48:00Z</published>
+    <updated>2011-09-11T02:01:20.768Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='school math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='Fathom'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='simulations'/>
+    <blogger:filename>/2009/09/rosencrantz-guildensten-gamblers.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

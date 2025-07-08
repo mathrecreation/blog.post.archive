@@ -1,0 +1,43 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-7022742447042722948</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>sequences on a spiral</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgv_7tEedA6LzZMW3w9nre6y6-U_X5Gbarog_-NUIkW6M1t3H3G9JEBaoihftzIKjy1BbARgujnBs6-UXTepvsHXXvXnNRg4aYhuxMOTfhS3T5g5AAUruPI9DhM1KDtQvc-tY0VG21DeCU/s1600/1-9-25_spirals.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="167" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgv_7tEedA6LzZMW3w9nre6y6-U_X5Gbarog_-NUIkW6M1t3H3G9JEBaoihftzIKjy1BbARgujnBs6-UXTepvsHXXvXnNRg4aYhuxMOTfhS3T5g5AAUruPI9DhM1KDtQvc-tY0VG21DeCU/s400/1-9-25_spirals.jpg" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;a href="http://projecteuler.net/index.php?section=problems&amp;amp;id=28"&gt;Question 28&lt;/a&gt; of &lt;a href="http://projecteuler.net/"&gt;Project Euler&lt;/a&gt; has us looking at number spirals. Put the number 1 in the middle of a piece of graph paper and start writing the natural numbers as a square spiral moving outwards from the center. &lt;a href="https://sites.google.com/site/mathrecreation/Home/ulam_99x99.tp?attredirects=0"&gt;Here&lt;/a&gt; is a Tinkerplots file (used to make the pictures in this post) for a spiral with sides length 99 (and a &lt;a href="https://sites.google.com/site/mathrecreation/Home/ulam_99x99.txt?attredirects=0"&gt;plaintext file&lt;/a&gt;, and a smaller a &lt;a href="https://sites.google.com/site/mathrecreation/Home/41_41_prime.ftm?attredirects=0"&gt;Fathom file&lt;/a&gt;). If you begin looking at the spiral, you'll likely find a number of sequences that you can learn more about from the &lt;a href="http://oeis.org/"&gt;Online Encyclopedia of Integer Sequences&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7FBqdSuuBYzJK8mLAL7KyjP2ofa6JVVMQ2z5bk008YFWndAvyI6sTrefvbP9ePG1oWt2Lts_aMH0vMw64mzjaUdzd_ySE7HhHHayUZTs1zP75hrP7gM-HMQmxc5f7u20fTc_t7rMkFFQ/s1600/up_diagonal.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="332" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7FBqdSuuBYzJK8mLAL7KyjP2ofa6JVVMQ2z5bk008YFWndAvyI6sTrefvbP9ePG1oWt2Lts_aMH0vMw64mzjaUdzd_ySE7HhHHayUZTs1zP75hrP7gM-HMQmxc5f7u20fTc_t7rMkFFQ/s400/up_diagonal.jpg" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;
+The numbers on the main upwards diagonal, taken in the order you find them walking on the spiral, are "Hogben's central polygonal numbers," 1, 3, 7, 13, 21, 31, 43, ... (&lt;a href="http://oeis.org/A002061"&gt;OEIS A002061&lt;/a&gt;), although I don't know what makes them polygonal (more on this on &lt;a href="http://mrob.com/pub/math/seq-a002061.html"&gt;a page by Robert Munafo&lt;/a&gt;).&lt;br /&gt;
+&lt;br /&gt;
+If you start summing this diagonal as you walk around, you get a sequence 1, 4, 11, 24, 45, 76, 119, ..., (&lt;a href="http://oeis.org/A006527"&gt;OEIS A006527&lt;/a&gt;) where every number turns out to be the sum of two tetrahedral numbers (a tetrahedral number and one two indexes behind it).&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfvyNgOjk7sKZnCmblSmeti_xg0njskwBUSJwCYb7Qa4EYcre0GUphenq3VWq8DN-hjqZrJ82pZ_yt-oymlxi-CgeTVtVy-KnJrhlDzw4o1xTtNVc7HAJkPca9ph0JKmaHFvAZ9IK2Td8/s1600/down_diagonal.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="337" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfvyNgOjk7sKZnCmblSmeti_xg0njskwBUSJwCYb7Qa4EYcre0GUphenq3VWq8DN-hjqZrJ82pZ_yt-oymlxi-CgeTVtVy-KnJrhlDzw4o1xTtNVc7HAJkPca9ph0JKmaHFvAZ9IK2Td8/s400/down_diagonal.jpg" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
+The numbers on the main downwards diagonal (1, 5, 9, 17, 25, 37, 49, 65, ...) provide another sequence that appears in the OEIS as &lt;a href="http://oeis.org/A080335"&gt;A080335&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+Instead of looking for sequences on the features of the square, you can mark off known sequences on the spiral and see what they look like. I tried this with some polygonal numbers, and found that they (not to surprisingly) form spiral patterns much like they do when plotted on the &lt;a href="http://mathrecreation.blogspot.com/2009/05/quadratic-number-spirals-and-polygonal.html"&gt;round number spiral&lt;/a&gt;. Below are some pictures of the triangular numbers (&lt;a href="http://oeis.org/A000217"&gt;OEIS A000217&lt;/a&gt;) and the heptagonal numbers (&lt;a href="http://oeis.org/A000566"&gt;OEIS A000566&lt;/a&gt;).&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7jyQ99C58Qnl8WKYqWDwmmpAZMYWQuZYzUinz2OOb1JnbQNlhv_9cvOE3j_SVTVQHR2XYiVDBdf6cd6wnq-YQRpSGJgMdHp4GIKCXS9wVFwhSZMLRqUFRkOLRHD0cqNSvnJFpK3IC6CI/s1600/3_7_spirals.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="208" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7jyQ99C58Qnl8WKYqWDwmmpAZMYWQuZYzUinz2OOb1JnbQNlhv_9cvOE3j_SVTVQHR2XYiVDBdf6cd6wnq-YQRpSGJgMdHp4GIKCXS9wVFwhSZMLRqUFRkOLRHD0cqNSvnJFpK3IC6CI/s400/3_7_spirals.jpg" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
+The sequence plot that made this square spiral famous is that of the prime numbers - when you plot the primes on this square spiral you get what is called the &lt;a href="http://mathworld.wolfram.com/PrimeSpiral.html"&gt;Ulam prime spiral&lt;/a&gt;. Certain surprising local regularities emerge in parts of the spiral that are best seen if you make it big enough.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3dDN6nFPs2M1YJJ3gNFSQsJm1pb4PBCYHZCuiT0KdbPN0jqis3fDfClFCtTysrc1yhVTiqh5NF5wO__jsWpNoO6WMosoMR-7GkySB_G0I_jLY1Pp4dCVXNZijp279cTcjeeoOHQs8uqc/s1600/99x99_primes.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="342" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3dDN6nFPs2M1YJJ3gNFSQsJm1pb4PBCYHZCuiT0KdbPN0jqis3fDfClFCtTysrc1yhVTiqh5NF5wO__jsWpNoO6WMosoMR-7GkySB_G0I_jLY1Pp4dCVXNZijp279cTcjeeoOHQs8uqc/s400/99x99_primes.jpg" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
+What is most&amp;nbsp;noticeable when you plot the primes on the number spiral&amp;nbsp;are the places where primes seem to line up along various diagonals. These clusters indicate the existence of &lt;a href="http://mathworld.wolfram.com/Prime-GeneratingPolynomial.html"&gt;prime-generating quadratics&lt;/a&gt;.</content>
+    <blogger:metaDescription/>
+    <blogger:created>2011-06-02T14:22:52.612Z</blogger:created>
+    <published>2011-06-02T15:54:00Z</published>
+    <updated>2011-09-10T13:47:04.730Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='polygonal'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='spirals'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='primes'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='project euler'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <blogger:filename>/2011/06/sequences-on-spiral.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

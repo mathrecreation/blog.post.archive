@@ -1,0 +1,63 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-826382490830965686</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>regular polygons, intersecting regularly</title>
+    <content type='html'>Looking through the chapter on the number 5 in the really engaging book &lt;a href="http://press.princeton.edu/titles/10437.html"&gt;Single Digits: In Praise of Small Numbers&lt;/a&gt;, by Marc Chamberland, I came across an image and description of Kepler's pentagonal tiling, which looks like this:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8dyJ5POMN6GwIJkf5kHWyiljzKLDlIV8xHiVH7VMzteNa_f1X93jmZ4pg4hu6DFPvlgkMftArg1OmcP0gLIbRiUGvK7WmahSA-9PE3PudIBqrbootl8ThvN7JLOFYc0LW2yj2X9cCIrY/s1600/kepler1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="343" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8dyJ5POMN6GwIJkf5kHWyiljzKLDlIV8xHiVH7VMzteNa_f1X93jmZ4pg4hu6DFPvlgkMftArg1OmcP0gLIbRiUGvK7WmahSA-9PE3PudIBqrbootl8ThvN7JLOFYc0LW2yj2X9cCIrY/s400/kepler1.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;Kepler Pentagonal Tiling&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+This tiling is made of pentagons, pentagrams, decagons, and fused decagons. Both the decagons and the fused decagons can be made from combinations of regular pentagons and&amp;nbsp;dented pentagons&amp;nbsp;(by dented, I mean in the way described &lt;a href="http://www.mathrecreation.com/2015/06/regular-polygons-dented-and-sliced.html"&gt;here&lt;/a&gt;), so this tiling could also be made with pentagons, dented pentagons, and pentagrams.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7QacpGrQiyEtnVUXdBk4h7NZEuat1oejmkrHOoUdrx2egzFEeUDEKKJCjfpMvpIH6ZGtGBGqOckVVLCGzuz9S_GWYoC3BzQta1OhjO8nwnOAz-Co2Xk1QYvdyaexKnhgxW4alPnHxCYM/s1600/fused1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="275" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7QacpGrQiyEtnVUXdBk4h7NZEuat1oejmkrHOoUdrx2egzFEeUDEKKJCjfpMvpIH6ZGtGBGqOckVVLCGzuz9S_GWYoC3BzQta1OhjO8nwnOAz-Co2Xk1QYvdyaexKnhgxW4alPnHxCYM/s320/fused1.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;Decagons and fused decagons from &lt;br /&gt;pentagons and dented pentagons&amp;nbsp;&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+I wanted to try to make a similar tiling made only of the pentagons, dented pentagons, and their complementary rhombs, and found this:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvD73DBOxgWrTgTATH33KVRwVh6Fy7TXb2q_ZelEpsNDV5TX-qZiBnzmm2d_6R7uoqp6WuHA2mOQprSpEDrVAjhjlrHiDoExcnA8BZBtyKEOUSIWssrMT76oOmBwQrz5NoYW7BCseijrk/s1600/pentadaca1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="365" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvD73DBOxgWrTgTATH33KVRwVh6Fy7TXb2q_ZelEpsNDV5TX-qZiBnzmm2d_6R7uoqp6WuHA2mOQprSpEDrVAjhjlrHiDoExcnA8BZBtyKEOUSIWssrMT76oOmBwQrz5NoYW7BCseijrk/s400/pentadaca1.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;Another pentagonal tiling&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+Which at first looks good - except these fused decagons are not the same as Kepler's - they have a greater overlap and cannot be made from pentagons and dented pentagons.&lt;br /&gt;
+&lt;br /&gt;
+Encountering these two kinds of fused decagons, I wondered how many ways you can intersect two decagons, or other regular polygons, in the nice regular way these decagons were fusing.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSqHRhA8SLC7SjhGw45mv3Y0l7Fa1lUIYU9W4pclglsrLuvySAjPGjv89cP7hPNAVH3CtZ7iEcQBjX1jCNxNBe3kB3YNkBAwSKA_NSpW1X9HmyDQ8g13vlKFJkoFnQTVG7inv3mHrGSLA/s1600/regular_int59.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="400" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSqHRhA8SLC7SjhGw45mv3Y0l7Fa1lUIYU9W4pclglsrLuvySAjPGjv89cP7hPNAVH3CtZ7iEcQBjX1jCNxNBe3kB3YNkBAwSKA_NSpW1X9HmyDQ8g13vlKFJkoFnQTVG7inv3mHrGSLA/s400/regular_int59.JPG" width="311" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;i&gt;Regular intersecting pentagons to nonagons&lt;/i&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+To overlap "regularly," the two &lt;i&gt;n&lt;/i&gt;-gons must line up on their vertices. This means that the overlapping region will also be an equilateral polygon, that will have an even number of sides (half from each of the original &lt;i&gt;n&lt;/i&gt;-gons), and will have all but two of its angles equal to (&lt;i&gt;n&lt;/i&gt;-2)&lt;i&gt;pi&lt;/i&gt;/&lt;i&gt;n&lt;/i&gt;, as all but two of the angles will be angles from the original regular &lt;i&gt;n&lt;/i&gt;-gons.&lt;br /&gt;
+&lt;br /&gt;
+Since the overlapping region cannot have fewer sides/vertices than four, and because it can only be a polygon with an even number of sides/vertices, an &lt;i&gt;n&lt;/i&gt;-gon will have [(&lt;i&gt;n&lt;/i&gt;-4)/2] ways of regularly intersecting with itself (where the square bracket is the "ceiling" function, which tells you to round up any decimals). So, there are [(10-4)/2] = 3 of these nice fusings of the regular decagon.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKnd4PxukjWPUEUr-0zhr5e5yCtG6ofQWOw0EQkgh46vy-BmPGSTUUAfARUbg_M2DfZkmPzltgWyfiPFodh4E5ZEv6i3G_rJjqwShDAougQteQpKcpHuIvuHvE6SS9aIFI_RIoTVt_ahw/s1600/overlapping_decagons.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="400" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKnd4PxukjWPUEUr-0zhr5e5yCtG6ofQWOw0EQkgh46vy-BmPGSTUUAfARUbg_M2DfZkmPzltgWyfiPFodh4E5ZEv6i3G_rJjqwShDAougQteQpKcpHuIvuHvE6SS9aIFI_RIoTVt_ahw/s400/overlapping_decagons.JPG" width="346" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;i&gt;The 3 fused decagons&lt;/i&gt;&lt;/div&gt;
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2015-07-03T02:19:04.119Z</blogger:created>
+    <published>2015-07-03T18:54:00.005Z</published>
+    <updated>2015-07-03T19:52:44.059Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='tiles'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='geometry'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='polygon'/>
+    <blogger:filename>/2015/07/regular-polygons-intersecting-regularly.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

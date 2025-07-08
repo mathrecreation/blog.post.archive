@@ -1,0 +1,53 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-4987235915067828373</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>polynomial grid division examples</title>
+    <content type='html'>&lt;div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"&gt;
+There are not enough examples of polynomial division using the grid method out there. To remedy that, I have posted about 100 billion examples for your viewing pleasure. Please check ‘em out: &lt;a href="https://dmackinnon1.github.io/polygrid/"&gt;https://dmackinnon1.github.io/polygrid/&lt;/a&gt;&lt;/div&gt;
+&lt;div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"&gt;
+Jokes aside, I was looking for a small JavaScript project, and this one looked like it would be fun. It was, and I learned a few things by building it. The &lt;a href="https://dmackinnon1.github.io/polygrid/"&gt;page&lt;/a&gt; will generate a small number of examples, but you can get a fresh batch by reloading. Each example is calculated on the fly, and rendered using &lt;a href="https://www.mathjax.org/"&gt;MathJax&lt;/a&gt;. Currently, the displayed calculations look like this:&lt;/div&gt;
+&lt;div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKOvpD92UJgghyEkfhXE6y4MI_nLJukcJmplMcFZLN22kAb4X_Xx1VsXORZZTX17VQV8028uqONyX4J4Ky89kznQ-IZudKX3jb9zdl_tb2jYB84BWCEnipiXX7pWRhGvTdsbCWOqH1tMc/s1600/example_grid_division.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="400" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKOvpD92UJgghyEkfhXE6y4MI_nLJukcJmplMcFZLN22kAb4X_Xx1VsXORZZTX17VQV8028uqONyX4J4Ky89kznQ-IZudKX3jb9zdl_tb2jYB84BWCEnipiXX7pWRhGvTdsbCWOqH1tMc/s400/example_grid_division.PNG" width="343" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"&gt;
+About half the time the examples have remainders, and the calculations vary in length and complexity in no particular order, so if you get a crop of examples that look too intimidating, or too easy, just keep trying and you should get ones more to your liking. If you see one you like, you should copy it down: you may never see it again.&lt;/div&gt;
+&lt;div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"&gt;
+I have plans to make the examples configurable and to show each part of the calculation step by step, but I may not get around to doing that for a while.&lt;/div&gt;
+&lt;div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"&gt;
+Please let me know if you get some use out of this page, particularly if you run into any trouble with it.&amp;nbsp;&lt;/div&gt;
+&lt;div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"&gt;
+Overviews of how to carry out the grid method, also called the &lt;i&gt;generic rectangle method&lt;/i&gt; or the &lt;i&gt;reverse tabular&lt;/i&gt; method, can be found &lt;a href="http://www.mathrecreation.com/2015/09/more-polynomial-grid-division.html"&gt;here&lt;/a&gt; and &lt;a href="http://www.mathrecreation.com/2009/03/dividing-polynomials-grid-method.html"&gt;here&lt;/a&gt;. The page does not currently provide any ‘backwards reverse tabular’ calculations, as described &lt;a href="http://www.mathrecreation.com/2016/03/dividing-polynomials-backwards-reverse.html"&gt;here&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;&lt;b&gt;Update&lt;/b&gt;: The page now allows you to choose if you want remainders or not, and does try to show some of the steps in the calculation.&lt;/i&gt;&lt;/div&gt;
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2016-11-29T16:25:16.982Z</blogger:created>
+    <published>2016-11-29T17:35:00Z</published>
+    <updated>2017-01-09T03:41:43.204Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='division'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='tabular'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='polynomials'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='grid'/>
+    <blogger:filename>/2016/11/polynomial-grid-division-examples.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

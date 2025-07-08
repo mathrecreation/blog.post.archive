@@ -1,0 +1,117 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-7484422306057639187</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>return to the island of liars and truthers</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="http://answergirlnet.blogspot.ca/2012/01/janus.html"&gt;&lt;img border="0" height="304" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhikv1cLuCDY8BS-EUzSqi-67G39KphHGwpHYlSCtbfc2L9uBaWihTEkjWKMGj5yf2hOLNRMyMtXo5s_j65OrfvF-_2jlf7krnQ_0gMvRSx8Ly9Gs1FvCTOCbzOiotB_wsMWkPfbnywcfQ/s320/janus.gif" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+This post has the answers to the puzzles in the &lt;a href="http://www.mathrecreation.com/2012/05/on-island-of-liars-and-truthers.html"&gt;last post&lt;/a&gt;, so you might want to read that one first.&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href="http://www.mathrecreation.com/2012/05/on-island-of-liars-and-truthers.html?showComment=1336469817844#c5045802754413210013"&gt;Jeff&lt;/a&gt; left a comment suggesting another question that I wish that I had worked into my little story of the islanders, so this late addition was put in as part 5 which you may have missed if you read the post early. Also there was an error in part 3 which meant that although you could solve the puzzle it didn't really work well, so this was fixed also. Sorry for any remaining errors.&lt;br /&gt;
+&lt;br /&gt;
+Throughout we are assuming usual two valued logic and the law of the excluded middle, which you either believe or you don't (see &lt;a href="http://www.cut-the-knot.org/selfreference/index.shtml"&gt;here&lt;/a&gt;).&lt;br /&gt;
+&lt;br /&gt;
+I seem to remember being stumped the first time that I came across my first liar and truther puzzle. If you are like me and didn't have the insight of how to solve these the first time, once you see how one is done you will still enjoy applying the same method to figuring out the others.&lt;br /&gt;
+&lt;br /&gt;
+Before going further you may want to look at the problem in the &lt;a href="http://www.mathrecreation.com/2012/05/on-island-of-liars-and-truthers.html"&gt;original post&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;h4 style="background-color: white; color: #222222; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 13px; line-height: 18px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; position: relative;"&gt;
+
+
+
+1. Going to the Village&lt;/h4&gt;
+&lt;span style="background-color: transparent;"&gt;You can't just ask the islander what village is up ahead: she might be a liar. Instead you have to find a question whose response will (a) give the answer and (b) not depend on whether the islander is a liar or truther. One possilbe question to ask is "Is that your village?" If the answer is yes, you can rest assured that it is the village of the truthers.&lt;/span&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjt_0Ixh4-MJseLvWxZBUMX96qehyphenhyphentfIe8qsu5Jah6ZomMqUVdfxALMJ16nDPjliyNBdZ-JiSDx7abvS_nVTA3JLwcdf8LhDB5GdLDkUxKyqOhG5sLXaNEZOWpEZzj1OJ_yeD-v6KR3tD4/s1600/your_village...JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjt_0Ixh4-MJseLvWxZBUMX96qehyphenhyphentfIe8qsu5Jah6ZomMqUVdfxALMJ16nDPjliyNBdZ-JiSDx7abvS_nVTA3JLwcdf8LhDB5GdLDkUxKyqOhG5sLXaNEZOWpEZzj1OJ_yeD-v6KR3tD4/s1600/your_village...JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+A truther answers "yes" if it is the truther village because they are telling the truth, a liar answers "yes" in the same situation because they are lying. A truther answers "no" if it is the liar village because that's the truth, and again the liar would answer "no" because they are lying. Nice, eh?&lt;br /&gt;
+&lt;br /&gt;
+&lt;h4 style="background-color: white; color: #222222; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 13px; line-height: 18px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; position: relative;"&gt;
+
+
+
+
+2. A Bunch of Islanders&lt;/h4&gt;
+&lt;span style="background-color: white; color: #222222; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 13px; line-height: 18px;"&gt;&lt;/span&gt;This is probably the easiest of the questions, and there are a variety of ways to figure it out. I think the clearest way to see the solutions is to make a &lt;a href="http://en.wikipedia.org/wiki/Truth_table"&gt;truth table&lt;/a&gt;, although presenting it this way is probably more work.&amp;nbsp;Our table will have columns A, B, and C representing Alice, Bob, and Carol, but it will also have columns for the statements that Alice (A), Bob (B) and Carol (C) make about each other. Whether A, B, or C is T (truther) or F (liar) must be consistent with the statements made. For example, when Alice says "Bob is a liar" either A=T and B=F or A=F and B=T. Put another way:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2AmS7KlhNKfkvb04MnfSdryhw__hCSF6S3cGNR8Y19PnfhkKIGWcXVzALXJCOnDbs2aS7yh4FrQzmO9rXeTai_lco2EisWjOOg_PtIL-n3XudgtScK81jsywyOHv2qwa6l-mQDOQmMc8/s1600/porq.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2AmS7KlhNKfkvb04MnfSdryhw__hCSF6S3cGNR8Y19PnfhkKIGWcXVzALXJCOnDbs2aS7yh4FrQzmO9rXeTai_lco2EisWjOOg_PtIL-n3XudgtScK81jsywyOHv2qwa6l-mQDOQmMc8/s1600/porq.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+Regardless of who the liars and truthers are, they have to be able to make the statements that they make. So, we know we've found a possible solution when all the columns in the truth table that represent these statements are true.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieD4U623oGog7OzsE_jVMm77lRI31MuIHrCUWV4LDl3Yb99GTVUuVfG4SOMO_ZF77rIlDo8uAANraxACAMYFPtZG0X-v1IMlvBFQiZ6O3t1h5zzvvRgQ5mDngDW96FMjasWRu0zzdp5Qc/s1600/alice_bob_carol2.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="132" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieD4U623oGog7OzsE_jVMm77lRI31MuIHrCUWV4LDl3Yb99GTVUuVfG4SOMO_ZF77rIlDo8uAANraxACAMYFPtZG0X-v1IMlvBFQiZ6O3t1h5zzvvRgQ5mDngDW96FMjasWRu0zzdp5Qc/s400/alice_bob_carol2.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+From the table, the only solutions are that either that Bob is a truther and Alice and Carol are liars, or that Bob is the liar and Alice and Carol are truthers.&lt;br /&gt;
+&lt;br /&gt;
+&lt;h4 style="background-color: white; color: #222222; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 13px; line-height: 18px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; position: relative;"&gt;
+
+
+
+
+3. Looking for the Ferry&lt;/h4&gt;
+&lt;div&gt;
+Now, in my original post I messed up the wording of the puzzle a bit. I have changed it so you might want to check &lt;a href="http://www.mathrecreation.com/2012/05/on-island-of-liars-and-truthers.html"&gt;back&lt;/a&gt;. You can answer the puzzle in its original wording using the same method as part 5 (below). The change is that Xavier and Yvette are from different villages and don't want to talk about them, and this change in wording forces you to use a different&amp;nbsp;approach.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+In the spirit of the first puzzle, you need to implicate the islanders in the question, so that when the liar is lying then this is somehow conjuncted with their answer (negating their false answer). One way of doing this is to ask Xavier "Which way would Yvette tell me to take to get to the ferry?" Whatever Xavier answers, take the other path.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+If X is a truther and Y is a liar, X will truthfully reply with what Y would tell you, which would be a lie. If X is a liar and Y is a truther, then X will lie and tell you the path that Y would not have chosen for you.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;h4 style="background-color: white; color: #222222; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 13px; line-height: 18px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; position: relative;"&gt;
+
+
+
+
+4. Leaving the Island&lt;/h4&gt;
+&lt;span style="background-color: white; color: #222222; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 13px; line-height: 18px;"&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+Isaac and Jane are giving you a two statement version of the &lt;a href="http://en.wikipedia.org/wiki/Liar_paradox"&gt;liar paradox&lt;/a&gt;. If they are from the island, this can't be resolved (if I then not J, but then not I, etc.). So, these two must be from off the island, and when Isaac says "Jane is a liar" he doesn't mean "Jane is someone whose every statement is false" but rather means something along the lines "Jane sometimes lies" or maybe "don't trust Jane." In any case, probably best not to hang out with these two and instead spend more time with the islanders who are at least consistent.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;b style="background-color: white; color: #222222; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 13px; line-height: 18px;"&gt;5.&amp;nbsp;Postscript: on the Ferry&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;
+So, how can you always get the right answer out of an islander? You can generalize the method used in question 1 about the village (unless, as in the reformulated question 3 the islander refuses to talk about their village).&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+Suppose you want to know if a statement A is true or false. You should ask the islander "would someone from your village say that A is true?" If the answer is yes, then you know, no matter whether the islander is a liar or a truther that A is true, but if they answer no, you know that A must be false. This relies on the &lt;a href="http://en.wikipedia.org/wiki/Double_negation"&gt;double negation&lt;/a&gt; that will happen when a liar talks about their village.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDM-8MlocW8DWvoU4cTtGZXV4IWBe-Dzd8ebh4dvvXJ8hFaKCI5GzUH7D-P2P1cIEY3_1RV94ArH-dIWwz6goVOqQJz-FZGWtCIqFvjRtzmgp6usvivM8tlmTQbUrWdAEdPhxu1bi2maY/s1600/doublenegation.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="115" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDM-8MlocW8DWvoU4cTtGZXV4IWBe-Dzd8ebh4dvvXJ8hFaKCI5GzUH7D-P2P1cIEY3_1RV94ArH-dIWwz6goVOqQJz-FZGWtCIqFvjRtzmgp6usvivM8tlmTQbUrWdAEdPhxu1bi2maY/s400/doublenegation.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+So, you could ask the captain a question like "would someone from your village say that this is the ferry to the mainland?"&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2012-05-09T01:17:03.143Z</blogger:created>
+    <published>2012-05-09T23:14:00.001Z</published>
+    <updated>2012-05-10T01:09:20.237Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='logic'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='mathematics'/>
+    <blogger:filename>/2012/05/return-to-island-of-liars-and-truthers.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

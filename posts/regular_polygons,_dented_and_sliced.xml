@@ -1,0 +1,107 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-6473657304922961506</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>regular polygons, dented and sliced</title>
+    <content type='html'>A &lt;a href="http://www.mathrecreation.com/2015/04/octagonal-iteration-with-gsp.html"&gt;while ago&lt;/a&gt;, l noticed that sliced up octagons made nice tiles.&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKq2kADN9jBcBbXKX7wuWjD8LVcnjbRP1FghTPriah1uGnc93JVQP6mNTccVLrTca15A0caBoq1BlpQkHKCCjacDl4nIpmvoyMaJzN6Zs-jG3uuVg52x4w3gXYl2TpqoD57IxZ-CC36vg/s1600/thirdOne.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="305" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKq2kADN9jBcBbXKX7wuWjD8LVcnjbRP1FghTPriah1uGnc93JVQP6mNTccVLrTca15A0caBoq1BlpQkHKCCjacDl4nIpmvoyMaJzN6Zs-jG3uuVg52x4w3gXYl2TpqoD57IxZ-CC36vg/s320/thirdOne.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+In particular, octagons that are split in a particular way into a dented octagon and a rhombus are &lt;a href="http://www.mathrecreation.com/2015/05/octo-rhomb.html"&gt;pretty neat&lt;/a&gt;. These rhombuses are formed from so that they share with the octagon two adjacent sides of the octagon. The dented octagon is formed by slicing off the rhombus. Four of those dented octagons can be put around a vertex to form a pinwheel pattern, and four of the rhombs can be added to that pinwheel to make a bigger octagon.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUAUo3la4IWYhyIBE1qOFEcJCUwGi07vvwskJh-3Y2cXSxzmjOTjlDGlsCv9ugIjpJOKV8trD4YATBhDG6Uw7aZFheI2zx4grrPAjdlS1YXhmO2-2cLzW0AHAhFx_EdtvmznucQ5-mRIo/s1600/4Into1octos.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="181" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUAUo3la4IWYhyIBE1qOFEcJCUwGi07vvwskJh-3Y2cXSxzmjOTjlDGlsCv9ugIjpJOKV8trD4YATBhDG6Uw7aZFheI2zx4grrPAjdlS1YXhmO2-2cLzW0AHAhFx_EdtvmznucQ5-mRIo/s320/4Into1octos.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+You can do this sort of rhombic slicing with any regular polygon with more than 4 sides (you could slice a rhombus off a square in this way, if you consider the split off rhombus to be the same as the original square, but let's not go there). The picture below shows the angles you get when you slice a regular &lt;i&gt;n&lt;/i&gt;-gon to get a dented &lt;i&gt;n&lt;/i&gt;-gon and an &lt;i&gt;n&lt;/i&gt;-rhomb.&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-oSBm9nXIuYBBWmkN5mLLrfwtgh-oP97M1rkIhlWzavPq-eegiAjmqSPxJTi-0DxD4i3EbQu-7qpU7X88NaJpSJ-G5GIaCfrz9qyTOUo7qzb7EqEj3Q4bN_DX5EvwzRtXrMaTbWLwPag/s1600/angles_around_dent.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="150" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-oSBm9nXIuYBBWmkN5mLLrfwtgh-oP97M1rkIhlWzavPq-eegiAjmqSPxJTi-0DxD4i3EbQu-7qpU7X88NaJpSJ-G5GIaCfrz9qyTOUo7qzb7EqEj3Q4bN_DX5EvwzRtXrMaTbWLwPag/s320/angles_around_dent.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+One way to play around with these is to see how they can fit back together in various combinations. The motivating question is: &lt;i&gt;For a given n, which combinations of regular n-gons, dented n-gons and n-rhombs can be placed around a vertex without gap or overlap?&lt;/i&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Consider the pentagon&lt;/b&gt;&lt;br /&gt;
+Lets start with a pentagon. The interior angles of the pentagon are 3&lt;i&gt;pi&lt;/i&gt;/5. The small angle of the rhombus is going to be 2&lt;i&gt;pi&lt;/i&gt;/5, and the small angle of the dented pentagon is going to be &lt;i&gt;pi&lt;/i&gt;/5.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEip-bPLzEUizJwMx2O4YjhgN4Vn_Qxd_pCK_TnP5V35osocfgJOJN4Tgq_eCWvFujRW7af1np7S1vt-s8V6fKM3ijtKdpm4CaY0QWuVCyM_Dza2gSDFhKVW2sbhZOb0gKLR2gYvwvyWvk4/s1600/pentagon1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="135" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEip-bPLzEUizJwMx2O4YjhgN4Vn_Qxd_pCK_TnP5V35osocfgJOJN4Tgq_eCWvFujRW7af1np7S1vt-s8V6fKM3ijtKdpm4CaY0QWuVCyM_Dza2gSDFhKVW2sbhZOb0gKLR2gYvwvyWvk4/s320/pentagon1.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+You may know that you can't place a set of non-overlapping pentagons around a vertex without leaving a gap (the best you can do is three, which give 9&lt;i&gt;pi&lt;/i&gt;/5 around the vertex). Well, the dented pentagon you get from rhomb-splitting is just what you need to fill that gap (9&lt;i&gt;pi&lt;/i&gt;/5&amp;nbsp;+ &lt;i&gt;pi&lt;/i&gt;/5 = 2&lt;i&gt;pi&lt;/i&gt;).&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj24a0_QlL9KZe3r1E6kVKX-Q3HnKat3givnR5GSc3Yo37aHd7Fng5kTPPl55T22gS4Mkn12enGRK8mCFMEpS2cFZwKACsGTt9ag6VaCI3y3ITqBI7zW_rBQ78ui_hqhssYaDfIqTsO1pQ/s1600/mindthegap1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="174" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj24a0_QlL9KZe3r1E6kVKX-Q3HnKat3givnR5GSc3Yo37aHd7Fng5kTPPl55T22gS4Mkn12enGRK8mCFMEpS2cFZwKACsGTt9ag6VaCI3y3ITqBI7zW_rBQ78ui_hqhssYaDfIqTsO1pQ/s320/mindthegap1.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+The dented pentagons on their own can be placed around vertex nicely to form a decagon pinwheel, as can the rhombs, to form a star.&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmCW-aSJh5S2SCj8Z7YXPzf3jNGiMJ6VswsLF58fL4J_fVtwv8R9WdtJmDsyRnLaNgl-9nBLVK3nU6N0Z9aWTIqEUEzeFpSXGIxm5pC-mfQoZ3cF8Wa0mkkrhYhoOyQqLigAaFjd0XD1A/s1600/pentarhombs.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="161" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmCW-aSJh5S2SCj8Z7YXPzf3jNGiMJ6VswsLF58fL4J_fVtwv8R9WdtJmDsyRnLaNgl-9nBLVK3nU6N0Z9aWTIqEUEzeFpSXGIxm5pC-mfQoZ3cF8Wa0mkkrhYhoOyQqLigAaFjd0XD1A/s320/pentarhombs.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;picture&gt;&lt;/picture&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+Rhombuses formed from "rhombic slicing" of a regular polygon can always be placed in a star pattern around a vertex. For an &lt;i&gt;n&lt;/i&gt;-gon, the big angle of the sliced rhomb is always (&lt;i&gt;n&lt;/i&gt;-2)&lt;i&gt;pi&lt;/i&gt;/&lt;i&gt;n&lt;/i&gt;, so the small angle is always 2&lt;i&gt;pi&lt;/i&gt;/&lt;i&gt;n&lt;/i&gt;, which means you can always place n of these small angles around a vertex without a gap or overlap.&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+You can't always place the dented polygons (small angle inward) formed by rhombic slicing around a vertex to form pinwheels like the dented pentagon, and you can't always use the dented polygons to fill in gaps formed by regular polygons around a vertex, but there are some combinations of all three (regular, dented, and rhomb) that will &lt;i&gt;always &lt;/i&gt;fit around a vertex.&lt;/div&gt;
+&lt;br /&gt;
+&lt;b&gt;A few special arrangements&lt;/b&gt;&lt;br /&gt;
+Suppose we wanted to put &lt;i&gt;k&lt;/i&gt; regular polygons around a vertex. The sum of the angles around the vertex would have to be 2&lt;i&gt;pi&lt;/i&gt;. So we would have &lt;i&gt;k&lt;/i&gt;(&lt;i&gt;n&lt;/i&gt;-2)&lt;i&gt;pi&lt;/i&gt;/&lt;i&gt;n &lt;/i&gt;= 2&lt;i&gt;pi&lt;/i&gt;. Solving for &lt;i&gt;k&lt;/i&gt;, we have &lt;i&gt;k&lt;/i&gt; = 2&lt;i&gt;n&lt;/i&gt;/(&lt;i&gt;n&lt;/i&gt;-2). This only has 3 integer solutions, which occur when&amp;nbsp;&lt;i&gt;n&lt;/i&gt; = 3, 4, and 6. So from this we know we can arrange 6 equilateral triangles, 4 squares, or 3 regular hexagons around a vertex, but no other single regular polygon.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtstDdDjvl4NlRwJC5tW_cGJPVQdF2NkUZBvGU-O-X-zdPiZjVkdgSMr6WuU57hu1bGOQO5QpxjDD7JjutTEf_US6Ysf8-QdSqT0cSoUvYc-gpW0mcAC2_v_kVPtuBWkiqsY6IrVfRjwE/s1600/hexagons.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="150" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtstDdDjvl4NlRwJC5tW_cGJPVQdF2NkUZBvGU-O-X-zdPiZjVkdgSMr6WuU57hu1bGOQO5QpxjDD7JjutTEf_US6Ysf8-QdSqT0cSoUvYc-gpW0mcAC2_v_kVPtuBWkiqsY6IrVfRjwE/s400/hexagons.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+If we want to put&lt;i&gt; k&lt;/i&gt; dented polygons around a vertex to make a pinwheel like we saw above for the pentagons, we'd place the small angles at the vertex and try to have them sum to 2&lt;i&gt;pi&lt;/i&gt;. This requires us to have &lt;i&gt;k&lt;/i&gt;(&lt;i&gt;n&lt;/i&gt;-4)&lt;i&gt;pi&lt;/i&gt;/&lt;i&gt;n&lt;/i&gt; = 2&lt;i&gt;pi&lt;/i&gt;, or &amp;nbsp;k = 2&lt;i&gt;n&lt;/i&gt;/(&lt;i&gt;n&lt;/i&gt;-4). So only &lt;i&gt;n&lt;/i&gt; = 5, 6, 8, or 12 will work.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRjXnyLr87StJ7H3cENz-J7W3fev_m9sbS9fcB__BVmCTYI-FNwTfdq3b2Zw6JNEGoVNcP2cLnp_WH7j7VUhG-1f8N2aFusAteUMYqyt-tGdvTpOsMFPYoWGM3qtlRRjQ_nZhOkUGTSKM/s1600/pinwheels.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="193" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRjXnyLr87StJ7H3cENz-J7W3fev_m9sbS9fcB__BVmCTYI-FNwTfdq3b2Zw6JNEGoVNcP2cLnp_WH7j7VUhG-1f8N2aFusAteUMYqyt-tGdvTpOsMFPYoWGM3qtlRRjQ_nZhOkUGTSKM/s400/pinwheels.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+It was neat how the dented pentagon could be used to fill the gap left by an arrangement of regular pentagons; can we do that for any other regular polygons? It turns out that octagons are the only other regular polygon that fits together with one of its "dented" selves in this way. Here we are looking at &lt;i&gt;k&lt;/i&gt;(&lt;i&gt;n&lt;/i&gt;-2)pi/&lt;i&gt;n&lt;/i&gt;&amp;nbsp;+ (&lt;i&gt;n&lt;/i&gt;-4)&lt;i&gt;pi&lt;/i&gt;/&lt;i&gt;n&lt;/i&gt; = 2&lt;i&gt;pi&lt;/i&gt;, which gives us &lt;i&gt;k&lt;/i&gt; = (&lt;i&gt;n&lt;/i&gt;+4)/(&lt;i&gt;n&lt;/i&gt;-2), and &lt;i&gt;k&lt;/i&gt; will be an integer only for &lt;i&gt;n&lt;/i&gt; = 5 and &lt;i&gt;n&lt;/i&gt; = 8.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiJCo0cpWlbDxPjChdTfNXeWdJ44znM2RKqGcMQYgYrt_XmThdsQ6lRUHIE9tRyktz5FQm_zl8aeSs3_k5c6ooY3wIYgoVKRG-hFrOvBA-J62pogiho9aqWo5GVZmIYfE07iCwEDls730/s1600/regularplusdented.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="251" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiJCo0cpWlbDxPjChdTfNXeWdJ44znM2RKqGcMQYgYrt_XmThdsQ6lRUHIE9tRyktz5FQm_zl8aeSs3_k5c6ooY3wIYgoVKRG-hFrOvBA-J62pogiho9aqWo5GVZmIYfE07iCwEDls730/s400/regularplusdented.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+Above we saw that regular polygons with 5, 6, 8, and 12 sides would, when dented, form pinwheels. There may be some cases where an incomplete pinwheel can be completed with a full regular polygon (sort of the opposite case of what we just saw with a dented polygon completing an arrangement of regular polygons). For this we are looking at&amp;nbsp;(&lt;i&gt;n&lt;/i&gt;-2)pi/&lt;i&gt;n&lt;/i&gt;&amp;nbsp;+ &lt;i&gt;k&lt;/i&gt;(&lt;i&gt;n&lt;/i&gt;-4)&lt;i&gt;pi&lt;/i&gt;/&lt;i&gt;n&lt;/i&gt;&amp;nbsp;= 2&lt;i&gt;pi&lt;/i&gt;, which gives us&amp;nbsp;&lt;i&gt;k&lt;/i&gt;&amp;nbsp;= (&lt;i&gt;n&lt;/i&gt;+2)/(&lt;i&gt;n&lt;/i&gt;-4), with integer values of &lt;i&gt;k&lt;/i&gt; at &lt;i&gt;n&lt;/i&gt; = 5, 6, 7, and 10.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicOMLN3G5N0K8ZmUT5Xu5hLl-hk7TacIeDje_PIwT2n71N7bKneJOjs_MOLRLEeIDv9wiRHidvE9Iw7m4D5NbNGMldJ-reg092iCkgpE8zxC02AI1NqB_qYxxjiwCSgWTUJA7PqEcgpnA/s1600/dented_one_regular.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="190" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicOMLN3G5N0K8ZmUT5Xu5hLl-hk7TacIeDje_PIwT2n71N7bKneJOjs_MOLRLEeIDv9wiRHidvE9Iw7m4D5NbNGMldJ-reg092iCkgpE8zxC02AI1NqB_qYxxjiwCSgWTUJA7PqEcgpnA/s400/dented_one_regular.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+If we throw the sliced rhombuses into the mix, we get more options for arranging tiles around a vertex. For example, when can you arrange one regular polygon with &lt;i&gt;k&lt;/i&gt; of its sliced rhombuses around a vertex? Here the equation is &amp;nbsp;(&lt;i&gt;n&lt;/i&gt;-2)pi/&lt;i&gt;n&lt;/i&gt;&amp;nbsp;+&amp;nbsp;2&lt;i&gt;k&lt;/i&gt;&lt;i&gt;pi&lt;/i&gt;/&lt;i&gt;n&lt;/i&gt;&amp;nbsp;= 2&lt;i&gt;pi&lt;/i&gt;, or&amp;nbsp;&lt;i&gt;k&lt;/i&gt;&amp;nbsp;= (&lt;i&gt;n&lt;/i&gt;+2)/2, which gives us integer &lt;i&gt;k &lt;/i&gt;values for all even &lt;i&gt;n&lt;/i&gt;. &amp;nbsp;The resulting squid-like shapes alternate between having an even number or odd number of limbs.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhB1PCSi0SnvKm1KzeYRjWqw06r8BIzfZYx8E8LQOcWPE99ydMfp1I32tEMOFacrsDbNx0KESRRe-BTiiJ4acGVnCaYnZe7__bSlLiXiFISIgkF_3ohTz57rqIOp3inkUpRuXdxG2K5f2M/s1600/squid.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="201" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhB1PCSi0SnvKm1KzeYRjWqw06r8BIzfZYx8E8LQOcWPE99ydMfp1I32tEMOFacrsDbNx0KESRRe-BTiiJ4acGVnCaYnZe7__bSlLiXiFISIgkF_3ohTz57rqIOp3inkUpRuXdxG2K5f2M/s400/squid.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;What always works&lt;/b&gt;&lt;br /&gt;
+We already noticed that you can always place &lt;i&gt;n&lt;/i&gt; of the rhombs from an &lt;i&gt;n&lt;/i&gt;-gon around a vertex without a gap to form a star. There are some other combinations of these tiles that also always work.&lt;br /&gt;
+&lt;br /&gt;
+For example, 2 regular polygons and 2 corresponding rhombs will work. &lt;i&gt;2&lt;/i&gt;(&lt;i&gt;n&lt;/i&gt;-2)pi/&lt;i&gt;n&lt;/i&gt;&amp;nbsp;+ 2(2&lt;i&gt;pi)&lt;/i&gt;/&lt;i&gt;n = 2pi. &lt;/i&gt;But then, you can take one of those two regular polygons and split it into a dented polygon and a rhomb, so 1 regular polygon, 1 dented polygon and 3 rhombs will work. Finally you can split your last regular polygon to get a combination of 2 dented polygons and 4 rhombs.&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;&lt;br /&gt;&lt;/i&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIMRRozcQEL65aCgaFK6ZC14BlY4qjsia4d6MjHF7xZ0CVc0IQEFfxm3zA1GrvoBUDuysark7sCk1hq4hsIjF0TfJHPbvYk6Giqq9cowdoBViAvuFCgZtmpJuTTb_G_-K4rgJrPLzutyc/s1600/always_works.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="341" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIMRRozcQEL65aCgaFK6ZC14BlY4qjsia4d6MjHF7xZ0CVc0IQEFfxm3zA1GrvoBUDuysark7sCk1hq4hsIjF0TfJHPbvYk6Giqq9cowdoBViAvuFCgZtmpJuTTb_G_-K4rgJrPLzutyc/s400/always_works.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;i&gt;&lt;br /&gt;&lt;/i&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2015-06-05T18:50:38.145Z</blogger:created>
+    <published>2015-06-13T03:13:00.001Z</published>
+    <updated>2015-06-13T03:13:27.567Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='tiles'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='geometry'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='polygon'/>
+    <blogger:filename>/2015/06/regular-polygons-dented-and-sliced.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

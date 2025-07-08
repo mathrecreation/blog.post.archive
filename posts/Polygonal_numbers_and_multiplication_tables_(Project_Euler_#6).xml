@@ -1,0 +1,120 @@
+<>
+  <entry>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-3355593186161744967</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Polygonal numbers and multiplication tables (Project Euler #6)</title>
+    <content type='html'>I just recently started in on the problems at &lt;a href="http://projecteuler.net/"&gt;Project Euler&lt;/a&gt; - a set of math &amp;amp; programming problems for students and others who might like to solve them using short computer programs or pencil and paper.&lt;br /&gt;
+&lt;br /&gt;
+I haven't tried many problems, but I liked &lt;a href="http://projecteuler.net/index.php?section=problems&amp;amp;id=6"&gt;#6&lt;/a&gt; because there is a nice way to state the problem using &lt;a href="http://mathrecreation.blogspot.com/search/label/polygonal"&gt;polygonal numbers&lt;/a&gt;, and a nice way to visualize it using the multiplication table.&lt;br /&gt;
+&lt;br /&gt;
+The problem statement (slightly re-ordered) is:&lt;br /&gt;
+&lt;blockquote&gt;
+&lt;i&gt;Find the difference between the square of the sum of the first one hundred natural numbers and the sum of the squares of the first one hundred natural numbers.&lt;/i&gt;&lt;/blockquote&gt;
+&lt;a href="http://en.wikipedia.org/wiki/Carl_Friedrich_Gauss"&gt;Gauss&lt;/a&gt; famously (or apocryphally) came up with ways of tackling problems like this at a tender age - see everything about how he may have done it &lt;a href="http://bit-player.org/gauss-links"&gt;here&lt;/a&gt;. Using formulas based on Gauss's approach is the recommended way of solving this problem, but what I first noticed and liked about the problem was how it could be stated (generally) in terms of polygonal numbers:&lt;br /&gt;
+&lt;blockquote&gt;
+&lt;i&gt;Find the difference between the square of the nth triangular number and the the nth square pyramidal number.&lt;/i&gt;&lt;/blockquote&gt;
+I don't know if there really is a standard for writing polygonal numbers, but I use $p^d_{k,n}$ to represent the &lt;i&gt;n&lt;/i&gt;th &lt;i&gt;d&lt;/i&gt;-dimensional &lt;i&gt;k&lt;/i&gt;-polygonal number (for example $p^2_{3,n}$ is the &lt;i&gt;n&lt;/i&gt;th triangular number, $p^3_{4,n}$ is the &lt;i&gt;n&lt;/i&gt;th square-pyramidal number), so we could say that we are trying to find:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPfwWYJr_uK1S-_Z4I_4FrBRdGzTLtOVwC31BU0ybhs2NCuVTW9V8NIPo07tW7AjovuU6JpxcpWWB_ZgCk6neO5qil258RZfJHbeq3UHg9VFdhIEpGGsKUzfrKGWGEK2T_Ue11iHZfHRY/s1600/dif_polygonal.gif" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPfwWYJr_uK1S-_Z4I_4FrBRdGzTLtOVwC31BU0ybhs2NCuVTW9V8NIPo07tW7AjovuU6JpxcpWWB_ZgCk6neO5qil258RZfJHbeq3UHg9VFdhIEpGGsKUzfrKGWGEK2T_Ue11iHZfHRY/s1600/dif_polygonal.gif" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+A general formula for the polygonal numbers is:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbfGqvyWQF9kfYGV6QFfjsSuJm3YCuEi0SBgxhQ5kDv0DEc5eYvQN3XNSdrdboaC5ruhOUogvb3fO2YV6dn18v0nfesOp3Ktls16voHuBBWWc9TUOzvfq54AVkIjzKCEvNmlNBc-MvEVQ/s1600/higher_poly_equation.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbfGqvyWQF9kfYGV6QFfjsSuJm3YCuEi0SBgxhQ5kDv0DEc5eYvQN3XNSdrdboaC5ruhOUogvb3fO2YV6dn18v0nfesOp3Ktls16voHuBBWWc9TUOzvfq54AVkIjzKCEvNmlNBc-MvEVQ/s1600/higher_poly_equation.jpg" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Playing around with pascal-like-triangles (like I tried to do &lt;a href="http://you%20can%20see%20this%20if%20you%20play%20around%20with%20generalized%20pascal-triangles./"&gt;here&lt;/a&gt; and &lt;a href="http://mathrecreation.blogspot.com/2009/12/lucas-number-triangle.html"&gt;here&lt;/a&gt;) is one way to convince yourself that this formula does make sense, and you could use it to solve the problem directly.&lt;br /&gt;
+&lt;br /&gt;
+This is nice, but what's nicer is that there is a simple way to visualize "the square of the &lt;i&gt;n&lt;/i&gt;th triangular number" and that you can also find "the &lt;i&gt;n&lt;/i&gt;th square pyramidal number" within that visualization.&lt;br /&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+Consider the standard grade-school multiplication table. Say for example, the 10 by 10 variety shown below.&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZbEFIE75c0s2slL7DJwpI3Bh5SZBBiPmSHAY0U8WPexw5JtetKtpq-XLtxEZJ5bCW4GKQGFEUc6uEJgiTDzX_VBEi71-Mi1D5foUCMQQ3OnYvvT4Q-3S4gaoYQJpvazWRMIkjI5QzDWM/s1600/10x10_numbers.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZbEFIE75c0s2slL7DJwpI3Bh5SZBBiPmSHAY0U8WPexw5JtetKtpq-XLtxEZJ5bCW4GKQGFEUc6uEJgiTDzX_VBEi71-Mi1D5foUCMQQ3OnYvvT4Q-3S4gaoYQJpvazWRMIkjI5QzDWM/s1600/10x10_numbers.jpg" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+If you sum all of the entries in the &lt;i&gt;n&lt;/i&gt; by &lt;i&gt;n&lt;/i&gt; table, you get the square of the &lt;i&gt;n&lt;/i&gt;th triangular number.&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixwsBAZIPsBTF1nKRoeA9pvgt6D7WpN9ST3aZRAaG8BfcyMvO0tRRMPi6FCqcbEVC06VvSgTfwZzNxMbDSxZHuUu5If6ybdz1HPTT4cj_vNLHO6L-W4SLgpyi-debiTcf9hDJ_56KKMQ8/s1600/sum_of_table.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="207" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixwsBAZIPsBTF1nKRoeA9pvgt6D7WpN9ST3aZRAaG8BfcyMvO0tRRMPi6FCqcbEVC06VvSgTfwZzNxMbDSxZHuUu5If6ybdz1HPTT4cj_vNLHO6L-W4SLgpyi-debiTcf9hDJ_56KKMQ8/s320/sum_of_table.jpg" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;
+So, the whole &lt;i&gt;n&lt;/i&gt; by &lt;i&gt;n&lt;/i&gt; table represents the square of the &lt;i&gt;n&lt;/i&gt;th triangular number.&amp;nbsp;Inside the table, you also get the &lt;i&gt;n&lt;/i&gt;th square-pyramidal&amp;nbsp;number - this is the sum of the entries along the downward sloping diagonal.&lt;br /&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8_V0LMfCCfbg1Aa7OAu3-CVvPjcIpwoqviH3AAfGYe59r71E4qkDwFLPYNSiPImskQdFjdTVWOeXL9oieuN_0zwHrZ18pGH1ifNBgN9MI4VcN8xYx1SFdS3wbzfRbdVan9Sxj3b129nc/s1600/diagonal_of_table.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="265" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8_V0LMfCCfbg1Aa7OAu3-CVvPjcIpwoqviH3AAfGYe59r71E4qkDwFLPYNSiPImskQdFjdTVWOeXL9oieuN_0zwHrZ18pGH1ifNBgN9MI4VcN8xYx1SFdS3wbzfRbdVan9Sxj3b129nc/s320/diagonal_of_table.jpg" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+We can think of the problem as finding the sum of all entries in the multiplication table, taking away the entries on the diagonal. Since the table is symmetrical along this diagonal, we can cut this down a bit by finding twice the sum of the "upper triangle" of the table.&lt;br /&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZKlCprXzR8AbJzNUCm9MK6PO6138TCwV6vyhAMc2RUZ3U28HKQ-DWsfpKPymkRZKnIcw706BZFhojW5VAOwfrJUjOHfoNPBS_L6cEyxYFyJZQ9ByNICrYXLU9skMJKrebDazaiqulz30/s1600/upper-triangle-of-table.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="239" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZKlCprXzR8AbJzNUCm9MK6PO6138TCwV6vyhAMc2RUZ3U28HKQ-DWsfpKPymkRZKnIcw706BZFhojW5VAOwfrJUjOHfoNPBS_L6cEyxYFyJZQ9ByNICrYXLU9skMJKrebDazaiqulz30/s320/upper-triangle-of-table.jpg" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+We can state the answer to the problem using this idea as:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizgLFimqS597GFXlNnQdXaXAaszeqws1zMjcl8u1-DZhyphenhyphenbEh-6O85JN6WQrqcnlakZv0gFhjiIQ4ywd-a5J5aBtChAlwS75_y2piqja97uXL09j8y4kduH_6kCNNqJVP-vWaJx5gKNMRU/s1600/double_sum.gif" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizgLFimqS597GFXlNnQdXaXAaszeqws1zMjcl8u1-DZhyphenhyphenbEh-6O85JN6WQrqcnlakZv0gFhjiIQ4ywd-a5J5aBtChAlwS75_y2piqja97uXL09j8y4kduH_6kCNNqJVP-vWaJx5gKNMRU/s1600/double_sum.gif" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+one way to express this in Java using for loops is:&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;span class="Apple-style-span" style="font-family: 'Courier New', Courier, monospace;"&gt;int number = 100; // the number you stop summing at&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span class="Apple-style-span" style="font-family: 'Courier New', Courier, monospace;"&gt;int result = 0;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span class="Apple-style-span" style="font-family: 'Courier New', Courier, monospace;"&gt;for (int i=1; i&amp;lt;=number; i++){&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span class="Apple-style-span" style="font-family: 'Courier New', Courier, monospace;"&gt;&lt;span class="Apple-tab-span" style="white-space: pre;"&gt; &lt;/span&gt;for(int j=i+1; j&amp;lt;=number; j++){&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span class="Apple-style-span" style="font-family: 'Courier New', Courier, monospace;"&gt;&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;  &lt;/span&gt;result += i*j;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span class="Apple-style-span" style="font-family: 'Courier New', Courier, monospace;"&gt;&lt;span class="Apple-tab-span" style="white-space: pre;"&gt; &lt;/span&gt;}&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span class="Apple-style-span" style="font-family: 'Courier New', Courier, monospace;"&gt;}&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span class="Apple-style-span" style="font-family: 'Courier New', Courier, monospace;"&gt;result = 2*result;&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+There are some other nice connections between polygonal numbers and the multiplication table. For example, the well known "a square number is the sum of two triangular numbers" relationship&amp;nbsp;&lt;a href="http://mathrecreation.blogspot.com/2009/01/humble-multiplication-table-1.html"&gt;can be found&lt;/a&gt; inside the multiplication table, and &lt;a href="http://mathrecreation.blogspot.com/2009/08/triangulo-triangular-numbers.html"&gt;so can the triangulo-triangular numbers&lt;/a&gt; (4-dimensional triangular numbers).&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2011-05-21T02:58:23.833Z</blogger:created>
+    <published>2011-05-21T04:08:00Z</published>
+    <updated>2011-09-11T01:59:05.145Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='polygonal'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='project euler'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='multiplication'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='school math'/>
+    <blogger:filename>/2011/05/polygonal-numbers-and-multiplication.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

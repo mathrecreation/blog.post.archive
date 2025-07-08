@@ -1,0 +1,108 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-8418007719360093180</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>polynomial division practice page</title>
+    <content type='html'>I've added a new polynomial division page that generates random questions and asks you to fill in the answer, one step at a time. The page is &lt;a href="https://dmackinnon1.github.io/polygrid/practice"&gt;here&lt;/a&gt;, along with its partners - a polynomial division &lt;a href="https://dmackinnon1.github.io/polygrid/calc.html"&gt;calculator&lt;/a&gt; and &lt;a href="https://dmackinnon1.github.io/polygrid/"&gt;example generator&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div&gt;
+The page presents you with a randomly generated question, like this:&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbEsa6PXCoi5O7xXKZkw5hF3mZOPOID7AhTZHpI0pUpB5FX_1n1YMpxTN11IaFshVihlhVmve8O1BCjERr6A_BUQcYNNhdmblZeN0eNHIXqjQfiScAA7UisYh1MofiecTy-15mIR_4KU8/s1600/question_division.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="53" data-original-width="226" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbEsa6PXCoi5O7xXKZkw5hF3mZOPOID7AhTZHpI0pUpB5FX_1n1YMpxTN11IaFshVihlhVmve8O1BCjERr6A_BUQcYNNhdmblZeN0eNHIXqjQfiScAA7UisYh1MofiecTy-15mIR_4KU8/s1600/question_division.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+An initial grid is set up, with the divisor written down in the first column on the left. Everything else is unknown.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOZ-DKxoNgl6-WxdoGh167vGbmJG4XcVwtrfZIZ4yR10Xr-N4cgHc1c7bkEzZOvkeMEKbW97GZeCJeD2G0gAOMkictReFZRQaY7u2zF5X9L8jNDhSqaWFubLbP2YhZyGQYUzX0vn-S41E/s1600/first_grid.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="213" data-original-width="139" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOZ-DKxoNgl6-WxdoGh167vGbmJG4XcVwtrfZIZ4yR10Xr-N4cgHc1c7bkEzZOvkeMEKbW97GZeCJeD2G0gAOMkictReFZRQaY7u2zF5X9L8jNDhSqaWFubLbP2YhZyGQYUzX0vn-S41E/s1600/first_grid.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+This is a grid for polynomial multiplication, but we only have one polynomial - we don't know what to put along the top for the other multiplicand. If we think of the division question as N/D = Q (numerator divided by denominator gives the quotient), the corresponding multiplication problem is DxQ = N, we have D (the denominator or divisor) and we want to find the Q to put along the top so that the contents of the grid give us N (the numerator or dividend).&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+We start with the term with the highest degree in N. The page provides this prompt:&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8qWSy_uRHqtF08nLoL_W8XNY-dnauF-RRuj5FmdewrSWTCn8r6s1lpQW3oxHqnnoDa9zYpuMzxttkkeZa6LJCMKCXRX8TA6JfqKwDOdG96Q7vJfPkgy7OkgbxhnvRSaO-hWlE2kcnZsM/s1600/prompt.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="191" data-original-width="259" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8qWSy_uRHqtF08nLoL_W8XNY-dnauF-RRuj5FmdewrSWTCn8r6s1lpQW3oxHqnnoDa9zYpuMzxttkkeZa6LJCMKCXRX8TA6JfqKwDOdG96Q7vJfPkgy7OkgbxhnvRSaO-hWlE2kcnZsM/s1600/prompt.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+In terms of the grid, you are being asked for the coefficient for the term that will go in the leftmost empty cell in the top row.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDwX3ifWlltPe7u2edbiC-eNYCuyUgl0bwUqmbRjrfILcmBn7VbLciQABJJAnqP_u1yd8JCxdBc2smqK5sHOXD_pYwO4lggBr0iYLCOzFor3DL0dxHNWC870Ah-1Q_5Rzk2SMXP2jIVoQ/s1600/data_in.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="104" data-original-width="228" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDwX3ifWlltPe7u2edbiC-eNYCuyUgl0bwUqmbRjrfILcmBn7VbLciQABJJAnqP_u1yd8JCxdBc2smqK5sHOXD_pYwO4lggBr0iYLCOzFor3DL0dxHNWC870Ah-1Q_5Rzk2SMXP2jIVoQ/s1600/data_in.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+The correct entry is -2. This allows another column of the grid to be filled in:&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMPa7xQsKVmLXoGx2PUVv7ewxYQP2dAdbiVfuxXN2M53a6zvmkJue1zPZ-AtTFzYw4WoVgvO1pBA_f-CsuxREwhRIWOSRSOj82oxZxnClXPgNqNcm0c4nd61nGXrIz-uHpBpo4d8VvLX8/s1600/grid_2.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="249" data-original-width="168" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMPa7xQsKVmLXoGx2PUVv7ewxYQP2dAdbiVfuxXN2M53a6zvmkJue1zPZ-AtTFzYw4WoVgvO1pBA_f-CsuxREwhRIWOSRSOj82oxZxnClXPgNqNcm0c4nd61nGXrIz-uHpBpo4d8VvLX8/s1600/grid_2.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+Now we look at the next term in N, following this prompt:&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8XILA3QRjTz8__f8ORohkjs8Kua2Y4dtzB1bWL2aY_xL8MS1fot9MwhcBbQRKK_HD4U6z01_QtccMxLQrKFPR7qqgFFY18pFS_PSjh3BPA1_OE_mYDWF46q4jxXBHRs6HcwjvAKW_KDQ/s1600/prompt_2.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="160" data-original-width="373" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8XILA3QRjTz8__f8ORohkjs8Kua2Y4dtzB1bWL2aY_xL8MS1fot9MwhcBbQRKK_HD4U6z01_QtccMxLQrKFPR7qqgFFY18pFS_PSjh3BPA1_OE_mYDWF46q4jxXBHRs6HcwjvAKW_KDQ/s1600/prompt_2.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+It turns out that no degree 1 term is needed in the solution since we already have all we need in the grid. When doing these by hand, you can just move on to the constant term, but on this page you actually need to put a 0 in the degree 1 column.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgx0lm-uenAeRhpO8cTgQdDv7FdlbrO_yr-4AnqKIYB1KBr9AdneI4JWdgxnhAbVX_Wbf-R53agyoyKa1Xcz7mdKhkDxfSriDV1ManVDWiLQ8AoZa_0tYy0czCKASu2OixLNT2Dazux3Hs/s1600/grid_3.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="249" data-original-width="163" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgx0lm-uenAeRhpO8cTgQdDv7FdlbrO_yr-4AnqKIYB1KBr9AdneI4JWdgxnhAbVX_Wbf-R53agyoyKa1Xcz7mdKhkDxfSriDV1ManVDWiLQ8AoZa_0tYy0czCKASu2OixLNT2Dazux3Hs/s1600/grid_3.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+Moving on to the next term in N, we get this prompt:&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjADQbyAMj0GuMARtBTwOOSmak0aW7AP8g7hnyZbRXBTpB_BLxuY8HWKGspE0ofuf_mSBCzjOs-2B1WkI8E5jkY0eyWsKSspNCdfbdNe9Gq2qTtlL7baXajtWmnAu_QcGo5uVorelBPT-g/s1600/prompt_3.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="158" data-original-width="373" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjADQbyAMj0GuMARtBTwOOSmak0aW7AP8g7hnyZbRXBTpB_BLxuY8HWKGspE0ofuf_mSBCzjOs-2B1WkI8E5jkY0eyWsKSspNCdfbdNe9Gq2qTtlL7baXajtWmnAu_QcGo5uVorelBPT-g/s1600/prompt_3.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+Since there are no degree 2 terms in the table, the coefficient required is 4.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiajNv8glq3R8x1zjCdVqpkweERYwC2ABGrzg4hAESO9KgdUbTUNCvDsenIFMMA7cNBV5OvgJuVwU_ICIKMQQ2xmMCVPtikj7oiMY53iMyRe7Zz92eCW6LyFTG-srwkn9FtEQP45co0TH8/s1600/end.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="425" data-original-width="302" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiajNv8glq3R8x1zjCdVqpkweERYwC2ABGrzg4hAESO9KgdUbTUNCvDsenIFMMA7cNBV5OvgJuVwU_ICIKMQQ2xmMCVPtikj7oiMY53iMyRe7Zz92eCW6LyFTG-srwkn9FtEQP45co0TH8/s1600/end.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+... and it turns out that the linear term also works out, as there is no remainder in this case.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+Try out the polynomial division practice page &lt;a href="https://dmackinnon1.github.io/polygrid/practice"&gt;here&lt;/a&gt;, and visit &lt;a href="http://www.mathrecreation.com/p/blog-page.html"&gt;this page&lt;/a&gt; for links to other posts and resources on the topic.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2018-09-26T21:32:02.633Z</blogger:created>
+    <published>2018-09-27T01:29:00.001Z</published>
+    <updated>2018-09-27T01:29:21.224Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2018/09/polynomial-division-practice-page.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

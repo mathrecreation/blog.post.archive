@@ -1,0 +1,34 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-3660051198707276031</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>put in one's place</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMPCyjwrvmtPsCqA_jkDcshyYwl0-wIA92tDhtUaYXBO34ii5TyC7H9gWFEXuXb6UT36bOgYJNcsXxP-_G7YhT_1XuC_GeJnF6_JiAxMdNdfD6RB5IGfTZOEezy0LB8v1vWwZf_gt72_4/s1600/12.JPG" /&gt;&lt;/div&gt;
+&lt;br /&gt;
+Consider, if you will, the question "What is the last digit of 4316 * 12 &amp;nbsp;+ 511?"&lt;br /&gt;
+&lt;br /&gt;
+One way to quickly answer "what is the last digit?" questions like this is to realize that you don't need to do the full calculation - only the last digits of each number in the problem contribute to the last digit in the answer. So, you just need to calculate 6 * 2 + 1 and look at the last digit of that, which is 3.&lt;br /&gt;
+&lt;br /&gt;
+When can we use this short-cut? With impunity when only multiplication and addition of positive Integers are involved - here only digits-in-the-ones-place of the inputs affect the digit-in-the-ones-place of the output. If you throw multiplication's tricky partner division into the mix, then I think that all bets are off (digits in all places affect the ones position in the result when you divide). However, we can still proceed with caution when &amp;nbsp;subtraction and negative Integers are in play: if we get a negative along the way while we are looking at the ones place, we need to pause and see if we should have "borrowed" from the tens place that we were ignoring.&lt;br /&gt;
+&lt;br /&gt;
+For example, what is the last digit of (91536 - 648) * 12? Ignoring everything except the last digits in the original problem we have (6 - 8) * 2 = ( -2 ) * 2. At this point, we need to stop and realize that instead of keeping the -2 we should have borrowed from the tens position of &amp;nbsp;91536, giving us an 8 in the ones position, so we should have (8) * 2 = 16, so the last digit of&amp;nbsp;(91536 - 648) * 12 is 6.&lt;br /&gt;
+&lt;br /&gt;
+PS: The rest of the Peanuts cartoon featuring&amp;nbsp;Peppermint's inventive rules for arithmetic&amp;nbsp;can be found&amp;nbsp;&lt;a href="http://www.gocomics.com/peanuts/1980/09/07/"&gt;here&lt;/a&gt;.</content>
+    <blogger:metaDescription/>
+    <blogger:created>2012-06-06T13:47:29.839Z</blogger:created>
+    <published>2012-06-15T03:16:00Z</published>
+    <updated>2012-06-15T03:18:04.334Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='school math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='mathematics'/>
+    <blogger:filename>/2012/06/put-in-ones-place.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

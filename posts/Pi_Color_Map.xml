@@ -1,0 +1,52 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-949823592406691473</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Pi Color Map</title>
+    <content type='html'>&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpqrtrwI8ws2MGF7joaOSvnhMBrZxBEmVIi0iWpbWF5xiUS6sYcyKBsd4v4H2SJ9qzNWA1mpe1m_Z2cEQLvb_-Q5qVQzp-9XWSBqRjeC-M3FD93kUymEgfQPo3-0h8-rFXUBYwFif9UZc/s1600-h/2281-digits-of-pi-map.jpg"&gt;&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5225539914408988946" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpqrtrwI8ws2MGF7joaOSvnhMBrZxBEmVIi0iWpbWF5xiUS6sYcyKBsd4v4H2SJ9qzNWA1mpe1m_Z2cEQLvb_-Q5qVQzp-9XWSBqRjeC-M3FD93kUymEgfQPo3-0h8-rFXUBYwFif9UZc/s400/2281-digits-of-pi-map.jpg" style="cursor: pointer; display: block; margin: 0px auto 10px; text-align: center;" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;a href="http://www.johnsimsprojects.com/clients/mathartprojects/"&gt;John Sims&lt;/a&gt; has created a number of pi-related art works. One, the Pi Color Map, can be recreated effectively using &lt;a href="http://www.keypress.com/x5715.xml"&gt;TinkerPlots&lt;/a&gt;. The image above is one such Pi Color Map, using 2281 digits of pi.&lt;br /&gt;
+&lt;br /&gt;
+Here are some instructions for creating a Pi Color Map in Tinkerplots.&lt;br /&gt;
+&lt;br /&gt;
+1. Obtain a listing of the digits of pi - up to a reasonable number.  You can get the digits from several sites, including the &lt;a href="http://www.piday.org/million.php"&gt;pi day site&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+2. Paste your listing to a text document, and get them arranged into a single column. One strategy for doing this is and use the find/replace feature of a word-processor to replace each number with the number itself plus a line-break(e.g. in Word, replace 2 with 2^l, etc.).&lt;br /&gt;
+&lt;br /&gt;
+3. If you've included the decimal point, remove it.  For the first line of your document, provide a heading like &lt;span style="font-weight: bold;"&gt;pi_expansion&lt;/span&gt;. This will be your TinkerPlots attribute.&lt;br /&gt;
+&lt;br /&gt;
+3. Import the text file into TinkerPlots using the File&amp;gt;Import menu.&lt;br /&gt;
+&lt;br /&gt;
+4. Create a new attribute called &lt;span style="font-weight: bold;"&gt;digit&lt;/span&gt; whose formula is &lt;span style="font-weight: bold;"&gt;digit=concat("",pi_expansion)&lt;/span&gt;. This creates a categorical data type that TinkerPlots won't treat numerically. This is what you will use as your &lt;span style="font-style: italic;"&gt;color key&lt;/span&gt;. Using the &lt;span style="font-weight: bold;"&gt;pi_expansion&lt;/span&gt; attribute gives a spectrum of color, rather than distinct colors for each number.&lt;br /&gt;
+&lt;br /&gt;
+5. Create a new attribute called &lt;span style="font-weight: bold;"&gt;place&lt;/span&gt;, whose formula is &lt;span style="font-weight: bold;"&gt;place=caseIndex&lt;/span&gt;. This is what you will order your plot by.&lt;br /&gt;
+&lt;br /&gt;
+6. Create a new plot, lock the color key on the &lt;span style="font-weight: bold;"&gt;digit &lt;/span&gt;attribute. Select the &lt;span style="font-weight: bold;"&gt;place &lt;/span&gt;attribute and press the &lt;span style="font-style: italic;"&gt;Order By&lt;/span&gt; button.&lt;br /&gt;
+&lt;br /&gt;
+7. Change your icon type to small squares, and &lt;span style="font-style: italic;"&gt;stack &lt;/span&gt;the cases.&lt;br /&gt;
+&lt;br /&gt;
+You can play with different options to get different effects for your color map.&lt;br /&gt;
+&lt;br /&gt;
+One nice thing about doing this in TinkerPlots is that you can investigate the data further. The color map plot highlights the apparent randomness of the pi expansion, but you can also create other attributes  and plots to investigate things like the running average of the digits, occurrences of consecutive digits, and the overall distribution of the digits (it should be uniform).&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;If you are having trouble creating this yourself, a Tinkerplots file for this is &lt;a href="http://sites.google.com/site/mathrecreation/Home/pi_dm_v1.tp?attredirects=0"&gt;here&lt;/a&gt;, or you can use the data file &lt;a href="http://sites.google.com/site/mathrecreation/Home/pi_10000.txt?attredirects=0"&gt;here&lt;/a&gt;.&lt;/i&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYBfgADn1BIopufAgbdx6rwoQVJHVrQ-ngLhJGTFovm-sxoNK0mZOnuQol_yGFT2my4pP8c-tfT-HS9SaqsmP9Az-GwSSqxyLhVKHdAIIBRJgT3-tQoPKXLFQ-o9pQKMazQ23p1xYe7Fs/s1600-h/pi2.jpg"&gt;&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5224085545287989906" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYBfgADn1BIopufAgbdx6rwoQVJHVrQ-ngLhJGTFovm-sxoNK0mZOnuQol_yGFT2my4pP8c-tfT-HS9SaqsmP9Az-GwSSqxyLhVKHdAIIBRJgT3-tQoPKXLFQ-o9pQKMazQ23p1xYe7Fs/s320/pi2.jpg" style="cursor: pointer; display: block; height: 89px; margin: 0px auto 10px; text-align: center; width: 136px;" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;i&gt;Postscript: &lt;a href="http://www.mathrecreation.com/2009/03/pis-first-six-in-row.html"&gt;here&lt;/a&gt; is another look at the same picture of pi.&lt;/i&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2008-07-17T20:31:40.104Z</blogger:created>
+    <published>2008-07-17T20:30:00Z</published>
+    <updated>2012-05-07T03:58:21.722Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='pi'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='visualization'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='TinkerPlots'/>
+    <blogger:filename>/2008/07/pi-color-map.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

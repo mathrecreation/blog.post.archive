@@ -1,0 +1,42 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-2169436039025843690</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>self avoidance</title>
+    <content type='html'>&lt;blockquote style="text-align: left;"&gt;&lt;i&gt;Our expeditions are but tours, and come round again at evening to the old hearthside from which we set out. Half the walk is but retracing our steps. We should go forth on the shortest walk, perchance, in the spirit of undying adventure, never to return, prepared to send back our embalmed hearts only as relics to our desolate kingdoms. If you are ready to leave father and mother, and brother and sister, and wife and child and friends, and never see them again -- if you have paid your debts, and made your will, and settled all your affairs, and are a free man - then you are ready for a walk.&lt;/i&gt;&lt;/blockquote&gt;&lt;div style="text-align: center;"&gt;&lt;i&gt;from &lt;/i&gt;&lt;a href="http://www.ecotopia.org/ehof/thoreau/walking.html"&gt;&lt;i&gt;Walking&lt;/i&gt;&lt;/a&gt;&lt;span class="Apple-style-span"&gt;&lt;i&gt;, by Henry David Thoreau&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;&lt;span class="Apple-style-span" style="font-style: normal;"&gt;&lt;br /&gt;
+If you write a program to generate self-avoiding random walks akin to the ones that Thoreau describes, I think the first thing that will strike you is how short they tend to be - you quickly end up closing yourself within the path you've already followed. It is easy to imagine infinitely long walks (a straight line, or a slightly jagged variation), but these seem to be rare.&lt;br /&gt;
+&lt;br /&gt;
+It seems that putting the constraint of self avoidance on a walk makes it into a much nicer object of study. Depending on what other constraints you apply, you can actually enumerate the walks of a given size (see the &lt;a href="http://mathworld.wolfram.com/Self-AvoidingWalk.html"&gt;mathworld&lt;/a&gt; entry).&lt;br /&gt;
+&lt;br /&gt;
+If you let walks run until they can go no further you might notice that for some walks you can tell where the start point is (it is not closed in) and where the end point is (it is closed in). Sometimes it happens that you can't distinguish these by looking at the path (where did the walk below start, and where did it end?).&lt;br /&gt;
+&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMBqzTC0ZpoLK-25WR5F7mOFu4R5cqQXhufBZCaxGSmtwF8It2sPDKCRz6I0VKCYaujdn1zm9YOU-3ezpkL9vkDUYiDgpF1HPpLPzhPi9nm9s53UBS0AIK-_UC_z9AFEHeaQuvSfxTTUY/s1600-h/rand5.jpg" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"&gt;&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5350613034883961378" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMBqzTC0ZpoLK-25WR5F7mOFu4R5cqQXhufBZCaxGSmtwF8It2sPDKCRz6I0VKCYaujdn1zm9YOU-3ezpkL9vkDUYiDgpF1HPpLPzhPi9nm9s53UBS0AIK-_UC_z9AFEHeaQuvSfxTTUY/s400/rand5.jpg" style="cursor: pointer; display: block; height: 150px; margin: 0px auto 10px; text-align: center; width: 187px;" /&gt;&lt;/a&gt;Clicking on the applet below will create a random walkers that avoid themselves and each other - pressing a key while the applet is selected will clear the screen. &lt;br /&gt;
+&lt;div style="text-align: center;"&gt;&lt;br /&gt;
+&lt;div id="randomwalkers_container"&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;object archive="http://sites.google.com/site/mathrecreation/processing/randomwalkers.jar" classid="java:randomwalkers.class" height="200" standby="Loading Processing software..." type="application/x-java-applet" width="200"&gt; &lt;param value="http://sites.google.com/site/mathrecreation/processing/randomwalkers.jar" name="archive"/&gt; &lt;param value="true" name="mayscript"/&gt; &lt;param value="true" name="scriptable"/&gt; &lt;param value="http://sites.google.com/site/mathrecreation/processing/loading.gif" name="image"/&gt; &lt;param value="Loading Processing software..." name="boxmessage"/&gt; &lt;param value="#FFFFFF" name="boxbgcolor"/&gt; &lt;param value="outer" name="test_string"/&gt; &lt;!--&lt;![endif]--&gt; &lt;object classid="clsid:8AD9C840-044E-11D1-B3E9-00805F499D93" standby="Loading Processing software..." width="200" codebase="http://java.sun.com/update/1.5.0/jinstall-1_5_0_15-windows-i586.cab" height="200"&gt; &lt;param value="randomwalkers" name="code"/&gt; &lt;param value="http://sites.google.com/site/mathrecreation/processing/randomwalkers.jar" name="archive"/&gt; &lt;param value="true" name="mayscript"/&gt; &lt;param value="true" name="scriptable"/&gt; &lt;param value="http://sites.google.com/site/mathrecreation/processing/loading.gif" name="image"/&gt; &lt;param value="Loading Processing software..." name="boxmessage"/&gt; &lt;param value="#FFFFFF" name="boxbgcolor"/&gt; &lt;param value="inner" name="test_string"/&gt; &lt;p&gt;&lt;strong&gt; This browser does not have a Java Plug-in. &lt;a href="http://java.sun.com/products/plugin/downloads/index.html" title="Download Java Plug-in"&gt;Get the latest Java Plug-in here.&lt;/a&gt; &lt;/strong&gt;&lt;/p&gt;&lt;/object&gt; &lt;!--[if !IE]&gt; --&gt; &lt;/object&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;/div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;br /&gt;
+The applet was built using &lt;a href="http://processing.org/"&gt;Processing&lt;/a&gt;. See also &lt;a href="http://mathrecreation.blogspot.com/2009/05/generating-random-walks.html"&gt;this post&lt;/a&gt; about implementing random walks (non-self-avoiding) in Fathom and TinkerPlots.</content>
+    <blogger:metaDescription/>
+    <blogger:created>2009-06-23T19:44:00.912Z</blogger:created>
+    <published>2009-06-23T19:42:00Z</published>
+    <updated>2011-09-11T02:01:38.126Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='TinkerPlots'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='Fathom'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='simulations'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='Processing'/>
+    <blogger:filename>/2009/06/self-avoidance.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

@@ -1,0 +1,149 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-2804564627733445788</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>regular polygons in rings, part two</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+In the last &lt;a href="http://www.mathrecreation.com/2016/04/tetradecagons-and-heptagons.html"&gt;two&lt;/a&gt; &lt;a href="http://www.mathrecreation.com/2016/04/rings-of-regular-polygons-in-rings.html"&gt;posts&lt;/a&gt;, I was playing around with rings of polygons, relying on a formula developed in&amp;nbsp;&lt;a href="http://www.mathrecreation.com/2015/07/regular-polygons-in-rings.html"&gt;this post&lt;/a&gt;&amp;nbsp;from last summer. I realize that the explanation offered in that original post was not so great, so I am going to try and better explain what the "regular polygon ring formula" k = 2&lt;i&gt;n&lt;/i&gt;/(&lt;i&gt;n&lt;/i&gt; -(2+2&lt;i&gt;m&lt;/i&gt;)) means, and mention a few more interesting patterns.&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+The first thing to notice, is that some regular polygons can be fitted together nicely in a ring where there is one edge (along the interior of the ring) between adjacent polygons, like these:&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSQo7OgaWd1jLkKbaVbHcRGevVTnoMSeSMYq9o_eGcbrQnbUv1cvrb3n30uhiRH4rZXjXwoBYG-xDPlo181J4fOlQtknLAimNuc1_tXRqSAbq5PIHclbs3UkVA8XZ3SXBVNqFP05zLxHw/s1600/ring_type1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="155" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSQo7OgaWd1jLkKbaVbHcRGevVTnoMSeSMYq9o_eGcbrQnbUv1cvrb3n30uhiRH4rZXjXwoBYG-xDPlo181J4fOlQtknLAimNuc1_tXRqSAbq5PIHclbs3UkVA8XZ3SXBVNqFP05zLxHw/s400/ring_type1.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+And some regular polygons can be fitted together skipping over two edges along the interior, like these:&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUiP2Vn6K3B6SSyQh0wpWh3BL93U0iKYGXRvaA4cskzbSj1lI9mQAyMScGcyrxly9rXdvlVaFudEnl7SjCb6-D3DAwMMliYvlIdZOWwFMumTcWJRw6Kx2lW1H08MDwbWa4M-9SEsIO8JI/s1600/ring_type2.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="150" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUiP2Vn6K3B6SSyQh0wpWh3BL93U0iKYGXRvaA4cskzbSj1lI9mQAyMScGcyrxly9rXdvlVaFudEnl7SjCb6-D3DAwMMliYvlIdZOWwFMumTcWJRw6Kx2lW1H08MDwbWa4M-9SEsIO8JI/s400/ring_type2.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+However, some regular polygons cannot be put into such arrangements for a given skip count.&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_oAH1lT6iXtvkwTBo2-EFzmkSNkxSaeBwFE-6JOHiXFEUF2xZr7eFllIbFrJiCeRsEcJr2RzB4xXh602ww8jGZpP49eyQWuktlmE1-3uVSRcuTsS2ZUWrjo2IF_Hq-slb_SznF1quYoc/s1600/failures_1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="123" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_oAH1lT6iXtvkwTBo2-EFzmkSNkxSaeBwFE-6JOHiXFEUF2xZr7eFllIbFrJiCeRsEcJr2RzB4xXh602ww8jGZpP49eyQWuktlmE1-3uVSRcuTsS2ZUWrjo2IF_Hq-slb_SznF1quYoc/s320/failures_1.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_NXdZCef6ZeL9ly8n9MdaGb8FJpzEBSatmoCpSiGlDK_UK5In4xcwFV3eYBdOULhbYIbfnQcMtrYWbvWzMpAEvf_6TRxSCh1pkuZKlqG64GIBm3Ndvb_C7L6kAH0BpIl2gptDHZMPQ5o/s1600/11-gon-2-fail.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="187" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_NXdZCef6ZeL9ly8n9MdaGb8FJpzEBSatmoCpSiGlDK_UK5In4xcwFV3eYBdOULhbYIbfnQcMtrYWbvWzMpAEvf_6TRxSCh1pkuZKlqG64GIBm3Ndvb_C7L6kAH0BpIl2gptDHZMPQ5o/s200/11-gon-2-fail.JPG" width="200" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+So, a reasonable question to ask is which regular polygons can be arranged in a ring by skipping over a fixed number of edges. More precisely, can &lt;i&gt;k&lt;/i&gt; regular &lt;i&gt;n&lt;/i&gt;-gons be place in a ring formed by skipping over &lt;i&gt;m&lt;/i&gt; edges (along the inside of the ring) between adjacent &lt;i&gt;n&lt;/i&gt;-gons?&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+Before answering that, it is good to know a couple of things about angles in regular &lt;i&gt;n&lt;/i&gt;-gons. The angles at the vertex of a regular &lt;i&gt;n&lt;/i&gt;-gon is equal to (&lt;i&gt;n&lt;/i&gt;-2)&lt;i&gt;pi&lt;/i&gt;/&lt;i&gt;n&lt;/i&gt;. A nice proof of this involves cutting the &lt;i&gt;n&lt;/i&gt;-gon into triangles that all share one vertex of the original &lt;i&gt;n&lt;/i&gt;-gon: (2-&lt;i&gt;n&lt;/i&gt;) triangles each contribute a total angle measure of &lt;i&gt;pi&lt;/i&gt;, which is then divided evenly among the &lt;i&gt;n&lt;/i&gt; vertices of the original &lt;i&gt;n&lt;/i&gt;-gon. Also, if you form a wedge in the &lt;i&gt;n&lt;/i&gt;-gon, from its center to two adjacent vertices, the angle formed will be 2&lt;i&gt;pi&lt;/i&gt;/&lt;i&gt;n&lt;/i&gt;. These two angle facts will help us come up with formulas for which &lt;i&gt;n&lt;/i&gt;-gons can form the rings described above.&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwhuXT8G0qTJDh-f_X0f4arfeDV8xUkSOlaX2r9h8sJ4agJHaQgIOKNBjaGcPw7A5-kwFgl-RogxOpDGLYCU46fhs8VVrBl7E5BITyG-7ZyPXOLdBhjWxAO29DE6IqoT7PDNhuY8PiMtw/s1600/two_important_angles.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="152" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwhuXT8G0qTJDh-f_X0f4arfeDV8xUkSOlaX2r9h8sJ4agJHaQgIOKNBjaGcPw7A5-kwFgl-RogxOpDGLYCU46fhs8VVrBl7E5BITyG-7ZyPXOLdBhjWxAO29DE6IqoT7PDNhuY8PiMtw/s320/two_important_angles.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+Let's start with just skipping one edge (&lt;i&gt;m&amp;nbsp;&lt;/i&gt;= 1) when forming the ring. Like for the pentagons shown below.&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXg-frczQBoRH899FLwAovAU4aj1aEaqJaAz3Nae7xPBH4XcVGynQr4-PS6WrP27o2E-BmVrhH6Mt5Df1Ok4ha5bDwZaBpuPvp9snQFwfIr3CdAfcPAvXy1cAzexGPh6cBRLhx_JtT7Fg/s1600/rings.JPG" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXg-frczQBoRH899FLwAovAU4aj1aEaqJaAz3Nae7xPBH4XcVGynQr4-PS6WrP27o2E-BmVrhH6Mt5Df1Ok4ha5bDwZaBpuPvp9snQFwfIr3CdAfcPAvXy1cAzexGPh6cBRLhx_JtT7Fg/s320/rings.JPG" width="200" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Consider &lt;i&gt;k&lt;/i&gt; &lt;i&gt;n&lt;/i&gt;-gons arranged in a ring so that there 1 side is skipped between adjacent polygons.&lt;br /&gt;
+&lt;br /&gt;
+If you connect the centers of the &lt;i&gt;k&lt;/i&gt; &lt;i&gt;n&lt;/i&gt;-gons, you obtain a bigger interior polygon, a regular &lt;i&gt;k&lt;/i&gt;-gon.&lt;br /&gt;
+&lt;br /&gt;
+On the one hand, since it is a regular &lt;i&gt;k&lt;/i&gt;-gon, its interior angles are (&lt;i&gt;k&lt;/i&gt;-2)&lt;i&gt;pi&lt;/i&gt;/&lt;i&gt;k &lt;/i&gt;(the first fact about angles in regular polygons mentioned above). On the other hand, if you look at the angle as it sits within each &lt;i&gt;n&lt;/i&gt;-gon, you can see that the angle is formed by connecting the midpoints of two sides, one side apart, to the center. From this, you can see that this angle is also equal to 4&lt;i&gt;pi&lt;/i&gt;/&lt;i&gt;n&lt;/i&gt; (from the second fact about angles in regular polygons mentioned above).&lt;br /&gt;
+&lt;br /&gt;
+Equating these two gives you the rule &lt;i&gt;k&lt;/i&gt; = 2&lt;i&gt;n&lt;/i&gt;/(&lt;i&gt;n&lt;/i&gt;-4).&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+We want &lt;i&gt;k&lt;/i&gt; and &lt;i&gt;n&lt;/i&gt; that are integers, so we can graph the function &amp;nbsp;&lt;i&gt;k&lt;/i&gt; = 2&lt;i&gt;n&lt;/i&gt;/(&lt;i&gt;n&lt;/i&gt;-4) and see what works. If we choose &lt;i&gt;n&lt;/i&gt; = 4, things are undefined, which corresponds in our geometric model to an infinite ring of squares:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4tY3ilFnTM0N6bnurfJOl6De9ZiENkIh_asY9MMscBeiNOKlX_EjeCMRaWCEUitp2SN5kZaO3RQzrHKfC0xxddyviVqfD0Cw6gKbRaXGSY6JjGadddtDOk0ZJDF6946460ysFzCkwlKo/s1600/infinite_squares.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="75" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4tY3ilFnTM0N6bnurfJOl6De9ZiENkIh_asY9MMscBeiNOKlX_EjeCMRaWCEUitp2SN5kZaO3RQzrHKfC0xxddyviVqfD0Cw6gKbRaXGSY6JjGadddtDOk0ZJDF6946460ysFzCkwlKo/s320/infinite_squares.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+The only actual solutions we get are for n equal to 5, 6, 8, and 12. After this &lt;i&gt;k&lt;/i&gt; is approaching the limit of 2, which geometrically corresponds to the fact that you can't make a ring with just two polygons.&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJlufSJAh1CwIrJCaVupKqxpK5fV2kGKeuTBxCDVKoZPlnKmr-82LgyvbvZCKiIb2nHZjbI-TdHXrM0blWHNu3ALLF2LMMKhyUOLC-51Gh0-mG9cKMnFRiYFJqQPUoZRiDw8lS2J700VE/s1600/works_1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="295" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJlufSJAh1CwIrJCaVupKqxpK5fV2kGKeuTBxCDVKoZPlnKmr-82LgyvbvZCKiIb2nHZjbI-TdHXrM0blWHNu3ALLF2LMMKhyUOLC-51Gh0-mG9cKMnFRiYFJqQPUoZRiDw8lS2J700VE/s320/works_1.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+What if we skip over two edges?&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFOsciMZIrSGanmdJ4m6DRXRZq-hkMRIWamLzek-je9f1lyoGuG6X8xEOcUvsk2qTe8h_SpeWk6YFBtylhdk8I5-TzJYZrNdZ23yKG8cSkA9-RaxbfvAmqdntDPYsDqYE1Y8ezcpT9fo8/s1600/rings_type2.JPG" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFOsciMZIrSGanmdJ4m6DRXRZq-hkMRIWamLzek-je9f1lyoGuG6X8xEOcUvsk2qTe8h_SpeWk6YFBtylhdk8I5-TzJYZrNdZ23yKG8cSkA9-RaxbfvAmqdntDPYsDqYE1Y8ezcpT9fo8/s320/rings_type2.JPG" width="173" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+Here again, you form a regular polygon by connecting the centers of the &lt;i&gt;k&lt;/i&gt; &lt;i&gt;n&lt;/i&gt;-gons.&lt;br /&gt;
+&lt;br /&gt;
+Again, since it is a regular &lt;i&gt;k&lt;/i&gt;-gon, it will have interior angles of (&lt;i&gt;k&lt;/i&gt;-2)&lt;i&gt;pi&lt;/i&gt;/&lt;i&gt;k&lt;/i&gt;.&lt;br /&gt;
+&lt;br /&gt;
+However, now looking at this angle within the &lt;i&gt;n&lt;/i&gt;-gon you can see it is formed by connecting the midpoints of two sides, two sides apart, to the center. So the angle is also 6&lt;i&gt;pi&lt;/i&gt;/&lt;i&gt;n&lt;/i&gt;.&lt;br /&gt;
+&lt;br /&gt;
+Equating (&lt;i&gt;k&lt;/i&gt;-2)&lt;i&gt;pi&lt;/i&gt;/&lt;i&gt;k&lt;/i&gt; and 6&lt;i&gt;pi&lt;/i&gt;/&lt;i&gt;n&lt;/i&gt; &amp;nbsp;gives you the rule &lt;i&gt;k&lt;/i&gt; = 2&lt;i&gt;n&lt;/i&gt;/(&lt;i&gt;n&lt;/i&gt;-6).&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+For the "skip 2 edges" case, if we choose &lt;i&gt;n&lt;/i&gt; = 6, we get an infinite ring of hexagons, and our function &amp;nbsp;&lt;i&gt;k&lt;/i&gt; = 2&lt;i&gt;n&lt;/i&gt;/(&lt;i&gt;n&lt;/i&gt;-6) is undefined.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiElCsZNzLTV7OsfPe3JAXf2e7-EI0n6QsI0dVmV60gCrilqMbmlaYcfO2HUDlY4PnIhO9EdC_PxDgnekAih7-WOM0ZUwfZuLQZFdrGl8uMGja-LxVLfdtCg_frYZrd4j7KBLV6nH6z2gc/s1600/infinite_hexagons.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="107" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiElCsZNzLTV7OsfPe3JAXf2e7-EI0n6QsI0dVmV60gCrilqMbmlaYcfO2HUDlY4PnIhO9EdC_PxDgnekAih7-WOM0ZUwfZuLQZFdrGl8uMGja-LxVLfdtCg_frYZrd4j7KBLV6nH6z2gc/s320/infinite_hexagons.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+We can find which polygons work by finding the integer solutions to our rule. There are six polygons that work following the skip 2 edges rule of ring construction, as shown on the graph below. We can stop at the 18-gon, with it we've hit the minimum value of &lt;i&gt;k&lt;/i&gt; = 3.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirz7pKVuTfl3jXvllnfvSWz3P96d8Roy2o02V4eRvbgr85h_T-UxJ7PGgxEk8k7NZa5oMQvy5R_VHIC_K1pgHYGww41jVJdun6Z9qcjrAQUTY7hp_vacI7pNrGIrDu0lW3iucb0tQBSuE/s1600/works_2a.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="306" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirz7pKVuTfl3jXvllnfvSWz3P96d8Roy2o02V4eRvbgr85h_T-UxJ7PGgxEk8k7NZa5oMQvy5R_VHIC_K1pgHYGww41jVJdun6Z9qcjrAQUTY7hp_vacI7pNrGIrDu0lW3iucb0tQBSuE/s400/works_2a.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+In general, we can try a "skip &lt;i&gt;m&lt;/i&gt; edges" rule, and following the same reasoning, and note that the angles of the central polygon will be (2 + 2&lt;i&gt;m&lt;/i&gt;)pi/&lt;i&gt;n &lt;/i&gt;(see diagram below). And, as before, equating this with (&lt;i&gt;k&lt;/i&gt;-2)pi/&lt;i&gt;k&lt;/i&gt;,&amp;nbsp;obtain the relationship &lt;i&gt;k&lt;/i&gt; = 2&lt;i&gt;n&lt;/i&gt;/(&lt;i&gt;n&lt;/i&gt; - (2 + 2&lt;i&gt;m&lt;/i&gt;)).&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcT9mBcNBhPMG443L5cIbNDeE4AhQe-LpsvxIVdabseAU4M4yMyczxQ0ukpDwX17AK1xKP7-60i9gBv7pIdws7MdPrGNdyHeuBtQ1zQeiU1Rg1-SjBsu3IKr8vkTQYMX4vkvDlCdeELZw/s1600/skip_m_case.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="212" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcT9mBcNBhPMG443L5cIbNDeE4AhQe-LpsvxIVdabseAU4M4yMyczxQ0ukpDwX17AK1xKP7-60i9gBv7pIdws7MdPrGNdyHeuBtQ1zQeiU1Rg1-SjBsu3IKr8vkTQYMX4vkvDlCdeELZw/s320/skip_m_case.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+This also covers the case &lt;i&gt;m&lt;/i&gt; = 0, where we make a ring skipping zero edges fitting the regular &lt;i&gt;n&lt;/i&gt;-gons snugly together, and find (as maybe you knew already) that this can only be done for the triangle, the square, and the hexagon.&lt;br /&gt;
+&lt;br /&gt;
+Looking at the graphs and solutions for several values of &lt;i&gt;m&lt;/i&gt;, it looks as if there are some linear relationships between &lt;i&gt;n&lt;/i&gt; and &lt;i&gt;k&lt;/i&gt; that hold true for all &lt;i&gt;m&lt;/i&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZPi_yG6cfeXRRF_k-38FHg79ODeGTxouC0aW_PLRS6kF0532_M7ICIOmL9ZCINXs6E9cYMxBf5J7zSAXiDFfgbkpHoAzEWpRB4HHGvSsBIb3vJsjpqRPNEDvZmTONoHyLqrj79o4olIw/s1600/kmn_graph1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="331" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZPi_yG6cfeXRRF_k-38FHg79ODeGTxouC0aW_PLRS6kF0532_M7ICIOmL9ZCINXs6E9cYMxBf5J7zSAXiDFfgbkpHoAzEWpRB4HHGvSsBIb3vJsjpqRPNEDvZmTONoHyLqrj79o4olIw/s400/kmn_graph1.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+Playing connect the dots, there about six relationships that jump out right away: three lines sloping upwards, and three horizontal constant relationships (a fixed value for &lt;i&gt;k&lt;/i&gt;), that slice through each &lt;i&gt;m&lt;/i&gt; curve and give integer solutions.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOU5sQiv4gV8FOXOEpX7-AlcnG9X7zBVSIT7mtDgiujeDBanPUhqwXlsjPashyphenhyphenuHAG-gTjHOW1gMxMANjTi_-R0nNBVLrHGzKRhoRU3fMshnCYaFv_rLxDRXUyF5HzC81nMhO8pmyCqTE/s1600/kmn_graph2.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="318" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOU5sQiv4gV8FOXOEpX7-AlcnG9X7zBVSIT7mtDgiujeDBanPUhqwXlsjPashyphenhyphenuHAG-gTjHOW1gMxMANjTi_-R0nNBVLrHGzKRhoRU3fMshnCYaFv_rLxDRXUyF5HzC81nMhO8pmyCqTE/s400/kmn_graph2.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+For example, consider the line &lt;i&gt;k&lt;/i&gt; = 2&lt;i&gt;n;&lt;/i&gt;&amp;nbsp;when substituted into the general formula &lt;i&gt;k&lt;/i&gt; = 2&lt;i&gt;n&lt;/i&gt;/(&lt;i&gt;n&lt;/i&gt; - (2 + 2&lt;i&gt;m&lt;/i&gt;)), this gives us &lt;i&gt;n&lt;/i&gt; = 2&lt;i&gt;m&lt;/i&gt; + 3. What does this mean? One way of putting it is, for any number of skips (&lt;i&gt;m&lt;/i&gt;) we can always find an &lt;i&gt;n&lt;/i&gt;-gon that can form a ring that is twice the size of &lt;i&gt;n&lt;/i&gt;. Or, put another way, for any odd&amp;nbsp;&lt;i&gt;n&lt;/i&gt;, you can place &lt;i&gt;n&lt;/i&gt;-gons in a ring double the size of &lt;i&gt;n&lt;/i&gt;, and to do this you will have to skip over &lt;i&gt;m&lt;/i&gt; = (&lt;i&gt;n&lt;/i&gt;-3)/2 sides. Six triangles can form a ring skipping no sides (m=0), 10 pentagons can form a ring skipping one side, and &lt;a href="http://www.mathrecreation.com/2016/04/tetradecagons-and-heptagons.html"&gt;fourteen heptagons&lt;/a&gt; can form a ring skipping two sides.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijdSy0KC6N-HwRryDTBewfAI48qC_tXce16JSfdfmLKL6o12vgBorqnoyu2aXBwVS4I-iPS9aLebIQhSADZKgIr8VkdrCUuXGXOTBC_60_7QiiNhIVXhgaOEEcbwIVaOyjpJ5nckxurbg/s1600/kmn_graph_k2n.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="331" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijdSy0KC6N-HwRryDTBewfAI48qC_tXce16JSfdfmLKL6o12vgBorqnoyu2aXBwVS4I-iPS9aLebIQhSADZKgIr8VkdrCUuXGXOTBC_60_7QiiNhIVXhgaOEEcbwIVaOyjpJ5nckxurbg/s400/kmn_graph_k2n.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Similarly, the line &lt;i&gt;k&lt;/i&gt; = &lt;i&gt;n&lt;/i&gt; connects with all the &lt;i&gt;m&lt;/i&gt; curves when &lt;i&gt;n&lt;/i&gt; = 2&lt;i&gt;m&lt;/i&gt;&amp;nbsp;+ 4, so for any even &lt;i&gt;n&lt;/i&gt;, you can place &lt;i&gt;n&lt;/i&gt; &lt;i&gt;n&lt;/i&gt;-gons in a ring (with &lt;i&gt;m&lt;/i&gt; = (&lt;i&gt;n&lt;/i&gt; - 4)/2 skips), as described in &lt;a href="http://www.mathrecreation.com/2016/04/rings-of-regular-polygons-in-rings.html"&gt;this post&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZwLc8T5bbsqgga95hXd2Xz5eeyY5Vs5wuFz8M8MBfIcFKkgdzd0L73XQ2uolo9ht-pd0uIH7qjkKrg7sbpXXQt7-c9wsn9-tJ8vl08gzytIEMa5Q2SqPaMWobMnRjebi9Pkx_dECmA4c/s1600/kmn_graph_kn.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="337" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZwLc8T5bbsqgga95hXd2Xz5eeyY5Vs5wuFz8M8MBfIcFKkgdzd0L73XQ2uolo9ht-pd0uIH7qjkKrg7sbpXXQt7-c9wsn9-tJ8vl08gzytIEMa5Q2SqPaMWobMnRjebi9Pkx_dECmA4c/s400/kmn_graph_kn.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+The other relationships mentioned above (and there are more that were not mentioned) also reveal interesting patterns in how rings of regular polygons can be formed. Some questions you can look at would be: What values &lt;i&gt;n&lt;/i&gt; allow you to create a ring of 3, 4, or 6 &lt;i&gt;n&lt;/i&gt;-gons? Which "skip values" allow you to create a ring of 10 polygons?&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2016-04-13T01:31:25.505Z</blogger:created>
+    <published>2016-04-22T16:33:00Z</published>
+    <updated>2016-04-22T22:02:04.582Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2016/04/regular-polygons-in-rings-part-two.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

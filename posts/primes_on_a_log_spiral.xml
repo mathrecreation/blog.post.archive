@@ -1,0 +1,37 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-6709883668593650717</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>primes on a log spiral</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1R6UySzMSfSF1Gf4b5KOtiUVfMlfVLmdGPLVJKrmmaRD7zdTX2ziy7-snrDWnEYhRi_BvBsvhQfP2hh-bRcJ5PFx_PP5oho4mXBZNBmfN3ICxiBJi0U53afcgT3Eaf-DWZlc4mBhjCGc/s1600/primes-on-log.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1R6UySzMSfSF1Gf4b5KOtiUVfMlfVLmdGPLVJKrmmaRD7zdTX2ziy7-snrDWnEYhRi_BvBsvhQfP2hh-bRcJ5PFx_PP5oho4mXBZNBmfN3ICxiBJi0U53afcgT3Eaf-DWZlc4mBhjCGc/s320/primes-on-log.JPG" width="301" /&gt;&lt;/a&gt;&lt;/div&gt;
+Since looking again at Theodore Andrea Cook's &lt;a href="http://books.google.com/books?id=ea-TStM-07EC"&gt;The Curves of Life&lt;/a&gt; a &lt;a href="http://www.mathrecreation.com/2011/09/spirals.html"&gt;few posts back&lt;/a&gt; I've been planning on playing with &lt;a href="http://en.wikipedia.org/wiki/Logarithmic_spiral"&gt;logarithmic spirals&lt;/a&gt;, which are identified in that book as the type of spiral that you often encounter in nature and in architecture. I was inspired to finally spend some time with them after reading a recent post on &lt;a href="http://mathhombre.blogspot.com/2012/01/spiral-so-so.html"&gt;Math Hombre&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuRh0gezsc5utkB4o7aXQY9AVOitj8zzQjQJ3NtpVhlKR2MMiDExuLrATeKm2mZa5T7rJEMSU-G7nsVAqGWwnisFqulkYHaN1VNs30vcrIH-uZ1RnIH-XZ0vQ3jSyYry_Or0nvT75ANJM/s1600/primes-on-log_with-numbers.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuRh0gezsc5utkB4o7aXQY9AVOitj8zzQjQJ3NtpVhlKR2MMiDExuLrATeKm2mZa5T7rJEMSU-G7nsVAqGWwnisFqulkYHaN1VNs30vcrIH-uZ1RnIH-XZ0vQ3jSyYry_Or0nvT75ANJM/s320/primes-on-log_with-numbers.JPG" width="318" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+For fun I treated the curve like a number line and plotted prime numbers on it&amp;nbsp;&lt;span style="text-align: left;"&gt;&amp;nbsp;using&amp;nbsp;&lt;/span&gt;&lt;a href="http://processing.org/" style="text-align: left;"&gt;Processing&lt;/a&gt;. It seems to me that a nice thing about curling up the number line is that it allows you to take in more of the line at a glance. You can notice both the (seemingly) increasing &lt;a href="http://en.wikipedia.org/wiki/Prime_gap"&gt;gaps that occur between primes&lt;/a&gt;, as well as the (apparent) persistent&amp;nbsp;occurrence&amp;nbsp;of&amp;nbsp;&lt;a href="http://en.wikipedia.org/wiki/Twin_prime"&gt;twin primes&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQr1LLPnIlo_gO-Fli7daFYKgl6ZsUH3d_QLj-AFZmSRrW5AlSXIQKjRXHOaTnT5COSyqrcVwYUtJzFdc-M-BZZRlkX-5TmFJTGoQLYCDp5K6UfgrwfktX8IqQQK5Azc2RxQHOPxX1JeU/s1600/primes-on-log_with-twins.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQr1LLPnIlo_gO-Fli7daFYKgl6ZsUH3d_QLj-AFZmSRrW5AlSXIQKjRXHOaTnT5COSyqrcVwYUtJzFdc-M-BZZRlkX-5TmFJTGoQLYCDp5K6UfgrwfktX8IqQQK5Azc2RxQHOPxX1JeU/s320/primes-on-log_with-twins.JPG" width="319" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2012-01-11T02:11:57.652Z</blogger:created>
+    <published>2012-01-11T19:29:00Z</published>
+    <updated>2012-01-11T19:29:57.981Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='spirals'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='primes'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='mathematics'/>
+    <blogger:filename>/2012/01/primes-on-log-spiral.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

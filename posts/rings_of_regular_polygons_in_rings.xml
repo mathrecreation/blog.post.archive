@@ -1,0 +1,52 @@
+<>
+  <entry>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-5959775052259323648</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>rings of regular polygons in rings</title>
+    <content type='html'>As mentioned &lt;a href="http://www.mathrecreation.com/2015/07/regular-polygons-in-rings.html"&gt;here&lt;/a&gt; and &lt;a href="http://www.mathrecreation.com/2016/04/tetradecagons-and-heptagons.html"&gt;here&lt;/a&gt;, you can, sometimes, arrange regular polygons in regular rings.&lt;br /&gt;
+&lt;br /&gt;
+If &lt;i&gt;n&lt;/i&gt; is even, then &lt;i&gt;n&lt;/i&gt; regular &lt;i&gt;n&lt;/i&gt;-gons can be placed in a ring with each &lt;i&gt;n&lt;/i&gt;-gon centered at the vertex of a another regular &lt;i&gt;n&lt;/i&gt;-gon, where there are &lt;i&gt;m&lt;/i&gt; = (&lt;i&gt;n&lt;/i&gt; - 4)/2 edges between adjacent edges of the adjacent &lt;i&gt;n&lt;/i&gt;-gons.&lt;br /&gt;
+&lt;br /&gt;
+For example, squares can form a ring around a square, skipping no edges, while hexagons can form a ring around a hexagon, skipping one edge along the interior of the ring between adjacent hexagons.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhY0REllLh1q-_vqpgPRLaQpofm1Gid0UA0-Co126thlcEormhiUpCbXwlAxxZ-kaiDcR9eJ6SU8XUulidzi9BjIE-q6xKWay3DI66GshdI2hr-Qmmmr0mtqKQQE69KOIDZ-iSXsALcQ_8/s1600/n46.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="227" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhY0REllLh1q-_vqpgPRLaQpofm1Gid0UA0-Co126thlcEormhiUpCbXwlAxxZ-kaiDcR9eJ6SU8XUulidzi9BjIE-q6xKWay3DI66GshdI2hr-Qmmmr0mtqKQQE69KOIDZ-iSXsALcQ_8/s400/n46.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Things look a bit more interesting for octagons and decagons, which due to the skipping of edges form a star shape.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrcqcro41MQhHAfkNRVxAP_fLcKba-NnDfahGpmLGUwqgZL63sEHN_6YXol7bJcMDjEROcgoC5CwkI6syvRmWFk_nqJl2a1X1sFg9Xd4hlidsGe4SDJ8d15-wyGtUtCoYypwjH6Ohm2qE/s1600/n68.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="251" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrcqcro41MQhHAfkNRVxAP_fLcKba-NnDfahGpmLGUwqgZL63sEHN_6YXol7bJcMDjEROcgoC5CwkI6syvRmWFk_nqJl2a1X1sFg9Xd4hlidsGe4SDJ8d15-wyGtUtCoYypwjH6Ohm2qE/s400/n68.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+So if a regular&amp;nbsp;&lt;i&gt;n&lt;/i&gt;-gon can form a ring around another regular &lt;i&gt;n&lt;/i&gt;-gon, what happens if you make rings out of those (i.e. make a ring out of the red rings above)?&lt;br /&gt;
+&lt;br /&gt;
+For &lt;i&gt;n&lt;/i&gt; = 4 or 6, you get a tessellation - the small squares or hexagons will neatly fit up against each other and tile the plane (if you keep going). For &lt;i&gt;n&lt;/i&gt; = 8, the octagons form patterns like this.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgXjuAxQOmxMbQ4OwuczjgjRIr8h3FrQbQdgDHS1JN72IuwCthzINeFzvUkWG2yzVKNYh8tpGfS9A0jWF9ip74lmEXxRE7i5PwjKSVTrsIhbG899jmknMf9pnQhQbYElubQE-vmOz6Lm8/s1600/octagons_showing.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="305" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgXjuAxQOmxMbQ4OwuczjgjRIr8h3FrQbQdgDHS1JN72IuwCthzINeFzvUkWG2yzVKNYh8tpGfS9A0jWF9ip74lmEXxRE7i5PwjKSVTrsIhbG899jmknMf9pnQhQbYElubQE-vmOz6Lm8/s320/octagons_showing.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+If we only show the initial small octagons, we get the pattern below, where the small octagons do not overlap, but form a nice pattern with various star-shaped holes.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEl64MdJ_a4JiG1lXc00ceKDSG_VNjiyRMHbiPnZepukIOcPaW986u7-IXdOpnYvj3oOSpS3jpRMuAK9MPp8Azc1QWHgO7y4xk9YfCGPD4FUSndy-ev7ygt36vUjZ7dLFsIDfLXet560o/s1600/octagons_no_show.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="393" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEl64MdJ_a4JiG1lXc00ceKDSG_VNjiyRMHbiPnZepukIOcPaW986u7-IXdOpnYvj3oOSpS3jpRMuAK9MPp8Azc1QWHgO7y4xk9YfCGPD4FUSndy-ev7ygt36vUjZ7dLFsIDfLXet560o/s400/octagons_no_show.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+We can only do one ring of rings of decagons before they start to overlap. In the ring of rings of decagons below, some edges of the secondary decagons were left in, for aesthetic effect.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwW9tOxpM-_Vjdj0h5KfUAS0BYVbyop8ieV3kdROQbecEE57JfOUX5lQR9EGVImYhykb4s5bAwZpGHS7YvNBzcgAjDQ7osPccd-t3geiQA84aTuAyyUh7UBlwkzsUKinuMrdoUvO5tpsY/s1600/ring_of_rings_of_decagons.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="386" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwW9tOxpM-_Vjdj0h5KfUAS0BYVbyop8ieV3kdROQbecEE57JfOUX5lQR9EGVImYhykb4s5bAwZpGHS7YvNBzcgAjDQ7osPccd-t3geiQA84aTuAyyUh7UBlwkzsUKinuMrdoUvO5tpsY/s400/ring_of_rings_of_decagons.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2016-04-19T02:01:37.287Z</blogger:created>
+    <published>2016-04-19T02:38:00Z</published>
+    <updated>2016-08-20T19:12:31.151Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2016/04/rings-of-regular-polygons-in-rings.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

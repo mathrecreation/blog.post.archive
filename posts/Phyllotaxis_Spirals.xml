@@ -1,0 +1,51 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-5448124668316463165</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Phyllotaxis Spirals</title>
+    <content type='html'>&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0wpYfwrwIvhdZHgmqIYSP2zZnRqJrd9MwZtWroB90-BxRbgONKVEAQFXZuW8WUV7BnsgzhfUDmykimyZqDOGaxnR2MCuk00e6FCTIJcb_4SIO9gFLZ-ob1BCccnwUx_8Epg6vkvUioNg/s1600-h/phylo1.jpg"&gt;&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5244060132606787218" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0wpYfwrwIvhdZHgmqIYSP2zZnRqJrd9MwZtWroB90-BxRbgONKVEAQFXZuW8WUV7BnsgzhfUDmykimyZqDOGaxnR2MCuk00e6FCTIJcb_4SIO9gFLZ-ob1BCccnwUx_8Epg6vkvUioNg/s320/phylo1.jpg" style="cursor: pointer; display: block; margin: 0px auto 10px; text-align: center;" /&gt;&lt;/a&gt;&lt;br /&gt;
+Phyllotaxis is a term used for the patterns that emerge in the growth of plants. Spiral phyllotaxis is observed in the heads of sunflowers, in pine-cones and pineapples, and in a variety of other plants.&lt;br /&gt;
+&lt;br /&gt;
+Phyllotaxis is a popular topic in mathematics recreation - it's interesting in its own right and also related to other perennial favorites, Fibonacci numbers and the golden ratio.&lt;br /&gt;
+&lt;br /&gt;
+The article &lt;a href="http://www.maa.org/joma/Volume8/Dogan/Spirals.html"&gt;Modeling Spiral Growth in a GSP Environment&lt;/a&gt; describes how to model phyllotaxis-like patterns in GSP. Although GSP works reasonably well, TinkerPlots or Fathom environments  seem to be better suited to capturing this particular model - they make the formulas more explicit and easy to manipulate, and they allow for the data generated to be viewed in a variety of ways. The images above were created by porting this model to TinkerPlots.&lt;br /&gt;
+&lt;br /&gt;
+As the article suggests, experimenting with the the angle between successive seeds allows you to see different resulting patterns - angles that are multiples of rational numbers create patterns of rays while irrational numbers (actually approximate values) give spirals, or spiral/ray combinations (the rays form as the approximation gets more "rational"). A good choice for approximating actual phyllotaxis patterns  is to use tau = (1+sqrt(5))/2 in your angle. Here is a listing for the attributes required to generate the pattern in TP or Fathom. The graph/plot is simply the x attribute on the horizontal and the y attribute on the vertical (in TP these need to be fully separated).&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style="font-family: &amp;quot;courier new&amp;quot;;"&gt;n = caseIndex&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: &amp;quot;courier new&amp;quot;;"&gt;base_angle = pi*(1+sqrt(5))&lt;/span&gt; &lt;span style="font-family: &amp;quot;courier new&amp;quot;;"&gt;&lt;br /&gt;r = sqrt(n)&lt;/span&gt; &lt;span style="font-family: &amp;quot;courier new&amp;quot;;"&gt;&lt;br /&gt;theta = n*base_angle&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: &amp;quot;courier new&amp;quot;;"&gt;x = r*cos(theta)&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: &amp;quot;courier new&amp;quot;;"&gt;y = r*sin(theta)&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+The images shown in this post use a collection of 500 cases or "seeds". The base angle is 2pi*tau, and the actual angle for a given seed is a multiple of this base angle.&lt;br /&gt;
+&lt;br /&gt;
+The model is nice looking and easy to build, but it models only the end result of the growth process, not the process itself. It winds new seeds around the outer edge based on a pre-determined angle. A better model would be one that mirrors what is understood to be the underlying phonomena - new seeds are added to the center and old seeds are pushed out following a set of rules. Under this dynamic method, the angles and spirals are an emergent aspect of the system, rather than the explicit result. &lt;a href="http://maven.smith.edu/~phyllo/About/index.html"&gt;This website&lt;/a&gt; describes how such a dynamical system could be modeled.&lt;br /&gt;
+&lt;br /&gt;
+Although the Fathom/TP model does not model the dynamical system that underlies phyllotaxis, it's fun to play with in its own right. You can manually alter the base_angle attribute as suggested by the GSP article. If you add a parameter (a slider) to help you vary the angle, you can obtain a whole family of spiral/ray patterns whose properties you could take a closer look at. Different combinations of angles and sliders will give you various levels of control over the image.&lt;br /&gt;
+&lt;br /&gt;
+For example, change the formula for base_angle to &lt;span style="font-family: &amp;quot;courier new&amp;quot;;"&gt;base_angle = pi*(1+sqrt(5))*base&lt;/span&gt;, and create a slider "base". The image below shows the spirals obtained for base = 1...6.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8ckf0UWHVH5LakZZICMjJfcuyH43k89g5VnM9D7tlOC6ja0DfrOzxiASVIf24A3WFlpvqCe82dltiFYuBAPbXVE3sZvHBomPBITD0GMzYQXe0swa8PxxhNkkXfm30S0fuSwz5VUqnpOU/s1600-h/6spirals.jpg"&gt;&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5244060139063317362" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8ckf0UWHVH5LakZZICMjJfcuyH43k89g5VnM9D7tlOC6ja0DfrOzxiASVIf24A3WFlpvqCe82dltiFYuBAPbXVE3sZvHBomPBITD0GMzYQXe0swa8PxxhNkkXfm30S0fuSwz5VUqnpOU/s320/6spirals.jpg" style="cursor: pointer; display: block; margin: 0px auto 10px; text-align: center;" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;i&gt;&lt;b&gt;Update&lt;/b&gt;: &lt;a href="http://www.mathrecreation.com/2015/08/simple-fun-with-r.html"&gt;Here is an example&lt;/a&gt; of how to draw spirals like this in R.&lt;/i&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2008-09-05T21:09:27.475Z</blogger:created>
+    <published>2008-09-05T21:08:00Z</published>
+    <updated>2016-09-09T02:14:27.889Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='phyllotaxis'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='visualization'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='TinkerPlots'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='patterns'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='spirals'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='Fathom'/>
+    <blogger:filename>/2008/09/phyllotaxis-spirals.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

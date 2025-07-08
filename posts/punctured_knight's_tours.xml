@@ -1,0 +1,64 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-3567331075965064616</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>punctured knight's tours</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfu4MjZYCa0QoGh0qEmvMqBgin5ppFkMj4aTF7MUrZBfGcDE5Nyaxiof5tjjKasIsM_kmroH3m1YyHspyyyIPYp5uEhAH-DsrpbSzhpyLL7Gp_KjW2UcnqW-B9Ke-iOodPo4OjphghCEo/s1600/3x3_picture.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="200" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfu4MjZYCa0QoGh0qEmvMqBgin5ppFkMj4aTF7MUrZBfGcDE5Nyaxiof5tjjKasIsM_kmroH3m1YyHspyyyIPYp5uEhAH-DsrpbSzhpyLL7Gp_KjW2UcnqW-B9Ke-iOodPo4OjphghCEo/s200/3x3_picture.jpg" width="198" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+It's pretty clear that a &lt;a href="http://www.mathrecreation.com/2011/03/knight-moves.html"&gt;chess knight&lt;/a&gt; cannot travel to every square on a 3x3 board. If the knight starts in the center square, it cannot move at all, while if it starts on any other square, it cannot reach the center. If you puncture the board by removing the central square, your dissapointment with the simplicity of the remaining problem might be somewhat relieved by the niceness of the solution: there is only one possible knight tour on a punctured 3 by 3 board (up to rotation, reflection, and change of direction), and it is closed with a nice star-shaped path.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8VJvUNCnjQhV8takUzVNLjQpaetGuWirxYyYkmDsiHSwEV87tCEVI_AMTFCQ53QrhStb1q_9_bs3UI1NmoA7bYtl9zeuqZMiXOkEau4mlMD2Ks24n-yBzW7dxTn-vQD2gmNW98dud1vo/s1600/3x3_path_star.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="150" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8VJvUNCnjQhV8takUzVNLjQpaetGuWirxYyYkmDsiHSwEV87tCEVI_AMTFCQ53QrhStb1q_9_bs3UI1NmoA7bYtl9zeuqZMiXOkEau4mlMD2Ks24n-yBzW7dxTn-vQD2gmNW98dud1vo/s320/3x3_path_star.jpg" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+This nice pattern inspired me to look at knight tours on other punctured square boards - boards with odd dimensions that had the central square removed. On boards that are 5 by 5 I could only find two distinct solutions (other non-distinct tours can be found by rotation, reflection, and reversing direction), but it is likely that there are more. Neither of the ones that I found are closed - the first follows a spiral path and always travelling in the same direction (like the 3 by 3 case), while the second starts out as a spiral in one direction and then changes direction after the ninth move.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtV8kf6VZG0htZTubwc5_0uMAxcNTRG_x8uiFgvRZb3idIGR6ZRykNQs96SbRbM13hIxxP5D4VCmYb2J1hkJHFg5_wbGN2QMCV5OqCJ4OCkg34fF2YIA8nIAASWjEdsiWutiDbwHOy2Ak/s1600/two_5x5_boards.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="149" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtV8kf6VZG0htZTubwc5_0uMAxcNTRG_x8uiFgvRZb3idIGR6ZRykNQs96SbRbM13hIxxP5D4VCmYb2J1hkJHFg5_wbGN2QMCV5OqCJ4OCkg34fF2YIA8nIAASWjEdsiWutiDbwHOy2Ak/s320/two_5x5_boards.jpg" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+However, I found that a nice closed tour can be created on a 7 by 7 punctured board by "gluing" together rotated copies of an open 3 by 4 tour. The technique of building up knight tours from smaller ones by gluing them together in a way that the knight can move from one to the next is a common one, and is particularly helpful when you want to create symmetric or semi-magic tours (this is described in Martin Gardner's essay "Knights of the Square Table"&amp;nbsp;&lt;span class="Apple-style-span" style="background-color: white; color: #222222; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 13px; line-height: 18px;"&gt;from&amp;nbsp;&lt;a href="http://books.google.com/books?id=6P_uAAAAMAAJ" style="color: #66bbdd; text-decoration: none;"&gt;Mathematical Magic Show&lt;/a&gt;&lt;/span&gt;).&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-E_iTEfDoFJi6wXnnVUOvYGOxqQkvmAwi08jZDA1Hs2FkFTsGHf7jyDVX367ygXn4Bm44BV5gAxc4d4C_YxaHsuEYLalOHtBZmepnYSMZHzwWky-prfLJgzbdpnZQoMzQT7mzbQKp7zk/s1600/rotate_and_glue.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="213" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-E_iTEfDoFJi6wXnnVUOvYGOxqQkvmAwi08jZDA1Hs2FkFTsGHf7jyDVX367ygXn4Bm44BV5gAxc4d4C_YxaHsuEYLalOHtBZmepnYSMZHzwWky-prfLJgzbdpnZQoMzQT7mzbQKp7zk/s320/rotate_and_glue.jpg" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Although this technique does not give you a spiral pattern like the 3 by 3 case or the first 5 by 5 example, the copy and rotate technique gives the path another nice pattern. You can see this symmetry in the 7 by 7 punctured board if you look at the cell values modulo 12 (doing this tracks where the values in the original board are rotated to).&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjbBskdzm3TBXrmMpwDXtgP0o73c4OahbTfev2TX7-5LQglPi6Zd5s0IDs3vVXCDogpUHZWCvVfd9WJeE58Xf7iP0EBhO3yyFupErF0hXqFgrukS9MxYcBQJs-1laX0jTW_73H6OfjLVE/s1600/4x3_to_7x7_mod12.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="200" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjbBskdzm3TBXrmMpwDXtgP0o73c4OahbTfev2TX7-5LQglPi6Zd5s0IDs3vVXCDogpUHZWCvVfd9WJeE58Xf7iP0EBhO3yyFupErF0hXqFgrukS9MxYcBQJs-1laX0jTW_73H6OfjLVE/s200/4x3_to_7x7_mod12.jpg" width="194" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+If you connect the values that are equal to each other mod 12, you get a nice pattern of rotated nested squares - this pattern is completely independent of the tour on the initial 4 by 3 board: all it shows is the rotation that was applied to make the larger board. The image below has done this for some values (not all) - for example 5, 17, 29, and 41 form a square, as do 8, 20, 32, and 44.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikcx44HEcvyShJ5gZ_lRbPKUI0KU90ovg1Zmf5r7Dwvqw9h_5fl0dihubPlzE-hMhr9fdKpk8LJmmQ1zcRb2Mi73NY-DHwnu39_H9gbpszKZcxOnKHLEguP6N9XgcaKVtb4reIqOd22LY/s1600/rotating_squares_on_7x7.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="200" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikcx44HEcvyShJ5gZ_lRbPKUI0KU90ovg1Zmf5r7Dwvqw9h_5fl0dihubPlzE-hMhr9fdKpk8LJmmQ1zcRb2Mi73NY-DHwnu39_H9gbpszKZcxOnKHLEguP6N9XgcaKVtb4reIqOd22LY/s200/rotating_squares_on_7x7.jpg" width="190" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+This pattern is&amp;nbsp;reminiscent&amp;nbsp;of a more ideal version of the same pattern, which can be made using iterations in Geometer's Sketchpad (the gsp file used to create this is &lt;a href="http://sites.google.com/site/mathrecreation/Home/iterations1.gsp"&gt;here&lt;/a&gt;). It seems that one way or another, we end up finding &lt;a href="http://www.mathrecreation.com/2011/09/spirals.html"&gt;spirals&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvVe_XymKAtAhSwcL_oysoBCr9ryF6JJnum3a11uq-_oD8GQnto0eFksthHUNWsRZV9el9W7KJ73kbcrnhHFJO7Y2K7QlIPsdDsMNvgcaKw-RjY0bZba7kDwlfgJWMcDRMO8pjcNH4EgQ/s1600/ideal_rotation.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="200" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvVe_XymKAtAhSwcL_oysoBCr9ryF6JJnum3a11uq-_oD8GQnto0eFksthHUNWsRZV9el9W7KJ73kbcrnhHFJO7Y2K7QlIPsdDsMNvgcaKw-RjY0bZba7kDwlfgJWMcDRMO8pjcNH4EgQ/s200/ideal_rotation.jpg" width="199" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+You can use the same "rotate and glue" process to create a closed 9 by 9 punctured tour, made up of copies of a specially constructed open 4 by 5 tour. There are several open 4 by 5 tours that can be glued together to make a closed 9 by 9 punctured tour - here's one below:&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOy7p9TPiDaWPxmJ5ZgceygPj8EOIxTsO0osXF7_inwIeb44N4K5uiGmS2gTRSHc7IF2rx5nMTEVxy7lbiQtpJNNfV6AopG64Lhd3fl6Ill9cggy_jPcRK-TSF-52whgSsTUVYCOTsbWU/s1600/rotate_and_glue_9x9.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="257" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOy7p9TPiDaWPxmJ5ZgceygPj8EOIxTsO0osXF7_inwIeb44N4K5uiGmS2gTRSHc7IF2rx5nMTEVxy7lbiQtpJNNfV6AopG64Lhd3fl6Ill9cggy_jPcRK-TSF-52whgSsTUVYCOTsbWU/s400/rotate_and_glue_9x9.jpg" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+Here are some previous posts about knight tours:&lt;br /&gt;
+&lt;a href="http://www.mathrecreation.com/2011/03/knight-moves.html"&gt;knight moves&lt;/a&gt;&lt;br /&gt;
+&lt;a href="http://www.mathrecreation.com/2011/03/closing-time.html"&gt;closing time&lt;/a&gt;&lt;br /&gt;
+&lt;a href="http://www.mathrecreation.com/2011/06/kixote-or-knights-path-puzzles.html"&gt;kixote, or knight tour puzzles&lt;/a&gt;&lt;br /&gt;
+&lt;a href="http://www.mathrecreation.com/2011/08/more-kixote-knights-tour-puzzles.html"&gt;more kixote&lt;/a&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2011-09-23T19:10:31.618Z</blogger:created>
+    <published>2011-09-23T20:09:00Z</published>
+    <updated>2013-05-13T03:05:01.138Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='spirals'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='chess'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='mathematics'/>
+    <blogger:filename>/2011/09/punctured-knights-tours.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

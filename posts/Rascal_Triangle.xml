@@ -1,0 +1,34 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-368276071533491295</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Rascal Triangle</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkmHcfLi4VFBlvEx67GStBmG-ieQC-HXTnWGDECt0nFj-CSLQDvkhOSnJt0HpOgzqBZLYgcPR9Z7EcpAMnq0djNSpZVPFHQXneqnmIgRa4KmXF-iBSJrZFab45L3uoIqJT2Tlbxb9FXUU/s1600/pascal1.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="332" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkmHcfLi4VFBlvEx67GStBmG-ieQC-HXTnWGDECt0nFj-CSLQDvkhOSnJt0HpOgzqBZLYgcPR9Z7EcpAMnq0djNSpZVPFHQXneqnmIgRa4KmXF-iBSJrZFab45L3uoIqJT2Tlbxb9FXUU/s400/pascal1.PNG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+A few early iterations of something produced by a short script in &lt;a href="https://www.r-project.org/about.html"&gt;R&lt;/a&gt;. What is it? You may see it more clearly in some of its later stages of development.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMLGhzStw3oHu51pCml5Oht6afYBVnEoSawNiU4mLPWESCrXvRgiAxWPLwPoCB4SdKBPLcHT8YaelLUF0myBwW0GFf50YJK740oZ9zMB8OpP1CUYjRdPCm0dxc-zy39py4Y3P9P2Xbk4M/s1600/pascal50.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="261" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMLGhzStw3oHu51pCml5Oht6afYBVnEoSawNiU4mLPWESCrXvRgiAxWPLwPoCB4SdKBPLcHT8YaelLUF0myBwW0GFf50YJK740oZ9zMB8OpP1CUYjRdPCm0dxc-zy39py4Y3P9P2Xbk4M/s320/pascal50.PNG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Yes, it is Pascal's Triangle modulo 2 - I knew you would recognize it :). The R source for generating these images is &lt;a href="https://raw.githubusercontent.com/dmackinnon1/r_examples/master/pascal.r"&gt;here&lt;/a&gt;. Like other &lt;a href="http://www.mathrecreation.com/2016/06/chlandi-esque-figures-in-r.html"&gt;recent&lt;/a&gt; &lt;a href="http://www.mathrecreation.com/2015/08/simple-fun-with-r.html"&gt;posts&lt;/a&gt;, this is another example of using R in some simple programming exercises, pretty much completely unrelated to its intended purpose as a language for statistical computing. A wile back, there was a &lt;a href="http://www.mathrecreation.com/2009/03/pascals-triangle-in-tinkerplots.html"&gt;post&lt;/a&gt; about using &lt;a href="https://www.tinkerplots.com/"&gt;TinkerPlots&lt;/a&gt;, a data management software tool for young folk, to do something similar (more detailed instructions on drawing a general Pascal Triangle in TinkerPlots can be found in &lt;a href="https://sites.google.com/site/mathrecreation/Home/pascal_tp_dm.pdf?attredirects=0"&gt;this article&lt;/a&gt;),&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTKIDk80Y_36yQKJyRvZelvo8IcHsleUSmSsgZ2fFRKf-e3qpvjxo_LoU78mU-oWuE0OSpyYwC4C6czkWZ18rjHinDsUEr2wwnq9vtNB1a0HwfsLaxs0by-jtXiFjbT4s_aRMYS_lykYI/s1600/pascal150.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="262" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTKIDk80Y_36yQKJyRvZelvo8IcHsleUSmSsgZ2fFRKf-e3qpvjxo_LoU78mU-oWuE0OSpyYwC4C6czkWZ18rjHinDsUEr2wwnq9vtNB1a0HwfsLaxs0by-jtXiFjbT4s_aRMYS_lykYI/s320/pascal150.PNG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2016-06-24T13:10:26.742Z</blogger:created>
+    <published>2016-06-24T15:09:00.002Z</published>
+    <updated>2016-06-24T15:09:34.640Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2016/06/rascal-triangle.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  
