@@ -1,0 +1,79 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-2285859077128181748</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>octagonal star and monster tilings</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+Regular octagons can be placed edge to edge so that their centers lie on the vertices of a square.&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2RFrwN5CM9MFXEbbtfVoWp-ZOd8bqEcJMTmsWDayEOKL5uRurDIkxBPBks4B2vmwg10JW6X1liJFBUCP-qwC9v0aIZcQEJPTtZBdZmMxL9R8KjhAcuSq4z4i-r4Z1Y5jY09GnlerHtkE/s1600/around_squar.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="171" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2RFrwN5CM9MFXEbbtfVoWp-ZOd8bqEcJMTmsWDayEOKL5uRurDIkxBPBks4B2vmwg10JW6X1liJFBUCP-qwC9v0aIZcQEJPTtZBdZmMxL9R8KjhAcuSq4z4i-r4Z1Y5jY09GnlerHtkE/s200/around_squar.JPG" width="200" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+These form a nice tiling of octagons and squares (a semi regular tiling):&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvrFBi0GX6Qd817oc8SL5gBKwukWiN-27EZe-1hSQAZARJWUfNjT9j4V-W5C7u376wfDPvCB8PLv1PFktIkJ-mDuW3kAIck_iTaTotQsjif1FwHO7H2tLu2sjKIX_WDGE4AAhBsG1QsjE/s1600/around_square_tiles.b.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="200" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvrFBi0GX6Qd817oc8SL5gBKwukWiN-27EZe-1hSQAZARJWUfNjT9j4V-W5C7u376wfDPvCB8PLv1PFktIkJ-mDuW3kAIck_iTaTotQsjif1FwHO7H2tLu2sjKIX_WDGE4AAhBsG1QsjE/s200/around_square_tiles.b.JPG" width="165" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+Regular octagons can also be placed edge to edge on the vertices of a larger octagon by skipping an edge - this leaves a star in the center.&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibr6NkEVWD0Qn7Rtzg_7zhqpIpw-9PBhEZz-gozTmHExgGnE1JImCBy00wnimeNXoIE0vEK2SiGZxHz9hgIGDQBbZQ_xTtYWt9c7VJ_iD9PjaYSGGmC3JLl-956vgPgExaav7xo88_7sY/s1600/ring_octogon.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="200" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibr6NkEVWD0Qn7Rtzg_7zhqpIpw-9PBhEZz-gozTmHExgGnE1JImCBy00wnimeNXoIE0vEK2SiGZxHz9hgIGDQBbZQ_xTtYWt9c7VJ_iD9PjaYSGGmC3JLl-956vgPgExaav7xo88_7sY/s200/ring_octogon.JPG" width="193" /&gt;&lt;/a&gt;&lt;/div&gt;
+These rings of octagons also fit together nicely, leaving those square gaps, so we see both the 4-rings (whose centers are squares) and the 8-rings (whose centers are eight-pointed stars).&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYXe63rKYuaQHl3iv5wojUAzhNWm_2td2dRMCEASFzStC6wAoFWu3FFb2gns6lThFkD9NB31Iand1mOpML_avONW0A_1STdSv0ZlvtQApN12ZhPe5W7T-KXBiu2B76-uP0yrYyyu-yCXk/s1600/octogon1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="395" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYXe63rKYuaQHl3iv5wojUAzhNWm_2td2dRMCEASFzStC6wAoFWu3FFb2gns6lThFkD9NB31Iand1mOpML_avONW0A_1STdSv0ZlvtQApN12ZhPe5W7T-KXBiu2B76-uP0yrYyyu-yCXk/s400/octogon1.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+In a couple of posts a while back (&lt;a href="http://www.mathrecreation.com/2016/04/regular-polygons-in-rings-part-two.html"&gt;here &lt;/a&gt;and &lt;a href="http://www.mathrecreation.com/2015/07/regular-polygons-in-rings.html"&gt;here&lt;/a&gt;), there is a rule that describes how copies of the same regular polygon can fit into rings like these. I have been playing around with these, noticing that there are rules for &lt;a href="http://www.mathrecreation.com/2016/05/some-tilings-on-regular-grids.html"&gt;which rings can be imposed on regular tilings&lt;/a&gt;, and that sometimes you can make &lt;a href="http://www.mathrecreation.com/2016/04/rings-of-regular-polygons-in-rings.html"&gt;rings of regular polygon rings&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+Another nice way that polygons can fit together is around a &lt;a href="http://www.mathrecreation.com/2015/07/regular-polygons-intersecting-regularly.html"&gt;fused polygon&lt;/a&gt;, also sometimes called&amp;nbsp;&lt;i&gt;monsters&lt;/i&gt; (thanks to Kepler - see Craig's comment to &lt;a href="http://www.mathrecreation.com/2015/07/regular-polygons-intersecting-regularly.html"&gt;this post&lt;/a&gt;). Just as regular pentagons may be placed around the vertices of a monstrous fusion of two decagons (as in the Kepler pentagonal tiling), octagons can be placed around the vertices of a monstrous fusion of two octagons.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-JA6EP_FkIBoS544I6qNtePzIfzbJnNGcyGCMeRfSpRS8_OKtv6bUmClw5YK0wA667RE7qlWMgs_FNCwzjE-wVmRFxIG7bEytBu2_y-kB2eYRdc41uqzUQhn_5lKx7vhv8RSilKcTet4/s1600/ring_penta_monster.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="232" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-JA6EP_FkIBoS544I6qNtePzIfzbJnNGcyGCMeRfSpRS8_OKtv6bUmClw5YK0wA667RE7qlWMgs_FNCwzjE-wVmRFxIG7bEytBu2_y-kB2eYRdc41uqzUQhn_5lKx7vhv8RSilKcTet4/s320/ring_penta_monster.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBrKee5IgToCA5CguCO-NBlFZqQucOwI3cHh1KUiM_72ucTUuXkx6okgoD44ooQvdN8rnS_IPUU4qXNIyRxsau0oR_ykpKHve4roQ_fXrNMsrOfR7OHF2n3l69PQ_6t-1so28tRaUWnaE/s1600/ring_octogon2b.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="212" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBrKee5IgToCA5CguCO-NBlFZqQucOwI3cHh1KUiM_72ucTUuXkx6okgoD44ooQvdN8rnS_IPUU4qXNIyRxsau0oR_ykpKHve4roQ_fXrNMsrOfR7OHF2n3l69PQ_6t-1so28tRaUWnaE/s320/ring_octogon2b.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+These double rings of octagons also fit together reasonably nicely, in a way that also includes the 4-rings, 8-rings, and another ring-around a monstrous fusion of four octagons.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWI8ezuFxlgOQnKq7qGeYsHMjKLjn6dRCtQ-1swgOL7vv3TmSO7g0ulDHwLrn9bgu4gzqSLachgka0fJPR3vIV6y1t4p9d6Yy5D2K8E6ted4X6m5qMBK_cZIHZaOwryVKp6wbwSpPsssc/s1600/octogon2.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="321" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWI8ezuFxlgOQnKq7qGeYsHMjKLjn6dRCtQ-1swgOL7vv3TmSO7g0ulDHwLrn9bgu4gzqSLachgka0fJPR3vIV6y1t4p9d6Yy5D2K8E6ted4X6m5qMBK_cZIHZaOwryVKp6wbwSpPsssc/s400/octogon2.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Here are the stars and monsters in this pattern:&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3OpRpC4lhF6IqXi4FeDRdL_0Dkutrd-vdxhduHsh-DwvPbQ7mK2e95_viQomexRR3KDTwQoqtF5PP4fpKHA1Q__aUkPawa4XILDVk0Mcjo2RFEEOoFPao1ZkAri6wx9Bc2pduZgo56yM/s1600/3octostars.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3OpRpC4lhF6IqXi4FeDRdL_0Dkutrd-vdxhduHsh-DwvPbQ7mK2e95_viQomexRR3KDTwQoqtF5PP4fpKHA1Q__aUkPawa4XILDVk0Mcjo2RFEEOoFPao1ZkAri6wx9Bc2pduZgo56yM/s320/3octostars.JPG" width="192" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Of course, you might consider making a ring of rings around monsters:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYT7xXn3v5f7xzDY6bV7YXE9tjo5VL48b8NNjMZ2w8Igg3FHnUX1xpXR3OIQzSnPaKDa-7ABg_Vl88yYO-izx52qVyLjqGPu8SXCVNbIQ57njeyxTdei-GutD1jPDvWfQAXiogABNGV_A/s1600/ring_of_monsters.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="382" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYT7xXn3v5f7xzDY6bV7YXE9tjo5VL48b8NNjMZ2w8Igg3FHnUX1xpXR3OIQzSnPaKDa-7ABg_Vl88yYO-izx52qVyLjqGPu8SXCVNbIQ57njeyxTdei-GutD1jPDvWfQAXiogABNGV_A/s400/ring_of_monsters.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+You get a similar central star in this pattern from an &lt;a href="http://www.mathrecreation.com/2016/04/rings-of-regular-polygons-in-rings.html"&gt;earlier post&lt;/a&gt; on rings of rings of polygons.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmjk7iqaACS7C_nDQpcq6Qehh4Kjd9R4pRK_yGd7JbICC7aFRcDGHYcIqxSRu5sJI0rUzqPodWR6u6hth2ybCmEvC5T1AmRP-NRa-8Fqm3WT-z8YVFixkYmPvw1wl_Z35CasUyyS2KhiY/s1600/octagons_no_show.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="315" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmjk7iqaACS7C_nDQpcq6Qehh4Kjd9R4pRK_yGd7JbICC7aFRcDGHYcIqxSRu5sJI0rUzqPodWR6u6hth2ybCmEvC5T1AmRP-NRa-8Fqm3WT-z8YVFixkYmPvw1wl_Z35CasUyyS2KhiY/s320/octagons_no_show.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2016-09-12T17:33:41.220Z</blogger:created>
+    <published>2016-09-21T02:32:00.001Z</published>
+    <updated>2016-09-27T02:44:31.214Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2016/09/octagonal-star-and-monster-tilings.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

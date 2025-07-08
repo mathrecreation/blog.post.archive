@@ -1,0 +1,100 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-539922747202754114</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Desmos Chladni</title>
+    <content type='html'>Like &lt;a href="https://en.wikipedia.org/wiki/Lissajous_curve"&gt;Lissajous figures&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Ernst_Chladni#Chladni_figures"&gt;Chladni figures&lt;/a&gt; provide a surprising and aesthetically engaging example of wave interaction.&lt;br /&gt;
+&lt;br /&gt;
+Named for Ernst Chladni, these figures represent nodal patterns formed by vibrating surfaces. Traditionally, these are formed placing fine particles on a surface, like a sheet of metal that is set vibrating (a violin bow against an edge of the metal plate is one popular method). The particles settle in the areas of the surface that have the least motion - the nodes. When you achieve a resonant frequency, a characteristic pattern emerges.&lt;br /&gt;
+&lt;br /&gt;
+In past posts I've pointed to code that draws Chladni figures using R (&lt;a href="http://www.mathrecreation.com/2016/06/chlandi-esque-figures-in-r.html"&gt;here&lt;/a&gt; and &lt;a href="http://www.mathrecreation.com/2016/06/more-chlandi-figures-in-r.html"&gt;here&lt;/a&gt;), and using &lt;a href="http://www.mathrecreation.com/2017/07/interactive-chladni-figure-page.html"&gt;JavaScript&lt;/a&gt;. Maybe not surprisingly, you can also play around with Chladni-like figures using &lt;a href="https://www.desmos.com/"&gt;Desmos&lt;/a&gt;, and this may be the most accessible way to explore them them and appreciate how they are generated from the sinusoidal functions.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1C4XNap94q5rK9ZvCkCAFL8QcNGeSrsdJWX9U7z3QxesnNBzJEuJZHcRR38gaHEM_mdaTv0yd8pSsoBbGKFHQnTYdyiRz9MmUvn6ZZ62o5UsjPqtNgbSCeCC5j2ZJrrfyOr0xYTjgSYw/s1600/chlandi_3.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="259" data-original-width="540" height="153" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1C4XNap94q5rK9ZvCkCAFL8QcNGeSrsdJWX9U7z3QxesnNBzJEuJZHcRR38gaHEM_mdaTv0yd8pSsoBbGKFHQnTYdyiRz9MmUvn6ZZ62o5UsjPqtNgbSCeCC5j2ZJrrfyOr0xYTjgSYw/s320/chlandi_3.PNG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;Chladni-like figure generated in R&lt;/i&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhec5iIZT3TNND6_9shg_VJAqO2fmJ1WruzXL3zDKl_A-lXkkb6zttDebNc5nLejsLuX9b7s2JYung8drZOvNaW3G9LTClDC4QCWocSYnuBiwow8ldqZroxm4lZRK0afX0nmPiBPujziSE/s1600/chladni2.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="464" data-original-width="463" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhec5iIZT3TNND6_9shg_VJAqO2fmJ1WruzXL3zDKl_A-lXkkb6zttDebNc5nLejsLuX9b7s2JYung8drZOvNaW3G9LTClDC4QCWocSYnuBiwow8ldqZroxm4lZRK0afX0nmPiBPujziSE/s320/chladni2.png" width="319" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;Chladni-like figure generated using JavaScript&lt;/i&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;i&gt;&lt;br /&gt;&lt;/i&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+In Desmos, you can create images similar to these using inequalities. The equations are reasonably straight forward - the graph &lt;a href="https://www.desmos.com/calculator/ug8txlbibz"&gt;here&lt;/a&gt; will draw the figure across the whole plane - best results are seen when zooming in on a small region.&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhw6Rbb89BzifIa5KpalhHxl6voJC8S-xuBRwF1zmKZodUckykOFYln1QHAzzGAaCtz_IbD2wK3W2kizIralXBmT2OHBOkpXbx8dTdAMIJToS9Ldu08jKmDTjzXbmtU3m2TNLZKQrybn2w/s1600/chladni_desmos3.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="426" data-original-width="437" height="311" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhw6Rbb89BzifIa5KpalhHxl6voJC8S-xuBRwF1zmKZodUckykOFYln1QHAzzGAaCtz_IbD2wK3W2kizIralXBmT2OHBOkpXbx8dTdAMIJToS9Ldu08jKmDTjzXbmtU3m2TNLZKQrybn2w/s320/chladni_desmos3.png" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;Chladni-like figure generated in Desmos,&lt;br /&gt;graph &lt;a href="https://www.desmos.com/calculator/ug8txlbibz"&gt;here&lt;/a&gt;&lt;/i&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggQYJgjRNB4rHyXLYOSs-EVxYTDcj-JedR_OfiN64ChUa6rtqgthNdicb1EqBVSJLtWvCFzdgJeDekTsg4cRsFluEoIYUqPDd-ze4WeErvz6Oa8vMUOLB-o_ZAUxOUZxP2BtHzhg98SHM/s1600/chladni4.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="501" data-original-width="311" height="400" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggQYJgjRNB4rHyXLYOSs-EVxYTDcj-JedR_OfiN64ChUa6rtqgthNdicb1EqBVSJLtWvCFzdgJeDekTsg4cRsFluEoIYUqPDd-ze4WeErvz6Oa8vMUOLB-o_ZAUxOUZxP2BtHzhg98SHM/s400/chladni4.png" width="247" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;More Chladni-like figures in Desmos&lt;/i&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+Try playing around with the desmos graph &lt;a href="https://www.desmos.com/calculator/ug8txlbibz"&gt;here&lt;/a&gt;, R scripts for generating figures are found &lt;a href="https://github.com/dmackinnon1/r_examples/tree/master/chladni"&gt;here&lt;/a&gt;, the JavaScript Chladni generating page is &lt;a href="https://dmackinnon1.github.io/chladni/"&gt;here&lt;/a&gt;.&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div style="clear: both; text-align: left;"&gt;
+&lt;span style="font-size: large;"&gt;Update&lt;/span&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+After posting on Twitter, the desmos sketches were improved by&amp;nbsp;&amp;nbsp;&lt;a class="account-group js-account-group js-action-profile js-user-profile-link js-nav" data-user-id="4831356975" href="https://twitter.com/von_Oy" style="background: rgb(245, 248, 250); display: inline !important; flex-shrink: 1; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; margin-right: 5px; overflow: hidden; text-decoration-line: none; white-space: nowrap;"&gt;@von_Oy&lt;/a&gt;&amp;nbsp;and&amp;nbsp;&lt;span class="username u-dir" dir="ltr" style="background: rgb(255 , 255 , 255); direction: ltr; font-family: &amp;quot;helvetica neue&amp;quot; , &amp;quot;helvetica&amp;quot; , &amp;quot;arial&amp;quot; , sans-serif; font-size: 14px; unicode-bidi: embed;"&gt;&lt;a class="ProfileCard-screennameLink u-linkComplex js-nav" data-aria-label-part="" data-send-impression-cookie="true" href="https://twitter.com/PaulaKrieg" style="background: rgb(255, 255, 255); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; text-decoration-line: none !important;"&gt;&lt;span style="background: rgb(255, 255, 255);"&gt;@&lt;/span&gt;&lt;span class="u-linkComplex-target" style="background: rgb(255 , 255 , 255); font-family: &amp;quot;helvetica neue&amp;quot; , &amp;quot;helvetica&amp;quot; , &amp;quot;arial&amp;quot; , sans-serif; font-size: 14px;"&gt;PaulaKrieg&lt;/span&gt;&lt;/a&gt;. Here are some other graphs inspired by their changes:&lt;/span&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;span class="username u-dir" dir="ltr" style="background: rgb(255, 255, 255); direction: ltr !important; font-size: 14px; unicode-bidi: embed;"&gt;&lt;span style="font-family: &amp;quot;helvetica neue&amp;quot; , &amp;quot;helvetica&amp;quot; , &amp;quot;arial&amp;quot; , sans-serif;"&gt;&lt;a href="https://www.desmos.com/calculator/stnvsmyq5g"&gt;https://www.desmos.com/calculator/stnvsmyq5g&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;span class="username u-dir" dir="ltr" style="background: rgb(255, 255, 255); direction: ltr !important; font-size: 14px; unicode-bidi: embed;"&gt;&lt;span style="font-family: &amp;quot;helvetica neue&amp;quot; , &amp;quot;helvetica&amp;quot; , &amp;quot;arial&amp;quot; , sans-serif;"&gt;&lt;a href="https://www.desmos.com/calculator/4nnfcgqdgc"&gt;https://www.desmos.com/calculator/4nnfcgqdgc&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;span class="username u-dir" dir="ltr" style="background: rgb(255, 255, 255); direction: ltr !important; font-size: 14px; unicode-bidi: embed;"&gt;&lt;span style="font-family: &amp;quot;helvetica neue&amp;quot; , &amp;quot;helvetica&amp;quot; , &amp;quot;arial&amp;quot; , sans-serif;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiICtlM8LJwfsq2LTotPILSC9s-HJa1vnmhNCLZ3nEqlgHB2N367lXw72EmP4w_q6CbMCXCD9aTaIKoOUnRBKWIlTfvBJ0OGHSiMSbGFPBCUpZk5Owbbp1TIGczXbi9aKTLnhvVK3ztxEw/s1600/chiladni_new.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="546" data-original-width="559" height="312" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiICtlM8LJwfsq2LTotPILSC9s-HJa1vnmhNCLZ3nEqlgHB2N367lXw72EmP4w_q6CbMCXCD9aTaIKoOUnRBKWIlTfvBJ0OGHSiMSbGFPBCUpZk5Owbbp1TIGczXbi9aKTLnhvVK3ztxEw/s320/chiladni_new.png" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;A Chladni-like pattern with &lt;br /&gt;two distinct inequalities&lt;/i&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;span class="username u-dir" dir="ltr" style="background: rgb(255, 255, 255); direction: ltr !important; font-size: 14px; unicode-bidi: embed;"&gt;&lt;span style="font-family: &amp;quot;helvetica neue&amp;quot; , &amp;quot;helvetica&amp;quot; , &amp;quot;arial&amp;quot; , sans-serif;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjGl3eGvXWdv_tDQy2Iufv3Z0wmcLJckq_Md9Ryucvdw2sAs2XpS3tl1HgTh5O-ecanPatlGjD7UXK3iuc11-oBua2PjR88jVZrOTOd9w9nMaR5OY24mzi_ieWsnLoFzNcxYiCsguns00/s1600/chladni2new.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="599" data-original-width="597" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjGl3eGvXWdv_tDQy2Iufv3Z0wmcLJckq_Md9Ryucvdw2sAs2XpS3tl1HgTh5O-ecanPatlGjD7UXK3iuc11-oBua2PjR88jVZrOTOd9w9nMaR5OY24mzi_ieWsnLoFzNcxYiCsguns00/s320/chladni2new.png" width="318" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;A Chladni-like pattern with three distinct&lt;br /&gt;inequalities&lt;/i&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+With the added layers, the Chladni patterns are approaching an abstract &lt;a href="https://www.vam.ac.uk/articles/william-morris-and-wallpaper-design"&gt;William Morris&lt;/a&gt; appearance.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;
+&lt;span style="font-size: large;"&gt;Another Update&lt;/span&gt;&lt;br /&gt;
+This &lt;a href="https://www.desmos.com/calculator/zo0klczpdl"&gt;other graph&lt;/a&gt; allows you to experiment more directly with the Chladni figures, similar to the web page mentioned above.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyM32C45VxEHfAPz0uZjxTVjvC1f_Nu8I92iwyKkf6uXjBuqhuPybBCjJH90f3wTMRg44Org8SnoYYHFDxn2uV7pnloy61JU_yAkcm4Ne6CVQVB_IFY0bYEbW7vOVpyx_iPlDf9Vsc2bo/s1600/chladni_desmos_w_controllers.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="623" data-original-width="369" height="400" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyM32C45VxEHfAPz0uZjxTVjvC1f_Nu8I92iwyKkf6uXjBuqhuPybBCjJH90f3wTMRg44Org8SnoYYHFDxn2uV7pnloy61JU_yAkcm4Ne6CVQVB_IFY0bYEbW7vOVpyx_iPlDf9Vsc2bo/s400/chladni_desmos_w_controllers.PNG" width="236" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;&lt;a href="https://www.desmos.com/calculator/zo0klczpdl"&gt;graph&lt;/a&gt; for building&amp;nbsp;&lt;/i&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;Chladni figures&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/div&gt;
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2019-05-08T13:57:21.596Z</blogger:created>
+    <published>2019-05-08T14:38:00.002Z</published>
+    <updated>2019-05-22T01:21:59.040Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2019/05/desmos-chladni.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

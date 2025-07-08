@@ -1,0 +1,47 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-2380454560162825071</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Inspector Craig, Logical Detective</title>
+    <content type='html'>Inspired by the puzzles of Raymond Smullyan, I've been playing with various puzzle types that he either invented or popularised. Earlier I posted some &lt;a href="https://dmackinnon1.github.io/knaves/"&gt;knight and knave puzzles&lt;/a&gt;, and a a page of puzzles inspired by his "&lt;a href="https://dmackinnon1.github.io/portia/"&gt;Portia's Caskets&lt;/a&gt;" puzzles, and now another has joined the pile: &lt;a href="https://dmackinnon1.github.io/inspectorCraig/"&gt;The Case Files of Inspector Craig&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+Here's an example of the kind of puzzles you will find on the page:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCSaQey58sXPRZvbu9c8tz3pIp_JEZcyJ5hXjFmL6LA2v5FB51LHpGjf8EI6Cf3mkbN5rWyqYPa6ir_j9beJ2ZoGlTykROXj6IM-x7ooEzygSCSZl2Vh9EmRJsZZIg4AkRxYWQCxFrYEw/s1600/craig1.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="277" data-original-width="451" height="245" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCSaQey58sXPRZvbu9c8tz3pIp_JEZcyJ5hXjFmL6LA2v5FB51LHpGjf8EI6Cf3mkbN5rWyqYPa6ir_j9beJ2ZoGlTykROXj6IM-x7ooEzygSCSZl2Vh9EmRJsZZIg4AkRxYWQCxFrYEw/s400/craig1.png" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Your goal is to classify each suspect as either innocent, guilty, or unknown (in the case where the evidence cannot support either guilt or innocence).&lt;br /&gt;
+&lt;br /&gt;
+Depending on how familiar you are with &lt;a href="https://en.wikipedia.org/wiki/List_of_logic_symbols"&gt;logical symbols&lt;/a&gt;, it may help to simplify the language used to describe the clues - if we use the letter&amp;nbsp;&lt;b&gt;X&lt;/b&gt; to mean "X is guilty," we can express the statements above a bit more formally:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUtGmkDmpWZtzkw8g8rIs4h3YcgnAoxK2Lit40maI08-VAMYAzPBpOtSINk6BnSEzFFzLH0BONwT0rXbj7odywUjiOfW-MqUMTqzkuECTZI2rMX9gDO39oiW8kStNEqb34cVX15wYUPJA/s1600/craig2.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="170" data-original-width="165" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUtGmkDmpWZtzkw8g8rIs4h3YcgnAoxK2Lit40maI08-VAMYAzPBpOtSINk6BnSEzFFzLH0BONwT0rXbj7odywUjiOfW-MqUMTqzkuECTZI2rMX9gDO39oiW8kStNEqb34cVX15wYUPJA/s1600/craig2.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+There are two key techniques for solving these puzzles: 1) start with one of the statements, say &lt;b&gt;A&lt;/b&gt;, and see if applying the propositions will lead to a contradiction; and 2) start with the statement "&lt;b&gt;A&lt;/b&gt; or &lt;b&gt;B&lt;/b&gt; or &lt;b&gt;C&lt;/b&gt;" and work out the implications of each case - if there is a result that all three lead to, then that must be true.&lt;br /&gt;
+&lt;br /&gt;
+We can use the first method starting with &lt;b&gt;B&lt;/b&gt;. If we assume &lt;b&gt;B&lt;/b&gt; is guilty then since &lt;b&gt;B&lt;/b&gt; always uses &lt;b&gt;A&lt;/b&gt; as an accomplice (&lt;b&gt;B&lt;/b&gt;&amp;nbsp;&lt;i&gt;implies&lt;/i&gt;&amp;nbsp;&lt;b&gt;A&lt;/b&gt;), &lt;b&gt;A&lt;/b&gt; must be guilty. However we also have a statement that says that &lt;b&gt;A&lt;/b&gt; never works with &lt;b&gt;B &lt;/b&gt;(&lt;b&gt;A&lt;/b&gt; &lt;i&gt;implies not&lt;/i&gt; &lt;b&gt;B&lt;/b&gt;), which means that &lt;b&gt;B&lt;/b&gt; is innocent. Since assuming &lt;b&gt;B&lt;/b&gt; is guilty ended up showing that &lt;b&gt;B&lt;/b&gt; is innocent (&lt;b&gt;B&lt;/b&gt; &lt;i&gt;implies not&lt;/i&gt; &lt;b&gt;B&lt;/b&gt;), then &lt;b&gt;B&lt;/b&gt; must not have been guilty.&lt;br /&gt;
+&lt;br /&gt;
+Using the second method, we know that either &lt;b&gt;A&lt;/b&gt; or &lt;b&gt;B&lt;/b&gt; or &lt;b&gt;C&lt;/b&gt; is guilty. We already know that &lt;b&gt;B&lt;/b&gt; is innocent, so that leaves us with &lt;b&gt;A&lt;/b&gt; and &lt;b&gt;C&lt;/b&gt;. If &lt;b&gt;A&lt;/b&gt; is guilty, we can't determine much else. However if &lt;b&gt;C&lt;/b&gt; is guilty, then since &lt;b&gt;C&lt;/b&gt; always uses &lt;b&gt;A&lt;/b&gt; as an accomplice (&lt;b&gt;C&lt;/b&gt; &lt;i&gt;implies&lt;/i&gt; &lt;b&gt;A&lt;/b&gt;), then &lt;b&gt;A&lt;/b&gt; is also guilty. So, no matter which of the two alternatives we choose, &lt;b&gt;A&lt;/b&gt; is guilty.&lt;br /&gt;
+&lt;br /&gt;
+Unfortunately, there is no way to know whether or not &lt;b&gt;C&lt;/b&gt; is guilty based on this reasoning, so we are left to make this selection:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBaVzasSwYx7z_ibJcBM4MqEizaI0Zz7DBEojf7tY6ZNvf1a58cKAI2p1OaxECNGC8_UwSeeKRSAU-hZNFQBwxaJy3FngkFpcOXOAHBJGxvRFEddXAd09gzkERdPHv24WtJiss4E2c4rw/s1600/craig3.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="231" data-original-width="394" height="233" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBaVzasSwYx7z_ibJcBM4MqEizaI0Zz7DBEojf7tY6ZNvf1a58cKAI2p1OaxECNGC8_UwSeeKRSAU-hZNFQBwxaJy3FngkFpcOXOAHBJGxvRFEddXAd09gzkERdPHv24WtJiss4E2c4rw/s400/craig3.png" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Which turns out to be correct.&lt;br /&gt;
+&lt;br /&gt;
+Try a few out here:&amp;nbsp;&lt;a href="https://dmackinnon1.github.io/inspectorCraig/"&gt;https://dmackinnon1.github.io/inspectorCraig/&lt;/a&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2018-02-04T19:33:17.384Z</blogger:created>
+    <published>2018-02-04T20:08:00Z</published>
+    <updated>2018-02-04T20:08:25.358Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2018/02/inspector-craig-logical-detective.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

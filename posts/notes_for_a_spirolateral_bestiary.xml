@@ -1,0 +1,65 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-1355270561734183846</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>notes for a spirolateral bestiary</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVO4UShuu3Wge2yJqXuGP6GEt8ZuwIi-TAqqxe-RmWDg_sCwtXGAPWc-UJu5R7tbP5FfjHXF6ZTbsWDnL14TPvBtW8VyjMUYCSQ0dKUGt1PYR77hOO_Ac8W3VC5tDnzNUYYqqXl2PTKBQ/s1600/11pi_15_2.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVO4UShuu3Wge2yJqXuGP6GEt8ZuwIi-TAqqxe-RmWDg_sCwtXGAPWc-UJu5R7tbP5FfjHXF6ZTbsWDnL14TPvBtW8VyjMUYCSQ0dKUGt1PYR77hOO_Ac8W3VC5tDnzNUYYqqXl2PTKBQ/s1600/11pi_15_2.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+The simple rules for creating generalized &lt;a href="http://www.mathrecreation.com/2016/10/more-familiar-spirals-in-desmos.html"&gt;spirolaterals&lt;/a&gt; produce a surprisingly diverse menagerie of paths which trace out some familiar and less-familiar shapes, including regular polygons, star polygons, tangles, wreaths and infinitely long springs.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWJHtlILKDSYFSZQYIb0bzR8ybfIBZbIPWSl25BcVK9RiThDYTeAixnuSQpGSIwm9XiJF8V8sTe6W4JoEVfjHQomNoikcxsWjzjmOhHbqGHoUl8lTrY88dZGqm9eCUFhNwFyQ7vzUAutw/s1600/some_spirolaterals.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWJHtlILKDSYFSZQYIb0bzR8ybfIBZbIPWSl25BcVK9RiThDYTeAixnuSQpGSIwm9XiJF8V8sTe6W4JoEVfjHQomNoikcxsWjzjmOhHbqGHoUl8lTrY88dZGqm9eCUFhNwFyQ7vzUAutw/s320/some_spirolaterals.PNG" width="270" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;some spirolaterals (graph &lt;a href="https://www.desmos.com/calculator/j63lw2dlav"&gt;here&lt;/a&gt;)&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+In the formula below, a represents the angle that you turn by at each step, and m represents the maximum length of the sides that you count up to before repeating. If m = 1, all sides are length 1, if m = 2, then the sides alternate between length 1 and length 2, for m = 3, the lengths of the sides form the repeating squence 1, 2, 3, 1, 2, 3... etc.&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX3us5DjUZy2L_8m6GtOYYYqpJiVWdLD3Nrp43hWGQPAs9nhT5PM6HsnbJuX-ZPWPfy52x8CIKbdo8Fh5B2P7I-JhLpLDfzGQpwdOPFyvscdVq32MUzPy_67O0h90yFzJYD0A-RyNTPHk/s1600/general_spiro.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX3us5DjUZy2L_8m6GtOYYYqpJiVWdLD3Nrp43hWGQPAs9nhT5PM6HsnbJuX-ZPWPfy52x8CIKbdo8Fh5B2P7I-JhLpLDfzGQpwdOPFyvscdVq32MUzPy_67O0h90yFzJYD0A-RyNTPHk/s1600/general_spiro.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+If the angle that you turn by is a rational multiple of 2&lt;i&gt;pi&lt;/i&gt;, then the first spirolateral (&lt;i&gt;m&lt;/i&gt; = 1) will trace out either a regular polygon or a regular star polygon - it is always adding a length of 1, and since the angle is a multiple of 2&lt;i&gt;pi&lt;/i&gt; you will close the loop and end up back where you started.&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4UNlrOlvP5GLdwZW5WgMboN1x_j4ohClP9_QL0V9ojM8MqCIwtiq9gTTcuMMXUbsZqOiLmiF702BZ5feP9_3Bfve0a4gOtRIfnQAWbUL6TBQt9lb0qPGmslWh5tmPhI6P3G5RRYeXCqo/s1600/regular_star.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="195" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4UNlrOlvP5GLdwZW5WgMboN1x_j4ohClP9_QL0V9ojM8MqCIwtiq9gTTcuMMXUbsZqOiLmiF702BZ5feP9_3Bfve0a4gOtRIfnQAWbUL6TBQt9lb0qPGmslWh5tmPhI6P3G5RRYeXCqo/s320/regular_star.PNG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+Different story if the angle not a rational multiple of 2&lt;i&gt;pi&lt;/i&gt;: you will never get back to the starting point, and the first spirolateral is going to look like an annulus after enough iterations (below is&amp;nbsp;&lt;i&gt;a&lt;/i&gt; = 2, zoomed in on the left, zoomed out on the right):&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9_T-I-lKfilL0zAEHeejUGaOQ_FHLhnCg4I0mQVs_aJn8ZmHGeq5_0X9BPiMOmKQB_qbRa_s9ULL0SS2y74n110f6v33OLQ_VN6oUk8N3jyJmz2YA1jnv9XDVYdkfJMz-CwtsLXmw1Js/s1600/a_irrational.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="158" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9_T-I-lKfilL0zAEHeejUGaOQ_FHLhnCg4I0mQVs_aJn8ZmHGeq5_0X9BPiMOmKQB_qbRa_s9ULL0SS2y74n110f6v33OLQ_VN6oUk8N3jyJmz2YA1jnv9XDVYdkfJMz-CwtsLXmw1Js/s320/a_irrational.PNG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;i&gt;spirolateral that does not (soon) meet up - &lt;a href="https://www.desmos.com/calculator/haaasfnfnh"&gt;graph here&lt;/a&gt;&lt;/i&gt;&lt;/div&gt;
+&lt;div style="text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div style="text-align: left;"&gt;
+For higher values of &lt;i&gt;m&lt;/i&gt;, although the shapes traced out vary widely they are always &lt;a href="https://en.wikipedia.org/wiki/Equiangular_polygon"&gt;equiangular&lt;/a&gt;&amp;nbsp;(we are always turning by the same angle, after all). So for &lt;i&gt;m&lt;/i&gt; = 2 we end up with &lt;a href="https://en.wikipedia.org/wiki/Isogonal_figure"&gt;isogonal figures&lt;/a&gt;: every vertex is the same - it always has the same angle and always has sides of lengths 1 and 2 on either side of it. Here are some isogonal polygons - the first, the rectangle, is pretty familiar; the second,&amp;nbsp;&lt;a href="https://twitter.com/solvemymaths"&gt;@solvemymaths&lt;/a&gt; tells us, may be a &lt;i&gt;ditrigon&lt;/i&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMJF4sJVis2E4-htwWtOTR9KjuaOGF039NyRbx0po_sKCK4q7N4ziG6FJH5HtbSFvrV6rNgOcnmzb1zbjaiTxlkQfNcD-HArPP3IaT2ZysXrn1KLHM4lyO-IBfFBgE0SLVMgQs-o5hAMg/s1600/isogonalpolygons.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="290" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMJF4sJVis2E4-htwWtOTR9KjuaOGF039NyRbx0po_sKCK4q7N4ziG6FJH5HtbSFvrV6rNgOcnmzb1zbjaiTxlkQfNcD-HArPP3IaT2ZysXrn1KLHM4lyO-IBfFBgE0SLVMgQs-o5hAMg/s320/isogonalpolygons.PNG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+And here are a few star-isogonals:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6HA4OviHUs6ffJdP_0Ygk-F31DfvmZqryvoxOkcMQMVf19sFPBC5Zi7SWTXuXogszxo5tSUm6D1CSeq0UGUtw_qwx_8aHJ2ehiVv4TIkcWR4Uh8E4YsFBCngws5SnBa5M2Mxn9G1XKV8/s1600/star_isovert.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6HA4OviHUs6ffJdP_0Ygk-F31DfvmZqryvoxOkcMQMVf19sFPBC5Zi7SWTXuXogszxo5tSUm6D1CSeq0UGUtw_qwx_8aHJ2ehiVv4TIkcWR4Uh8E4YsFBCngws5SnBa5M2Mxn9G1XKV8/s1600/star_isovert.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+What about the beasties that spiral off to infinity? One set of these springs occur when &lt;i&gt;a&lt;/i&gt; = &lt;i&gt;pi/k&lt;/i&gt; for some positive integer &lt;i&gt;k &amp;nbsp;&lt;/i&gt;and&amp;nbsp;&lt;i&gt;m&lt;/i&gt; = 2&lt;i&gt;k&lt;/i&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilKjlFvfp5_5G0EOkcJAsM0bWL_fsTZp1ay-5ijYMIYg3oyq1O_R1jt2o_3McN4A7qfsUPYsGPsIcP0ToVq3IlZfWF4iMTCxxSLCjnp5_bH1PKw5sUNob-R0Noge1D-utT6ecl80fXtfw/s1600/springs.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilKjlFvfp5_5G0EOkcJAsM0bWL_fsTZp1ay-5ijYMIYg3oyq1O_R1jt2o_3McN4A7qfsUPYsGPsIcP0ToVq3IlZfWF4iMTCxxSLCjnp5_bH1PKw5sUNob-R0Noge1D-utT6ecl80fXtfw/s320/springs.PNG" width="309" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+And then there are the tangled stars... not sure where to begin with these.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghBFoRPq7E4vPTFsWyZTGg08Z2E7PoT5zngGrLsSx9ALIVuoQJKPkxeKL-699uDYtsZ-PdgKq4OPgEO2aGLVY5E0ZPyETP2b6PDKFHyv4gkJD7advcuvDCYA16BmksH3DhRJpLAfRwvok/s1600/tangled_star.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghBFoRPq7E4vPTFsWyZTGg08Z2E7PoT5zngGrLsSx9ALIVuoQJKPkxeKL-699uDYtsZ-PdgKq4OPgEO2aGLVY5E0ZPyETP2b6PDKFHyv4gkJD7advcuvDCYA16BmksH3DhRJpLAfRwvok/s1600/tangled_star.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+Trying classify even a few of these strange creatures reminds me of Borges' &lt;a href="https://en.wikipedia.org/wiki/Celestial_Emporium_of_Benevolent_Knowledge"&gt;Book of Imaginary Beings&lt;/a&gt;.&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2016-10-25T00:18:03.463Z</blogger:created>
+    <published>2016-10-26T02:12:00Z</published>
+    <updated>2017-03-16T01:42:04.699Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2016/10/notes-for-spirolateral-bestiary.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

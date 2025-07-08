@@ -1,0 +1,131 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-7986461981771803757</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>day-knights and night-knights</title>
+    <content type='html'>In his book&lt;i&gt; To Mock a Mockingbird&lt;/i&gt;, &lt;a href="https://en.wikipedia.org/wiki/Raymond_Smullyan"&gt;Raymond Smullyan&lt;/a&gt; provides another variation on his classic 'knights and knave' puzzles, in which he imagines the puzzle solver not visiting an island, but exploring a bizarre underground city.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLBeLJuPEB4zD0scnm-VpXvkXY2yTZYl1LFK9znw60GGYNE_QYJaCs7kDG2M2OWqqxtWFsoKoPm2HkGgLZgyahz7ZQtA4tkj9GAQATDzSvYhYnaj9C2Lnd6YoEQ60LfVcs4sexi31GIMI/s1600/underground_city.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="463" data-original-width="722" height="205" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLBeLJuPEB4zD0scnm-VpXvkXY2yTZYl1LFK9znw60GGYNE_QYJaCs7kDG2M2OWqqxtWFsoKoPm2HkGgLZgyahz7ZQtA4tkj9GAQATDzSvYhYnaj9C2Lnd6YoEQ60LfVcs4sexi31GIMI/s320/underground_city.png" width="320" /&gt;&lt;/a&gt;&lt;br /&gt;&lt;i&gt;Illustration from &lt;a href="https://books.google.ca/books?id=38ZQx7u1Wa0C"&gt;The Child of the Cavern:&lt;/a&gt;&lt;/i&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;&lt;a href="https://books.google.ca/books?id=38ZQx7u1Wa0C"&gt;Or, Strange Doings Underground&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/wiki/The_Child_of_the_Cavern"&gt;sometimes published&lt;/a&gt; as &lt;br /&gt;The Underground City) by Jules Vern&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+In the strange community of Subterranea, visitors cannot tell day from night, but the residents can. The residents are of two types: day-knights or night-knights.&amp;nbsp;Day-knights tell the truth during the day and lie at night, while night-knights tell the truth at night and lie during the day.&lt;br /&gt;
+&lt;br /&gt;
+Several Subterranea puzzles are presented in &lt;i&gt;To Mock a Mockingbird&lt;/i&gt;, but we want &lt;i&gt;more&lt;/i&gt;. If we consider a long enough list of statements that Subterraneans might make and&amp;nbsp; the possibilities presented if we have two inhabitants speaking, we should be able to generate quite a few puzzles.&lt;br /&gt;
+&lt;br /&gt;
+Let's use these 22 statements:&lt;br /&gt;
+&lt;br /&gt;
+0: I am a day-knight, and it is day&lt;br /&gt;
+1: The other person is a day-knight, and it is day&lt;br /&gt;
+2: I am a day-knight, and the other person is a day-knight&lt;br /&gt;
+3: I am a day-knight, and it is night&lt;br /&gt;
+4: The other person is a day-knight, and it is night&lt;br /&gt;
+5: I am a night-knight, and the other person is a day-knight&lt;br /&gt;
+6: I am a night-knight, and it is day&lt;br /&gt;
+7: The other person is a night-knight, and it is day&lt;br /&gt;
+8: I am a day-knight, and the other person is a night-knight&lt;br /&gt;
+9: I am a night-knight, and it is night&lt;br /&gt;
+10: The other person is a night-knight, and it is night&lt;br /&gt;
+11: I am a night-knight, and the other person is a night-knight&lt;br /&gt;
+12: It is day&lt;br /&gt;
+13: I am a day-knight&lt;br /&gt;
+14: It is not night&lt;br /&gt;
+15: It is night&lt;br /&gt;
+16: I am a night-knight&lt;br /&gt;
+17: It is not day&lt;br /&gt;
+18: At least one of us is a night-knight&lt;br /&gt;
+19: At least one of us is a day-knight&lt;br /&gt;
+20: We are both night-knights&lt;br /&gt;
+21: We are both day-knights&lt;br /&gt;
+&lt;br /&gt;
+Some of these are simple statements about the day or the type of one of the inhabitants, others are compound 'and' statements that combine two simple statements. When a compound statement uses "and" to join two simple statements, both simple statements need to be true in order for the compound statement to be true, but only one simple statement needs to be false in order for the compound statement to be false.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4SsH9ebUmQHTav9Nnr3R568dTA-GaexLDQeFOK3W1hLR2dCZUXqkXMnrkT0Eund9lCXGH8seo_1nYoEG7V13jsYDd5dEuG5cvLEMMvzfJDikNW9rsXmIHLd7pUWMzNJpqnHsy6FegMP0/s1600/and.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="196" data-original-width="239" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4SsH9ebUmQHTav9Nnr3R568dTA-GaexLDQeFOK3W1hLR2dCZUXqkXMnrkT0Eund9lCXGH8seo_1nYoEG7V13jsYDd5dEuG5cvLEMMvzfJDikNW9rsXmIHLd7pUWMzNJpqnHsy6FegMP0/s1600/and.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;&lt;a href="https://en.wikipedia.org/wiki/Truth_table"&gt;truth table&lt;/a&gt; for A and B&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+If the first inhabitant make statement 1, and the second inhabitant make statement 8, we get puzzle 5 (shown below). You can try to solve it &lt;a href="https://dmackinnon1.github.io/subterranea/?id=5"&gt;here&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgz6PG9jcLZO4rDGOtqlAseyalIV7mY9SVqMfhx2EpfWHW86QY3O5W3lmUeLfA-Vkp5Bp_o_ttoBGesjUcmjgtus9wEElLxucBf-2Epofc95lAeZUpUn2tgpgiGxDgWwcaPXSRybtEizr4/s1600/puzzle5.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="366" data-original-width="525" height="278" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgz6PG9jcLZO4rDGOtqlAseyalIV7mY9SVqMfhx2EpfWHW86QY3O5W3lmUeLfA-Vkp5Bp_o_ttoBGesjUcmjgtus9wEElLxucBf-2Epofc95lAeZUpUn2tgpgiGxDgWwcaPXSRybtEizr4/s400/puzzle5.png" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+It turns out (not surprisingly, as we will see below) that both inhabitants are lying, at least somewhat.&amp;nbsp; It must be that it is night, and that both inhabitants are day-knights.&lt;br /&gt;
+&lt;br /&gt;
+Here's one way to puzzle it out:&lt;br /&gt;
+&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;If the first person was telling the truth, there is one possibility: it is day, the first person is a day-knight, and the second person is a day-knight. There are 3 ways they could be lying.&amp;nbsp; If it is day, then they would have to be a night-knight, and the other person would also have to be a night-knight. If it is night, then they have to be a day-knight, and the other person could be either a day-knight or a night-knight.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;If the second person is telling the truth, there is one possibility: it is night, the first person is a night-knight, and the second person is a night-knight. As with the first person, there are 3 ways the second person could be lying. If it is night, second person must be a day-knight, and the first person could either be a day-knight or night-knight. If it is day, then the second person must be a night-knight, and the first must be a day-knight.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;The only option from both sets of possibilities is that it is night and that both inhabitants are day-knights.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div&gt;
+In the set of 22 x 22 combinations of two statements how many lead to puzzles with unique solutions? It turns out that only 90 puzzles emerge - the graph below shows white squares for all combinations that lead to valid puzzles, black squares for those that do not.&amp;nbsp; It doesn't matter which inhabitant is making a particular statement, leading to the symmetry in the graph and duplication in the puzzles (if you don't care about statement order).&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCzWZbwYAzo8l81ZrLHEwDQJ3GLrZXh95uNg2cJmfMhYmM9sNnpJkKb2pyCK7afH2K1-nN_aRcIdKvv7OSWU_SXkmoSiXaQaqLXcEimlADu3RHcvVR6g8M33cOZ1PP7BilpRBDaFOqlVo/s1600/all_puzzles.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="253" data-original-width="269" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCzWZbwYAzo8l81ZrLHEwDQJ3GLrZXh95uNg2cJmfMhYmM9sNnpJkKb2pyCK7afH2K1-nN_aRcIdKvv7OSWU_SXkmoSiXaQaqLXcEimlADu3RHcvVR6g8M33cOZ1PP7BilpRBDaFOqlVo/s1600/all_puzzles.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;puzzles generated by the 22 statements&lt;/i&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+We can see that two statements in particular lead to almost complete horizontal and vertical lines of well-formed puzzles. These lines are puzzles that involve statements 3 and 6:&lt;/div&gt;
+&lt;br /&gt;
+&lt;blockquote class="tr_bq"&gt;
+&lt;i&gt;3: I am a day-knight, and it is night&lt;br /&gt;6: I am a night-knight, and it is day&lt;/i&gt;&lt;/blockquote&gt;
+&lt;div&gt;
+Each of these statements on its own narrows the field of possible solutions considerably. For example, if an islander says "I am a day-knight, and it is night," they must be lying. Moreover, we know that they cannot be a day-knight in the day, or a night-knight in the night. This leaves one possibility: that it is day and that they are a night-knight.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+As expected from the symmetry of the statements, in the valid puzzles it is just as likely for it to be day as night, and it is just as likely for the inhabitants to be day-knights or night-knights.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFrTfmBQTezGkCMlUq87ZnxyaIVvKYUGiSy9hUnOonUNKIEHn3M1Xgb7A5qD1DKzhQ3_IpVmosQO3qYWIPaay5OUGeMay6JhTiSK8yT0U11r8y6kI6CjpiAYpnfJLN3uDtHqzHW62d39w/s1600/day_night.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="285" data-original-width="405" height="225" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFrTfmBQTezGkCMlUq87ZnxyaIVvKYUGiSy9hUnOonUNKIEHn3M1Xgb7A5qD1DKzhQ3_IpVmosQO3qYWIPaay5OUGeMay6JhTiSK8yT0U11r8y6kI6CjpiAYpnfJLN3uDtHqzHW62d39w/s320/day_night.png" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;day and night are equally likely&lt;/i&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+But not everything is balanced in Subterranea. In the example above (puzzle 5), and in puzzles generated by statements 3 and 6, we find the inhabitants of Subterranea being less than truthful. In fact, in &lt;i&gt;all&lt;/i&gt; the puzzles generated, at least one of the inhabitants is lying - never do both tell the truth at the same time. The graph below shows puzzles where one inhabitant is lying in light blue, and where both inhabitants are lying in white.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhx4NLSDQm1a9BOmVvL6tJ0X9RlMkvrncm9rn-AZPpZg4zc6nDFNC_QPbtbrrB8-Uim132MGhCC_EYotM1-O2RItTz8f6ef3BRFD9l6DRogIDSUY2FhSmUEUvhotnfaaoWbu6AQi6XvBAo/s1600/lyingliars.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="257" data-original-width="373" height="220" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhx4NLSDQm1a9BOmVvL6tJ0X9RlMkvrncm9rn-AZPpZg4zc6nDFNC_QPbtbrrB8-Uim132MGhCC_EYotM1-O2RItTz8f6ef3BRFD9l6DRogIDSUY2FhSmUEUvhotnfaaoWbu6AQi6XvBAo/s320/lyingliars.png" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;Subterranea: not great for tourists&lt;/i&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+Perhaps it is their preference for AND conjunctions that leads the Subterraneans to have problems with telling the truth?&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+The Subterraneans might remind you of the inhabitants of the &lt;a href="http://www.mathrecreation.com/2018/05/the-isle-of-dreams.html"&gt;Isle of Dreams&lt;/a&gt; - a key difference between the Subterranean puzzles and the Isle of Dreams puzzles presented on &lt;a href="https://dmackinnon1.github.io/inspectorCraig/dreamers.html"&gt;this page&lt;/a&gt; is that the islanders do not link their statements using AND - each statement is distinct.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+Both Subterranea and the &lt;a href="http://www.mathrecreation.com/2018/05/the-isle-of-dreams.html"&gt;Isle of Dreams&lt;/a&gt; are examples of a puzzle category that also includes standard &lt;a href="http://www.mathrecreation.com/2017/11/the-island-of-knights-and-knaves.html"&gt;Knights and Knaves&lt;/a&gt;, the &lt;a href="http://www.mathrecreation.com/2018/09/what-day-is-it-usually.html"&gt;Lion and the Unicorn&lt;/a&gt;, the &lt;a href="http://www.mathrecreation.com/2018/10/the-unreliable-guards.html"&gt;Unreliable Guards&lt;/a&gt;, &lt;a href="http://www.mathrecreation.com/2018/03/tigers-and-treasure.html"&gt;Tiger or Treasure&lt;/a&gt;,&amp;nbsp; &lt;a href="http://www.mathrecreation.com/2018/03/tigers-and-treasure.html"&gt;Portia's Caskets&lt;/a&gt;, and many others. A bunch of these puzzles are collected &lt;a href="https://dmackinnon1.github.io/logic.html"&gt;here&lt;/a&gt;.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2019-05-29T19:33:08.890Z</blogger:created>
+    <published>2019-06-04T13:18:00Z</published>
+    <updated>2019-06-04T13:18:34.090Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2019/06/day-knights-and-night-knights.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

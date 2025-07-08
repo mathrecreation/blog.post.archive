@@ -1,0 +1,158 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-2147819508420521531</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>octagonal iteration with GSP</title>
+    <content type='html'>Here is a little GSP iteration that I came across that I thought was worth sharing.&lt;br /&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlDhdDj_WrdAga_0tfc3VsqZktqW4zWDWZHEwbW_cKFLu8oeeMkpQb2JowToBDZTAQiOnS-Gdy4KlWuBwD-FTreJAv8oh6nOMA3ONGHG1aUakktFPsUdmcNDc5IqcwKLS67U7SWQ8H5o8/s1600/ab.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlDhdDj_WrdAga_0tfc3VsqZktqW4zWDWZHEwbW_cKFLu8oeeMkpQb2JowToBDZTAQiOnS-Gdy4KlWuBwD-FTreJAv8oh6nOMA3ONGHG1aUakktFPsUdmcNDc5IqcwKLS67U7SWQ8H5o8/s1600/ab.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+Start with a line segment - this provides the only "free" points in the sketch - everything else is constructed on top of this, starting with a square based on AB.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEircOmqGHTkPCeac028lu1ypYhzpjzuWBiSVX3Py9Zc9VZU10sHFb0nWjFq-YY1uL6PzwNKDyptoyzrvixNtKPxtXVWk_Cm77HCPm-4rqMbilKm0n6IueVGNQhrbCtRN5LeP3d37Fdw_So/s1600/absquare.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEircOmqGHTkPCeac028lu1ypYhzpjzuWBiSVX3Py9Zc9VZU10sHFb0nWjFq-YY1uL6PzwNKDyptoyzrvixNtKPxtXVWk_Cm77HCPm-4rqMbilKm0n6IueVGNQhrbCtRN5LeP3d37Fdw_So/s1600/absquare.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+Next, construct the center of the square, and a circle centered on that square's center and diameter equal to the diagonal of the square.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZRNsqwxy9HHRHhceodP3vgLJCSUk-gd0ZxHQXYqhckiWKL20F3rPwui2-Va8Ohdz_jlGIakV978hMFIX-Z9dAGWVlSvy1eoIeAbuoXvLZY2hJccnsrjZ1W6QD2OSfKnHj7dR-B74nv9A/s1600/circlesquare.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZRNsqwxy9HHRHhceodP3vgLJCSUk-gd0ZxHQXYqhckiWKL20F3rPwui2-Va8Ohdz_jlGIakV978hMFIX-Z9dAGWVlSvy1eoIeAbuoXvLZY2hJccnsrjZ1W6QD2OSfKnHj7dR-B74nv9A/s1600/circlesquare.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+Next, construct points on the circle midway between the points provided by the corners of the squares.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyppfEnsVKV_5nYWjLo74nnsp05TJQs1koZmACobidhnv8dZC9hEzio9IlybYUwy7QpLWHunkgZuaas40ViHDY6qN2PwZVJTqS4EB-CJbX7n7PZdaMjdO3Ouo8ajrIiTHWKD6gZ9GyN6Q/s1600/ready2iterate.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyppfEnsVKV_5nYWjLo74nnsp05TJQs1koZmACobidhnv8dZC9hEzio9IlybYUwy7QpLWHunkgZuaas40ViHDY6qN2PwZVJTqS4EB-CJbX7n7PZdaMjdO3Ouo8ajrIiTHWKD6gZ9GyN6Q/s1600/ready2iterate.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+We'll iterate by mapping the original line segment onto pairs of these points (in GSP you can select the free points and map them onto other points derived from them). Mapping AB onto the pairs of adjacent points around the circle starts out like this:&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgj26DkjUgDu2d5ow23nhNwWlT2RLtoLSHWbN3cvRSTyrtrqLAhE0Irmh0lZ22vebUzDu9M-Z1uaR0_eyHi0KrYp_Bzdofqt2YL7MY_A3C9yCKE3NsabLQxs3jaX0NqEz55M7_6qjMWUfg/s1600/iterat1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgj26DkjUgDu2d5ow23nhNwWlT2RLtoLSHWbN3cvRSTyrtrqLAhE0Irmh0lZ22vebUzDu9M-Z1uaR0_eyHi0KrYp_Bzdofqt2YL7MY_A3C9yCKE3NsabLQxs3jaX0NqEz55M7_6qjMWUfg/s1600/iterat1.JPG" height="225" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+And continuing on around the circle:&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjU7IHKrfLlnBdFxt76hgpNtpGv-cdFZqRg_XIf4oL15DiVT0jkaghuCkOznjWGA6kj6eunkX958sQTQYNdiVvmDKsz88zKklg8QPp02wYq-AKSe42l3oD5irNRRMrCFCGRW2qC40J-qPI/s1600/moreiterat.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjU7IHKrfLlnBdFxt76hgpNtpGv-cdFZqRg_XIf4oL15DiVT0jkaghuCkOznjWGA6kj6eunkX958sQTQYNdiVvmDKsz88zKklg8QPp02wYq-AKSe42l3oD5irNRRMrCFCGRW2qC40J-qPI/s1600/moreiterat.JPG" height="267" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+And so on ...&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibOmaiwiGU26Bj3aUNea_5yAN5VSgD3IiST5gLV56hMMUMe744tC9pU_9ZQltO4Splt1LQBa9yehKaL8js9pcVqsCtukISYlV4GdsCUY7ExyA087oY2SuLWm4Z04uyKdr8vQ4mAfJjP3o/s1600/evenmore.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibOmaiwiGU26Bj3aUNea_5yAN5VSgD3IiST5gLV56hMMUMe744tC9pU_9ZQltO4Splt1LQBa9yehKaL8js9pcVqsCtukISYlV4GdsCUY7ExyA087oY2SuLWm4Z04uyKdr8vQ4mAfJjP3o/s1600/evenmore.JPG" height="236" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+Until you get this:&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinUveOtyziEV8tf835brvJsk0oMx_37kCflaP4bx1sN6hCT2vfpZBdiJeBxNxbAzJQfLkx3fh5wCGu4WV9bVQYoJp-mggLgE7HB4nMmUlr6HA2Dw-Bl-Qptw89OXyZugTfNek0Levg3ps/s1600/everything.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinUveOtyziEV8tf835brvJsk0oMx_37kCflaP4bx1sN6hCT2vfpZBdiJeBxNxbAzJQfLkx3fh5wCGu4WV9bVQYoJp-mggLgE7HB4nMmUlr6HA2Dw-Bl-Qptw89OXyZugTfNek0Levg3ps/s1600/everything.JPG" height="305" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+Which is nice, but to unpack it a bit and see more of the patterns you can reduce the number of iterations and hide the original construction. Scaling back to one iteration, and hiding everything except the squares around the circle, you get this:&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhd4VWUuQSqYH5ge10UT_RzUtwYegapxZRvNwpVKiiPSSaW-uvOa3WBj_UHhJB9sH96RuF8g-aTVlN403bWDmOGp0dXiEU8ACOfImTVzFuZd-VQ_9mLam_giVcupXvmVvUiHa2E3jGImW4/s1600/base.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhd4VWUuQSqYH5ge10UT_RzUtwYegapxZRvNwpVKiiPSSaW-uvOa3WBj_UHhJB9sH96RuF8g-aTVlN403bWDmOGp0dXiEU8ACOfImTVzFuZd-VQ_9mLam_giVcupXvmVvUiHa2E3jGImW4/s1600/base.JPG" height="306" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+Simplifying even further you can just leave one side of the generated squares, say one of the sides that radiate out from the octagon in the middle.&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiB3GFaFzEU4Y4Djcj16cVNa96hGU1IZ7gkW8D_P8EHHIdefP_4P7xLurkoZsxYNdNkOuEfAs88xFZuP2LckVV_MUw9HOmHTUKwqTmi0RdD6gNsACh1J-FQbID6XkMUo9pFXjTTclGhCCo/s1600/start1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiB3GFaFzEU4Y4Djcj16cVNa96hGU1IZ7gkW8D_P8EHHIdefP_4P7xLurkoZsxYNdNkOuEfAs88xFZuP2LckVV_MUw9HOmHTUKwqTmi0RdD6gNsACh1J-FQbID6XkMUo9pFXjTTclGhCCo/s1600/start1.JPG" height="320" width="312" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+If you start with this, the next two generations look something like stick men chasing each other,&amp;nbsp;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNDe_qPVFrz2xm0hdIitWXejE0FkE7LQcry_AEv7OHaFC1SUiDqe68dUHVx6tphRH03DAkMGNRt2N8mNm_flw3lnq7tt5K1Mf50Bmc-ZR5EKXBdxdelIo9YttmZDLYJF0YJcEXzAjKt60/s1600/1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNDe_qPVFrz2xm0hdIitWXejE0FkE7LQcry_AEv7OHaFC1SUiDqe68dUHVx6tphRH03DAkMGNRt2N8mNm_flw3lnq7tt5K1Mf50Bmc-ZR5EKXBdxdelIo9YttmZDLYJF0YJcEXzAjKt60/s1600/1.JPG" height="230" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+If instead you hide everything but the outermost edges of the squares around the central hexagon, you would begin with this exploded octagon:&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4M8vB3Sc1TTK8yA4k3CBFE5Vr772ptl__nqARkjZQjRoH24wDExJxrK8nY7J6iJ3NlBRnHBkdS5nMH93MZFqLIvTgNV9bi2_WbC51GIWcPL2E2NxbK8f9HJzo_TwNXr6W-VJ8T8oCWH8/s1600/start4.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4M8vB3Sc1TTK8yA4k3CBFE5Vr772ptl__nqARkjZQjRoH24wDExJxrK8nY7J6iJ3NlBRnHBkdS5nMH93MZFqLIvTgNV9bi2_WbC51GIWcPL2E2NxbK8f9HJzo_TwNXr6W-VJ8T8oCWH8/s1600/start4.JPG" height="308" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+And with two more generations you would have this pleasing pattern (finding the overlapping octagons below is not easy):&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkrSz54V_vFe1bbnhkuBvVSr0FnEZ26gDs0dnuWTt41LWLO66eri2P2wj-ND8ljynOfzqlWf8qDPiPccLq4KgNzMmjrvsRdvOwuwU40w9csopjqUHBwR5bv1XRSnNOsnzFZPzYdPsZmBk/s1600/finish4.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkrSz54V_vFe1bbnhkuBvVSr0FnEZ26gDs0dnuWTt41LWLO66eri2P2wj-ND8ljynOfzqlWf8qDPiPccLq4KgNzMmjrvsRdvOwuwU40w9csopjqUHBwR5bv1XRSnNOsnzFZPzYdPsZmBk/s1600/finish4.JPG" height="381" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+My favorite in this series is what you get from starting with the innermost edges of the squares - the octagon itself.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPyTycB-CgQl_e862OYZuQv1EKqkvgKGsTUi2KjwLVzuxfkTjpbhS165v49aQz-ug-ff1q4yOKJ98r5eCFT4QFw4keCPAUZwkED4YHMg7w2J88kQbP4taieNBaqO7cUdLiCfWcpTJOme4/s1600/start3.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPyTycB-CgQl_e862OYZuQv1EKqkvgKGsTUi2KjwLVzuxfkTjpbhS165v49aQz-ug-ff1q4yOKJ98r5eCFT4QFw4keCPAUZwkED4YHMg7w2J88kQbP4taieNBaqO7cUdLiCfWcpTJOme4/s1600/start3.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+As you add more generations to this, the overlapping octagons slice each other into an interesting tessellation made up of octagons, squares, hexagons, triangles and a few other tiles that can be thought of as slices of octagons or shapes that fill in the gaps between them.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWv6J1jZiNl1ZxVtermzjajV5ASaRlGd6aSRVHXKcjveDIt5sFZy5v4b04LDddO_HVkN2jC2L0U4Pss5uwqlSQtJ6qa-hcqwMqCtvADNlheG9pvi-VnDiFeKC6g2Vjhr5Yf3bL6fsytIk/s1600/thirdOne.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWv6J1jZiNl1ZxVtermzjajV5ASaRlGd6aSRVHXKcjveDIt5sFZy5v4b04LDddO_HVkN2jC2L0U4Pss5uwqlSQtJ6qa-hcqwMqCtvADNlheG9pvi-VnDiFeKC6g2Vjhr5Yf3bL6fsytIk/s1600/thirdOne.JPG" height="305" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+Here are some of the tiles suggested by this pattern:&lt;br /&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaGB8gNTBSQ2VviJM210Gbiy6XuKf-CwTMhxafp1_iF-5xRRyTqWzX6kc2E6w4TUw6lNXjkOsqb0Xuv7nnJ-pN0zSNegeNDx6pumnPUgj62AH9Es3Q_27ZYXiBr4Uro3HxXzXXwgTqrhY/s1600/tiles.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaGB8gNTBSQ2VviJM210Gbiy6XuKf-CwTMhxafp1_iF-5xRRyTqWzX6kc2E6w4TUw6lNXjkOsqb0Xuv7nnJ-pN0zSNegeNDx6pumnPUgj62AH9Es3Q_27ZYXiBr4Uro3HxXzXXwgTqrhY/s1600/tiles.JPG" height="320" width="215" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+Adding another generation produces even more tiles, formed by slicing and intersecting the tiles from the previous:&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7Q0grbID3eOHyIX4f-va6ICEcmtncXYJ26Ibgij9c1xrLY0KmOMm9l8jpBELR8whHqVNnSBfIs8VGcJPoWlsgDN64n_i3wV-xf4o2_4jVgVvS6mrKGemstpYZCMfaKBi9TwDS21ANZ-4/s1600/afterthirdOne.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7Q0grbID3eOHyIX4f-va6ICEcmtncXYJ26Ibgij9c1xrLY0KmOMm9l8jpBELR8whHqVNnSBfIs8VGcJPoWlsgDN64n_i3wV-xf4o2_4jVgVvS6mrKGemstpYZCMfaKBi9TwDS21ANZ-4/s1600/afterthirdOne.JPG" height="365" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2DXDm_tTsULDzc2MgB5Kp5yuqVS_HIrNW6bfOcIN1fX3RZnn7mzcw0cJo23bPYgyiJeLS-WuHdn-KUgdROOPgeWeU3e3zu35a6tiI_mp0pnJ7XfnC_dBpWQCqccMZDHYKp1Z-_R-xVog/s1600/strangeTiles2.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2DXDm_tTsULDzc2MgB5Kp5yuqVS_HIrNW6bfOcIN1fX3RZnn7mzcw0cJo23bPYgyiJeLS-WuHdn-KUgdROOPgeWeU3e3zu35a6tiI_mp0pnJ7XfnC_dBpWQCqccMZDHYKp1Z-_R-xVog/s1600/strangeTiles2.JPG" height="175" width="200" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+What if you started this whole thing with a triangle instead of a square? You might end up with a tessellation like this:&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjl78V5qJfk0L3MA2oZDQEBT2CTJFUeL23DGwJpClzPAb9gqlpZjWbyiKTn-fFIssnB-iW2eE40MFdMPB7voeSTaNLmzcOUenWcb9MTGvAu9DFTbag37QHpyjfZ8LYIe5lYZVqXHv5mFYs/s1600/tryThree.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjl78V5qJfk0L3MA2oZDQEBT2CTJFUeL23DGwJpClzPAb9gqlpZjWbyiKTn-fFIssnB-iW2eE40MFdMPB7voeSTaNLmzcOUenWcb9MTGvAu9DFTbag37QHpyjfZ8LYIe5lYZVqXHv5mFYs/s1600/tryThree.JPG" height="375" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2015-04-14T03:33:13.862Z</blogger:created>
+    <published>2015-04-15T01:51:00Z</published>
+    <updated>2015-04-15T01:51:27.466Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='tiles'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='GSP'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='mathematics'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='maths'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='octagons'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='tessellations'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='iterations'/>
+    <blogger:filename>/2015/04/octagonal-iteration-with-gsp.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

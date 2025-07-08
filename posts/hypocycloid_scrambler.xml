@@ -1,0 +1,81 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-6950843001080681727</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>hypocycloid scrambler</title>
+    <content type='html'>&lt;div style="text-align: center;"&gt;
+&lt;span style="color: #0000ee;"&gt;&lt;span style="text-decoration: underline;"&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiI6DFB25lWXzdaO0SVBIC6EG60YWJdsVI1LRwi2AF7OcOHCoPSiYeTJp4gTYKLpS4VPb7tl5qxWzlst_6xHPLw4SRY29qu_N4WOkQ2RkHBaplvEiBnExO8NJAJZEovD4TmYM7g0aeD4iQ/s1600-h/scrambler_plan_detail_1.jpg" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"&gt;&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5375562448251980994" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiI6DFB25lWXzdaO0SVBIC6EG60YWJdsVI1LRwi2AF7OcOHCoPSiYeTJp4gTYKLpS4VPb7tl5qxWzlst_6xHPLw4SRY29qu_N4WOkQ2RkHBaplvEiBnExO8NJAJZEovD4TmYM7g0aeD4iQ/s400/scrambler_plan_detail_1.jpg" style="cursor: hand; cursor: pointer; display: block; height: 400px; margin: 0px auto 10px; text-align: center; width: 328px;" /&gt;&lt;/a&gt;The &lt;a href="http://en.wikipedia.org/wiki/Twist_(ride)"&gt;scrambler&lt;/a&gt; amusement park ride gives a visceral sense for how circular motions can be added together to create a trajectory that scarecely resembles a circle itself. If you watch (or get on) the ride, you'll see (or feel) that while the ride consists of a circular structure spinning on a larger spinning circle, riders seem to move in triangular or square paths (it was moving too fast for me to tell which).&lt;br /&gt;
+&lt;div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+When I tried to model the scrambler in Geometer's Sketchpad to learn more about the path that its riders follow, I chose to have point A traveling in one direction on a large circle, while point B travelled in the opposite direction on a circle whose radius was half the size of the first, centered on A. Both points were set to travel at the same speed. This gave a path very much like the scrambler's - a curved triangle.&lt;/div&gt;
+&lt;div&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimNkGyUMWwQ68ikOnhAQkmM8g3uuwMrOmuUUJMLsvBI24Qlyuwaftjhupcm-6I80U2vcTt6wCMmSlynQ0Ro7X3hy_jQBnrrWj5JF5GeLBW9Mo_lyHo8P-u1Il1eDWiXU7FQuGMFHpDkDw/s1600-h/drawing_hypo.jpg" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"&gt;&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5375208053325576482" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimNkGyUMWwQ68ikOnhAQkmM8g3uuwMrOmuUUJMLsvBI24Qlyuwaftjhupcm-6I80U2vcTt6wCMmSlynQ0Ro7X3hy_jQBnrrWj5JF5GeLBW9Mo_lyHo8P-u1Il1eDWiXU7FQuGMFHpDkDw/s400/drawing_hypo.jpg" style="cursor: pointer; display: block; height: 393px; margin: 0px auto 10px; text-align: center; width: 392px;" /&gt;&lt;/a&gt;Different choices for the relative sizes and speeds of the circles and points give different curves. In this case, having the circles move in opposite directions creates a curve that is the simplest  &lt;a href="http://en.wikipedia.org/wiki/Hypocycloid"&gt;hypocycloid&lt;/a&gt;, while having the circles move in the same direction creates  the simplest &lt;a href="http://en.wikipedia.org/wiki/Epicycloid"&gt;epicycloid&lt;/a&gt;.&lt;br /&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipH1nQ_BFvbd912YEDroXXcg962LhD1b3USzbwKfj8puVjjksVs4m-6CtLb_DDObmPnKRyrKxuy8A7ND06XbfpQMGhX-U-ZjTHRxl1HGj5K9-IcNqoNjVjncad-dhEpW1h5AONeHg958w/s1600-h/first_generation.jpg" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" style="text-decoration: none;"&gt;&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5375208066932687474" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipH1nQ_BFvbd912YEDroXXcg962LhD1b3USzbwKfj8puVjjksVs4m-6CtLb_DDObmPnKRyrKxuy8A7ND06XbfpQMGhX-U-ZjTHRxl1HGj5K9-IcNqoNjVjncad-dhEpW1h5AONeHg958w/s400/first_generation.jpg" style="cursor: pointer; display: block; height: 237px; margin: 0px auto 10px; text-align: center; width: 400px;" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+Hypocycloids are usually defined by having the small circle roll along the inside of the larger circle, while epicycloids are defined by having the small circle roll along the outside. By choosing the right rotation speed and sizes, you can get the same curves by having the small circle centered on the circumferences of the large circle, as I did when modeling the scrambler.&lt;/div&gt;
+&lt;div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+There are lots of ways to explore this model further, but one that appealed to me was to try to add additional circles spinning on top of the existing ones, with each additional circle having half the radius of the one it sits on. Having the circles spin in different directions generates very different curves (a further restriction was to start all circular motion &lt;i&gt;in phase&lt;/i&gt; with all the points initially lined up). By varying the spin directions, two circles generated two paths (the epicycloid and hypocycloid above), while three circles generated four paths, shown below.&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijOMYt1pFWiDrEAvrINVc-me1W3fLdPtiH01ItxoJTCd9acIUtV3vKWXBKO9xgYW0tIHT66ClALi1E-6ZB1f-daXKDSFB2RPMJ3Prd7pVOPzlAzPMKj-DCUNxXE17AQarMLrecGEpTJ3g/s1600-h/second_generation.jpg" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"&gt;&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5375208072918298418" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijOMYt1pFWiDrEAvrINVc-me1W3fLdPtiH01ItxoJTCd9acIUtV3vKWXBKO9xgYW0tIHT66ClALi1E-6ZB1f-daXKDSFB2RPMJ3Prd7pVOPzlAzPMKj-DCUNxXE17AQarMLrecGEpTJ3g/s400/second_generation.jpg" style="cursor: pointer; display: block; height: 363px; margin: 0px auto 10px; text-align: center; width: 400px;" /&gt;&lt;/a&gt;One great thing about GSP is that you can look at these curves &lt;i&gt;synthetically&lt;/i&gt;, where you build them up out of points, lines, and circles, or &lt;i&gt;analytically&lt;/i&gt;, where you provide explicit equations for the coordinates of the points that lie on the curves. It turns out that for the family of curves built out of these circles, each having half the radius of the preceding circle, the equations are:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioffQrVObz2iPPOrsCP6kIS73G5HpSzZwcUglqsu4wgZ5cd6x-CdqX5_P4d5szvS9Hn4xCybGju6u1EPTUvapFeurNu1s6w-D8pE6yuuDkV7dlYmp4lNTo4N26je2TDVLSTH-Fj5hbU3M/s1600/hypocycloid.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioffQrVObz2iPPOrsCP6kIS73G5HpSzZwcUglqsu4wgZ5cd6x-CdqX5_P4d5szvS9Hn4xCybGju6u1EPTUvapFeurNu1s6w-D8pE6yuuDkV7dlYmp4lNTo4N26je2TDVLSTH-Fj5hbU3M/s1600/hypocycloid.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+Where we are letting the big circle have radius = 1, &lt;i&gt;n&lt;/i&gt; is the number of circles that have been added to the initial base circle, and the coefficients in the expression for &lt;i&gt;y&lt;/i&gt; are chosen to be positive or negative to yield different curves (a positive coefficient on the &lt;i&gt;i-&lt;/i&gt;th term causes the &lt;i&gt;i&lt;/i&gt;-th circle to move counterclockwise, and a negative coefficient causes it to move clockwise). When we choose all positive coefficients and look at &lt;i&gt;n&lt;/i&gt; from 0 to 4, we get an interesting evolution of the epicycloid:&lt;/div&gt;
+&lt;div&gt;
+&lt;div style="text-align: left;"&gt;
+&lt;/div&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTgs_JoZvJimRCwClxaRcIv2H-C_YLgiV7JKRlQ9JpnU63Z7wHTxvF-6ClgyfvjsJIqVbkjK47trOBEyUKGOBK_p5fdPvFQFUwUwG5N4sCYvVWbkfThrQmZfwoCzoLcsp11JYuD23_AY0/s1600-h/epi-evolution.jpg" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"&gt;&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5375208397830316018" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTgs_JoZvJimRCwClxaRcIv2H-C_YLgiV7JKRlQ9JpnU63Z7wHTxvF-6ClgyfvjsJIqVbkjK47trOBEyUKGOBK_p5fdPvFQFUwUwG5N4sCYvVWbkfThrQmZfwoCzoLcsp11JYuD23_AY0/s400/epi-evolution.jpg" style="cursor: pointer; display: block; height: 334px; margin: 0px auto 10px; text-align: center; width: 400px;" /&gt;&lt;/a&gt;&lt;br /&gt;
+If you allow negative coefficients in the &lt;i&gt;y&lt;/i&gt; expression and allow allow the circles to spin in different directions, you'll find that the '4th generation' of this family includes some very oddly shaped curves:&lt;/div&gt;
+&lt;div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;span style="color: #0000ee;"&gt;&lt;span style="text-decoration: underline;"&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;span style="color: #0000ee;"&gt;&lt;span style="text-decoration: underline;"&gt;&lt;span style="-webkit-text-decorations-in-effect: none; color: black;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghLFEpt6vbet4yDbfu_2AnCf4-beSUSMCB0Of7000czTIzm9pAqldH3329bAspi74swMwK1vbLL_mVEU7KHDHU2Yd9iKlZc5egtODBsIv0ZcL8mXIqZPG8flymJqRhWtWTxbYBgomnxVQ/s1600-h/generation_5_example.jpg" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"&gt;&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5375607862633123458" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghLFEpt6vbet4yDbfu_2AnCf4-beSUSMCB0Of7000czTIzm9pAqldH3329bAspi74swMwK1vbLL_mVEU7KHDHU2Yd9iKlZc5egtODBsIv0ZcL8mXIqZPG8flymJqRhWtWTxbYBgomnxVQ/s400/generation_5_example.jpg" style="cursor: pointer; display: block; height: 130px; margin-bottom: 10px; margin-left: auto; margin-right: auto; margin-top: 0px; text-align: center; width: 400px;" /&gt;&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+The GSP file used to create up to the 2nd generation of these curves is &lt;a href="http://sites.google.com/site/mathrecreation/Home/epi_hypo.gsp"&gt;here&lt;/a&gt;.&lt;/div&gt;
+&lt;br /&gt;
+&lt;script src="http://watchmath.com/cgi-bin/mathtex2.js" type="text/javascript"&gt;
+&lt;/script&gt;&lt;b&gt;Update&lt;/b&gt;: The first few generations of these curves are easy to make using &lt;a href="https://www.desmos.com/calculator"&gt;Desmos&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxxMxnfH9zUOjvLHdKrXBbTAzVzpvyNldXItKokLEaf9Yc0znf61D0rtEHSnDTnEz6Bs3lCOzdvxyfJbE7C_h93MRmMGjC0WjGdsit07IPPwmlheasHf19Kfy_BYszRFHObnIA0aEgGks/s1600/guitar_desmos.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="220" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxxMxnfH9zUOjvLHdKrXBbTAzVzpvyNldXItKokLEaf9Yc0znf61D0rtEHSnDTnEz6Bs3lCOzdvxyfJbE7C_h93MRmMGjC0WjGdsit07IPPwmlheasHf19Kfy_BYszRFHObnIA0aEgGks/s400/guitar_desmos.PNG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFDVZu6CQJywAlI94udtoBcV8lYPo22NXWhuY3JZkV7L8isCFpQW63F9RIUzriDZC-v5C03ooK6dAuNBsp8BiDU-I4KXQNhtNrmmqK-lpyRk1f1UbeVTledzwobijBLblW6973b8gG89Y/s1600/prop_desmos.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="237" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFDVZu6CQJywAlI94udtoBcV8lYPo22NXWhuY3JZkV7L8isCFpQW63F9RIUzriDZC-v5C03ooK6dAuNBsp8BiDU-I4KXQNhtNrmmqK-lpyRk1f1UbeVTledzwobijBLblW6973b8gG89Y/s400/prop_desmos.PNG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEip65w-KWOwqnWF9bhWTdDbfGWPi7wlCe1SCGB2isUm99m5rJC5Ms9JYd75iXamXEecuB9qwCGG_PgW7OLbjKca-9hx92mnyTTO4-u3eAF0m2Sn8uqVTxTL2uTCnfcC4ZAQXFWR7GUzJFQ/s1600/stingray_desmos.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="252" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEip65w-KWOwqnWF9bhWTdDbfGWPi7wlCe1SCGB2isUm99m5rJC5Ms9JYd75iXamXEecuB9qwCGG_PgW7OLbjKca-9hx92mnyTTO4-u3eAF0m2Sn8uqVTxTL2uTCnfcC4ZAQXFWR7GUzJFQ/s400/stingray_desmos.PNG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+See also these related posts:&lt;br /&gt;
+&lt;a href="http://www.mathrecreation.com/2009/09/scrambler-fractal.html"&gt;Scrambler fractal&lt;/a&gt;&lt;br /&gt;
+&lt;a href="http://www.mathrecreation.com/2013/12/brain-curve.html"&gt;Brain curve&lt;/a&gt;&lt;br /&gt;
+&lt;script type="text/javascript"&gt;
+replaceMath( document.body ); 
+&lt;/script&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2009-08-29T02:29:25.115Z</blogger:created>
+    <published>2009-08-29T02:28:00Z</published>
+    <updated>2016-09-21T01:35:21.719Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='constructions'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='geometry'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='GSP'/>
+    <blogger:filename>/2009/08/hypocycloid-scrambler.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

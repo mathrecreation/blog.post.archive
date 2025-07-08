@@ -1,0 +1,80 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-723307949588547799</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>interesting and uninteresting numbers</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy9cGmxbzfBm3fx3aU5kLhqZo0zXYMWDYE4YKYlI4Z1KH8Sf3XvwsTzesfLCDjeKNvRCG-gLYGJaWDdhRXuGC5PefSEyRFyNDNOJ19uDSJ9lXalDzzJ3SWknmLwFlKrB4ijhkeG-bnACHA/s1600/munch_2.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy9cGmxbzfBm3fx3aU5kLhqZo0zXYMWDYE4YKYlI4Z1KH8Sf3XvwsTzesfLCDjeKNvRCG-gLYGJaWDdhRXuGC5PefSEyRFyNDNOJ19uDSJ9lXalDzzJ3SWknmLwFlKrB4ijhkeG-bnACHA/s320/munch_2.jpg" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;br /&gt;
+In &lt;a href="http://arxiv.org/abs/0911.3038"&gt;a paper published this week&lt;/a&gt; on arXiv, Dann van Berkel mentions the famous proof (or joke, depending on how you view things) that all natural numbers are interesting. Essentially, if there are uninteresting&amp;nbsp;natural numbers, consider the smallest such uninteresting number (which is guaranteed to exist, since the naturals are well-ordered). This number, because it is the smallest uninteresting number, is interesting, providing us with a contradiction.&lt;br /&gt;
+&lt;br /&gt;
+As &lt;a href="http://en.wikipedia.org/wiki/Interesting_number_paradox"&gt;Wikipedia points out&lt;/a&gt;, &lt;a href="http://www.nathanieljohnston.com/index.php/2009/06/11630-is-the-first-uninteresting-number/"&gt;Nathaniel Johnson&lt;/a&gt; has given a&amp;nbsp;slightly&amp;nbsp;different formulation of the question, that seems more objective, and yet also more paradoxical. And currently, this formulation actually&amp;nbsp; produces 'uninteresting' numbers. The formulation goes something like this:&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;A number is interesting if and only if it belongs to an interesting sequence.&lt;/i&gt;&lt;br /&gt;
+&lt;i&gt;The Online Encyclopedia of Integer Sequences (&lt;a href="http://www.research.att.com/~njas/sequences/index.html"&gt;OEIS&lt;/a&gt;) contains all interesting sequences.&lt;/i&gt;&lt;br /&gt;
+&lt;i&gt;Consequently, the numbers that do not appear in OEIS are uninteresting.&lt;/i&gt;&lt;br /&gt;
+&lt;br /&gt;
+This gives us (as of last week, according to Johnson) that the number &lt;b&gt;12407 &lt;/b&gt;is currently the smallest uninteresting natural number.&lt;br /&gt;
+&lt;br /&gt;
+Unfortunately, the sequence of uninteresting numbers seems interesting, and should be considered for inclusion in OEIS... but this would contradict its definition. So far, the sequence has not been included, so it still exists.&lt;br /&gt;
+&lt;br /&gt;
+Does this  formulation give a proof that OEIS cannot contain all interesting sequences? I think there are probably a bunch of statements we can generate with this sort of "interesting" logic, such as:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div style="margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px;"&gt;&lt;i&gt;If an encyclopedia contains all interesting sequences, then every natural number must occur at least once in the encyclopedia.&lt;/i&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;br /&gt;
+But then again, you could argue that any number that occurs only once is interesting, and that the sequence of these once-occurring&amp;nbsp;numbers is interesting also, causing them to be included again... In any case, this way of thinking about "interesting numbers" shows a lot of affinity with the &lt;a href="http://en.wikipedia.org/wiki/Barber_paradox"&gt;Barber paradox&lt;/a&gt;, &lt;a href="http://en.wikipedia.org/wiki/Russell's_paradox"&gt;Russell's paradox&lt;/a&gt;, and other classics.&lt;br /&gt;
+&lt;br /&gt;
+But van Berkel was not discussing uninteresting numbers in his paper, but rather a particularly interesting number, 3435.&lt;br /&gt;
+&lt;br /&gt;
+If you take a natural number and calculate the sum of its digits raised to themselves, you get  another natural number. Can this operation ever give you the original number back? Yes. Consider the number 1, which has a single digit, 1, when raised to itself gives 1^1=1. Here are some other calculations:&lt;br /&gt;
+&lt;br /&gt;
+&lt;code&gt;&lt;br /&gt;
+n ... sum of digits raised to themselves&lt;br /&gt;
+1 ... 1^1 = 1&lt;br /&gt;
+2 ... 2^2 = 4&lt;br /&gt;
+3 ... 3^3 = 27&lt;br /&gt;
+4 ... 4^4 = 256&lt;br /&gt;
+5 ... 5^5 = 3125&lt;br /&gt;
+6 ... 6^6 = 46656&lt;br /&gt;
+7 ... 7^7 = 823543&lt;br /&gt;
+8 ... 8^8 = 16777216&lt;br /&gt;
+9 ... 9^9 = 387420489&lt;br /&gt;
+10 ... 1^1 + 0^1 = 2&lt;br /&gt;
+11 ... 1^1 + 1^1 = 2&lt;br /&gt;
+12 ... 1^1 + 2^2 = 5&lt;br /&gt;
+13 ... 1^1 + 3^3 = 28&lt;br /&gt;
+14 ... 1^1 + 4^4 = 257&lt;br /&gt;
+15 ... 1^1 + 5^5 = 3126&lt;br /&gt;
+16 ... 1^1 + 6^6 = 46657&lt;br /&gt;
+17 ... 1^1 + 7^7 = 823544&lt;br /&gt;
+18 ... 1^1 + 8^8 = 16777217&lt;br /&gt;
+19 ... 1^1 + 9^9 = 387420490&lt;br /&gt;
+20 ... 2^1 + 0^0 = 5&lt;br /&gt;
+21 ... 2^1 + 1^1 = 5&lt;br /&gt;
+&lt;/code&gt;&lt;br /&gt;
+&lt;br /&gt;
+If we call this function&amp;nbsp;$\theta(n)$, do we ever get another number than 1 that is a fixed point for $ \theta(n)$? Well, yes, and 3435 provides us with the next example: &lt;br /&gt;
+&lt;br /&gt;
+\[3435 = 3^3 + 4^4 + 3^3 + 5^5\]&lt;br /&gt;
+The graph below shows a plot of theta for &lt;i&gt;n&lt;/i&gt; up to 5000 - the two fixed points that are found in this range, 1 and 3435, are shown as blue squares (data file &lt;a href="http://sites.google.com/site/mathrecreation/Home/munchausen_data.txt"&gt;here&lt;/a&gt;). The huge scale on the y-axis makes the graph look more constant in places than it really is.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7QJNNbFDq8rMhnHS93tT9eOJwa8Un_7dY6MlE6C7pru83EWC_WcRuPBVF2WnY_eUV5O6EkMlvOgJgq3eqToga4Br43UVtJsqr_ECmuj9JjWM6Pzx3FiulZn9D97U1MApxZS6xLCwthwkB/s1600/theta.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7QJNNbFDq8rMhnHS93tT9eOJwa8Un_7dY6MlE6C7pru83EWC_WcRuPBVF2WnY_eUV5O6EkMlvOgJgq3eqToga4Br43UVtJsqr_ECmuj9JjWM6Pzx3FiulZn9D97U1MApxZS6xLCwthwkB/s320/theta.jpg" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;br /&gt;
+Numbers for which $n = \theta(n)$ for a given base $b$ are called Munchausen numbers, and are interesting, according both to common conceptions of what 'interesting' means, and according to Johnson's OEIS-based definition (OEIS entry: &lt;a href="http://www.research.att.com/~njas/sequences/A166623"&gt;A166623&lt;/a&gt;, also submitted by van Berkel). Making 3435 even more interesting is the fact that, according to van Berkel's paper, 1 and 3435 are the only Munchausen numbers, base 10.&lt;br /&gt;
+&lt;br /&gt;
+Munchausen numbers are (presumably) named after the semi-fictional &lt;a href="http://en.wikipedia.org/wiki/Baron_Munchausen"&gt;Baron Munchausen&lt;/a&gt;, who interestingly enough may not have actually been interesting, but was intent on convincing others that he was. You may know Munchausen from the &lt;a href="http://www.imdb.com/title/tt0096764/"&gt;Terry Gillam movie&lt;/a&gt;, and he has also lent his name to the curious &lt;a href="http://en.wikipedia.org/wiki/Munchausen_syndrome"&gt;Munchausen syndrome&lt;/a&gt;, and to the disturbing &lt;a href="http://emedicine.medscape.com/article/806735-overview"&gt;Munchausen-syndrome-by-proxy&lt;/a&gt;. The image at the top of the post is from a 1902 edition of the book, &lt;a href="http://books.google.com/books?id=oAU6AAAAMAAJ"&gt;The Adventures of Baron Munchausen&lt;/a&gt;.</content>
+    <blogger:metaDescription/>
+    <blogger:created>2009-11-19T14:55:51.225Z</blogger:created>
+    <published>2009-11-19T14:56:00Z</published>
+    <updated>2011-09-11T02:01:20.868Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='numbers'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <blogger:filename>/2009/11/interesting-and-uninteresting-numbers.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

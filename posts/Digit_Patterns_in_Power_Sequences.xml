@@ -1,0 +1,26 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-4823536598141418060</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Digit Patterns in Power Sequences</title>
+    <content type='html'>&lt;a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVkupeChZ1Kuk37qspDurOFklHRP3r2T05Xy312LIfWmFILhQw0JS_PIejYJBlsiDJFsETYkY0YKlTbkFDzfM5AdNfApxVyCUG3slL6jbSGPQnQrOAjqccIG_lIcxAV1MT7CeSGaKpWNM/s1600-h/t_1_8.png"&gt;&lt;img style="margin: 0px auto 10px; display: block; text-align: center; cursor: pointer;" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVkupeChZ1Kuk37qspDurOFklHRP3r2T05Xy312LIfWmFILhQw0JS_PIejYJBlsiDJFsETYkY0YKlTbkFDzfM5AdNfApxVyCUG3slL6jbSGPQnQrOAjqccIG_lIcxAV1MT7CeSGaKpWNM/s320/t_1_8.png" alt="" id="BLOGGER_PHOTO_ID_5229232625400333026" border="0" /&gt;&lt;/a&gt;Looking at the last few digits that appear in the numbers that form the sequence b^0, b^1, b^2, b^3, ... for b a positive integer, you'll notice that the digits will always begin to repeat after a certain point. For example, looking at the last  digit of the sequences for b = 2, 3, and 4 we have the sequences&lt;br /&gt;&lt;br /&gt;b = 2: 1, 2, 4, 8, 6, 2, 4, 8, 6, ...&lt;br /&gt;b = 3: 1, 3, 9, 7, 1, 3, 9, 7, ...&lt;br /&gt;b = 4: 1, 4, 6, 4, 6, 4, 6, ...&lt;br /&gt;&lt;br /&gt;If we look at the sequence of last two digits of these sequence where b =2 we have&lt;br /&gt;&lt;br /&gt;b = 2: 1, 2, 4, 8, 16, 32, 64, 28, 56, 12, 24, 48, 96, 92, 84, 68, 36, 72, 44, 88, 76, 52, 4, ...&lt;br /&gt;&lt;br /&gt;This sequence then repeats the loop that began at 4.&lt;br /&gt;&lt;br /&gt;We can describe these sequences as T_b,d(n) = (b^n)mod 10^d. Recursively, T_b,d(n) = (T_b,d(n-1)*b)mod 10^d&lt;br /&gt;&lt;br /&gt;These sequences are always eventually periodic. Although these sequences are simple to understand and calculate, there are several  interesting ways of describing them.&lt;br /&gt;&lt;br /&gt;For example, you can think of the elements of T_b,d as a commutative monoid, with multiplication defined as a*b = (a*b)mod 10^d. They form a monoid since 1 is always a member, and you can show that T_b,d is closed under the * operation. It turns out that for some values of b, and d, T_b,d is a group.&lt;br /&gt;&lt;br /&gt;You can also think of this set as a finite state machine or graph, where each element is a node and the transition from one node to the next is defined by the operation *b mod 10^d. This provides a nice way of displaying the sequences. The pictures in this post were created by writing a short program to calculate the sequences, and then formatting the output to draw a di-graph in &lt;a href="http://www.sagemath.org/"&gt;SAGE&lt;/a&gt;. The graph at the top of the post is for b=8, d=1, while the graph below is for b=2, d=2. The graph at the bottom of the page is for b=7, d=1.&lt;br /&gt;&lt;a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJTAKhbd16UVszI1IxeHCR1ggfKuBpYbcX2W01L-B2-go2RXUOLOMaXV_94zhFKbv7TNLBUqvJ7PTg6blJvoIWBFGeUwxeF3I4Hp7_7vC980UTKRaTigWWjduFsBmEXpUJjAzEY6OOHBU/s1600-h/t_2_2.png"&gt;&lt;img style="margin: 0px auto 10px; display: block; text-align: center; cursor: pointer;" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJTAKhbd16UVszI1IxeHCR1ggfKuBpYbcX2W01L-B2-go2RXUOLOMaXV_94zhFKbv7TNLBUqvJ7PTg6blJvoIWBFGeUwxeF3I4Hp7_7vC980UTKRaTigWWjduFsBmEXpUJjAzEY6OOHBU/s320/t_2_2.png" alt="" id="BLOGGER_PHOTO_ID_5229233125936912002" border="0" /&gt;&lt;/a&gt;&lt;div&gt;&lt;a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi12agfUz5-3B5ASSauhYu4KiuigEgmrW5c9PgQQ6AXVBrj3nTtDYVie4K5WcFbVS1XDWRd7lAoYZMcQlwYa2m8rxHdaQR1AxXiQTMmozBUF7nqMA6K_X-Tgxsb-Z8NBlsbpCWou-ZGGUE/s1600-h/t_1_7.png"&gt;&lt;img style="margin: 0px auto 10px; display: block; text-align: center; cursor: pointer;" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi12agfUz5-3B5ASSauhYu4KiuigEgmrW5c9PgQQ6AXVBrj3nTtDYVie4K5WcFbVS1XDWRd7lAoYZMcQlwYa2m8rxHdaQR1AxXiQTMmozBUF7nqMA6K_X-Tgxsb-Z8NBlsbpCWou-ZGGUE/s320/t_1_7.png" alt="" id="BLOGGER_PHOTO_ID_5229234361318864354" border="0" /&gt;&lt;/a&gt;&lt;/div&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2008-07-31T17:32:55.286Z</blogger:created>
+    <published>2008-07-31T17:31:00Z</published>
+    <updated>2011-09-11T02:02:06.251Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='monoids'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='patterns'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='numbers'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='SAGE'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='modulus'/>
+    <blogger:filename>/2008/07/digit-patterns-in-power-sequences.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

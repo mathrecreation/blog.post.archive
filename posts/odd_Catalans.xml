@@ -1,0 +1,32 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-968318737908076570</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>odd Catalans</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZTj6oMk-1iWHA_gb5HvJg6ppN8dsimTbajRnJLSnPm6BxSH9fiINYyfd1XHmOdcN_h-BMA7U8Doh9S-g-3WtR444LLlFMlFDeobZrTii4_U6twBrFwi86kL-vCQuGI5mLFKRDywqygSn6/s1600-h/odd_catalans.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZTj6oMk-1iWHA_gb5HvJg6ppN8dsimTbajRnJLSnPm6BxSH9fiINYyfd1XHmOdcN_h-BMA7U8Doh9S-g-3WtR444LLlFMlFDeobZrTii4_U6twBrFwi86kL-vCQuGI5mLFKRDywqygSn6/s400/odd_catalans.JPG" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;br /&gt;
+One thing that jumps out of the &lt;a href="http://mathrecreation.blogspot.com/2009/12/catalan-number-triangle-fractal.html"&gt;Catalan Number Triangle fractal&lt;/a&gt; is the infrequency and regular spacing of the odd Catalan numbers. The Catalan numbers show up in the right-most column of the Catalan Number Triangle, and the odd ones are the ones show up in black in the diagram above (those that are congruent to 1 &lt;i&gt;mod &lt;/i&gt;2 are displayed as black, and those congruent to 0 &lt;i&gt;mod &lt;/i&gt;2 are displayed as grey).&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href="http://mathworld.wolfram.com/CatalanNumber.html"&gt;Mathworld&lt;/a&gt; tells us that odd Catalan numbers are those of the form $C_{2^k-1}$, in other words, the indicies of the odd Catalans are &lt;a href="http://mathworld.wolfram.com/MersenneNumber.html"&gt;Mersenne numbers&lt;/a&gt;. The first bunch of odd-Catalans are 1, 5, 429, 9694845, ... (&lt;a href="http://www.research.att.com/~njas/sequences/A038003"&gt;A038003&lt;/a&gt; in OEIS).&lt;br /&gt;
+&lt;br /&gt;
+Odd Catalans grow pretty rapidly. Coincidentally, there is an even more rapidly growing sequence known as the &lt;a href="http://mathworld.wolfram.com/Catalan-MersenneNumber.html"&gt;Catalan-Mersenne sequence&lt;/a&gt;&amp;nbsp;(&lt;a href="http://www.research.att.com/~njas/sequences/A007013"&gt;A007013&lt;/a&gt; in OEIS). The Catalan-Mersenne sequence is not mathematically connected to the Catalan numbers - it is a subsequence of the Mersenne numbers which Catalan discovered, and is defined by this recursion:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhm0U1YkYXhx-sQJB3pPp7WCElMrj66hxkjoEQO1nMIcAc4T4aRPGEcglBKTOGnPoFRhp3Hsm1D8Je21jEL27NZGSCJgoIjoYvEOQqWO7TV1BWdGnsTTPp8sEHI6Xs0kXZ9PaLNY5WqpnAE/s1600-h/catalan-mersenne.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhm0U1YkYXhx-sQJB3pPp7WCElMrj66hxkjoEQO1nMIcAc4T4aRPGEcglBKTOGnPoFRhp3Hsm1D8Je21jEL27NZGSCJgoIjoYvEOQqWO7TV1BWdGnsTTPp8sEHI6Xs0kXZ9PaLNY5WqpnAE/s320/catalan-mersenne.png" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;br /&gt;
+The values of $c_n$ grow so quickly that OEIS only displays the first five terms.</content>
+    <blogger:metaDescription/>
+    <blogger:created>2010-01-05T20:00:23.444Z</blogger:created>
+    <published>2010-01-05T20:04:00Z</published>
+    <updated>2011-09-11T02:01:08.065Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='numbers'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <blogger:filename>/2010/01/odd-catalans.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

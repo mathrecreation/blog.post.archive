@@ -1,0 +1,36 @@
+<>
+  <entry>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-4152106303707873299</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>interactive chladni figure page</title>
+    <content type='html'>A while back there were &lt;a href="http://www.mathrecreation.com/2016/06/chlandi-esque-figures-in-r.html"&gt;some&lt;/a&gt; &lt;a href="http://www.mathrecreation.com/2016/06/more-chlandi-figures-in-r.html"&gt;posts&lt;/a&gt; about generating Chladni Figures using R scripts. These scripts generated some pretty nice images, I thought. But, to experiment a bit more it would be nice to have something interactive, so I put together &lt;a href="https://dmackinnon1.github.io/chladni/"&gt;this page&lt;/a&gt;, which you can use to make images like the one below.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6vB29E6HA8r3XfV77y9Kg1uqrf4ek61N95YtqM3yEuVfEB2fo6FnmRVl_3JzMt3Ja5HM3_cxPXk6OBZSWRN0QaZYgFH4IraA7hiHjalq7vat2GGpf0gDtLIIWwV2wrRtHoOsOnSNEDUU/s1600/chladni2.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="464" data-original-width="463" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6vB29E6HA8r3XfV77y9Kg1uqrf4ek61N95YtqM3yEuVfEB2fo6FnmRVl_3JzMt3Ja5HM3_cxPXk6OBZSWRN0QaZYgFH4IraA7hiHjalq7vat2GGpf0gDtLIIWwV2wrRtHoOsOnSNEDUU/s320/chladni2.png" width="319" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Adding more vibrations to the surface, you can get some pretty intricate looking patterns:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCKnPlEtAMszXhoYp_ACtiH35P6WPjIdWpgz5K49bmlUEZcKAyvvNWPiuhl37-U3LunBW31rY7blEF87UX7QeYIiM5-QcNqSbrfi-7QoeB0uKWi8AOSzyLCRgNeqm6uwcMJg2UaVj3QOI/s1600/chladni4.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="357" data-original-width="356" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCKnPlEtAMszXhoYp_ACtiH35P6WPjIdWpgz5K49bmlUEZcKAyvvNWPiuhl37-U3LunBW31rY7blEF87UX7QeYIiM5-QcNqSbrfi-7QoeB0uKWi8AOSzyLCRgNeqm6uwcMJg2UaVj3QOI/s320/chladni4.png" width="319" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+If you would like to try it out, please visit: &lt;a href="https://dmackinnon1.github.io/chladni/"&gt;https://dmackinnon1.github.io/chladni/ &lt;/a&gt;(source &lt;a href="https://github.com/dmackinnon1/chladni"&gt;here&lt;/a&gt;).&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style="font-size: large;"&gt;Update&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;Please &lt;a href="http://www.mathrecreation.com/2019/05/desmos-chladni.html"&gt;see this&lt;/a&gt; post about drawing Chladni-like figures using Desmos.&lt;/i&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2017-07-18T02:36:34.819Z</blogger:created>
+    <published>2017-07-18T02:45:00.002Z</published>
+    <updated>2019-05-22T03:15:29.280Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2017/07/interactive-chladni-figure-page.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

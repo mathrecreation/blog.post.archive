@@ -1,0 +1,31 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-3408602493319249606</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>de Morgan's magic square</title>
+    <content type='html'>In &lt;a href="http://books.google.ca/books?id=i6rVd7QVgxsC"&gt;The Elements of Arithmetic&lt;/a&gt; (1830), &lt;a href="http://www-groups.dcs.st-and.ac.uk/~history/Biographies/De_Morgan.html"&gt;Augustus De Morgan&lt;/a&gt; (&lt;a href="http://en.wikipedia.org/wiki/Augustus_De_Morgan#Mathematical_work"&gt;noted&lt;/a&gt; in Wikipedia for his peculiarities) has a little fun after explaining how to add multi-digit numbers. On page 20, De Morgan presents this exercise:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTp77cXEwKpRajerObJDpH3pYOh54KSzMJBAGdK-sMtNi1iRfvJ69ow5D18-hMkpubhv11vl3vKX5Gn1l_HwfIZFa9sVg6etAVUI46GJEvaTLDc7OH02WWuiSKDUpMkDq9WEmdmGGBds8/s1600/de_morgan_magic_square.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="400" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTp77cXEwKpRajerObJDpH3pYOh54KSzMJBAGdK-sMtNi1iRfvJ69ow5D18-hMkpubhv11vl3vKX5Gn1l_HwfIZFa9sVg6etAVUI46GJEvaTLDc7OH02WWuiSKDUpMkDq9WEmdmGGBds8/s400/de_morgan_magic_square.JPG" width="323" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
+Not the most gentle exercise for someone who just learned how to add.&lt;br /&gt;
+&lt;br /&gt;
+If you divide all the entries by 36, you'll see that this is a &lt;a href="http://en.wikipedia.org/wiki/Magic_square"&gt;magic square&lt;/a&gt; of order 11 (&lt;a href="http://www.research.att.com/~njas/sequences/A006003"&gt;magic constant&lt;/a&gt; 671).&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkqcPENZnAbrpFdHZJkZsr1k94n_lanL1cXzwpiMNG-0oPYCjVrhx5U_it3CrluDDY0NUS6Mhg3CLyUlb7rc6kQYPcu7_2AnDmRrFI_X4i5dR95fzorT7YsiL7RD0mKv2S-P89alTWj_E/s1600/square_div_36.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="307" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkqcPENZnAbrpFdHZJkZsr1k94n_lanL1cXzwpiMNG-0oPYCjVrhx5U_it3CrluDDY0NUS6Mhg3CLyUlb7rc6kQYPcu7_2AnDmRrFI_X4i5dR95fzorT7YsiL7RD0mKv2S-P89alTWj_E/s320/square_div_36.jpg" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
+The &lt;a href="http://mathworld.wolfram.com/"&gt;Wolfram Mathworld&lt;/a&gt; &lt;a href="http://mathworld.wolfram.com/MagicSquare.html"&gt;article on magic squares&lt;/a&gt; explains various ways of generating magic squares. It looks like &amp;nbsp;De Morgan used what came to be known as the "Siamese method" starting in the cell (6,7) with an &lt;i&gt;order vector&lt;/i&gt; of (1,1) (shown in blue below) and a &lt;i&gt;break vector&lt;/i&gt; of (0,2) (shown in red below).&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEickrzU-dILy4b0ikxhxzUu7r9-7yjI_uelN4QjRCTQgdC8SoYoYhDZ3z2atOD7NGx6e2wGcV9a0mY9WXuDAaTsRhd2ETN0NVuiH-0wU2HLF7D_SpVkIdGa7USHvySEa0acdIi1YnvEWNg/s1600/square_div_36_vectors.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEickrzU-dILy4b0ikxhxzUu7r9-7yjI_uelN4QjRCTQgdC8SoYoYhDZ3z2atOD7NGx6e2wGcV9a0mY9WXuDAaTsRhd2ETN0NVuiH-0wU2HLF7D_SpVkIdGa7USHvySEa0acdIi1YnvEWNg/s320/square_div_36_vectors.jpg" /&gt;&lt;/a&gt;&lt;/div&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2010-07-05T18:49:58.136Z</blogger:created>
+    <published>2010-07-05T19:11:00Z</published>
+    <updated>2011-09-11T02:01:07.984Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <blogger:filename>/2010/07/de-morgans-magic-square.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  
