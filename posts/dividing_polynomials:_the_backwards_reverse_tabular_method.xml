@@ -1,0 +1,106 @@
+<>
+  <entry>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-7940989892169346313</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>dividing polynomials: the backwards reverse tabular method</title>
+    <content type='html'>&lt;blockquote class="tr_bq"&gt;
+&lt;i&gt;Among the Lakota people, the heyoka is a contrarian, jester, satirist or sacred clown.&amp;nbsp;The heyoka speaks, moves and reacts in an opposite fashion to the people around them.&amp;nbsp;- Wikipedia, &lt;a href="https://en.wikipedia.org/wiki/Heyoka"&gt;Heyoka&lt;/a&gt;&lt;/i&gt;&lt;/blockquote&gt;
+&lt;br /&gt;
+A couple of earlier posts (&lt;a href="http://www.mathrecreation.com/2015/09/more-polynomial-grid-division.html"&gt;this one&lt;/a&gt; and &lt;a href="http://www.mathrecreation.com/2009/03/dividing-polynomials-grid-method.html"&gt;this one&lt;/a&gt;) describe how to use the grid method for dividing polynomials, and were intended to be helpful for people learning or teaching the topic. The current post shows some surprising things that happen when you mess around with the standard division algorithm, and is probably not quite as helpful. Specifically, if you divide in a "backwards" fashion, things can blow up spectacularly. If you are intrigued by the possibility of polynomial explosions, read on; for others: you've been warned.&lt;br /&gt;
+&lt;br /&gt;
+When you divide single-variable polynomials &lt;i&gt;f&amp;nbsp;&lt;/i&gt;/&amp;nbsp;&lt;i&gt;g&lt;/i&gt;, the standard (&lt;a href="https://en.wikipedia.org/wiki/Polynomial_greatest_common_divisor#Euclidean_division"&gt;euclidean&lt;/a&gt;) algorithm requires&amp;nbsp;&lt;i&gt;f&lt;/i&gt; to have a higher degree than &lt;i&gt;g&lt;/i&gt;, and when you start dividing you take the term of the highest power of &lt;i&gt;g&lt;/i&gt; and see what you should multiply that by to get the term with the highest power in &lt;i&gt;f&lt;/i&gt;. This tells you the first term of your quotient &lt;i&gt;q&lt;/i&gt;. In the example below, we look at the 3&lt;i&gt;x&lt;/i&gt; term and ask how many times does it go into the 9&lt;i&gt;x&lt;/i&gt;^3 term - the answer is 3&lt;i&gt;x&lt;/i&gt;^2, which is the first term of our answer.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2_6y6ZbwkasF6GLSg_hMKSVOyn_qvm-23zWzhN4UFKv-_GpTKxxSdZY7hJZ_q-YCvW8shMzN6wtPseYdpAiKF5RdXaGjQ_KFoAkOb6ps_Q-lBBc6T9K_w_8dhUqRI1NeIDVviUaKABNI/s1600/example1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="318" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2_6y6ZbwkasF6GLSg_hMKSVOyn_qvm-23zWzhN4UFKv-_GpTKxxSdZY7hJZ_q-YCvW8shMzN6wtPseYdpAiKF5RdXaGjQ_KFoAkOb6ps_Q-lBBc6T9K_w_8dhUqRI1NeIDVviUaKABNI/s320/example1.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+The rest of this example can be found in a more &lt;a href="http://www.mathrecreation.com/2015/09/more-polynomial-grid-division.html"&gt;helpful post&lt;/a&gt;. The method illustrated above is sometimes called the "reverse tabular" method ("reverse" because using a table in the normal fashion of filling in the interior given the top row and left column is used for multiplying polynomials).&lt;br /&gt;
+&lt;br /&gt;
+The standard approach of starting with the highest degree terms ensures that if you end up with a remainder, its degree will be less than the degree of the divisor, but also means that you can only divide when the degree of the divisor is less than the dividend. In the above example, 3&lt;i&gt;x&lt;/i&gt;-2 is degree 1, which is less than the dividend which has degree 3; for this division problem it turns out that you will get a degree 0 remainder (remainder is 5).&lt;br /&gt;
+&lt;br /&gt;
+But what if you did it backwards? Instead of starting with the highest degree terms in each polynomial, pick each one up by the tail and start with the smallest degree terms? &amp;nbsp;Flipping the polynomials around so they are backwards while using a grid makes it reasonable to call this the "backwards reverse tabular method."&lt;br /&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;span style="font-size: large;"&gt;The simple case - divisor is a factor&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+If you are in one of those lovely situations where the dividend is higher degree than the divisor, and there is no remainder (the divisor is a factor of the dividend), you will get the same answer as using the standard algorithm, but your table will look predictably different (the steps for the forwards direction are shown &lt;a href="http://www.mathrecreation.com/2009/03/dividing-polynomials-grid-method.html"&gt;here&lt;/a&gt;).&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4YLwJ8_aFc8T95aEN8tvxaI4ADhBJO86Z9nTUDz49ToT_wkDZxE-sWePxC7q0XQDUXfjjVIL-iusghIz7ZSJYuna1OmpUfflQQwuCacVG1NfA3m0Wq3SL2_h_5jZoju-IWfnf-qt7Afg/s1600/forward_backward_corrected.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4YLwJ8_aFc8T95aEN8tvxaI4ADhBJO86Z9nTUDz49ToT_wkDZxE-sWePxC7q0XQDUXfjjVIL-iusghIz7ZSJYuna1OmpUfflQQwuCacVG1NfA3m0Wq3SL2_h_5jZoju-IWfnf-qt7Afg/s1600/forward_backward_corrected.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Starting with the lowest term means that the table is filled in backwards, but otherwise nothing changes, you still get the same answer. This is not what happens in the case where standard division would give you a remainder.&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style="font-size: large;"&gt;The remainder case&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+In the standard "forwards" method, you work your way down and the terms that you are trying to clean up are of lesser and lesser degree. Anything leftover at the end (the remainder) will then necessarily be of lower degree than the highest term of the divisor.&lt;br /&gt;
+&lt;br /&gt;
+However, following the backwards method, the terms you are trying to eliminate get bigger and bigger, and will just keep going if you can't tidy them up. Here's a division problem with a remainder, first forwards:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmQy8hOY4rLRRbsJspc407nOqcpG_H_xqAiGmNncuDM1OrFwQOSGJYHLhOs1BjzQTF3wnWqyGWTNC-T991RZvho0_StexePzvFPz712KJv3UW3GQ7oFDyrmh0SNkM3CBPS_Cgy7UKTvWE/s1600/nice_finite.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmQy8hOY4rLRRbsJspc407nOqcpG_H_xqAiGmNncuDM1OrFwQOSGJYHLhOs1BjzQTF3wnWqyGWTNC-T991RZvho0_StexePzvFPz712KJv3UW3GQ7oFDyrmh0SNkM3CBPS_Cgy7UKTvWE/s320/nice_finite.JPG" width="294" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+And now the same problem, backwards:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbeAuWrrp8CIh71iZ0_v_YKsl-P0ahC1UvYX0Zd3YZApgAW37CMeG602Mnsvn6WoaYX8Tegt0UMwY-z-tE6EXswRjEFHDceSTK7qc5r_1iyWC023WuUGp0IIZAt0cD5oXQ2ZMdgKWgjTc/s1600/infinite_1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="254" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbeAuWrrp8CIh71iZ0_v_YKsl-P0ahC1UvYX0Zd3YZApgAW37CMeG602Mnsvn6WoaYX8Tegt0UMwY-z-tE6EXswRjEFHDceSTK7qc5r_1iyWC023WuUGp0IIZAt0cD5oXQ2ZMdgKWgjTc/s400/infinite_1.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+You'll find that you have to keep adding columns to your grid to keep up with the new terms that keep getting generated, so instead of a polynomial with a rational expression as a remainder we get... &amp;nbsp;an infinite series. This seems odd: how is that thing on the right hand side equal to the left hand side? Is the equality only true when the right hand side converges? All these worries go away if we treat these as &lt;a href="https://en.wikipedia.org/wiki/Formal_power_series"&gt;formal power series&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+Why would we ever divide polynomials this way?&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style="font-size: large;"&gt;Dividing the indivisible&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+Although this is giving us some alarming results, following the backwards method allows us to do something where the standard algorithm won't allow us to do anything. If the degree of the divisor is bigger than the degree of the dividend, the standard algorithm tells us to stop right away: nothing can be done. However, armed with our new backwards method we can start dividing (and, as we saw above, we might never stop).&lt;br /&gt;
+&lt;br /&gt;
+Let's try an example where the numerator is just 1. In the first step below, we fill in what we want as our product, namely 1. However, to get this, we need to fill in a 1 on the top row (step 2), and multiplying this by the whole left column gives us extra terms that we now need to get rid of. In step 3, we see that we will need an &lt;i&gt;x &lt;/i&gt;in the top row to eliminate the &lt;i&gt;x &lt;/i&gt;that we introduced in the previous step.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5E-4Ax9qHMRggoH_BFmhSl4HGF7y8vozjqrcFgM44-5w8zXthw_Jwy3579kvgy2iVF2_fSvYZgMinyXaGmbMeZZO2QwbYAW1nWX92jZe89VOTcDhSIpStGhT_zY3PFA1nKx151KnyC58/s1600/start_fib.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5E-4Ax9qHMRggoH_BFmhSl4HGF7y8vozjqrcFgM44-5w8zXthw_Jwy3579kvgy2iVF2_fSvYZgMinyXaGmbMeZZO2QwbYAW1nWX92jZe89VOTcDhSIpStGhT_zY3PFA1nKx151KnyC58/s1600/start_fib.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+And you will have to keep adding more columns to fill in new terms to eliminate the terms that you introduced in the previous two steps.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOmnb1yZET2BU6TCiWTJnlHXUepblaVZGeH4P-p-cuo1FxJn-grKUchgf7ADvUPSPMoPw9jhkjMicaievaYI02q1gSFGc_TJd7JwioWXxyYdgOb4X1nA0n2RmvNpADvk4fMyAo7eYA65I/s1600/fib1_fixed.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="186" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOmnb1yZET2BU6TCiWTJnlHXUepblaVZGeH4P-p-cuo1FxJn-grKUchgf7ADvUPSPMoPw9jhkjMicaievaYI02q1gSFGc_TJd7JwioWXxyYdgOb4X1nA0n2RmvNpADvk4fMyAo7eYA65I/s400/fib1_fixed.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Those coefficients seem to be multiplying like rabbits. No kidding: it's the &lt;a href="https://en.wikipedia.org/wiki/Fibonacci_number"&gt;Fibonacci sequence&lt;/a&gt;. So, we can say that the expression on the left produces the sequence of coefficients on the right, and the rational expression on the left is called the &lt;a href="https://en.wikipedia.org/wiki/Generating_function"&gt;generating function&lt;/a&gt; for the sequence of coefficients of the resulting power series.&lt;br /&gt;
+&lt;br /&gt;
+Here's another neat one, in the same vein:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhs30a1DvhEeqDD9Wn4HzCTQ8P69Vv_e4C3bQQuAv5JJ1wlUZux2o0UmmirhUPbddfLUy4WK_41cvbhmGBmhpPk6VwkL4g30c6xjavrRK0hgO3bjmymC0m1A1h5Vb4KAatDOm85UVT108U/s1600/triangular_numbers.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="202" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhs30a1DvhEeqDD9Wn4HzCTQ8P69Vv_e4C3bQQuAv5JJ1wlUZux2o0UmmirhUPbddfLUy4WK_41cvbhmGBmhpPk6VwkL4g30c6xjavrRK0hgO3bjmymC0m1A1h5Vb4KAatDOm85UVT108U/s400/triangular_numbers.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+In this case the coefficients of the resulting power series are the &lt;i&gt;triangular numbers&lt;/i&gt;. But there is something cool about the divisor as well: the divisor's coefficients are from the third row of Pascal's triangle (with alternating signs), and the triangular numbers are from the third column.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUyGEcFVY5e7489DqcfaO7AN-q0uRqnyK5HlMEQAtNKD1v0EpAqP4qjoF7ZPesuT6e9NbBd69vv0OaxTkElt5-keOxUN7aaqgFvyLvmL8rlgHDvZQWtjXUV3v3CLBX2xLaRWtoNoQKDSM/s1600/row-column1.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="233" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUyGEcFVY5e7489DqcfaO7AN-q0uRqnyK5HlMEQAtNKD1v0EpAqP4qjoF7ZPesuT6e9NbBd69vv0OaxTkElt5-keOxUN7aaqgFvyLvmL8rlgHDvZQWtjXUV3v3CLBX2xLaRWtoNoQKDSM/s400/row-column1.jpg" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+If you try this with the fourth row of Pascal's triangle, you'll find you get a power series whose coefficients are the fourth column (the tetrahedral numbers).&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4ytgTDGN-VolQU7eGyT0AKtxaIbn__A1Vbe_Zk_8HEEdxBViJDex-1rm7uj5Lghto38wqU8JWRIt3skIUEtEO88P0jmDQnFkSpaaIjRYBADD5NBLIhUR_TsBn-LrL4pmyK_PKsJtK1sA/s1600/row-column2.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="231" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4ytgTDGN-VolQU7eGyT0AKtxaIbn__A1Vbe_Zk_8HEEdxBViJDex-1rm7uj5Lghto38wqU8JWRIt3skIUEtEO88P0jmDQnFkSpaaIjRYBADD5NBLIhUR_TsBn-LrL4pmyK_PKsJtK1sA/s400/row-column2.jpg" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Most of the time, you'll want to divide polynomials in the usual way, and get the usual answers; sometimes you can learn a bit by doing things backwards.&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2016-02-26T02:33:01.574Z</blogger:created>
+    <published>2016-03-08T16:55:00.002Z</published>
+    <updated>2016-05-11T00:59:41.106Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2016/03/dividing-polynomials-backwards-reverse.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

@@ -1,0 +1,75 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-2436466966911908512</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Farey Sequences and Ford Circles in JavaScript</title>
+    <content type='html'>&lt;br /&gt;
+Like the &lt;a href="http://www.mathrecreation.com/2017/12/hello-phyllotaxis.html"&gt;phyllotaxis spiral&lt;/a&gt;, a nice mathematical figure to draw in code is the sequence of &lt;a href="https://en.wikipedia.org/wiki/Ford_circle"&gt;Ford Circles&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+A while back I tried generating these using &lt;a href="http://www.mathrecreation.com/2009/02/farey-ford-fathom.html"&gt;Fathom&lt;/a&gt; and &lt;a href="http://www.mathrecreation.com/2009/02/farey-definition-property-and-algorithm.html"&gt;Processing&lt;/a&gt; - now for fun I've tried them in JavaScript. A page to play with them is &lt;a href="https://dmackinnon1.github.io/fareyford/"&gt;here&lt;/a&gt;, and the source code is in a &lt;a href="https://github.com/dmackinnon1/fareyford"&gt;Github repo&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+On the &lt;a href="https://dmackinnon1.github.io/fareyford/"&gt;page&lt;/a&gt;, you can control the level of the Farey sequence used to generate the circles - you start off with just 0 and 1:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH42xjw5gUx0JQvRAKqppBjtD2bSBUhcOrkdHqUlt8-cHsHuYSVfxBo-_BgaZ1eexznNHQ-SMZ1hN5tEe6EJyuCJRbnkgTrRtkVHmpuLvDFn47LXyWrEchLGl7r3lfKNMmsP2-TwlFwpU/s1600/level1.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="457" data-original-width="757" height="240" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH42xjw5gUx0JQvRAKqppBjtD2bSBUhcOrkdHqUlt8-cHsHuYSVfxBo-_BgaZ1eexznNHQ-SMZ1hN5tEe6EJyuCJRbnkgTrRtkVHmpuLvDFn47LXyWrEchLGl7r3lfKNMmsP2-TwlFwpU/s400/level1.png" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Using the buttons provided, you can increase the number of terms in the sequence and the corresponding number of circles.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwKmpUSjZY7iLTavBwEFIOOqogqzQQJ2m4vlpHxwRARqnp_9Awl3R41Cx1Vo9aR_yrGln8gRJvcUBeQnPy2eO4Z252j3kTL9MBlppw7VZFD-oaH4QU2wHc7W0rorn8BoI8Ts1Vfu5zFtY/s1600/level3.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="460" data-original-width="757" height="242" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwKmpUSjZY7iLTavBwEFIOOqogqzQQJ2m4vlpHxwRARqnp_9Awl3R41Cx1Vo9aR_yrGln8gRJvcUBeQnPy2eO4Z252j3kTL9MBlppw7VZFD-oaH4QU2wHc7W0rorn8BoI8Ts1Vfu5zFtY/s400/level3.png" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+After a certain point, the page does not list the entire sequence associated with the circles.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjThO6To3OMcuMzFzKW5Od9tpW22Ojqzb1gJo1a6gm61gHL2ACiAIhDZKT3ODIY5EHWgvEIJRgtXPnJKeFNpCmew8UcwuRf-blR3YZCaZ4OSllvb5GbAPx6yGnHNkaVHZJthjxqk15ViC4/s1600/level19.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="461" data-original-width="765" height="240" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjThO6To3OMcuMzFzKW5Od9tpW22Ojqzb1gJo1a6gm61gHL2ACiAIhDZKT3ODIY5EHWgvEIJRgtXPnJKeFNpCmew8UcwuRf-blR3YZCaZ4OSllvb5GbAPx6yGnHNkaVHZJthjxqk15ViC4/s400/level19.png" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;span style="font-size: large;"&gt;Update - Ford Circles in Desmos&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+It's also a nice exercise to create Ford circles using &lt;a href="https://www.desmos.com/"&gt;Desmos&lt;/a&gt; - &lt;a href="https://www.desmos.com/calculator/r8rcpifyyw"&gt;here is an example of a graph&lt;/a&gt;&amp;nbsp;that does this.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgG8NGxUGYRgU9QktXwGXKJn2YBo-jHr8m88cRWHyAer9yzxFnsY-hz84-OHphOR8gqD16rECo6GtcreCLGPJnWXwtjBDptcgVOjRyEuxFpx7aine7foanImtlRizki0rGOGLAiu3YDHU0/s1600/ford_desmos.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="459" data-original-width="492" height="298" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgG8NGxUGYRgU9QktXwGXKJn2YBo-jHr8m88cRWHyAer9yzxFnsY-hz84-OHphOR8gqD16rECo6GtcreCLGPJnWXwtjBDptcgVOjRyEuxFpx7aine7foanImtlRizki0rGOGLAiu3YDHU0/s320/ford_desmos.png" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;Some Ford Circles in Desmos&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+Just as with implementing the JavaScript, getting this to work in Desmos first involves creating some fractions, then finding which fractions to include in the Farey sequence, and then drawing circles using the elements of that sequence. The steps that this graph follows are basically:&lt;br /&gt;
+&lt;br /&gt;
+&lt;ol&gt;
+&lt;li&gt;create an &lt;i&gt;m&lt;/i&gt;x&lt;i&gt;m&lt;/i&gt; set N of numbers (&lt;i&gt;n&lt;/i&gt;,&lt;i&gt;d&lt;/i&gt;), where &lt;i&gt;n&lt;/i&gt; and &lt;i&gt;d&lt;/i&gt; are integers 1...m.&lt;/li&gt;
+&lt;li&gt;shift and reduce this set of ordered pairs so that in any given row, 0 &amp;lt;= &lt;i&gt;n&lt;/i&gt; &amp;lt; &lt;i&gt;d&lt;/i&gt;+1.&lt;/li&gt;
+&lt;li&gt;reduce this set further eliminating any ordered pairs where &lt;i&gt;gcd&lt;/i&gt;(&lt;i&gt;n&lt;/i&gt;,&lt;i&gt;d&lt;/i&gt;) &amp;gt; 1.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br /&gt;
+These ordered pairs can be treated as fractions (&lt;i&gt;n&lt;/i&gt;/&lt;i&gt;d&lt;/i&gt;), and we will only have fractions between 0 and 1 that are in reduced form - if we then order these fractions along the number line, we have a 'Farey sequence' of fractions. In this, we didn't use the recursive approach used in the &lt;a href="https://github.com/dmackinnon1/fareyford"&gt;JavaScript example&lt;/a&gt; that uses the &lt;a href="https://en.wikipedia.org/wiki/Mediant_(mathematics)"&gt;mediant&lt;/a&gt;. Drawing the circles uses the same formula used in the JavaScript example (and the Processing and Fathom examples mentioned above).&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWbVtzfFXwoo2z0y03AWtDAfueSwiPwphYzZiONhsY7T1NFWNktwa9Bqf6gnJaoJFfO_A9wA2jVtKdFFqdvacfEipbSwD7g9_EjZvTyx4XFkF0gFhOR26ih_AjKCpEY6Gze8xZvsdys1w/s1600/ford_formula.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="91" data-original-width="547" height="66" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWbVtzfFXwoo2z0y03AWtDAfueSwiPwphYzZiONhsY7T1NFWNktwa9Bqf6gnJaoJFfO_A9wA2jVtKdFFqdvacfEipbSwD7g9_EjZvTyx4XFkF0gFhOR26ih_AjKCpEY6Gze8xZvsdys1w/s400/ford_formula.png" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+or, &lt;a href="https://twitter.com/von_Oy/status/1130919680271687680"&gt;as parametric equations&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0wOD0w5Psvh8eoQ5XVX-peeKo9iD9SGXUDy-rneyIC1vSCo0FmCYHWK1SzM3baQKAO9nCXQD674I1s0mdc6FVKW5tenTt89hR7SePvtFw_JaqAhnnRrkN8CGpwmYbB8uEU-zaErc-d48/s1600/parametric_ford.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="117" data-original-width="557" height="83" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0wOD0w5Psvh8eoQ5XVX-peeKo9iD9SGXUDy-rneyIC1vSCo0FmCYHWK1SzM3baQKAO9nCXQD674I1s0mdc6FVKW5tenTt89hR7SePvtFw_JaqAhnnRrkN8CGpwmYbB8uEU-zaErc-d48/s400/parametric_ford.png" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+Here &lt;b&gt;s&lt;/b&gt; is a scale factor, &lt;b&gt;f_q&lt;/b&gt; is the quotient and &lt;b&gt;f_d&lt;/b&gt; is the denominator of the fractions derived from the sequence &lt;b&gt;N&lt;/b&gt; described above.&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2019-01-31T17:31:45.639Z</blogger:created>
+    <published>2019-01-31T18:26:00Z</published>
+    <updated>2019-05-21T19:40:14.077Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2019/01/farey-sequences-and-ford-circles-in.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

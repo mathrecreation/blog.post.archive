@@ -1,0 +1,142 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-8295279568273668455</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Dividing Polynomials - The Grid Method</title>
+    <content type='html'>&lt;div style="text-align: left;"&gt;
+&lt;i&gt;&lt;b&gt;Update&lt;/b&gt;: try out the polynomial division example generator page &lt;a href="https://dmackinnon1.github.io/polygrid/"&gt;here&lt;/a&gt;.&lt;/i&gt;&lt;br /&gt;
+&lt;br /&gt;
+Students generally learn to divide polynomials using &amp;nbsp;long division or synthetic division. This post is about another method for dividing polynomials, &amp;nbsp;the "grid" method. Although this method is used at some schools, I have not found it in any textbook (if you know of any, please let me know).&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+The grid method makes polynomial division a fun calculation - an almost SUDOKU-like process. The recreational challenge here is to master the method, and to convince yourself that it actually works in all cases (which cases does it work well for, and which are more difficult?).&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+Before tackling polynomial grid division, you need to be familiar with polynomial grid multiplication. It is the symbolic analog to the familiar "algebra tiles" manipulative, so if you have worked with these, it should be reasonably familiar.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span class="Apple-style-span" style="font-weight: bold;"&gt;Polynomial Grid Multiplication&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+In polynomial grid multiplication, the two factors are arranged on the edges of a grid - the number of terms of the factors determine the number of horizontal and vertical lines that make up the grid.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+The overall product is found by filling in the cells of the grid with the product of the terms for the row and column, and then summing up all the contents of the interior of the grid.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+What polynomial grid multiplication does for us is provide an explicit way to keep track of the distributive property: each term-by-term product gets its own cell.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+In the example below, the two factors are placed along the edges of the grid (1). One factor provides the row headings, the other provides the column headings. Then each cell is filled in with the product of the terms from the row and column (2). Finally, the cells are added together (like terms are combined) to find the final product (3). If the terms of the factors are placed according to the same order (descending powers of &lt;span class="Apple-style-span" style="font-style: italic;"&gt;x&lt;/span&gt;, in our example) and there are no missing terms, then like-terms of the product are found along the diagonals of the grid.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrY42LiRz0a-964ZhBMkJ6G7Huwz3y2iu8U6eLGfC6WF9m8zGey-dylOduUKyxQ7UKCOIIKYidZvet6pH8toacgegcT4abDed_FL6tP13T9fGUrvlLhw4cPedKDPTcidEzxX1G0W8Kxv4/s1600-h/poly_mult_1.jpg" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"&gt;&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5311192018164074770" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrY42LiRz0a-964ZhBMkJ6G7Huwz3y2iu8U6eLGfC6WF9m8zGey-dylOduUKyxQ7UKCOIIKYidZvet6pH8toacgegcT4abDed_FL6tP13T9fGUrvlLhw4cPedKDPTcidEzxX1G0W8Kxv4/s400/poly_mult_1.jpg" style="cursor: pointer; display: block; height: 400px; margin-bottom: 10px; margin-left: auto; margin-right: auto; margin-top: 0px; text-align: center; width: 291px;" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span class="Apple-style-span" style="font-weight: bold;"&gt;Polynomial Grid Division&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+Polynomial grid division works the same way as polynomial grid multiplication, but in reverse - we start by knowing one of the factors (placed along the edge of the grid), and by knowing what we want the product to be (without knowing exactly how it is 'split up' in the grid). Using this knowledge we work backwards, filling in the grid and the top edge one cell at a time until we are done.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+Consider the example below. In (1) we create an empty grid with the denominator (divisor) playing the role of one of the factors. Since this &lt;span class="blsp-spelling-corrected" id="SPELLING_ERROR_0"&gt;question&lt;/span&gt; involves a degree 3 polynomial divided by a degree 1 polynomial, we know that the other factor (the quotient) must be degree 2. This allows us to create a grid with the correct size. In step (2) we use the highest power of the dividend (the numerator) to begin to fill in the grid - we know that 27&lt;span class="Apple-style-span" style="font-style: italic;"&gt;x&lt;/span&gt;^3 must be in the top left. This in turn tells us that the first column entry must be 9&lt;span class="Apple-style-span" style="font-style: italic;"&gt;x&lt;/span&gt;^2 (so that the row and column multiply to 27&lt;span class="Apple-style-span" style="font-style: italic;"&gt;x&lt;/span&gt;^3). In step (3) we use this to fill in all of the first column, multiplying&amp;nbsp;9&lt;span class="Apple-style-span" style="font-style: italic;"&gt;x&lt;/span&gt;^2 by the terms of the row entries.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHO639e2ZPN-PEmEIrKn0mK6HncvG83XBFEh-gHYTkgdZ96J0bdHrVBD41g-wOP0xP7NW4EFrwQMeI2tUnOLMjKkKw9HYtqSqlqL3aBTX93SgCQmZShi09TWpbkEk7cDoADXiD6Th6pMY/s1600-h/poly_div_1.1.jpg" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"&gt;&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5311194269042478914" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHO639e2ZPN-PEmEIrKn0mK6HncvG83XBFEh-gHYTkgdZ96J0bdHrVBD41g-wOP0xP7NW4EFrwQMeI2tUnOLMjKkKw9HYtqSqlqL3aBTX93SgCQmZShi09TWpbkEk7cDoADXiD6Th6pMY/s400/poly_div_1.1.jpg" style="cursor: pointer; display: block; height: 400px; margin-bottom: 10px; margin-left: auto; margin-right: auto; margin-top: 0px; text-align: center; width: 216px;" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+In step (3) we now have a quadratic term -18&lt;span class="Apple-style-span" style="font-style: italic;"&gt;x&lt;/span&gt;^2. But we know from looking at the dividend (numerator) that in the final answer we actually want 9&lt;span class="Apple-style-span" style="font-style: italic;"&gt;x&lt;/span&gt;^2. Consequently, the other entry on the quadratic diagonal must be 27&lt;span class="Apple-style-span" style="font-style: italic;"&gt;x&lt;/span&gt;^2, so that the whole diagonal sums to&amp;nbsp;9&lt;span class="Apple-style-span" style="font-style: italic;"&gt;x&lt;/span&gt;^2&amp;nbsp;. &amp;nbsp;Filling this in for step (4) tells us what all the entries in the second column should be (step 5). Now that we have a linear entry -18&lt;span class="Apple-style-span" style="font-style: italic;"&gt;x&lt;/span&gt;, we know that we need to add in a 15&lt;span class="Apple-style-span" style="font-style: italic;"&gt;x&lt;/span&gt; so that the overall sum gives a -3&lt;span class="Apple-style-span" style="font-style: italic;"&gt;x&lt;/span&gt; (step 6).&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWw_SsO5Fsd2xVMBMSIjqPj1HC9z4O4yQwflf5Y-FlD3RxoIVF_h9QzwRSy4aO6psNqT1lUTB7NwO830CV8gV3_WEZYxL1Pmz0XB-jkmPfTGmqRhVs1MLNRZ_BzBTrLVST3q31-Bl_m1g/s1600-h/poly_div_1.2.jpg" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"&gt;&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5311194263830158482" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWw_SsO5Fsd2xVMBMSIjqPj1HC9z4O4yQwflf5Y-FlD3RxoIVF_h9QzwRSy4aO6psNqT1lUTB7NwO830CV8gV3_WEZYxL1Pmz0XB-jkmPfTGmqRhVs1MLNRZ_BzBTrLVST3q31-Bl_m1g/s400/poly_div_1.2.jpg" style="cursor: pointer; display: block; height: 400px; margin-bottom: 10px; margin-left: auto; margin-right: auto; margin-top: 0px; text-align: center; width: 249px;" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+Having a 15&lt;span class="Apple-style-span" style="font-style: italic;"&gt;x&lt;/span&gt; tells us that the top entry must be 5 (the product of 5 and 3&lt;span class="Apple-style-span" style="font-style: italic;"&gt;x&lt;/span&gt; gives us 15&lt;span class="Apple-style-span" style="font-style: italic;"&gt;x&lt;/span&gt;). Filling this in in step 7 allows us to complete the table, and we see that our final constant entry is -10, as hoped for. Now that the grid has been filled in and it matches the dividend, we can read the answer off the top - the factor that we have uncovered is the quotient we were hoping to calculate.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0EVR_vxSFIWdLQaY1Rlyr4YvGks2KykDmaQQ3FVOQPmmbSHdKsjerFofkeunu4Zt3ELTmheLCcfW6xWG0CMptZteJbZn7YVS_PdSPfSeP9YigIZNPUVWy59AGjPNfBS28SQ5O5Sd9jTI/s1600-h/poly_div_1.3.jpg" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"&gt;&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5311194262439594146" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0EVR_vxSFIWdLQaY1Rlyr4YvGks2KykDmaQQ3FVOQPmmbSHdKsjerFofkeunu4Zt3ELTmheLCcfW6xWG0CMptZteJbZn7YVS_PdSPfSeP9YigIZNPUVWy59AGjPNfBS28SQ5O5Sd9jTI/s400/poly_div_1.3.jpg" style="cursor: pointer; display: block; height: 288px; margin-bottom: 10px; margin-left: auto; margin-right: auto; margin-top: 0px; text-align: center; width: 400px;" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+This method is actually easier than it seems at first, and when all steps are carried out on the same grid, is quite compact.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+Here is another example for you to try it out on.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiG0zmdCqTas__njSaFhppR3S308Wteh5JnNgui4pcawp630kZ2EC1-QkoJ1GwJXcFrCUo-XDFeRk5HTZv-upaJTPMS0EiKr0ytWwMDeGtp7hP6EeN8VGhzP3-8wmxEakZBJVEv7TT8OgM/s1600-h/poly_div_2.jpg" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"&gt;&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5311199237733257522" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiG0zmdCqTas__njSaFhppR3S308Wteh5JnNgui4pcawp630kZ2EC1-QkoJ1GwJXcFrCUo-XDFeRk5HTZv-upaJTPMS0EiKr0ytWwMDeGtp7hP6EeN8VGhzP3-8wmxEakZBJVEv7TT8OgM/s400/poly_div_2.jpg" style="cursor: pointer; display: block; height: 400px; margin-bottom: 10px; margin-left: auto; margin-right: auto; margin-top: 0px; text-align: center; width: 222px;" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+In these two examples, the division worked well - there was no remainder. In the case where we are dividing &lt;span class="Apple-style-span" style="font-style: italic;"&gt;f&lt;/span&gt;/&lt;span class="Apple-style-span" style="font-style: italic;"&gt;g&lt;/span&gt; and &lt;span class="Apple-style-span" style="font-style: italic;"&gt;g&lt;/span&gt; is not a factor of &lt;span class="Apple-style-span" style="font-style: italic;"&gt;f&lt;/span&gt;, and the degree of &lt;span class="Apple-style-span" style="font-style: italic;"&gt;g&lt;/span&gt; is less than the degree of &lt;span class="Apple-style-span" style="font-style: italic;"&gt;f&lt;/span&gt;, there is polynomial remainder whose degree is strictly less than that of&amp;nbsp;&lt;span class="Apple-style-span" style="font-style: italic;"&gt;g&lt;/span&gt;. So, for example, when &lt;span class="Apple-style-span" style="font-style: italic;"&gt;g&lt;/span&gt; is a linear function (degree 1), &lt;span class="Apple-style-span" style="font-style: italic;"&gt;f&lt;/span&gt;/&lt;span class="Apple-style-span" style="font-style: italic;"&gt;g&lt;/span&gt; can have a constant remainder (degree 0).&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+In this case we proceed as above, attempting to fill in the grid with the numerator (dividend). However, if when we are done the grid does not match the numerator, we have a remainder. The remainder is the additional amount that we have to add to the grid in order to arrive at the numerator.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span class="blsp-spelling-corrected" id="SPELLING_ERROR_1"&gt;Consider&lt;/span&gt; a division question almost identical to the first one that we looked at, except here we change the numerator slightly so that it doesn't factor well.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyjMAqb53W6hSiHdMbRcwfzVhLxnROwiPqmx3DHm-7m8e6vlgMOHFIk_XHZ9K4QyVjS6fvJb9U9woNvLkzbM3F-QiljFTooyHHfPLq542QPCKf1uPD6HEQEd2einky6ZJTfZVM-Boyyoc/s1600-h/poly_div_remainder1.1.jpg" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"&gt;&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5311200690840460578" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyjMAqb53W6hSiHdMbRcwfzVhLxnROwiPqmx3DHm-7m8e6vlgMOHFIk_XHZ9K4QyVjS6fvJb9U9woNvLkzbM3F-QiljFTooyHHfPLq542QPCKf1uPD6HEQEd2einky6ZJTfZVM-Boyyoc/s400/poly_div_remainder1.1.jpg" style="cursor: pointer; display: block; height: 400px; margin-bottom: 10px; margin-left: auto; margin-right: auto; margin-top: 0px; text-align: center; width: 291px;" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+Following the same steps as before, we end up with a grid sum that does not match our desired answer: we have -10 instead of -9 for the final constant term. This tells us that we have a remainder of +1, that we choose to write next to the grid. In our final answer, the &lt;span class="blsp-spelling-corrected" id="SPELLING_ERROR_2"&gt;remainder&lt;/span&gt; tells us the "remaining fractional part" that we have to add at the end.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1-9OP0VQWvVwDoYtAznRH5W9kiUIQtDi_DnLO6XTRBd7U2xYmQXzboUDUWmra8x6iuSvuthd1RyxIDh9ZOEY0LkcTCH94KfjzP0siBnrILYJkzqZnCf3dhzNBuy7PVfD7G342-VUktpc/s1600-h/poly_div_remainder1.2.jpg" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"&gt;&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5311200690336957602" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1-9OP0VQWvVwDoYtAznRH5W9kiUIQtDi_DnLO6XTRBd7U2xYmQXzboUDUWmra8x6iuSvuthd1RyxIDh9ZOEY0LkcTCH94KfjzP0siBnrILYJkzqZnCf3dhzNBuy7PVfD7G342-VUktpc/s400/poly_div_remainder1.2.jpg" style="cursor: pointer; display: block; height: 296px; margin-bottom: 10px; margin-left: auto; margin-right: auto; margin-top: 0px; text-align: center; width: 400px;" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;i&gt;&lt;b&gt;Update&lt;/b&gt;: See this post on &lt;a href="http://www.mathrecreation.com/2012/09/generic-rectanges.html"&gt;generic rectangles&lt;/a&gt;.&lt;/i&gt;&lt;br /&gt;
+&lt;i&gt;&lt;b&gt;Another Update&lt;/b&gt;: See &lt;a href="http://www.mathrecreation.com/2015/09/more-polynomial-grid-division.html"&gt;this post&lt;/a&gt;&amp;nbsp;for more examples.&lt;/i&gt;&lt;br /&gt;
+&lt;i&gt;&lt;b&gt;Again with another update&lt;/b&gt;: See &lt;a href="http://www.mathrecreation.com/2016/03/dividing-polynomials-backwards-reverse.html"&gt;this post&lt;/a&gt; on what happens when you do "backwards" division&lt;/i&gt;&lt;br /&gt;
+&lt;i&gt;&lt;b&gt;Again again with another update&lt;/b&gt;: See &lt;a href="http://www.mathrecreation.com/2016/11/polynomial-grid-division-examples.html"&gt;this post&lt;/a&gt; about the division example generator.&lt;/i&gt;&lt;/div&gt;
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2009-03-09T14:16:32.917Z</blogger:created>
+    <published>2009-03-09T14:15:00Z</published>
+    <updated>2016-12-14T16:57:05.270Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='school math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='polynomials'/>
+    <blogger:filename>/2009/03/dividing-polynomials-grid-method.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

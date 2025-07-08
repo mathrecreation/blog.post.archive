@@ -1,0 +1,32 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-1110617623647779767</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>football fallacy</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz1nUfmQ5TMsNBBZ_yuCK7Nndqe00xvgSZu-WB3jzEm0JEjyA57__lhSgkM9gp0FeltEnpAWExFvcQxtUX1tAGsKQZ8nZe_Jha47NadhI4sBxPk32PPgfKN4xAdLWzwGBgbqjMtHHoU70/s1600/woolfram_TruncatedIcosahedronNet_800.gif" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz1nUfmQ5TMsNBBZ_yuCK7Nndqe00xvgSZu-WB3jzEm0JEjyA57__lhSgkM9gp0FeltEnpAWExFvcQxtUX1tAGsKQZ8nZe_Jha47NadhI4sBxPk32PPgfKN4xAdLWzwGBgbqjMtHHoU70/s320/woolfram_TruncatedIcosahedronNet_800.gif" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: right;"&gt;&lt;i&gt;image from &lt;/i&gt;&lt;i&gt;&lt;a href="http://mathworld.wolfram.com/TruncatedIcosahedron.html"&gt;Wolfram Mathworld&lt;/a&gt;&lt;/i&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;a href="http://econlog.econlib.org/authorakling.html"&gt;Arnold King&lt;/a&gt;'s short post on &lt;a href="http://econlog.econlib.org/archives/2010/06/soccer_and_the.html"&gt;Soccer and the Law of Large Numbers&lt;/a&gt; made me wonder - when does the&lt;a href="http://en.wikipedia.org/wiki/Law_of_large_numbers"&gt; law large numbers&lt;/a&gt; 'kick in?' I also had to wonder whether King's analysis was an appropriate application of the law of large numbers, or is the expectation that in a high scoring game the lucky scores will even out an example of the &lt;a href="http://en.wikipedia.org/wiki/Law_of_averages"&gt;law of averages&lt;/a&gt; fallacy?&lt;br /&gt;
+&lt;br /&gt;
+Points in a game of skill are not random, so the law of large numbers applies only to what could be thought of as the occasional 'lucky' or 'unlucky' (i.e. somewhat random) points that disrupt the overall score. To have the law of large numbers apply to these, the amount of random points scored in a game would have to increase dramatically, I would think.&lt;br /&gt;
+&lt;br /&gt;
+As pointed out by&amp;nbsp;&lt;a href="http://www.math.temple.edu/~paulos/"&gt;John Allen Paulos&lt;/a&gt;&amp;nbsp;in his book &lt;a href="http://books.google.com/books?id=cRElAQAAIAAJ"&gt;Innumeracy&lt;/a&gt;, the law of large numbers won't help make a game fair - it is likely that one team will be ahead in 'luck' for the entire course of the game, no matter how long it is played. The unlucky gambler does not get luckier by playing longer.&lt;br /&gt;
+&lt;br /&gt;
+In a higher scoring game, it may be argued (and perhaps this is what King is really saying) that the points accrued through skill will outweigh those acquired by luck. This reasoning does not suffer from the 'law of averages' fallacy, rather its correctness may depend on how you model the role of luck within a game of skill. Does the number of lucky points stay fixed, or is it proportional to the overall score? If we assume something closer to the former, then skill will eventually dominate luck; if the later is closer to the truth, then bigger scores won't help.&lt;br /&gt;
+&lt;br /&gt;
+Exploring the law of large numbers and the fallacy of the law of averages is easier with coin flips than with soccer balls (consider the game played by&amp;nbsp;&lt;a href="http://mathrecreation.blogspot.com/2009/09/rosencrantz-guildensten-gamblers.html"&gt;Rozencrantz and Guidenstern&lt;/a&gt;).&lt;br /&gt;
+&lt;br /&gt;
+(BTW, we all know that you can turn a &lt;a href="http://en.wikipedia.org/wiki/Topology"&gt;doughnut into a coffee cup&lt;/a&gt;, but did you know you can also turn it into a &lt;a href="http://www.mathematicaguidebooks.org/soccer/"&gt;doubly covered soccer-ball&lt;/a&gt;?)</content>
+    <blogger:metaDescription/>
+    <blogger:created>2010-06-28T15:58:22.188Z</blogger:created>
+    <published>2010-06-28T16:41:00Z</published>
+    <updated>2011-09-11T02:01:07.947Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <blogger:filename>/2010/06/football-fallacy.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

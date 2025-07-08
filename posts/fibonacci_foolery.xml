@@ -1,0 +1,108 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-7153856877465651562</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>fibonacci foolery</title>
+    <content type='html'>&lt;span style="font-size: large;"&gt;Some misleading dissections&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+Consider a square whose sides are 5 units in length. We are going to dissect the square by cutting it as shown below. &amp;nbsp;We can then re-arrange the pieces to form a rectangle.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLWJdNd2-8TohLdEl3s-G0sWqAhRYJlB2rtUK6P9cj_NpdK5JjPSz8dBEmCk3Z_QymeB3KywhYCZyMZ3BHelhz7hTXUXXBNy1Kq7-q_Zdv67VSnY-yne2xF6iREYO8ES5F8pddSZkWSDY/s1600/235_illusion.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="166" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLWJdNd2-8TohLdEl3s-G0sWqAhRYJlB2rtUK6P9cj_NpdK5JjPSz8dBEmCk3Z_QymeB3KywhYCZyMZ3BHelhz7hTXUXXBNy1Kq7-q_Zdv67VSnY-yne2xF6iREYO8ES5F8pddSZkWSDY/s400/235_illusion.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+But wait, the square has area 5 * 5 = 25, while the rectangle has area 8 * 3 = 24... somewhere we lost one square unit. This paradoxical result tells us that something is wrong, but what is it?&lt;br /&gt;
+&lt;br /&gt;
+Let's look at another very similar dissection, this time using a square with sides length 8 units, sliced up and re-assembled in a similar way:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWlTityJwXhUjul67RX9Tzfw2-t3jwK-snQLepK66mmQEGYy4pCq7ISjWvcjn3CalOeEInGlqzKl8DL3XFIEnBr8yrLfvjBb-OWdbjLAzLbQh-b785yd9E33DgLSN8fn1c94I4dbelTGM/s1600/358_illusion.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="160" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWlTityJwXhUjul67RX9Tzfw2-t3jwK-snQLepK66mmQEGYy4pCq7ISjWvcjn3CalOeEInGlqzKl8DL3XFIEnBr8yrLfvjBb-OWdbjLAzLbQh-b785yd9E33DgLSN8fn1c94I4dbelTGM/s400/358_illusion.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Here the square has area 8 * 8 = 64, but the rectangle has area 13 * 5 = 65. In this case we have gained one square unit (maybe borrowed from puzzle above?).&lt;br /&gt;
+&lt;br /&gt;
+In both cases, the discrepancy in the areas tells us that we are doing something illegal when we re-assemble the square into the rectangle. You can see where the problem is if you look at the triangles within the rectangles. Consider the first problem, where we split up the length 5 into lengths 2 and 3. Can we really put those pieces together? Apparently not - if we try to fit one of the triangles and quadrilaterals pieces together, we find that they don't actually form a right-triangle - the hypotenuse is not straight, it bumps out a bit:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCFxrwGV1DR1BJGnjL07BYJU5Ic5SI68kMLpz5nWeI46ArumdqahFXfRG6j6KBHEk-ZzGKJgklmrL3HV3kOr4JgJfN1g6ec1nY56vrh3c0QSR6Kubuez10D62t2eP8hbxQlnk3t8orciI/s1600/235_problemA1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="140" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCFxrwGV1DR1BJGnjL07BYJU5Ic5SI68kMLpz5nWeI46ArumdqahFXfRG6j6KBHEk-ZzGKJgklmrL3HV3kOr4JgJfN1g6ec1nY56vrh3c0QSR6Kubuez10D62t2eP8hbxQlnk3t8orciI/s320/235_problemA1.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+In the (2,3,5) problem, if the figure did line up properly, the large triangle with base 8 and height 3 would be&amp;nbsp;&lt;a href="https://en.wikipedia.org/wiki/Similarity_(geometry)#Similar_triangles"&gt;similar&lt;/a&gt;&amp;nbsp;to the smaller triangle with base 5 and height 2. This would mean that 2/5 equals 3/8, which is not true. If we place the original triangle of base on top of the larger triangle, the pieces would not line up:&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNKV8sEztEUD_et4r-dXMcMD3I8R3A1ISYaxrV9owYwNeqU7HBazphMQdsRcU89aznMAD-4SnB-1K_Xb1hI-nlSvgilDWFXrPqPCLrSL3Pnm86gfkkUzeQO8QZIYBia_JGNozm6E0MW_8/s1600/235_problem.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="144" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNKV8sEztEUD_et4r-dXMcMD3I8R3A1ISYaxrV9owYwNeqU7HBazphMQdsRcU89aznMAD-4SnB-1K_Xb1hI-nlSvgilDWFXrPqPCLrSL3Pnm86gfkkUzeQO8QZIYBia_JGNozm6E0MW_8/s320/235_problem.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style="font-size: large;"&gt;The Fibonacci connection&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+You may have noticed something familiar in the numbers used in the dissections above. Both triples (2, 3, 5), used in the first dissection, and (3, 5, 8), used in the second, are successive terms in the Fibonacci sequence:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;span style="font-size: large;"&gt;0, 1, 1, 2, 3, 5, 8, 13, 21, ..&lt;/span&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+The Fibonacci sequence is defined recursively by:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2jAtn8NQ_0Mh-kzgpzlzw6SWoCb7kTGsl0KyfTJg5_AfV18h1_W5sUC-zJ0tSrD_mpIU9FNq5ZpnJJp4ihaS0sigjfUxIuuBMkuRC9kzMHtzG3DnrURW5nR3scwaWY5_EhFsojEG_YXc/s1600/fib_def.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="48" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2jAtn8NQ_0Mh-kzgpzlzw6SWoCb7kTGsl0KyfTJg5_AfV18h1_W5sUC-zJ0tSrD_mpIU9FNq5ZpnJJp4ihaS0sigjfUxIuuBMkuRC9kzMHtzG3DnrURW5nR3scwaWY5_EhFsojEG_YXc/s400/fib_def.png" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+Can we construct another misleading dissection using the next Fibonacci triple (5, 8, 13)? Let's see:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgma-nkSar-xNAr_G1RsOURiSa3AExlsopImoNiXq-UD3yZA4RQousiQTWgvuw9wP3MAUxBQU2xxvrJp0K0BgPO9GVSaNi9HWy_lSSYCRDQ8yvCeNjOE-MHmyiXFWYRLqijGmpX0Rq30p4/s1600/5813_illusion.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="168" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgma-nkSar-xNAr_G1RsOURiSa3AExlsopImoNiXq-UD3yZA4RQousiQTWgvuw9wP3MAUxBQU2xxvrJp0K0BgPO9GVSaNi9HWy_lSSYCRDQ8yvCeNjOE-MHmyiXFWYRLqijGmpX0Rq30p4/s400/5813_illusion.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Our square in this case has area 13 * 13 = 169, while our rectangle has area 21 * 8 = 168. So we are back to losing a square unit when we re-assemble the dissected square into the rectangle.&lt;br /&gt;
+&lt;br /&gt;
+It turns out that Fibonacci triples like these will always generate these "off by one" illusions, because three successive terms in the Fibonacci sequence always obey the&amp;nbsp;&lt;a href="https://en.wikipedia.org/wiki/Cassini_and_Catalan_identities"&gt;Cassini identity&lt;/a&gt;, which expresses the situation shown in these diagrams: if you have a Fibonacci triple (&lt;i&gt;a&lt;/i&gt;, &lt;i&gt;b&lt;/i&gt;, &lt;i&gt;c&lt;/i&gt;), then the product of &lt;i&gt;a&lt;/i&gt; times &lt;i&gt;c&lt;/i&gt; is going to be either one more or one less than the square of &lt;i&gt;b&lt;/i&gt;. More precisely, Cassini tells us:&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmFoIS7XsPSqcDBglmrNqsjadH1wYN-otI_DOCaTx00qKllYj42BD-X9L95OVL4Tx9TxTF4rGj6ai-LzzJc6slsvg4fM7rBWGVI_zuRVUFa24ANRzubSSITUUlyJF-BtcXKvTiBMqhomA/s1600/cassini_def.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmFoIS7XsPSqcDBglmrNqsjadH1wYN-otI_DOCaTx00qKllYj42BD-X9L95OVL4Tx9TxTF4rGj6ai-LzzJc6slsvg4fM7rBWGVI_zuRVUFa24ANRzubSSITUUlyJF-BtcXKvTiBMqhomA/s1600/cassini_def.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+The Cassini identity can be proved in a variety of ways, including induction. For &lt;i&gt;n = &lt;/i&gt;1, we have 0*1-1 = -1, so the identity is satisfied. &amp;nbsp;If we assume the relationship holds for &lt;i&gt;n&lt;/i&gt; = &lt;i&gt;k&amp;nbsp;&lt;/i&gt;- 1, we can prove the &lt;i&gt;n&lt;/i&gt; = &lt;i&gt;k&lt;/i&gt; case as follows:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1_y23WnbYH8V4_2TWY5rV8k-Y7aGoY9oF-ILR-EpG30bSdiRCufX9EaInPFLJv3CLJ4ZTz_JxhqwX-iss5JJK6AnWqI4JoBeuvy0AYOTgeHZLAZxrDCTgJBW27kMsYjkY_589gX6_L3k/s1600/cassini_induction.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="301" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1_y23WnbYH8V4_2TWY5rV8k-Y7aGoY9oF-ILR-EpG30bSdiRCufX9EaInPFLJv3CLJ4ZTz_JxhqwX-iss5JJK6AnWqI4JoBeuvy0AYOTgeHZLAZxrDCTgJBW27kMsYjkY_589gX6_L3k/s400/cassini_induction.png" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+See some more proofs of the Cassini identity &lt;a href="http://www.cut-the-knot.org/arithmetic/algebra/CassinisIdentity.shtml"&gt;here&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style="font-size: large;"&gt;A Golden Solution&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+This dissection and re-assembly of the square into a rectangle looks like a nice one, and we'd like to find a case where it works: we want to find where to cut so that the square pieces fit correctly into the rectangle and the areas of the figures match up. Clearly basing the cut on the Fibonacci numbers won't work...&lt;br /&gt;
+&lt;br /&gt;
+Let's start with a square whose sides are length 1. We would like to find two numbers &lt;i&gt;a&lt;/i&gt; and &lt;i&gt;b&lt;/i&gt; such that we can perform the dissection and assembly as shown below.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgk81CYTtTRDUdayGaVIPeoxXe3YEFGrCSTurBC2YvOpEzAa5trW-KejXwXkGn4Ado88gfbGC_bC7504VeWMQzY2r7yFoufj4MA8rXRsTyLHH0EEq22pz3rNZhfR-v2YktZyHnmUb8K6oo/s1600/abc_problem.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="171" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgk81CYTtTRDUdayGaVIPeoxXe3YEFGrCSTurBC2YvOpEzAa5trW-KejXwXkGn4Ado88gfbGC_bC7504VeWMQzY2r7yFoufj4MA8rXRsTyLHH0EEq22pz3rNZhfR-v2YktZyHnmUb8K6oo/s400/abc_problem.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+What we would like is the area of the rectangle to equal that of the square:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwsJ-uPMRLkK0YZr009m2gSEh6x3VVraUQc_T5Pc0hceGZZQGjEfDISvykh_Jtdo7kZbVPL938OKDMo4Y_vKsOUGQQ5Z2bF3sLC7dMq2ZcgsP9iI-BtsKIyodo-ey2NycbH6IMyYwYUYo/s1600/equal_area.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwsJ-uPMRLkK0YZr009m2gSEh6x3VVraUQc_T5Pc0hceGZZQGjEfDISvykh_Jtdo7kZbVPL938OKDMo4Y_vKsOUGQQ5Z2bF3sLC7dMq2ZcgsP9iI-BtsKIyodo-ey2NycbH6IMyYwYUYo/s1600/equal_area.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+And taking the positive solution from the quadratic formula, we get:&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhL6b8RGkZZauHAPxISeEl4_GqBBCl_PhGy85IUZKDQ2U2L4vxNIp6X1_PScfWR_RGX-13gEfXcdVCGCd2JD4H4fyM8RMqnuJxuL0e2ea8AiRod1KKubmqq-SFWk9iQj3j6VEHpUtIZLrI/s1600/Phi.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhL6b8RGkZZauHAPxISeEl4_GqBBCl_PhGy85IUZKDQ2U2L4vxNIp6X1_PScfWR_RGX-13gEfXcdVCGCd2JD4H4fyM8RMqnuJxuL0e2ea8AiRod1KKubmqq-SFWk9iQj3j6VEHpUtIZLrI/s1600/Phi.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+We used the capital Greek letter Phi here because this quantity is known as the &lt;a href="https://en.wikipedia.org/wiki/Golden_ratio#Golden_ratio_conjugate"&gt;golden ratio conjugate&lt;/a&gt;, making the base of our rectangle, 1&amp;nbsp;+ &lt;i&gt;b,&lt;/i&gt; equal to the golden ratio.&lt;br /&gt;
+&lt;br /&gt;
+This is a nice surprise because of the close association between Fibonacci numbers and the golden ratio &amp;nbsp;- &amp;nbsp;the quotient of consecutive Fibonacci numbers becomes closer and closer to the golden ratio as the Fibonacci numbers get larger.&lt;br /&gt;
+&lt;br /&gt;
+So, while using Fibonacci numbers in the dissection always yields nice deceptions which alternate between gaining and loosing a square unit, slicing the square using the golden ratio (or golden ratio conjugate) gives us a perfect re-assembly of the square into a rectangle.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2017-02-10T17:44:13.671Z</blogger:created>
+    <published>2017-02-11T21:32:00.001Z</published>
+    <updated>2017-02-20T18:19:22.606Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='fibonacci'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='golden ratio'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='puzzles'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='mathematics'/>
+    <blogger:filename>/2017/02/fibonacci-foolery.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

@@ -1,0 +1,53 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-3795794024878331000</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Extended Multiplication Tables</title>
+    <content type='html'>&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3kua3IVYVavmpVpDrQMmVSzfZvh8kPEXLWRs1uYc5RE7kROB3ghzqQVwHPJVorSGGzHyrGbPEhdBS3Hcq3YhlCjsuP-eQuDWcBeWRZrlyN_kGAFHAiaWB2Ln8RLIiSgz4VB3_Pzm9HsA/s1600-h/7-10.JPG" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"&gt;&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5246683585224725154" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3kua3IVYVavmpVpDrQMmVSzfZvh8kPEXLWRs1uYc5RE7kROB3ghzqQVwHPJVorSGGzHyrGbPEhdBS3Hcq3YhlCjsuP-eQuDWcBeWRZrlyN_kGAFHAiaWB2Ln8RLIiSgz4VB3_Pzm9HsA/s400/7-10.JPG" style="cursor: pointer; display: block; height: 129px; margin: 0px auto 10px; text-align: center; width: 369px;" /&gt;&lt;/a&gt;A surprisingly interesting structure is the &lt;span style="font-style: italic;"&gt;extended multiplication table&lt;/span&gt;, shown above for the numbers seven to ten. The algorithm for drawing these is straight forward - for an &lt;span style="font-style: italic;"&gt;n&lt;/span&gt;-extended table, start out as if you were writing a "regular" multiplication table, but extend each row so that it gets as close to, without exceeding, &lt;span style="font-style: italic;"&gt;n&lt;/span&gt;. Another way to think about it is to write out rows of "skip counting up to &lt;span style="font-style: italic;"&gt;n&lt;/span&gt;" by &lt;span style="font-style: italic;"&gt;i&lt;/span&gt; for integers&lt;span style="font-style: italic;"&gt; i&lt;/span&gt; from 1 to &lt;span style="font-style: italic;"&gt;n&lt;/span&gt;.&lt;br /&gt;
+&lt;br /&gt;
+This is called an extended multiplication table since it contains a "traditional" multiplication table inside it. The 12-extended table below contains a traditional 3x3 multiplication table.&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4ik8XkxTpRBS2QKj6o8jxihXwcuMhNrVrZJ_p8daLmiNDiWV6mnynkQmzhOIugVKjwA2yzeR4ofaduIUaJe6j22Ov9evDAAk-Fqmnejq9DcjzeTmAs9AAnHe0ajS1plEa5Ju-3vpV2lQ/s1600-h/12with9.jpg" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"&gt;&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5246684661398922402" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4ik8XkxTpRBS2QKj6o8jxihXwcuMhNrVrZJ_p8daLmiNDiWV6mnynkQmzhOIugVKjwA2yzeR4ofaduIUaJe6j22Ov9evDAAk-Fqmnejq9DcjzeTmAs9AAnHe0ajS1plEa5Ju-3vpV2lQ/s400/12with9.jpg" style="cursor: pointer; display: block; height: 281px; margin: 0px auto 10px; text-align: center; width: 278px;" /&gt;&lt;/a&gt;&lt;br /&gt;
+It turns out that 1 appears in an extended table once, and prime numbers appear exactly twice (once in the first column, and once in the first row). In general, for a natural number &lt;span style="font-style: italic;"&gt;n&lt;/span&gt;, how many times does &lt;span style="font-style: italic;"&gt;n&lt;/span&gt; appear in the &lt;span style="font-style: italic;"&gt;n&lt;/span&gt;-extended table?&lt;br /&gt;
+&lt;br /&gt;
+Before looking at that question, you might want to think about finding easier ways to draw the tables. Drawing out these tables by hand can be tedious - a simple program or spreadsheet might be easier. You can use Fathom, for example, to create the table data and draw it in the collections display. Create a slider &lt;span style="font-style: italic;"&gt;m&lt;/span&gt; and the attributes listed in the table below (click on the image to see a larger version).&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJsbzA6qIC-vOteXIE6cp9cYnzM6ZevV2bKzvpKRfxGwxQ2jDm9js656GqXBSOZ5y5GXaxGAWq2UjKCNePsii4vMBGWhbZyvgDk-gOJI6XrxK3lpeWXmF7RDv06sssJ_HsGKcRAhVxjM0/s1600-h/formulas1.jpg" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"&gt;&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5246685249699538834" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJsbzA6qIC-vOteXIE6cp9cYnzM6ZevV2bKzvpKRfxGwxQ2jDm9js656GqXBSOZ5y5GXaxGAWq2UjKCNePsii4vMBGWhbZyvgDk-gOJI6XrxK3lpeWXmF7RDv06sssJ_HsGKcRAhVxjM0/s400/formulas1.jpg" style="cursor: pointer; display: block; height: 120px; margin: 0px auto 10px; text-align: right; width: 334px;" /&gt;&lt;/a&gt;&lt;br /&gt;
+Modify the collection display attributes to draw the tables in the collection box. By adding lots of cases and using the slider m to filter out the ones you don't need, you can vary the size of the table easily.&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzgNwxKWKkh40RUDe2jhhlYCtvicXF1jP9CM27nrP_nldYuzTPKwFVjtbHvb4l-HQAyrjQuABMsyV6nJv0YcpBpIpOnVeVqO6NbBJMOfg8j-NsxKRS7ZW5TeQI6GutLDyjR2hnb7OoPsw/s1600-h/formulas2.jpg" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"&gt;&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5246685593077243218" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzgNwxKWKkh40RUDe2jhhlYCtvicXF1jP9CM27nrP_nldYuzTPKwFVjtbHvb4l-HQAyrjQuABMsyV6nJv0YcpBpIpOnVeVqO6NbBJMOfg8j-NsxKRS7ZW5TeQI6GutLDyjR2hnb7OoPsw/s400/formulas2.jpg" style="cursor: pointer; display: block; margin: 0px auto 10px; text-align: center;" /&gt;&lt;/a&gt;&lt;br /&gt;
+Interestingly, the answer to the question "how many times does n appear in the n-extended table?" is the same as the answer to the question posed in a &lt;a href="http://mathrecreation.blogspot.com/2008/09/factor-lattices.html"&gt;previous post about factor lattices&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div style="text-align: center;"&gt;
+# of occurrances of &lt;span style="font-style: italic;"&gt;n&lt;/span&gt; in the &lt;span style="font-style: italic;"&gt;n&lt;/span&gt;-extended table = # of nodes in the factor lattice &lt;span style="font-style: italic;"&gt;Fn&lt;/span&gt;&lt;/div&gt;
+&lt;br /&gt;
+You can also recast both of these questions (how many occurances of n in the n-extended table, and how many nodesin the Fn factor lattice) as a combinatorial "balls in urns" problem.&lt;br /&gt;
+&lt;br /&gt;
+Consider a set of colored balls where there are m different colours, where there are ki balls of color i, where i ranges from 1 to m. This would give a total number of balls equal to k1+k2+...+km. Suppose you were to distribute these balls in two urns. How many different distributions would there be? Using some counting techniques, you will find that the answer is  (k1+1)*(k2+1)*...*(km+1).&lt;br /&gt;
+&lt;br /&gt;
+How is this connected to the other problems? Consider the prime factorization of the number. For each prime, choose a colour, and for each occurance of the prime in the factorization, add a new ball of that color. For example for 12 = 3*3*2, choose two colours - say blue=3 and red=2. Since 3 occurs twice and 2 occurs once, there should be two blue balls and one red ball. Now consider distributing these balls in two urns. It turns out that you get (2+1)*(1+1) = 6 possibilities. This is the same number of times 12 occurs in the 12-extended table, and the same number of nodes in the 12-factor lattice. The image below shows the 12-extended table, the 12-factor lattice, and the "ball and urn problem" for the numer 12.&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjM5o27OeqAjIwvSEN-iHy1NSedPKekr6QdN6IXXcu7t5Rqwpnv06DMNaWFsl_asqcEdR1SMb058tKcjPWO0IHPkAZeYfmyLD1mnNNoGxT1Z-kd_KDL_W5_njBtPZH3q4rOW5uy2QOCQAY/s1600-h/table-lattice-urns-12.jpg" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"&gt;&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5246687935147503570" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjM5o27OeqAjIwvSEN-iHy1NSedPKekr6QdN6IXXcu7t5Rqwpnv06DMNaWFsl_asqcEdR1SMb058tKcjPWO0IHPkAZeYfmyLD1mnNNoGxT1Z-kd_KDL_W5_njBtPZH3q4rOW5uy2QOCQAY/s400/table-lattice-urns-12.jpg" style="cursor: pointer; display: block; margin: 0px auto 10px; text-align: center;" /&gt;&lt;/a&gt;&lt;br /&gt;
+For a number&lt;span style="font-style: italic;"&gt; n&lt;/span&gt; with the prime factorization:&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidz6y-PU4Hwied31FsolxKoOeQTv69snrc_Z11AMcBxglGg1SRZI2WESny57M18qKoBIBP57Wq8mjTEveX2NDNsOsIQ4n1rUSIzFQ9eYo8hV0Gn6AnpdEFk4-tWkDZUcaUEmTpzN3s-Cg/s1600-h/n.jpg" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"&gt;&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5246712338002517346" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidz6y-PU4Hwied31FsolxKoOeQTv69snrc_Z11AMcBxglGg1SRZI2WESny57M18qKoBIBP57Wq8mjTEveX2NDNsOsIQ4n1rUSIzFQ9eYo8hV0Gn6AnpdEFk4-tWkDZUcaUEmTpzN3s-Cg/s400/n.jpg" style="cursor: pointer; display: block; height: 48px; margin: 0px auto 10px; text-align: center; width: 107px;" /&gt;&lt;/a&gt;The answer to all three questions is given by:&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimzNzJcddJL1-JMvs5s0YybagzFdNotqljTjZ6v3vA14QmaSEo8OTxUTDrh6HD9tHwDMBRuFSrLpm9Yy9Q2eWgWxnPhcPL52crRVgr2AK1qpQrKTCC6rK8pots1KPkHaM7fyc3A16PQTs/s1600-h/answer_n.jpg" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"&gt;&lt;img alt="" border="0" id="BLOGGER_PHOTO_ID_5246712336132286642" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimzNzJcddJL1-JMvs5s0YybagzFdNotqljTjZ6v3vA14QmaSEo8OTxUTDrh6HD9tHwDMBRuFSrLpm9Yy9Q2eWgWxnPhcPL52crRVgr2AK1qpQrKTCC6rK8pots1KPkHaM7fyc3A16PQTs/s400/answer_n.jpg" style="cursor: pointer; display: block; height: 51px; margin: 0px auto 10px; text-align: center; width: 108px;" /&gt;&lt;/a&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2008-09-16T18:07:48.041Z</blogger:created>
+    <published>2008-09-16T18:06:00Z</published>
+    <updated>2013-10-02T03:51:58.449Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='numbers'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='Fathom'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='factors'/>
+    <blogger:filename>/2008/09/extended-multiplication-tables.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  
