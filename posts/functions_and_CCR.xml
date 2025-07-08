@@ -1,0 +1,38 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-6874387420304908740</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>functions and CCR</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-4dyDQy8caeBiGBnNgbj7ykOG-zYyZZoqxkmlmkKO0WOuvzOR-DJOhvl102-vJq1UrbN08n_yJASeztCgJ_GRo_L3vGhf8Ko9tCgE_cechBq28WGWq89ychw_F5UN6Pnnbkn5EfW2ALU/s1600/Creedence_Clearwater_Revival_1968.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="148" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-4dyDQy8caeBiGBnNgbj7ykOG-zYyZZoqxkmlmkKO0WOuvzOR-DJOhvl102-vJq1UrbN08n_yJASeztCgJ_GRo_L3vGhf8Ko9tCgE_cechBq28WGWq89ychw_F5UN6Pnnbkn5EfW2ALU/s200/Creedence_Clearwater_Revival_1968.jpg" width="200" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;a href="http://arxiv.org/abs/1010.2719"&gt;A recent paper&lt;/a&gt; on arXiv.org talks about the CCR Instrument, not &lt;a href="http://en.wikipedia.org/wiki/John_Fogerty"&gt;John Fogerty&lt;/a&gt;'s guitar, but rather the Calculus Concept Readiness Instrument - a mathematics placement test from &lt;a href="http://www.maplesoft.com/products/placement/"&gt;Maplesoft&lt;/a&gt;. The paper's brief background discussion on what concepts students need to be "calculus ready" is interesting. A large literature is cited that states that the most important concept that students need to be familiar with (for Calculus and for general mathematics education) is the &lt;a href="http://en.wikipedia.org/wiki/Function_(mathematics)"&gt;function concept&lt;/a&gt;. Unfortunately, the function concept and the concept of function composition have often been cited as weak points for teachers as well as students (see &lt;a href="http://www.k-12prep.math.ttu.edu/journal/contentknowledge/meel01/article.pdf"&gt;this study&lt;/a&gt; by David Meel, for example).&lt;br /&gt;
+&lt;br /&gt;
+A really nice article to read if you would like to expand your understanding of the function concept and get a sense of how it has mutated over the last few hundred years is Israel Kleiner's  &lt;a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.113.6352&amp;amp;rep=rep1&amp;amp;type=pdf"&gt;Evolution of the Function Concept: A Brief Survey&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+As mathematics has advanced, functions have become strange, generalized, and freed from conceptual limitations that threaten to tie them down. Kliener quotes &lt;a href="http://en.wikipedia.org/wiki/Henri_Poincar%C3%A9"&gt;Poincaré&lt;/a&gt; in offering an explanation as to why, in contrast, our education proceeds with with simple (antiquated, in Meel's assessment) and well behaved functions.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;i&gt;If logic were the sole guide of the teacher, it would be necessary to begin with the most general functions, that is to say with the most bizarre. It is the beginner that would have to be set grappling with this teratologic museum.&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+For those of us who are lucky enough to wander through this bizarre museum, the concept of function gets stretched in interesting ways. I seem to remember that learning about &lt;a href="http://en.wikipedia.org/wiki/Linear_functional#Evaluation"&gt;functionals&lt;/a&gt; in Linear Algebra expanded my appreciation of &amp;nbsp;functions and their strangeness. Here's an example: consider two sets $A$ and $B$, and suppose that $a$ is an element of $A$. There is a function, call it $\hat{a}$, whose domain is the set of functions from $A$ to $B$, and whose co-domain is the set $B$. This function $\hat{a}$ is defined by the rule $\hat{a}(f) = f(a)$, where $f$ is any function from $A$ to $B$. The first time you see something like this it seems lovely and weird - functions become elements, elements become functions, and the rule that defines the element-become-function $\hat{a}$ looks like a bit of notational&amp;nbsp;sleight&amp;nbsp;of hand. Things can get even stranger of course, such as when arrows (function-like-things)&amp;nbsp;&lt;a href="http://en.wikipedia.org/wiki/Category_(mathematics)"&gt;are defined without elements at all&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+Concerns about "Calculus Concept Readiness" reminds us how preparation for Calculus is often seen as the ultimate goal for K-12 education. Should this be the case?  Discrete/finite mathematics may provide a better goal (convincingly and quickly argued by &lt;a href="http://blog.ted.com/2009/06/29/a_formula_for_c/"&gt;Arthur Benjamin in his TED talk&lt;/a&gt;). It can also be argued that discrete math provides a better setting for learning the fundamentals of the function concept than pre-calculus courses that focus more on functions that are well behaved for the purposes of elementary Real analysis.</content>
+    <blogger:metaDescription/>
+    <blogger:created>2010-12-23T18:36:21.034Z</blogger:created>
+    <published>2010-12-23T19:17:00Z</published>
+    <updated>2011-09-11T01:57:22.363Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='school math'/>
+    <blogger:filename>/2010/12/functions-and-ccr.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

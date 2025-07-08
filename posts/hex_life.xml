@@ -1,0 +1,64 @@
+<>
+  <entry>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-2374014320009890130</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>hex life</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWxoiIniOeXvecEtj3VNyfn7n3eAyqmslymbi9OvJM3YlWeUBbdJjh_7dFdPFaTChnaQL8gou9yZO7BbbcGpJkvC6R8y2cAP1xkEvTFDYItNZvGlnS8YPvKDmKxZwuIu9GCuYDjH-_g0Y/s1600/title1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="198" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWxoiIniOeXvecEtj3VNyfn7n3eAyqmslymbi9OvJM3YlWeUBbdJjh_7dFdPFaTChnaQL8gou9yZO7BbbcGpJkvC6R8y2cAP1xkEvTFDYItNZvGlnS8YPvKDmKxZwuIu9GCuYDjH-_g0Y/s400/title1.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+One of mathematics' best known recreations is Conway's Game of Life, popularized by Martin Gardner in his Mathematical Games column (see this &lt;a href="http://mathmunch.wordpress.com/2012/10/07/martin-gardner-g4g-and-many-more-flexagons/"&gt;recent post on Math Munch&lt;/a&gt; for another classic Gardner recreation: flexagons). John Conway first came up with his Game of Life using a square grid and (as described in this nice &lt;a href="http://en.wikipedia.org/wiki/Conway's_Game_of_Life"&gt;wikipedia overview&lt;/a&gt;) four basic rules:&lt;br /&gt;
+&lt;ol&gt;
+&lt;li style="margin-bottom: 0.1em;"&gt;Any live cell with fewer than two live neighbours dies, as if caused by under-population.&lt;/li&gt;
+&lt;li style="margin-bottom: 0.1em;"&gt;Any live cell with two or three live neighbours lives on to the next generation.&lt;/li&gt;
+&lt;li style="margin-bottom: 0.1em;"&gt;Any live cell with more than three live neighbours dies, as if by overcrowding.&lt;/li&gt;
+&lt;li style="margin-bottom: 0.1em;"&gt;Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.&lt;/li&gt;
+&lt;/ol&gt;
+Things like Conway's Game of Life are examples of what are more generally called &lt;a href="http://en.wikipedia.org/wiki/Cellular_automaton"&gt;Cellular Automota&lt;/a&gt; - there are lots of great websites that offer overviews of these, and many include interactive demonstrations.&lt;br /&gt;
+&lt;br /&gt;
+I've been wanting to play around with life-like automata for a while, so for fun I decided to try out the standard 4 rules (above) on a grid made of&amp;nbsp;hexagonal&amp;nbsp;close-packed disks, instead of the usual square grid. On a hexagonal grid, every cell has only 6 neighbours, instead of the usual 8. This little experiment showed me how delicate and perfect Conway's original life is - and how changing the geometry a little can have a big impact.&lt;br /&gt;
+&lt;br /&gt;
+In the experiments that I tried, hex-life, quickly dies down to a few stable formations (patterns that don't change) and oscillators (patterns that move through a set cycle of formations). These were pretty, but I didn't observe any of the explosive or travelling patterns that makes the usual Game of Life so interesting.&lt;br /&gt;
+&lt;br /&gt;
+One oscillator that emerged was a simple "windmill" (you can see one in the middle of the screen capture above) that has three dots that seem to rotate around a central dot. This is actually an oscillator of period 2 that is governed by rules 1, 2, and 4. The diagram below shows how many neigbours each cell has - with live cells coloured blue and dead cells coloured white.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvYNmNWVhvl4EDKY9WCC1o_hlUjwA0koOaM9VZs-IonZQv3ZKLjwkM6Bc58wJItvHs2cUsPLYKZYJ02TUy99iOMPwNjt6h2mPUb4SVgJg3MFbvE6cfalSG8v-74eJov5ItBai_pZMrb_k/s1600/windmill_1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="170" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvYNmNWVhvl4EDKY9WCC1o_hlUjwA0koOaM9VZs-IonZQv3ZKLjwkM6Bc58wJItvHs2cUsPLYKZYJ02TUy99iOMPwNjt6h2mPUb4SVgJg3MFbvE6cfalSG8v-74eJov5ItBai_pZMrb_k/s400/windmill_1.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+Another oscillator was the blinking diamond shown below. The two cells across the middle of the diamond blink in and out of the live state, governed by the rules 2, 3 (blinking off) and 2, 4 (blinking on).&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1wTSpCNT9PeKew66KAVWUl0W7FJ-qkoP1wDRPOBZl_ydTEnN4P4jzd-VIRsjPIRz7QYnT9XeHwKdtZ7ZPT48vkIyoFoN2jR-sg54cRn4qQqSbUHTxtqb2_iT1yjlesuvkP-w0mFaLLW8/s1600/blinker_ab.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1wTSpCNT9PeKew66KAVWUl0W7FJ-qkoP1wDRPOBZl_ydTEnN4P4jzd-VIRsjPIRz7QYnT9XeHwKdtZ7ZPT48vkIyoFoN2jR-sg54cRn4qQqSbUHTxtqb2_iT1yjlesuvkP-w0mFaLLW8/s1600/blinker_ab.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEUx9N3P4RQ2mZLSm9odg5ZTBGXS2q_aP50iklC76gQn6HQpLyvJuZRHxh1jACwFq4Jju7g0DPSpWEi62XnvgIOe4UP14ZJL8mIp5IF4LFYX8c35-jaLjYRb6nyjFADqR-GSOw749xPZI/s1600/blinkers.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="250" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEUx9N3P4RQ2mZLSm9odg5ZTBGXS2q_aP50iklC76gQn6HQpLyvJuZRHxh1jACwFq4Jju7g0DPSpWEi62XnvgIOe4UP14ZJL8mIp5IF4LFYX8c35-jaLjYRb6nyjFADqR-GSOw749xPZI/s400/blinkers.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+I found a some other oscillators, and quite a few stable patterns, but nothing too exciting - I am sure there is a joke I could make here about having a stable, nice, but not too exciting hex life, but I won't. :)&amp;nbsp;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+BTW - just as I was writing this up I came across &lt;a href="http://boingboing.net/2012/10/11/game-of-life-with-floating-poi.html"&gt;a new post&lt;/a&gt; about a continuous version of Life - definitely worth looking at.&lt;/div&gt;
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2012-10-11T01:17:58.944Z</blogger:created>
+    <published>2012-10-12T13:46:00.001Z</published>
+    <updated>2012-10-13T01:35:15.197Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='mathematics'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <blogger:filename>/2012/10/hex-life.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

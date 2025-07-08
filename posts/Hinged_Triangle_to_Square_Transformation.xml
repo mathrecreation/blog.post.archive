@@ -1,0 +1,24 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-8903693033005966882</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Hinged Triangle to Square Transformation</title>
+    <content type='html'>&lt;a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOnrbWOmv1Iph0GQrgxul0IxTldQEj2VKUeHdoHhTaKNVgRCLsIRZkInHRiW14M_vl205AHVVsQTiwqJHdpRmr3olnn-uG1Soc0q4IIiHvHcY0MFElIhZOXqYasDUK579YPblNacedFvI/s1600-h/transform1.jpg"&gt;&lt;img style="margin: 0px auto 10px; display: block; text-align: center; cursor: pointer; width: 400px; height: 274px;" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOnrbWOmv1Iph0GQrgxul0IxTldQEj2VKUeHdoHhTaKNVgRCLsIRZkInHRiW14M_vl205AHVVsQTiwqJHdpRmr3olnn-uG1Soc0q4IIiHvHcY0MFElIhZOXqYasDUK579YPblNacedFvI/s400/transform1.jpg" alt="" id="BLOGGER_PHOTO_ID_5320173333853410802" border="0" /&gt;&lt;/a&gt;The construction above, which shows how an equilateral triangle can be cut, hinged, and transformed into a square is the very first entry in Hugo Stienhaus's &lt;a href="http://books.google.com/books?id=N63XpD1oJ6IC"&gt;Mathematical Snapshots&lt;/a&gt;. Constructing this hinged triangle/square in &lt;a href="http://www.keypress.com/x5521.xml"&gt;GSP&lt;/a&gt; turns out to be quite a nice activity.&lt;br /&gt;&lt;br /&gt;&lt;a href="http://erikdemaine.org/"&gt;Erik Demain&lt;/a&gt;'s paper &lt;a href="http://erikdemaine.org/papers/HingedPolyforms/paper.pdf"&gt;Hinged Dissection of Polyominoes and Polyforms&lt;/a&gt; takes this example as its starting point, develops the theory of hinged dissections, and shows how this example and others can be taken further.&lt;br /&gt;&lt;br /&gt;The references in Demain's paper lead to a &lt;a href="http://home.btconnect.com/GavinTheobald/Index.html"&gt;great site&lt;/a&gt; on geometric dissections (non-hinged),  and to the work of &lt;a href="http://www.cs.purdue.edu/homes/gnf/"&gt;Greg N. Frederickson&lt;/a&gt; (hinged, non-hinged, and folded dissections).&lt;br /&gt;&lt;br /&gt;On Frederickson's site, among many great things, we find a &lt;a href="http://www.math.nmsu.edu/~breakingaway/Lessons/T2S/Triangle2Square.htm"&gt;link to a lesson plan&lt;/a&gt; that includes instructions on building a physical model of the triangle-square hinged dissection.</content>
+    <blogger:metaDescription/>
+    <blogger:created>2009-04-02T19:10:44.004Z</blogger:created>
+    <published>2009-04-02T19:09:00Z</published>
+    <updated>2011-09-11T02:01:38.380Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='constructions'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='geometry'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='GSP'/>
+    <blogger:filename>/2009/04/hinged-triangle-to-square.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

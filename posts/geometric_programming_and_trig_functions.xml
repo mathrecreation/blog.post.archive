@@ -1,0 +1,30 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-400075304295012510</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>geometric programming and trig functions</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWngRlJk7PraUfSqp3dpXftpvIEpcY_LtwNFqENS1ethVL45V-_xFlJ9wU2lf5H90t3zuQsQhK8nFwqAMNxQr3RYYmOY-66CT7TvemGGTBflF6dfUKNx72sna0AQ8Hoc3vNIycDnGUx6A/s1600-h/lissajous+1.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWngRlJk7PraUfSqp3dpXftpvIEpcY_LtwNFqENS1ethVL45V-_xFlJ9wU2lf5H90t3zuQsQhK8nFwqAMNxQr3RYYmOY-66CT7TvemGGTBflF6dfUKNx72sna0AQ8Hoc3vNIycDnGUx6A/s320/lissajous+1.jpg" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/div&gt;One of the most helpful ways to think about how to interact with dynamic geometry programs is to consider 'sketching' as &lt;i&gt;programming &lt;/i&gt;(an unhelpful way to think of sketching is to think of it as &lt;i&gt;drawing&lt;/i&gt;). This orientation is explained nicely by R. Nicholas Jackiw and William F. Finzer in &lt;a href="http://acypher.com/wwid/Chapters/13Sketchpad.html"&gt;Programming by Geometry&lt;/a&gt;:&lt;br /&gt;
+&lt;blockquote&gt;&lt;i&gt;Constructing a sketch in GSP is programming, in the straightforward sense of building a functional system which maps input to output. The unconstrained elements of the sketch... constitute the program's inputs or parameters. The relationships between parts of the sketch ... correspond to a program's production statements. In GSP's case, the semantics of the production language are governed by traditional Euclidean constructions.&lt;/i&gt;&lt;br /&gt;
+&lt;/blockquote&gt;&lt;blockquote&gt;&lt;i&gt;The remarkable characteristic of GSP's system comes from the realization that a program's structure -- i.e. its "source code" -- and its output are isomorphic. When the student completes the specification, or coding, of the centroid construction in the above example, he or she has at the same time located a specific centroid. By manipulating the vertices of the triangle (the program's inputs), the student generates further output. Significantly, these manipulations are performed in the same domain, that of planar geometric objects, as the act of constructing the initial sketch.&lt;/i&gt;&lt;br /&gt;
+&lt;/blockquote&gt;Playing with &lt;a href="http://mathrecreation.blogspot.com/2009/08/hypocycloid-scrambler.html"&gt;hypocycloid constructions&lt;/a&gt; recently reminded me how nicely Sketchpad explorations help make the connection between circular motion and trig functions.&amp;nbsp;For example, the sketches &lt;a href="http://sites.google.com/site/mathrecreation/Home/trig_shm_lissajous_v1.dm.gsp"&gt;here&lt;/a&gt; include one that was inspired by a &lt;a href="http://en.wikipedia.org/wiki/Simple_harmonic_motion"&gt;simple harmonic motion&lt;/a&gt; demo, and one that explores &lt;a href="http://en.wikipedia.org/wiki/Lissajous_curve"&gt;lissajous figures&lt;/a&gt;.&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgr3J2Q8fJTpPcOGMPQ-AO2kblUwQPI1kr3lf27fi17liwfJRIBYsv_MNMEZPPzKrjsXg04Qn5coMdvoXJqltNkKx3YeS3Z2Kn8ZZUyiV4kfw9vLZG-igHgg5qdikUucQYl1SOZYprL78o/s1600-h/pendulum1.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em; text-decoration: none;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgr3J2Q8fJTpPcOGMPQ-AO2kblUwQPI1kr3lf27fi17liwfJRIBYsv_MNMEZPPzKrjsXg04Qn5coMdvoXJqltNkKx3YeS3Z2Kn8ZZUyiV4kfw9vLZG-igHgg5qdikUucQYl1SOZYprL78o/s320/pendulum1.jpg" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/div&gt;A nice overview that includes some similar sketches is given in a talk,&amp;nbsp;&lt;a href="http://www.dynamicgeometry.com/General_Resources/Recent_Talks/Sketchpad_4.0_Talks/Trig_Comes_Alive.html"&gt;Trig Comes Alive&lt;/a&gt;,&amp;nbsp;by Scott Steketee from last year's NCTM annual conference.&lt;br /&gt;
+&lt;div&gt;&lt;/div&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2009-09-11T01:34:37.281Z</blogger:created>
+    <published>2009-09-11T01:48:00Z</published>
+    <updated>2011-09-11T02:01:38.186Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='GSP'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='trigonometry'/>
+    <blogger:filename>/2009/09/geometric-programming-and-trig.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

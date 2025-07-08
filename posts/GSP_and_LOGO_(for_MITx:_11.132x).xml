@@ -1,0 +1,89 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-7204984417762948802</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>GSP and LOGO (for MITx: 11.132x)</title>
+    <content type='html'>&lt;div style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 13px;"&gt;
+&lt;i&gt;&lt;b&gt;Note&lt;/b&gt;: This post is an assignment for the Edx MOOC &lt;a href="https://www.edx.org/course/mitx/mitx-11-132x-design-development-2686#.VEW6OZV0zIU"&gt;MITx: 11.132x Design and Development of Educational Technology&lt;/a&gt;. The assignment had to be posted online, and since it relates somewhat to the themes of this blog, I put it here.&lt;/i&gt;&lt;/div&gt;
+&lt;div style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 13px;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div style="background-color: white; color: #222222; font-family: arial, sans-serif;"&gt;
+&lt;span style="font-size: large;"&gt;Educational Technology Then and Now: Geometer's Sketchpad and LOGO&lt;/span&gt;&lt;/div&gt;
+&lt;div style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 13px;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 13px;"&gt;
+&lt;a href="http://www.dynamicgeometry.com/"&gt;Geomter's Sketchpad&lt;/a&gt; (GSP) is an example of current educational technology that is based on design and educational principles that can generally be described as constructionist. Widely used in contemporary classrooms, GSP is based on ideas about computer-human interaction that date back to the 1960s, and bears interesting points of comparison with LOGO, an educational technology which approaches a similar subject from a distinctly different direction.&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh77yY6JOvBviWCuVn49Wd8F4fE-Ft9aSjkzqE-4eczN4ShUI8iTz8UKYwaAalriukaZMonO_7rfSdhcc9Faudy2wq8HvJOrrbEGBUuk3mhEvpeKFcqN0Jcwm6oJjf8jEErPjOwr5ZqVrA/s1600/colourful_pythagoras_tree.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh77yY6JOvBviWCuVn49Wd8F4fE-Ft9aSjkzqE-4eczN4ShUI8iTz8UKYwaAalriukaZMonO_7rfSdhcc9Faudy2wq8HvJOrrbEGBUuk3mhEvpeKFcqN0Jcwm6oJjf8jEErPjOwr5ZqVrA/s1600/colourful_pythagoras_tree.jpg" height="224" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 13px;"&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;i&gt;A classic GSP construction: Pythagoras Tree&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 13px;"&gt;
+GSP is an environment for dynamic geometry exploration - it allows uses to start from some simple elements (point, line segments, circles) and construct sophisticated geometric forms. Transformations, iterations, and animation can take these forms well beyond what can be done with ruler and compass. The dynamic element resides in how the initial inputs (the free points) can be dragged, mapped, or animated while preserving the structures that were constructed with them. GSP is commonly used in middle school and high school, but is also used in elementary school settings, and at the university level - its simple, yet powerful design make it useable in many settings.&amp;nbsp;&lt;/div&gt;
+&lt;div style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 13px;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 13px;"&gt;
+In the 1980s, the original developers of GSP based their ideas on earlier earlier work from the 1960s on human-computer interaction (the &lt;a href="http://en.wikipedia.org/wiki/Sketchpad"&gt;SKETCHPAD program&lt;/a&gt;, 1967), and ultimately on the concepts of Euclidian geometry, which date back over two millennia. &amp;nbsp;Since the time of its release in the early 1990s, GSP has gone through several iterations, maturing and inspiring other dynamic geometry software, such as &lt;a href="http://www.geogebra.org/"&gt;GeoGebra&lt;/a&gt;.&lt;/div&gt;
+&lt;div style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 13px;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 13px;"&gt;
+The way that GSP embodies the concepts of Euclidian geometry make it educational without seeming to explicitly trying to teach. It allows students to act as practitioners, creating their own works by providing them the means of discovering and applying geometric concepts. This is one of its sources of charm and power - presenting itself as a tool that is useful both to learners, to general geometry enthusiasts, and mathematicians.&lt;br /&gt;
+&lt;br /&gt;
+One difficulty that teachers and students can initially encounter with GSP is its complete openness: it presents a blank canvass, with no prompts, few tool icons, and a set of menu items that seem to be disabled. Only when the correct inputs are highlighted do constructions become possible: when two points are selected, you can opt to construct a circle, line, segment or ray. When three points are selected you can choose to make a triangle, or an arc. As you learn what elements are required to construct new elements, you can begin to use geometric constructions to create something interesting. The pitfall that some students fall into is to treat GSP as a "drawing" program instead of a "constructing" program. Teachers find it difficult sometimes to lead students through the many steps required to build up a sketch. A solution to both dilemmas is to have students add to and explore pre-existing sketches, a GSP technique sometimes called the "SWIMMM" approach (Start with Immediately Meaningful Mathematical Models).&lt;/div&gt;
+&lt;div style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 13px;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 13px;"&gt;
+&lt;a href="http://en.wikipedia.org/wiki/Logo_(programming_language)"&gt;LOGO&lt;/a&gt;, developed by Seymore Papert and others around 1967, introduced a new language and perspective for creating geometric forms and learning programming concepts: turtle graphics. Allowing students to draw on a canvas by providing simple procedural commands to move a point (sometimes conceptualized as a turtle with a pen tied to its tail), LOGO was an environment and programming language of surprising power and expressiveness.&lt;br /&gt;
+&lt;br /&gt;
+Educational technology is sometimes evaluated by the "low floor, high ceiling, wide wall" rubric, meaning that it should be easy to get started with, be empowering, and admit a wide range of expressiveness. Classical implementations of LOGO present difficulties to young learners because of the failure-prone nature of typing in the sometimes tricky syntax into command-line style interpreters. More contemporary implementations of LOGO help overcome this problem: The "pen" and "movement" operations in &lt;a href="http://scratch.mit.edu/"&gt;SCRATCH&lt;/a&gt; provide a LOGO-like environment that makes writing programs much easier. The &lt;a href="http://snap.berkeley.edu/"&gt;SNAP&lt;/a&gt; extended implementation of SCRATCH features a logo-like turtle-cursor, making it easy to get started with turtle graphics. &amp;nbsp;&amp;nbsp;&lt;/div&gt;
+&lt;div style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 13px;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivr7eArw3q3Q30OclubsLuIv7_1mA6TOkq5HVyeogcLfe9vrqXS_BLwgU_bn5MUGC2km6KRiaOfxxx7hoM9KuTMzzCnOLA3K4O0Qh3OmGeg_hLP2U-X4NjXBguwja1mBUeKnLjxOcNGlc/s1600/logo_snap2.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivr7eArw3q3Q30OclubsLuIv7_1mA6TOkq5HVyeogcLfe9vrqXS_BLwgU_bn5MUGC2km6KRiaOfxxx7hoM9KuTMzzCnOLA3K4O0Qh3OmGeg_hLP2U-X4NjXBguwja1mBUeKnLjxOcNGlc/s1600/logo_snap2.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 13px;"&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;i&gt;LOGO-style turtle graphics in SNAP&lt;/i&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 13px;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 13px;"&gt;
+LOGO and GSP both greet their user with a blank canvas and an invitation to create geometric shapes and patterns through interaction and experimentation, but each provides a very different interactive experience. LOGO presents a "turtle's eye view" of geometry - a procedural exploration of analytic (Cartesian) geometry where a kinesthetic approach that engages learners' &lt;a href="http://en.wikipedia.org/wiki/Proprioception"&gt;proprioception&lt;/a&gt; is used to navigate the Cartesian plane. GSP provides a more traditional synthetic (Euclidian) approach, where the geometer has a more global view (as opposed to the turtle's necessarily local one).&amp;nbsp;&lt;/div&gt;
+&lt;div style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 13px;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDna8DTEwq7cIGS-3IGrMKo8hyXC1KXfnx5vHHiZd517ROXNwPPZt5wV_DkxzNax5md7o3ROFttW9iS9w1l2vP9ZpOTo0tj_e84BvIljP483Lro4SrhBBPbsYzOl9IymGOCfgGl83mXVA/s1600/gsp2.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDna8DTEwq7cIGS-3IGrMKo8hyXC1KXfnx5vHHiZd517ROXNwPPZt5wV_DkxzNax5md7o3ROFttW9iS9w1l2vP9ZpOTo0tj_e84BvIljP483Lro4SrhBBPbsYzOl9IymGOCfgGl83mXVA/s1600/gsp2.JPG" height="253" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 13px;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 13px;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 13px;"&gt;
+In addition to offering different perspectives on geometry, GSP and LOGO also present different views of human-computer interaction: two different approaches to computer programming. Learners engaging with LOGO learn the fundamentals of computer programming in a rather direct way: the LOGO language's procedural flow and its constructs make it look very much like many other programming languages. GSP also introduces programming ideas, but more abstractly and less recognizably. The Pythagoras tree sketch, shown at the top of this post uses fundamental programming ideas of iteration (to create the diminishing repeated elements of the sketch) and parameterization (the colour of the squares is a function of their area). Both LOGO and GSP help their users learn how to provide input and instructions to computers (i.e. the basics of computer programming), but in very different ways.&lt;/div&gt;
+&lt;div style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 13px;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 13px;"&gt;
+Viewed as educational technologies, LOGO and GSP both follow a constructive approach, providing open environments that encourage an affective and aesthetic engagement with learning mathematics. The differences in approach taken by these tools to the same learning goals show how varied educational technology can be.&lt;br /&gt;
+&lt;/div&gt;
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2014-10-20T01:23:31.834Z</blogger:created>
+    <published>2014-10-21T02:51:00Z</published>
+    <updated>2014-10-21T02:51:50.303Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='GSP'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='mathematics'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='assignment'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='LOGO'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='technology'/>
+    <blogger:filename>/2014/10/gsp-and-logo-for-mitx-11132x.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

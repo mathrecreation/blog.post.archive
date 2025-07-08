@@ -1,0 +1,134 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-4193098737555927065</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>generating celtic knot patterns</title>
+    <content type='html'>This post describes an algorithm for generating &lt;a href="https://en.wikipedia.org/wiki/Celtic_knot"&gt;celtic knot patterns&lt;/a&gt;&amp;nbsp;-&amp;nbsp;ornamental knots, links, and braids that are laid out in a grid, like the one below:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimd8VA2rV_HvFMhu15git_yx9NcNG-VBJ9MAtfh1GB4yZsUC8uWI5-X2YJqRaZGhdGUnOZP5kDevYxjoPNoYtMZZ1n5_byfKfbf3zJ0he47GFH6egN-EFpWxVVQlNksyyzbHsx-wx89Vg/s1600/simple2.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="408" data-original-width="266" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimd8VA2rV_HvFMhu15git_yx9NcNG-VBJ9MAtfh1GB4yZsUC8uWI5-X2YJqRaZGhdGUnOZP5kDevYxjoPNoYtMZZ1n5_byfKfbf3zJ0he47GFH6egN-EFpWxVVQlNksyyzbHsx-wx89Vg/s320/simple2.png" width="208" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+If you would rather skip reading about how these are generated and start playing around with creating patterns like the one above, please try out the &lt;a href="https://dmackinnon1.github.io/celtic/"&gt;editor&lt;/a&gt; and &lt;a href="https://dmackinnon1.github.io/celtic/random.html"&gt;random knot-pattern generator&lt;/a&gt; that I've posted on my &lt;a href="https://github.com/dmackinnon1"&gt;github&lt;/a&gt; &lt;a href="https://dmackinnon1.github.io/"&gt;pages&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+I have tried out various strategies for generating these patterns (for example,&amp;nbsp;&amp;nbsp;&lt;a href="https://www.mathrecreation.com/2008/07/knot-tiles.html"&gt;using&lt;/a&gt; &lt;a href="https://dmackinnon1.github.io/quiltic/"&gt;tiles&lt;/a&gt;), but the method described here is closest to how I like to draw them by hand, as described in the book by Aidan Meehan,&amp;nbsp;&lt;i&gt;Celtic Design: Knotwork - The Secret Method of the Scribes.&lt;/i&gt;&amp;nbsp;The variation offered here is intended to suggest how to write a program to generate these patterns based on a simplified version of the techniques in Meehan's book.&lt;br /&gt;
+&lt;br /&gt;
+A knot pattern is made up of strands that represent string or chord, and the gaps between the woven strands. The technique described below actually involves drawing the gaps, with the strands emerging out of the negative space between the gaps. Essentially, a grid of dots are drawn, and lines are selectively drawn between adjacent dots - these become the gaps between the strands. Additional rules are applied to connect the dots to create a woven effect, and the dots are replaced with polygons to&amp;nbsp; create a more stylised effect.&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;1. define primary grid points&lt;/b&gt;&lt;br /&gt;
+A knot pattern is laid out on a square coordinate system using a set of "primary" points that are set at one unit distances in the horizontal and vertical directions. We'll say that (0,0) is the top left corner of the grid, and the positive &lt;i&gt;x&lt;/i&gt; direction is towards the right and positive &lt;i&gt;y&lt;/i&gt; direction is down.&amp;nbsp; The dimensions of the primary grid must be odd (there must be a total odd number of dots in both the &lt;i&gt;x&lt;/i&gt; and &lt;i&gt;y&lt;/i&gt; directions). Because we are starting with (0,0) in the top left, the top right point (&lt;i&gt;x&lt;/i&gt;, 0) must have x even (4 in the example below), and the bottom left point (0,&lt;i&gt;y&lt;/i&gt;) must have y even (6 in the example below).&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjosh7Ni18WcYGfWgBPvC-FVCw2AST3js4-l4X6zPx2Dr031FSTlJWd_1Ibyl2kVH7XRhpWMKs8FKhPIa20E-c-uJfTctvD43UDgln-ON_VgfyG6iqs2Dhjk7PAyWxLneGoJXeC3ix5cTs/s1600/primaryGrid.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="390" data-original-width="325" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjosh7Ni18WcYGfWgBPvC-FVCw2AST3js4-l4X6zPx2Dr031FSTlJWd_1Ibyl2kVH7XRhpWMKs8FKhPIa20E-c-uJfTctvD43UDgln-ON_VgfyG6iqs2Dhjk7PAyWxLneGoJXeC3ix5cTs/s320/primaryGrid.png" width="266" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;the primary grid&lt;/i&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;i&gt;(Note: In Meehan's account, things are layered a little differently so what we are calling the primary grid is referred to as the tertiary grid.)&lt;/i&gt;&lt;br /&gt;
+&lt;i&gt;&lt;br /&gt;&lt;/i&gt;
+&lt;b&gt;2. identify secondary grid points&lt;/b&gt;&lt;br /&gt;
+Some of the points on the grid are special - these form a secondary grid. The special secondary grid points are those where both &lt;i&gt;x&lt;/i&gt; and &lt;i&gt;y&lt;/i&gt; values are even, or both are odd.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgR_4j3vL9RjjbR96Qz8MlrhojtbFeDXOBhSv3_5T52Q9NKf3ZIAaXBr3eg_MSOT2b6ktGblCJfgxM8qXN5qn_s6brKLwbwmbUKScWsOj8p8Ksf8LPslAqUwXR6jX37nA4MogIjhxZlwdM/s1600/secondaryGrid.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="389" data-original-width="319" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgR_4j3vL9RjjbR96Qz8MlrhojtbFeDXOBhSv3_5T52Q9NKf3ZIAaXBr3eg_MSOT2b6ktGblCJfgxM8qXN5qn_s6brKLwbwmbUKScWsOj8p8Ksf8LPslAqUwXR6jX37nA4MogIjhxZlwdM/s320/secondaryGrid.png" width="262" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;the secondary grid&lt;/i&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+In step 4 below, the secondary grid points where both &lt;i&gt;x&lt;/i&gt; and &lt;i&gt;y&lt;/i&gt; are even will be referred to as &lt;i&gt;even nodes&lt;/i&gt;, and those that have both &lt;i&gt;x&lt;/i&gt; and &lt;i&gt;y&lt;/i&gt; odd will be referred to as &lt;i&gt;odd nodes&lt;/i&gt;. The requirement to have the primary grid have odd dimensions (step 1) was needed to ensure that the corners of the pattern are all secondary points.&lt;br /&gt;
+&lt;i&gt;&lt;br /&gt;&lt;/i&gt;
+&lt;b&gt;3. draw a quadrilateral around the nodes&lt;/b&gt;&lt;br /&gt;
+Each node will become a gap in the node pattern - the basic shape of a gap is quadrilateral whose vertices lie 1/4 unit above, below, and to the right and left of each node.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8d6cGYlgGmwvbrGk9Yv-CgmJjg2gnudtjnpwUzVtKRa3VswjtSmPPK7HzS5WUSQxOHP-LVquc1lc8sRNDS0BwyZrw9RVdE0nYa-o49VCzBVeuHv5y2ze6vOyZgBtHisZXCtvJLopv-3U/s1600/single_node.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="460" data-original-width="494" height="185" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8d6cGYlgGmwvbrGk9Yv-CgmJjg2gnudtjnpwUzVtKRa3VswjtSmPPK7HzS5WUSQxOHP-LVquc1lc8sRNDS0BwyZrw9RVdE0nYa-o49VCzBVeuHv5y2ze6vOyZgBtHisZXCtvJLopv-3U/s200/single_node.png" width="200" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;the basic node polygon&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+With all of the polygons drawn for the nodes, we get a grid of 'diamonds' like this:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjT7WBqBMQsNmsPVQQsjeKROgfm-_GR_nMingwLYBTLweFA_qfrf-m4P8zdaY2md5AJFpRnfD4Z8x7QoJXZAt4j9eZBtb79Nyrj0htJQqGsF1pzzqifc8ZaR1I4SmeGBLBiWM46y2VWmnE/s1600/nodes_drawn.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="504" data-original-width="381" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjT7WBqBMQsNmsPVQQsjeKROgfm-_GR_nMingwLYBTLweFA_qfrf-m4P8zdaY2md5AJFpRnfD4Z8x7QoJXZAt4j9eZBtb79Nyrj0htJQqGsF1pzzqifc8ZaR1I4SmeGBLBiWM46y2VWmnE/s320/nodes_drawn.png" width="241" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;node polygons drawn for &lt;br /&gt;secondary grid points&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;4. extend lines from node polygon vertices&lt;/b&gt;&lt;br /&gt;
+To create a woven affect, we extend lines from the vertices of each node polygon&lt;br /&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglPSyn4EGHPz0Ejv-5qZeF_xb1TjC8S5ovqVSB9bzUwnPP8Oz1uJgdqjLF6Zmmavq4RYeqiJk5pp2DTYKXb6BW6L8EHZpzIZsf91C1d8sHGlW47r_mmNFhMZh2i_K76uJVC9EPaur6Aao/s1600/even_odd2.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="340" data-original-width="681" height="198" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglPSyn4EGHPz0Ejv-5qZeF_xb1TjC8S5ovqVSB9bzUwnPP8Oz1uJgdqjLF6Zmmavq4RYeqiJk5pp2DTYKXb6BW6L8EHZpzIZsf91C1d8sHGlW47r_mmNFhMZh2i_K76uJVC9EPaur6Aao/s400/even_odd2.png" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Doing this for all nodes creates an image like the one below.￼&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9ti4KDKRkERLjgbuG_TN0aaVtxFeslJeOHl_DgyZq8qq9mfVAP-3gkXFXGDVE1BIy6fr1OkDxhVtoV5zWZGgqTkmu-kFdMd3aWvuJgxWysXH61V7zlhrfMhHcIaUL1HUMTnX6KlHnkyo/s1600/with_node_lines.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="496" data-original-width="376" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9ti4KDKRkERLjgbuG_TN0aaVtxFeslJeOHl_DgyZq8qq9mfVAP-3gkXFXGDVE1BIy6fr1OkDxhVtoV5zWZGgqTkmu-kFdMd3aWvuJgxWysXH61V7zlhrfMhHcIaUL1HUMTnX6KlHnkyo/s320/with_node_lines.png" width="242" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;lines extended from node &lt;br /&gt;polygon vertices&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+If you exchange the rules for odd and even nodes, you end up with a correct "opposite" weave: strands that were going under instead go over, and vice-versa.&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;5&lt;i&gt;. &lt;/i&gt;place barriers, drop lines&lt;/b&gt;&lt;br /&gt;
+In the above image, the simple woven pattern seems to extend off the sides. To create an edge boundary for the pattern, and to create more interesting twists and turns, we follow some rules for drawing boundaries.&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;boundary rule 1&lt;/i&gt;: A boundary can connect any two non-diagonally adjacent nodes (secondary points), as long as rule 2 is not violated. The midpoint of a boundary segment will be a primary point.&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;boundary rule 2&lt;/i&gt;: A primary point cannot have more than one boundary going through it.&lt;br /&gt;
+&lt;br /&gt;
+The example below shows boundaries drawn along the edge of the image, as well as some internal boundaries.&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZyr6mErAUcHb0gcpoGoDH9ZeBiYOl3D3ZLoSb-FVdGhlSZp8_7vt_SmW8jo4nQlbyKcobYLvRDFuku7Isi59tyXhHuO4recEU-7-crqbbntPiK-iWlyIt3U0MulmgT7yem9wqeuhru4o/s1600/boundaries_drawn.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="493" data-original-width="375" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZyr6mErAUcHb0gcpoGoDH9ZeBiYOl3D3ZLoSb-FVdGhlSZp8_7vt_SmW8jo4nQlbyKcobYLvRDFuku7Isi59tyXhHuO4recEU-7-crqbbntPiK-iWlyIt3U0MulmgT7yem9wqeuhru4o/s320/boundaries_drawn.png" width="243" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;legal boundary examples, showing&lt;br /&gt;primary and secondary points &lt;br /&gt;(node polygons are hidden)&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+Now that we have introduced boundaries, we refine how lines are drawn coming out of the nodes (adjusting step 4):&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;node-line rule&lt;/i&gt;: Only draw a line from a node vertex if there is no boundary across from the vertex.&lt;br /&gt;
+&lt;br /&gt;
+Applying the node-line rule, and drawing the polygons (and dropping the primary grid points) we get an image like the one below, where the weaving respects the boundaries - the strands (in white) that emerge seem to bounce off the edges and twist to avoid internal boundaries.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsN-8QKRp-eV12w9GQq93rf2gTQ6ofp6QIznQZyG_gsbQsU2Xr6vyDe1P19EM31WveWpOJ_P5bqvx0vw7fbM3kNVYCyltPhNFDdIahcmzvt7m9ee4g0kV_kCn1tYDE4JQ6MXfOLhmuzOI/s1600/lines_adjusted.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="490" data-original-width="372" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsN-8QKRp-eV12w9GQq93rf2gTQ6ofp6QIznQZyG_gsbQsU2Xr6vyDe1P19EM31WveWpOJ_P5bqvx0vw7fbM3kNVYCyltPhNFDdIahcmzvt7m9ee4g0kV_kCn1tYDE4JQ6MXfOLhmuzOI/s320/lines_adjusted.png" width="242" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;node polygons, boundaries, and lines&amp;nbsp;&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;b&gt;6. refine node polygons&lt;/b&gt;&lt;br /&gt;
+We can apply some styling rules to make the pattern look smoother - these changes to our original node polygon (step 3) will be based on whether or not there are boundaries next to the node.&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;node-style rule&lt;/i&gt;: Truncate (chop off) the vertex of a node polygon that is next to a boundary.&lt;br /&gt;
+&lt;br /&gt;
+Below is the same pattern above, but with the node polygons following the node-style rule. You can see the effects of the rule most clearly by looking at the nodes near the edge of the image, and particularly the corner nodes.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9m9KpAxLJn7ATTTQ34DGG_Uu6pXweOF8iDKhR3XSEaPi_jYydQI073bfmBJ8JMwfJoz6sxQZkUFganacZ1WKAvuMxkFDb857KLVVU8v86Pw-RYPoXkwRFfbgYvUdMms0lPUm2May1yEw/s1600/truncated_nodes.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="489" data-original-width="369" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9m9KpAxLJn7ATTTQ34DGG_Uu6pXweOF8iDKhR3XSEaPi_jYydQI073bfmBJ8JMwfJoz6sxQZkUFganacZ1WKAvuMxkFDb857KLVVU8v86Pw-RYPoXkwRFfbgYvUdMms0lPUm2May1yEw/s320/truncated_nodes.png" width="241" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;pattern using truncated &lt;br /&gt;node polygons&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+It is possible to add further adjustments to how the nodes and lines are drawn to create smoother looking knot patterns. I have experimented a bit, but have not obtained great results. Here's an example of the same patter above that adjusts the node polygons and line thicknesses:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7XuJ2riCehsTIEnXEFv6afE-KvjGTGysErk1OIGFV9dmAO0c1EKyaBvUkEQ2LeoDAjDKiEGVJjfUk70DSn0zGI3IkV85lKYsCutVTOA_7TmBaEzTfR7Lx9srbxGpkWC1PWCE2B70y0a0/s1600/curvy.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="495" data-original-width="372" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7XuJ2riCehsTIEnXEFv6afE-KvjGTGysErk1OIGFV9dmAO0c1EKyaBvUkEQ2LeoDAjDKiEGVJjfUk70DSn0zGI3IkV85lKYsCutVTOA_7TmBaEzTfR7Lx9srbxGpkWC1PWCE2B70y0a0/s320/curvy.png" width="240" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;a slightly different style applied &lt;br /&gt;to the knot pattern&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+I hope you enjoy playing around with this - either implementing the process described above yourself or playing around with this&amp;nbsp;&lt;a href="https://dmackinnon1.github.io/celtic/"&gt;version&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2018-07-29T21:08:02.177Z</blogger:created>
+    <published>2018-09-06T18:13:00Z</published>
+    <updated>2018-11-29T15:46:16.577Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2018/09/generating-celtic-knot-patterns.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

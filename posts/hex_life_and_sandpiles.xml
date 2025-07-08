@@ -1,0 +1,66 @@
+<>
+  <entry>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-7094626415722286765</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>hex life and sandpiles</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZIfPjg-34weQa7KTf1CKKzxXf6uPFWFG1FfJbXGO0NzhCwpnmcHSaxDBUWHVarWJXzyi_5Hf5gtuRvgdtVlQdSUjcIqtkqTcfdFnS1Dat8O_1QvuB0Gy7oIH-Ei2g3BA8lmthcgfHTW4/s1600/screen_capt.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZIfPjg-34weQa7KTf1CKKzxXf6uPFWFG1FfJbXGO0NzhCwpnmcHSaxDBUWHVarWJXzyi_5Hf5gtuRvgdtVlQdSUjcIqtkqTcfdFnS1Dat8O_1QvuB0Gy7oIH-Ei2g3BA8lmthcgfHTW4/s1600/screen_capt.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+As I mentioned in &lt;a href="http://www.mathrecreation.com/2012/10/hex-life.html"&gt;a previous post&lt;/a&gt;, I've been meaning to learn more about &lt;a href="http://en.wikipedia.org/wiki/Cellular_automaton"&gt;cellular automata&lt;/a&gt;. Maybe in preparation for more formal learning, or maybe instead of it, I've been playing around with some simple examples.&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Another Hex Life Critter&lt;/b&gt;&lt;br /&gt;
+The classic cellular automata example is &lt;a href="http://en.wikipedia.org/wiki/Conway's_Game_of_Life"&gt;Conway's Game of Life&lt;/a&gt;. One thing I've been playing with here is using a grid based on&amp;nbsp;&lt;a href="http://www.pages.drexel.edu/~bel23/HCP.html"&gt;hexagonal-close-packed circles&lt;/a&gt; instead of the usual squares.&lt;br /&gt;
+&lt;br /&gt;
+Although this hex life is not as exciting or explosive as the standard square grid Game of Life, it does yield some nice stable patterns and oscillators (in &lt;a href="http://www.mathrecreation.com/2012/10/hex-life.html"&gt;the earlier post&lt;/a&gt; I mentioned some windmills and blinking diamonds). The picture at the top of this post is of another formation that includes a repeating 3-cycle.&lt;br /&gt;
+&lt;br /&gt;
+Reasoning out why a pattern stays, decays, or oscillates reminds me of playing &lt;a href="http://www.freeminesweeper.org/"&gt;MineSweeper&lt;/a&gt;, without the explosions. For a given pattern, look and see how many "live" cells are around each cell, and decide whether or not that cell will stay the same or change state, based on the rules.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgurhVssEStVDtGahPOmj4tbGg57DtNXqzmnjz46eN8K0Y-Eb5d2km3sQNmgJ7UcNfrmYZA0GUwV59pQV8s4IzLOqHiZBmxHdPieROZH1X0Z0-0fhP8noQSzx3c4JglGOoGlQMhe8HgwSU/s1600/3cycle.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="300" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgurhVssEStVDtGahPOmj4tbGg57DtNXqzmnjz46eN8K0Y-Eb5d2km3sQNmgJ7UcNfrmYZA0GUwV59pQV8s4IzLOqHiZBmxHdPieROZH1X0Z0-0fhP8noQSzx3c4JglGOoGlQMhe8HgwSU/s400/3cycle.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+The standard Game of Life rules, used here, are:&lt;br /&gt;
+&lt;ol&gt;
+&lt;li&gt;Any live cell with fewer than two live neighbours dies, as if caused by under-population. (Starvation)&lt;/li&gt;
+&lt;li&gt;Any live cell with two or three live neighbours lives on to the next generation. (No Change)&lt;/li&gt;
+&lt;li&gt;Any live cell with more than three live neighbours dies, as if by overcrowding. (Overcrowding)&lt;/li&gt;
+&lt;li&gt;Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction. (Birth)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div&gt;
+There are lots of other rules that give interesting patterns -&amp;nbsp;&lt;a href="http://en.wikipedia.org/wiki/Abelian_sandpile_model"&gt;sandpiles&lt;/a&gt;, for example.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;b&gt;Hex Sandpiles&lt;/b&gt;&lt;br /&gt;
+I learned about these from a recent post on &lt;a href="http://mathmunch.wordpress.com/2012/11/12/sandpiles-prime-pages-and-six-dimensions-of-color/"&gt;Math Munch&lt;/a&gt;.&amp;nbsp;Unlike the standard Game of Life, sandpile cells have many states - not just dead or alive. The pictures below show some sandpiles on a hexagonal grid where there are six states, state 0 is black, state 6 is white, and states 1-5 are shades of grey.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSeXVyhSeiqC3_gGMaDvYt1GfMkklM8my03hiuYBrIeWdmbkpUjq8UihgpbJv5Ak29czPPV6LuQUidynKPTUoYdQwd9RIwooSTWV6W6NDb0KxUjwRXbPsfaokE74NfABQmuhGHmq7WCXc/s1600/header1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="173" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSeXVyhSeiqC3_gGMaDvYt1GfMkklM8my03hiuYBrIeWdmbkpUjq8UihgpbJv5Ak29czPPV6LuQUidynKPTUoYdQwd9RIwooSTWV6W6NDb0KxUjwRXbPsfaokE74NfABQmuhGHmq7WCXc/s320/header1.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Initially, all cells in the sandpile have state 0 (no grains of sand in that cell). One particular cell, the center of the sandpile, keeps having its state incremented (sand is pouring onto that cell). The key rule for sandpiles is that once a cell reaches its maximum state (full of sand) it spills out into its neighbours: once a cell reaches state 6, it gets reset to state 0 and all its six neighbours have their state incremented by 1.&lt;br /&gt;
+&lt;br /&gt;
+This leads to a symmetric growing pattern that, when done on a hexagonal board, creates patterns that look like snowflakes. What is interesting to watch with these is that things can progress quite slowly until suddenly the whole pile can get into a state where there are cascading changes as waves of "sand" ripple through the whole pattern.&lt;br /&gt;
+&lt;br /&gt;
+Here are some examples of the sort of things you'll see while watching sandpiles grow&amp;nbsp;(on the white background below, state 0 is white and state 6 is black):&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj407QwaT72kshq3atoBs9xGa9c88ARmSAk3Z7ezhhBU_9IBRIIAqGHmXV9DztiKFBogfBKgzUuVsAxP6O5DEBFIm4jcOiGhuF1AcgnVx-3T5WYf4CzdJ92iBDhy9_mY2gx_VletThCiK8/s1600/growing.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="400" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj407QwaT72kshq3atoBs9xGa9c88ARmSAk3Z7ezhhBU_9IBRIIAqGHmXV9DztiKFBogfBKgzUuVsAxP6O5DEBFIm4jcOiGhuF1AcgnVx-3T5WYf4CzdJ92iBDhy9_mY2gx_VletThCiK8/s400/growing.JPG" width="363" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/div&gt;
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2012-10-25T03:04:22.134Z</blogger:created>
+    <published>2012-12-05T18:48:00Z</published>
+    <updated>2012-12-07T03:53:36.486Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='mathematics'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <blogger:filename>/2012/12/hex-life-and-sandpiles.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

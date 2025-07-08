@@ -1,0 +1,54 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-5790699721019453060</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Harmonic Denominator Number Triangle</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxD2LcsvYLkL7NSH0vRu7_VVueaSrr0Afc3AWtJFfanIPVtvWEbzdH_xflOgIWBX8k4PdWq93TUaFWd0ZkOCUO0TFTb7Bd-jXXCQeYKXRZX57get3t9tIPPxPHE0ze121upKVIMUl60sU/s1600-h/reciprocal_harmonic.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxD2LcsvYLkL7NSH0vRu7_VVueaSrr0Afc3AWtJFfanIPVtvWEbzdH_xflOgIWBX8k4PdWq93TUaFWd0ZkOCUO0TFTb7Bd-jXXCQeYKXRZX57get3t9tIPPxPHE0ze121upKVIMUl60sU/s400/reciprocal_harmonic.jpg" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+This number triangle is made up of the denominators of the &lt;a href="http://mathworld.wolfram.com/LeibnizHarmonicTriangle.html"&gt;Leibniz Harmonic Triangle&lt;/a&gt;. From the &lt;a href="http://mathrecreation.blogspot.com/2009/10/three-number-triangles-two-telescoping.html"&gt;earlier post&lt;/a&gt; about that number triangle, you can see that there are two ways of generating the Harmonic Denominator Triangle: &lt;br /&gt;
+&lt;br /&gt;
+1. take the reciprocal of the entries in the Leibniz Harmonic Triangle; or&lt;br /&gt;
+2. multiply the entries of Pascal's Triangle by n+d (here we are using the 'triangular number style' indexing of Pascal's Triangle, rather than the usual 'binomial coefficient style' indexing).&lt;br /&gt;
+&lt;br /&gt;
+The entries of the Harmonic Denominator Triangle ($g^d_n$) are given by:&lt;br /&gt;
+&lt;br /&gt;
+\[g^d_n = \frac{1}{h^d_n}\]&lt;br /&gt;
+and&lt;br /&gt;
+\[g^d_n = (n+d)t^d_n\]&lt;br /&gt;
+Where $h^d_n$ are the entries in the Leibniz Harmonic Triangle and $t^d_n$ are the entries in Pascal's Triangle. The connection to the triangular numbers gives us the general formula:&lt;br /&gt;
+&lt;br /&gt;
+\[g^d_n = \frac{n(n+1)\cdots(n+d)}{d!}\]&lt;br /&gt;
+&lt;br /&gt;
+I am looking forward to learning more about this number triangle (and the Leibniz Harmonic Triangle too). If you make use of &lt;a href="http://oeis.org/"&gt;OEIS&lt;/a&gt;, you'll see that the The HDT contains a lot of well-known sequences.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_eyCALnLkV0voZWsRmH6zXMPdriDYZ72FeeSBSIUnRhWyCk6py3CAqdgLOQ2-sVgIv4v8NfWQX6IQema5QlveSMs-jCvii69PMwc031tPsSVyPCPpD2Jbb4V1P_mFfj48CTt4N7uShu8/s1600-h/harm_denom_sequences.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_eyCALnLkV0voZWsRmH6zXMPdriDYZ72FeeSBSIUnRhWyCk6py3CAqdgLOQ2-sVgIv4v8NfWQX6IQema5QlveSMs-jCvii69PMwc031tPsSVyPCPpD2Jbb4V1P_mFfj48CTt4N7uShu8/s400/harm_denom_sequences.jpg" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+A quick look at the rows and columns and you'll find the a bunch of well-known sequences: &lt;a href="http://oeis.org/search?q=A005430"&gt;A005430&lt;/a&gt;, &lt;a href="http://www.research.att.com/~njas/sequences/?q=A002457"&gt;A002457&lt;/a&gt;, &lt;a href="http://www.oeis.org/search?q=A002378"&gt;A002378&lt;/a&gt;, &lt;a href="http://www.oeis.org/search?q=%20A027480"&gt;A027480&lt;/a&gt;, and &lt;a href="http://www.research.att.com/~njas/sequences/?q=A033488"&gt;A033488&lt;/a&gt;, to name a first few.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+The whole triangle has an entry in OEIS: &lt;a href="http://oeis.org/search?q=A003506"&gt;A003506&lt;/a&gt;. One of the comments in the OEIS entry for the HDT points out a neat way to express the relationship between Pascal's Triangle and the Harmonic Denominator Triangle.&amp;nbsp;The entries of the &lt;i&gt;k-&lt;/i&gt;th row of the HDT are the coefficients&amp;nbsp;of the first derivative of a polynomial whose coefficients are the entries of the (&lt;i&gt;k&lt;/i&gt;+1)-th row of Pascal's Triangle. More specifically, the coefficients&amp;nbsp;of $(x+1)^{k+1}$ give you the &lt;i&gt;k&lt;/i&gt;+1 row of Pascal's Triangle, while the coefficients&amp;nbsp;of $\frac{d}{dx}(x+1)^{k+1}$ give you the &lt;i&gt;k-&lt;/i&gt;th row of the Harmonic Denominator Triangle.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifKV8dLuEluYxUkRMn1_pMTy5969v8_qkDixM64tdHp0_mJTPqaLck6X8QpbEAZIf_fXw-YLvBYFggi6R4Y_bOrtfwREug_mUH8A350P_YLRH3lE3coavPaGu43ghV0vfTzGwOMO5iud4/s1600-h/derivative.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifKV8dLuEluYxUkRMn1_pMTy5969v8_qkDixM64tdHp0_mJTPqaLck6X8QpbEAZIf_fXw-YLvBYFggi6R4Y_bOrtfwREug_mUH8A350P_YLRH3lE3coavPaGu43ghV0vfTzGwOMO5iud4/s400/derivative.jpg" /&gt;&lt;/a&gt;&lt;/div&gt;
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2009-10-27T16:32:11.528Z</blogger:created>
+    <published>2009-10-27T16:55:00Z</published>
+    <updated>2012-11-09T00:59:01.659Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='polygonal'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='pascal triangle'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='patterns'/>
+    <blogger:filename>/2009/10/harmonic-denominator-number-triangle.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

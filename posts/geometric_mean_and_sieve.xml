@@ -1,0 +1,85 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-8771912484961561649</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>geometric mean and sieve</title>
+    <content type='html'>We usually think of the &lt;i&gt;mean &lt;/i&gt;of two numbers &lt;i&gt;a&lt;/i&gt; and &lt;i&gt;c&lt;/i&gt; as their average &lt;i&gt;b&lt;/i&gt; = 1/2(&lt;i&gt;a&amp;nbsp;&lt;/i&gt;+ &lt;i&gt;c&lt;/i&gt;). Another way to think of &lt;i&gt;b&lt;/i&gt; is that it is the number that makes &lt;i&gt;a&lt;/i&gt;, &lt;i&gt;b&lt;/i&gt;, &lt;i&gt;c&lt;/i&gt; an arithmetic sequence, so &lt;i&gt;b&lt;/i&gt; is more properly called the&lt;i&gt; arithmetic mean&lt;/i&gt; of &lt;i&gt;a&lt;/i&gt; and &lt;i&gt;c&lt;/i&gt;. Similarly, we can find the geometric mean of two numbers, &lt;i&gt;a &lt;/i&gt;and&lt;i&gt; c&lt;/i&gt;. This time, &lt;i&gt;b&lt;/i&gt; will be the number that makes &lt;i&gt;a&lt;/i&gt;,&lt;i&gt; b&lt;/i&gt;, &lt;i&gt;c&lt;/i&gt; into a geometric sequence. The geometric mean of two numbers &lt;i&gt;a&lt;/i&gt; and &lt;i&gt;c&lt;/i&gt; is given by &lt;i&gt;b&lt;/i&gt; = sqrt (&lt;i&gt;a&amp;nbsp;&lt;/i&gt;* &lt;i&gt;c&lt;/i&gt;).&lt;br /&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+Here is a construction for the geometric mean of two numbers that uses a parabola in an interesting way:&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;Graph the parabola&lt;i&gt; y&lt;/i&gt; = &lt;i&gt;x&lt;/i&gt;^2.&lt;/li&gt;
+&lt;li&gt;Plot the points &lt;i&gt;a&lt;/i&gt; and &lt;i&gt;c&lt;/i&gt; on the &lt;i&gt;y&lt;/i&gt; axis: let&amp;nbsp;&lt;i&gt;A&lt;/i&gt; be (0,&lt;i&gt;a&lt;/i&gt;) and let &lt;i&gt;C&lt;/i&gt; be (0,&lt;i&gt;c&lt;/i&gt;).&lt;/li&gt;
+&lt;li&gt;Draw a line through &lt;i&gt;A&lt;/i&gt; parallel to the x axis - the point where it touches the parabola's positive arm is &lt;i&gt;A&lt;/i&gt;'. Do the same for &lt;i&gt;C&lt;/i&gt; - the point where it touches the parabola's negative arm is &lt;i&gt;C&lt;/i&gt;'.&lt;/li&gt;
+&lt;li&gt;Draw the line through &lt;i&gt;A&lt;/i&gt;' &lt;i&gt;C&lt;/i&gt;'. &amp;nbsp;The point where this line crosses the &lt;i&gt;y&lt;/i&gt; axis is &lt;i&gt;B&lt;/i&gt; = (0, &lt;i&gt;b&lt;/i&gt;), where &lt;i&gt;b&lt;/i&gt; is the geometric mean of &lt;i&gt;a&lt;/i&gt;, &lt;i&gt;c&lt;/i&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVgxgHka8Dz5EWcBnG5oo0V8_WvfZq2r8OxMEkJbWhAzwVQDt5DSDttvpwaNAOSYybJd9B1TJIdyzx7lsYUBGZOmnpEHPsOxSVXn6bJkuYoatZvHIPqhaxrNApb0ePyMcRZELOlfuBlC8/s1600/geometric_mean1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="262" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVgxgHka8Dz5EWcBnG5oo0V8_WvfZq2r8OxMEkJbWhAzwVQDt5DSDttvpwaNAOSYybJd9B1TJIdyzx7lsYUBGZOmnpEHPsOxSVXn6bJkuYoatZvHIPqhaxrNApb0ePyMcRZELOlfuBlC8/s400/geometric_mean1.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+This construction of the geometric mean can be used to create a geometric prime sieve. Usually, we visualize the sieve of&amp;nbsp;Eratosthenes on a number chart. Starting with 2, w cross out all the multiples of 2 (except for 2 itself): these numbers are clearly not prime. Then we continue with the first number that we did not cross out, 3, and cross out all its multiples (except for 3 itself)... if we continued indefinitely we will cross out all composites, leaving only primes behind (we have woven a sieve that only lets the primes fall through). Practically, if we are hunting for primes less than &lt;i&gt;n&lt;/i&gt;, we only need to go as far as crossing out multiples of primes up to sqrt(&lt;i&gt;n&lt;/i&gt;).&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsOiW-gP2xpS-KQR8GZXjE96-XECVmPW4ralYwWNU81eLN3TYa7-RsgtZ6ugKNr7qz-WQl5dHxMLFqqKOqgRf-Vi_WXAEMgDrP3pkiGUh1uk5S-SVtIjRT7vCT-C_a6KE7bx8R62azneE/s1600/sieve1-4.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsOiW-gP2xpS-KQR8GZXjE96-XECVmPW4ralYwWNU81eLN3TYa7-RsgtZ6ugKNr7qz-WQl5dHxMLFqqKOqgRf-Vi_WXAEMgDrP3pkiGUh1uk5S-SVtIjRT7vCT-C_a6KE7bx8R62azneE/s1600/sieve1-4.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Here is how we can construct a similar prime sieve using a parabola - the geometric mean construction can help you see why we are able to hit all the composites.&lt;br /&gt;
+&lt;br /&gt;
+1. Graph the parabola&lt;i&gt;&amp;nbsp;y&lt;/i&gt;&amp;nbsp;=&amp;nbsp;&lt;i&gt;x&lt;/i&gt;^2.&lt;br /&gt;
+2. Plot the points on the parabola obtained from &lt;i&gt;x&lt;/i&gt; = -2, -3, -4, ...&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7EKkgNCYJfrdy322PIQm35VfSKONudD8IbABBDXuSUGffmej1M3jvhLYgz30BEsvTOdCO-HBGTeggqxvvvzjT91VydFZNdPvXEfc7xjxmNOYk30nVlsu6M7KtLFeOWuiThEIX3wemjmY/s1600/step2.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="400" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7EKkgNCYJfrdy322PIQm35VfSKONudD8IbABBDXuSUGffmej1M3jvhLYgz30BEsvTOdCO-HBGTeggqxvvvzjT91VydFZNdPvXEfc7xjxmNOYk30nVlsu6M7KtLFeOWuiThEIX3wemjmY/s400/step2.JPG" width="197" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+3. Plot&lt;i&gt; x&lt;/i&gt; = 2 on the parabola. Draw lines from this point on the parabola to each point drawn in step 2. The &lt;i&gt;y&lt;/i&gt;-intercepts of these lines are the multiples of 2.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfBmtD4XmXWhHBCY-KafMaOuid5WVWJDfCId1JAQq4rKZt3L3lmzZqVtLMqZxmoMmI3PB73I187MjbS0K5DWFIvpfVXJCQk8vf-TAwVTsckslK3InkFfa8kfppcGjX2b8MO_0fnqbs9J4/s1600/step3.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="400" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfBmtD4XmXWhHBCY-KafMaOuid5WVWJDfCId1JAQq4rKZt3L3lmzZqVtLMqZxmoMmI3PB73I187MjbS0K5DWFIvpfVXJCQk8vf-TAwVTsckslK3InkFfa8kfppcGjX2b8MO_0fnqbs9J4/s400/step3.JPG" width="176" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+4. Plot &lt;i&gt;x&lt;/i&gt; = 3 on the parabola. Draw lines from this point&amp;nbsp;on the parabola to each point drawn in step 2. The&lt;i&gt; y&lt;/i&gt;-intercepts of these lines are the multiples of 3.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDrnUVlc0mJg3hB8uVNYU8Lq41xc1gaa1oWuWrXgT1Wt-0YI_wt7mM1D2FUmidsUE2NUnCPMIpoAQSax1_gk8iwR1AjAz3vbcn9q5_rgMh5_4OpUnmxR-xr6ks2Xxnpy9coz70fNuY_8M/s1600/step4.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="400" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDrnUVlc0mJg3hB8uVNYU8Lq41xc1gaa1oWuWrXgT1Wt-0YI_wt7mM1D2FUmidsUE2NUnCPMIpoAQSax1_gk8iwR1AjAz3vbcn9q5_rgMh5_4OpUnmxR-xr6ks2Xxnpy9coz70fNuY_8M/s400/step4.JPG" width="178" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+5. Continue the process for &lt;i&gt;x&lt;/i&gt; values that are not among the multiples found in previous steps.The numbers on the &lt;i&gt;y&lt;/i&gt; axis, greater than 1 that are not touched by the constructed lines are the primes left behind by the sieve.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYAcKjyIJFMCnIRwiQgWu2yvOXMJCWUClweeLXzsdiyoJCmnXosBktVI86UTXOvO6PAa5Is8bpgNjvT0XiODFr_dXZCqYHyQqYeAd7KFDg5jMweDqXW6u1xl8y_ae2MYtym59cI8_bQsI/s1600/full2.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYAcKjyIJFMCnIRwiQgWu2yvOXMJCWUClweeLXzsdiyoJCmnXosBktVI86UTXOvO6PAa5Is8bpgNjvT0XiODFr_dXZCqYHyQqYeAd7KFDg5jMweDqXW6u1xl8y_ae2MYtym59cI8_bQsI/s1600/full2.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;&lt;/div&gt;
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2015-08-30T17:25:17.715Z</blogger:created>
+    <published>2015-09-10T03:02:00.002Z</published>
+    <updated>2015-09-10T18:38:35.361Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='primes'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='geometry'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='visualization'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='GSP'/>
+    <blogger:filename>/2015/09/geometric-mean-and-sieve.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

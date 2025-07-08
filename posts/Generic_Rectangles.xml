@@ -1,0 +1,93 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-1127913990399931691</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Generic Rectangles</title>
+    <content type='html'>Quite a while ago I posted about using the&lt;a href="http://www.mathrecreation.com/2009/03/dividing-polynomials-grid-method.html"&gt; grid method for dividing polynomials&lt;/a&gt;. Using grids or&amp;nbsp;&lt;i&gt;generic rectangles&lt;/i&gt; as they are more commonly called, makes dividing polynomials seem like doing a crossword puzzle or a sudoku.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1aLWmtN-Z1RoHUAVNOJxCCaUAM1XfReHIrPxC0VoB0iEGyV7GqOcpVpLJW02znevtL66w5DM3VsDqKpWNlPpzcvZGRA04flgBEHf0Z0hfmPmjUVHU6vgO2YKxuPIr84ic4I-o7i7yjws/s1600/alg_tiles_gen_rectangles.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="400" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1aLWmtN-Z1RoHUAVNOJxCCaUAM1XfReHIrPxC0VoB0iEGyV7GqOcpVpLJW02znevtL66w5DM3VsDqKpWNlPpzcvZGRA04flgBEHf0Z0hfmPmjUVHU6vgO2YKxuPIr84ic4I-o7i7yjws/s400/alg_tiles_gen_rectangles.JPG" width="295" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+There are number of ways to use generic rectangles, and I thought I would try to do a few posts about some of their other uses, which include factoring trinomials and completing the square. This first post is just going to be about polynomial multiplication.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+When multiplying, generic rectangles seem to provide for polynomials what grid multiplication and lattice multiplication provide us for numbers - a way of arranging things on the page so that we don't mess up our calculations. &lt;a href="http://en.wikipedia.org/wiki/Grid_method_multiplication"&gt;Grid&lt;/a&gt; and &lt;a href="http://en.wikipedia.org/wiki/Lattice_multiplication"&gt;lattice&lt;/a&gt; multiplication allow us to break down our numbers into more manageable chunks and, in the case of lattice multiplication, give a way to keep track of "carries." In school, grid and lattice multiplication are sometimes presented as an alternative to standard "long" multiplication.&lt;br /&gt;
+&lt;br /&gt;
+Those familiar with grid and lattice multiplication for numbers will feel at home with generic rectangles, but there are some differences. In the world of polynomial multiplication, there are no "carries" (terms in a polynomial, unlike decimal places don't overflow into each other), and there is no generally used "long multiplication" style that needs replacing. For polynomials, what generic rectangles give us is a way to keep track of all those terms that come out of the &lt;a href="http://mathworld.wolfram.com/Distributive.html"&gt;distributive law&lt;/a&gt;, which most students struggle to keep track of using&amp;nbsp;mnemonics like&amp;nbsp;&lt;a href="http://en.wikipedia.org/wiki/FOIL_method"&gt;FOIL&lt;/a&gt;. (Once recursion becomes something well-understood in middle school, &amp;nbsp;FOIL might be a reasonable way to teach the distributive law, but until then, teachers please consider using generic rectangles.)&lt;br /&gt;
+&lt;br /&gt;
+Generic rectangles also have an affinity with &lt;a href="http://plato.acadiau.ca/courses/educ/reid/Virtual-manipulatives/tiles/tiles.html"&gt;algebra tiles&lt;/a&gt; - a manipulative that is sometimes for learning polynomial multiplication. If you use algebra tiles, generic rectangles are a nice thing to move on to if you tire of pushing around all that plastic. Unlike those rigid tiles, generic rectangles are more &lt;i&gt;generic&lt;/i&gt;: although they don't provide the full force of the area metaphor for multiplying that algebra tiles do they allow you to multiply any kind of terms.&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;A first example&lt;/b&gt;&lt;br /&gt;
+The first thing to do when provided with two polynomials that are to be multiplied&amp;nbsp;is to set up the grid, with the terms from one of the polynomials across the top row, and the terms from the other down the leftmost column.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhG1h4lQAN94t0GwA2FrORCZ3ss6xRu-rzrdZTIksV9gLG7atOEuPnrlqyueGwmc9MOldAcV9XcamRoKu7-YA86Tq2SHDD6ZocJAow-s2pctP-B1ls500Wk_4Q9KATYAlH6Qb8_YmKl3PM/s1600/setup_grid1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="200" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhG1h4lQAN94t0GwA2FrORCZ3ss6xRu-rzrdZTIksV9gLG7atOEuPnrlqyueGwmc9MOldAcV9XcamRoKu7-YA86Tq2SHDD6ZocJAow-s2pctP-B1ls500Wk_4Q9KATYAlH6Qb8_YmKl3PM/s200/setup_grid1.JPG" width="180" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Each term is multiplied, like terms are gathered, and the results are summed, which provides the answer.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPyRyMyPoBPoRHA8gZg6vs7aqScql4m7Xxu1WdIeBTQuOOSkUoQplzjf4eh7Wo2prqDGGspNzYXgnu6lkcrSKy2xN9Vz5RxgHvexs9GyEG-1VW91UNByqloOeQ7_5gTY62jlvLo89P9m4/s1600/grid2.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="201" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPyRyMyPoBPoRHA8gZg6vs7aqScql4m7Xxu1WdIeBTQuOOSkUoQplzjf4eh7Wo2prqDGGspNzYXgnu6lkcrSKy2xN9Vz5RxgHvexs9GyEG-1VW91UNByqloOeQ7_5gTY62jlvLo89P9m4/s320/grid2.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;b&gt;A little bigger example&lt;/b&gt;&lt;br /&gt;
+Here's an example with a trinomial and a binomial.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHIqgZo0aeQOelIneBiZWJ6M5DDZmll3s5D7vpSzg5_hIYW0aFJb1YLmgAVu3IBfUCQqwNQYLHLaKookayFSp_98jUlwp6q6M5dArwebdwjiXH7rz_4UojArge8XiWJm31d0i9JhEGGyw/s1600/example2.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHIqgZo0aeQOelIneBiZWJ6M5DDZmll3s5D7vpSzg5_hIYW0aFJb1YLmgAVu3IBfUCQqwNQYLHLaKookayFSp_98jUlwp6q6M5dArwebdwjiXH7rz_4UojArge8XiWJm31d0i9JhEGGyw/s320/example2.JPG" width="252" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+Again, step 1 is just putting the factors to be multiplied on the left most and topmost column and row of the grid, and step 2 is just completing the term-by-term multiplication to fill in the grid.&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEOAMwx_yx4kW1I2PlcI4V-I4qlpOTcf-KLkHMsnIFM_PMexGqgBFIakumntjhwgyetExctnFjxWTLvqU8DNsjyLtME-CPlpZQnPKHDq1a6hM4ZHNZsiOkpXH_bAiET2OG2rQC88RI1JM/s1600/example2.1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEOAMwx_yx4kW1I2PlcI4V-I4qlpOTcf-KLkHMsnIFM_PMexGqgBFIakumntjhwgyetExctnFjxWTLvqU8DNsjyLtME-CPlpZQnPKHDq1a6hM4ZHNZsiOkpXH_bAiET2OG2rQC88RI1JM/s320/example2.1.JPG" width="206" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Finally, like-terms are collected and the final result can be written out.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPdAHwR56PgbnGUIqbUVEL8eAdqW8SH-MJ247kEcotPbGUHj8B87z6ABCy5bQivOzh2yVp73hAVK_pQod4yhiv_QdtSTzfZVvn4J-Au8YfdWScE1uEtk2j9-V8pG3D1_-9A0Y4nQxeCDE/s1600/example2.2.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPdAHwR56PgbnGUIqbUVEL8eAdqW8SH-MJ247kEcotPbGUHj8B87z6ABCy5bQivOzh2yVp73hAVK_pQod4yhiv_QdtSTzfZVvn4J-Au8YfdWScE1uEtk2j9-V8pG3D1_-9A0Y4nQxeCDE/s320/example2.2.JPG" width="184" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;b&gt;An infinite example&lt;/b&gt;&lt;br /&gt;
+That's fun, but what about multiplying together two infinitely long polynomials? Why not? Of course, we'll &amp;nbsp;quickly run out of space, but we might see something in our grid that will help us get to a solution. &amp;nbsp;Now, instead of thinking of polynomials in the way you might usually think of them, you should consider these infinitely long polynomials as &lt;a href="http://en.wikipedia.org/wiki/Formal_power_series"&gt;formal power series&lt;/a&gt; - polynomials that we will never evaluate, and that we are just treating as worthwhile mathematical objects in their own right, regardless of whether they ever converge.&lt;br /&gt;
+&lt;br /&gt;
+Consider the product:&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizwq80DlT0GZeGP3ab13DMhr55WE3oQVtRmW7nxL0p5oPw5GHS3zhax-1gfNJPGe-_GNm4eYqCTDfWDkRS31B5Cxsw4DSkbTmkRJ7VBEa5_MchuqhiRp9H6wZFRtE71hlDVi5A4TfKeCY/s1600/infinite_example.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="76" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizwq80DlT0GZeGP3ab13DMhr55WE3oQVtRmW7nxL0p5oPw5GHS3zhax-1gfNJPGe-_GNm4eYqCTDfWDkRS31B5Cxsw4DSkbTmkRJ7VBEa5_MchuqhiRp9H6wZFRtE71hlDVi5A4TfKeCY/s320/infinite_example.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+We can make a grid like this:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAlyjYSSLiYoiSQE9xL5s7wKa50G3g-YKt5HOJuo10L9Ipv1pGzBVz9bZF7tsK2AdHt364wHUWIJMNLIxRMQJ3St6dEMMeE5tx1TXrNsWzcTx16AAU5GIE2M9yjtEyxD2Xumk1I_75BXw/s1600/empty_grid.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="278" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAlyjYSSLiYoiSQE9xL5s7wKa50G3g-YKt5HOJuo10L9Ipv1pGzBVz9bZF7tsK2AdHt364wHUWIJMNLIxRMQJ3St6dEMMeE5tx1TXrNsWzcTx16AAU5GIE2M9yjtEyxD2Xumk1I_75BXw/s320/empty_grid.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+And start to fill it in:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNn4slNkZDmYwEhxpdNoMIwOxLs4jJtHn_fP6VLFiAoSFmE49rgwJUQ-qZsuHwqGY6PR_Nk0T1OuJMUdNqe5vvyxjfpKbapDZx72gNKUgkpqS0VsUDfwCVtMnHYvWERnYo6QwOIfMKwmw/s1600/infinite_example_filled.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="273" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNn4slNkZDmYwEhxpdNoMIwOxLs4jJtHn_fP6VLFiAoSFmE49rgwJUQ-qZsuHwqGY6PR_Nk0T1OuJMUdNqe5vvyxjfpKbapDZx72gNKUgkpqS0VsUDfwCVtMnHYvWERnYo6QwOIfMKwmw/s320/infinite_example_filled.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+Do you see the pattern that is emerging when you start collecting like terms? Once you do you'll probably agree that:&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXZcVaDnSxZS9-Ja_SW4Sr6TOWqxvFlFnSS_iY03cujb1rgLiPu8J51utp_arNzcGH-cRSkiWJnh3MEV5ygCtGRiQ21PH-3E-1LvdT36NoFM1A1ECpNBHlCYyQR0B0yYbeiZCUUuhlqVY/s1600/solution.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="76" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXZcVaDnSxZS9-Ja_SW4Sr6TOWqxvFlFnSS_iY03cujb1rgLiPu8J51utp_arNzcGH-cRSkiWJnh3MEV5ygCtGRiQ21PH-3E-1LvdT36NoFM1A1ECpNBHlCYyQR0B0yYbeiZCUUuhlqVY/s200/solution.JPG" width="200" /&gt;&lt;/a&gt;&lt;/div&gt;
+If you go a little further with this, you'll find the &lt;a href="http://www.mathrecreation.com/2010/03/polygonal-wanderings.html"&gt;triangular numbers&lt;/a&gt; lurking in here. For &lt;i&gt;&amp;nbsp;d&amp;nbsp;&lt;/i&gt;&amp;gt; 0:&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVXNHZhRAjaDcbpQNQmRDsPxU3kn57g08QyZOgxn_JRP0hBXmP6fbiWVEsjgqQe2X4rjz38H9JPQIx79IPj4mqkjTw1OtHqrSJr2tQK_-ZL763OpJjRsbdInZBexMalm1y7YrE2t5vM9c/s1600/triangular_numbers.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="82" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVXNHZhRAjaDcbpQNQmRDsPxU3kn57g08QyZOgxn_JRP0hBXmP6fbiWVEsjgqQe2X4rjz38H9JPQIx79IPj4mqkjTw1OtHqrSJr2tQK_-ZL763OpJjRsbdInZBexMalm1y7YrE2t5vM9c/s200/triangular_numbers.JPG" width="200" /&gt;&lt;/a&gt;&lt;/div&gt;
+The power series on the right has coefficients that are the "&lt;i&gt;d&lt;/i&gt;-1"-dimensional triangular numbers (or, the d-1 column of Pascal's Triangle - see &lt;a href="http://www.mathrecreation.com/2008/07/higher-polygonal-numbers-and-pascals.html"&gt;this post&lt;/a&gt;).&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2012-09-14T17:03:18.244Z</blogger:created>
+    <published>2012-09-16T15:06:00.001Z</published>
+    <updated>2012-09-20T02:38:34.770Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='polygonal'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='school math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='mathematics'/>
+    <blogger:filename>/2012/09/generic-rectanges.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

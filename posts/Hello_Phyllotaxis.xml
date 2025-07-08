@@ -1,0 +1,66 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-2390530006134252317</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Hello Phyllotaxis</title>
+    <content type='html'>&lt;a href="https://en.wikipedia.org/wiki/Phyllotaxis"&gt;Phyllotaxis&lt;/a&gt; spirals are a favorite of recreational math - often explored in connection to other perennial topics such as the golden mean and Fibonacci numbers.&lt;br /&gt;
+&lt;br /&gt;
+When I am trying out a new data visualization platform or programming language, I like to try to draw phyllotaxis spirals as a sort of "&lt;a href="https://en.wikipedia.org/wiki/%22Hello,_World!%22_program"&gt;Hello World&lt;/a&gt;."
+
+My latest "Hello Phyllotaxis" came about during the early stages of learning how to use&amp;nbsp;&lt;a href="http://d3js.org/"&gt;D3js&lt;/a&gt;. You can try it out &lt;a href="https://dmackinnon1.github.io/phylo2.html"&gt;here&lt;/a&gt;.
+
+
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtB5Ydcmw6973fW7Ears5QXA6yEyBcOdDrwzLogvP3qoeVrk61vR56I0_0lKuANtEVJ6yYHpmTuzVJmvwWGsS4PaSubVVERUXw5Lh3Xva5gARwRygy2tydWzhp_Ag17NBe6rkDrTNP7XE/s1600/phyllo1.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="607" data-original-width="624" height="311" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtB5Ydcmw6973fW7Ears5QXA6yEyBcOdDrwzLogvP3qoeVrk61vR56I0_0lKuANtEVJ6yYHpmTuzVJmvwWGsS4PaSubVVERUXw5Lh3Xva5gARwRygy2tydWzhp_Ag17NBe6rkDrTNP7XE/s320/phyllo1.PNG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;Sketched with D3js (see&amp;nbsp;&lt;a href="https://dmackinnon1.github.io/phylo2.html" style="text-align: start;"&gt;here&lt;/a&gt;)&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;a href="http://www.mathrecreation.com/2016/10/some-familiar-spirals-in-desmos.html"&gt;Here&lt;/a&gt; is a "Hello Phyllotaxis" for Desmos (blog post &lt;a href="http://www.mathrecreation.com/2016/10/some-familiar-spirals-in-desmos.html"&gt;here&lt;/a&gt;). Over the years I have also pointed to phyllotaxis-like sketches using Fathom &lt;a href="http://www.mathrecreation.com/2009/05/more-phyllotaxis.html"&gt;here&lt;/a&gt;, Processing &lt;a href="http://www.mathrecreation.com/2011/09/spirals.html"&gt;here&lt;/a&gt;, and R &lt;a href="http://www.mathrecreation.com/2015/08/simple-fun-with-r.html"&gt;here&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+In the image above, the dark circles are chosen by skip-counting out from the center - in this case, skip counting by 11 (see #6 in &lt;a href="http://www.mathrecreation.com/2012/08/a-deep-dive-into-multiplication-table.html"&gt;this post&lt;/a&gt;).&lt;br /&gt;
+&lt;br /&gt;
+Below is a brief visual roundup of how this little "program" displays on the various platforms I have tried it on.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7ULNS7qXOPBvICqF7u9EwzvUMpQy0TR9KreicacXO_4SwcqucD7po2ya8AqV-tIQ9w62AGakRcHm-Y6NoCbCnh99SvdVg5jLJMyz-jcYjr2CRztlN0DfbtKhImy7mIFFZd7rtgZ9vTSw/s1600/fathom_phylo4.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="927" data-original-width="948" height="312" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7ULNS7qXOPBvICqF7u9EwzvUMpQy0TR9KreicacXO_4SwcqucD7po2ya8AqV-tIQ9w62AGakRcHm-Y6NoCbCnh99SvdVg5jLJMyz-jcYjr2CRztlN0DfbtKhImy7mIFFZd7rtgZ9vTSw/s320/fathom_phylo4.jpg" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;Sketched with Fathom (see&lt;span style="text-align: start;"&gt;&amp;nbsp;&lt;/span&gt;&lt;a href="http://www.mathrecreation.com/2009/05/more-phyllotaxis.html" style="text-align: start;"&gt;here&lt;/a&gt;)&lt;/i&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQ5Lm8UXbYaVbKLWLhlq8A3Cjw8YDMy3okJGsVFn5Q1QrOJVpRC2wlrujTEwDp3lLl6C6Zr_OSmheUQQixOUt48VdNcPIOPFyMpu6-yio6dJAHJQGOA308r5y3bT67IHzPIP3Vps_Us1Q/s1600/mod17_2.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="405" data-original-width="397" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQ5Lm8UXbYaVbKLWLhlq8A3Cjw8YDMy3okJGsVFn5Q1QrOJVpRC2wlrujTEwDp3lLl6C6Zr_OSmheUQQixOUt48VdNcPIOPFyMpu6-yio6dJAHJQGOA308r5y3bT67IHzPIP3Vps_Us1Q/s320/mod17_2.JPG" width="313" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;Sketched with Processing (see&amp;nbsp;&lt;a href="http://www.mathrecreation.com/2011/09/spirals.html"&gt;here&lt;/a&gt;)&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh28IXzxYqFDKW0hreJyVEmWObTGdtQDa9o6xeXOJmnsPeY2KS25Xzynsa7_TsYM20L4waVPyfYXRJU26JFJEqk4sLePT2yecaF5yxPbGVE1WZwliJeOZrFG-LfyC-T9vogFVab-0sslAU/s1600/exa2b.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="335" data-original-width="386" height="276" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh28IXzxYqFDKW0hreJyVEmWObTGdtQDa9o6xeXOJmnsPeY2KS25Xzynsa7_TsYM20L4waVPyfYXRJU26JFJEqk4sLePT2yecaF5yxPbGVE1WZwliJeOZrFG-LfyC-T9vogFVab-0sslAU/s320/exa2b.JPG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;Sketched with R (see&amp;nbsp;&lt;a href="http://www.mathrecreation.com/2015/08/simple-fun-with-r.html" style="text-align: start;"&gt;here&lt;/a&gt;)&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy5z36-EADPqgyjZEanVxZQcUIymdNLvFWuhLWEJ5hMEfK4Zl6VzhDw480b1nJZ5uTbIiJbt1v8DzBVHK-kyz23ymZZY34cKgJePi8eHl9BQdFSuplg3vA7e87622SLsJJy1yR5L7szsA/s1600/spiral1.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="372" data-original-width="387" height="307" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy5z36-EADPqgyjZEanVxZQcUIymdNLvFWuhLWEJ5hMEfK4Zl6VzhDw480b1nJZ5uTbIiJbt1v8DzBVHK-kyz23ymZZY34cKgJePi8eHl9BQdFSuplg3vA7e87622SLsJJy1yR5L7szsA/s320/spiral1.PNG" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;Sketched with Desmos (see&amp;nbsp;&lt;a href="http://www.mathrecreation.com/2016/10/some-familiar-spirals-in-desmos.html" style="text-align: start;"&gt;here&lt;/a&gt;&amp;nbsp;and &lt;a href="https://www.desmos.com/calculator/risuha09iw"&gt;here&lt;/a&gt;)&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2017-12-19T17:11:52.835Z</blogger:created>
+    <published>2017-12-19T19:19:00Z</published>
+    <updated>2017-12-29T14:00:25.254Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2017/12/hello-phyllotaxis.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

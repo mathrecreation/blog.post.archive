@@ -1,0 +1,82 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-5499912569152724943</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Hidato, or a king's tour</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNYbtcWEN7udBt72-RRtFURX8tbGyDkS5ocrmnyKhOO9SRT29swWW-565OiC1L2OO8HpyD7guTGkV4Xh2Ztxfz7OjnOcU6ecee3N8UErS0XFN_hTf7DLBE3TmtBb7M37U6JiyUG9OxWWM/s1600/alice_picks_up_king.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="298" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNYbtcWEN7udBt72-RRtFURX8tbGyDkS5ocrmnyKhOO9SRT29swWW-565OiC1L2OO8HpyD7guTGkV4Xh2Ztxfz7OjnOcU6ecee3N8UErS0XFN_hTf7DLBE3TmtBb7M37U6JiyUG9OxWWM/s320/alice_picks_up_king.jpg" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+I picked up a logic puzzle book on the weekend and learned of &lt;a href="http://hidato.com/"&gt;Hidato&lt;/a&gt; puzzles - a type of number puzzle that was developed (recently, I think) by &lt;a href="http://www.amuniversal.com/ups/features/hidato/bio.htm"&gt;Gyora Benedek&lt;/a&gt;. This appealing genre of puzzle was, according to Benedek, inspired by trying to follow the path taken by small fish as they darted through a coral reef.&lt;br /&gt;
+&lt;br /&gt;
+In a Hidato puzzle you are given an &lt;i&gt;n&lt;/i&gt;-celled grid where some cells contain numbers while others are left blank. Your task is to fill in the blanks so that the numbers form a the consecutive series from 1 to &lt;i&gt;n&lt;/i&gt;. Cells are considered adjacent if they are touching edges or corners. Another way to think of the puzzle is to imagine moving along the grid while trying to fill in the numbers 1 to &lt;i&gt;n&lt;/i&gt; in order - you are allowed to move one square at a time either horizontally, vertically, or diagonally.&lt;br /&gt;
+&lt;br /&gt;
+Just as Sudoku are &lt;a href="http://en.wikipedia.org/wiki/Latin_square"&gt;latin&amp;nbsp;squares&lt;/a&gt; with missing values, so the Hidato are really king's tours in disguise. A chess king can move one cell in any direction, and a king's tour is a complete covering of the chessboard where each square is visited exactly once (&lt;a href="http://mathworld.wolfram.com/HamiltonianPath.html"&gt;a hamiltonian path&lt;/a&gt; on the &lt;a href="http://mathworld.wolfram.com/KingsTourGraph.html"&gt;king's tour graph&lt;/a&gt;). As with knight tours, a king's tour can be open (if the final square is not adjacent to the start) or closed (if you are one move away from the beginning when you get to the end). Below is an example of an open king's tour on standard 64 cell chess board.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhh5N2rWX0ndFpqRoGW75a7Y2PrdqjGAqzIkdcK3VxfrgGBf-qkZJP22024PJQEkesnHjqkykzQUvYYTKGT_ELWPLsQkiHn2bT08cneCzEuJCtzZm5soXwltNhlq8NgqKsM8Vr-JuBmgkM/s1600/open_tour_64.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="357" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhh5N2rWX0ndFpqRoGW75a7Y2PrdqjGAqzIkdcK3VxfrgGBf-qkZJP22024PJQEkesnHjqkykzQUvYYTKGT_ELWPLsQkiHn2bT08cneCzEuJCtzZm5soXwltNhlq8NgqKsM8Vr-JuBmgkM/s400/open_tour_64.jpg" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+A solved Hidato is a completed king's tour since it is played on a chess-like grid and the Hidato moves are precisely those which a king is allowed. Whether by accident or design, the Hidato puzzles I've seen so far are not 8x8 boards like in standard chess - I've seen 6x6, 7x7 and a variety of rectangular and odd-shaped boards.&lt;br /&gt;
+&lt;br /&gt;
+Here are two not-too-hard Hidato-inspired king's tour puzzles (note that I am not calling them Hidato - that's a trade mark... they are "king's tour puzzles") on a 5x5 board (the solutions at the bottom of this post). These puzzles were created by first creating a king's tour and then only labeling some of the cells - hopefully enough to guarantee the uniqueness of the solution.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinhhMU_z8fNX267VEwzaSVO6w-5SWL6p9omm4YtASBVcCPOnwXeJ4ZMx7vxIXLSQBgeXhcqG_ZMAshMwITv2zSM11YGcRkhq31-9rxx-aomvPp3Jw3iDJLPs374j-YCCPpVBdivAEu1NY/s1600/puzzle_1_25_A.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="302" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinhhMU_z8fNX267VEwzaSVO6w-5SWL6p9omm4YtASBVcCPOnwXeJ4ZMx7vxIXLSQBgeXhcqG_ZMAshMwITv2zSM11YGcRkhq31-9rxx-aomvPp3Jw3iDJLPs374j-YCCPpVBdivAEu1NY/s320/puzzle_1_25_A.jpg" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;b&gt;King's Tour Puzzle A&lt;/b&gt;&amp;nbsp;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-Tf9OBTQXSBQ8yUKKaqvBfDagnas31JAsJuL513zvWTJv7WJBZ-wra46md4pvmaAiNw4fFdK80MBK2GGPn6b7WgOwyFcsHXFllgbNoFCUes1hyRjr0rC-MyN0NGm12ht_dczRwYD_Fzg/s1600/puzzle_1_25_B.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="298" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-Tf9OBTQXSBQ8yUKKaqvBfDagnas31JAsJuL513zvWTJv7WJBZ-wra46md4pvmaAiNw4fFdK80MBK2GGPn6b7WgOwyFcsHXFllgbNoFCUes1hyRjr0rC-MyN0NGm12ht_dczRwYD_Fzg/s320/puzzle_1_25_B.jpg" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;b&gt;King's Tour Puzzle B&lt;/b&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+You can generate king's tours using the &lt;a href="http://mathrecreation.blogspot.com/2011/03/knight-moves.html"&gt;same algorithm as used for knight's tours&lt;/a&gt;. You can also use the same &lt;a href="http://mathrecreation.blogspot.com/2011/03/closing-time.html"&gt;knight-tour techniques&lt;/a&gt; to transform an open king's tour into a closed king's tour. &amp;nbsp;The "king's graph" is much more connected than the knight's graph, so tours are much easier to generate (and close). The interior cells have 8 neighbours, with cells at the edges and corners with 5 and 3, respectively.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBabFOPek4uPwdYEJvj5Hln8WazjGNVopiyGMjbpb7m0OP9MROcXGsBAtVLUmuIGsX2JFuNd9dFWZFoNHV0hjr0Aoe5mSo981EXsDEQ4x5GSln5D2bNJsMhFDnBZr7CTPytV7DPbbW-4Q/s1600/number_of_moves.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="304" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBabFOPek4uPwdYEJvj5Hln8WazjGNVopiyGMjbpb7m0OP9MROcXGsBAtVLUmuIGsX2JFuNd9dFWZFoNHV0hjr0Aoe5mSo981EXsDEQ4x5GSln5D2bNJsMhFDnBZr7CTPytV7DPbbW-4Q/s320/number_of_moves.jpg" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+If you picture the board as a graph, kings have a lot more edges to travel along than knights do.Interestingly, the sequence, 6, 20, 42, 72, 110,... (A002943) gives the number of edges in a king's graph for an &lt;i&gt;n&lt;/i&gt;+1 by &lt;i&gt;n&lt;/i&gt;+1 board, and this sequence shows up as a diagonal in the Ulam number spiral of &lt;a href="http://mathrecreation.blogspot.com/2011/06/sequences-on-spiral.html"&gt;a few posts back&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFkpvmUly03SY86odKi9B8jIflQ9apJtTbZl2pqYxZx0r6W-DpplgYORqZS-JE6RNiy0j_uj1uCdls7V0SxkuE6dwLC8PB6RFUG4hRyU9nSc0VRhYepfgDW954rCgCT-F-6AHZ1Txnf-U/s1600/number_spiral.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="283" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFkpvmUly03SY86odKi9B8jIflQ9apJtTbZl2pqYxZx0r6W-DpplgYORqZS-JE6RNiy0j_uj1uCdls7V0SxkuE6dwLC8PB6RFUG4hRyU9nSc0VRhYepfgDW954rCgCT-F-6AHZ1Txnf-U/s320/number_spiral.jpg" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Here are solutions to the small king-tour puzzles above.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqFEVW22M1r2IrXnDvbE-2T7ZQPUDQcQJ3j_Gge9DjVkZMKMjx1qnFNZJAMG9oY57U7rcZhQpxo5nXVcNpv3Dd2YzEmfi805qYpH23IuvJIanrqtIh4mJFs7TKllHvRNNsTjsoPzTMDc0/s1600/puzzle_1_25_A._solved.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqFEVW22M1r2IrXnDvbE-2T7ZQPUDQcQJ3j_Gge9DjVkZMKMjx1qnFNZJAMG9oY57U7rcZhQpxo5nXVcNpv3Dd2YzEmfi805qYpH23IuvJIanrqtIh4mJFs7TKllHvRNNsTjsoPzTMDc0/s1600/puzzle_1_25_A._solved.jpg" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;b&gt;Puzzle A Solution&lt;/b&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;b&gt;&lt;br /&gt;
+&lt;/b&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVkPgB_cJX3SwRnsE3Oqc2LR3b2ryDwqARtt3q4jeHRq5E4GE3sv0R_aoJUPxuulsq1e73FtZ629tjKzuwVWG_uX2o6Egy55RIbO1ErBJsLGAhToEbJnWfDvyNxc3A-0VRHB_kv1rGzH4/s1600/puzzle_1_25_B_solved.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVkPgB_cJX3SwRnsE3Oqc2LR3b2ryDwqARtt3q4jeHRq5E4GE3sv0R_aoJUPxuulsq1e73FtZ629tjKzuwVWG_uX2o6Egy55RIbO1ErBJsLGAhToEbJnWfDvyNxc3A-0VRHB_kv1rGzH4/s1600/puzzle_1_25_B_solved.jpg" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;b&gt;Puzzle B Solution&lt;/b&gt;&lt;br /&gt;
+&lt;div style="text-align: left;"&gt;
+&lt;b&gt;&lt;br /&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div style="text-align: left;"&gt;
+&lt;b&gt;&lt;br /&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div style="text-align: left;"&gt;
+&lt;i&gt;&lt;span style="font-size: large;"&gt;&lt;b&gt;Update&lt;/b&gt;: I have put up a page that generates playable Hidato puzzles &lt;a href="https://dmackinnon1.github.io/kixote/hidato.html"&gt;here&lt;/a&gt;.&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2011-06-29T01:34:13.846Z</blogger:created>
+    <published>2011-06-29T03:02:00Z</published>
+    <updated>2017-01-13T21:10:13.604Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='chess'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='TinkerPlots'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='puzzles'/>
+    <blogger:filename>/2011/06/hidato-or-kings-tour.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

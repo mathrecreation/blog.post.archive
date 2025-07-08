@@ -1,0 +1,50 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-4856101836701501393</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Hard Times &amp; How to Learn Math</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIE3iFJyYm7wmn4ug50FHcK8butt6qGEqMnsjI8-h1CQlkfrh_mbHidVLDOidvi3l4gHcYB8n5vODG00X1o-OvAtczjc-Egx3vtR_amfGTUuXEQgNjvsOgbC3jRd4s2QCTDNTrdPd4qHo/s1600/title_graph.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIE3iFJyYm7wmn4ug50FHcK8butt6qGEqMnsjI8-h1CQlkfrh_mbHidVLDOidvi3l4gHcYB8n5vODG00X1o-OvAtczjc-Egx3vtR_amfGTUuXEQgNjvsOgbC3jRd4s2QCTDNTrdPd4qHo/s1600/title_graph.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+I've just finished up the Stanford Online course &lt;a href="https://class.stanford.edu/courses/Education/EDUC115N/How_to_Learn_Math/about"&gt;How to Learn Math&lt;/a&gt; by Prof. Jo Boaler. A very interesting course, and a nice counterpoint to the heated railing against inquiry-based learning that is all the rage here in Ontario (see some of that &lt;a href="http://www.theglobeandmail.com/commentary/whos-failing-math-the-system/article14112165/"&gt;here&lt;/a&gt;, and &lt;a href="http://www.theglobeandmail.com/news/national/education/math-skills-declining-in-ontario-schools-test-data-reveals/article14406197/"&gt;here&lt;/a&gt;).&lt;br /&gt;
+&lt;br /&gt;
+One of the activities highlighted in the course was something Prof. Boaler called a "number talk," which can take many forms - one being a group discussion about strategies for multiplying. I've &lt;a href="http://www.mathrecreation.com/2012/08/a-deep-dive-into-multiplication-table.html"&gt;mentioned before&lt;/a&gt; that my elementary teachers mainly used threats to get us kids to memorize the multiplication tables - it's of course much better to memorize less, and instead rely on number-sense to reason out the answer. Do enough of this, and you do end up memorizing much of your times tables, but rather than being the goal it's an outcome of a much more worthwhile exploration of numbers and their properties.&lt;br /&gt;
+&lt;br /&gt;
+These number talks reminded me of an article that appeared a while back on &lt;a href="http://www.theguardian.com/news/datablog/2013/may/31/times-tables-hardest-easiest-children"&gt;The Guardian Data Blog&lt;/a&gt;, which showed some data regarding the&amp;nbsp;multiplication facts children have the most trouble with. It included a nice interactive graphic derived from having about 200 children answer some multiplication questions online. You can re-create the nice pictures from the article in &lt;a href="http://www.keycurriculum.com/products/tinkerplots"&gt;Tinkerplots&lt;/a&gt; by importing the data from the blog post.&lt;br /&gt;
+&lt;br /&gt;
+The plot below shows the 1-12x tables, with each cell shaded according to how many times students got the corresponding multiplication problem wrong. You can see the nice lightly coloured row and columns corresponding to the 10x table, and you can see where kids got into trouble in the middle of the tables.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguH4mBF780YrsTI8t0bD2pnOcChMQy8jn21zbqAXcUuq5apm2MgCeJ8hkfPXpKIVc-e9ZFw3kvs7YuArnhRvMLvZlW2rLZRuK8zfo_mOIA6mNF8xjRRn9fVYQsv19fRr1x72oeNAXDGCM/s1600/main_plot.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="368" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguH4mBF780YrsTI8t0bD2pnOcChMQy8jn21zbqAXcUuq5apm2MgCeJ8hkfPXpKIVc-e9ZFw3kvs7YuArnhRvMLvZlW2rLZRuK8zfo_mOIA6mNF8xjRRn9fVYQsv19fRr1x72oeNAXDGCM/s400/main_plot.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+I think it is interesting for teachers, and for students, to talk about what this plot shows about multiplication facts that kids seem to know, the properties they might be exploiting (the near symmetry shows that &lt;a href="http://en.wikipedia.org/wiki/Commutative_property"&gt;commutativity&lt;/a&gt; is not a major problem for these kids), and the strategies that might help them figure out the tougher-to-remember products. You can see that some facts are likely memorized (12 x 12 shouldn't really be easier than 12 x 11, but it seems to be better known). Although you can't tell here what strategies are being used or neglected, you can take a look at where things seem to get tougher and think about various strategies that could be used to get to the answers.&lt;br /&gt;
+&lt;br /&gt;
+One question: what is the hardest product for students? &amp;nbsp;If the shading above isn't clear, a scatter plot might help:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnVZG3aUG57Tdl0dSI6CVeaNO2AQiIFxgJTcjHDXI_gMjwKcdc4OltIjDKsnGQz2hYrC3u0k0AR50a8WN_rduwqh0Cv7mCDSY2WTw2IG0K6nhuRPDVvg7fadHMQC3gMDyQWV1wXk7QNok/s1600/scatter.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="330" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnVZG3aUG57Tdl0dSI6CVeaNO2AQiIFxgJTcjHDXI_gMjwKcdc4OltIjDKsnGQz2hYrC3u0k0AR50a8WN_rduwqh0Cv7mCDSY2WTw2IG0K6nhuRPDVvg7fadHMQC3gMDyQWV1wXk7QNok/s400/scatter.JPG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Surprisingly, it's 48 - apparently 6 x 8 and 8 x 6 are big confounders (I'm not sure which was tougher, the data didn't say explicitly which operand came first). Now how would you figure out 6 times 8 if you don't know it by heart? How about (5&amp;nbsp;+ 1) 8 = 40&amp;nbsp;+8, or perhaps 2 x 3 x 8 = 2 x 24? See how useful the distributive property and factoring can be? Watching students reason out various strategies in the video presented in the "How to Learn Math" course showed how helpful discussing and dissecting these types of questions can be for kids.&lt;br /&gt;
+&lt;br /&gt;
+Interestingly, Prof Boaler is launching a website and a non-profit organization (&lt;a href="http://youcubed.org/"&gt;youcubed.org&lt;/a&gt;) to promote the teaching strategies and approaches to math education that she enthusiastically promoted in the course. It will be interesting to see where this math education entity fits in with all the other emerging voices that are calling for different ways of teaching&amp;nbsp;mathematics&amp;nbsp;&amp;nbsp;(compare &lt;a href="http://youcubed.org/"&gt;youcubed.org &lt;/a&gt;with &lt;a href="http://jumpmath.org/cms/"&gt;JUMP&lt;/a&gt; and with &lt;a href="http://www.computerbasedmath.org/"&gt;Computer Based Math&lt;/a&gt;, for example).&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2013-09-21T03:47:41.192Z</blogger:created>
+    <published>2013-09-21T04:48:00.001Z</published>
+    <updated>2013-09-21T04:59:34.327Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='math'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='education'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='multiplication'/>
+    <category scheme='tag:blogger.com,1999:blog-5008879105295771159' term='mathematics'/>
+    <blogger:filename>/2013/09/hard-times-how-to-learn-math.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  
