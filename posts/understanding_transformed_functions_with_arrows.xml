@@ -1,0 +1,182 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-8747100006070610360</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>understanding transformed functions with arrows</title>
+    <content type='html'>I am taking a stroll down memory lane, helping a student with "Grade 11 Functions" (Ontario, MCR3U). An early topic is "introduction to functions." Here is a sample question that students are answering by the end of the unit:&lt;br /&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaMPGJaKIGZXj6Nq06RkqMmStfAuhMrzrqIZ8bhHwbjuLfdL34h_fxQGWF95jNfaB-PP7roq_In_AK0YxXN0jcv8Wn8kwfBFzCdl7SYn0Pt3q7-POyEe2zMoGbJ_t4mRa_AeKsqDMPMjk/s1600/question2.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaMPGJaKIGZXj6Nq06RkqMmStfAuhMrzrqIZ8bhHwbjuLfdL34h_fxQGWF95jNfaB-PP7roq_In_AK0YxXN0jcv8Wn8kwfBFzCdl7SYn0Pt3q7-POyEe2zMoGbJ_t4mRa_AeKsqDMPMjk/s1600/question2.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+I find that questions like this, and many others, are best answered by drawing simple arrow diagrams. Here's what we would draw in this case:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgN7E22mh-z82tT-LzGnwcLYozQS4bRIBIXe0MVNxmfD5fbFaBhgrF8MKPgE8ohT2RrJ-NNPYbJKOlm_faZnUz2R9rHeeKgDoEpsN2AHRd1qffoFOh34b97lOewAPb6hdlv5sSWnxF42D4/s1600/transformed_final.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="60" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgN7E22mh-z82tT-LzGnwcLYozQS4bRIBIXe0MVNxmfD5fbFaBhgrF8MKPgE8ohT2RrJ-NNPYbJKOlm_faZnUz2R9rHeeKgDoEpsN2AHRd1qffoFOh34b97lOewAPb6hdlv5sSWnxF42D4/s400/transformed_final.PNG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+Which gives us the image point as (-5/4, 10).&lt;br /&gt;
+&lt;br /&gt;
+Look interesting? You can start using these diagrams pretty quickly, after getting used to a few things.&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style="font-size: large;"&gt;basic arrows&lt;/span&gt;&lt;br /&gt;
+We can write basic operations between two variables as an arrow diagram. For example &lt;i&gt;b&lt;/i&gt; = &lt;i&gt;a&lt;/i&gt;&amp;nbsp;+ 2 can be written like this:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGvdvK9dVabV8c8hKIiiujMuUePxS6bGIfItW0sTM3uNQhzxbxqpXTo3-OzO7d6aBKzdrwqB-gsiMNmLJz0YdAW8vhuWZMG4sX-tWUKoetyyoxVRBFJR8AmSN3YM54-g2WINdHSdcKcM8/s1600/AtoB.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="61" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGvdvK9dVabV8c8hKIiiujMuUePxS6bGIfItW0sTM3uNQhzxbxqpXTo3-OzO7d6aBKzdrwqB-gsiMNmLJz0YdAW8vhuWZMG4sX-tWUKoetyyoxVRBFJR8AmSN3YM54-g2WINdHSdcKcM8/s200/AtoB.PNG" width="200" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+This is instructing us: when you follow the arrow to get a &lt;i&gt;b&lt;/i&gt; from an &lt;i&gt;a&lt;/i&gt;, you add 2.&lt;br /&gt;
+Other operations are similar, for example &lt;i&gt;y&lt;/i&gt; = 5&lt;i&gt;x&lt;/i&gt;:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFRpwRjXAHr3dJl1Rqm3xeMS-_XIp_JY9y1mHWfbgzhupbULJW1-6jdw41tlXZdn4yWA5Fe5jxLJ8DYbA79K3zFHO272NZM-rR5OiXIWS7KpF8kYQ-bkz1mC498pGSlXjYMrFnkmD798Y/s1600/XtoY.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="59" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFRpwRjXAHr3dJl1Rqm3xeMS-_XIp_JY9y1mHWfbgzhupbULJW1-6jdw41tlXZdn4yWA5Fe5jxLJ8DYbA79K3zFHO272NZM-rR5OiXIWS7KpF8kYQ-bkz1mC498pGSlXjYMrFnkmD798Y/s200/XtoY.PNG" width="200" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+The letters at the beginning and end of the arrows are just placeholders here - in this context they don't have to mean much. Just as you can choose any letters to represent the variables in the equations, you can choose any letters in the arrow diagrams, at least when you are using them in this informal conceptual way. &amp;nbsp;You could make these diagrams work leaving the letters out completely, but I like having them there, since they make these diagrams resemble other more grown up arrow diagrams, where the start and end of the arrows matter more and the letters mean something.&lt;br /&gt;
+&lt;br /&gt;
+You can also use arrows to represent functions. In grade 11, students are just learning about the notation &lt;i&gt;y&lt;/i&gt; = &lt;i&gt;f&lt;/i&gt;(&lt;i&gt;x&lt;/i&gt;), the arrow diagram reminds them that &lt;i&gt;f&lt;/i&gt; is a rule that for every &lt;i&gt;x&lt;/i&gt; a &lt;i&gt;y&lt;/i&gt; is produced.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxV8XEH5PcA5IisXEpeBDUsYl10QKgAObE0Cv-5IiaSk3reOFf77WG1TZiiIXIv2kK0EnyXH6Dvitme3ldoulb6H_OLUdLe3qInLNrDIBe-GJbsD7PsVPVqgB3ETIM-aFUrfaN-pmYbkM/s1600/fXtoY.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxV8XEH5PcA5IisXEpeBDUsYl10QKgAObE0Cv-5IiaSk3reOFf77WG1TZiiIXIv2kK0EnyXH6Dvitme3ldoulb6H_OLUdLe3qInLNrDIBe-GJbsD7PsVPVqgB3ETIM-aFUrfaN-pmYbkM/s1600/fXtoY.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+One thing to note here: to some people, arrow diagrams like this look backwards when compared with how we write functions inline as &amp;nbsp;&lt;i&gt;y&lt;/i&gt;&amp;nbsp;=&amp;nbsp;&lt;i&gt;f&lt;/i&gt;(&lt;i&gt;x&lt;/i&gt;). When we use the function notation, the input is on the right (inside the &lt;i&gt;f&lt;/i&gt;) and the output is on the left, but most times we draw the arrows left-to-right, with output (&lt;i&gt;X&lt;/i&gt;) on the left and output (&lt;i&gt;Y&amp;nbsp;&lt;/i&gt;) on the right. Although this is can sometimes cause confusion early on, I think this is just a healthy bit of cognitive dissonance, and helps to shake us out of the common mistake of seeing &lt;i&gt;f&lt;/i&gt; as something that you are multiplying &lt;i&gt;x&lt;/i&gt; by, and other natural errors that come up in reading function notation. Translating from function notation to arrow notation is not too tricky, but just tricky enough to make us think more about what is &amp;nbsp;happening.&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style="font-size: large;"&gt;evaluating arrows&lt;/span&gt;&lt;br /&gt;
+We can add information about what happens to a particular value when it interacts with an arrow.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiI6NW1097Plc9gJpTzTDouw76LyVbpjux6yFCGUd92Hcl1oavUbHq2o2IiexB8E5UAemBRAQc9a5sp5FVjULYDLZNU7UnkAgVb3TWq_vOxUamIYKmogkeC4xEY1Id8Gjc5DX-QfYLCLkI/s1600/eval1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiI6NW1097Plc9gJpTzTDouw76LyVbpjux6yFCGUd92Hcl1oavUbHq2o2IiexB8E5UAemBRAQc9a5sp5FVjULYDLZNU7UnkAgVb3TWq_vOxUamIYKmogkeC4xEY1Id8Gjc5DX-QfYLCLkI/s1600/eval1.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+In the diagram above, the input is given as 3, and the output is unknown. The output is the operation of the arrow applied to the input - in this case "times 4" applied to 3, giving us 12.&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig9gZPpOkbOMGkdDA39ETkyt9Hlc1pcPWQoY_a0ds5MM9ZKpeeBCh32by0jHWgvqTzScb6xVdLLrFr5RrItT7A9sao_1cfW8pG5YKBRTedjbExbSUJx2xH8QbJmPv9-nfI2LzTbOa9v64/s1600/evauated1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig9gZPpOkbOMGkdDA39ETkyt9Hlc1pcPWQoY_a0ds5MM9ZKpeeBCh32by0jHWgvqTzScb6xVdLLrFr5RrItT7A9sao_1cfW8pG5YKBRTedjbExbSUJx2xH8QbJmPv9-nfI2LzTbOa9v64/s1600/evauated1.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Suppose we know that the point (-1, 7) is an element of &lt;i&gt;f . &lt;/i&gt;This allows us to evaluate the arrow diagram below, since we know what value &lt;i&gt;f&lt;/i&gt; will produce when 0 is provided as input. So, if we are presented with a diagram like this:&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAuyZGa94I1_F9CUSLNUB4WfzraXLaH3fZvMDc_fgfU6vn6cxBC5Yh6JVwgjUUk5pL5-UQ66OBM9-M-vJTCM2CZJpEZLx2rMh9OVvu-IzPPMb0021bEycfP-rthO_VzfaWj5aj0H-sOew/s1600/evalf.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAuyZGa94I1_F9CUSLNUB4WfzraXLaH3fZvMDc_fgfU6vn6cxBC5Yh6JVwgjUUk5pL5-UQ66OBM9-M-vJTCM2CZJpEZLx2rMh9OVvu-IzPPMb0021bEycfP-rthO_VzfaWj5aj0H-sOew/s1600/evalf.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+We can complete it:&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvf2JPZm6Fvd1ORA7PWlGROj80ysbXB6yQW8fzK53yJuM3N8phte12V1S3TVrPbk22GiVrUMbLjZ44f0aAfHjAK87ZPDwzVlzeUjbIGbtdykX-Yl69QfJhJ6IOvW0e9Dusf0Yo8Zzw1bA/s1600/evaluatedf.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvf2JPZm6Fvd1ORA7PWlGROj80ysbXB6yQW8fzK53yJuM3N8phte12V1S3TVrPbk22GiVrUMbLjZ44f0aAfHjAK87ZPDwzVlzeUjbIGbtdykX-Yl69QfJhJ6IOvW0e9Dusf0Yo8Zzw1bA/s1600/evaluatedf.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+Sometimes we may have a formula for the function that we are representing as an arrow.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhH-hjCFtszpvwjPDfmTFxOJqs-kmaoNflc61TL1KRsc8nvvZsovrYHXENmnwsuTExh1NfXjKy2J73Js6B8BAgIQqhWAmUTQKfvthhLJzorTRpbPEN_-zb5Ip4kf0Qx1WFsDHUSzijl_DM/s1600/function.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhH-hjCFtszpvwjPDfmTFxOJqs-kmaoNflc61TL1KRsc8nvvZsovrYHXENmnwsuTExh1NfXjKy2J73Js6B8BAgIQqhWAmUTQKfvthhLJzorTRpbPEN_-zb5Ip4kf0Qx1WFsDHUSzijl_DM/s1600/function.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+So, here we could put in any value for &lt;i&gt;x&lt;/i&gt;, and use the definition of the function we are given to find the &lt;i&gt;y&lt;/i&gt; value. For example, we can put in -10:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4h2pRjsBdgz5tnSzFN5IlNHZUjEcqtWE1Kjd029Db3b-S0maXYg7HCO-hcO0lV7UHBGhybl6KlDwT5Pa1gtVR64i19Tf5tk8OYrujhoVuHo2UscuMnhHeo9h5ngVNxOm39cPejS4umpE/s1600/n1099eval.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4h2pRjsBdgz5tnSzFN5IlNHZUjEcqtWE1Kjd029Db3b-S0maXYg7HCO-hcO0lV7UHBGhybl6KlDwT5Pa1gtVR64i19Tf5tk8OYrujhoVuHo2UscuMnhHeo9h5ngVNxOm39cPejS4umpE/s1600/n1099eval.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;span style="font-size: large;"&gt;backwards evaluation&lt;/span&gt;&lt;br /&gt;
+In some cases we can evaluate arrows in a backwards direction.&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyPth4oKj7y9vEnY5maQVXY_QUx8wOwPB5IyK5QsPZR9ydREqcaY4jGTkUpav4R-jZqQsk_wyqYTYGtYdFmVbgEQnzJKmZIas_KioEY-OBb0p0CKVhie4Y9_GB6LbH_Hg0_-_nXaMwdd4/s1600/backwardseval1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyPth4oKj7y9vEnY5maQVXY_QUx8wOwPB5IyK5QsPZR9ydREqcaY4jGTkUpav4R-jZqQsk_wyqYTYGtYdFmVbgEQnzJKmZIas_KioEY-OBb0p0CKVhie4Y9_GB6LbH_Hg0_-_nXaMwdd4/s1600/backwardseval1.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+What value would produce 10 under the&amp;nbsp;+4 arrow? &amp;nbsp;It must be 6.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi43zlSpZoNiJBr8ZjVI2FIAdVrT1N6BRLb2qrX9b42oVMyaE1c3eciw_iSDXSazJHxck0rrwaso0eZC2P8sdfYR7QgbpeC5xmTaP52ROU-kd8pdGr8KoNmrxOhDbaIsoMH7UVffWu7AkQ/s1600/backwardsevaluated1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi43zlSpZoNiJBr8ZjVI2FIAdVrT1N6BRLb2qrX9b42oVMyaE1c3eciw_iSDXSazJHxck0rrwaso0eZC2P8sdfYR7QgbpeC5xmTaP52ROU-kd8pdGr8KoNmrxOhDbaIsoMH7UVffWu7AkQ/s1600/backwardsevaluated1.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+We can't always do this. If an arrow represents a function or operation for which different inputs can produce the same output, then we can't travel backwards along it. We can only travel backwards for all values along invertable functions.&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style="font-size: large;"&gt;chaining arrows&lt;/span&gt;&lt;br /&gt;
+We can chain together arrows, and evaluate the chain.&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH9il1MoWYjMeOQhyphenhyphen4cXPhr9uzoYhatglWd0x9YPFMfJOQsgspJjQoufcXZgqvX4GjG36LU5QEdetHoE650x7yk-HTWt19eywONvUbbasAoqth69YSHdyYFxHL0h1JUT-wbsULUPBMl7g/s1600/3chain.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH9il1MoWYjMeOQhyphenhyphen4cXPhr9uzoYhatglWd0x9YPFMfJOQsgspJjQoufcXZgqvX4GjG36LU5QEdetHoE650x7yk-HTWt19eywONvUbbasAoqth69YSHdyYFxHL0h1JUT-wbsULUPBMl7g/s1600/3chain.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+As mentioned above, the letters here don't have a lot of meaning at this point. Each one is a placeholder representing "things that can go in" and "things that can come out" of the arrow - if you wanted to be more precise, you could use these to represent the specific sets that are involved. The letter at the start of the arrow would represent the domain, and the letter at the end would represent a set containing the range (officially, it represents something called the co-domain).&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjW-zhea_St89YGKe3Ht7j5By-q_yVhYLRTAiEK8VS8_idpfyJE6BpQBWN59lPGNZYfnByNnL181-_VphyphenhyphenQb4rjw9c9zKQze-vom7OSDFVFpifcSVPUcdp9wP9AAvSqaSEMYdHKGObiK50/s1600/3chain_R.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjW-zhea_St89YGKe3Ht7j5By-q_yVhYLRTAiEK8VS8_idpfyJE6BpQBWN59lPGNZYfnByNnL181-_VphyphenhyphenQb4rjw9c9zKQze-vom7OSDFVFpifcSVPUcdp9wP9AAvSqaSEMYdHKGObiK50/s1600/3chain_R.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+We could just use dots, or any other symbol - the values we get following the arrows are the same:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5sNTRAyu71b_XBxukgToyKv67qs6G4zgHyCs0iJT1fcyOZmHWvoF1LdCuqWOuDv0ypyR7FbP2e96EP0YPhOTP9kwHhZjTwNsu8zfk7DDlNh566dHD43n5bqW0Yu443nBb7KI6IHsbV2o/s1600/3chain_dot.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5sNTRAyu71b_XBxukgToyKv67qs6G4zgHyCs0iJT1fcyOZmHWvoF1LdCuqWOuDv0ypyR7FbP2e96EP0YPhOTP9kwHhZjTwNsu8zfk7DDlNh566dHD43n5bqW0Yu443nBb7KI6IHsbV2o/s1600/3chain_dot.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style="font-size: large;"&gt;using arrows to describe and evaluate transformed functions&lt;/span&gt;&lt;br /&gt;
+Drawing the arrow diagrams for a transformed function is a good exercise in unpacking the function notation. Suppose we have a function &lt;i&gt;g&lt;/i&gt;(x), that is defined in terms of some other function &lt;i&gt;f&lt;/i&gt;(x), like this: &lt;i&gt;g&lt;/i&gt;(&lt;i&gt;x&lt;/i&gt;) = 2&lt;i&gt;f&lt;/i&gt;(&lt;i&gt;x&lt;/i&gt;)&amp;nbsp;+1. We could write &lt;i&gt;g&lt;/i&gt; as a diagram of chained arrows that includes &lt;i&gt;f&lt;/i&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipLg2EUmVGXq0OpBJ_lITkOW0v4t6hQgstctkLUE9dJU1yaEjJcfnk6I2_l1MiyZ2E4l5ulgSiNrlgv4Cbh8xxIkaemi4HmYY8JzAqYQ6_OB_tS0mcCCeSIPMUeJr1ggul2QtENqxiQU0/s1600/2fxp1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipLg2EUmVGXq0OpBJ_lITkOW0v4t6hQgstctkLUE9dJU1yaEjJcfnk6I2_l1MiyZ2E4l5ulgSiNrlgv4Cbh8xxIkaemi4HmYY8JzAqYQ6_OB_tS0mcCCeSIPMUeJr1ggul2QtENqxiQU0/s1600/2fxp1.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+In the diagram I used Y's for the last three positions, simply because I think of the "times 2" and "plus 1" as "things I do to the y value after it comes out of f" but as noted above, you can use other symbols. Suppose we know that &lt;i&gt;f&lt;/i&gt;(1) = 2; we can evaluate &lt;i&gt;g&lt;/i&gt;(1) by following the chain of arrows:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0fVvmvHD3GGL_6a6To9j07ZX7sRWNGc9NMNvA8XeWs2gYCR_PxU-oAQiKj1FF5aalxmhToYF7jZPFBlUL9TviD59SZFPj2XlAmHzvmjR0HpwZXPVPSk-nUFtSGfGh1i9tSffsRgKYbsQ/s1600/2fxp1_ev1.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0fVvmvHD3GGL_6a6To9j07ZX7sRWNGc9NMNvA8XeWs2gYCR_PxU-oAQiKj1FF5aalxmhToYF7jZPFBlUL9TviD59SZFPj2XlAmHzvmjR0HpwZXPVPSk-nUFtSGfGh1i9tSffsRgKYbsQ/s1600/2fxp1_ev1.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+Suppose a function &lt;i&gt;h&lt;/i&gt; is defined by &lt;i&gt;h&lt;/i&gt;(x) = &lt;i&gt;f&lt;/i&gt;(3(&lt;i&gt;x&lt;/i&gt;-1)). We could write this using arrows as:&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicdnEQ04_DNkb6GOOzYcqwo9kigYt83KqzNS5HzMGnYzaZc7tHD-KlghMiCdI2bfd5-YX060ITap2467kRBQNmoNZwgZyIr7sbUvCBbEnKMm1x-7y2cdb89FVpkx8oWMCip9uN7iYjPio/s1600/m1t3f.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicdnEQ04_DNkb6GOOzYcqwo9kigYt83KqzNS5HzMGnYzaZc7tHD-KlghMiCdI2bfd5-YX060ITap2467kRBQNmoNZwgZyIr7sbUvCBbEnKMm1x-7y2cdb89FVpkx8oWMCip9uN7iYjPio/s1600/m1t3f.JPG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;span style="font-size: large;"&gt;finding transformed points using arrows&lt;/span&gt;&lt;br /&gt;
+Now we can answer questions like the one at the start of the post.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCiWmt1v-f9Npop0JJ-r0JQmrNjV5UISsUYEgofvEycpyT7rOWCF8ZyApVK7dH3lWxya2XpBsypHaqPbFDy0tP__wDEcspiqvE9mLGECYiMj9lQlvWsJC9SDEmEHkEMJqmj7_CFsDqrms/s1600/question2.PNG" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCiWmt1v-f9Npop0JJ-r0JQmrNjV5UISsUYEgofvEycpyT7rOWCF8ZyApVK7dH3lWxya2XpBsypHaqPbFDy0tP__wDEcspiqvE9mLGECYiMj9lQlvWsJC9SDEmEHkEMJqmj7_CFsDqrms/s1600/question2.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+First we draw the arrow diagram for the transformed function.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_zRxdaHbmYTUrvyfoRfR6VawIXqIbPQbtmoPocI9L8Di3az3kyk2vV0zlKEUU_Tp_h20Ea-ByTKfW-qtjXA_FGJ9n5GyG-A_HFkfeY_Dyacii5Pxp8cMMCm9u7XgPTVlW0wyOy3ILTi0/s1600/transformed1.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="39" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_zRxdaHbmYTUrvyfoRfR6VawIXqIbPQbtmoPocI9L8Di3az3kyk2vV0zlKEUU_Tp_h20Ea-ByTKfW-qtjXA_FGJ9n5GyG-A_HFkfeY_Dyacii5Pxp8cMMCm9u7XgPTVlW0wyOy3ILTi0/s400/transformed1.PNG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+To find the image of the point (1, 4), we start by putting that point on the diagram.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijXAt4BN-MqzMK0Gs24_P_XIS-DvWLPAwrUNFiRcVt1tvs9khu5NHSIA_gA5XAMjTLBo_lwi42jbWCG4aD1C9Qz_DJlqkvziQF5ll6eX1Uw7SCwhhPb2SLKxnTEsDumbk2pKzQjvPbnME/s1600/transformed2.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="51" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijXAt4BN-MqzMK0Gs24_P_XIS-DvWLPAwrUNFiRcVt1tvs9khu5NHSIA_gA5XAMjTLBo_lwi42jbWCG4aD1C9Qz_DJlqkvziQF5ll6eX1Uw7SCwhhPb2SLKxnTEsDumbk2pKzQjvPbnME/s400/transformed2.PNG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+Then follow the chain back to the initial&lt;i&gt; x&lt;/i&gt; value and the final &lt;i&gt;y&lt;/i&gt; value of the transformed function.&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgN7E22mh-z82tT-LzGnwcLYozQS4bRIBIXe0MVNxmfD5fbFaBhgrF8MKPgE8ohT2RrJ-NNPYbJKOlm_faZnUz2R9rHeeKgDoEpsN2AHRd1qffoFOh34b97lOewAPb6hdlv5sSWnxF42D4/s1600/transformed_final.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="60" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgN7E22mh-z82tT-LzGnwcLYozQS4bRIBIXe0MVNxmfD5fbFaBhgrF8MKPgE8ohT2RrJ-NNPYbJKOlm_faZnUz2R9rHeeKgDoEpsN2AHRd1qffoFOh34b97lOewAPb6hdlv5sSWnxF42D4/s400/transformed_final.PNG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&amp;nbsp;Which gives us the image point as (-5/4, 10).&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;span style="font-size: large;"&gt;arrows are good for other high&amp;nbsp;&lt;/span&gt;&lt;span style="font-size: large;"&gt;school function topics&lt;/span&gt;&lt;br /&gt;
+Using diagrams like this can help with visualizing and understanding other topics in the high school study of functions. For example, the chains of arrows are exactly expressing function composition, and students introduced to arrow diagrams here will be ready for the next step of understanding or friends&amp;nbsp;&lt;i&gt;g&lt;/i&gt;(&lt;i&gt;f&lt;/i&gt;(&lt;i&gt;x&lt;/i&gt;)) and&amp;nbsp;&lt;i&gt;f&lt;/i&gt;(&lt;i&gt;g&lt;/i&gt;(&lt;i&gt;x&lt;/i&gt;).&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLdyEQUBJmk_3sViB3-blrdEpzVwZCviohL3rbfmMMbmgDNDPfnK7UAGZuhh91QgPyKy1oinQ9gBj6faP2z49psiEKrbKoy9FWkrPYzk0OzfwoPA4ZmlDviHZ_Rv6wE4og3fqIOKKWaKk/s1600/composition.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLdyEQUBJmk_3sViB3-blrdEpzVwZCviohL3rbfmMMbmgDNDPfnK7UAGZuhh91QgPyKy1oinQ9gBj6faP2z49psiEKrbKoy9FWkrPYzk0OzfwoPA4ZmlDviHZ_Rv6wE4og3fqIOKKWaKk/s1600/composition.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;span style="font-size: large;"&gt;what is up with these transformed functions?&lt;/span&gt;&lt;br /&gt;
+None of what follows is important in using arrow diagrams to solve problems - it is just my attempt at trying to better understand how these altered functions are connected to the idea of a transformation of the XY plane that maps points of one function to another.&lt;br /&gt;
+&lt;br /&gt;
+A key goal in introducing this overall topic is to have students become familiar with a set of core functions, and then recognize that everything they know about them (maximum or minimum value, asymptotes, domain and range) is essentially preserved when the function is tweaked slightly - their essential attributes are only moved around a little. There are many things that you can do to functions that will &lt;i&gt;not&lt;/i&gt; preserve their nice features, so the slight tweaking we will do is limited to composition with linear functions, which preserves their characteristic shapes. It is conventional in some textbooks to write a transformation &lt;i&gt;g&lt;/i&gt;(&lt;i&gt;x&lt;/i&gt;) as &lt;i&gt;g&lt;/i&gt;(&lt;i&gt;x&lt;/i&gt;) = &lt;i&gt;af&lt;/i&gt;(&lt;i&gt;k&lt;/i&gt;(&lt;i&gt;x&lt;/i&gt;-&lt;i&gt;d&lt;/i&gt;))&amp;nbsp;+ &lt;i&gt;h&lt;/i&gt;, where &lt;i&gt;a&lt;/i&gt;, &lt;i&gt;k&lt;/i&gt;, &lt;i&gt;d&lt;/i&gt;, and &lt;i&gt;h&lt;/i&gt; are real numbers.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKxqdat_Jph54g9oHmXlIdZdCcWaEKSpWXWLRVrWxjFkQj3Wzcftz7-0XrhuXOoZfASWEiVur2HrFynG-LarsIouJ5_dQdb-CUOQ2qAn6sB-kLPvS53PUYGbcCTRgXKxJQmDW7icZI4MQ/s1600/transformed_general.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="57" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKxqdat_Jph54g9oHmXlIdZdCcWaEKSpWXWLRVrWxjFkQj3Wzcftz7-0XrhuXOoZfASWEiVur2HrFynG-LarsIouJ5_dQdb-CUOQ2qAn6sB-kLPvS53PUYGbcCTRgXKxJQmDW7icZI4MQ/s400/transformed_general.PNG" width="400" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+All these letters are just pre-composing with a function&amp;nbsp;&lt;i&gt;i&lt;/i&gt;(&lt;i&gt;x&lt;/i&gt;) =&lt;i&gt;k&lt;/i&gt;(&lt;i&gt;x&lt;/i&gt;-&lt;i&gt;d&lt;/i&gt;) and then post-composing with a function &amp;nbsp;&lt;i&gt;j&lt;/i&gt;(&lt;i&gt;x&lt;/i&gt;) = &lt;i&gt;ax&lt;/i&gt;&amp;nbsp;+ &lt;i&gt;h.&lt;/i&gt;&amp;nbsp;Writing those functions using short forms, and bending the diagram to show how following &lt;i&gt;g&lt;/i&gt; is the same as following the transformed &lt;i&gt;f&lt;/i&gt;, we have a diagram that looks like this:&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg98XjlUyQUunPBz5WpkIRInRSyMNZyYob1kZSNvz9ktyPdX3d2cwgFX8RoSZEuFp0k14c4NgXNStDVHIMyul9YqpGlnyp730_Y2WekqlB3UK-gVRo7KXix-g70i9uE7CE4fHuUHx_YZa0/s1600/square1.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg98XjlUyQUunPBz5WpkIRInRSyMNZyYob1kZSNvz9ktyPdX3d2cwgFX8RoSZEuFp0k14c4NgXNStDVHIMyul9YqpGlnyp730_Y2WekqlB3UK-gVRo7KXix-g70i9uE7CE4fHuUHx_YZa0/s1600/square1.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+When you do this pre and post composition of &lt;i&gt;f&lt;/i&gt; with linear functions to obtain &lt;i&gt;g&lt;/i&gt;, you can think of the points of &lt;i&gt;f&lt;/i&gt; as being transformed into the points of &lt;i&gt;g&lt;/i&gt;, by a transformation &lt;i&gt;T,&lt;/i&gt;&amp;nbsp;which can be expressed in terms of the same linear functions.&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrWkvIJfGwXpOZmplYplrc6LNCwZHENnZg1DYZ2EPrz3oOis20OXW-Kkdz56B1gQ_YWcXyIGy5Gnzk2d1XxdQFkEKV1Ucprq1sK01Sncsi3519U6iMUc5rQx7xL2qLusHesJ6kkNuAhsM/s1600/transformation_square.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrWkvIJfGwXpOZmplYplrc6LNCwZHENnZg1DYZ2EPrz3oOis20OXW-Kkdz56B1gQ_YWcXyIGy5Gnzk2d1XxdQFkEKV1Ucprq1sK01Sncsi3519U6iMUc5rQx7xL2qLusHesJ6kkNuAhsM/s1600/transformation_square.PNG" /&gt;&lt;/a&gt;&lt;/div&gt;
+The reason why the function&amp;nbsp;&lt;i&gt;i&lt;/i&gt;(&lt;i&gt;x&lt;/i&gt;) =&amp;nbsp;&lt;i&gt;k&lt;/i&gt;(&lt;i&gt;x&lt;/i&gt;-&lt;i&gt;d&lt;/i&gt;) is written in an unusual backwards kind of way is that we need to invert it when we think of things in terms of the transformation&amp;nbsp;&lt;i&gt;T&lt;/i&gt;&amp;nbsp;that is acting on&amp;nbsp;&lt;i&gt;x&lt;/i&gt;&amp;nbsp;values - its inverse will have a more standard 'slope intercept' form.&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2016-09-23T22:01:43.311Z</blogger:created>
+    <published>2016-10-12T02:33:00Z</published>
+    <updated>2017-01-17T02:28:33.644Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2016/10/understanding-transformed-functions.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  

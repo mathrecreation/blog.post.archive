@@ -1,0 +1,89 @@
+<>
+    <id>tag:blogger.com,1999:blog-5008879105295771159.post-8490491729250429395</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>dan.mackinnon</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Tweedledee and Tweedledum</title>
+    <content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjsd6mM_mhSbioaSMP3oFizbTm3LJOntE7lsLBgV5h-UGG3Ol_XksfrfAQrTTWTmtULzwg4vk5Ws9GjVFXzbX9s6ESTr4Hn8mwV5Mla2VF_O-wWLgmDLLjVM-y2GEHtKkKFqRfUcKfx3w/s1600/john_tenniel.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="1059" data-original-width="1357" height="249" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjsd6mM_mhSbioaSMP3oFizbTm3LJOntE7lsLBgV5h-UGG3Ol_XksfrfAQrTTWTmtULzwg4vk5Ws9GjVFXzbX9s6ESTr4Hn8mwV5Mla2VF_O-wWLgmDLLjVM-y2GEHtKkKFqRfUcKfx3w/s320/john_tenniel.jpg" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;Illustration by &lt;a href="https://en.wikipedia.org/wiki/John_Tenniel"&gt;John Tenniel&lt;/a&gt;&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+Here is another logic puzzle by Raymond Smullyan, this time from his book &lt;i&gt;Alice in Puzzle-Land&lt;/i&gt;:&lt;br /&gt;
+&lt;blockquote class="tr_bq"&gt;
+&lt;i&gt;Just then Alice practically stumbled on Tweedledum and&lt;br /&gt;Tweedledee, who were grinning under a tree right by their house.&lt;br /&gt;Alice looked carefully at their collars to see which was marked&lt;br /&gt;"Dum" and which was marked "Dee," but neither collar was&lt;br /&gt;embroidered.&amp;nbsp;&lt;/i&gt;&lt;/blockquote&gt;
+&lt;blockquote class="tr_bq"&gt;
+&lt;i&gt;"I'm afraid I can't very well tell you apart without your embroidered&lt;br /&gt;collars," remarked Alice.&amp;nbsp;&lt;/i&gt;&lt;/blockquote&gt;
+&lt;blockquote class="tr_bq"&gt;
+&lt;i&gt;"You'll have to use logic," said one of the brothers, giving the&lt;br /&gt;other an affectionate hug. "We were expecting you to come around&lt;br /&gt;these parts, and we have prepared some nice logic games for you.&lt;br /&gt;Would you like to play?"&amp;nbsp;&lt;/i&gt;&lt;/blockquote&gt;
+&lt;blockquote class="tr_bq"&gt;
+&lt;i&gt;"As you see, this is a red card. Now, a red card signifies that the&lt;br /&gt;one carrying it is telling the truth, whereas a black card signifies that&lt;br /&gt;the speaker is telling a lie. Now, my brother there [he pointed to the&lt;br /&gt;other one] is also carrying either a red card or a black card in his&lt;br /&gt;pocket. He is about to make a statement. If his card is red, he will&lt;br /&gt;make a true statement, but if his card is black, he will make a false&lt;br /&gt;statement. Then your job is to figure out whether he is Tweedledee&lt;br /&gt;or Tweedledum."&amp;nbsp;&lt;/i&gt;&lt;/blockquote&gt;
+&lt;blockquote class="tr_bq"&gt;
+&lt;i&gt;"Oh, that sounds like fun!" said Alice. "I'd like to play!"&amp;nbsp;&amp;nbsp;&lt;/i&gt;&lt;/blockquote&gt;
+&lt;blockquote class="tr_bq"&gt;
+&lt;i&gt;...Well, Tweedledee [and Tweedledum] went into the house, and both&lt;br /&gt;brothers came out shortly after.
+They look more alike than ever! thought&lt;br /&gt;Alice.
+Well, one of them—call him the first one—stood to Alice's left,&lt;br /&gt;and the other—call him the second one—stood to Alice's right.
+They&lt;br /&gt;then made the following statements:&amp;nbsp;&amp;nbsp;&lt;/i&gt;&lt;/blockquote&gt;
+&lt;blockquote class="tr_bq"&gt;
+&lt;i&gt;FIRST ONE: My brother is Tweedledee, and he is carrying a black
+card.&amp;nbsp;&lt;/i&gt;&lt;/blockquote&gt;
+&lt;blockquote class="tr_bq"&gt;
+&lt;i&gt;SECOND ONE: My brother is Tweedledum, and he is carrying a
+red card.&amp;nbsp;&lt;/i&gt;&amp;nbsp;&lt;/blockquote&gt;
+&lt;blockquote class="tr_bq"&gt;
+&lt;i&gt;Which one is which?&lt;/i&gt;&lt;/blockquote&gt;
+&lt;br /&gt;
+If you think you may have a solution, you can try it out against the online version&amp;nbsp;&lt;a href="https://dmackinnon1.github.io/deeDum/?id=24"&gt;here&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+After solving a puzzle (or reading the solution) in one of Smullyan's books, I am often left wishing there were more like it. Why not try generating some more?&lt;br /&gt;
+&lt;br /&gt;
+Let's say there are 8 simple statements each brother could make.&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;My name is [Tweedledee|Tweedledum].&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;I am carrying a [red|black] card.&lt;/li&gt;
+&lt;li&gt;My brother's name is [Tweedledee|Tweedledum].&lt;/li&gt;
+&lt;li&gt;My brother is carrying a [red|black] card.&lt;/li&gt;
+&lt;/ul&gt;
+And 16 more compound statements:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;My name is [Tweedledee|Tweedledum] [and|or] I am carrying a [red|black] card.&lt;/li&gt;
+&lt;li&gt;My brother's name is [Tweedledee|Tweedledum] [and|or] he is carrying a [red|black] card.&lt;/li&gt;
+&lt;/ul&gt;
+This gives us 24 possible statements each brother could make, so a total of 24^2 = 576 possible puzzles.&lt;br /&gt;
+&lt;br /&gt;
+But some of these puzzles will lead to contradictions. For example, if either brother makes the statement "I am carrying a black card." We end up with the liars paradox: the brother must be lying, but if he is, he is telling the truth (and vice versa). Some of these also lead to multiple solutions.&lt;br /&gt;
+&lt;br /&gt;
+A good puzzle must have a unique solution, and running these through a logic-puzzle solver yields 168 good puzzles (you can check out a Python notebook that generates and verifies the puzzles &lt;a href="https://github.com/dmackinnon1/pynotes/blob/master/dee_and_dum.ipynb"&gt;here&lt;/a&gt;). Really, only half of these puzzles are unique, as having the anonymous brothers "first one" and "second one" switch statements gives us essentially the same puzzle. So, ignoring the order of the statements/brothers there are 168/2 = 84 unique puzzles based on these statements.&lt;br /&gt;
+&lt;br /&gt;
+The distribution of names and cards is uniform in these 84 puzzles (the brothers are as likely to be telling the truth as they are to be lying). In the graphs below the brothers are referred to as &lt;b&gt;bro0&lt;/b&gt; and &lt;b&gt;bro1&lt;/b&gt;, and the counts are based on the set of 168 puzzles where the 'reverse' of each puzzle is also included.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPzdD7PeCH53jXBkxWZ63XFO4TQ4afZPWBEXfbwvo0J14z77zcFkfPoY9dWXUP4GdJlgRq01oo7vv9CdyGO7qPrdKB4EQ_crHTi6b3y9vguQjjrXP9mHqBhIhbIuiy6BwMSuUDGoV82jM/s1600/image2.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="254" data-original-width="455" height="178" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPzdD7PeCH53jXBkxWZ63XFO4TQ4afZPWBEXfbwvo0J14z77zcFkfPoY9dWXUP4GdJlgRq01oo7vv9CdyGO7qPrdKB4EQ_crHTi6b3y9vguQjjrXP9mHqBhIhbIuiy6BwMSuUDGoV82jM/s320/image2.png" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;cards held by both brothers&lt;/i&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEia-_XDoAYXApZttQy_MyWyPaLLU85Hjk6GmpzOrF_TrbO-kGl6QsGJ-czs4d7kBOiGws0ToGdHAKx3AHJRFS8r-pLKG5Ag8289YiX0zEOQYT5MH7x1AKmRI12lsXwqMMlAL7Sc0X14O-k/s1600/image1.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="251" data-original-width="427" height="188" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEia-_XDoAYXApZttQy_MyWyPaLLU85Hjk6GmpzOrF_TrbO-kGl6QsGJ-czs4d7kBOiGws0ToGdHAKx3AHJRFS8r-pLKG5Ag8289YiX0zEOQYT5MH7x1AKmRI12lsXwqMMlAL7Sc0X14O-k/s320/image1.png" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;i&gt;cards held by each brother&lt;/i&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+Try your puzzle solving skills against the brothers &lt;a href="https://dmackinnon1.github.io/deeDum/"&gt;here&lt;/a&gt;. Other Smullyan-inspired puzzles can be found on the &lt;a href="http://www.mathrecreation.com/p/puzzles.html"&gt;puzzle page of this blog&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2018-12-19T18:49:00.277Z</blogger:created>
+    <published>2018-12-19T20:16:00.001Z</published>
+    <updated>2018-12-19T23:58:25.352Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2018/12/tweedledee-and-tweedledum.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  
